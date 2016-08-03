@@ -435,6 +435,8 @@ pre code.hljs {
     color: #999; }
     .page-content .pagination .page-number {
       padding: 0 1em; }
+    .page-content .pagination a.newer-posts {
+      text-decoration: none; }
   .page-content .site-header-container {
     color: #fff;
     text-shadow: 0 2px 1px rgba(0, 0, 0, 0.33);
@@ -505,6 +507,21 @@ pre code.hljs {
     width: 100%; }
     .page-content .post .disqus:last-child {
       margin-right: 0; }
+  .page-content .post .post-navigation {
+    font-size: 0.9em;
+    display: block;
+    width: auto; }
+    .page-content .post .post-navigation .prev-post {
+      display: block;
+      width: 50%;
+      float: left;
+      margin: 1em 0; }
+    .page-content .post .post-navigation .next-post {
+      display: block;
+      width: 50%;
+      float: left;
+      margin: 1em 0;
+      text-align: right; }
   .page-content .page .post-header {
     padding: 0.5em 1em 1em 1em;
     text-align: center; }

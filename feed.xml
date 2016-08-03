@@ -4,11 +4,58 @@
     <title>Mauricio Zambrano-Bigiarini</title>
     <description>A web site about my research interests, projects and ongoing activities.
 </description>
-    <link>http://hzambran.github.io/</link>
-    <atom:link href="http://hzambran.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 07 Nov 2015 20:49:25 -0300</pubDate>
-    <lastBuildDate>Sat, 07 Nov 2015 20:49:25 -0300</lastBuildDate>
+    <link>http://bencentra.github.io/</link>
+    <atom:link href="http://bencentra.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 03 Aug 2016 02:03:20 -0400</pubDate>
+    <lastBuildDate>Wed, 03 Aug 2016 02:03:20 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>PhD summer school Remote Sensing applications for Water Accounting</title>
+        <description>&lt;p&gt;&lt;strong&gt;Water accounting&lt;/strong&gt; is a fundamental basis to understand water availability and demands and the related benefits and efficiencies are related to water uses. While the fundamental data needed for establishing water accounts is often missing, Remote Sensing can contribute to fill the data gaps.
+With this course PhD students and staff at ITT will become familiar with the application of Remote Sensing to derive information on precipitation, evapotranspiration and land cover - three essential information elements for water accounts.
+Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce the basic techinques of Remote Sensing using the software SPRING and introduce to derive land cover information from products such as Landsat. &lt;strong&gt;Dr. Mauricio Zambrano-Bigiarini&lt;/strong&gt; from &lt;a href=&quot;www.ufro.cl&quot;&gt;Universidad de la Frontera&lt;/a&gt;, Chile, will focus on the use of the &lt;a href=&quot;https://www.r-project.org/&quot;&gt;R&lt;/a&gt; software to derive Precipitation estimates from products such as TRMM. Finally Dr Islam Sabry from the National Water Research Center, Egypt will introduce the use of satellite based estimates for evapotranspiration data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2016-07-20-RS_PhD_course_at_ITT.png&quot; alt=&quot;example of analysis&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Jul 2016 19:59:59 -0400</pubDate>
+        <link>http://bencentra.github.io/remote_sensing/precipitation/r/training/courses/2016/07/20/Training_on_RS_at_ITT.html</link>
+        <guid isPermaLink="true">http://bencentra.github.io/remote_sensing/precipitation/r/training/courses/2016/07/20/Training_on_RS_at_ITT.html</guid>
+        
+        
+        <category>remote_sensing</category>
+        
+        <category>precipitation</category>
+        
+        <category>r</category>
+        
+        <category>training</category>
+        
+        <category>courses</category>
+        
+      </item>
+    
+      <item>
+        <title>Research and Education Week on the Water, Energy and Food Security Nexus</title>
+        <description>&lt;p&gt;The &lt;a href=&quot;http://www.water-energy-food-nexus.info&quot;&gt;Water-Energy-Food Security Nexus&lt;/a&gt; (WEF Nexus) is currently a highly important debate in environmental policy with expected implications for priorities in research, education and international cooperation. Increasing demands for water, energy and food together with external and internal change drivers on current natural resources use patterns make the Nexus idea crucial to understand the multiple resource use interlinkages. 
+The &lt;a href=&quot;http://www.tt.th-koeln.de/&quot;&gt;ITT&lt;/a&gt; invited partners from current Nexus-related projects for an international gathering from the 11th until the 15th of July 2016. The &lt;strong&gt;Nexus Research and Education Week&lt;/strong&gt; invited also external presenters and students into the discussion on how to address together many of the key interlinkages like sustainable land and water management practices, climate related risks in terms of droughts and extremes or increasing resource use efficiencies along river basins.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/posts/2016-07-14-WEF_Nexus_Group-768x512.jpg&quot; alt=&quot;WEF_Nexus_Group&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During the Nexus Week, the professor &lt;strong&gt;Mauricio Zambrano-Bigiarini&lt;/strong&gt; along with international partners presented their case studies from related projects as &lt;em&gt;nexus laboratories&lt;/em&gt; useful for enhancing educational contents and outlining future collaborative research activities. International experts and young researchers were involved in providing insights on the WEF Nexus topic from ongoing research and and outlining further research demand. 
+Different case studies with WEF-Nexus related topics at river basin scale were presented from countries such as Jordan, Sudan, Ethiopia, Egypt, Pakistan, &lt;strong&gt;Chile&lt;/strong&gt;, Ecuador, Costa Rica and Colombia and also larger scales as the Mekong, the Nile and Paraiba do Sul region or even global scale. The Nexus Week aimed at expanding the network of partners related to Nexus topics and interdisciplinary regional and basin planning initiatives and offered an opportunity as an exchange platform. 
+During additional side events of the Nexus Week, the participants developed new project ideas and exchanged experiences on integrated water basin management during a visit to the International Commission for the Protection of the Rhine. Further more, different Nexus products were presented and prepared for further development in the future.&lt;/p&gt;
+
+&lt;p&gt;For more information about the project please visit the website: &lt;a href=&quot;http://www.water-energy-food-nexus.info&quot;&gt;http://www.water-energy-food-nexus.info&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Jul 2016 19:59:59 -0400</pubDate>
+        <link>http://bencentra.github.io/wef-nexus/2016/07/15/NexusWeek_at_ITT.html</link>
+        <guid isPermaLink="true">http://bencentra.github.io/wef-nexus/2016/07/15/NexusWeek_at_ITT.html</guid>
+        
+        
+        <category>wef-nexus</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -24,18 +71,35 @@
 
 &lt;h3 id=&quot;cover-images&quot;&gt;Cover Images&lt;/h3&gt;
 
-&lt;p&gt;To add a cover image to your post, set the “cover” property in the front matter with the relative URL of the image (i.e. &lt;code&gt;cover: &quot;assets/cover_image.jpg&quot;&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;To add a cover image to your post, set the “cover” property in the front matter with the relative URL of the image (i.e. &lt;code&gt;cover: &quot;/assets/cover_image.jpg&quot;&lt;/code&gt;).&lt;/p&gt;
 
 &lt;h3 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h3&gt;
 
-&lt;p&gt;You can use &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt; to add syntax highlig code snippets:&lt;/p&gt;
+&lt;p&gt;You can use &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt; to add syntax highlight code snippets:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;hljs javascript&quot;&gt;function demo(string, times) {
-  for (var i = 0; i &amp;lt; times; i++) {
-    console.log(string);
-  }
-}
-demo(&quot;hello, world!&quot;, 10);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Use the &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid&lt;/a&gt; &lt;code&gt;{% highlight &amp;lt;language&amp;gt; %}&lt;/code&gt; tag to add syntax highlighting to code snippets.&lt;/p&gt;
+
+&lt;p&gt;For instance, this template…&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% highlight javascript %}    
+function demo(string, times) {    
+  for (var i = 0; i &lt;span class=&quot;nt&quot;&gt;&amp;lt; times&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;    
+    &lt;span class=&quot;na&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;    
+  &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;    
+&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;    
+&lt;span class=&quot;na&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&amp;quot;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&amp;quot;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;{%&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;endhighlight&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;…will come out looking like this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;hello, world!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Syntax highlighting is done using &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt;. You can change the active theme in &lt;a href=&quot;https://github.com/bencentra/centrarium/blob/2dcd73d09e104c3798202b0e14c1db9fa6e77bc7/_includes/head.html#L15&quot;&gt;head.html&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
 
@@ -51,8 +115,8 @@ demo(&quot;hello, world!&quot;, 10);&lt;/code&gt;&lt;/pre&gt;
 
 </description>
         <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://hzambran.github.io/jekyll/2015/04/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://hzambran.github.io/jekyll/2015/04/18/welcome-to-jekyll.html</guid>
+        <link>http://bencentra.github.io/jekyll/2015/04/18/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://bencentra.github.io/jekyll/2015/04/18/welcome-to-jekyll.html</guid>
         
         <category>jekyll</category>
         
@@ -60,134 +124,6 @@ demo(&quot;hello, world!&quot;, 10);&lt;/code&gt;&lt;/pre&gt;
         
         
         <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 6</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://hzambran.github.io/dummy/2015/04/18/dummy6.html</link>
-        <guid isPermaLink="true">http://hzambran.github.io/dummy/2015/04/18/dummy6.html</guid>
-        
-        <category>lorem</category>
-        
-        <category>ipsum</category>
-        
-        
-        <category>dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 5</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://hzambran.github.io/dummy/2015/04/18/dummy5.html</link>
-        <guid isPermaLink="true">http://hzambran.github.io/dummy/2015/04/18/dummy5.html</guid>
-        
-        <category>lorem</category>
-        
-        
-        <category>dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 4</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://hzambran.github.io/dummy/2015/04/18/dummy4.html</link>
-        <guid isPermaLink="true">http://hzambran.github.io/dummy/2015/04/18/dummy4.html</guid>
-        
-        <category>ipsum</category>
-        
-        
-        <category>dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 3</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://hzambran.github.io/dummy/2015/04/18/dummy3.html</link>
-        <guid isPermaLink="true">http://hzambran.github.io/dummy/2015/04/18/dummy3.html</guid>
-        
-        
-        <category>dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 2</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://hzambran.github.io/dummy/2015/04/18/dummy2.html</link>
-        <guid isPermaLink="true">http://hzambran.github.io/dummy/2015/04/18/dummy2.html</guid>
-        
-        
-        <category>dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://hzambran.github.io/dummy/2015/04/18/dummy.html</link>
-        <guid isPermaLink="true">http://hzambran.github.io/dummy/2015/04/18/dummy.html</guid>
-        
-        
-        <category>dummy</category>
         
       </item>
     
