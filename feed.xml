@@ -4,11 +4,40 @@
     <title>Mauricio Zambrano-Bigiarini</title>
     <description>A web site about my research interests, projects and ongoing activities.
 </description>
-    <link>http://bencentra.github.io/</link>
-    <atom:link href="http://bencentra.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Aug 2016 15:18:16 -0400</pubDate>
-    <lastBuildDate>Wed, 03 Aug 2016 15:18:16 -0400</lastBuildDate>
+    <link>http://hzambran.github.io/</link>
+    <atom:link href="http://hzambran.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 04 Aug 2016 01:01:08 -0400</pubDate>
+    <lastBuildDate>Thu, 04 Aug 2016 01:01:08 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>El año 2015 batió récords de fenómenos climáticos extremos (El Mercurio)</title>
+        <description>&lt;p&gt;El año 2015 marcó una temporada de lluvias más abundantes que el promedio, provocando graves &lt;strong&gt;inundaciones&lt;/strong&gt;. Severas &lt;strong&gt;sequías&lt;/strong&gt; afectaron superficies casi &lt;strong&gt;dos veces mayores en 2015 que en el año anterior&lt;/strong&gt; (14%, contra 8% en 2014).&lt;/p&gt;
+
+&lt;p&gt;Las aguas más calientes agravaron la propagación de algas, que afectaron el 2015 una importante región del Pacífico norte, desde California hasta la Columbia Británica, en Canadá.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;calor-y-lluvias&quot;&gt;Calor y lluvias&lt;/h4&gt;
+
+&lt;p&gt;En el caso sudamericano, El Niño influyó en las condiciones climáticas durante todo el 2015. La &lt;strong&gt;temperatura del aire aumentó por sobre el promedio&lt;/strong&gt; en la mayor parte del continente, lo que generó condiciones más secas que el promedio en el norte y más húmedas en el sur, especialmente Chile y Argentina.&lt;/p&gt;
+
+&lt;p&gt;No obstante, se presentó un otoño e invierno más calurosos de lo habitual. En Argentina fue el invierno más caliente desde que se tienen registros, con un aumento de la media por sobre los 3ºC. En contraste, un aumento de los sistemas frontales y de la nubosidad produjo en Chile y, particularmente, en Argentina el más frío octubre desde que se tienen registros.&lt;/p&gt;
+
+&lt;p&gt;En marzo 2015, una &lt;strong&gt;anormal lluvia&lt;/strong&gt; sorprendió a las secas regiones de &lt;strong&gt;Atacama&lt;/strong&gt; y &lt;strong&gt;Antofagasta&lt;/strong&gt;. En esta última ciudad, entre el 25 y el 26 de ese mes cayeron 24,4 milímetros de agua, cuando el promedio anual es de 1,7. En agosto y diciembre, las precipitaciones intensas se presentaron en Argentina y Paraguay, generando inundaciones.&lt;/p&gt;
+
+&lt;p&gt;For more information please visit the website: &lt;a href=&quot;http://www.cr2.cl/el-ano-pasado-batio-records-de-fenomenos-climaticos-extremos-el-mercurio/&quot;&gt;http://www.cr2.cl/el-ano-pasado-batio-records-de-fenomenos-climaticos-extremos-el-mercurio/&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Aug 2016 19:59:59 -0400</pubDate>
+        <link>http://hzambran.github.io/drought/climate_change/2016/08/03/Year_2015_hottest_on_record_CR2.html</link>
+        <guid isPermaLink="true">http://hzambran.github.io/drought/climate_change/2016/08/03/Year_2015_hottest_on_record_CR2.html</guid>
+        
+        
+        <category>drought</category>
+        
+        <category>climate_change</category>
+        
+      </item>
     
       <item>
         <title>PhD summer school Remote Sensing applications for Water Accounting</title>
@@ -19,8 +48,8 @@ Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce th
 &lt;p&gt;&lt;img src=&quot;/assets/posts/2016-07-20-RS_PhD_course_at_ITT.png&quot; alt=&quot;example of analysis&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Jul 2016 19:59:59 -0400</pubDate>
-        <link>http://bencentra.github.io/remote_sensing/precipitation/r/training/courses/2016/07/20/Training_on_RS_at_ITT.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/remote_sensing/precipitation/r/training/courses/2016/07/20/Training_on_RS_at_ITT.html</guid>
+        <link>http://hzambran.github.io/remote_sensing/precipitation/r/training/2016/07/20/Training_on_RS_at_ITT.html</link>
+        <guid isPermaLink="true">http://hzambran.github.io/remote_sensing/precipitation/r/training/2016/07/20/Training_on_RS_at_ITT.html</guid>
         
         
         <category>remote_sensing</category>
@@ -30,8 +59,6 @@ Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce th
         <category>r</category>
         
         <category>training</category>
-        
-        <category>courses</category>
         
       </item>
     
@@ -49,8 +76,8 @@ During additional side events of the Nexus Week, the participants developed new 
 &lt;p&gt;For more information about the project please visit the website: &lt;a href=&quot;http://www.water-energy-food-nexus.info&quot;&gt;http://www.water-energy-food-nexus.info&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 15 Jul 2016 19:59:59 -0400</pubDate>
-        <link>http://bencentra.github.io/wef-nexus/2016/07/15/NexusWeek_at_ITT.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/wef-nexus/2016/07/15/NexusWeek_at_ITT.html</guid>
+        <link>http://hzambran.github.io/wef-nexus/2016/07/15/NexusWeek_at_ITT.html</link>
+        <guid isPermaLink="true">http://hzambran.github.io/wef-nexus/2016/07/15/NexusWeek_at_ITT.html</guid>
         
         
         <category>wef-nexus</category>
@@ -58,72 +85,34 @@ During additional side events of the Nexus Week, the participants developed new 
       </item>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>2015 was the warmest year ever recorded on Earth (NASA-NOAA)</title>
+        <description>&lt;p&gt;&lt;strong&gt;2015 was the warmest year ever recorded on Earth&lt;/strong&gt;, and it was not even close.&lt;/p&gt;
 
-&lt;h2 id=&quot;adding-new-posts&quot;&gt;Adding New Posts&lt;/h2&gt;
+&lt;p&gt;On January 20, 2016, scientists from NASA and the National Oceanic and Atmospheric Administration (NOAA) released their analyses of surface temperatures for the past year. 
+The NASA team found that globally averaged temperatures from January through December 2015 were &lt;strong&gt;0.87 degrees Celsius above the norm&lt;/strong&gt; (defined as a 1951-1980 base period). The previous record—set last year—was 0.74°C above the norm. 
+For the planet, &lt;strong&gt;2015 was more than a full degree Celsius warmer than temperatures in 1880&lt;/strong&gt;, when consistent record-keeping began.
+Working independently, NOAA researchers found 2015 to be 0.90°C above the 1901-2000 average. According to their analysis, 2015 was the second warmest year on record for the continental United States, Africa, and Europe. &lt;strong&gt;It was the warmest year for Asia and South America&lt;/strong&gt;. Globally, new monthly temperature records were set in every month except January and April.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;The 2015 temperature record continues a long-term warming trend that has largely been driven by increased carbon dioxide and other greenhouse gases that humans have emitted into the atmosphere. Most of the warming has occurred in the past 35 years, with &lt;strong&gt;15 of the 16 warmest years on record occurring since 2001&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;tags-and-categories&quot;&gt;Tags and Categories&lt;/h3&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;If you list one or more categories or tags in the front matter of your post, they will be included with the post on the page as links. Clicking the link will bring you to an auto-generated archive page for the category or tag, created using the &lt;a href=&quot;https://github.com/jekyll/jekyll-archives&quot;&gt;jekyll-archive&lt;/a&gt; gem.&lt;/p&gt;
+&lt;h4 id=&quot;enso&quot;&gt;ENSO&lt;/h4&gt;
 
-&lt;h3 id=&quot;cover-images&quot;&gt;Cover Images&lt;/h3&gt;
+&lt;p&gt;Note that while El Niño conditions dominated the Pacific Ocean for most of 2015, &lt;strong&gt;it was not officially an El Niño year in strict climatological terms&lt;/strong&gt; because ocean conditions did not manifest themselves until April 2015. 
+In the past, the highest global temperature records were often set in El Niño years, which suggests that 2016—with El Niño going strong as of mid-January—appears likely to be another very warm year.&lt;/p&gt;
 
-&lt;p&gt;To add a cover image to your post, set the “cover” property in the front matter with the relative URL of the image (i.e. &lt;code&gt;cover: &quot;/assets/cover_image.jpg&quot;&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;2015 was remarkable even in the context of the ongoing El Niño&lt;/em&gt; said NASA GISS Director Gavin Schmidt. &lt;em&gt;Last year’s temperatures had an assist from El Niño, but it is the cumulative effect of the long-term trend that has resulted in the record warming that we are seeing.&lt;/em&gt;
+&lt;em&gt;Climate change is the challenge of our generation&lt;/em&gt;”, said NASA Administrator Charles Bolden. &lt;em&gt;Today’s announcement not only underscores how critical NASA’s Earth observation program is, it is a key data point that should make policymakers stand up and take notice. &lt;strong&gt;Now is the time to act on climate&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h3&gt;
-
-&lt;p&gt;You can use &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt; to add syntax highlight code snippets:&lt;/p&gt;
-
-&lt;p&gt;Use the &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid&lt;/a&gt; &lt;code&gt;{% highlight &amp;lt;language&amp;gt; %}&lt;/code&gt; tag to add syntax highlighting to code snippets.&lt;/p&gt;
-
-&lt;p&gt;For instance, this template…&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% highlight javascript %}    
-function demo(string, times) {    
-  for (var i = 0; i &lt;span class=&quot;nt&quot;&gt;&amp;lt; times&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;    
-    &lt;span class=&quot;na&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;    
-  &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;    
-&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;    
-&lt;span class=&quot;na&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&amp;quot;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&amp;quot;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;{%&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;endhighlight&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;…will come out looking like this:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;hello, world!&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Syntax highlighting is done using &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt;. You can change the active theme in &lt;a href=&quot;https://github.com/bencentra/centrarium/blob/2dcd73d09e104c3798202b0e14c1db9fa6e77bc7/_includes/head.html#L15&quot;&gt;head.html&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
-
-&lt;p&gt;Lightbox has been enabled for images. To create the link that’ll launch the lightbox, add &lt;code&gt;data-lightbox&lt;/code&gt; and &lt;code&gt;data-title&lt;/code&gt; attributes to an &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag around your &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tag. The result is:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;//bencentra.com/assets/images/falcon9_large.jpg&quot; data-lightbox=&quot;falcon9-large&quot; data-title=&quot;Check out the Falcon 9 from SpaceX&quot;&gt;
-  &lt;img src=&quot;//bencentra.com/assets/images/falcon9_small.jpg&quot; title=&quot;Check out the Falcon 9 from SpaceX&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information, check out the &lt;a href=&quot;http://lokeshdhakar.com/projects/lightbox2/&quot;&gt;Lightbox&lt;/a&gt; website.&lt;/p&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;For more information please visit the website: &lt;a href=&quot;http://earthobservatory.nasa.gov/IOTD/view.php?id=87359&quot;&gt;http://earthobservatory.nasa.gov/IOTD/view.php?id=87359&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/jekyll/2015/04/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/jekyll/2015/04/18/welcome-to-jekyll.html</guid>
-        
-        <category>jekyll</category>
-        
-        <category>welcome</category>
+        <pubDate>Mon, 01 Feb 2016 20:59:59 -0300</pubDate>
+        <link>http://hzambran.github.io/climate_change/2016/02/01/Year_2015_was_the_warmest_year_ever_recorded_on_Earth_NASA.html</link>
+        <guid isPermaLink="true">http://hzambran.github.io/climate_change/2016/02/01/Year_2015_was_the_warmest_year_ever_recorded_on_Earth_NASA.html</guid>
         
         
-        <category>jekyll</category>
+        <category>climate_change</category>
         
       </item>
     

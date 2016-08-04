@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://bencentra.github.io/remote_sensing/precipitation/r/training/courses/2016/07/20/Training_on_RS_at_ITT.html</loc>
+    <loc>http://hzambran.github.io/drought/climate_change/2016/08/03/Year_2015_hottest_on_record_CR2.html</loc>
+    <lastmod>2016-08-03T19:59:59-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://hzambran.github.io/remote_sensing/precipitation/r/training/2016/07/20/Training_on_RS_at_ITT.html</loc>
     <lastmod>2016-07-20T19:59:59-04:00</lastmod>
   </url>
   <url>
-    <loc>http://bencentra.github.io/wef-nexus/2016/07/15/NexusWeek_at_ITT.html</loc>
+    <loc>http://hzambran.github.io/wef-nexus/2016/07/15/NexusWeek_at_ITT.html</loc>
     <lastmod>2016-07-15T19:59:59-04:00</lastmod>
   </url>
   <url>
-    <loc>http://bencentra.github.io/jekyll/2015/04/18/welcome-to-jekyll.html</loc>
-    <lastmod>2015-04-18T05:43:59-03:00</lastmod>
+    <loc>http://hzambran.github.io/climate_change/2016/02/01/Year_2015_was_the_warmest_year_ever_recorded_on_Earth_NASA.html</loc>
+    <lastmod>2016-02-01T20:59:59-03:00</lastmod>
   </url>
   <url>
-    <loc>http://bencentra.github.io/01-About.html</loc>
+    <loc>http://hzambran.github.io/01-About.html</loc>
   </url>
   <url>
-    <loc>http://bencentra.github.io/02-Research.html</loc>
+    <loc>http://hzambran.github.io/02-Research.html</loc>
   </url>
   <url>
-    <loc>http://bencentra.github.io/03-Publications.html</loc>
+    <loc>http://hzambran.github.io/03-Publications.html</loc>
   </url>
   <url>
-    <loc>http://bencentra.github.io/04-Conferences.html</loc>
+    <loc>http://hzambran.github.io/04-Conferences.html</loc>
   </url>
   <url>
-    <loc>http://bencentra.github.io/05-Software.html</loc>
+    <loc>http://hzambran.github.io/05-Software.html</loc>
   </url>
   <url>
-    <loc>http://bencentra.github.io/06-posts.html</loc>
+    <loc>http://hzambran.github.io/06-posts.html</loc>
   </url>
   <url>
-    <loc>http://bencentra.github.io/07-Links.html</loc>
+    <loc>http://hzambran.github.io/07-Links.html</loc>
   </url>
   <url>
-    <loc>http://bencentra.github.io/</loc>
+    <loc>http://hzambran.github.io/</loc>
   </url>
 </urlset>
