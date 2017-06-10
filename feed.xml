@@ -6,9 +6,44 @@
 </description>
     <link>http://hzambran.github.io/</link>
     <atom:link href="http://hzambran.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 May 2017 12:13:55 -0400</pubDate>
-    <lastBuildDate>Sun, 21 May 2017 12:13:55 -0400</lastBuildDate>
+    <pubDate>Sat, 10 Jun 2017 11:07:09 -0400</pubDate>
+    <lastBuildDate>Sat, 10 Jun 2017 11:07:09 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Participación en la Conferencia EGU 2017</title>
+        <description>&lt;p&gt;During the last week of April, I presented two works on the &lt;a href=&quot;http://egu2017.eu/information/general_information.html&quot;&gt;European Geosciences Union (EGU) 2017&lt;/a&gt;, the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
+
+&lt;p&gt;The first work was &lt;a href=&quot;https://doi.org/10.5281/zenodo.570145&quot;&gt;Using R for analyzing spatio-temporal datasets: a satellite-based precipitation case study&lt;/a&gt; (&lt;a href=&quot;http://meetingorganizer.copernicus.org/EGU2017/EGU2017-18343.pdf&quot;&gt;EGU2017-18343&lt;/a&gt;), which was an oral &lt;a href=&quot;http://egu2017.eu/pico.html&quot;&gt;PICO presentation&lt;/a&gt; about the use of R, the free software environment for statistical computing and graphics, for analysing different spatio-temporal datasets of precipitation at the Chilean spatail scale.&lt;/p&gt;
+
+&lt;p&gt;The second work was the oral presentation &lt;a href=&quot;https://doi.org/10.5281/zenodo.570146&quot;&gt;Assesing the temporal and spatial performance of satellite-based rainfall estimates across the topographical complex and climatic gradients of Chile&lt;/a&gt; (&lt;a href=&quot;http://meetingorganizer.copernicus.org/EGU2017/EGU2017-10425.pdf&quot;&gt;EGU2017-10425&lt;/a&gt;), which summarises the main findings about the performance of seven different satellite-based precipitation products over the Chilean territory.&lt;/p&gt;
+
+&lt;p&gt;Both works are the product of the international collaboration with researchers from Germany, Costa Rica and Chile on the use of different satellite-based precipitation products as a complement to current ground-based rainfall measurement networks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spanish version&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;Durante la semana del 24 al 28 de Abril, presenté dos trabajos en la conferencia &lt;a href=&quot;http://egu2017.eu/information/general_information.html&quot;&gt;European Geosciences Union (EGU) 2017&lt;/a&gt;, el evento científico más importante de Ciencias de la Tierra en Europa.&lt;/p&gt;
+
+&lt;p&gt;El primer trabajo fue &lt;a href=&quot;https://doi.org/10.5281/zenodo.570145&quot;&gt;Using R for analyzing spatio-temporal datasets: a satellite-based precipitation case study&lt;/a&gt; (&lt;a href=&quot;http://meetingorganizer.copernicus.org/EGU2017/EGU2017-18343.pdf&quot;&gt;EGU2017-18343&lt;/a&gt;), una &lt;a href=&quot;http://egu2017.eu/pico.html&quot;&gt;presentación oral tipo&lt;/a&gt; sobre el uso de R, el ambiente estadístico libre, para el análisis de distintos conjuntos de datos espacio-temporales de precipitaciòn a escala nacional (Chile).&lt;/p&gt;
+
+&lt;p&gt;El segundo trabajo fue la presentación oral &lt;a href=&quot;https://doi.org/10.5281/zenodo.570146&quot;&gt;Assesing the temporal and spatial performance of satellite-based rainfall estimates across the topographical complex and climatic gradients of Chile&lt;/a&gt; (&lt;a href=&quot;http://meetingorganizer.copernicus.org/EGU2017/EGU2017-10425.pdf&quot;&gt;EGU2017-10425&lt;/a&gt;), la cual resume los principales resultados de una comparación exhaustiva de siete productos satelitales de precipitación sobre el territorio de Chile.&lt;/p&gt;
+
+&lt;p&gt;Ambos trabajos son producto de la colaboración internacional con investigadores de Alemania, Costa Rica y Chile, sobre el uso de distintos productos satelitales de precipitación como complemento a las actuales redes de medición pluviométrica.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 27 Apr 2017 20:59:59 -0300</pubDate>
+        <link>http://hzambran.github.io/fondecyt-11150861/r/precipitation/remote-sensing/2017/04/27/EGU2017.html</link>
+        <guid isPermaLink="true">http://hzambran.github.io/fondecyt-11150861/r/precipitation/remote-sensing/2017/04/27/EGU2017.html</guid>
+        
+        
+        <category>fondecyt-11150861</category>
+        
+        <category>r</category>
+        
+        <category>precipitation</category>
+        
+        <category>remote-sensing</category>
+        
+      </item>
     
       <item>
         <title>Fondecyt Regular 1171560 selected in 2017 competition !</title>
@@ -75,6 +110,35 @@
         <category>droughts</category>
         
         <category>climate-change</category>
+        
+      </item>
+    
+      <item>
+        <title>Participación en la Conferencia AGU 2016</title>
+        <description>&lt;p&gt;On December 13, 2016, I presented the work titled &lt;a href=&quot;http://doi.org/10.5281/zenodo.224157&quot;&gt;Disentangling the contribution of precipitation and temperature to Chilean megadrought (20102015)&lt;/a&gt; at the conference &lt;a href=&quot;https://fallmeeting.agu.org/2016/&quot;&gt;American Geophysical Union (AGU) 2016&lt;/a&gt;. In this work I used two drought indices to analyze the contribution of precipitation and temperature to the recent droughts that have affected Chile, in order to improve our understanding about the onset, duration and magnitude of these events.&lt;/p&gt;
+
+&lt;p&gt;It is the first time that a professor with affiliation “Universidad de La Frontera” presents in this conference, the most important of Earth Sciences worldwide.&lt;/p&gt;
+
+&lt;p&gt;This work is part of a collaborative research that I carry out for the &lt;a href=&quot;www.cr2.cl&quot;&gt;Climate and Resilience Center&lt;/a&gt; of the Universidad de Chile.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Spanish version&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;El pasado 13 de Diciembre de 2016, presenté el trabajo titulado &lt;a href=&quot;http://doi.org/10.5281/zenodo.224157&quot;&gt;Disentangling the contribution of precipitation and temperature to Chilean megadrought (20102015)&lt;/a&gt; en la conferencia &lt;a href=&quot;https://fallmeeting.agu.org/2016/&quot;&gt;American Geophysical Union (AGU) 2016&lt;/a&gt;. En este trabajo utilicé dos índices de sequía para analizar la contribución de la precipitación y la temperatura a las recientes sequías que han afectado Chile, para mejorar nuestra comprensión acerca del inicio, duración y magnitud de estos eventos.&lt;/p&gt;
+
+&lt;p&gt;Es la primera vez que un docente con afiliación Universidad de La Frontera presenta en este evento, el más importante de las Ciencias de la Tierra a nivel mundial.&lt;/p&gt;
+
+&lt;p&gt;Este trabajo forma parte del trabajo como investigador adjunto que realizo para el &lt;a href=&quot;www.cr2.cl&quot;&gt;Climate and Resilience Center&lt;/a&gt; de la Universidad de Chile.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Dec 2016 20:59:59 -0300</pubDate>
+        <link>http://hzambran.github.io/cr2/droughts/fondecyt-11150861/2016/12/13/AGU2016.html</link>
+        <guid isPermaLink="true">http://hzambran.github.io/cr2/droughts/fondecyt-11150861/2016/12/13/AGU2016.html</guid>
+        
+        
+        <category>CR2</category>
+        
+        <category>droughts</category>
+        
+        <category>fondecyt-11150861</category>
         
       </item>
     
@@ -190,51 +254,6 @@
         <category>droughts</category>
         
         <category>climate-change</category>
-        
-      </item>
-    
-      <item>
-        <title>PhD summer school Remote Sensing applications for Water Accounting</title>
-        <description>&lt;p&gt;&lt;strong&gt;Water accounting&lt;/strong&gt; is a fundamental basis to understand water availability and demands and the related benefits and efficiencies are related to water uses. While the fundamental data needed for establishing water accounts is often missing, Remote Sensing can contribute to fill the data gaps.
-With this course PhD students and staff at ITT will become familiar with the application of Remote Sensing to derive information on precipitation, evapotranspiration and land cover - three essential information elements for water accounts.
-Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce the basic techinques of Remote Sensing using the software SPRING and introduce to derive land cover information from products such as Landsat. &lt;strong&gt;Dr. Mauricio Zambrano-Bigiarini&lt;/strong&gt; from &lt;a href=&quot;www.ufro.cl&quot;&gt;Universidad de la Frontera&lt;/a&gt;, Chile, will focus on the use of the &lt;a href=&quot;https://www.r-project.org/&quot;&gt;R&lt;/a&gt; software to derive Precipitation estimates from products such as TRMM. Finally Dr Islam Sabry from the National Water Research Center, Egypt will introduce the use of satellite based estimates for evapotranspiration data.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2016-07-20-RS_PhD_course_at_ITT.png&quot; alt=&quot;example of analysis&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 20 Jul 2016 19:59:59 -0400</pubDate>
-        <link>http://hzambran.github.io/remote-sensing/precipitation/r/training/2016/07/20/Training_on_RS_at_ITT.html</link>
-        <guid isPermaLink="true">http://hzambran.github.io/remote-sensing/precipitation/r/training/2016/07/20/Training_on_RS_at_ITT.html</guid>
-        
-        
-        <category>remote-sensing</category>
-        
-        <category>precipitation</category>
-        
-        <category>r</category>
-        
-        <category>training</category>
-        
-      </item>
-    
-      <item>
-        <title>Research and Education Week on the Water, Energy and Food Security Nexus</title>
-        <description>&lt;p&gt;The &lt;a href=&quot;http://www.water-energy-food-nexus.info&quot;&gt;Water-Energy-Food Security Nexus&lt;/a&gt; (WEF Nexus) is currently a highly important debate in environmental policy with expected implications for priorities in research, education and international cooperation. Increasing demands for water, energy and food together with external and internal change drivers on current natural resources use patterns make the Nexus idea crucial to understand the multiple resource use interlinkages. 
-The &lt;a href=&quot;http://www.tt.th-koeln.de/&quot;&gt;ITT&lt;/a&gt; invited partners from current Nexus-related projects for an international gathering from the 11th until the 15th of July 2016. The &lt;strong&gt;Nexus Research and Education Week&lt;/strong&gt; invited also external presenters and students into the discussion on how to address together many of the key interlinkages like sustainable land and water management practices, climate related risks in terms of droughts and extremes or increasing resource use efficiencies along river basins.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/posts/2016-07-14-WEF_Nexus_Group-768x512.jpg&quot; alt=&quot;WEF_Nexus_Group&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;During the Nexus Week, the professor &lt;strong&gt;Mauricio Zambrano-Bigiarini&lt;/strong&gt; along with international partners presented their case studies from related projects as &lt;em&gt;nexus laboratories&lt;/em&gt; useful for enhancing educational contents and outlining future collaborative research activities. International experts and young researchers were involved in providing insights on the WEF Nexus topic from ongoing research and and outlining further research demand. 
-Different case studies with WEF-Nexus related topics at river basin scale were presented from countries such as Jordan, Sudan, Ethiopia, Egypt, Pakistan, &lt;strong&gt;Chile&lt;/strong&gt;, Ecuador, Costa Rica and Colombia and also larger scales as the Mekong, the Nile and Paraiba do Sul region or even global scale. The Nexus Week aimed at expanding the network of partners related to Nexus topics and interdisciplinary regional and basin planning initiatives and offered an opportunity as an exchange platform. 
-During additional side events of the Nexus Week, the participants developed new project ideas and exchanged experiences on integrated water basin management during a visit to the International Commission for the Protection of the Rhine. Further more, different Nexus products were presented and prepared for further development in the future.&lt;/p&gt;
-
-&lt;p&gt;For more information about the project please visit the website: &lt;a href=&quot;http://www.water-energy-food-nexus.info&quot;&gt;http://www.water-energy-food-nexus.info&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 15 Jul 2016 19:59:59 -0400</pubDate>
-        <link>http://hzambran.github.io/wef-nexus/2016/07/15/NexusWeek_at_ITT.html</link>
-        <guid isPermaLink="true">http://hzambran.github.io/wef-nexus/2016/07/15/NexusWeek_at_ITT.html</guid>
-        
-        
-        <category>WEF-Nexus</category>
         
       </item>
     
