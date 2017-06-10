@@ -6,8 +6,8 @@
 </description>
     <link>http://hzambran.github.io/</link>
     <atom:link href="http://hzambran.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Jun 2017 11:29:09 -0400</pubDate>
-    <lastBuildDate>Sat, 10 Jun 2017 11:29:09 -0400</lastBuildDate>
+    <pubDate>Sat, 10 Jun 2017 11:33:37 -0400</pubDate>
+    <lastBuildDate>Sat, 10 Jun 2017 11:33:37 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -16,7 +16,9 @@
 
 &lt;p&gt;This course had two parts, the first one was given by the doctoral student Oscar Baez, who was at UFRO last April. The objective of this first part (April 23th to 27th) was to provide students with basic concepts about &lt;a href=&quot;https://www.r-project.org/&quot;&gt;R&lt;/a&gt;, free software environment for statistical computing and graphics, (installation, types of variables, exploratory data analysis, and spatial data management).
  
-The second part (May 3rd and 4th) was to introduce participants to the management of time series in R, and the use of it for the analysis of spatio-temporal data, in particular for reading and analysing satelite-based rainfall estimates (SREs), expanding the work “&lt;a href=&quot;https://doi.org/10.5281/zenodo.570145&quot;&gt;&lt;em&gt;Using R for analyzing spatio-temporal datasets: a satellite-based precipitation case study&lt;/em&gt;&lt;/a&gt;” presented at the EGUA 2017 during the last week of April (&lt;a href=&quot;http://meetingorganizer.copernicus.org/EGU2017/EGU2017-18343.pdf&quot;&gt;EGU2017-18343&lt;/a&gt;), which was an oral &lt;a href=&quot;http://egu2017.eu/pico.html&quot;&gt;PICO presentation&lt;/a&gt;&lt;/p&gt;
+The second part (May 3rd and 4th) was to introduce participants to the management of time series in R, and the use of it for the analysis of spatio-temporal data, in particular for reading and analysing satelite-based rainfall estimates (SREs), expanding the work “&lt;a href=&quot;https://doi.org/10.5281/zenodo.570145&quot;&gt;&lt;em&gt;Using R for analyzing spatio-temporal datasets: a satellite-based precipitation case study&lt;/em&gt;&lt;/a&gt;” presented at the EGUA 2017 during the last week of April (&lt;a href=&quot;http://meetingorganizer.copernicus.org/EGU2017/EGU2017-18343.pdf&quot;&gt;EGU2017-18343&lt;/a&gt;), which was an oral &lt;a href=&quot;http://egu2017.eu/pico.html&quot;&gt;PICO presentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This short course is product of the international collaboration with Lars Ribbe and Alexandra Nauditt from the &lt;a href=&quot;http://www.tt.th-koeln.de/&quot;&gt;Institute for Technology and Resources Management in the Tropics and Subtropics (ITT) of TH Köln (University of Applied Sciences in Germany)&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 May 2017 20:59:59 -0300</pubDate>
         <link>http://hzambran.github.io/fondecyt-11150861/r/precipitation/remote-sensing/training/2017/05/05/Training_on_RS_at_ITT.html</link>
