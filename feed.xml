@@ -6,9 +6,28 @@
 </description>
     <link>http://hzambran.github.io/</link>
     <atom:link href="http://hzambran.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Jan 2018 01:04:25 -0300</pubDate>
-    <lastBuildDate>Tue, 30 Jan 2018 01:04:25 -0300</lastBuildDate>
+    <pubDate>Sat, 26 May 2018 00:34:43 -0400</pubDate>
+    <lastBuildDate>Sat, 26 May 2018 00:34:43 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Article on satellite-based rainfall estimates over Latin America accepted for publication in Atmospheric Research</title>
+        <description>&lt;p&gt;The article &lt;a href=&quot;https://doi.org/10.1016/j.atmosres.2018.05.011&quot;&gt;“Temporal and spatial evaluation of satellite rainfall estimates over different regions in Latin-America”&lt;/a&gt; was accepted for publication in the &lt;a href=&quot;https://www.sciencedirect.com/journal/atmospheric-research&quot;&gt;Atmospheric Research&lt;/a&gt; journal.&lt;/p&gt;
+
+&lt;p&gt;This work exhaustively evaluate six satellite rainfall estimates (TRMM 3B42v7, TRMM 3B42RT, CHIRPSv2, CMORPHv1, PERSIANN-CDR, and MSWEPv2) over three basins in Latin-America (Imperial in Chile, Paraiba do Sul in Brazil, and Magdalena in Colombia). Several continuous and categorical indices of performance are used at daily, monthly and seasonal time scales. Our analysis revealed which products are in beter agreement with ground-based observations of precipitation and if the upscaling procedure, used in CHIRPSv2 and MSWEPv2, affects the evaluation of the SREs performance at different time scales.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 21 May 2018 19:59:59 -0400</pubDate>
+        <link>http://hzambran.github.io/remote-sensing/precipitation/fondecyt-11150861/2018/05/21/AR_article_on_SRE_accepted.html</link>
+        <guid isPermaLink="true">http://hzambran.github.io/remote-sensing/precipitation/fondecyt-11150861/2018/05/21/AR_article_on_SRE_accepted.html</guid>
+        
+        
+        <category>remote-sensing</category>
+        
+        <category>precipitation</category>
+        
+        <category>fondecyt-11150861</category>
+        
+      </item>
     
       <item>
         <title>Short course on use of R for analysing satelite-based rainfall estimates (SREs) in Germany</title>
@@ -227,29 +246,6 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
         
         
         <category>droughts</category>
-        
-        <category>climate-change</category>
-        
-      </item>
-    
-      <item>
-        <title>July 2016 was world's hottest month since records began, says Nasa (The Guardian)</title>
-        <description>&lt;p&gt;Nasa’s results, which combine sea-surface temperature and air temperature on land, show July 2016 was 10th month in a row to break monthly temperature record&lt;/p&gt;
-
-&lt;p&gt;As the string of hottest months continues, 2016 is &lt;em&gt;virtually certain&lt;/em&gt; to be the &lt;strong&gt;hottest year on record&lt;/strong&gt;, says David Karoly, a climate scientist from the University of Melbourne.&lt;/p&gt;
-
-&lt;p&gt;Last month was the hottest month in recorded history, beating the record set just 12 months before and continuing the long string of monthly records, according to the latest Nasa data.&lt;/p&gt;
-
-&lt;p&gt;The past nine months have set temperature records for their respective months and the trend continued this month to make 10 in a row, according to Nasa. &lt;strong&gt;July broke the absolute record for hottest month since records began in 1880&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Similar data from the US National Oceanographic and Atmospheric Administration (Noaa) said the past 14 months have broken the temperature record for each month, but it hasn’t released its figures for July yet.&lt;/p&gt;
-
-&lt;p&gt;For more information please visit: &lt;a href=&quot;https://www.theguardian.com/environment/2016/aug/16/july-2016-was-worlds-hottest-month-since-records-began-says-nasa&quot;&gt;July 2016 was world’s hottest month since records began, says Nasa&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 20 Aug 2016 20:59:59 -0300</pubDate>
-        <link>http://hzambran.github.io/climate-change/2016/08/20/Hottest_July_on_record.html</link>
-        <guid isPermaLink="true">http://hzambran.github.io/climate-change/2016/08/20/Hottest_July_on_record.html</guid>
-        
         
         <category>climate-change</category>
         
