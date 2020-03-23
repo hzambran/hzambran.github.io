@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://hzambran.github.io/r/r-pkgs/2020/03/18/hydroPSO_v050_on_CRAN.html</loc>
+<lastmod>2020-03-18T20:59:59-03:00</lastmod>
+</url>
+<url>
+<loc>http://hzambran.github.io/r/r-pkgs/2020/03/12/hydroGOF_v040_on_CRAN.html</loc>
+<lastmod>2020-03-12T20:59:59-03:00</lastmod>
+</url>
+<url>
+<loc>http://hzambran.github.io/r/r-pkgs/2020/03/11/hydroTSM_v060_on_CRAN.html</loc>
+<lastmod>2020-03-11T20:59:59-03:00</lastmod>
+</url>
+<url>
 <loc>http://hzambran.github.io/dissemination/2020/01/08/Entrevista_Radio_concierto.html</loc>
 <lastmod>2020-01-08T20:59:59-03:00</lastmod>
 </url>
