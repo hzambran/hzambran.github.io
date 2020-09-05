@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://hzambran.github.io/rainfall/climate-change/dissemination/2020/09/01/Lanzamiento_de_Mawun.html</loc>
+<lastmod>2020-09-01T19:59:59-04:00</lastmod>
+</url>
+<url>
 <loc>http://hzambran.github.io/fondecyt-11150861/2020/07/07/IJWRD_article_on_WEAP4Araucania_published.html</loc>
 <lastmod>2020-07-07T19:59:59-04:00</lastmod>
 </url>
@@ -199,13 +203,16 @@
 <loc>http://hzambran.github.io/06-Software.html</loc>
 </url>
 <url>
-<loc>http://hzambran.github.io/07-Dissemination.html</loc>
+<loc>http://hzambran.github.io/07-WebPlatforms.html</loc>
 </url>
 <url>
-<loc>http://hzambran.github.io/09-Links.html</loc>
+<loc>http://hzambran.github.io/08-Dissemination.html</loc>
 </url>
 <url>
-<loc>http://hzambran.github.io/10-Weather.html</loc>
+<loc>http://hzambran.github.io/10-Links.html</loc>
+</url>
+<url>
+<loc>http://hzambran.github.io/11-Weather.html</loc>
 </url>
 <url>
 <loc>http://hzambran.github.io/</loc>
