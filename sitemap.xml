@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://hzambran.github.io/droughts/fondecyt-11150861/fondecyt-1212071,/chi2/2024/03/28/HESS_article_on_hydrological_drought_monioring_published.html</loc>
+<lastmod>2024-03-28T08:59:59+00:00</lastmod>
+</url>
+<url>
 <loc>http://hzambran.github.io/climate-change/2023/08/14/Hottest_July_on_record.html</loc>
 <lastmod>2023-08-14T23:59:59+00:00</lastmod>
 </url>
@@ -368,5 +372,11 @@
 </url>
 <url>
 <loc>http://hzambran.github.io/category/extreme-events/</loc>
+</url>
+<url>
+<loc>http://hzambran.github.io/category/fondecyt-1212071/</loc>
+</url>
+<url>
+<loc>http://hzambran.github.io/category/chi2/</loc>
 </url>
 </urlset>
