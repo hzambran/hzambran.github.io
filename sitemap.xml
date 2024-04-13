@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://hzambran.github.io/chile/monitoring/2024/04/09/Instalacion_de_anemometro_en_Est_Invernada.html</loc>
+<lastmod>2024-04-09T09:59:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://hzambran.github.io/droughts/fondecyt-11150861/fondecyt-1212071,/chi2/2024/03/28/HESS_article_on_hydrological_drought_monioring_published.html</loc>
 <lastmod>2024-03-28T08:59:59+00:00</lastmod>
 </url>
@@ -290,24 +294,6 @@
 <loc>http://hzambran.github.io/</loc>
 </url>
 <url>
-<loc>http://hzambran.github.io/tag/droughts/</loc>
-</url>
-<url>
-<loc>http://hzambran.github.io/tag/climate-change/</loc>
-</url>
-<url>
-<loc>http://hzambran.github.io/tag/chile/</loc>
-</url>
-<url>
-<loc>http://hzambran.github.io/tag/mzb/</loc>
-</url>
-<url>
-<loc>http://hzambran.github.io/tag/extreme-events/</loc>
-</url>
-<url>
-<loc>http://hzambran.github.io/tag/storms/</loc>
-</url>
-<url>
 <loc>http://hzambran.github.io/category/climate-change/</loc>
 </url>
 <url>
@@ -378,5 +364,8 @@
 </url>
 <url>
 <loc>http://hzambran.github.io/category/chi2/</loc>
+</url>
+<url>
+<loc>http://hzambran.github.io/category/monitoring/</loc>
 </url>
 </urlset>
