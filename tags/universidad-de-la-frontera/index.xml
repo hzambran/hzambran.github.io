@@ -77,50 +77,28 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Introduction to scientific programming
-1.1. Description of the programming language (R/Python)
-1.2 Data types
-1.3 Assignment, symbols, operators&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;Exploratory data analysis in Civil Engineering
-2.1 Basic statistical summary
-2.2 Static data visualization
-2.3 Data cleaning
-2.4 Outlier detection
-2.5 Data storage&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Introduction to scientific programming&lt;/strong&gt;: Description of the programming language (R/Python). Data types. Assignment, symbols, operators.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Functions and control structures
-3.1 User-defined Functions
-3.2 Data flow control structures
-3.3 Iterative structures&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exploratory data analysis in Civil Engineering&lt;/strong&gt;: Basic statistical summary. Static data visualization. Data cleaning. Outlier detection. Data storage.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Time series
-4.1 Reading time series
-4.2 Manipulating time series
-4.3 Visualizing time series&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Functions and control structures&lt;/strong&gt;: User-defined functions. Data flow control structures. Iterative structures.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Spatial Data
-5.1 Reading spatial data
-5.2 Manipulating spatial data
-5.3 Visualizing spatial data&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Time series&lt;/strong&gt;: Reading time series. Manipulating time series. Visualizing time series.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Advanced programming techniques
-6.1 Web crawling
-6.2 Web scraping
-6.3. Automatic report generation&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spatial data&lt;/strong&gt;: Reading spatial data. Manipulating spatial data. Visualizing spatial data.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Interactive visualization&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Advanced programming techniques&lt;/strong&gt;: Web crawling. Web scraping. Automatic report generation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Interactive visualization&lt;/strong&gt;: Introduction to interactive data visualization. Interactive application development.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;7.1. Introduction to interactive data visualization
-7.2. Interactive application development&lt;/p&gt;
 &lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
 &lt;h3 id=&#34;basic-bibliography&#34;&gt;Basic bibliography&lt;/h3&gt;
 &lt;ul&gt;
