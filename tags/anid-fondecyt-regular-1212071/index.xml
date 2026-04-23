@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ANID-Fondecyt Regular 1212071 | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/anid-fondecyt-regular-1212071/</link>
+      <atom:link href="https://hzambran.github.io/tags/anid-fondecyt-regular-1212071/index.xml" rel="self" type="application/rss+xml" />
+    <description>ANID-Fondecyt Regular 1212071</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <title>ANID-Fondecyt Regular 1212071</title>
+      <link>https://hzambran.github.io/tags/anid-fondecyt-regular-1212071/</link>
+    </image>
+    
+    <item>
+      <title>Article on hydropedological clustering published in JoH</title>
+      <link>https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/</guid>
+      <description>&lt;p&gt;On December 19th, 2025, 
+ published our article entitled 
+. This study investigates how different soil datasets and classification approaches affect the performance of the SWAT+ hydrological model in simulating low streamflows and soil water content (SWC).&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;In Mediterranean climates, such as central Chile, rivers often experience very low flows during long dry seasons. These low flows are critical for agriculture, drinking water supply, and ecosystem health. Yet they remain difficult to be reliably simulated because the way soils store and release water is complex and varies substantially across the landscape. Many hydrological models rely on global soil databases that do not fully capture local soil behavior. This study evaluates a new method for organizing soil information, called &lt;strong&gt;hydropedological clustering&lt;/strong&gt;, to improve the simulation of low streamflows in the Cauquenes catchment.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-new-in-this-approach&#34;&gt;What is new in this approach&lt;/h3&gt;
+&lt;p&gt;The researchers compared four different soil datasets, including widely used global maps and locally developed soil information. They introduced a new clustering strategy that groups soils according to &lt;strong&gt;key soil hydraulic properties&lt;/strong&gt; that directly control water movement and storage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Saturated hydraulic conductivity&lt;/strong&gt;, which governs how quickly water can move through soil&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Available water capacity&lt;/strong&gt;, which determines how much water soil can retain for plants&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;van Genuchten α parameter&lt;/strong&gt;, which reflects soil pore structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rather than classifying soils only by texture (sand, silt, and clay), this method focuses on how soils actually function hydrologically. The result is a more meaningful representation of soil processes within the model.&lt;/p&gt;
+&lt;h3 id=&#34;what-the-study-found&#34;&gt;What the study found&lt;/h3&gt;
+&lt;p&gt;The hydropedological clustering method produced consistently better results than conventional soil classifications. It improved the accuracy of low-flow simulations, reproduced key hydrological indicators more realistically, and reduced model calibration time. The approach also provided more reliable estimates of soil moisture across the root zone, avoiding the large overestimations often associated with coarse global datasets. A central conclusion is that &lt;strong&gt;how soils are classified can matter more than how detailed the map resolution is&lt;/strong&gt;!.&lt;/p&gt;
+&lt;h3 id=&#34;why-this-is-important-for-water-management&#34;&gt;Why this is important for water management&lt;/h3&gt;
+&lt;p&gt;Reliable low-flow simulations are essential for managing water during droughts, when supply is limited and demand is high. Improved modelling supports better decisions on water allocation, irrigation planning, environmental flow protection, and energy production. The study demonstrates a practical and transferable framework for integrating locally relevant soil knowledge into hydrological models. This capability is particularly valuable for regions facing increasing water stress under climate variability and prolonged drought conditions.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/graphical_abstract.jpg&#34;
+    alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Graphical abstract&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

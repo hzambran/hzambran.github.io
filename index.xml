@@ -7,7 +7,7 @@
     <description>Dr. Mauricio Zambrano-Bigiarini</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Dr. Mauricio Zambrano-Bigiarini</title>
       <link>https://hzambran.github.io/</link>
     </image>
@@ -905,6 +905,40 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     </item>
     
     <item>
+      <title>Article on hydropedological clustering published in JoH</title>
+      <link>https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/</guid>
+      <description>&lt;p&gt;On December 19th, 2025, 
+ published our article entitled 
+. This study investigates how different soil datasets and classification approaches affect the performance of the SWAT+ hydrological model in simulating low streamflows and soil water content (SWC).&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;In Mediterranean climates, such as central Chile, rivers often experience very low flows during long dry seasons. These low flows are critical for agriculture, drinking water supply, and ecosystem health. Yet they remain difficult to be reliably simulated because the way soils store and release water is complex and varies substantially across the landscape. Many hydrological models rely on global soil databases that do not fully capture local soil behavior. This study evaluates a new method for organizing soil information, called &lt;strong&gt;hydropedological clustering&lt;/strong&gt;, to improve the simulation of low streamflows in the Cauquenes catchment.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-new-in-this-approach&#34;&gt;What is new in this approach&lt;/h3&gt;
+&lt;p&gt;The researchers compared four different soil datasets, including widely used global maps and locally developed soil information. They introduced a new clustering strategy that groups soils according to &lt;strong&gt;key soil hydraulic properties&lt;/strong&gt; that directly control water movement and storage:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Saturated hydraulic conductivity&lt;/strong&gt;, which governs how quickly water can move through soil&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Available water capacity&lt;/strong&gt;, which determines how much water soil can retain for plants&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;van Genuchten α parameter&lt;/strong&gt;, which reflects soil pore structure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rather than classifying soils only by texture (sand, silt, and clay), this method focuses on how soils actually function hydrologically. The result is a more meaningful representation of soil processes within the model.&lt;/p&gt;
+&lt;h3 id=&#34;what-the-study-found&#34;&gt;What the study found&lt;/h3&gt;
+&lt;p&gt;The hydropedological clustering method produced consistently better results than conventional soil classifications. It improved the accuracy of low-flow simulations, reproduced key hydrological indicators more realistically, and reduced model calibration time. The approach also provided more reliable estimates of soil moisture across the root zone, avoiding the large overestimations often associated with coarse global datasets. A central conclusion is that &lt;strong&gt;how soils are classified can matter more than how detailed the map resolution is&lt;/strong&gt;!.&lt;/p&gt;
+&lt;h3 id=&#34;why-this-is-important-for-water-management&#34;&gt;Why this is important for water management&lt;/h3&gt;
+&lt;p&gt;Reliable low-flow simulations are essential for managing water during droughts, when supply is limited and demand is high. Improved modelling supports better decisions on water allocation, irrigation planning, environmental flow protection, and energy production. The study demonstrates a practical and transferable framework for integrating locally relevant soil knowledge into hydrological models. This capability is particularly valuable for regions facing increasing water stress under climate variability and prolonged drought conditions.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/graphical_abstract.jpg&#34;
+    alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Graphical abstract&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Hydropedological clustering: improving the representation of low streamflows in a semi-distributed hydrological model</title>
       <link>https://hzambran.github.io/publications/2025-gimeno-hydropedological-clustering/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
@@ -1665,6 +1699,190 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     </item>
     
     <item>
+      <title>Disponibilidad y seguridad hídrica en el desarrollo de enfermedades crónicas no transmisibles. ¿ Nuevos factores de riesgo?</title>
+      <link>https://hzambran.github.io/publications/2024-petermannrocha-disponibilidad-y/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2024-petermannrocha-disponibilidad-y/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Petermann-Rocha, F., Pizarro, A., Nazar, G., Zambrano-Bigiarini, M., Plaza-Garrido, A., Díaz-Toro, F., Troncoso-Pantoja, C., Celis, A., Sugg, D., &amp; Celis-Morales, C. (2024). Disponibilidad y seguridad hídrica en el desarrollo de enfermedades crónicas no transmisibles. ¿ Nuevos factores de riesgo?. &lt;i&gt;Revista médica de Chile&lt;/i&gt;, &lt;i&gt;152&lt;/i&gt;(5), 643--644. &lt;a href=&#39;https://doi.org/10.4067/s0034-98872024000500643&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.4067/s0034-98872024000500643&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exotic tree plantations in the Chilean Coastal Range: balancing the effects of discrete disturbances, connectivity, and a persistent drought on catchment erosion</title>
+      <link>https://hzambran.github.io/publications/2024-tolorza-exotic-tree/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2024-tolorza-exotic-tree/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Tolorza, V., Mohr, C. H., Zambrano-Bigiarini, M., Sotomayor, B., Poblete-Caballero, D., Carretier, S., Galleguillos, M., &amp; Seguel, O. (2024). Exotic tree plantations in the Chilean Coastal Range: balancing the effects of discrete disturbances, connectivity, and a persistent drought on catchment erosion. &lt;i&gt;Earth Surface Dynamics&lt;/i&gt;, &lt;i&gt;12&lt;/i&gt;(4), 841--861. &lt;a href=&#39;https://doi.org/10.5194/esurf-12-841-2024&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.5194/esurf-12-841-2024&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Mawün-NRT: Near real-time gridded precipitation for Chile</title>
       <link>https://hzambran.github.io/web-platforms/mawun-nrt/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
@@ -1752,6 +1970,98 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     </item>
     
     <item>
+      <title>HESS Opinions: The unsustainable use of groundwater conceals a &#39;Day Zero&#39;</title>
+      <link>https://hzambran.github.io/publications/2024-alvarezgarreton-hess-opinions/</link>
+      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2024-alvarezgarreton-hess-opinions/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Alvarez-Garreton, C., Boisier, J. P., Garreaud, R., González, J., Rondanelli, R., Gayó, E., &amp; Zambrano-Bigiarini, M. (2024). HESS Opinions: The unsustainable use of groundwater conceals a &#39;Day Zero&#39;. &lt;i&gt;Hydrology and Earth System Sciences&lt;/i&gt;, &lt;i&gt;28&lt;/i&gt;(7), 1605--1616. &lt;a href=&#39;https://doi.org/10.5194/hess-28-1605-2024&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.5194/hess-28-1605-2024&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-FONDAP 1523A0002&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Anemometer installation at the Invernada station</title>
       <link>https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
@@ -1831,6 +2141,190 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     </item>
     
     <item>
+      <title>On the timescale of drought indices for monitoring streamflow drought considering catchment hydrological regimes</title>
+      <link>https://hzambran.github.io/publications/2024-baezvillanueva-on-the/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2024-baezvillanueva-on-the/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Baez-Villanueva, O. M., Zambrano-Bigiarini, M., Miralles, D. G., Beck, H. E., Siegmund, J. F., Alvarez-Garreton, C., Verbist, K., Garreaud, R., Boisier, J. P., &amp; Galleguillos, M. (2024). On the timescale of drought indices for monitoring streamflow drought considering catchment hydrological regimes. &lt;i&gt;Hydrology and Earth System Sciences&lt;/i&gt;, &lt;i&gt;28&lt;/i&gt;(6), 1415--1439. &lt;a href=&#39;https://doi.org/10.5194/hess-28-1415-2024&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.5194/hess-28-1415-2024&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-Fondecyt Regular 1212071, ANID-PCI NSFC 190018, ANID-FONDAP 1522A0001, ANID-Sequía FSEQ210001&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Land Management Drifted: Land Use Scenario Modeling of Trancura River Basin, Araucanía, Chile</title>
+      <link>https://hzambran.github.io/publications/2024-diazjara-land-management/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2024-diazjara-land-management/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Díaz-Jara, A., Manuschevich, D., Grau, A., &amp; Zambrano-Bigiarini, M. (2024). Land Management Drifted: Land Use Scenario Modeling of Trancura River Basin, Araucanía, Chile. &lt;i&gt;Land&lt;/i&gt;, &lt;i&gt;13&lt;/i&gt;(2), 157. &lt;a href=&#39;https://doi.org/10.3390/land13020157&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.3390/land13020157&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-Fondecyt Regular 1212071, ANID-PCI NSFC 190018, ANID-FONDAP 1522A0001&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2023 was the warmest year on record, (NOAA)</title>
       <link>https://hzambran.github.io/blog/2024-01-12-2023_was_the_warmest_year_on_record/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
@@ -1864,6 +2358,98 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia</title>
+      <link>https://hzambran.github.io/publications/2024-aguayo-patagoniamet-a/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2024-aguayo-patagoniamet-a/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Aguayo, R., León-Muñoz, J., Aguayo, M., Baez-Villanueva, O. M., Zambrano-Bigiarini, M., Fernández, A., &amp; Jacques-Coper, M. (2024). PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia. &lt;i&gt;Scientific Data&lt;/i&gt;, &lt;i&gt;11&lt;/i&gt;(1). &lt;a href=&#39;https://doi.org/10.1038/s41597-023-02828-2&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1038/s41597-023-02828-2&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
 </description>
     </item>
     
@@ -2854,6 +3440,98 @@ data.head()
     </item>
     
     <item>
+      <title>Panta Rhei benchmark dataset: socio-hydrological data of paired events of floods and droughts</title>
+      <link>https://hzambran.github.io/publications/2023-kreibich-panta-rhei/</link>
+      <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2023-kreibich-panta-rhei/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Kreibich, , H., , Schröter, , K., , Baldassarre, D., G., , Loon, V., F, A., Mazzoleni, , M., , Abeshu, , W, G., Agafonova, , S., , AghaKouchak, , A., , Aksoy, , H., , Alvarez-Garreton, , C., , Aznar, , B., , Balkhi, , L., , Barendrecht, , H, M., Biancamaria, , S., , Bos-Burgering, , L., , Bradley, , C., , Budiyono, , Y., , Buytaert, , W., , Capewell, , L., , Carlson, , H., , Cavus, , Y., , Couasnon, , A., , Coxon, , G., , Daliakopoulos, , I., , Ruiter, d., C, M., Delus, , C., , Erfurt, , M., , Esposito, , G., , François, , D., , Frappart, , F., , Freer, , J., , Frolova, , N., , Gain, , K, A., Grillakis, , M., , Grima, , O, J., Guzmán, , A, D., Huning, , S, L., Ionita, , M., , Kharlamov, , M., , Khoi, , N, D., Kieboom, , N., , Kireeva, , M., , Koutroulis, , A., , Lavado-Casimiro, , W., , Li, , H.-Y., , LLasat, , C, M., Macdonald, , D., , Mård, , J., , Mathew-Richards, , H., , McKenzie, , A., , Mejia, , A., , Mendiondo, , M, E., Mens, , M., , Mobini, , S., , Mohor, , S, G., Nagavciuc, , V., , Ngo-Duc, , T., , Nguyen, , T, H. T., Nhi, , T, P. T., Petrucci, , O., , Quan, , H, N., Quintana-Seguí, , P., , Razavi, , S., , Ridolfi, , E., , Riegel, , J., , Sadik, , S, M., Sairam, , N., , Savelli, , E., , Sazonov, , A., , Sharma, , S., , Sörensen, , J., , Souza, , A, F. A., Stahl, , K., , Steinhausen, , M., , Stoelzle, , M., , Szalińska, , W., , Tang, , Q., , Tian, , F., , Tokarczyk, , T., , Tovar, , C., , Tran, , T, T. V., Huijgevoort, v., J, M. H., Vliet, v., H, M. T., Vorogushyn, , S., , Wagener, , T., , Wang, , Y., , Wendt, , E, D., Wickham, , E., , Yang, , L., , Zambrano-Bigiarini, M., Ward, , &amp; and J, P. (2023). Panta Rhei benchmark dataset: socio-hydrological data of paired events of floods and droughts. &lt;i&gt;Earth System Science Data&lt;/i&gt;, &lt;i&gt;15&lt;/i&gt;(5), 2009--2023. &lt;a href=&#39;https://doi.org/10.5194/essd-15-2009-2023&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.5194/essd-15-2009-2023&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Four works at EGU 2023</title>
       <link>https://hzambran.github.io/dissemination/2023-05-02-egu2023/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
@@ -3104,6 +3782,98 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     </item>
     
     <item>
+      <title>The challenge of unprecedented floods and droughts in risk management</title>
+      <link>https://hzambran.github.io/publications/2022-kreibich-the-challenge/</link>
+      <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2022-kreibich-the-challenge/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Kreibich, H., Van Loon, A. F., Schröter, K., Ward, P. J., Mazzoleni, M., Sairam, N., Abeshu, G. W., Agafonova, S., AghaKouchak, A., Aksoy, H., Alvarez-Garreton, C., Aznar, B., Balkhi, L., Barendrecht, M. H., Biancamaria, S., Bos-Burgering, L., Bradley, C., Budiyono, Y., Buytaert, W., Capewell, L., Carlson, H., Cavus, Y., Couasnon, A., Coxon, G., Daliakopoulos, I., de Ruiter, M. C., Delus, C., Erfurt, M., Esposito, G., François, D., Frappart, F., Freer, J., Frolova, N., Gain, A. K., Grillakis, M., Grima, J. O., Guzmán, D. A., Huning, L. S., Ionita, M., Kharlamov, M., Khoi, D. N., Kieboom, N., Kireeva, M., Koutroulis, A., Lavado-Casimiro, W., Li, H., LLasat, M. C., Macdonald, D., Mård, J., Mathew-Richards, H., McKenzie, A., Mejia, A., Mendiondo, E. M., Mens, M., Mobini, S., Mohor, G. S., Nagavciuc, V., Ngo-Duc, T., Nguyen Huynh, T. T., Nhi, P. T. T., Petrucci, O., Quan Nguyen, H., Quintana-Seguí, P., Razavi, S., Ridolfi, E., Riegel, J., Sadik, M. S., Savelli, E., Sazonov, A., Sharma, S., Sörensen, J., Souza, F. A. A., Stahl, K., Steinhausen, M., Stoelzle, M., Szalińska, W., Tang, Q., Tian, F., Tokarczyk, T., Tovar, C., Tran, T. V. T., Van Huijgevoort, M. H. J., van Vliet, M. T. H., Vorogushyn, S., Wagener, T., Wang, Y., Wendt, D. E., Wickham, E., Yang, L., Zambrano-Bigiarini, M., Blöschl, G., &amp; Di Baldassarre, G. (2022). The challenge of unprecedented floods and droughts in risk management. &lt;i&gt;Nature&lt;/i&gt;, &lt;i&gt;608&lt;/i&gt;(7921), 80--86. &lt;a href=&#39;https://doi.org/10.1038/s41586-022-04917-5&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1038/s41586-022-04917-5&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Is the megadrought over with the last frontal system? (The Clinic)</title>
       <link>https://hzambran.github.io/blog/2022-07-19-termino_la_megasequia-theclinic/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
@@ -3120,6 +3890,282 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>A coupled modeling approach to assess the effect of forest policies in water provision: A biophysical evaluation of a drought-prone rural catchment in south-central Chile</title>
+      <link>https://hzambran.github.io/publications/2022-gimeno-a-coupled/</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2022-gimeno-a-coupled/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Gimeno, F., Galleguillos, M., Manuschevich, D., &amp; Zambrano-Bigiarini, M. (2022). A coupled modeling approach to assess the effect of forest policies in water provision: A biophysical evaluation of a drought-prone rural catchment in south-central Chile. &lt;i&gt;Science of the Total Environment&lt;/i&gt;, &lt;i&gt;830&lt;/i&gt;, 154608. &lt;a href=&#39;https://doi.org/10.1016/j.scitotenv.2022.154608&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1016/j.scitotenv.2022.154608&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-PCI NSFC 190018, ANID-FONDAP 15110009&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the selection of precipitation products for the regionalisation of hydrological model parameters</title>
+      <link>https://hzambran.github.io/publications/2021-baezvillanueva-on-the/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2021-baezvillanueva-on-the/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Baez-Villanueva, O. M., Zambrano-Bigiarini, M., Mendoza, P. A., McNamara, I., Beck, H. E., Thurner, J., Nauditt, A., Ribbe, L., &amp; Thinh, N. X. (2021). On the selection of precipitation products for the regionalisation of hydrological model parameters. &lt;i&gt;Hydrology and Earth System Sciences&lt;/i&gt;, &lt;i&gt;25&lt;/i&gt;(11), 5805--5837. &lt;a href=&#39;https://doi.org/10.5194/hess-25-5805-2021&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.5194/hess-25-5805-2021&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-Fondecyt Iniciación 11150861&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Towards best default configuration settings for NMPSO in multi-objective optimization</title>
+      <link>https://hzambran.github.io/publications/2021-marinaorivas-towards-best/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2021-marinaorivas-towards-best/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Marinao-Rivas, R. &amp; Zambrano-Bigiarini, M. (2021). Towards best default configuration settings for NMPSO in multi-objective optimization. &lt;i&gt;2021 IEEE Latin American Conference on Computational Intelligence (LA-CCI)&lt;/i&gt;, 1--6. &lt;a href=&#39;https://doi.org/10.1109/LA-CCI48322.2021.9769844&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1109/LA-CCI48322.2021.9769844&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-Fondecyt Regular 1212071, ANID-PCI NSFC 190018&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
 </description>
     </item>
     
@@ -3141,6 +4187,98 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>How well do gridded precipitation and actual evapotranspiration products represent the key water balance components in the Nile Basin?</title>
+      <link>https://hzambran.github.io/publications/2021-mcnamara-how-well/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2021-mcnamara-how-well/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;McNamara, I., Baez-Villanueva, O. M., Zomorodian, A., Ayyad, S., Zambrano-Bigiarini, M., Zaroug, M., Mersha, A., Nauditt, A., Mbuliro, M., Wamala, S., &amp; Ribbe, L. (2021). How well do gridded precipitation and actual evapotranspiration products represent the key water balance components in the Nile Basin?. &lt;i&gt;Journal of Hydrology: Regional Studies&lt;/i&gt;, &lt;i&gt;37&lt;/i&gt;, 100884. &lt;a href=&#39;https://doi.org/10.1016/j.ejrh.2021.100884&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1016/j.ejrh.2021.100884&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
 </description>
     </item>
     
@@ -3289,6 +4427,98 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Disentangling the effect of future land use strategies and climate change on streamflow in a Mediterranean catchment dominated by tree plantations</title>
+      <link>https://hzambran.github.io/publications/2021-galleguillos-disentangling-the/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2021-galleguillos-disentangling-the/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Galleguillos, M., Gimeno, F., Puelma, C., Zambrano-Bigiarini, M., Lara, A., &amp; Rojas, M. (2021). Disentangling the effect of future land use strategies and climate change on streamflow in a Mediterranean catchment dominated by tree plantations. &lt;i&gt;Journal of Hydrology&lt;/i&gt;, 126047. &lt;a href=&#39;https://doi.org/10.1016/j.jhydrol.2021.126047&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1016/j.jhydrol.2021.126047&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-Fondecyt Regular 1171560, ANID-FONDAP 15110009&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
 </description>
     </item>
     
@@ -3507,6 +4737,98 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Modelling water resources for planning irrigation development in drought-prone southern Chile</title>
+      <link>https://hzambran.github.io/publications/2020-mcnamara-modelling-water/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2020-mcnamara-modelling-water/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;McNamara, I., Nauditt, A., Zambrano-Bigiarini, M., Ribbe, L., &amp; Hann, H. (2020). Modelling water resources for planning irrigation development in drought-prone southern Chile. &lt;i&gt;International Journal of Water Resources Development&lt;/i&gt;, 1. &lt;a href=&#39;https://doi.org/10.1080/07900627.2020.1768828&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1080/07900627.2020.1768828&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-Fondecyt Iniciación 11150861&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
 </description>
     </item>
     
@@ -3776,6 +5098,282 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     </item>
     
     <item>
+      <title>RF-MEP: A novel Random Forest method for merging gridded precipitation products and ground-based measurements</title>
+      <link>https://hzambran.github.io/publications/2020-baezvillanueva-rfmep-a/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2020-baezvillanueva-rfmep-a/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Baez-Villanueva, O. M., Zambrano-Bigiarini, M., Beck, H. E., McNamara, I., Ribbe, L., Nauditt, A., Birkel, C., Verbist, K., Giraldo-Osorio, J. D., &amp; Xuan Thinh, N. (2020). RF-MEP: A novel Random Forest method for merging gridded precipitation products and ground-based measurements. &lt;i&gt;Remote Sensing of Environment&lt;/i&gt;, &lt;i&gt;239&lt;/i&gt;, 111606. &lt;a href=&#39;https://doi.org/10.1016/j.rse.2019.111606&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1016/j.rse.2019.111606&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-Fondecyt Iniciación 11150861, ANID-FONDAP 15110009&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bias Correction of Global High-Resolution Precipitation Climatologies Using Streamflow Observations from 9372 Catchments</title>
+      <link>https://hzambran.github.io/publications/2020-beck-bias-correction/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2020-beck-bias-correction/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Beck, H. E., Wood, E. F., McVicar, T. R., Zambrano-Bigiarini, M., Alvarez-Garreton, C., Baez-Villanueva, O. M., Sheffield, J., &amp; Karger, D. N. (2020). Bias Correction of Global High-Resolution Precipitation Climatologies Using Streamflow Observations from 9372 Catchments. &lt;i&gt;Journal of Climate&lt;/i&gt;, &lt;i&gt;33&lt;/i&gt;(4), 1299--1315. &lt;a href=&#39;https://doi.org/10.1175/JCLI-D-19-0332.1&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1175/JCLI-D-19-0332.1&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-FONDAP 15110009&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hydrological Processes Special Issue \&#34;Hydrological processes across climatic and geomorphological gradients of Latin America</title>
+      <link>https://hzambran.github.io/publications/2019-birkel-hydrological-processes/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2019-birkel-hydrological-processes/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Birkel, C., Moore, G. W., &amp; Zambrano-Bigiarini, M. (2019). Hydrological Processes Special Issue &#34;Hydrological processes across climatic and geomorphological gradients of Latin America. &lt;i&gt;Hydrological Processes&lt;/i&gt;, &lt;i&gt;34&lt;/i&gt;(2), 156--158. &lt;a href=&#39;https://doi.org/10.1002/hyp.13648&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1002/hyp.13648&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-FONDAP 15110009&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Management of global change impacts on hydrological extremes by coupling remote sensing data and an interdisciplinary modelling approach (NSFC190018)</title>
       <link>https://hzambran.github.io/projects/2023-2024-nsfc190018/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
@@ -3853,6 +5451,98 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Validation of Cryogenic Vacuum Extraction of Pore Water from Volcanic Soils for Isotopic Analysis</title>
+      <link>https://hzambran.github.io/publications/2019-rivera-validation-of/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2019-rivera-validation-of/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Rivera, D., Gutierrez, K., Valdivia-Cea, W., Zambrano-Bigiarini, M., Godoy-Faúndez, A., Álvez, A., &amp; Farías, L. (2019). Validation of Cryogenic Vacuum Extraction of Pore Water from Volcanic Soils for Isotopic Analysis. &lt;i&gt;Water&lt;/i&gt;, &lt;i&gt;11&lt;/i&gt;(11), 2214. &lt;a href=&#39;https://doi.org/10.3390/w11112214&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.3390/w11112214&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
 </description>
     </item>
     
@@ -4220,6 +5910,98 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     </item>
     
     <item>
+      <title>Particle swarm optimization for the estimation of surface complexation constants with the geochemical model PHREEQC-3.1.2</title>
+      <link>https://hzambran.github.io/publications/2019-abdelaziz-particle-swarm/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2019-abdelaziz-particle-swarm/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Abdelaziz, R., Merkel, B. J., Zambrano-Bigiarini, M., &amp; Nair, S. (2019). Particle swarm optimization for the estimation of surface complexation constants with the geochemical model PHREEQC-3.1.2. &lt;i&gt;Geoscientific Model Development&lt;/i&gt;, &lt;i&gt;12&lt;/i&gt;(1), 167--177. &lt;a href=&#39;https://doi.org/10.5194/gmd-12-167-2019&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.5194/gmd-12-167-2019&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Oral presentation at AGU 2018</title>
       <link>https://hzambran.github.io/dissemination/2018-12-15-agu2018/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
@@ -4266,6 +6048,98 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     </item>
     
     <item>
+      <title>Temporal and spatial evaluation of long-term satellite-based precipitation products across the complex topographical and climatic gradients of Chile</title>
+      <link>https://hzambran.github.io/publications/2018-zambranobigiarini-temporal-and/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2018-zambranobigiarini-temporal-and/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Zambrano-Bigiarini, M. (2018). Temporal and spatial evaluation of long-term satellite-based precipitation products across the complex topographical and climatic gradients of Chile. &lt;i&gt;Proceedings of the SPIE&lt;/i&gt;, &lt;i&gt;10782&lt;/i&gt;, 1078202. &lt;a href=&#39;https://doi.org/10.1117/12.2513645&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1117/12.2513645&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Visiting period at NASA&#39;s Jet Propulsion Laboratory</title>
       <link>https://hzambran.github.io/blog/2018-09-18-jpl2018/</link>
       <pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate>
@@ -4286,6 +6160,98 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Temporal and spatial evaluation of satellite rainfall estimates over different regions in Latin-America</title>
+      <link>https://hzambran.github.io/publications/2018-baezvillanueva-temporal-and/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2018-baezvillanueva-temporal-and/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Baez-Villanueva, O. M., Zambrano-Bigiarini, M., Ribbe, L., Nauditt, A., Giraldo-Osorio, J. D., &amp; Thinh, N. X. (2018). Temporal and spatial evaluation of satellite rainfall estimates over different regions in Latin-America. &lt;i&gt;Atmospheric Research&lt;/i&gt;. &lt;a href=&#39;https://doi.org/10.1016/j.atmosres.2018.05.011&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1016/j.atmosres.2018.05.011&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
 </description>
     </item>
     
@@ -4343,6 +6309,98 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>The 2010-2015 megadrought in central Chile: impacts on regional hydroclimate and vegetation</title>
+      <link>https://hzambran.github.io/publications/2017-garreaud-the-20102015/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2017-garreaud-the-20102015/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Garreaud, R. D., Alvarez-Garreton, C., Barichivich, J., Boisier, J. P., Christie, D., Galleguillos, M., LeQuesne, C., McPhee, J., &amp; Zambrano-Bigiarini, M. (2017). The 2010-2015 megadrought in central Chile: impacts on regional hydroclimate and vegetation. &lt;i&gt;Hydrology and Earth System Sciences&lt;/i&gt;, &lt;i&gt;21&lt;/i&gt;(12), 6307--6327. &lt;a href=&#39;https://doi.org/10.5194/hess-21-6307-2017&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.5194/hess-21-6307-2017&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
 </description>
     </item>
     
@@ -4430,6 +6488,98 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Temporal and spatial evaluation of satellite-based rainfall estimates across the complex topographical and climatic gradients of Chile</title>
+      <link>https://hzambran.github.io/publications/2017-zambranobigiarini-temporal-and/</link>
+      <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2017-zambranobigiarini-temporal-and/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Zambrano-Bigiarini, M., Nauditt, A., Birkel, C., Verbist, K., &amp; Ribbe, L. (2017). Temporal and spatial evaluation of satellite-based rainfall estimates across the complex topographical and climatic gradients of Chile. &lt;i&gt;Hydrology and Earth System Sciences&lt;/i&gt;, &lt;i&gt;21&lt;/i&gt;(2), 1295--1320. &lt;a href=&#39;https://doi.org/10.5194/hess-21-1295-2017&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.5194/hess-21-1295-2017&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
 </description>
     </item>
     
@@ -5537,6 +7687,190 @@ Navigate down for sub-topics!&lt;/p&gt;
     </item>
     
     <item>
+      <title>The br2-weighting Method for Estimating the Effects of Air Pollution on Population Health</title>
+      <link>https://hzambran.github.io/publications/2016-krstic-the-br2weighting/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2016-krstic-the-br2weighting/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Krstic, G., Krstic, N. S., &amp; Zambrano-Bigiarini, M. (2016). The br2-weighting Method for Estimating the Effects of Air Pollution on Population Health. &lt;i&gt;Journal of Modern Applied Statistical Methods&lt;/i&gt;, &lt;i&gt;15&lt;/i&gt;(2), 42. &lt;a href=&#39;https://doi.org/10.22237/jmasm/1478004000&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.22237/jmasm/1478004000&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assessing the role of uncertain precipitation estimates on the robustness of hydrological model parameters under highly variable climate conditions</title>
+      <link>https://hzambran.github.io/publications/2016-bisselink-assessing-the/</link>
+      <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2016-bisselink-assessing-the/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Bisselink, B., Zambrano-Bigiarini, M., Burek, P., &amp; de Roo, A. (2016). Assessing the role of uncertain precipitation estimates on the robustness of hydrological model parameters under highly variable climate conditions. &lt;i&gt;Journal of Hydrology: Regional Studies&lt;/i&gt;, &lt;i&gt;8&lt;/i&gt;, 112--129. &lt;a href=&#39;https://doi.org/10.1016/j.ejrh.2016.09.003&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1016/j.ejrh.2016.09.003&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Drought in Puyehue and Rupanco lakes (SoyChile.cl)</title>
       <link>https://hzambran.github.io/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</link>
       <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
@@ -5728,6 +8062,98 @@ During additional side events of the Nexus Week, the participants developed new 
     </item>
     
     <item>
+      <title>Forestry development, water scarcity, and the Mapuche protest for environmental justice in Chile</title>
+      <link>https://hzambran.github.io/publications/2016-torressalinas-forestry-development/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2016-torressalinas-forestry-development/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Torres-Salinas, R., García, G. A., Henríquez, N. C., Zambrano-Bigiarini, M., Costa, T., &amp; Bolin, B. (2016). Forestry development, water scarcity, and the Mapuche protest for environmental justice in Chile. &lt;i&gt;Ambiente &amp; Sociedade&lt;/i&gt;, &lt;i&gt;19&lt;/i&gt;(1), 121--146. &lt;a href=&#39;https://doi.org/10.1590/1809-4422ASOC150134R1V1912016&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1590/1809-4422ASOC150134R1V1912016&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2015 was the warmest year ever recorded on Earth (NASA-NOAA)</title>
       <link>https://hzambran.github.io/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
@@ -5753,6 +8179,558 @@ In the past, the highest global temperature records were often set in El Niño y
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+</description>
+    </item>
+    
+    <item>
+      <title>Comparison of stationary and dynamic conceptual models in a mountainous and data-sparse catchment in the South-central Chilean Andes</title>
+      <link>https://hzambran.github.io/publications/2015-toledo-comparison-of/</link>
+      <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2015-toledo-comparison-of/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Toledo, C., Muñoz, E., &amp; Zambrano-Bigiarini, M. (2015). Comparison of stationary and dynamic conceptual models in a mountainous and data-sparse catchment in the South-central Chilean Andes. &lt;i&gt;Advances in Meteorology&lt;/i&gt;, &lt;i&gt;2015&lt;/i&gt;. &lt;a href=&#39;https://doi.org/10.1155/2015/526158&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1155/2015/526158&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Particle Swarm Optimization for inverse modeling of solute transport in fractured gneiss aquifer</title>
+      <link>https://hzambran.github.io/publications/2014-abdelaziz-particle-swarm/</link>
+      <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2014-abdelaziz-particle-swarm/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Abdelaziz, R. &amp; Zambrano-Bigiarini, M. (2014). Particle Swarm Optimization for inverse modeling of solute transport in fractured gneiss aquifer. &lt;i&gt;Journal of Contaminant Hydrology&lt;/i&gt;, &lt;i&gt;164&lt;/i&gt;, 285--298. &lt;a href=&#39;https://doi.org/10.1016/j.jconhyd.2014.06.003&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1016/j.jconhyd.2014.06.003&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hydrological evaluation of satellite-based rainfall estimates over the Volta and Baro-Akobo Basin</title>
+      <link>https://hzambran.github.io/publications/2013-thiemig-hydrological-evaluation/</link>
+      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2013-thiemig-hydrological-evaluation/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Thiemig, V., Rojas, R., Zambrano-Bigiarini, M., &amp; De Roo, A. (2013). Hydrological evaluation of satellite-based rainfall estimates over the Volta and Baro-Akobo Basin. &lt;i&gt;Journal of Hydrology&lt;/i&gt;, &lt;i&gt;499&lt;/i&gt;, 324--338. &lt;a href=&#39;https://doi.org/10.1016/j.jhydrol.2013.07.012&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1016/j.jhydrol.2013.07.012&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Standard Particle Swarm Optimisation 2011 at CEC-2013: A baseline for future PSO improvements</title>
+      <link>https://hzambran.github.io/publications/2013-zambranobigiarini-standard-particle/</link>
+      <pubDate>Sun, 23 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2013-zambranobigiarini-standard-particle/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Zambrano-Bigiarini, M., Clerc, M., &amp; Rojas, R. (2013). Standard Particle Swarm Optimisation 2011 at CEC-2013: A baseline for future PSO improvements. &lt;i&gt;2013 IEEE Congress on Evolutionary Computation&lt;/i&gt;, 2337--2344. &lt;a href=&#39;https://doi.org/10.1109/CEC.2013.6557848&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1109/CEC.2013.6557848&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A model-independent Particle Swarm Optimisation software for model calibration</title>
+      <link>https://hzambran.github.io/publications/2013-zambranobigiarini-a-modelindependent/</link>
+      <pubDate>Tue, 26 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2013-zambranobigiarini-a-modelindependent/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Zambrano-Bigiarini, M. &amp; Rojas, R. (2013). A model-independent Particle Swarm Optimisation software for model calibration. &lt;i&gt;Environmental Modelling &amp; Software&lt;/i&gt;, &lt;i&gt;43&lt;/i&gt;, 5--25. &lt;a href=&#39;https://doi.org/10.1016/j.envsoft.2013.01.004&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1016/j.envsoft.2013.01.004&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Validation of Satellite-Based Precipitation Products over Sparsely Gauged African River Basins</title>
+      <link>https://hzambran.github.io/publications/2012-thiemig-validation-of/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2012-thiemig-validation-of/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Thiemig, V., Rojas, R., Zambrano-Bigiarini, M., Levizzani, V., &amp; De Roo, A. (2012). Validation of Satellite-Based Precipitation Products over Sparsely Gauged African River Basins. &lt;i&gt;Journal of Hydrometeorology&lt;/i&gt;, &lt;i&gt;13&lt;/i&gt;(6), 1760--1783. &lt;a href=&#39;https://doi.org/10.1175/JHM-D-12-032.1&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1175/JHM-D-12-032.1&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
 </description>
     </item>
     
@@ -6750,7 +9728,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-329645781&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-187356942&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -6768,7 +9746,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-329645781&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-187356942&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

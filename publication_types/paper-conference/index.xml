@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper-Conference | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/publication_types/paper-conference/</link>
+      <atom:link href="https://hzambran.github.io/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paper-Conference</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <title>Paper-Conference</title>
+      <link>https://hzambran.github.io/publication_types/paper-conference/</link>
+    </image>
+    
+    <item>
+      <title>Towards best default configuration settings for NMPSO in multi-objective optimization</title>
+      <link>https://hzambran.github.io/publications/2021-marinaorivas-towards-best/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2021-marinaorivas-towards-best/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Marinao-Rivas, R. &amp; Zambrano-Bigiarini, M. (2021). Towards best default configuration settings for NMPSO in multi-objective optimization. &lt;i&gt;2021 IEEE Latin American Conference on Computational Intelligence (LA-CCI)&lt;/i&gt;, 1--6. &lt;a href=&#39;https://doi.org/10.1109/LA-CCI48322.2021.9769844&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1109/LA-CCI48322.2021.9769844&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;ANID-Fondecyt Regular 1212071, ANID-PCI NSFC 190018&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Standard Particle Swarm Optimisation 2011 at CEC-2013: A baseline for future PSO improvements</title>
+      <link>https://hzambran.github.io/publications/2013-zambranobigiarini-standard-particle/</link>
+      <pubDate>Sun, 23 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/publications/2013-zambranobigiarini-standard-particle/</guid>
+      <description>&lt;style&gt;
+  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
+      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  }
+  .manual-content {
+      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+  }
+  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+  .citation-block {
+      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+  }
+  .author-card, .share-box, .article-widget.content-widget-hr { 
+      display: none !important; 
+  }
+  .featured-img-container {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .featured-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+&lt;/style&gt;
+&lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
+&lt;div style=&#39;margin-top: 15px;&#39;&gt;&lt;strong&gt;Citation:&lt;/strong&gt;&lt;br&gt;&lt;div class=&#39;citation-block&#39;&gt;Zambrano-Bigiarini, M., Clerc, M., &amp; Rojas, R. (2013). Standard Particle Swarm Optimisation 2011 at CEC-2013: A baseline for future PSO improvements. &lt;i&gt;2013 IEEE Congress on Evolutionary Computation&lt;/i&gt;, 2337--2344. &lt;a href=&#39;https://doi.org/10.1109/CEC.2013.6557848&#39; target=&#39;_blank&#39;&gt;https://doi.org/10.1109/CEC.2013.6557848&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#39;featured-img-container&#39;&gt;&lt;img src=&#39;featured.jpg&#39; alt=&#39;Featured Publication Image&#39;&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;script&gt;
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    var publicationFound = false;
+    var projectsText = &#39;&#39;;
+
+    function replacePublication(node) {
+        if (node.nodeType === 3) { 
+            var text = node.nodeValue;
+            if (text.includes(&#39;Publication&#39;)) {
+                var newText = text.replace(/Publication/g, &#39;Journal&#39;);
+                node.nodeValue = newText;
+            }
+            if (text.trim() === &#39;In&#39;) { node.nodeValue = &#39;Journal&#39;; }
+        }
+    }
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+    var node;
+    while(node = walker.nextNode()) { replacePublication(node); }
+
+    // Dynamically bold the target author&#39;s name
+    var authorElements = document.querySelectorAll(&#39;.article-metadata a, .article-metadata span, .author-card .card-title&#39;);
+    authorElements.forEach(function(el) {
+        if (el.textContent.includes(&#39;Mauricio Zambrano-Bigiarini&#39;)) {
+            el.style.fontWeight = &#39;bold&#39;;
+        }
+    });
+
+    // Dynamically insert Projects field immediately after the Journal field
+    if (projectsText !== &#39;&#39;) {
+        var headings = document.querySelectorAll(&#39;.pub-row-heading&#39;);
+        headings.forEach(function(heading) {
+            if (heading.textContent.trim() === &#39;Journal&#39;) {
+                publicationFound = true;
+                var parentRow = heading.parentElement;
+                
+                var newRow = document.createElement(&#39;div&#39;);
+                newRow.className = &#39;row&#39;;
+                newRow.style.paddingTop = &#39;10px&#39;;
+                newRow.innerHTML = &#39;&lt;div class=&#34;col-12 col-md-3 pub-row-heading&#34;&gt;Projects&lt;/div&gt;&lt;div class=&#34;col-12 col-md-9&#34;&gt;&#39; + projectsText + &#39;&lt;/div&gt;&#39;;
+                
+                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);
+            }
+        });
+        
+        // Fallback: If &#39;Journal&#39; isn&#39;t found, safely place it at the top of the manual content
+        if (!publicationFound) {
+            var manualContent = document.querySelector(&#39;.manual-content&#39;);
+            if (manualContent) {
+                var fallbackDiv = document.createElement(&#39;div&#39;);
+                fallbackDiv.style.marginBottom = &#39;15px&#39;;
+                fallbackDiv.innerHTML = &#39;&lt;strong&gt;Projects:&lt;/strong&gt; &#39; + projectsText;
+                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
+            }
+        }
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
