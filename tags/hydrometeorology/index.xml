@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hydrometeorology | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/hydrometeorology/</link>
-      <atom:link href="https://hzambran.github.io/tags/hydrometeorology/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/hydrometeorology/</link>
+      <atom:link href="http://localhost:1313/tags/hydrometeorology/index.xml" rel="self" type="application/rss+xml" />
     <description>Hydrometeorology</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Hydrometeorology</title>
-      <link>https://hzambran.github.io/tags/hydrometeorology/</link>
+      <link>http://localhost:1313/tags/hydrometeorology/</link>
     </image>
     
     <item>
       <title>SICA: Integrated Climate and Water System in Chile (TA25I10030. )</title>
-      <link>https://hzambran.github.io/projects/2025-2029-ta25i10030/</link>
+      <link>http://localhost:1313/projects/2025-2029-ta25i10030/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/projects/2025-2029-ta25i10030/</guid>
+      <guid>http://localhost:1313/projects/2025-2029-ta25i10030/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 

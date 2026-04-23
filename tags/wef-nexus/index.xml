@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WEF-Nexus | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/wef-nexus/</link>
-      <atom:link href="https://hzambran.github.io/tags/wef-nexus/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/wef-nexus/</link>
+      <atom:link href="http://localhost:1313/tags/wef-nexus/index.xml" rel="self" type="application/rss+xml" />
     <description>WEF-Nexus</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jul 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>WEF-Nexus</title>
-      <link>https://hzambran.github.io/tags/wef-nexus/</link>
+      <link>http://localhost:1313/tags/wef-nexus/</link>
     </image>
     
     <item>
       <title>Research and Education Week on the Water, Energy and Food Security Nexus</title>
-      <link>https://hzambran.github.io/dissemination/2016-07-15-nexusweek_at_itt/</link>
+      <link>http://localhost:1313/dissemination/2016-07-15-nexusweek_at_itt/</link>
       <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2016-07-15-nexusweek_at_itt/</guid>
+      <guid>http://localhost:1313/dissemination/2016-07-15-nexusweek_at_itt/</guid>
       <description>&lt;p&gt;The 
  (WEF Nexus) is currently a highly important debate in environmental policy with expected implications for priorities in research, education and international cooperation. Increasing demands for water, energy and food together with external and internal change drivers on current natural resources use patterns make the Nexus idea crucial to understand the multiple resource use interlinkages.
 The 
@@ -39,7 +39,7 @@ The
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2016-07-14-WEF_Nexus_Group-768x512.jpg&#34; alt=&#34;WEF_Nexus_Group&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/2016-07-14-WEF_Nexus_Group-768x512.jpg&#34; alt=&#34;WEF_Nexus_Group&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;During the Nexus Week, the professor &lt;strong&gt;Mauricio Zambrano-Bigiarini&lt;/strong&gt; along with international partners presented their case studies from related projects as &lt;em&gt;nexus laboratories&lt;/em&gt; useful for enhancing educational contents and outlining future collaborative research activities. International experts and young researchers were involved in providing insights on the WEF Nexus topic from ongoing research and and outlining further research demand.

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Petorca | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/petorca/</link>
-      <atom:link href="https://hzambran.github.io/tags/petorca/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/petorca/</link>
+      <atom:link href="http://localhost:1313/tags/petorca/index.xml" rel="self" type="application/rss+xml" />
     <description>Petorca</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Petorca</title>
-      <link>https://hzambran.github.io/tags/petorca/</link>
+      <link>http://localhost:1313/tags/petorca/</link>
     </image>
     
     <item>
       <title>The catchment’s memory: understanding how hydrological extremes are modulated by antecedent soil moisture conditions in a warmer climate</title>
-      <link>https://hzambran.github.io/projects/2021-2025-fondecyt1212071/</link>
+      <link>http://localhost:1313/projects/2021-2025-fondecyt1212071/</link>
       <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/projects/2021-2025-fondecyt1212071/</guid>
+      <guid>http://localhost:1313/projects/2021-2025-fondecyt1212071/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 

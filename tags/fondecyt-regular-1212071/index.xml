@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fondecyt Regular 1212071 | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/fondecyt-regular-1212071/</link>
-      <atom:link href="https://hzambran.github.io/tags/fondecyt-regular-1212071/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/fondecyt-regular-1212071/</link>
+      <atom:link href="http://localhost:1313/tags/fondecyt-regular-1212071/index.xml" rel="self" type="application/rss+xml" />
     <description>Fondecyt Regular 1212071</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Fondecyt Regular 1212071</title>
-      <link>https://hzambran.github.io/tags/fondecyt-regular-1212071/</link>
+      <link>http://localhost:1313/tags/fondecyt-regular-1212071/</link>
     </image>
     
     <item>
       <title>Two works at EGU 2025</title>
-      <link>https://hzambran.github.io/dissemination/2025-04-29-egu2025/</link>
+      <link>http://localhost:1313/dissemination/2025-04-29-egu2025/</link>
       <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-04-29-egu2025/</guid>
+      <guid>http://localhost:1313/dissemination/2025-04-29-egu2025/</guid>
       <description>&lt;p&gt;During the week of April 28th to May 2nd, 2025, I participated in the 2025 European Geosciences Union (
 ) Conference, held in Vienna, Austria. This is the most important European conference in the field of Earth Sciences, held annually and attracting researchers from all over the world.&lt;/p&gt;
 &lt;p&gt;On this occasion, I presented a poster and participated as a co-author in an oral presentation:&lt;/p&gt;
@@ -28,7 +28,7 @@
  in U. de Chile.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-04-29-egu2025/Foto1-MZB.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-04-29-egu2025/Foto1-MZB.jpg&#34;
     alt=&#34;Poster at EGU 2025&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Dr. Zambrano-Bigiarini at EGU 2025&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -40,13 +40,13 @@
  and the Fondecyt Regular project 1212071.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-04-29-egu2025/Foto2a-HGF.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-04-29-egu2025/Foto2a-HGF.jpg&#34;
     alt=&#34;Héctor Garcés F. at EGU 2025&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Héctor Garcés F. at EGU 2025&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-04-29-egu2025/Foto2b-HGF.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-04-29-egu2025/Foto2b-HGF.jpg&#34;
     alt=&#34;Héctor Garcés F. at EGU 2025&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Héctor Garcés F. at EGU 2025&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -57,7 +57,7 @@
  from Ghent University (Belgium), and with 
  from Sun Yat-sen University (China, co-PI of the international collaboration project NSFC190018), among others.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-04-29-egu2025/MZB_AP_italiano.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-04-29-egu2025/MZB_AP_italiano.jpg&#34;
     alt=&#34;EGU 2025&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Dr. Zambrano-Bigiarini, Dr. Pizarro and an Italian colleague at EGU 2025&lt;/p&gt;
     &lt;/figcaption&gt;

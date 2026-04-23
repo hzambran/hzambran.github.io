@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article-Journal | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/publication_types/article-journal/</link>
-      <atom:link href="https://hzambran.github.io/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication_types/article-journal/</link>
+      <atom:link href="http://localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Article-Journal</title>
-      <link>https://hzambran.github.io/publication_types/article-journal/</link>
+      <link>http://localhost:1313/publication_types/article-journal/</link>
     </image>
     
     <item>
       <title>From grid to ground: how well do gridded products represent soil moisture dynamics in natural ecosystems during precipitation events?</title>
-      <link>https://hzambran.github.io/publications/2026-nunezibarra-from-grid/</link>
+      <link>http://localhost:1313/publications/2026-nunezibarra-from-grid/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2026-nunezibarra-from-grid/</guid>
+      <guid>http://localhost:1313/publications/2026-nunezibarra-from-grid/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -106,9 +106,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Developing Intensity-Duration-Frequency (IDF) curves using sub-daily gridded and in situ datasets: characterising precipitation extremes in a drying climate</title>
-      <link>https://hzambran.github.io/publications/2026-sotoescobar-developing-intensitydurationfrequency/</link>
+      <link>http://localhost:1313/publications/2026-sotoescobar-developing-intensitydurationfrequency/</link>
       <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2026-sotoescobar-developing-intensitydurationfrequency/</guid>
+      <guid>http://localhost:1313/publications/2026-sotoescobar-developing-intensitydurationfrequency/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -198,9 +198,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>hydroMOPSO: A flexible and model-independent multi-objective optimisation R package for environmental and hydrological models</title>
-      <link>https://hzambran.github.io/publications/2026-marinao-hydromopso-a/</link>
+      <link>http://localhost:1313/publications/2026-marinao-hydromopso-a/</link>
       <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2026-marinao-hydromopso-a/</guid>
+      <guid>http://localhost:1313/publications/2026-marinao-hydromopso-a/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -290,9 +290,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Hydropedological clustering: improving the representation of low streamflows in a semi-distributed hydrological model</title>
-      <link>https://hzambran.github.io/publications/2025-gimeno-hydropedological-clustering/</link>
+      <link>http://localhost:1313/publications/2025-gimeno-hydropedological-clustering/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2025-gimeno-hydropedological-clustering/</guid>
+      <guid>http://localhost:1313/publications/2025-gimeno-hydropedological-clustering/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -382,9 +382,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Hyperdroughts in central Chile: drivers, impacts, and projections</title>
-      <link>https://hzambran.github.io/publications/2025-garreaud-hyperdroughts-in/</link>
+      <link>http://localhost:1313/publications/2025-garreaud-hyperdroughts-in/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2025-garreaud-hyperdroughts-in/</guid>
+      <guid>http://localhost:1313/publications/2025-garreaud-hyperdroughts-in/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -474,9 +474,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Technical note: What does the Standardized Streamflow Index actually reflect? Insights and implications for hydrological drought analysis</title>
-      <link>https://hzambran.github.io/publications/2025-lema-technical-note/</link>
+      <link>http://localhost:1313/publications/2025-lema-technical-note/</link>
       <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2025-lema-technical-note/</guid>
+      <guid>http://localhost:1313/publications/2025-lema-technical-note/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -566,9 +566,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Disponibilidad y seguridad hídrica en el desarrollo de enfermedades crónicas no transmisibles. ¿ Nuevos factores de riesgo?</title>
-      <link>https://hzambran.github.io/publications/2024-petermannrocha-disponibilidad-y/</link>
+      <link>http://localhost:1313/publications/2024-petermannrocha-disponibilidad-y/</link>
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-petermannrocha-disponibilidad-y/</guid>
+      <guid>http://localhost:1313/publications/2024-petermannrocha-disponibilidad-y/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -658,9 +658,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Exotic tree plantations in the Chilean Coastal Range: balancing the effects of discrete disturbances, connectivity, and a persistent drought on catchment erosion</title>
-      <link>https://hzambran.github.io/publications/2024-tolorza-exotic-tree/</link>
+      <link>http://localhost:1313/publications/2024-tolorza-exotic-tree/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-tolorza-exotic-tree/</guid>
+      <guid>http://localhost:1313/publications/2024-tolorza-exotic-tree/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -750,9 +750,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>HESS Opinions: The unsustainable use of groundwater conceals a &#39;Day Zero&#39;</title>
-      <link>https://hzambran.github.io/publications/2024-alvarezgarreton-hess-opinions/</link>
+      <link>http://localhost:1313/publications/2024-alvarezgarreton-hess-opinions/</link>
       <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-alvarezgarreton-hess-opinions/</guid>
+      <guid>http://localhost:1313/publications/2024-alvarezgarreton-hess-opinions/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -842,9 +842,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>On the timescale of drought indices for monitoring streamflow drought considering catchment hydrological regimes</title>
-      <link>https://hzambran.github.io/publications/2024-baezvillanueva-on-the/</link>
+      <link>http://localhost:1313/publications/2024-baezvillanueva-on-the/</link>
       <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-baezvillanueva-on-the/</guid>
+      <guid>http://localhost:1313/publications/2024-baezvillanueva-on-the/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -934,9 +934,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Land Management Drifted: Land Use Scenario Modeling of Trancura River Basin, Araucanía, Chile</title>
-      <link>https://hzambran.github.io/publications/2024-diazjara-land-management/</link>
+      <link>http://localhost:1313/publications/2024-diazjara-land-management/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-diazjara-land-management/</guid>
+      <guid>http://localhost:1313/publications/2024-diazjara-land-management/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1026,9 +1026,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia</title>
-      <link>https://hzambran.github.io/publications/2024-aguayo-patagoniamet-a/</link>
+      <link>http://localhost:1313/publications/2024-aguayo-patagoniamet-a/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-aguayo-patagoniamet-a/</guid>
+      <guid>http://localhost:1313/publications/2024-aguayo-patagoniamet-a/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1118,9 +1118,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Panta Rhei benchmark dataset: socio-hydrological data of paired events of floods and droughts</title>
-      <link>https://hzambran.github.io/publications/2023-kreibich-panta-rhei/</link>
+      <link>http://localhost:1313/publications/2023-kreibich-panta-rhei/</link>
       <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2023-kreibich-panta-rhei/</guid>
+      <guid>http://localhost:1313/publications/2023-kreibich-panta-rhei/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1210,9 +1210,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>The challenge of unprecedented floods and droughts in risk management</title>
-      <link>https://hzambran.github.io/publications/2022-kreibich-the-challenge/</link>
+      <link>http://localhost:1313/publications/2022-kreibich-the-challenge/</link>
       <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2022-kreibich-the-challenge/</guid>
+      <guid>http://localhost:1313/publications/2022-kreibich-the-challenge/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1302,9 +1302,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>A coupled modeling approach to assess the effect of forest policies in water provision: A biophysical evaluation of a drought-prone rural catchment in south-central Chile</title>
-      <link>https://hzambran.github.io/publications/2022-gimeno-a-coupled/</link>
+      <link>http://localhost:1313/publications/2022-gimeno-a-coupled/</link>
       <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2022-gimeno-a-coupled/</guid>
+      <guid>http://localhost:1313/publications/2022-gimeno-a-coupled/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1394,9 +1394,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>On the selection of precipitation products for the regionalisation of hydrological model parameters</title>
-      <link>https://hzambran.github.io/publications/2021-baezvillanueva-on-the/</link>
+      <link>http://localhost:1313/publications/2021-baezvillanueva-on-the/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2021-baezvillanueva-on-the/</guid>
+      <guid>http://localhost:1313/publications/2021-baezvillanueva-on-the/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1486,9 +1486,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>How well do gridded precipitation and actual evapotranspiration products represent the key water balance components in the Nile Basin?</title>
-      <link>https://hzambran.github.io/publications/2021-mcnamara-how-well/</link>
+      <link>http://localhost:1313/publications/2021-mcnamara-how-well/</link>
       <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2021-mcnamara-how-well/</guid>
+      <guid>http://localhost:1313/publications/2021-mcnamara-how-well/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1578,9 +1578,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Disentangling the effect of future land use strategies and climate change on streamflow in a Mediterranean catchment dominated by tree plantations</title>
-      <link>https://hzambran.github.io/publications/2021-galleguillos-disentangling-the/</link>
+      <link>http://localhost:1313/publications/2021-galleguillos-disentangling-the/</link>
       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2021-galleguillos-disentangling-the/</guid>
+      <guid>http://localhost:1313/publications/2021-galleguillos-disentangling-the/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1670,9 +1670,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Modelling water resources for planning irrigation development in drought-prone southern Chile</title>
-      <link>https://hzambran.github.io/publications/2020-mcnamara-modelling-water/</link>
+      <link>http://localhost:1313/publications/2020-mcnamara-modelling-water/</link>
       <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2020-mcnamara-modelling-water/</guid>
+      <guid>http://localhost:1313/publications/2020-mcnamara-modelling-water/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1762,9 +1762,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>RF-MEP: A novel Random Forest method for merging gridded precipitation products and ground-based measurements</title>
-      <link>https://hzambran.github.io/publications/2020-baezvillanueva-rfmep-a/</link>
+      <link>http://localhost:1313/publications/2020-baezvillanueva-rfmep-a/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2020-baezvillanueva-rfmep-a/</guid>
+      <guid>http://localhost:1313/publications/2020-baezvillanueva-rfmep-a/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1854,9 +1854,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Bias Correction of Global High-Resolution Precipitation Climatologies Using Streamflow Observations from 9372 Catchments</title>
-      <link>https://hzambran.github.io/publications/2020-beck-bias-correction/</link>
+      <link>http://localhost:1313/publications/2020-beck-bias-correction/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2020-beck-bias-correction/</guid>
+      <guid>http://localhost:1313/publications/2020-beck-bias-correction/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1946,9 +1946,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Hydrological Processes Special Issue \&#34;Hydrological processes across climatic and geomorphological gradients of Latin America</title>
-      <link>https://hzambran.github.io/publications/2019-birkel-hydrological-processes/</link>
+      <link>http://localhost:1313/publications/2019-birkel-hydrological-processes/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2019-birkel-hydrological-processes/</guid>
+      <guid>http://localhost:1313/publications/2019-birkel-hydrological-processes/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2038,9 +2038,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Validation of Cryogenic Vacuum Extraction of Pore Water from Volcanic Soils for Isotopic Analysis</title>
-      <link>https://hzambran.github.io/publications/2019-rivera-validation-of/</link>
+      <link>http://localhost:1313/publications/2019-rivera-validation-of/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2019-rivera-validation-of/</guid>
+      <guid>http://localhost:1313/publications/2019-rivera-validation-of/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2130,9 +2130,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Particle swarm optimization for the estimation of surface complexation constants with the geochemical model PHREEQC-3.1.2</title>
-      <link>https://hzambran.github.io/publications/2019-abdelaziz-particle-swarm/</link>
+      <link>http://localhost:1313/publications/2019-abdelaziz-particle-swarm/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2019-abdelaziz-particle-swarm/</guid>
+      <guid>http://localhost:1313/publications/2019-abdelaziz-particle-swarm/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2222,9 +2222,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Temporal and spatial evaluation of long-term satellite-based precipitation products across the complex topographical and climatic gradients of Chile</title>
-      <link>https://hzambran.github.io/publications/2018-zambranobigiarini-temporal-and/</link>
+      <link>http://localhost:1313/publications/2018-zambranobigiarini-temporal-and/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2018-zambranobigiarini-temporal-and/</guid>
+      <guid>http://localhost:1313/publications/2018-zambranobigiarini-temporal-and/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2314,9 +2314,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Temporal and spatial evaluation of satellite rainfall estimates over different regions in Latin-America</title>
-      <link>https://hzambran.github.io/publications/2018-baezvillanueva-temporal-and/</link>
+      <link>http://localhost:1313/publications/2018-baezvillanueva-temporal-and/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2018-baezvillanueva-temporal-and/</guid>
+      <guid>http://localhost:1313/publications/2018-baezvillanueva-temporal-and/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2406,9 +2406,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>The 2010-2015 megadrought in central Chile: impacts on regional hydroclimate and vegetation</title>
-      <link>https://hzambran.github.io/publications/2017-garreaud-the-20102015/</link>
+      <link>http://localhost:1313/publications/2017-garreaud-the-20102015/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2017-garreaud-the-20102015/</guid>
+      <guid>http://localhost:1313/publications/2017-garreaud-the-20102015/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2498,9 +2498,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Temporal and spatial evaluation of satellite-based rainfall estimates across the complex topographical and climatic gradients of Chile</title>
-      <link>https://hzambran.github.io/publications/2017-zambranobigiarini-temporal-and/</link>
+      <link>http://localhost:1313/publications/2017-zambranobigiarini-temporal-and/</link>
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2017-zambranobigiarini-temporal-and/</guid>
+      <guid>http://localhost:1313/publications/2017-zambranobigiarini-temporal-and/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2590,9 +2590,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>The br2-weighting Method for Estimating the Effects of Air Pollution on Population Health</title>
-      <link>https://hzambran.github.io/publications/2016-krstic-the-br2weighting/</link>
+      <link>http://localhost:1313/publications/2016-krstic-the-br2weighting/</link>
       <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2016-krstic-the-br2weighting/</guid>
+      <guid>http://localhost:1313/publications/2016-krstic-the-br2weighting/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2682,9 +2682,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Assessing the role of uncertain precipitation estimates on the robustness of hydrological model parameters under highly variable climate conditions</title>
-      <link>https://hzambran.github.io/publications/2016-bisselink-assessing-the/</link>
+      <link>http://localhost:1313/publications/2016-bisselink-assessing-the/</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2016-bisselink-assessing-the/</guid>
+      <guid>http://localhost:1313/publications/2016-bisselink-assessing-the/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2774,9 +2774,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Forestry development, water scarcity, and the Mapuche protest for environmental justice in Chile</title>
-      <link>https://hzambran.github.io/publications/2016-torressalinas-forestry-development/</link>
+      <link>http://localhost:1313/publications/2016-torressalinas-forestry-development/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2016-torressalinas-forestry-development/</guid>
+      <guid>http://localhost:1313/publications/2016-torressalinas-forestry-development/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2866,9 +2866,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Comparison of stationary and dynamic conceptual models in a mountainous and data-sparse catchment in the South-central Chilean Andes</title>
-      <link>https://hzambran.github.io/publications/2015-toledo-comparison-of/</link>
+      <link>http://localhost:1313/publications/2015-toledo-comparison-of/</link>
       <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2015-toledo-comparison-of/</guid>
+      <guid>http://localhost:1313/publications/2015-toledo-comparison-of/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2958,9 +2958,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Particle Swarm Optimization for inverse modeling of solute transport in fractured gneiss aquifer</title>
-      <link>https://hzambran.github.io/publications/2014-abdelaziz-particle-swarm/</link>
+      <link>http://localhost:1313/publications/2014-abdelaziz-particle-swarm/</link>
       <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2014-abdelaziz-particle-swarm/</guid>
+      <guid>http://localhost:1313/publications/2014-abdelaziz-particle-swarm/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -3050,9 +3050,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Hydrological evaluation of satellite-based rainfall estimates over the Volta and Baro-Akobo Basin</title>
-      <link>https://hzambran.github.io/publications/2013-thiemig-hydrological-evaluation/</link>
+      <link>http://localhost:1313/publications/2013-thiemig-hydrological-evaluation/</link>
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2013-thiemig-hydrological-evaluation/</guid>
+      <guid>http://localhost:1313/publications/2013-thiemig-hydrological-evaluation/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -3142,9 +3142,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>A model-independent Particle Swarm Optimisation software for model calibration</title>
-      <link>https://hzambran.github.io/publications/2013-zambranobigiarini-a-modelindependent/</link>
+      <link>http://localhost:1313/publications/2013-zambranobigiarini-a-modelindependent/</link>
       <pubDate>Tue, 26 Feb 2013 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2013-zambranobigiarini-a-modelindependent/</guid>
+      <guid>http://localhost:1313/publications/2013-zambranobigiarini-a-modelindependent/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -3234,9 +3234,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Validation of Satellite-Based Precipitation Products over Sparsely Gauged African River Basins</title>
-      <link>https://hzambran.github.io/publications/2012-thiemig-validation-of/</link>
+      <link>http://localhost:1313/publications/2012-thiemig-validation-of/</link>
       <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2012-thiemig-validation-of/</guid>
+      <guid>http://localhost:1313/publications/2012-thiemig-validation-of/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;

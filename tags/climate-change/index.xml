@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Climate Change | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/climate-change/</link>
-      <atom:link href="https://hzambran.github.io/tags/climate-change/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/climate-change/</link>
+      <atom:link href="http://localhost:1313/tags/climate-change/index.xml" rel="self" type="application/rss+xml" />
     <description>Climate Change</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Climate Change</title>
-      <link>https://hzambran.github.io/tags/climate-change/</link>
+      <link>http://localhost:1313/tags/climate-change/</link>
     </image>
     
     <item>
       <title>The Past 3 Years Have Been the Three Hottest</title>
-      <link>https://hzambran.github.io/blog/2026-01-14-past_3_years_have_been_the_hottest/</link>
+      <link>http://localhost:1313/blog/2026-01-14-past_3_years_have_been_the_hottest/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2026-01-14-past_3_years_have_been_the_hottest/</guid>
+      <guid>http://localhost:1313/blog/2026-01-14-past_3_years_have_been_the_hottest/</guid>
       <description>&lt;p&gt;The recent analysis published by &lt;strong&gt;Berkeley Earth&lt;/strong&gt;, corroborated by the &lt;strong&gt;National Oceanic and Atmospheric Administration (NOAA)&lt;/strong&gt;, confirms that &lt;strong&gt;2025 was the third-warmest year on record&lt;/strong&gt;. This year follows 2024 and 2023, collectively forming a three-year &amp;ldquo;warming spike&amp;rdquo; that deviates significantly from long-term linear trends and poses critical questions regarding the acceleration of anthropogenic climate change.&lt;/p&gt;
 &lt;h3 id=&#34;statistical-overview-and-record-benchmarks&#34;&gt;Statistical Overview and Record Benchmarks&lt;/h3&gt;
 &lt;p&gt;In 2025, global average temperatures were estimated to be between &lt;strong&gt;1.35°C and 1.53°C&lt;/strong&gt; above the 1850–1900 pre-industrial baseline. While slightly lower than the peaks seen in 2024 ($1.46\text{--}1.62\text{°C}$) and 2023 ($1.48\text{--}1.60\text{°C}$), the data underscores a persistent breach of, or proximity to, the &lt;strong&gt;1.5°C threshold&lt;/strong&gt; established by the Paris Agreement.&lt;/p&gt;
@@ -51,7 +51,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-14-past_3_years_have_been_the_hottest/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2026-01-14-past_3_years_have_been_the_hottest/featured.jpg&#34;
     alt=&#34;exceptional warming observed in the past 3 years&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Scientists say the exceptional warming observed in the past 3 years could be evidence of accelerating warming. Credit: Berkeley Earth, CC BY-NC 4.0&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -62,9 +62,9 @@
     
     <item>
       <title>Hidrodesafios 2025 Seminar</title>
-      <link>https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</link>
+      <link>http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</guid>
+      <guid>http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</guid>
       <description>&lt;p&gt;On Wednesday, November 26th 2025, I participated as a speaker at the seminar &amp;ldquo;
 &amp;rdquo; organized by the Sanitation Services Concessionaire Company S.A. (ECONSSA Chile) with sponsorship from the Chilean Association for Water Rights (AChDA) and Fundación Chile.&lt;/p&gt;
 &lt;p&gt;This event took place from 8:30 hrs at the Ritz-Carlton Hotel in the Las Condes district, with the objective of addressing the future of the sanitation sector in a context of water scarcity and climate change, and analyzing the role of seawater desalination and wastewater reuse in confronting the water crisis.&lt;/p&gt;
@@ -85,7 +85,7 @@
 &lt;p&gt;More information and the program for the event can be found at 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/Debate_sanitario.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/Debate_sanitario.jpg&#34;
     alt=&#34;Dr. Zambrano-Bigiarini at the Hidrodesafios 2025 Seminar&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Debate on proposals for the water and sanitary sector in Chile&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -96,9 +96,9 @@
     
     <item>
       <title>III Regional Climate Change Seminar</title>
-      <link>https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/</link>
+      <link>http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/</link>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/</guid>
+      <guid>http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/</guid>
       <description>&lt;p&gt;On Friday, November 21 2025, I participated as a speaker at the III Regional Climate Change Seminar, organized by the Regional Environmental Secretariat (SEREMI) of the Araucanía Region, the Regional Government of the Araucanía Region, the Catholic University of Temuco, and EBP.&lt;/p&gt;
 &lt;p&gt;The seminar aimed to share the contents of the 
  with key stakeholders in the region, strengthening regional understanding, ownership, and commitment to addressing the challenges of climate change.&lt;/p&gt;
@@ -139,9 +139,9 @@
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;MZB_speaking&#34; 
-               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_d1f3d4861ef3c785.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_cee733e63d013609.webp 570w&#34;
+               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_d1f3d4861ef3c785.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_cee733e63d013609.webp 570w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp&#34;
+               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp&#34;
                width=&#34;570&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -167,9 +167,9 @@
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;MZB_presentation&#34; 
-               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_7335dc7a29a68431.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_4c1a5f5003393cb8.webp 760w&#34;
+               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_7335dc7a29a68431.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_4c1a5f5003393cb8.webp 760w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp&#34;
+               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp&#34;
                width=&#34;760&#34;
                height=&#34;424&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -195,9 +195,9 @@
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;Discussion_Panel&#34; 
-               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_de44885b3f6064e5.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_d8a52476d5cb49d1.webp 760w&#34;
+               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_de44885b3f6064e5.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_d8a52476d5cb49d1.webp 760w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp&#34;
+               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp&#34;
                width=&#34;760&#34;
                height=&#34;557&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -223,9 +223,9 @@
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;Audience&#34; 
-               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_7aa7a95ec05f7bb.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_2051562c3199adfd.webp 760w&#34;
+               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_7aa7a95ec05f7bb.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_2051562c3199adfd.webp 760w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp&#34;
+               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -236,9 +236,9 @@
     
     <item>
       <title>SICyR 2025: Sessions HC2 and HC7</title>
-      <link>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/</link>
+      <link>http://localhost:1313/dissemination/2025-11-07-sicyr_2025/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/</guid>
+      <guid>http://localhost:1313/dissemination/2025-11-07-sicyr_2025/</guid>
       <description>&lt;p&gt;Members of the 
  participated in the 
 , an event that brought together leading researchers, academics, and professionals from the social and natural sciences. The symposium took place on November 3-4 in Santiago, where the plenary sessions and workshops were held, and continued from November 5-7 in Viña del Mar, where the thematic scientific sessions took place.&lt;/p&gt;
@@ -281,11 +281,11 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2025/2025-11-07-SICyR_2025/KimunKo_y_Equipo_Propagacion_Sequia.jpg&#34; alt=&#34;KimunKo_y_Equipo_Propagacion_Sequia&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/2025/2025-11-07-SICyR_2025/KimunKo_y_Equipo_Propagacion_Sequia.jpg&#34; alt=&#34;KimunKo_y_Equipo_Propagacion_Sequia&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-07-sicyr_2025/featured.jpg&#34;
     alt=&#34;Kimuün-Ko and Drought progpagation teams&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Former and current Kimün-Ko members along with Dr. Mauricio Gellguillos (UAI), Giancarlo Casanova, DR(c) Emilia Figueiras (AR) y Dr. Pablo Spennemann&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -296,13 +296,13 @@
     
     <item>
       <title>SICyR 2025: R course</title>
-      <link>https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/</link>
+      <link>http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/</guid>
+      <guid>http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/</guid>
       <description>&lt;h1 id=&#34;r-course-spatiotemporal-data-analysis&#34;&gt;R Course: Spatiotemporal Data Analysis&lt;/h1&gt;
 &lt;p&gt;On November 4, I taught the course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;, which was attended by undergraduate and graduate students, as well as public and private sector professionals.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/featured.jpg&#34;
     alt=&#34;R Course&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -313,13 +313,13 @@
     
     <item>
       <title>SICyR 2025: R course</title>
-      <link>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/</link>
+      <link>http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/</guid>
+      <guid>http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/</guid>
       <description>&lt;h1 id=&#34;r-course-spatiotemporal-data-analysis&#34;&gt;R Course: Spatiotemporal Data Analysis&lt;/h1&gt;
 &lt;p&gt;On November 4, I taught the course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;, which was attended by undergraduate and graduate students, as well as public and private sector professionals.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/featured.jpg&#34;
     alt=&#34;R Course&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -330,9 +330,9 @@
     
     <item>
       <title>WMO confirms 2024 as warmest year on record at about 1.55°C above pre-industrial level</title>
-      <link>https://hzambran.github.io/blog/2025-01-10-2024_was_warmest_year_on_record/</link>
+      <link>http://localhost:1313/blog/2025-01-10-2024_was_warmest_year_on_record/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2025-01-10-2024_was_warmest_year_on_record/</guid>
+      <guid>http://localhost:1313/blog/2025-01-10-2024_was_warmest_year_on_record/</guid>
       <description>&lt;p&gt;The World Meteorological Organization (WMO) has released a consolidated report confirming that 2024 was the warmest calendar year on record. By synthesizing six leading international datasets, the WMO provides a high-confidence assessment of global thermal anomalies, the state of oceanic heat reservoirs, and the current standing of international climate targets.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;1-temperature-anomalies-and-statistical-significance&#34;&gt;1. Temperature anomalies and statistical significance&lt;/h3&gt;
@@ -387,7 +387,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2025-01-10-2024_was_warmest_year_on_record/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2025-01-10-2024_was_warmest_year_on_record/featured.jpg&#34;
     alt=&#34;Global heating is a cold, hard fact&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;“Today&amp;rsquo;s assessment from the World Meteorological Organization (WMO) proves yet again – global heating is a cold, hard fact,” said UN Secretary-General Antóno Guterres. Source: WMO&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -398,9 +398,9 @@
     
     <item>
       <title>2023 was the warmest year on record, (NOAA)</title>
-      <link>https://hzambran.github.io/blog/2024-01-12-2023_was_the_warmest_year_on_record/</link>
+      <link>http://localhost:1313/blog/2024-01-12-2023_was_the_warmest_year_on_record/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2024-01-12-2023_was_the_warmest_year_on_record/</guid>
+      <guid>http://localhost:1313/blog/2024-01-12-2023_was_the_warmest_year_on_record/</guid>
       <description>&lt;p&gt;Earth’s average land and ocean surface temperature in 2023 was 1.18ºC above the 20th century, the highest global temperature among all years in NOAA&amp;rsquo;s 1850-2023 climate record.
 It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC.&lt;/p&gt;
 &lt;p&gt;The 10 warmest years since 1850 have all occurred in the past decade. In fact, the average global temperature for 2023 exceeded the pre-industrial (1850-1900) average by 1.35ºC.&lt;/p&gt;
@@ -424,7 +424,7 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-01-12-2023_was_the_warmest_year_on_record/curves-2023.gif.webp&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-01-12-2023_was_the_warmest_year_on_record/curves-2023.gif.webp&#34;
     alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;My Caption&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -435,9 +435,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Hottest July on Record (174 years), (NASA)</title>
-      <link>https://hzambran.github.io/blog/2023-08-14-hottest_july_on_record/</link>
+      <link>http://localhost:1313/blog/2023-08-14-hottest_july_on_record/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2023-08-14-hottest_july_on_record/</guid>
+      <guid>http://localhost:1313/blog/2023-08-14-hottest_july_on_record/</guid>
       <description>&lt;p&gt;Earth just roasted under its hottest July on record, according to scientists from NOAA&amp;rsquo;s National Centers for Environmental Information (NCEI) and also ffrom scientist from NASA.&lt;/p&gt;
 &lt;p&gt;For the fourth-consecutive month, the global ocean surface temperature also hit a record high.&lt;/p&gt;
 &lt;p&gt;Overall, July 2023 was 0.24ºC warmer than any other July in NASA&amp;rsquo;s record (since 1880), and it was 1.18ºC warmer than the average July between 1951 and 1980.&lt;/p&gt;
@@ -451,7 +451,7 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2023-08-14-hottest_july_on_record/featured.png.webp&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2023-08-14-hottest_july_on_record/featured.png.webp&#34;
     alt=&#34;Global temperature anomalies for July 2023&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;This map shows global temperature anomalies for July 2023 according to the GISTEMP analysis by scientists at NASA’s Goddard Institute for Space Studies. Temperature anomalies reflect how July 2023 compared to the average July temperature from 1951-1980.Credits: NASA&amp;rsquo;s Goddard Institute for Space Studies&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -462,9 +462,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Earth just had its hottest June on record (NOAA)</title>
-      <link>https://hzambran.github.io/blog/2023-07-13-hottest_june_on_record/</link>
+      <link>http://localhost:1313/blog/2023-07-13-hottest_june_on_record/</link>
       <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2023-07-13-hottest_june_on_record/</guid>
+      <guid>http://localhost:1313/blog/2023-07-13-hottest_june_on_record/</guid>
       <description>&lt;p&gt;The world just sweltered through its &lt;strong&gt;hottest June&lt;/strong&gt; in the 174-year global climate record.&lt;/p&gt;
 &lt;p&gt;The June global surface temperature was 1.05°C above the 20th-century average of 15.5°C, making it the warmest June on record. This marked the first time a June temperature exceeded 1°C above the long-term average.&lt;/p&gt;
 &lt;p&gt;June 2023 was 0.13°C warmer than the previous June record from 2020, but 0.29°C cooler than the all-time highest monthly temperature anomaly on record (March 2016).&lt;/p&gt;
@@ -478,7 +478,7 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2023-07-13-hottest_june_on_record/featured.png.webp&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2023-07-13-hottest_june_on_record/featured.png.webp&#34;
     alt=&#34;Global temperature anomalies for June 2023&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;This map shows global temperature anomalies for June 2023 according to the GISTEMP analysis by scientists at NASA&amp;rsquo;s Goddard Institute for Space Studies. Temperature anomalies reflect how June 2023 compared to the average June temperature from 1951-1980. Credits: NASA’s Goddard Institute for Space Studies&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -489,9 +489,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Después de la gran tormenta, ¿cómo rediseñaremos? (El Mostrador)</title>
-      <link>https://hzambran.github.io/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</link>
+      <link>http://localhost:1313/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</guid>
+      <guid>http://localhost:1313/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</guid>
       <description>&lt;p&gt;I just published an opinion column in the newspaper El Mostrador on how we will redesign the infrastructure that have been affected by the big storm that hit the Central-South zone of Chile in the end of June of this year 2023.&lt;/p&gt;
 &lt;p&gt;In this column, I states that it is of vital importance that the design of future infrastructure works considers -at least- the estimation of flood risk maps, and that the use of floodplains (free of human settlements) be prioritized in the communal regulatory plans, floodplains that must be estimated using the best data and techniques available, to avoid future human, social and material tragedies.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -508,16 +508,16 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Is the megadrought over with the last frontal system? (The Clinic)</title>
-      <link>https://hzambran.github.io/blog/2022-07-19-termino_la_megasequia-theclinic/</link>
+      <link>http://localhost:1313/blog/2022-07-19-termino_la_megasequia-theclinic/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2022-07-19-termino_la_megasequia-theclinic/</guid>
+      <guid>http://localhost:1313/blog/2022-07-19-termino_la_megasequia-theclinic/</guid>
       <description>&lt;p&gt;On July 19th, 2022, Dr. Mauricio Zambrano-Bigiarini was interviewed about the impact of the latest frontal system in the drought that affects our country by the digital newspaper The Clinic.&lt;/p&gt;
 &lt;p&gt;In 
 , the academic discusses the impact that the latest rainfall had in reducing the water deficit in our country, and whether or not we can affirm that the mega-drought that affects our country has ended.&lt;/p&gt;
 &lt;p&gt;The full interview can be found here: 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2022-07-19-termino_la_megasequia-theclinic/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2022-07-19-termino_la_megasequia-theclinic/featured.jpg&#34;
     alt=&#34;https://www.theclinic.cl/2022/07/19/lluvia-nieve-sequia-sistema-frontal-expertos/&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -528,9 +528,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Cambio climático alimenta &#39;mancha&#39; caliente oceánica que causa megasequía en Chile según un estudio (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
+      <link>http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
+      <guid>http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
       <description>&lt;p&gt;According to a recent study, a gigantic slick of more than 8 million kilometers located east of New Zealand is largely responsible for the dramatic lack of water that is affecting the central area of Chile.&lt;/p&gt;
 &lt;p&gt;The full note can be read on the 
  or in the 
@@ -538,7 +538,7 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
 &lt;p&gt;The scientific article published in the &lt;em&gt;Journal of Climate&lt;/em&gt; is available 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
     alt=&#34;https://www.latercera.com/que-pasa/noticia/cambio-climatico-alimenta-mancha-caliente-oceanica-que-causa-megasequia-en-chile-segun-un-estudio/&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Fuente: La Tercera&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -549,9 +549,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Seminario Cambio global y recursos hídricos: experiencias y desafíos</title>
-      <link>https://hzambran.github.io/dissemination/2021-07-29-seminario_rrhh_en_ufro/</link>
+      <link>http://localhost:1313/dissemination/2021-07-29-seminario_rrhh_en_ufro/</link>
       <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2021-07-29-seminario_rrhh_en_ufro/</guid>
+      <guid>http://localhost:1313/dissemination/2021-07-29-seminario_rrhh_en_ufro/</guid>
       <description>&lt;p&gt;Researchers from the Universidad de La Frontera, U. de Chile, U. de los Lagos and the Center for Climate and Resilience Research (CR)2, will meet this Friday, July 30th, to address some relevant issues from their professional and academic experience for the country and La Araucanía in terms of water resources.&lt;/p&gt;
 &lt;p&gt;Organized by the 
 , the Seminar &amp;ldquo;Global change and water resources: experiences and challenges&amp;rdquo;, aims to disseminate the advances and experiences related to national water resources and generate a space for discussion with public services , the university community and local actors related to water resources, addressing topics such as: climate change, drought, water security, new data sources, water allocation permits, land use management and its impact on water availability, and erosion in forested catchments.&lt;/p&gt;
@@ -575,7 +575,7 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2021-07-30-Seminario_RRHH-AficheDeDifusion.png&#34; alt=&#34;Afiche de disfusión&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/2021-07-30-Seminario_RRHH-AficheDeDifusion.png&#34; alt=&#34;Afiche de disfusión&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -590,9 +590,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Esta es la última víctima del cambio climático en Chile (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2021-03-17-la_tercera_cauquenes_joh2021/</link>
+      <link>http://localhost:1313/blog/2021-03-17-la_tercera_cauquenes_joh2021/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2021-03-17-la_tercera_cauquenes_joh2021/</guid>
+      <guid>http://localhost:1313/blog/2021-03-17-la_tercera_cauquenes_joh2021/</guid>
       <description>&lt;p&gt;A recent study by the Center for Climate Science and Resilience 
 , led by Dr. Mauricio Galleguillos, analyzed in detail the impact of climate change and land use change on water availability from the Cauquenes River Basin, which dried up during the summer of 2020.&lt;/p&gt;
 &lt;p&gt;The full note can be read on the [(CR)2 website](
@@ -612,9 +612,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Balance Hídrico Nacional revela dramática situación: proyecta escasez de agua de hasta 50% y alza de temperatura de hasta 2.5°C</title>
-      <link>https://hzambran.github.io/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</link>
+      <link>http://localhost:1313/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</guid>
+      <guid>http://localhost:1313/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</guid>
       <description>&lt;p&gt;An update of the Chilean Water Balance, led by academics from the University of Chile, reveals the complex local scenario, which apparently will not improve in the coming decades.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -630,9 +630,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Mawün rainfall explorer launched !</title>
-      <link>https://hzambran.github.io/blog/2020-09-01-lanzamiento_de_mawun/</link>
+      <link>http://localhost:1313/blog/2020-09-01-lanzamiento_de_mawun/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-09-01-lanzamiento_de_mawun/</guid>
+      <guid>http://localhost:1313/blog/2020-09-01-lanzamiento_de_mawun/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Mawün rainfall explorer launched !&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;After more than one year of development, on September 1st 2020 an &lt;strong&gt;unprecedented web platform&lt;/strong&gt; for exploring gridded precipitation products was launced as a new weather service at the 
  website: 
@@ -678,9 +678,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Climate change: Last decade confirmed as warmest on record</title>
-      <link>https://hzambran.github.io/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</link>
+      <link>http://localhost:1313/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</guid>
+      <guid>http://localhost:1313/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</guid>
       <description>&lt;p&gt;The 10 years to the end of 2019 have been confirmed as &lt;strong&gt;the warmest decade on record&lt;/strong&gt; by three global agencies.&lt;/p&gt;
 &lt;p&gt;According to Nasa, NOAA and the UK Met Office, last year was the second warmest in a record dating back to 1850.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;past five years were the hottest&lt;/strong&gt; in the 170-year series, with the average of each one more than 1C warmer than pre-industrial.&lt;/p&gt;
@@ -705,9 +705,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Management of global change impacts on hydrological extremes by coupling remote sensing data and an interdisciplinary modelling approach (NSFC190018)</title>
-      <link>https://hzambran.github.io/projects/2023-2024-nsfc190018/</link>
+      <link>http://localhost:1313/projects/2023-2024-nsfc190018/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/projects/2023-2024-nsfc190018/</guid>
+      <guid>http://localhost:1313/projects/2023-2024-nsfc190018/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -743,9 +743,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Sequia y escasez hídrica en Chile - parecidas pero no iguales (El Mostrador)</title>
-      <link>https://hzambran.github.io/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</link>
+      <link>http://localhost:1313/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</guid>
+      <guid>http://localhost:1313/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</guid>
       <description>&lt;p&gt;We cannot solve a problem that we do not fully understand. Water scarcity in a place is the result of a complex interaction between meteorological anomalies, hydrological processes and changes in the use that man makes of the resource. Our current inability to properly analyze and manage water scarcity points out a failure in our understanding of the problem as a whole, and to inadequate data and tools to monitor the evolution of water over time.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -761,9 +761,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Crisis hídrica, sequía legal y carretera hídrica (El Mostrador)</title>
-      <link>https://hzambran.github.io/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</link>
+      <link>http://localhost:1313/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</guid>
+      <guid>http://localhost:1313/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</guid>
       <description>&lt;p&gt;The country cannot continue to be a victim of the lobby of those who promote initiatives for their benefit over the damage of Chileans and against the public interest. Chile needs a legal framework that prioritizes security and equity in access to the vital element for the stability of drinking water, sanitation, food security and local productive development that ensures the well-being of the population and local and regional economies. The lucrative agribusiness and mining business cannot continue to put the country in greater water vulnerability, but to adjust, adapting to climate change.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -779,9 +779,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>¿Temuco sin agua en 2025? (El Austral)</title>
-      <link>https://hzambran.github.io/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</link>
+      <link>http://localhost:1313/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</guid>
+      <guid>http://localhost:1313/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</guid>
       <description>&lt;p&gt;Professors Mauricio Zambrano-Bigiarini and Ivo Fustos of the Department of Civil Engineering at the Universidad de La Frontera expressed their opinion on the news 
  published on September 1, 2019 in the newspaper 
  and then reproduced by the newspaper 
@@ -801,9 +801,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Carretera hídrica: una falsa panacea (El Mostrador)</title>
-      <link>https://hzambran.github.io/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</link>
+      <link>http://localhost:1313/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</guid>
+      <guid>http://localhost:1313/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</guid>
       <description>&lt;p&gt;These &amp;ldquo;solutions&amp;rdquo; to the problem of water supply, only serve to strengthen the close relationship between the State and companies that has existed in the field of water, ensuring private legal and functional ownership of an increasingly scarce resource . At the same time, this type of project shows that our country is increasingly moving away from integrated watershed management. The latter are the essential territorial references for the management of the water resource that should guide the preservation of life and society.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -819,9 +819,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>10 mil animales han muerto en las regiones más golpeadas por la prolongada sequía (El Mercurio)</title>
-      <link>https://hzambran.github.io/blog/2019-09-01-10mil_animales_muertos-elmercurio/</link>
+      <link>http://localhost:1313/blog/2019-09-01-10mil_animales_muertos-elmercurio/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-09-01-10mil_animales_muertos-elmercurio/</guid>
+      <guid>http://localhost:1313/blog/2019-09-01-10mil_animales_muertos-elmercurio/</guid>
       <description>&lt;p&gt;Due to the extended drought affecting central Chile, farmers in the area between the Coquimbo and Maule regions estimate that 10 000 animals have already died, including abortions that occur due to lack of food and water (5 000 in Valparaíso; 2 thousand in Coquimbo, and another 3 thousand in O&amp;rsquo;Higgins and el Maule).&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -837,9 +837,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Maipo, Limarí y Maule, tres cuencas en que el cambio climático ya hizo estragos (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</link>
+      <link>http://localhost:1313/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</link>
       <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</guid>
+      <guid>http://localhost:1313/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</guid>
       <description>&lt;p&gt;An investigation by the PUC Global Change Center, an institution with more than 10 years studying this climatic phenomenon, recorded how the temperature in these areas has already changed due to global warming.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -855,9 +855,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>La guerra del agua: las graves secuelas de la crisis hídrica en Chile (El Mostrador)</title>
-      <link>https://hzambran.github.io/blog/2019-08-26-la_guerra_del_agua-elmostrador/</link>
+      <link>http://localhost:1313/blog/2019-08-26-la_guerra_del_agua-elmostrador/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-08-26-la_guerra_del_agua-elmostrador/</guid>
+      <guid>http://localhost:1313/blog/2019-08-26-la_guerra_del_agua-elmostrador/</guid>
       <description>&lt;p&gt;Central and Southern Chile have already suffered, for decades, a tendency to lower rainfall amounts, up to 7% per decade at some points, which will probably remain. By 2050, water available in Chile will be reduced by one third in some regions, according to current models, which will extend the irrigation periods that are applied today and reduce more water-intensive crops, especially those without access to technological improvements.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -873,9 +873,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Anomalies of monthly mean temperature compared to the 1961-1990 averages</title>
-      <link>https://hzambran.github.io/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</link>
+      <link>http://localhost:1313/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</link>
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</guid>
+      <guid>http://localhost:1313/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</guid>
       <description>&lt;p&gt;A very impressive figure showing the 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -890,9 +890,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Workshop on Climate Change Challenges for La Araucanía (Temuco)</title>
-      <link>https://hzambran.github.io/dissemination/2019-07-25-seminario_cc-temuco/</link>
+      <link>http://localhost:1313/dissemination/2019-07-25-seminario_cc-temuco/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2019-07-25-seminario_cc-temuco/</guid>
+      <guid>http://localhost:1313/dissemination/2019-07-25-seminario_cc-temuco/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Workshop on Climate Change Challenges for La Araucanía&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On July 25, 2019,  I made an oral presentation at the workshop entitled &amp;ldquo;&lt;em&gt;Regional challenges of climate change for La Araucanía region&lt;/em&gt;&amp;rdquo;, organized by the Regional Ministry of Environment of the Araucanía region.&lt;/p&gt;
 &lt;p&gt; This seminar was held in the Aula Magna of the Universidad Mayor in Temuco, and was attended by various municipalities, NGOs, civil organizations and members of the Regional Committee on Climate Change (CORECC).&lt;/p&gt;
@@ -911,9 +911,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>June 2019 was hottest on record for the globe</title>
-      <link>https://hzambran.github.io/blog/2019-07-18-hottest_june_on_record/</link>
+      <link>http://localhost:1313/blog/2019-07-18-hottest_june_on_record/</link>
       <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-07-18-hottest_june_on_record/</guid>
+      <guid>http://localhost:1313/blog/2019-07-18-hottest_june_on_record/</guid>
       <description>&lt;p&gt;The average global temperature in June was 1.71ºF above the 20th-century average of 59.9ºF, making it the &lt;strong&gt;hottest June in the 140-year record&lt;/strong&gt;, according scientists to NOAA&amp;rsquo;s National Centers for Environmental Information.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Nine of the 10 hottest Junes have occurred since 2010&lt;/strong&gt;. Last month also was the 43rd consecutive June and 414th consecutive month with above-average global temperatures.&lt;/p&gt;
 &lt;p&gt;For more information please visit the website: 
@@ -930,9 +930,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Workshop on Efficient Management of Water Resources (Vallenar)</title>
-      <link>https://hzambran.github.io/dissemination/2019-06-28-workshop_gestion_eficiente_del_recurso_hidrico-vallenar/</link>
+      <link>http://localhost:1313/dissemination/2019-06-28-workshop_gestion_eficiente_del_recurso_hidrico-vallenar/</link>
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2019-06-28-workshop_gestion_eficiente_del_recurso_hidrico-vallenar/</guid>
+      <guid>http://localhost:1313/dissemination/2019-06-28-workshop_gestion_eficiente_del_recurso_hidrico-vallenar/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Workshop on Efficient Management of Water Resources&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On June 28th 2019 I made an oral presentation at the workshop &amp;ldquo;&lt;em&gt;Efficient Management of Water Resources: a challenge against Climate Change&lt;/em&gt;&amp;rdquo;, organised by the University of Atacama and carried out at Vallenar in the Atacama region.&lt;/p&gt;
 &lt;p&gt;This workshop was funded by the Regional Government of Atacama in the framework of the finalization activity of the FIC Project &amp;ldquo;&lt;em&gt;Laboratorio para el estudio hídrico de la Cuenca, uso eficiente, monitoreo y predicción de caudales aplicando Modelo de Redes Neuronales Artificiales y Snow Runoff Model Nasa para la cuenca del Río Huasco, Región de Atacama, Chile&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
@@ -951,9 +951,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>44% of water scarcity in Chile is due to poor water management (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</link>
+      <link>http://localhost:1313/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</link>
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</guid>
+      <guid>http://localhost:1313/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</guid>
       <description>&lt;p&gt;The National Water Balance, a document from the National Water Directorate (DGA) that this year will have its final version after 32 years, will establish how much water is available in the country. In an advance delivered at the beginning of the year, it has already established that the country has a water deficit that ranges between 10% and 37%.&lt;/p&gt;
 &lt;p&gt;To alleviate this deficit, the document &amp;ldquo;Transición Hídrica: el futuro del agua en Chile&amp;rdquo; proposes to establish a strategy with emphasis on four axes: water management and institutionality; conservation and protection of water ecosystems; efficiency and strategic use of water resources; and migration and incorporation of new water sources.&lt;/p&gt;
 &lt;p&gt;The implementation of these four measures would be key to achieving water security: &amp;ldquo;44% of the causes of water problems are related to poor management of the resource, 17% is due to the increase in demand for water, 14% to water pollution, 12% to the decrease in water supply , 6% to environmental damage of water ecosystems and 5% to the increase in the frequency of natural disasters&amp;rdquo; (Ulrike Broschek, leader of Escenarios Hídricos 2030 and Deputy Manager of Sustainability of Fundación Chile)&lt;/p&gt;
@@ -972,9 +972,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Agua: ¿ soluciones sostenibles? (Diario Austral)</title>
-      <link>https://hzambran.github.io/blog/2019-03-29-agua-soluciones_sustentables/</link>
+      <link>http://localhost:1313/blog/2019-03-29-agua-soluciones_sustentables/</link>
       <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-03-29-agua-soluciones_sustentables/</guid>
+      <guid>http://localhost:1313/blog/2019-03-29-agua-soluciones_sustentables/</guid>
       <description>&lt;p&gt;Columna titulada 
 , con ocasión del Día Mundial del Agua: 
 .&lt;/p&gt;
@@ -1001,9 +1001,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Agua y desarrollo sostenible (CodexVerde)</title>
-      <link>https://hzambran.github.io/blog/2019-03-22-agua_y_desarrollo_sostenible/</link>
+      <link>http://localhost:1313/blog/2019-03-22-agua_y_desarrollo_sostenible/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-03-22-agua_y_desarrollo_sostenible/</guid>
+      <guid>http://localhost:1313/blog/2019-03-22-agua_y_desarrollo_sostenible/</guid>
       <description>&lt;p&gt;Columna titulada 
 , con ocasión del Día Mundial del Agua: 
 .&lt;/p&gt;
@@ -1034,9 +1034,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>The dramatic disappearance of water in Chile (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</link>
+      <link>http://localhost:1313/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</guid>
+      <guid>http://localhost:1313/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</guid>
       <description>&lt;p&gt;A team of specialists from the Universidad de Chile and Universidad Católica is working on updating the National Water Balance, which dates back to 1987. During 2019, the final report will be issued.&lt;/p&gt;
 &lt;p&gt;The project is led by Ximena Vargas, academic from the Faculty of Physical and Mathematical Sciences of the University of Chile. &amp;ldquo;&lt;em&gt;What has been found in stations measuring precipitation and temperature is that, in general, there are decreases in average annual precipitation and increases in average annual temperature&lt;/em&gt;&amp;rdquo; This, she explains, has generated a decrease in the water availability in some coastal sectors. &amp;ldquo;&lt;em&gt;Comparing the reported values for water availability (dating from 1987), changes in average annual runoff are around 10% and 37%&lt;/em&gt;&amp;rdquo; she points out.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -1053,9 +1053,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>2018 was the fourth-hottest year on record</title>
-      <link>https://hzambran.github.io/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</link>
+      <link>http://localhost:1313/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</link>
       <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</guid>
+      <guid>http://localhost:1313/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</guid>
       <description>&lt;p&gt;&lt;strong&gt;2018 was the fourth hottest year on record&lt;/strong&gt;, according to two independent reports released today (Feb. 6) by 
  and the 
 .
@@ -1086,9 +1086,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>2016: Hottest Year on Record</title>
-      <link>https://hzambran.github.io/blog/2017-01-19-year_2016_hottest_on_record/</link>
+      <link>http://localhost:1313/blog/2017-01-19-year_2016_hottest_on_record/</link>
       <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2017-01-19-year_2016_hottest_on_record/</guid>
+      <guid>http://localhost:1313/blog/2017-01-19-year_2016_hottest_on_record/</guid>
       <description>&lt;p&gt;Earth&amp;rsquo;s 2016 surface temperatures were the warmest since modern recordkeeping began in 1880, according to independent analyses by NASA and the National Oceanic and Atmospheric Administration (NOAA).&lt;/p&gt;
 &lt;p&gt;Globally-averaged temperatures in 2016 were 0.99 degrees Celsius (1.78 degrees Fahrenheit) warmer than the mid-20th century mean. This makes &lt;strong&gt;2016 the third year in a row&lt;/strong&gt; to set a new record for global average surface temperatures. Since the start of the 21st century, the annual global temperature record has been broken five times (2005, 2010, 2014, 2015, and 2016) 
 .&lt;/p&gt;
@@ -1119,9 +1119,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Drought in Puyehue and Rupanco lakes (SoyChile.cl)</title>
-      <link>https://hzambran.github.io/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</link>
+      <link>http://localhost:1313/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</link>
       <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</guid>
+      <guid>http://localhost:1313/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</guid>
       <description>&lt;p&gt;After 
  revealed the worrying decline in the water levels of Llanquihue Lake in the  surrounding of Puerto Octay, it was found that is not the only lake basin of the region affected by the lack of rainfall that experts have attributed to climate change.&lt;/p&gt;
 &lt;p&gt;This is because now the Rupanco and Puyehue lakes in the province of Osorno, have also shown and alarming and disturbing situation. In the first case, locals say that in some sectors the beach has increased from 20 to 200 meters, and in areas normally covered by water can now move on foot or by vehicle.&lt;/p&gt;
@@ -1140,9 +1140,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Expected changes in precipitation and temperature by 2050 (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</link>
+      <link>http://localhost:1313/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</link>
       <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</guid>
+      <guid>http://localhost:1313/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</guid>
       <description>&lt;p&gt;A recent study, delivered in July 2016, projected that by 2050 Santiago will have the most extreme variation in temperature of all regional capitals, with 2.7°C, which is 14% higher compared to today. In winter, the increase will be 1.7%, representing an increase of 19%, while precipitation will be reduced by 55 millimeters (mm), 15% less.&lt;/p&gt;
 &lt;p&gt;In other regional capitals, as Arica and Copiapó, extreme temperatures rise about 2.2°C are also expected for each summer, but it will be Arica where the temperature will rise more in winter, with 2.5° C.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -1159,9 +1159,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Megadrought expands to southern Chile (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</link>
+      <link>http://localhost:1313/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</link>
       <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</guid>
+      <guid>http://localhost:1313/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</guid>
       <description>&lt;p&gt;Today the country is experiencing one of the longest and most geographically extensive droughts in its history, which has nearly eight years in some sectors, and extends from the Coquimbo to the La Araucania region. Experts estimate that in the future these cycles would increase. According to an analysis by the  Center for Climate and Resilience Research (CR2) in 2015, these mega-droughts will become more common, occurring in Chile every 20 years by 2050 if emissions continue to increase greenhouse gases.&lt;/p&gt;
 &lt;p&gt;To date, 17 of the 22 stations of the Meteorological Direction of Chile (DMC) present below normal precipitation amounts. Coyhaique (45ºS) is the one with the most extreme situation. There, the precipitation is around 220 mm, far from normal to date according to the climatological period 1981-2010, which is 884.5 mm, resulting in a deficit of 75%. The level of rainfall is the lowest registration for the area (starting in 1960), although it is projected that in the next three months rains occur within the normal range indicates Catalina Cortes, meteorologist at DMC. However, it should end the year in deficit.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -1178,9 +1178,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>July 2016 was world&#39;s hottest month since records began, says Nasa (The Guardian)</title>
-      <link>https://hzambran.github.io/blog/2016-08-20-hottest_july_on_record/</link>
+      <link>http://localhost:1313/blog/2016-08-20-hottest_july_on_record/</link>
       <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-08-20-hottest_july_on_record/</guid>
+      <guid>http://localhost:1313/blog/2016-08-20-hottest_july_on_record/</guid>
       <description>&lt;p&gt;Nasa&amp;rsquo;s results, which combine sea-surface temperature and air temperature on land, show July 2016 was 10th month in a row to break monthly temperature record&lt;/p&gt;
 &lt;p&gt;As the string of hottest months continues, 2016 is &lt;em&gt;virtually certain&lt;/em&gt; to be the &lt;strong&gt;hottest year on record&lt;/strong&gt;, says David Karoly, a climate scientist from the University of Melbourne.&lt;/p&gt;
 &lt;p&gt;Last month was the hottest month in recorded history, beating the record set just 12 months before and continuing the long string of monthly records, according to the latest Nasa data.&lt;/p&gt;
@@ -1200,9 +1200,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>El año 2015 batió récords de fenómenos climáticos extremos (El Mercurio)</title>
-      <link>https://hzambran.github.io/blog/2016-08-03-year_2015_hottest_on_record_cr2/</link>
+      <link>http://localhost:1313/blog/2016-08-03-year_2015_hottest_on_record_cr2/</link>
       <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-08-03-year_2015_hottest_on_record_cr2/</guid>
+      <guid>http://localhost:1313/blog/2016-08-03-year_2015_hottest_on_record_cr2/</guid>
       <description>&lt;p&gt;El año 2015 marcó una temporada de lluvias más abundantes que el promedio, provocando graves &lt;strong&gt;inundaciones&lt;/strong&gt;. Severas &lt;strong&gt;sequías&lt;/strong&gt; afectaron superficies casi &lt;strong&gt;dos veces mayores en 2015 que en el año anterior&lt;/strong&gt; (14%, contra 8% en 2014).&lt;/p&gt;
 &lt;p&gt;Las aguas más calientes agravaron la propagación de algas, que afectaron el 2015 una importante región del Pacífico norte, desde California hasta la Columbia Británica, en Canadá.&lt;/p&gt;
 &lt;hr&gt;
@@ -1224,9 +1224,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>2015 was the warmest year ever recorded on Earth (NASA-NOAA)</title>
-      <link>https://hzambran.github.io/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</link>
+      <link>http://localhost:1313/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</guid>
+      <guid>http://localhost:1313/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</guid>
       <description>&lt;p&gt;&lt;strong&gt;2015 was the warmest year ever recorded on Earth&lt;/strong&gt;, and it was not even close.&lt;/p&gt;
 &lt;p&gt;On January 20, 2016, scientists from NASA and the National Oceanic and Atmospheric Administration (NOAA) released their analyses of surface temperatures for the past year.
 The NASA team found that globally averaged temperatures from January through December 2015 were &lt;strong&gt;0.87 degrees Celsius above the norm&lt;/strong&gt; (defined as a 1951-1980 base period). The previous record—set last year—was 0.74°C above the norm.

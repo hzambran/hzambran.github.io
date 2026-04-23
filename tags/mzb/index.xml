@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MZB | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/mzb/</link>
-      <atom:link href="https://hzambran.github.io/tags/mzb/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/mzb/</link>
+      <atom:link href="http://localhost:1313/tags/mzb/index.xml" rel="self" type="application/rss+xml" />
     <description>MZB</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>MZB</title>
-      <link>https://hzambran.github.io/tags/mzb/</link>
+      <link>http://localhost:1313/tags/mzb/</link>
     </image>
     
     <item>
       <title>Ingreso al Grupo de Evaluación de Ciencias de la Tierra de ANID !</title>
-      <link>https://hzambran.github.io/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</link>
+      <link>http://localhost:1313/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</guid>
+      <guid>http://localhost:1313/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</guid>
       <description>&lt;p&gt;In March 2021, as a water resources specialist, I was invited to join the &lt;strong&gt;Assessment Group of Earth Sciences&lt;/strong&gt; (&lt;em&gt;Grupo de Evaluación de Ciencias de la Tierra&lt;/em&gt;) of the Chilean Science Foundation (
 ), which is a great honor and responsability.&lt;/p&gt;
 &lt;p&gt;This group has to evaluate science and technologial proposals submitted by Chilean scientists to the following calls: 

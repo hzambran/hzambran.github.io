@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/tutorials/</link>
-      <atom:link href="https://hzambran.github.io/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/tutorials/</link>
+      <atom:link href="http://localhost:1313/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <description>Tutorials</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 Jul 1900 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Tutorials</title>
-      <link>https://hzambran.github.io/tags/tutorials/</link>
+      <link>http://localhost:1313/tags/tutorials/</link>
     </image>
     
     <item>
       <title>⚡️ Turn Jupyter Notebooks into Blog Posts</title>
-      <link>https://hzambran.github.io/blog/example_folders/notebook-onboarding/</link>
+      <link>http://localhost:1313/blog/example_folders/notebook-onboarding/</link>
       <pubDate>Sun, 15 Jul 1900 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/example_folders/notebook-onboarding/</guid>
+      <guid>http://localhost:1313/blog/example_folders/notebook-onboarding/</guid>
       <description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
 &lt;p&gt;Hugo Blox changes that. With the &lt;code&gt;{{&amp;lt; notebook &amp;gt;}}&lt;/code&gt; shortcode, you can render your actual &lt;code&gt;.ipynb&lt;/code&gt; files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.&lt;/p&gt;
 
@@ -100,7 +100,7 @@
       &lt;p class=&#34;hb-notebook-title&#34;&gt;Launch Readiness Analysis&lt;/p&gt;
         &lt;p class=&#34;hb-notebook-subtitle&#34;&gt;Python · Kernel: Python 3 · nbformat 4.5 · 6 cells&lt;/p&gt;
     &lt;/div&gt;
-      &lt;a class=&#34;hb-notebook-download&#34; href=&#34;https://hzambran.github.io/blog/example_folders/notebook-onboarding/hugoblox-onboarding.ipynb&#34; download&gt;
+      &lt;a class=&#34;hb-notebook-download&#34; href=&#34;http://localhost:1313/blog/example_folders/notebook-onboarding/hugoblox-onboarding.ipynb&#34; download&gt;
         &lt;svg class=&#34;w-4 h-4&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3&#34;/&gt;&lt;/svg&gt;
         &lt;span&gt;Download notebook&lt;/span&gt;
       &lt;/a&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Course | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/course/</link>
-      <atom:link href="https://hzambran.github.io/tags/course/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/course/</link>
+      <atom:link href="http://localhost:1313/tags/course/index.xml" rel="self" type="application/rss+xml" />
     <description>Course</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Course</title>
-      <link>https://hzambran.github.io/tags/course/</link>
+      <link>http://localhost:1313/tags/course/</link>
     </image>
     
     <item>
       <title>IIO222 - Programación Aplicada (undergraduate)</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/</link>
       <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/</guid>
       <description>&lt;p&gt;👋 Description of the Applied Programming undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
 &lt;h2 id=&#34;identification-of-the-course&#34;&gt;Identification of the course&lt;/h2&gt;
 &lt;ul&gt;
@@ -156,9 +156,9 @@
     
     <item>
       <title>IIO409 - Hydrological Modelling (undergraduate)</title>
-      <link>https://hzambran.github.io/courses/iio409-modelacionhidrologica/</link>
+      <link>http://localhost:1313/courses/iio409-modelacionhidrologica/</link>
       <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio409-modelacionhidrologica/</guid>
+      <guid>http://localhost:1313/courses/iio409-modelacionhidrologica/</guid>
       <description>&lt;p&gt;👋 Description of the Hydrological Modelling undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
 &lt;h2 id=&#34;identification-of-the-course&#34;&gt;Identification of the course&lt;/h2&gt;
 &lt;ul&gt;
@@ -259,12 +259,12 @@
     
     <item>
       <title>IIO352/IIO422 - Hidrología (undergraduate)</title>
-      <link>https://hzambran.github.io/courses/iio352-hidrologia/</link>
+      <link>http://localhost:1313/courses/iio352-hidrologia/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio352-hidrologia/</guid>
+      <guid>http://localhost:1313/courses/iio352-hidrologia/</guid>
       <description>&lt;p&gt;👋 Description of the Hydrology undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/courses/iio352-hidrologia/iio352-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/courses/iio352-hidrologia/iio352-logo.jpg&#34;
     alt=&#34;Hydrology course&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Hydrology course at undergraduate level&lt;/p&gt;
     &lt;/figcaption&gt;

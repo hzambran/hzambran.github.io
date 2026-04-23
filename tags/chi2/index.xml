@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chi2 | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/chi2/</link>
-      <atom:link href="https://hzambran.github.io/tags/chi2/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/chi2/</link>
+      <atom:link href="http://localhost:1313/tags/chi2/index.xml" rel="self" type="application/rss+xml" />
     <description>Chi2</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Chi2</title>
-      <link>https://hzambran.github.io/tags/chi2/</link>
+      <link>http://localhost:1313/tags/chi2/</link>
     </image>
     
     <item>
       <title>Article on hydrological drought monitoring published in HESS</title>
-      <link>https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
+      <link>http://localhost:1313/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
       <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
+      <guid>http://localhost:1313/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
       <description>&lt;p&gt;On March 28th, 2024, 
  published the article entitled 
 . This study investigates the suitability of different drought indices and temporal scales for monitoring streamflow drought in catchments with different hydrological regimes.&lt;/p&gt;
@@ -48,7 +48,7 @@
 &lt;p&gt;The full article can be found here: 
 .&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
     alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Graphical abstract&lt;/p&gt;
     &lt;/figcaption&gt;

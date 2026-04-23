@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Megadrought | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/megadrought/</link>
-      <atom:link href="https://hzambran.github.io/tags/megadrought/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/megadrought/</link>
+      <atom:link href="http://localhost:1313/tags/megadrought/index.xml" rel="self" type="application/rss+xml" />
     <description>Megadrought</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Megadrought</title>
-      <link>https://hzambran.github.io/tags/megadrought/</link>
+      <link>http://localhost:1313/tags/megadrought/</link>
     </image>
     
     <item>
       <title>Cambio climático alimenta &#39;mancha&#39; caliente oceánica que causa megasequía en Chile según un estudio (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
+      <link>http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
+      <guid>http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
       <description>&lt;p&gt;According to a recent study, a gigantic slick of more than 8 million kilometers located east of New Zealand is largely responsible for the dramatic lack of water that is affecting the central area of Chile.&lt;/p&gt;
 &lt;p&gt;The full note can be read on the 
  or in the 
@@ -24,7 +24,7 @@
 &lt;p&gt;The scientific article published in the &lt;em&gt;Journal of Climate&lt;/em&gt; is available 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
     alt=&#34;https://www.latercera.com/que-pasa/noticia/cambio-climatico-alimenta-mancha-caliente-oceanica-que-causa-megasequia-en-chile-segun-un-estudio/&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Fuente: La Tercera&lt;/p&gt;
     &lt;/figcaption&gt;

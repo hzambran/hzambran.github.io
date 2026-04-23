@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hydrological Modelling | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/hydrological-modelling/</link>
-      <atom:link href="https://hzambran.github.io/tags/hydrological-modelling/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/hydrological-modelling/</link>
+      <atom:link href="http://localhost:1313/tags/hydrological-modelling/index.xml" rel="self" type="application/rss+xml" />
     <description>Hydrological Modelling</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Hydrological Modelling</title>
-      <link>https://hzambran.github.io/tags/hydrological-modelling/</link>
+      <link>http://localhost:1313/tags/hydrological-modelling/</link>
     </image>
     
     <item>
       <title>hydroMOPSO</title>
-      <link>https://hzambran.github.io/rpackages/hydromopso/</link>
+      <link>http://localhost:1313/rpackages/hydromopso/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/hydromopso/</guid>
+      <guid>http://localhost:1313/rpackages/hydromopso/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -42,7 +42,7 @@
   }
 &lt;/style&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/hydromopso/hydroMOPSO-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/hydromopso/hydroMOPSO-logo.jpg&#34;
     alt=&#34;hydroMOPSO R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -62,9 +62,9 @@
     
     <item>
       <title>RcamelsCL</title>
-      <link>https://hzambran.github.io/rpackages/rcamelscl/</link>
+      <link>http://localhost:1313/rpackages/rcamelscl/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/rcamelscl/</guid>
+      <guid>http://localhost:1313/rpackages/rcamelscl/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -100,7 +100,7 @@
 &lt;p&gt;Well suited for research, teaching, and operational analysis, 
  provides a technically sound and efficient gateway to one of the most comprehensive hydrological datasets available for Chile. It is especially valuable for users seeking a reliable foundation for data-driven hydrological studies and reproducible environmental research.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/rcamelscl/RcamelsCL-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/rcamelscl/RcamelsCL-logo.jpg&#34;
     alt=&#34;RcamelsCL R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -111,9 +111,9 @@
     
     <item>
       <title>hydroPSO</title>
-      <link>https://hzambran.github.io/rpackages/hydropso/</link>
+      <link>http://localhost:1313/rpackages/hydropso/</link>
       <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/hydropso/</guid>
+      <guid>http://localhost:1313/rpackages/hydropso/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -153,7 +153,7 @@
 , Environmental Modelling &amp;amp; Software, 43, 5-25, doi:10.1016/j.envsoft.2013.01.004.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/hydropso/hydroPSO-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/hydropso/hydroPSO-logo.jpg&#34;
     alt=&#34;hydroTSM R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -164,9 +164,9 @@
     
     <item>
       <title>hydroGOF</title>
-      <link>https://hzambran.github.io/rpackages/hydrogof/</link>
+      <link>http://localhost:1313/rpackages/hydrogof/</link>
       <pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/hydrogof/</guid>
+      <guid>http://localhost:1313/rpackages/hydrogof/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -199,7 +199,7 @@
 &lt;p&gt;
  is widely used in research, teaching, and professional practice, which makes it particularly suitable for users who require dependable, well-documented tools to quantify model accuracy and communicate results with clarity. It provides a technically robust foundation for evidence-based model development, benchmarking, and decision support in hydrology and related environmental sciences.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/hydrogof/hydroGOF-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/hydrogof/hydroGOF-logo.jpg&#34;
     alt=&#34;hydroGOF R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -210,9 +210,9 @@
     
     <item>
       <title>hydroTSM</title>
-      <link>https://hzambran.github.io/rpackages/hydrotsm/</link>
+      <link>http://localhost:1313/rpackages/hydrotsm/</link>
       <pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/hydrotsm/</guid>
+      <guid>http://localhost:1313/rpackages/hydrotsm/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -245,7 +245,7 @@
 &lt;p&gt;Developed with the daily needs of practitioners in mind, 
  has been widely used in research, teaching, and professional applications. It is especially suitable for users who require dependable, well-documented tools to support routine hydrological analysis while maintaining full control over data processing steps within the R environment.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/hydrotsm/hydroTSM-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/hydrotsm/hydroTSM-logo.jpg&#34;
     alt=&#34;hydroTSM R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;

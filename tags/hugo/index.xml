@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/tags/hugo/</link>
-      <atom:link href="https://hzambran.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/hugo/</link>
+      <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Oct 1900 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Hugo</title>
-      <link>https://hzambran.github.io/tags/hugo/</link>
+      <link>http://localhost:1313/tags/hugo/</link>
     </image>
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>https://hzambran.github.io/blog/example_folders/data-visualization/</link>
+      <link>http://localhost:1313/blog/example_folders/data-visualization/</link>
       <pubDate>Thu, 25 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/example_folders/data-visualization/</guid>
+      <guid>http://localhost:1313/blog/example_folders/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;embed-rich-content&#34;&gt;Embed Rich Content&lt;/h2&gt;
@@ -281,9 +281,9 @@ This Hugging Face dataset is a mirror. For the …
     &lt;div class=&#34;p-6 space-y-4&#34;&gt;
       &lt;div class=&#34;mb-4 overflow-hidden rounded-lg&#34;&gt;
     &lt;img class=&#34;w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105&#34; 
-         srcset=&#34;https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp 400w, https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_2b9219625df66689.webp 600w, https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_f768b3ade4e0bafb.webp 800w, https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_943bd725d39b28c5.webp 800w&#34;
+         srcset=&#34;http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp 400w, http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_2b9219625df66689.webp 600w, http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_f768b3ade4e0bafb.webp 800w, http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_943bd725d39b28c5.webp 800w&#34;
          sizes=&#34;(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw&#34;
-         src=&#34;https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp&#34; 
+         src=&#34;http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp&#34; 
          width=&#34;400&#34; 
          height=&#34;300&#34;
          loading=&#34;lazy&#34; 
@@ -343,9 +343,9 @@ This Hugging Face dataset is a mirror. For the …
     &lt;div class=&#34;p-6 space-y-4&#34;&gt;
       &lt;div class=&#34;mb-4 overflow-hidden rounded-lg&#34;&gt;
     &lt;img class=&#34;w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105&#34; 
-         srcset=&#34;https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp 400w, https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_920ba61058f3c5cc.webp 600w, https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_de34421e7136549f.webp 600w&#34;
+         srcset=&#34;http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp 400w, http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_920ba61058f3c5cc.webp 600w, http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_de34421e7136549f.webp 600w&#34;
          sizes=&#34;(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw&#34;
-         src=&#34;https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp&#34; 
+         src=&#34;http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp&#34; 
          width=&#34;400&#34; 
          height=&#34;267&#34;
          loading=&#34;lazy&#34; 
@@ -385,7 +385,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-187356942&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-426857319&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -403,7 +403,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-187356942&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-426857319&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -586,7 +586,7 @@ Crash --&gt; [*]
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-7e224f8477195bc3f16f35c894e9ba69&#34;
-    href=&#34;https://hzambran.github.io/&#34;
+    href=&#34;http://localhost:1313/&#34;
     
     
     
@@ -671,7 +671,7 @@ Crash --&gt; [*]
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-13d14104c82aaedf3f0ca1dbe530cbe4&#34;
-    href=&#34;https://hzambran.github.io/data/results.csv&#34;
+    href=&#34;http://localhost:1313/data/results.csv&#34;
     
     
     
@@ -794,9 +794,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>https://hzambran.github.io/blog/example_folders/teach-courses/</link>
+      <link>http://localhost:1313/blog/example_folders/teach-courses/</link>
       <pubDate>Wed, 24 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/example_folders/teach-courses/</guid>
+      <guid>http://localhost:1313/blog/example_folders/teach-courses/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -868,7 +868,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://hzambran.github.io/blog/example_folders/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/blog/example_folders/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;

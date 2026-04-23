@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/</link>
-      <atom:link href="https://hzambran.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr. Mauricio Zambrano-Bigiarini</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Dr. Mauricio Zambrano-Bigiarini</title>
-      <link>https://hzambran.github.io/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>Getting Started</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/getting-started/</link>
+      <link>http://localhost:1313/courses/hugo-blox/getting-started/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/getting-started/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/getting-started/</guid>
       <description>&lt;h2 id=&#34;quick-start-from-template&#34;&gt;Quick Start from Template&lt;/h2&gt;
 &lt;div class=&#34;hb-steps&#34;&gt;
 &lt;h3 id=&#34;create-a-site&#34;&gt;Create a site&lt;/h3&gt;
@@ -65,9 +65,9 @@
     
     <item>
       <title>Getting Started</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/getting-started/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/getting-started/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/getting-started/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/getting-started/</guid>
       <description>&lt;h2 id=&#34;quick-start-from-template&#34;&gt;Quick Start from Template&lt;/h2&gt;
 &lt;div class=&#34;hb-steps&#34;&gt;
 &lt;h3 id=&#34;create-a-site&#34;&gt;Create a site&lt;/h3&gt;
@@ -116,9 +116,9 @@
     
     <item>
       <title>Customizing Hugo</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/reference/customization/</link>
+      <link>http://localhost:1313/courses/hugo-blox/reference/customization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/reference/customization/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/reference/customization/</guid>
       <description>&lt;p&gt;View the full docs at 
 &lt;/p&gt;
 </description>
@@ -126,9 +126,9 @@
     
     <item>
       <title>Customizing Hugo</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/reference/customization/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/reference/customization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/reference/customization/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/reference/customization/</guid>
       <description>&lt;p&gt;View the full docs at 
 &lt;/p&gt;
 </description>
@@ -136,9 +136,9 @@
     
     <item>
       <title>Project Structure</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/guide/project-structure/</link>
+      <link>http://localhost:1313/courses/hugo-blox/guide/project-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/guide/project-structure/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/guide/project-structure/</guid>
       <description>&lt;h2 id=&#34;folder-structure&#34;&gt;Folder Structure&lt;/h2&gt;
 &lt;p&gt;There are &lt;strong&gt;4 main folders for Hugo-based sites&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -192,9 +192,9 @@
     
     <item>
       <title>Project Structure</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/project-structure/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/guide/project-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/project-structure/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/guide/project-structure/</guid>
       <description>&lt;h2 id=&#34;folder-structure&#34;&gt;Folder Structure&lt;/h2&gt;
 &lt;p&gt;There are &lt;strong&gt;4 main folders for Hugo-based sites&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
@@ -248,9 +248,9 @@
     
     <item>
       <title>Configuration</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/guide/configuration/</link>
+      <link>http://localhost:1313/courses/hugo-blox/guide/configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/guide/configuration/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/guide/configuration/</guid>
       <description>&lt;p&gt;The configuration of your site can be found in &lt;code&gt;config/_default/&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;full-documentation&#34;&gt;Full Documentation&lt;/h2&gt;
 &lt;p&gt;See 
@@ -287,9 +287,9 @@
     
     <item>
       <title>Configuration</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/configuration/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/guide/configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/configuration/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/guide/configuration/</guid>
       <description>&lt;p&gt;The configuration of your site can be found in &lt;code&gt;config/_default/&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;full-documentation&#34;&gt;Full Documentation&lt;/h2&gt;
 &lt;p&gt;See 
@@ -326,9 +326,9 @@
     
     <item>
       <title>From grid to ground: how well do gridded products represent soil moisture dynamics in natural ecosystems during precipitation events?</title>
-      <link>https://hzambran.github.io/publications/2026-nunezibarra-from-grid/</link>
+      <link>http://localhost:1313/publications/2026-nunezibarra-from-grid/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2026-nunezibarra-from-grid/</guid>
+      <guid>http://localhost:1313/publications/2026-nunezibarra-from-grid/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -418,9 +418,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Pulliko: Gridded soil moisture for Chile</title>
-      <link>https://hzambran.github.io/web-platforms/pulliko/</link>
+      <link>http://localhost:1313/web-platforms/pulliko/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/web-platforms/pulliko/</guid>
+      <guid>http://localhost:1313/web-platforms/pulliko/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -478,7 +478,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
  of the Department of Civil Engineering at the Universidad de La Frontera. The processed soil moisture fields and derived anomaly indicators are subsequently displayed through the 
 , meaning &amp;ldquo;water in the soil&amp;rdquo; in mapuzungun, interactive web interface, enabling users to explore current conditions and historical patterns in an intuitive and accessible manner.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/web-platforms/pulliko/pulliko-main_screen.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/web-platforms/pulliko/pulliko-main_screen.jpg&#34;
     alt=&#34;Pulliko web platform&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Main screen of 
  web platform&lt;/p&gt;
@@ -493,9 +493,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Curvas IDF Chile</title>
-      <link>https://hzambran.github.io/web-platforms/curvas_idf/</link>
+      <link>http://localhost:1313/web-platforms/curvas_idf/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/web-platforms/curvas_idf/</guid>
+      <guid>http://localhost:1313/web-platforms/curvas_idf/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -533,7 +533,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;
  is a web platform designed to support the computation and visualization of &lt;strong&gt;Intensity–Duration–Frequency (IDF)&lt;/strong&gt; curves across continental Chile. The platform integrates modern datasets and statistical methodologies to provide robust estimates of extreme precipitation across diverse climatic and topographic regions, including areas with limited observational coverage.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/web-platforms/curvas_idf/curvasIDF-main_screen.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/web-platforms/curvas_idf/curvasIDF-main_screen.jpg&#34;
     alt=&#34;curvasIDF web platform&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Main screen of 
  web platform&lt;/p&gt;
@@ -626,9 +626,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>hydroMOPSO</title>
-      <link>https://hzambran.github.io/rpackages/hydromopso/</link>
+      <link>http://localhost:1313/rpackages/hydromopso/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/hydromopso/</guid>
+      <guid>http://localhost:1313/rpackages/hydromopso/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -654,7 +654,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   }
 &lt;/style&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/hydromopso/hydroMOPSO-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/hydromopso/hydroMOPSO-logo.jpg&#34;
     alt=&#34;hydroMOPSO R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -674,9 +674,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>The Past 3 Years Have Been the Three Hottest</title>
-      <link>https://hzambran.github.io/blog/2026-01-14-past_3_years_have_been_the_hottest/</link>
+      <link>http://localhost:1313/blog/2026-01-14-past_3_years_have_been_the_hottest/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2026-01-14-past_3_years_have_been_the_hottest/</guid>
+      <guid>http://localhost:1313/blog/2026-01-14-past_3_years_have_been_the_hottest/</guid>
       <description>&lt;p&gt;The recent analysis published by &lt;strong&gt;Berkeley Earth&lt;/strong&gt;, corroborated by the &lt;strong&gt;National Oceanic and Atmospheric Administration (NOAA)&lt;/strong&gt;, confirms that &lt;strong&gt;2025 was the third-warmest year on record&lt;/strong&gt;. This year follows 2024 and 2023, collectively forming a three-year &amp;ldquo;warming spike&amp;rdquo; that deviates significantly from long-term linear trends and poses critical questions regarding the acceleration of anthropogenic climate change.&lt;/p&gt;
 &lt;h3 id=&#34;statistical-overview-and-record-benchmarks&#34;&gt;Statistical Overview and Record Benchmarks&lt;/h3&gt;
 &lt;p&gt;In 2025, global average temperatures were estimated to be between &lt;strong&gt;1.35°C and 1.53°C&lt;/strong&gt; above the 1850–1900 pre-industrial baseline. While slightly lower than the peaks seen in 2024 ($1.46\text{--}1.62\text{°C}$) and 2023 ($1.48\text{--}1.60\text{°C}$), the data underscores a persistent breach of, or proximity to, the &lt;strong&gt;1.5°C threshold&lt;/strong&gt; established by the Paris Agreement.&lt;/p&gt;
@@ -711,7 +711,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-14-past_3_years_have_been_the_hottest/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2026-01-14-past_3_years_have_been_the_hottest/featured.jpg&#34;
     alt=&#34;exceptional warming observed in the past 3 years&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Scientists say the exceptional warming observed in the past 3 years could be evidence of accelerating warming. Credit: Berkeley Earth, CC BY-NC 4.0&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -722,9 +722,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Developing Intensity-Duration-Frequency (IDF) curves using sub-daily gridded and in situ datasets: characterising precipitation extremes in a drying climate</title>
-      <link>https://hzambran.github.io/publications/2026-sotoescobar-developing-intensitydurationfrequency/</link>
+      <link>http://localhost:1313/publications/2026-sotoescobar-developing-intensitydurationfrequency/</link>
       <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2026-sotoescobar-developing-intensitydurationfrequency/</guid>
+      <guid>http://localhost:1313/publications/2026-sotoescobar-developing-intensitydurationfrequency/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -814,9 +814,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>hydroMOPSO: A flexible and model-independent multi-objective optimisation R package for environmental and hydrological models</title>
-      <link>https://hzambran.github.io/publications/2026-marinao-hydromopso-a/</link>
+      <link>http://localhost:1313/publications/2026-marinao-hydromopso-a/</link>
       <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2026-marinao-hydromopso-a/</guid>
+      <guid>http://localhost:1313/publications/2026-marinao-hydromopso-a/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -906,9 +906,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Article on hydropedological clustering published in JoH</title>
-      <link>https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/</link>
+      <link>http://localhost:1313/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/</guid>
+      <guid>http://localhost:1313/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/</guid>
       <description>&lt;p&gt;On December 19th, 2025, 
  published our article entitled 
 . This study investigates how different soil datasets and classification approaches affect the performance of the SWAT+ hydrological model in simulating low streamflows and soil water content (SWC).&lt;/p&gt;
@@ -929,7 +929,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;The full article can be found here: 
 .&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/graphical_abstract.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/graphical_abstract.jpg&#34;
     alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Graphical abstract&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -940,9 +940,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Hydropedological clustering: improving the representation of low streamflows in a semi-distributed hydrological model</title>
-      <link>https://hzambran.github.io/publications/2025-gimeno-hydropedological-clustering/</link>
+      <link>http://localhost:1313/publications/2025-gimeno-hydropedological-clustering/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2025-gimeno-hydropedological-clustering/</guid>
+      <guid>http://localhost:1313/publications/2025-gimeno-hydropedological-clustering/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1032,9 +1032,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>SICA: Integrated Climate and Water System in Chile (TA25I10030. )</title>
-      <link>https://hzambran.github.io/projects/2025-2029-ta25i10030/</link>
+      <link>http://localhost:1313/projects/2025-2029-ta25i10030/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/projects/2025-2029-ta25i10030/</guid>
+      <guid>http://localhost:1313/projects/2025-2029-ta25i10030/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -1071,9 +1071,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Hidrodesafios 2025 Seminar</title>
-      <link>https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</link>
+      <link>http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</guid>
+      <guid>http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</guid>
       <description>&lt;p&gt;On Wednesday, November 26th 2025, I participated as a speaker at the seminar &amp;ldquo;
 &amp;rdquo; organized by the Sanitation Services Concessionaire Company S.A. (ECONSSA Chile) with sponsorship from the Chilean Association for Water Rights (AChDA) and Fundación Chile.&lt;/p&gt;
 &lt;p&gt;This event took place from 8:30 hrs at the Ritz-Carlton Hotel in the Las Condes district, with the objective of addressing the future of the sanitation sector in a context of water scarcity and climate change, and analyzing the role of seawater desalination and wastewater reuse in confronting the water crisis.&lt;/p&gt;
@@ -1094,7 +1094,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;More information and the program for the event can be found at 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/Debate_sanitario.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/Debate_sanitario.jpg&#34;
     alt=&#34;Dr. Zambrano-Bigiarini at the Hidrodesafios 2025 Seminar&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Debate on proposals for the water and sanitary sector in Chile&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -1105,9 +1105,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>III Regional Climate Change Seminar</title>
-      <link>https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/</link>
+      <link>http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/</link>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/</guid>
+      <guid>http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/</guid>
       <description>&lt;p&gt;On Friday, November 21 2025, I participated as a speaker at the III Regional Climate Change Seminar, organized by the Regional Environmental Secretariat (SEREMI) of the Araucanía Region, the Regional Government of the Araucanía Region, the Catholic University of Temuco, and EBP.&lt;/p&gt;
 &lt;p&gt;The seminar aimed to share the contents of the 
  with key stakeholders in the region, strengthening regional understanding, ownership, and commitment to addressing the challenges of climate change.&lt;/p&gt;
@@ -1148,9 +1148,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;MZB_speaking&#34; 
-               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_d1f3d4861ef3c785.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_cee733e63d013609.webp 570w&#34;
+               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_d1f3d4861ef3c785.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_cee733e63d013609.webp 570w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp&#34;
+               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp&#34;
                width=&#34;570&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1176,9 +1176,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;MZB_presentation&#34; 
-               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_7335dc7a29a68431.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_4c1a5f5003393cb8.webp 760w&#34;
+               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_7335dc7a29a68431.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_4c1a5f5003393cb8.webp 760w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp&#34;
+               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp&#34;
                width=&#34;760&#34;
                height=&#34;424&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1204,9 +1204,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;Discussion_Panel&#34; 
-               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_de44885b3f6064e5.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_d8a52476d5cb49d1.webp 760w&#34;
+               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_de44885b3f6064e5.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_d8a52476d5cb49d1.webp 760w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp&#34;
+               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp&#34;
                width=&#34;760&#34;
                height=&#34;557&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1232,9 +1232,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;Audience&#34; 
-               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_7aa7a95ec05f7bb.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_2051562c3199adfd.webp 760w&#34;
+               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_7aa7a95ec05f7bb.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_2051562c3199adfd.webp 760w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp&#34;
+               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1245,9 +1245,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>SICyR 2025: Sessions HC2 and HC7</title>
-      <link>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/</link>
+      <link>http://localhost:1313/dissemination/2025-11-07-sicyr_2025/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/</guid>
+      <guid>http://localhost:1313/dissemination/2025-11-07-sicyr_2025/</guid>
       <description>&lt;p&gt;Members of the 
  participated in the 
 , an event that brought together leading researchers, academics, and professionals from the social and natural sciences. The symposium took place on November 3-4 in Santiago, where the plenary sessions and workshops were held, and continued from November 5-7 in Viña del Mar, where the thematic scientific sessions took place.&lt;/p&gt;
@@ -1290,11 +1290,11 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2025/2025-11-07-SICyR_2025/KimunKo_y_Equipo_Propagacion_Sequia.jpg&#34; alt=&#34;KimunKo_y_Equipo_Propagacion_Sequia&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/2025/2025-11-07-SICyR_2025/KimunKo_y_Equipo_Propagacion_Sequia.jpg&#34; alt=&#34;KimunKo_y_Equipo_Propagacion_Sequia&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-07-sicyr_2025/featured.jpg&#34;
     alt=&#34;Kimuün-Ko and Drought progpagation teams&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Former and current Kimün-Ko members along with Dr. Mauricio Gellguillos (UAI), Giancarlo Casanova, DR(c) Emilia Figueiras (AR) y Dr. Pablo Spennemann&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -1305,13 +1305,13 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>SICyR 2025: R course</title>
-      <link>https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/</link>
+      <link>http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/</guid>
+      <guid>http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/</guid>
       <description>&lt;h1 id=&#34;r-course-spatiotemporal-data-analysis&#34;&gt;R Course: Spatiotemporal Data Analysis&lt;/h1&gt;
 &lt;p&gt;On November 4, I taught the course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;, which was attended by undergraduate and graduate students, as well as public and private sector professionals.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/featured.jpg&#34;
     alt=&#34;R Course&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -1322,13 +1322,13 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>SICyR 2025: R course</title>
-      <link>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/</link>
+      <link>http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/</guid>
+      <guid>http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/</guid>
       <description>&lt;h1 id=&#34;r-course-spatiotemporal-data-analysis&#34;&gt;R Course: Spatiotemporal Data Analysis&lt;/h1&gt;
 &lt;p&gt;On November 4, I taught the course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;, which was attended by undergraduate and graduate students, as well as public and private sector professionals.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/featured.jpg&#34;
     alt=&#34;R Course&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -1339,9 +1339,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Hyperdroughts in central Chile: drivers, impacts, and projections</title>
-      <link>https://hzambran.github.io/publications/2025-garreaud-hyperdroughts-in/</link>
+      <link>http://localhost:1313/publications/2025-garreaud-hyperdroughts-in/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2025-garreaud-hyperdroughts-in/</guid>
+      <guid>http://localhost:1313/publications/2025-garreaud-hyperdroughts-in/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1431,9 +1431,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>RcamelsCL</title>
-      <link>https://hzambran.github.io/rpackages/rcamelscl/</link>
+      <link>http://localhost:1313/rpackages/rcamelscl/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/rcamelscl/</guid>
+      <guid>http://localhost:1313/rpackages/rcamelscl/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -1469,7 +1469,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;Well suited for research, teaching, and operational analysis, 
  provides a technically sound and efficient gateway to one of the most comprehensive hydrological datasets available for Chile. It is especially valuable for users seeking a reliable foundation for data-driven hydrological studies and reproducible environmental research.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/rcamelscl/RcamelsCL-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/rcamelscl/RcamelsCL-logo.jpg&#34;
     alt=&#34;RcamelsCL R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -1480,9 +1480,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Two works at EGU 2025</title>
-      <link>https://hzambran.github.io/dissemination/2025-04-29-egu2025/</link>
+      <link>http://localhost:1313/dissemination/2025-04-29-egu2025/</link>
       <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2025-04-29-egu2025/</guid>
+      <guid>http://localhost:1313/dissemination/2025-04-29-egu2025/</guid>
       <description>&lt;p&gt;During the week of April 28th to May 2nd, 2025, I participated in the 2025 European Geosciences Union (
 ) Conference, held in Vienna, Austria. This is the most important European conference in the field of Earth Sciences, held annually and attracting researchers from all over the world.&lt;/p&gt;
 &lt;p&gt;On this occasion, I presented a poster and participated as a co-author in an oral presentation:&lt;/p&gt;
@@ -1494,7 +1494,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
  in U. de Chile.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-04-29-egu2025/Foto1-MZB.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-04-29-egu2025/Foto1-MZB.jpg&#34;
     alt=&#34;Poster at EGU 2025&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Dr. Zambrano-Bigiarini at EGU 2025&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -1506,13 +1506,13 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
  and the Fondecyt Regular project 1212071.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-04-29-egu2025/Foto2a-HGF.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-04-29-egu2025/Foto2a-HGF.jpg&#34;
     alt=&#34;Héctor Garcés F. at EGU 2025&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Héctor Garcés F. at EGU 2025&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-04-29-egu2025/Foto2b-HGF.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-04-29-egu2025/Foto2b-HGF.jpg&#34;
     alt=&#34;Héctor Garcés F. at EGU 2025&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Héctor Garcés F. at EGU 2025&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -1523,7 +1523,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
  from Ghent University (Belgium), and with 
  from Sun Yat-sen University (China, co-PI of the international collaboration project NSFC190018), among others.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-04-29-egu2025/MZB_AP_italiano.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-04-29-egu2025/MZB_AP_italiano.jpg&#34;
     alt=&#34;EGU 2025&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Dr. Zambrano-Bigiarini, Dr. Pizarro and an Italian colleague at EGU 2025&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -1540,9 +1540,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Technical note: What does the Standardized Streamflow Index actually reflect? Insights and implications for hydrological drought analysis</title>
-      <link>https://hzambran.github.io/publications/2025-lema-technical-note/</link>
+      <link>http://localhost:1313/publications/2025-lema-technical-note/</link>
       <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2025-lema-technical-note/</guid>
+      <guid>http://localhost:1313/publications/2025-lema-technical-note/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1632,9 +1632,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>WMO confirms 2024 as warmest year on record at about 1.55°C above pre-industrial level</title>
-      <link>https://hzambran.github.io/blog/2025-01-10-2024_was_warmest_year_on_record/</link>
+      <link>http://localhost:1313/blog/2025-01-10-2024_was_warmest_year_on_record/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2025-01-10-2024_was_warmest_year_on_record/</guid>
+      <guid>http://localhost:1313/blog/2025-01-10-2024_was_warmest_year_on_record/</guid>
       <description>&lt;p&gt;The World Meteorological Organization (WMO) has released a consolidated report confirming that 2024 was the warmest calendar year on record. By synthesizing six leading international datasets, the WMO provides a high-confidence assessment of global thermal anomalies, the state of oceanic heat reservoirs, and the current standing of international climate targets.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;1-temperature-anomalies-and-statistical-significance&#34;&gt;1. Temperature anomalies and statistical significance&lt;/h3&gt;
@@ -1689,7 +1689,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2025-01-10-2024_was_warmest_year_on_record/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2025-01-10-2024_was_warmest_year_on_record/featured.jpg&#34;
     alt=&#34;Global heating is a cold, hard fact&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;“Today&amp;rsquo;s assessment from the World Meteorological Organization (WMO) proves yet again – global heating is a cold, hard fact,” said UN Secretary-General Antóno Guterres. Source: WMO&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -1700,9 +1700,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Disponibilidad y seguridad hídrica en el desarrollo de enfermedades crónicas no transmisibles. ¿ Nuevos factores de riesgo?</title>
-      <link>https://hzambran.github.io/publications/2024-petermannrocha-disponibilidad-y/</link>
+      <link>http://localhost:1313/publications/2024-petermannrocha-disponibilidad-y/</link>
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-petermannrocha-disponibilidad-y/</guid>
+      <guid>http://localhost:1313/publications/2024-petermannrocha-disponibilidad-y/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1792,9 +1792,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Exotic tree plantations in the Chilean Coastal Range: balancing the effects of discrete disturbances, connectivity, and a persistent drought on catchment erosion</title>
-      <link>https://hzambran.github.io/publications/2024-tolorza-exotic-tree/</link>
+      <link>http://localhost:1313/publications/2024-tolorza-exotic-tree/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-tolorza-exotic-tree/</guid>
+      <guid>http://localhost:1313/publications/2024-tolorza-exotic-tree/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -1884,9 +1884,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Mawün-NRT: Near real-time gridded precipitation for Chile</title>
-      <link>https://hzambran.github.io/web-platforms/mawun-nrt/</link>
+      <link>http://localhost:1313/web-platforms/mawun-nrt/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/web-platforms/mawun-nrt/</guid>
+      <guid>http://localhost:1313/web-platforms/mawun-nrt/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -1917,7 +1917,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;&lt;strong&gt;Mawün-NRT&lt;/strong&gt; (in Mapuzungun, &amp;ldquo;mawün&amp;rdquo; means &amp;ldquo;rain”) is a free and publicly accessible web platform (
 ) that provides a user-friendly visualisation of the spatio-temporal distribution of precipitation events for continental Chile in near real-time.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/web-platforms/mawun-nrt/mawun-NRT-main_screen.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/web-platforms/mawun-nrt/mawun-NRT-main_screen.jpg&#34;
     alt=&#34;Mawün-NRT web platform&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Main screen of 
  web platform&lt;/p&gt;
@@ -1944,9 +1944,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Two works at EGU 2024</title>
-      <link>https://hzambran.github.io/dissemination/2024-04-13-egu2024/</link>
+      <link>http://localhost:1313/dissemination/2024-04-13-egu2024/</link>
       <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2024-04-13-egu2024/</guid>
+      <guid>http://localhost:1313/dissemination/2024-04-13-egu2024/</guid>
       <description>&lt;p&gt;During the week of April 15 to 19, 2024, two works will be presented by PhD(c) Fernando Gimeno in the 
 , held in the city of Wien (Austria):&lt;/p&gt;
 &lt;ol&gt;
@@ -1971,9 +1971,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>HESS Opinions: The unsustainable use of groundwater conceals a &#39;Day Zero&#39;</title>
-      <link>https://hzambran.github.io/publications/2024-alvarezgarreton-hess-opinions/</link>
+      <link>http://localhost:1313/publications/2024-alvarezgarreton-hess-opinions/</link>
       <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-alvarezgarreton-hess-opinions/</guid>
+      <guid>http://localhost:1313/publications/2024-alvarezgarreton-hess-opinions/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2063,9 +2063,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Anemometer installation at the Invernada station</title>
-      <link>https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</link>
+      <link>http://localhost:1313/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</guid>
+      <guid>http://localhost:1313/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</guid>
       <description>&lt;p&gt;Last Tuesday, April 9th 2024, part of the Water Resources Observatory team of the Department of Civil Engineering (
 ) of the Universidad of La Frontera carried out the installation of an anemometer in the Invernada meteorological station located in the Conguillio National Park (Los Paraguas sector).&lt;/p&gt;
 &lt;p&gt;The installation of this anemometer will allow the station to record both the average hourly wind speed, the gust speed (maximum instantaneous speed), and the wind direction. These parameters are added to the existing measurements of precipitation, air temperature, solar radiation, relative humidity and dew point, providing essential data for future research related to water resources in the region. In particular, from now on it will be possible to estimate the reference evapotranspiration, which accounts for the maximum amount of water that a standard crop is capable of evaporating.&lt;/p&gt;
@@ -2074,19 +2074,19 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;This milestone marked the end of a great filed work day for the team, which in this occasion included Dra. Rebeca Martínez, Civil Engineer Rodrigo Marinao, undergratuate student Marfa Saldivia and Dr. Mauricio Zambrano-Bigiarini. During the installation day it was also possible to carry out other routine activities, including streamflow measurements (through gauging and mass balance) and estimation of soil hydraulic conductivity (double ring infiltrometer).&lt;/p&gt;
 &lt;p&gt;These advances have been possible thanks to the funding provided by the projects: ANID Fondecyt Regular 1212071, ANID-NSFC 190018, ANID Fondecyt Postdoctoral 11190864, UFRO Postdoc grant405VRIP20P001, and ANID Fondecyt Postdoctoral 3220382.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4595.JPEG&#34;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4595.JPEG&#34;
     alt=&#34;Anemómetro&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Anemómetro&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4596.JPEG&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4596.JPEG&#34;
     alt=&#34;Estación invernada&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Estación invernada&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/featured.jpeg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/featured.jpeg&#34;
     alt=&#34;Parte del equipo de trabjo&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Parte del equipo de trabjo&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -2097,9 +2097,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Article on hydrological drought monitoring published in HESS</title>
-      <link>https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
+      <link>http://localhost:1313/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
       <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
+      <guid>http://localhost:1313/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
       <description>&lt;p&gt;On March 28th, 2024, 
  published the article entitled 
 . This study investigates the suitability of different drought indices and temporal scales for monitoring streamflow drought in catchments with different hydrological regimes.&lt;/p&gt;
@@ -2131,7 +2131,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;The full article can be found here: 
 .&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
     alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Graphical abstract&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -2142,9 +2142,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>On the timescale of drought indices for monitoring streamflow drought considering catchment hydrological regimes</title>
-      <link>https://hzambran.github.io/publications/2024-baezvillanueva-on-the/</link>
+      <link>http://localhost:1313/publications/2024-baezvillanueva-on-the/</link>
       <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-baezvillanueva-on-the/</guid>
+      <guid>http://localhost:1313/publications/2024-baezvillanueva-on-the/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2234,9 +2234,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Land Management Drifted: Land Use Scenario Modeling of Trancura River Basin, Araucanía, Chile</title>
-      <link>https://hzambran.github.io/publications/2024-diazjara-land-management/</link>
+      <link>http://localhost:1313/publications/2024-diazjara-land-management/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-diazjara-land-management/</guid>
+      <guid>http://localhost:1313/publications/2024-diazjara-land-management/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2326,9 +2326,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>2023 was the warmest year on record, (NOAA)</title>
-      <link>https://hzambran.github.io/blog/2024-01-12-2023_was_the_warmest_year_on_record/</link>
+      <link>http://localhost:1313/blog/2024-01-12-2023_was_the_warmest_year_on_record/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2024-01-12-2023_was_the_warmest_year_on_record/</guid>
+      <guid>http://localhost:1313/blog/2024-01-12-2023_was_the_warmest_year_on_record/</guid>
       <description>&lt;p&gt;Earth’s average land and ocean surface temperature in 2023 was 1.18ºC above the 20th century, the highest global temperature among all years in NOAA&amp;rsquo;s 1850-2023 climate record.
 It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC.&lt;/p&gt;
 &lt;p&gt;The 10 warmest years since 1850 have all occurred in the past decade. In fact, the average global temperature for 2023 exceeded the pre-industrial (1850-1900) average by 1.35ºC.&lt;/p&gt;
@@ -2352,7 +2352,7 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-01-12-2023_was_the_warmest_year_on_record/curves-2023.gif.webp&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-01-12-2023_was_the_warmest_year_on_record/curves-2023.gif.webp&#34;
     alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;My Caption&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -2363,9 +2363,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia</title>
-      <link>https://hzambran.github.io/publications/2024-aguayo-patagoniamet-a/</link>
+      <link>http://localhost:1313/publications/2024-aguayo-patagoniamet-a/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2024-aguayo-patagoniamet-a/</guid>
+      <guid>http://localhost:1313/publications/2024-aguayo-patagoniamet-a/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -2455,9 +2455,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Example Talk: Recent Work</title>
-      <link>https://hzambran.github.io/slides/example/</link>
+      <link>http://localhost:1313/slides/example/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/slides/example/</guid>
+      <guid>http://localhost:1313/slides/example/</guid>
       <description>&lt;!-- no-branding --&gt;
 &lt;h1 id=&#34;example-talk&#34;&gt;Example Talk&lt;/h1&gt;
 &lt;h3 id=&#34;dr-alex-johnson--meta-ai&#34;&gt;Dr. Alex Johnson · Meta AI&lt;/h3&gt;
@@ -2896,9 +2896,9 @@ Thank you for your attention! Feel free to reach out with questions or contribut
     
     <item>
       <title>Embed Media</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/guide/formatting/media/</link>
+      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/media/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/guide/formatting/media/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/media/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -3062,9 +3062,9 @@ data.head()
     
     <item>
       <title>Embed Media</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/media/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/media/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/media/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/media/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -3228,17 +3228,17 @@ data.head()
     
     <item>
       <title>Experience</title>
-      <link>https://hzambran.github.io/experience/</link>
+      <link>http://localhost:1313/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/experience/</guid>
+      <guid>http://localhost:1313/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hottest July on Record (174 years), (NASA)</title>
-      <link>https://hzambran.github.io/blog/2023-08-14-hottest_july_on_record/</link>
+      <link>http://localhost:1313/blog/2023-08-14-hottest_july_on_record/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2023-08-14-hottest_july_on_record/</guid>
+      <guid>http://localhost:1313/blog/2023-08-14-hottest_july_on_record/</guid>
       <description>&lt;p&gt;Earth just roasted under its hottest July on record, according to scientists from NOAA&amp;rsquo;s National Centers for Environmental Information (NCEI) and also ffrom scientist from NASA.&lt;/p&gt;
 &lt;p&gt;For the fourth-consecutive month, the global ocean surface temperature also hit a record high.&lt;/p&gt;
 &lt;p&gt;Overall, July 2023 was 0.24ºC warmer than any other July in NASA&amp;rsquo;s record (since 1880), and it was 1.18ºC warmer than the average July between 1951 and 1980.&lt;/p&gt;
@@ -3252,7 +3252,7 @@ data.head()
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2023-08-14-hottest_july_on_record/featured.png.webp&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2023-08-14-hottest_july_on_record/featured.png.webp&#34;
     alt=&#34;Global temperature anomalies for July 2023&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;This map shows global temperature anomalies for July 2023 according to the GISTEMP analysis by scientists at NASA’s Goddard Institute for Space Studies. Temperature anomalies reflect how July 2023 compared to the average July temperature from 1951-1980.Credits: NASA&amp;rsquo;s Goddard Institute for Space Studies&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -3263,9 +3263,9 @@ data.head()
     
     <item>
       <title>Earth just had its hottest June on record (NOAA)</title>
-      <link>https://hzambran.github.io/blog/2023-07-13-hottest_june_on_record/</link>
+      <link>http://localhost:1313/blog/2023-07-13-hottest_june_on_record/</link>
       <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2023-07-13-hottest_june_on_record/</guid>
+      <guid>http://localhost:1313/blog/2023-07-13-hottest_june_on_record/</guid>
       <description>&lt;p&gt;The world just sweltered through its &lt;strong&gt;hottest June&lt;/strong&gt; in the 174-year global climate record.&lt;/p&gt;
 &lt;p&gt;The June global surface temperature was 1.05°C above the 20th-century average of 15.5°C, making it the warmest June on record. This marked the first time a June temperature exceeded 1°C above the long-term average.&lt;/p&gt;
 &lt;p&gt;June 2023 was 0.13°C warmer than the previous June record from 2020, but 0.29°C cooler than the all-time highest monthly temperature anomaly on record (March 2016).&lt;/p&gt;
@@ -3279,7 +3279,7 @@ data.head()
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2023-07-13-hottest_june_on_record/featured.png.webp&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2023-07-13-hottest_june_on_record/featured.png.webp&#34;
     alt=&#34;Global temperature anomalies for June 2023&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;This map shows global temperature anomalies for June 2023 according to the GISTEMP analysis by scientists at NASA&amp;rsquo;s Goddard Institute for Space Studies. Temperature anomalies reflect how June 2023 compared to the average June temperature from 1951-1980. Credits: NASA’s Goddard Institute for Space Studies&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -3290,9 +3290,9 @@ data.head()
     
     <item>
       <title>Después de la gran tormenta, ¿cómo rediseñaremos? (El Mostrador)</title>
-      <link>https://hzambran.github.io/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</link>
+      <link>http://localhost:1313/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</guid>
+      <guid>http://localhost:1313/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</guid>
       <description>&lt;p&gt;I just published an opinion column in the newspaper El Mostrador on how we will redesign the infrastructure that have been affected by the big storm that hit the Central-South zone of Chile in the end of June of this year 2023.&lt;/p&gt;
 &lt;p&gt;In this column, I states that it is of vital importance that the design of future infrastructure works considers -at least- the estimation of flood risk maps, and that the use of floodplains (free of human settlements) be prioritized in the communal regulatory plans, floodplains that must be estimated using the best data and techniques available, to avoid future human, social and material tragedies.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -3309,9 +3309,9 @@ data.head()
     
     <item>
       <title>Two works at International SWAT Conference (Aarhus, Dinamarca)</title>
-      <link>https://hzambran.github.io/dissemination/2023-07-07-swat2023-aarhus_denmark/</link>
+      <link>http://localhost:1313/dissemination/2023-07-07-swat2023-aarhus_denmark/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2023-07-07-swat2023-aarhus_denmark/</guid>
+      <guid>http://localhost:1313/dissemination/2023-07-07-swat2023-aarhus_denmark/</guid>
       <description>&lt;p&gt;During the week of June 26th to 30th, 2023, I participated in the International Conference 
 , held at the 
  (Aarhus Denmark). This is a small conference, aimed at all scientists working with the 
@@ -3355,7 +3355,7 @@ data.head()
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/SWAT2023-Presentation_MZB.jpg&#34; alt=&#34;Multi-period and multi-variable calibration of SWAT&amp;#43; using gridded input datasets and a novel R package&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/SWAT2023-Presentation_MZB.jpg&#34; alt=&#34;Multi-period and multi-variable calibration of SWAT&amp;#43; using gridded input datasets and a novel R package&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
@@ -3384,7 +3384,7 @@ data.head()
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/SWAT2023-MZB_Sirinivasan_Palominos.jpg&#34; alt=&#34;Sirinivasan, Palominos and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/SWAT2023-MZB_Sirinivasan_Palominos.jpg&#34; alt=&#34;Sirinivasan, Palominos and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -3405,7 +3405,7 @@ data.head()
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/SWAT2023-MZB_RMR_Palominos.jpg&#34; alt=&#34;Rodrigo, Carolos and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/SWAT2023-MZB_RMR_Palominos.jpg&#34; alt=&#34;Rodrigo, Carolos and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -3426,7 +3426,7 @@ data.head()
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/SWAT2023-Aarhus2.jpg&#34; alt=&#34;Aarhus&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/SWAT2023-Aarhus2.jpg&#34; alt=&#34;Aarhus&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -3441,9 +3441,9 @@ data.head()
     
     <item>
       <title>Panta Rhei benchmark dataset: socio-hydrological data of paired events of floods and droughts</title>
-      <link>https://hzambran.github.io/publications/2023-kreibich-panta-rhei/</link>
+      <link>http://localhost:1313/publications/2023-kreibich-panta-rhei/</link>
       <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2023-kreibich-panta-rhei/</guid>
+      <guid>http://localhost:1313/publications/2023-kreibich-panta-rhei/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -3533,9 +3533,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Four works at EGU 2023</title>
-      <link>https://hzambran.github.io/dissemination/2023-05-02-egu2023/</link>
+      <link>http://localhost:1313/dissemination/2023-05-02-egu2023/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2023-05-02-egu2023/</guid>
+      <guid>http://localhost:1313/dissemination/2023-05-02-egu2023/</guid>
       <description>&lt;p&gt;During the week of April 24 to 28, 2023, I participated in the 
 , held in the city of Wien (Austria). On this occasion, I presented two works and participated in other two:&lt;/p&gt;
 &lt;ol&gt;
@@ -3573,7 +3573,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/EGU2023-01_Poster_hydroMOPSO.jpg&#34; alt=&#34;Multi-period and multi-variable calibration of SWAT&amp;#43; using gridded input datasets and a novel R package&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/EGU2023-01_Poster_hydroMOPSO.jpg&#34; alt=&#34;Multi-period and multi-variable calibration of SWAT&amp;#43; using gridded input datasets and a novel R package&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
@@ -3611,7 +3611,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/EGU2023-02_Ian_Oscar_MZB.jpg&#34; alt=&#34;Ian, Oscar and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/EGU2023-02_Ian_Oscar_MZB.jpg&#34; alt=&#34;Ian, Oscar and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -3632,7 +3632,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/EGU2023-03_Stephansdom.jpg&#34; alt=&#34;Wien: Stephansdom&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/EGU2023-03_Stephansdom.jpg&#34; alt=&#34;Wien: Stephansdom&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -3647,9 +3647,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Two posters at AGU 2022</title>
-      <link>https://hzambran.github.io/dissemination/2022-12-12-agu2022/</link>
+      <link>http://localhost:1313/dissemination/2022-12-12-agu2022/</link>
       <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2022-12-12-agu2022/</guid>
+      <guid>http://localhost:1313/dissemination/2022-12-12-agu2022/</guid>
       <description>&lt;p&gt;During the week of December 12 to 16th, 2022, I participated in the Conference 
 , held in the city of Chicago ( USES). This is the most important conference worldwide in the area of Earth Sciences, and it is held annually.&lt;/p&gt;
 &lt;p&gt;On this occasion, I presented two posters:&lt;/p&gt;
@@ -3678,7 +3678,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/AGU2022-01_Fotos_hydroRTS.jpg&#34; alt=&#34;An R package for efficient analysis of raster time series&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/AGU2022-01_Fotos_hydroRTS.jpg&#34; alt=&#34;An R package for efficient analysis of raster time series&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
@@ -3709,7 +3709,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/AGU2022-02_Foto_hydroMOPSO.jpg&#34; alt=&#34;hydroMOPSO: A Versatile Multi-Objective Optimization R Package for Calibration of Environmental and Hydrological Models&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/AGU2022-02_Foto_hydroMOPSO.jpg&#34; alt=&#34;hydroMOPSO: A Versatile Multi-Objective Optimization R Package for Calibration of Environmental and Hydrological Models&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
@@ -3734,7 +3734,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/AGU2022-03_Foto_Chi2.jpg&#34; alt=&#34;Project Chile-China NSFC 190018&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/AGU2022-03_Foto_Chi2.jpg&#34; alt=&#34;Project Chile-China NSFC 190018&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -3749,17 +3749,17 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title></title>
-      <link>https://hzambran.github.io/_index-copy/</link>
+      <link>http://localhost:1313/_index-copy/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/_index-copy/</guid>
+      <guid>http://localhost:1313/_index-copy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Article on challenge of unprecedented floods and droughts in risk management published in Nature</title>
-      <link>https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
+      <link>http://localhost:1313/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
       <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
+      <guid>http://localhost:1313/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
       <description>&lt;p&gt;On August 4, 2022, Nature published the article entitled 
 . This article
 shows that risk management has reduced vulnerability to floods and droughts worldwide, but their impacts continue to increase. Therefore, we need a better understanding of the causes of impacts in a changing climate, but this better understanding has been hampered by a lack of empirical data.&lt;/p&gt;
@@ -3772,7 +3772,7 @@ shows that risk management has reduced vulnerability to floods and droughts worl
 &lt;p&gt;The full article can be found here: 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
     alt=&#34;https://doi.org/10.1038/s41586-022-04917-5&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -3783,9 +3783,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>The challenge of unprecedented floods and droughts in risk management</title>
-      <link>https://hzambran.github.io/publications/2022-kreibich-the-challenge/</link>
+      <link>http://localhost:1313/publications/2022-kreibich-the-challenge/</link>
       <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2022-kreibich-the-challenge/</guid>
+      <guid>http://localhost:1313/publications/2022-kreibich-the-challenge/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -3875,16 +3875,16 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Is the megadrought over with the last frontal system? (The Clinic)</title>
-      <link>https://hzambran.github.io/blog/2022-07-19-termino_la_megasequia-theclinic/</link>
+      <link>http://localhost:1313/blog/2022-07-19-termino_la_megasequia-theclinic/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2022-07-19-termino_la_megasequia-theclinic/</guid>
+      <guid>http://localhost:1313/blog/2022-07-19-termino_la_megasequia-theclinic/</guid>
       <description>&lt;p&gt;On July 19th, 2022, Dr. Mauricio Zambrano-Bigiarini was interviewed about the impact of the latest frontal system in the drought that affects our country by the digital newspaper The Clinic.&lt;/p&gt;
 &lt;p&gt;In 
 , the academic discusses the impact that the latest rainfall had in reducing the water deficit in our country, and whether or not we can affirm that the mega-drought that affects our country has ended.&lt;/p&gt;
 &lt;p&gt;The full interview can be found here: 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2022-07-19-termino_la_megasequia-theclinic/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2022-07-19-termino_la_megasequia-theclinic/featured.jpg&#34;
     alt=&#34;https://www.theclinic.cl/2022/07/19/lluvia-nieve-sequia-sistema-frontal-expertos/&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -3895,9 +3895,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>A coupled modeling approach to assess the effect of forest policies in water provision: A biophysical evaluation of a drought-prone rural catchment in south-central Chile</title>
-      <link>https://hzambran.github.io/publications/2022-gimeno-a-coupled/</link>
+      <link>http://localhost:1313/publications/2022-gimeno-a-coupled/</link>
       <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2022-gimeno-a-coupled/</guid>
+      <guid>http://localhost:1313/publications/2022-gimeno-a-coupled/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -3987,9 +3987,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>On the selection of precipitation products for the regionalisation of hydrological model parameters</title>
-      <link>https://hzambran.github.io/publications/2021-baezvillanueva-on-the/</link>
+      <link>http://localhost:1313/publications/2021-baezvillanueva-on-the/</link>
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2021-baezvillanueva-on-the/</guid>
+      <guid>http://localhost:1313/publications/2021-baezvillanueva-on-the/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -4079,9 +4079,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Towards best default configuration settings for NMPSO in multi-objective optimization</title>
-      <link>https://hzambran.github.io/publications/2021-marinaorivas-towards-best/</link>
+      <link>http://localhost:1313/publications/2021-marinaorivas-towards-best/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2021-marinaorivas-towards-best/</guid>
+      <guid>http://localhost:1313/publications/2021-marinaorivas-towards-best/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -4171,9 +4171,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Cambio climático alimenta &#39;mancha&#39; caliente oceánica que causa megasequía en Chile según un estudio (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
+      <link>http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
+      <guid>http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
       <description>&lt;p&gt;According to a recent study, a gigantic slick of more than 8 million kilometers located east of New Zealand is largely responsible for the dramatic lack of water that is affecting the central area of Chile.&lt;/p&gt;
 &lt;p&gt;The full note can be read on the 
  or in the 
@@ -4181,7 +4181,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;The scientific article published in the &lt;em&gt;Journal of Climate&lt;/em&gt; is available 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
     alt=&#34;https://www.latercera.com/que-pasa/noticia/cambio-climatico-alimenta-mancha-caliente-oceanica-que-causa-megasequia-en-chile-segun-un-estudio/&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Fuente: La Tercera&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -4192,9 +4192,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>How well do gridded precipitation and actual evapotranspiration products represent the key water balance components in the Nile Basin?</title>
-      <link>https://hzambran.github.io/publications/2021-mcnamara-how-well/</link>
+      <link>http://localhost:1313/publications/2021-mcnamara-how-well/</link>
       <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2021-mcnamara-how-well/</guid>
+      <guid>http://localhost:1313/publications/2021-mcnamara-how-well/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -4284,16 +4284,16 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Article on Water Balancece in the Nile Basin using gridded P and ETa accepted for publication in JoH-RS</title>
-      <link>https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/</link>
+      <link>http://localhost:1313/blog/2021-08-13-johrs_article_on_rs4nile_published/</link>
       <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/</guid>
+      <guid>http://localhost:1313/blog/2021-08-13-johrs_article_on_rs4nile_published/</guid>
       <description>&lt;p&gt;The article  
  has been published on the 
  journal.&lt;/p&gt;
 &lt;p&gt;This article evaluates the performance of eleven state-of-the-art precipitation (&lt;em&gt;P&lt;/em&gt;) products and seven actual evapotranspiration (&lt;em&gt;ETa&lt;/em&gt;) products over the Nile Basin using a four-step procedure: (&lt;strong&gt;i&lt;/strong&gt;)  products were evaluated at the monthly scale through a point-to-pixel approach; (&lt;strong&gt;ii&lt;/strong&gt;) streamflow was modelled using the Random Forest machine learning technique, and simulated for well-performing catchments for 2009–2018 (to correspond with ETa product availability); (&lt;strong&gt;iii&lt;/strong&gt;) ETa products were evaluated at the multiannual scale using the water balance method; and (&lt;strong&gt;iv&lt;/strong&gt;) the ability of the best-performing  and ETa products to represent monthly variations in terrestrial water storage (&lt;em&gt;TWS&lt;/em&gt;) was assessed through a comparison with GRACE Level-3 data.&lt;/p&gt;
 &lt;p&gt;The application of the water balance using the best-performing products captures the seasonality of TWS well over the White Nile Basin, but overestimates seasonality over the Blue Nile Basin. Our study &lt;strong&gt;demonstrates how gridded  and ETa products can be evaluated over extremely data-scarce conditions using an easily transferable methodology&lt;/strong&gt;.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2021-08-13-johrs_article_on_rs4nile_published/featured.jpg&#34;
     alt=&#34;https://doi.org/10.1016/j.ejrh.2021.100884&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -4304,9 +4304,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Seminario Cambio global y recursos hídricos: experiencias y desafíos</title>
-      <link>https://hzambran.github.io/dissemination/2021-07-29-seminario_rrhh_en_ufro/</link>
+      <link>http://localhost:1313/dissemination/2021-07-29-seminario_rrhh_en_ufro/</link>
       <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2021-07-29-seminario_rrhh_en_ufro/</guid>
+      <guid>http://localhost:1313/dissemination/2021-07-29-seminario_rrhh_en_ufro/</guid>
       <description>&lt;p&gt;Researchers from the Universidad de La Frontera, U. de Chile, U. de los Lagos and the Center for Climate and Resilience Research (CR)2, will meet this Friday, July 30th, to address some relevant issues from their professional and academic experience for the country and La Araucanía in terms of water resources.&lt;/p&gt;
 &lt;p&gt;Organized by the 
 , the Seminar &amp;ldquo;Global change and water resources: experiences and challenges&amp;rdquo;, aims to disseminate the advances and experiences related to national water resources and generate a space for discussion with public services , the university community and local actors related to water resources, addressing topics such as: climate change, drought, water security, new data sources, water allocation permits, land use management and its impact on water availability, and erosion in forested catchments.&lt;/p&gt;
@@ -4330,7 +4330,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2021-07-30-Seminario_RRHH-AficheDeDifusion.png&#34; alt=&#34;Afiche de disfusión&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/2021-07-30-Seminario_RRHH-AficheDeDifusion.png&#34; alt=&#34;Afiche de disfusión&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -4345,9 +4345,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Esta es la última víctima del cambio climático en Chile (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2021-03-17-la_tercera_cauquenes_joh2021/</link>
+      <link>http://localhost:1313/blog/2021-03-17-la_tercera_cauquenes_joh2021/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2021-03-17-la_tercera_cauquenes_joh2021/</guid>
+      <guid>http://localhost:1313/blog/2021-03-17-la_tercera_cauquenes_joh2021/</guid>
       <description>&lt;p&gt;A recent study by the Center for Climate Science and Resilience 
 , led by Dr. Mauricio Galleguillos, analyzed in detail the impact of climate change and land use change on water availability from the Cauquenes River Basin, which dried up during the summer of 2020.&lt;/p&gt;
 &lt;p&gt;The full note can be read on the [(CR)2 website](
@@ -4367,9 +4367,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>The catchment’s memory: understanding how hydrological extremes are modulated by antecedent soil moisture conditions in a warmer climate</title>
-      <link>https://hzambran.github.io/projects/2021-2025-fondecyt1212071/</link>
+      <link>http://localhost:1313/projects/2021-2025-fondecyt1212071/</link>
       <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/projects/2021-2025-fondecyt1212071/</guid>
+      <guid>http://localhost:1313/projects/2021-2025-fondecyt1212071/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -4411,9 +4411,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Ingreso al Grupo de Evaluación de Ciencias de la Tierra de ANID !</title>
-      <link>https://hzambran.github.io/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</link>
+      <link>http://localhost:1313/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</guid>
+      <guid>http://localhost:1313/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</guid>
       <description>&lt;p&gt;In March 2021, as a water resources specialist, I was invited to join the &lt;strong&gt;Assessment Group of Earth Sciences&lt;/strong&gt; (&lt;em&gt;Grupo de Evaluación de Ciencias de la Tierra&lt;/em&gt;) of the Chilean Science Foundation (
 ), which is a great honor and responsability.&lt;/p&gt;
 &lt;p&gt;This group has to evaluate science and technologial proposals submitted by Chilean scientists to the following calls: 
@@ -4432,9 +4432,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Disentangling the effect of future land use strategies and climate change on streamflow in a Mediterranean catchment dominated by tree plantations</title>
-      <link>https://hzambran.github.io/publications/2021-galleguillos-disentangling-the/</link>
+      <link>http://localhost:1313/publications/2021-galleguillos-disentangling-the/</link>
       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2021-galleguillos-disentangling-the/</guid>
+      <guid>http://localhost:1313/publications/2021-galleguillos-disentangling-the/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -4524,9 +4524,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Balance Hídrico Nacional revela dramática situación: proyecta escasez de agua de hasta 50% y alza de temperatura de hasta 2.5°C</title>
-      <link>https://hzambran.github.io/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</link>
+      <link>http://localhost:1313/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</guid>
+      <guid>http://localhost:1313/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</guid>
       <description>&lt;p&gt;An update of the Chilean Water Balance, led by academics from the University of Chile, reveals the complex local scenario, which apparently will not improve in the coming decades.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -4542,9 +4542,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Entra en vigencia la nueva Ley de Servicios Sanitarios Rurales</title>
-      <link>https://hzambran.github.io/blog/2020-11-23-nueva_ley_de_ssr/</link>
+      <link>http://localhost:1313/blog/2020-11-23-nueva_ley_de_ssr/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-11-23-nueva_ley_de_ssr/</guid>
+      <guid>http://localhost:1313/blog/2020-11-23-nueva_ley_de_ssr/</guid>
       <description>&lt;p&gt;Noticia titulada 
 , donde se describe la nueva Ley N°20.998, la cual permitirá avanzar en forma significativa para garantizar el abastecimiento de agua potable y saneamiento para los habitantes del sector rural.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -4559,9 +4559,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Chi2 project on &#39;Exploradores 2020&#39; (24horas.cl)</title>
-      <link>https://hzambran.github.io/blog/2020-09-11-chi2-reportaje_exploradores_24_horas/</link>
+      <link>http://localhost:1313/blog/2020-09-11-chi2-reportaje_exploradores_24_horas/</link>
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-09-11-chi2-reportaje_exploradores_24_horas/</guid>
+      <guid>http://localhost:1313/blog/2020-09-11-chi2-reportaje_exploradores_24_horas/</guid>
       <description>&lt;p&gt;On September 11th, 2020 the international cooperation project NSFC190018 
  appeared in the &lt;em&gt;Exploradores 2020&lt;/em&gt; program of the &lt;em&gt;24 horas&lt;/em&gt; Chilean TV channel (national coverage).&lt;/p&gt;
 &lt;p&gt;This short reportage was invited by the 
@@ -4587,9 +4587,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Mawün: Historical gridded precipitation for Chile</title>
-      <link>https://hzambran.github.io/web-platforms/mawun/</link>
+      <link>http://localhost:1313/web-platforms/mawun/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/web-platforms/mawun/</guid>
+      <guid>http://localhost:1313/web-platforms/mawun/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -4623,7 +4623,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
  with support from the 
 , &lt;strong&gt;Mawün&lt;/strong&gt; provides a centralized environment where researchers, practitioners, and decision-makers can interactively examine precipitation patterns across Chile’s diverse climatic regions.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/web-platforms/mawun/mawun-main_screen.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/web-platforms/mawun/mawun-main_screen.jpg&#34;
     alt=&#34;Mawün web platform&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Main screen of 
  web platform&lt;/p&gt;
@@ -4694,9 +4694,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Mawün rainfall explorer launched !</title>
-      <link>https://hzambran.github.io/blog/2020-09-01-lanzamiento_de_mawun/</link>
+      <link>http://localhost:1313/blog/2020-09-01-lanzamiento_de_mawun/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-09-01-lanzamiento_de_mawun/</guid>
+      <guid>http://localhost:1313/blog/2020-09-01-lanzamiento_de_mawun/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Mawün rainfall explorer launched !&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;After more than one year of development, on September 1st 2020 an &lt;strong&gt;unprecedented web platform&lt;/strong&gt; for exploring gridded precipitation products was launced as a new weather service at the 
  website: 
@@ -4742,9 +4742,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Modelling water resources for planning irrigation development in drought-prone southern Chile</title>
-      <link>https://hzambran.github.io/publications/2020-mcnamara-modelling-water/</link>
+      <link>http://localhost:1313/publications/2020-mcnamara-modelling-water/</link>
       <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2020-mcnamara-modelling-water/</guid>
+      <guid>http://localhost:1313/publications/2020-mcnamara-modelling-water/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -4834,9 +4834,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Article on Water Resources Management in the Araucanía region (Chile) accepted for publication in IJWRD</title>
-      <link>https://hzambran.github.io/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</link>
+      <link>http://localhost:1313/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</guid>
+      <guid>http://localhost:1313/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</guid>
       <description>&lt;p&gt;The article 
  was finally published on the 
  journal.&lt;/p&gt;
@@ -4853,9 +4853,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>RFmerge</title>
-      <link>https://hzambran.github.io/rpackages/rfmerge/</link>
+      <link>http://localhost:1313/rpackages/rfmerge/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/rfmerge/</guid>
+      <guid>http://localhost:1313/rpackages/rfmerge/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -4881,7 +4881,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
   }
 &lt;/style&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/rfmerge/RFmerge-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/rfmerge/RFmerge-logo.jpg&#34;
     alt=&#34;RFmerge R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -4906,9 +4906,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>hydroPSO v0.5-0 on CRAN</title>
-      <link>https://hzambran.github.io/blog/2020-03-18-hydropso_v050_on_cran/</link>
+      <link>http://localhost:1313/blog/2020-03-18-hydropso_v050_on_cran/</link>
       <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-03-18-hydropso_v050_on_cran/</guid>
+      <guid>http://localhost:1313/blog/2020-03-18-hydropso_v050_on_cran/</guid>
       <description>&lt;p&gt;After a long amount of work, the new version of &lt;code&gt;hydroPSO&lt;/code&gt; (v0.5-0) was released today March 18th 2020, and it is available on CRAN now 
 &lt;/p&gt;
 &lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
@@ -4954,9 +4954,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>hydroGOF v0.4-0 on CRAN</title>
-      <link>https://hzambran.github.io/blog/2020-03-12-hydrogof_v040_on_cran/</link>
+      <link>http://localhost:1313/blog/2020-03-12-hydrogof_v040_on_cran/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-03-12-hydrogof_v040_on_cran/</guid>
+      <guid>http://localhost:1313/blog/2020-03-12-hydrogof_v040_on_cran/</guid>
       <description>&lt;p&gt;Following a request made by CRAN regarding compatibility issues with the upcoming version of R, the new version of &lt;code&gt;hydroGOF&lt;/code&gt; (v0.4-0) was released today March 12th 2020, and it is available on CRAN now 
 &lt;/p&gt;
 &lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
@@ -4993,9 +4993,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>hydroTSM v0.6-0 on CRAN</title>
-      <link>https://hzambran.github.io/blog/2020-03-11-hydrotsm_v060_on_cran/</link>
+      <link>http://localhost:1313/blog/2020-03-11-hydrotsm_v060_on_cran/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-03-11-hydrotsm_v060_on_cran/</guid>
+      <guid>http://localhost:1313/blog/2020-03-11-hydrotsm_v060_on_cran/</guid>
       <description>&lt;p&gt;Following a request made by CRAN regarding compatibility issues with the upcoming version of R, the new version of &lt;code&gt;hydroTSM&lt;/code&gt; (v0.6-0) was released today March 11th 2020, and it is available on CRAN now 
 &lt;/p&gt;
 &lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
@@ -5033,9 +5033,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Climate change: Last decade confirmed as warmest on record</title>
-      <link>https://hzambran.github.io/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</link>
+      <link>http://localhost:1313/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</guid>
+      <guid>http://localhost:1313/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</guid>
       <description>&lt;p&gt;The 10 years to the end of 2019 have been confirmed as &lt;strong&gt;the warmest decade on record&lt;/strong&gt; by three global agencies.&lt;/p&gt;
 &lt;p&gt;According to Nasa, NOAA and the UK Met Office, last year was the second warmest in a record dating back to 1850.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;past five years were the hottest&lt;/strong&gt; in the 170-year series, with the average of each one more than 1C warmer than pre-industrial.&lt;/p&gt;
@@ -5060,9 +5060,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Radio Concierto interview on water scarcity</title>
-      <link>https://hzambran.github.io/blog/2020-01-08-entrevista_radio_concierto/</link>
+      <link>http://localhost:1313/blog/2020-01-08-entrevista_radio_concierto/</link>
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-01-08-entrevista_radio_concierto/</guid>
+      <guid>http://localhost:1313/blog/2020-01-08-entrevista_radio_concierto/</guid>
       <description>&lt;p&gt;In the early morning of today January 8th, 2020 Dr. Mauricio Zambrano Bigiarini was interviewed by Radio Concierto (national coverage), to talk about the drought and water scarcity situation that currently affects Chile.&lt;/p&gt;
 &lt;p&gt;This interview was managed by the press unit of the Center for Climate and Resilience Research (CR2), and Dr. Zambrano-Bigiarini addresses issues such as &amp;ldquo;zero day&amp;rdquo; in some cities, the effectiveness of water saving campaigns promoted by the government, the response of the political world to the water problem, payment of patents for non-use of water, the importance of efficient water management, sustainability of use of water, and what can we do to combat water scarcity.&lt;/p&gt;
 &lt;p&gt;This interview is available at 
@@ -5079,9 +5079,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Article on Random Forest for merging satellite-based datasets with gorund observations published in RSE</title>
-      <link>https://hzambran.github.io/blog/2020-01-02-rse_article_rfmerge_published/</link>
+      <link>http://localhost:1313/blog/2020-01-02-rse_article_rfmerge_published/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2020-01-02-rse_article_rfmerge_published/</guid>
+      <guid>http://localhost:1313/blog/2020-01-02-rse_article_rfmerge_published/</guid>
       <description>&lt;p&gt;The article 
  was accepted for publication in December 2019 and made available online on January 2nd 2020 in the 
  journal.&lt;/p&gt;
@@ -5099,9 +5099,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>RF-MEP: A novel Random Forest method for merging gridded precipitation products and ground-based measurements</title>
-      <link>https://hzambran.github.io/publications/2020-baezvillanueva-rfmep-a/</link>
+      <link>http://localhost:1313/publications/2020-baezvillanueva-rfmep-a/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2020-baezvillanueva-rfmep-a/</guid>
+      <guid>http://localhost:1313/publications/2020-baezvillanueva-rfmep-a/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -5191,9 +5191,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Bias Correction of Global High-Resolution Precipitation Climatologies Using Streamflow Observations from 9372 Catchments</title>
-      <link>https://hzambran.github.io/publications/2020-beck-bias-correction/</link>
+      <link>http://localhost:1313/publications/2020-beck-bias-correction/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2020-beck-bias-correction/</guid>
+      <guid>http://localhost:1313/publications/2020-beck-bias-correction/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -5283,9 +5283,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Hydrological Processes Special Issue \&#34;Hydrological processes across climatic and geomorphological gradients of Latin America</title>
-      <link>https://hzambran.github.io/publications/2019-birkel-hydrological-processes/</link>
+      <link>http://localhost:1313/publications/2019-birkel-hydrological-processes/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2019-birkel-hydrological-processes/</guid>
+      <guid>http://localhost:1313/publications/2019-birkel-hydrological-processes/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -5375,9 +5375,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Management of global change impacts on hydrological extremes by coupling remote sensing data and an interdisciplinary modelling approach (NSFC190018)</title>
-      <link>https://hzambran.github.io/projects/2023-2024-nsfc190018/</link>
+      <link>http://localhost:1313/projects/2023-2024-nsfc190018/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/projects/2023-2024-nsfc190018/</guid>
+      <guid>http://localhost:1313/projects/2023-2024-nsfc190018/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -5413,9 +5413,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Special Issue on hydrological processes in LAC published in HP</title>
-      <link>https://hzambran.github.io/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</link>
+      <link>http://localhost:1313/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</guid>
+      <guid>http://localhost:1313/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</guid>
       <description>&lt;p&gt;Finally, the preface 
  was published on November 12th 2019 for the 
 .&lt;/p&gt;
@@ -5433,9 +5433,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Article on bias correction of global high-resolution precipitation climatologies published in JoC</title>
-      <link>https://hzambran.github.io/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</link>
+      <link>http://localhost:1313/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</guid>
+      <guid>http://localhost:1313/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</guid>
       <description>&lt;p&gt;On November 4th, the article 
  was published in the 
 . In this article, we introduce a set of global high-resolution (0.05º) precipitation (P) climatologies corrected for bias using streamflow (Q) observations from 9372 stations worldwide.&lt;/p&gt;
@@ -5456,9 +5456,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Validation of Cryogenic Vacuum Extraction of Pore Water from Volcanic Soils for Isotopic Analysis</title>
-      <link>https://hzambran.github.io/publications/2019-rivera-validation-of/</link>
+      <link>http://localhost:1313/publications/2019-rivera-validation-of/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2019-rivera-validation-of/</guid>
+      <guid>http://localhost:1313/publications/2019-rivera-validation-of/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -5548,9 +5548,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Sequia y escasez hídrica en Chile - parecidas pero no iguales (El Mostrador)</title>
-      <link>https://hzambran.github.io/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</link>
+      <link>http://localhost:1313/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</guid>
+      <guid>http://localhost:1313/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</guid>
       <description>&lt;p&gt;We cannot solve a problem that we do not fully understand. Water scarcity in a place is the result of a complex interaction between meteorological anomalies, hydrological processes and changes in the use that man makes of the resource. Our current inability to properly analyze and manage water scarcity points out a failure in our understanding of the problem as a whole, and to inadequate data and tools to monitor the evolution of water over time.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -5566,9 +5566,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Crisis hídrica, sequía legal y carretera hídrica (El Mostrador)</title>
-      <link>https://hzambran.github.io/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</link>
+      <link>http://localhost:1313/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</guid>
+      <guid>http://localhost:1313/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</guid>
       <description>&lt;p&gt;The country cannot continue to be a victim of the lobby of those who promote initiatives for their benefit over the damage of Chileans and against the public interest. Chile needs a legal framework that prioritizes security and equity in access to the vital element for the stability of drinking water, sanitation, food security and local productive development that ensures the well-being of the population and local and regional economies. The lucrative agribusiness and mining business cannot continue to put the country in greater water vulnerability, but to adjust, adapting to climate change.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -5584,9 +5584,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>¿Temuco sin agua en 2025? (El Austral)</title>
-      <link>https://hzambran.github.io/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</link>
+      <link>http://localhost:1313/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</guid>
+      <guid>http://localhost:1313/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</guid>
       <description>&lt;p&gt;Professors Mauricio Zambrano-Bigiarini and Ivo Fustos of the Department of Civil Engineering at the Universidad de La Frontera expressed their opinion on the news 
  published on September 1, 2019 in the newspaper 
  and then reproduced by the newspaper 
@@ -5606,9 +5606,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Carretera hídrica: una falsa panacea (El Mostrador)</title>
-      <link>https://hzambran.github.io/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</link>
+      <link>http://localhost:1313/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</guid>
+      <guid>http://localhost:1313/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</guid>
       <description>&lt;p&gt;These &amp;ldquo;solutions&amp;rdquo; to the problem of water supply, only serve to strengthen the close relationship between the State and companies that has existed in the field of water, ensuring private legal and functional ownership of an increasingly scarce resource . At the same time, this type of project shows that our country is increasingly moving away from integrated watershed management. The latter are the essential territorial references for the management of the water resource that should guide the preservation of life and society.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -5624,9 +5624,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>10 mil animales han muerto en las regiones más golpeadas por la prolongada sequía (El Mercurio)</title>
-      <link>https://hzambran.github.io/blog/2019-09-01-10mil_animales_muertos-elmercurio/</link>
+      <link>http://localhost:1313/blog/2019-09-01-10mil_animales_muertos-elmercurio/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-09-01-10mil_animales_muertos-elmercurio/</guid>
+      <guid>http://localhost:1313/blog/2019-09-01-10mil_animales_muertos-elmercurio/</guid>
       <description>&lt;p&gt;Due to the extended drought affecting central Chile, farmers in the area between the Coquimbo and Maule regions estimate that 10 000 animals have already died, including abortions that occur due to lack of food and water (5 000 in Valparaíso; 2 thousand in Coquimbo, and another 3 thousand in O&amp;rsquo;Higgins and el Maule).&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -5642,9 +5642,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Maipo, Limarí y Maule, tres cuencas en que el cambio climático ya hizo estragos (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</link>
+      <link>http://localhost:1313/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</link>
       <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</guid>
+      <guid>http://localhost:1313/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</guid>
       <description>&lt;p&gt;An investigation by the PUC Global Change Center, an institution with more than 10 years studying this climatic phenomenon, recorded how the temperature in these areas has already changed due to global warming.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -5660,9 +5660,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>La guerra del agua: las graves secuelas de la crisis hídrica en Chile (El Mostrador)</title>
-      <link>https://hzambran.github.io/blog/2019-08-26-la_guerra_del_agua-elmostrador/</link>
+      <link>http://localhost:1313/blog/2019-08-26-la_guerra_del_agua-elmostrador/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-08-26-la_guerra_del_agua-elmostrador/</guid>
+      <guid>http://localhost:1313/blog/2019-08-26-la_guerra_del_agua-elmostrador/</guid>
       <description>&lt;p&gt;Central and Southern Chile have already suffered, for decades, a tendency to lower rainfall amounts, up to 7% per decade at some points, which will probably remain. By 2050, water available in Chile will be reduced by one third in some regions, according to current models, which will extend the irrigation periods that are applied today and reduce more water-intensive crops, especially those without access to technological improvements.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -5678,9 +5678,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Anomalies of monthly mean temperature compared to the 1961-1990 averages</title>
-      <link>https://hzambran.github.io/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</link>
+      <link>http://localhost:1313/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</link>
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</guid>
+      <guid>http://localhost:1313/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</guid>
       <description>&lt;p&gt;A very impressive figure showing the 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -5695,9 +5695,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Workshop on Climate Change Challenges for La Araucanía (Temuco)</title>
-      <link>https://hzambran.github.io/dissemination/2019-07-25-seminario_cc-temuco/</link>
+      <link>http://localhost:1313/dissemination/2019-07-25-seminario_cc-temuco/</link>
       <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2019-07-25-seminario_cc-temuco/</guid>
+      <guid>http://localhost:1313/dissemination/2019-07-25-seminario_cc-temuco/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Workshop on Climate Change Challenges for La Araucanía&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On July 25, 2019,  I made an oral presentation at the workshop entitled &amp;ldquo;&lt;em&gt;Regional challenges of climate change for La Araucanía region&lt;/em&gt;&amp;rdquo;, organized by the Regional Ministry of Environment of the Araucanía region.&lt;/p&gt;
 &lt;p&gt; This seminar was held in the Aula Magna of the Universidad Mayor in Temuco, and was attended by various municipalities, NGOs, civil organizations and members of the Regional Committee on Climate Change (CORECC).&lt;/p&gt;
@@ -5716,9 +5716,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>June 2019 was hottest on record for the globe</title>
-      <link>https://hzambran.github.io/blog/2019-07-18-hottest_june_on_record/</link>
+      <link>http://localhost:1313/blog/2019-07-18-hottest_june_on_record/</link>
       <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-07-18-hottest_june_on_record/</guid>
+      <guid>http://localhost:1313/blog/2019-07-18-hottest_june_on_record/</guid>
       <description>&lt;p&gt;The average global temperature in June was 1.71ºF above the 20th-century average of 59.9ºF, making it the &lt;strong&gt;hottest June in the 140-year record&lt;/strong&gt;, according scientists to NOAA&amp;rsquo;s National Centers for Environmental Information.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Nine of the 10 hottest Junes have occurred since 2010&lt;/strong&gt;. Last month also was the 43rd consecutive June and 414th consecutive month with above-average global temperatures.&lt;/p&gt;
 &lt;p&gt;For more information please visit the website: 
@@ -5735,9 +5735,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Workshop on Efficient Management of Water Resources (Vallenar)</title>
-      <link>https://hzambran.github.io/dissemination/2019-06-28-workshop_gestion_eficiente_del_recurso_hidrico-vallenar/</link>
+      <link>http://localhost:1313/dissemination/2019-06-28-workshop_gestion_eficiente_del_recurso_hidrico-vallenar/</link>
       <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2019-06-28-workshop_gestion_eficiente_del_recurso_hidrico-vallenar/</guid>
+      <guid>http://localhost:1313/dissemination/2019-06-28-workshop_gestion_eficiente_del_recurso_hidrico-vallenar/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Workshop on Efficient Management of Water Resources&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On June 28th 2019 I made an oral presentation at the workshop &amp;ldquo;&lt;em&gt;Efficient Management of Water Resources: a challenge against Climate Change&lt;/em&gt;&amp;rdquo;, organised by the University of Atacama and carried out at Vallenar in the Atacama region.&lt;/p&gt;
 &lt;p&gt;This workshop was funded by the Regional Government of Atacama in the framework of the finalization activity of the FIC Project &amp;ldquo;&lt;em&gt;Laboratorio para el estudio hídrico de la Cuenca, uso eficiente, monitoreo y predicción de caudales aplicando Modelo de Redes Neuronales Artificiales y Snow Runoff Model Nasa para la cuenca del Río Huasco, Región de Atacama, Chile&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
@@ -5756,9 +5756,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>44% of water scarcity in Chile is due to poor water management (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</link>
+      <link>http://localhost:1313/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</link>
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</guid>
+      <guid>http://localhost:1313/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</guid>
       <description>&lt;p&gt;The National Water Balance, a document from the National Water Directorate (DGA) that this year will have its final version after 32 years, will establish how much water is available in the country. In an advance delivered at the beginning of the year, it has already established that the country has a water deficit that ranges between 10% and 37%.&lt;/p&gt;
 &lt;p&gt;To alleviate this deficit, the document &amp;ldquo;Transición Hídrica: el futuro del agua en Chile&amp;rdquo; proposes to establish a strategy with emphasis on four axes: water management and institutionality; conservation and protection of water ecosystems; efficiency and strategic use of water resources; and migration and incorporation of new water sources.&lt;/p&gt;
 &lt;p&gt;The implementation of these four measures would be key to achieving water security: &amp;ldquo;44% of the causes of water problems are related to poor management of the resource, 17% is due to the increase in demand for water, 14% to water pollution, 12% to the decrease in water supply , 6% to environmental damage of water ecosystems and 5% to the increase in the frequency of natural disasters&amp;rdquo; (Ulrike Broschek, leader of Escenarios Hídricos 2030 and Deputy Manager of Sustainability of Fundación Chile)&lt;/p&gt;
@@ -5777,9 +5777,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Agua: ¿ soluciones sostenibles? (Diario Austral)</title>
-      <link>https://hzambran.github.io/blog/2019-03-29-agua-soluciones_sustentables/</link>
+      <link>http://localhost:1313/blog/2019-03-29-agua-soluciones_sustentables/</link>
       <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-03-29-agua-soluciones_sustentables/</guid>
+      <guid>http://localhost:1313/blog/2019-03-29-agua-soluciones_sustentables/</guid>
       <description>&lt;p&gt;Columna titulada 
 , con ocasión del Día Mundial del Agua: 
 .&lt;/p&gt;
@@ -5806,9 +5806,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Agua y desarrollo sostenible (CodexVerde)</title>
-      <link>https://hzambran.github.io/blog/2019-03-22-agua_y_desarrollo_sostenible/</link>
+      <link>http://localhost:1313/blog/2019-03-22-agua_y_desarrollo_sostenible/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-03-22-agua_y_desarrollo_sostenible/</guid>
+      <guid>http://localhost:1313/blog/2019-03-22-agua_y_desarrollo_sostenible/</guid>
       <description>&lt;p&gt;Columna titulada 
 , con ocasión del Día Mundial del Agua: 
 .&lt;/p&gt;
@@ -5839,9 +5839,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>The dramatic disappearance of water in Chile (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</link>
+      <link>http://localhost:1313/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</guid>
+      <guid>http://localhost:1313/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</guid>
       <description>&lt;p&gt;A team of specialists from the Universidad de Chile and Universidad Católica is working on updating the National Water Balance, which dates back to 1987. During 2019, the final report will be issued.&lt;/p&gt;
 &lt;p&gt;The project is led by Ximena Vargas, academic from the Faculty of Physical and Mathematical Sciences of the University of Chile. &amp;ldquo;&lt;em&gt;What has been found in stations measuring precipitation and temperature is that, in general, there are decreases in average annual precipitation and increases in average annual temperature&lt;/em&gt;&amp;rdquo; This, she explains, has generated a decrease in the water availability in some coastal sectors. &amp;ldquo;&lt;em&gt;Comparing the reported values for water availability (dating from 1987), changes in average annual runoff are around 10% and 37%&lt;/em&gt;&amp;rdquo; she points out.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -5858,9 +5858,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>2018 was the fourth-hottest year on record</title>
-      <link>https://hzambran.github.io/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</link>
+      <link>http://localhost:1313/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</link>
       <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</guid>
+      <guid>http://localhost:1313/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</guid>
       <description>&lt;p&gt;&lt;strong&gt;2018 was the fourth hottest year on record&lt;/strong&gt;, according to two independent reports released today (Feb. 6) by 
  and the 
 .
@@ -5891,9 +5891,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Conference: When, where, and how much did it rain?</title>
-      <link>https://hzambran.github.io/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</link>
+      <link>http://localhost:1313/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</guid>
+      <guid>http://localhost:1313/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Conference: When, where, and how much did it rain?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On January 22th 2019, Dr Hylke Beck gave an 
  entitled &lt;em&gt;&amp;ldquo;When, where, and how much did it rain?&amp;rdquo;&lt;/em&gt; at the Facultad de Ingeniería y Ciencias of the Universidad de La Frontera (UFRO) in Temuco. In this presentation Dr. Beck presented 
@@ -5911,9 +5911,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Particle swarm optimization for the estimation of surface complexation constants with the geochemical model PHREEQC-3.1.2</title>
-      <link>https://hzambran.github.io/publications/2019-abdelaziz-particle-swarm/</link>
+      <link>http://localhost:1313/publications/2019-abdelaziz-particle-swarm/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2019-abdelaziz-particle-swarm/</guid>
+      <guid>http://localhost:1313/publications/2019-abdelaziz-particle-swarm/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -6003,9 +6003,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Oral presentation at AGU 2018</title>
-      <link>https://hzambran.github.io/dissemination/2018-12-15-agu2018/</link>
+      <link>http://localhost:1313/dissemination/2018-12-15-agu2018/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2018-12-15-agu2018/</guid>
+      <guid>http://localhost:1313/dissemination/2018-12-15-agu2018/</guid>
       <description>&lt;p&gt;During the second week of December 2018, I made an oral presentation at the 
  in Washington D.C. (USA), the most important scientific event of Earth Sciences worldwide.&lt;/p&gt;
 &lt;p&gt;The work was entitled 
@@ -6027,9 +6027,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Oral presentation at SPIE 2018</title>
-      <link>https://hzambran.github.io/dissemination/2018-10-18-spie2018/</link>
+      <link>http://localhost:1313/dissemination/2018-10-18-spie2018/</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2018-10-18-spie2018/</guid>
+      <guid>http://localhost:1313/dissemination/2018-10-18-spie2018/</guid>
       <description>&lt;p&gt;From 24 to 27th of September 2018 I participated at the SPIE Asia-Pacific Remote Sensing symposium, which took place in Honolulu (Hawaii, USA). In that conference I made an oral presentation entitled 
 , which was finally published in the proceedings of the international Society of Photo-Optical Instrumentation Engineers (
 ):&lt;/p&gt;
@@ -6049,9 +6049,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Temporal and spatial evaluation of long-term satellite-based precipitation products across the complex topographical and climatic gradients of Chile</title>
-      <link>https://hzambran.github.io/publications/2018-zambranobigiarini-temporal-and/</link>
+      <link>http://localhost:1313/publications/2018-zambranobigiarini-temporal-and/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2018-zambranobigiarini-temporal-and/</guid>
+      <guid>http://localhost:1313/publications/2018-zambranobigiarini-temporal-and/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -6141,9 +6141,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Visiting period at NASA&#39;s Jet Propulsion Laboratory</title>
-      <link>https://hzambran.github.io/blog/2018-09-18-jpl2018/</link>
+      <link>http://localhost:1313/blog/2018-09-18-jpl2018/</link>
       <pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2018-09-18-jpl2018/</guid>
+      <guid>http://localhost:1313/blog/2018-09-18-jpl2018/</guid>
       <description>&lt;p&gt;In August 2018 I got an invitation from the co-chair of the 
  to conduct a two-week (18-Sep to 01-Oct 2018) visiting period at the NASA&amp;rsquo;s Jet Propulsion Laboratory (
 ). This internship was carried out (and funded) by Ziad S. Haddad (Assistant Section Manager, Radar JPL Science and Engineering Section), to discuss a comprehensive evaluation of current rainfall products of global scale, to allow scientists and users of the international community to make objective evaluations and make informed decisions about the use of these products.&lt;/p&gt;
@@ -6165,9 +6165,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Temporal and spatial evaluation of satellite rainfall estimates over different regions in Latin-America</title>
-      <link>https://hzambran.github.io/publications/2018-baezvillanueva-temporal-and/</link>
+      <link>http://localhost:1313/publications/2018-baezvillanueva-temporal-and/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2018-baezvillanueva-temporal-and/</guid>
+      <guid>http://localhost:1313/publications/2018-baezvillanueva-temporal-and/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -6257,9 +6257,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Article on satellite-based rainfall estimates over Latin America accepted for publication in Atmospheric Research</title>
-      <link>https://hzambran.github.io/blog/2018-05-24-ar_article_on_sre_accepted/</link>
+      <link>http://localhost:1313/blog/2018-05-24-ar_article_on_sre_accepted/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2018-05-24-ar_article_on_sre_accepted/</guid>
+      <guid>http://localhost:1313/blog/2018-05-24-ar_article_on_sre_accepted/</guid>
       <description>&lt;p&gt;The article 
  was accepted for publication in the 
  journal.&lt;/p&gt;
@@ -6276,9 +6276,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Oral presentation at EGU 2018</title>
-      <link>https://hzambran.github.io/dissemination/2018-04-10-egu2018/</link>
+      <link>http://localhost:1313/dissemination/2018-04-10-egu2018/</link>
       <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2018-04-10-egu2018/</guid>
+      <guid>http://localhost:1313/dissemination/2018-04-10-egu2018/</guid>
       <description>&lt;p&gt;During the second week of April 2018, I made an oral presentation at the 
  in Vienna (Austria), the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
 &lt;p&gt;The work was entitled 
@@ -6314,9 +6314,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>The 2010-2015 megadrought in central Chile: impacts on regional hydroclimate and vegetation</title>
-      <link>https://hzambran.github.io/publications/2017-garreaud-the-20102015/</link>
+      <link>http://localhost:1313/publications/2017-garreaud-the-20102015/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2017-garreaud-the-20102015/</guid>
+      <guid>http://localhost:1313/publications/2017-garreaud-the-20102015/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -6406,9 +6406,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Oral presentation at AGU 2017</title>
-      <link>https://hzambran.github.io/dissemination/2017-12-12-agu2017/</link>
+      <link>http://localhost:1313/dissemination/2017-12-12-agu2017/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2017-12-12-agu2017/</guid>
+      <guid>http://localhost:1313/dissemination/2017-12-12-agu2017/</guid>
       <description>&lt;p&gt;During the second week of December 2017, I made an oral presentation at the 
  in New orleans (USA), the most important scientific event of Earth Sciences worldwide.&lt;/p&gt;
 &lt;p&gt;The work was entitled 
@@ -6429,9 +6429,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Short course on use of R for analysing satelite-based rainfall estimates (SREs) in Germany</title>
-      <link>https://hzambran.github.io/dissemination/2017-05-05-training_on_rs_at_itt/</link>
+      <link>http://localhost:1313/dissemination/2017-05-05-training_on_rs_at_itt/</link>
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2017-05-05-training_on_rs_at_itt/</guid>
+      <guid>http://localhost:1313/dissemination/2017-05-05-training_on_rs_at_itt/</guid>
       <description>&lt;p&gt;During the first week of May, I gave a short course to postgraduate students of the 
  of TH Köln (
 ).&lt;/p&gt;
@@ -6457,9 +6457,9 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
     
     <item>
       <title>Participación en la Conferencia EGU 2017</title>
-      <link>https://hzambran.github.io/dissemination/2017-04-27-egu2017/</link>
+      <link>http://localhost:1313/dissemination/2017-04-27-egu2017/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2017-04-27-egu2017/</guid>
+      <guid>http://localhost:1313/dissemination/2017-04-27-egu2017/</guid>
       <description>&lt;p&gt;During the last week of April, I presented two works on the 
 , the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
 &lt;p&gt;The first work was 
@@ -6493,9 +6493,9 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
     
     <item>
       <title>Temporal and spatial evaluation of satellite-based rainfall estimates across the complex topographical and climatic gradients of Chile</title>
-      <link>https://hzambran.github.io/publications/2017-zambranobigiarini-temporal-and/</link>
+      <link>http://localhost:1313/publications/2017-zambranobigiarini-temporal-and/</link>
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2017-zambranobigiarini-temporal-and/</guid>
+      <guid>http://localhost:1313/publications/2017-zambranobigiarini-temporal-and/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -6585,9 +6585,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Fondecyt Regular 1171560 selected in 2017 competition !</title>
-      <link>https://hzambran.github.io/blog/2017-02-07-fondecyt_regular_con_mg-accepted/</link>
+      <link>http://localhost:1313/blog/2017-02-07-fondecyt_regular_con_mg-accepted/</link>
       <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2017-02-07-fondecyt_regular_con_mg-accepted/</guid>
+      <guid>http://localhost:1313/blog/2017-02-07-fondecyt_regular_con_mg-accepted/</guid>
       <description>&lt;p&gt;The proyect 1171560 entitled &amp;ldquo;&lt;em&gt;Assessing spatio-temporal impacts of global change on water and biomass production processes at catchment scale: a synergistic approach based on remote sensing and coupled hydrological models to improve sustainable management of forest ecosystems&lt;/em&gt;&amp;rdquo; was 
  in the 2017 Chilean competition for &amp;ldquo;Fondecyt Regular&amp;rdquo; proyects.&lt;/p&gt;
 &lt;p&gt;This proposal is a collaborative effort born completly within the  
@@ -6605,9 +6605,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Article on satellite-based rainfall estimates over Chile accepted for publication in HESS</title>
-      <link>https://hzambran.github.io/blog/2017-01-30-hess_article_on_sre_accepted/</link>
+      <link>http://localhost:1313/blog/2017-01-30-hess_article_on_sre_accepted/</link>
       <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2017-01-30-hess_article_on_sre_accepted/</guid>
+      <guid>http://localhost:1313/blog/2017-01-30-hess_article_on_sre_accepted/</guid>
       <description>&lt;p&gt;The article 
  was accepted yesterday (January 30th, 2017) for publication in the 
  journal (HESS).&lt;/p&gt;
@@ -6624,9 +6624,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>2016: Hottest Year on Record</title>
-      <link>https://hzambran.github.io/blog/2017-01-19-year_2016_hottest_on_record/</link>
+      <link>http://localhost:1313/blog/2017-01-19-year_2016_hottest_on_record/</link>
       <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2017-01-19-year_2016_hottest_on_record/</guid>
+      <guid>http://localhost:1313/blog/2017-01-19-year_2016_hottest_on_record/</guid>
       <description>&lt;p&gt;Earth&amp;rsquo;s 2016 surface temperatures were the warmest since modern recordkeeping began in 1880, according to independent analyses by NASA and the National Oceanic and Atmospheric Administration (NOAA).&lt;/p&gt;
 &lt;p&gt;Globally-averaged temperatures in 2016 were 0.99 degrees Celsius (1.78 degrees Fahrenheit) warmer than the mid-20th century mean. This makes &lt;strong&gt;2016 the third year in a row&lt;/strong&gt; to set a new record for global average surface temperatures. Since the start of the 21st century, the annual global temperature record has been broken five times (2005, 2010, 2014, 2015, and 2016) 
 .&lt;/p&gt;
@@ -6657,9 +6657,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Create Beautiful Presentations with Markdown</title>
-      <link>https://hzambran.github.io/events/create-beautiful-presentations-with-markdown/</link>
+      <link>http://localhost:1313/events/create-beautiful-presentations-with-markdown/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/events/create-beautiful-presentations-with-markdown/</guid>
+      <guid>http://localhost:1313/events/create-beautiful-presentations-with-markdown/</guid>
       <description>&lt;h2 id=&#34;-why-markdown-slides&#34;&gt;🎯 Why Markdown Slides?&lt;/h2&gt;
 
 
@@ -7144,7 +7144,7 @@ Navigate down for sub-topics!&lt;/p&gt;
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-64e601f8a8934bfe4df8ad2c2165141f&#34;
-    href=&#34;https://hzambran.github.io/slides/example/&#34;
+    href=&#34;http://localhost:1313/slides/example/&#34;
     target=&#34;_blank&#34;
     rel=&#34;noopener&#34;
     
@@ -7660,9 +7660,9 @@ Navigate down for sub-topics!&lt;/p&gt;
     
     <item>
       <title>Poster presentation at AGU 2016</title>
-      <link>https://hzambran.github.io/dissemination/2016-12-13-agu2016/</link>
+      <link>http://localhost:1313/dissemination/2016-12-13-agu2016/</link>
       <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2016-12-13-agu2016/</guid>
+      <guid>http://localhost:1313/dissemination/2016-12-13-agu2016/</guid>
       <description>&lt;p&gt;On December 13th 2016, I presented the work titled 
  at the conference 
 . In this work I used two drought indices to analyze the contribution of precipitation and temperature to the recent droughts that have affected Chile, in order to improve our understanding about the onset, duration and magnitude of these events.&lt;/p&gt;
@@ -7688,9 +7688,9 @@ Navigate down for sub-topics!&lt;/p&gt;
     
     <item>
       <title>The br2-weighting Method for Estimating the Effects of Air Pollution on Population Health</title>
-      <link>https://hzambran.github.io/publications/2016-krstic-the-br2weighting/</link>
+      <link>http://localhost:1313/publications/2016-krstic-the-br2weighting/</link>
       <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2016-krstic-the-br2weighting/</guid>
+      <guid>http://localhost:1313/publications/2016-krstic-the-br2weighting/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -7780,9 +7780,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Assessing the role of uncertain precipitation estimates on the robustness of hydrological model parameters under highly variable climate conditions</title>
-      <link>https://hzambran.github.io/publications/2016-bisselink-assessing-the/</link>
+      <link>http://localhost:1313/publications/2016-bisselink-assessing-the/</link>
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2016-bisselink-assessing-the/</guid>
+      <guid>http://localhost:1313/publications/2016-bisselink-assessing-the/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -7872,9 +7872,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Drought in Puyehue and Rupanco lakes (SoyChile.cl)</title>
-      <link>https://hzambran.github.io/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</link>
+      <link>http://localhost:1313/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</link>
       <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</guid>
+      <guid>http://localhost:1313/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</guid>
       <description>&lt;p&gt;After 
  revealed the worrying decline in the water levels of Llanquihue Lake in the  surrounding of Puerto Octay, it was found that is not the only lake basin of the region affected by the lack of rainfall that experts have attributed to climate change.&lt;/p&gt;
 &lt;p&gt;This is because now the Rupanco and Puyehue lakes in the province of Osorno, have also shown and alarming and disturbing situation. In the first case, locals say that in some sectors the beach has increased from 20 to 200 meters, and in areas normally covered by water can now move on foot or by vehicle.&lt;/p&gt;
@@ -7893,9 +7893,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Expected changes in precipitation and temperature by 2050 (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</link>
+      <link>http://localhost:1313/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</link>
       <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</guid>
+      <guid>http://localhost:1313/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</guid>
       <description>&lt;p&gt;A recent study, delivered in July 2016, projected that by 2050 Santiago will have the most extreme variation in temperature of all regional capitals, with 2.7°C, which is 14% higher compared to today. In winter, the increase will be 1.7%, representing an increase of 19%, while precipitation will be reduced by 55 millimeters (mm), 15% less.&lt;/p&gt;
 &lt;p&gt;In other regional capitals, as Arica and Copiapó, extreme temperatures rise about 2.2°C are also expected for each summer, but it will be Arica where the temperature will rise more in winter, with 2.5° C.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -7912,9 +7912,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Megadrought expands to southern Chile (La Tercera)</title>
-      <link>https://hzambran.github.io/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</link>
+      <link>http://localhost:1313/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</link>
       <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</guid>
+      <guid>http://localhost:1313/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</guid>
       <description>&lt;p&gt;Today the country is experiencing one of the longest and most geographically extensive droughts in its history, which has nearly eight years in some sectors, and extends from the Coquimbo to the La Araucania region. Experts estimate that in the future these cycles would increase. According to an analysis by the  Center for Climate and Resilience Research (CR2) in 2015, these mega-droughts will become more common, occurring in Chile every 20 years by 2050 if emissions continue to increase greenhouse gases.&lt;/p&gt;
 &lt;p&gt;To date, 17 of the 22 stations of the Meteorological Direction of Chile (DMC) present below normal precipitation amounts. Coyhaique (45ºS) is the one with the most extreme situation. There, the precipitation is around 220 mm, far from normal to date according to the climatological period 1981-2010, which is 884.5 mm, resulting in a deficit of 75%. The level of rainfall is the lowest registration for the area (starting in 1960), although it is projected that in the next three months rains occur within the normal range indicates Catalina Cortes, meteorologist at DMC. However, it should end the year in deficit.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -7931,9 +7931,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>July 2016 was world&#39;s hottest month since records began, says Nasa (The Guardian)</title>
-      <link>https://hzambran.github.io/blog/2016-08-20-hottest_july_on_record/</link>
+      <link>http://localhost:1313/blog/2016-08-20-hottest_july_on_record/</link>
       <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-08-20-hottest_july_on_record/</guid>
+      <guid>http://localhost:1313/blog/2016-08-20-hottest_july_on_record/</guid>
       <description>&lt;p&gt;Nasa&amp;rsquo;s results, which combine sea-surface temperature and air temperature on land, show July 2016 was 10th month in a row to break monthly temperature record&lt;/p&gt;
 &lt;p&gt;As the string of hottest months continues, 2016 is &lt;em&gt;virtually certain&lt;/em&gt; to be the &lt;strong&gt;hottest year on record&lt;/strong&gt;, says David Karoly, a climate scientist from the University of Melbourne.&lt;/p&gt;
 &lt;p&gt;Last month was the hottest month in recorded history, beating the record set just 12 months before and continuing the long string of monthly records, according to the latest Nasa data.&lt;/p&gt;
@@ -7953,9 +7953,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>El año 2015 batió récords de fenómenos climáticos extremos (El Mercurio)</title>
-      <link>https://hzambran.github.io/blog/2016-08-03-year_2015_hottest_on_record_cr2/</link>
+      <link>http://localhost:1313/blog/2016-08-03-year_2015_hottest_on_record_cr2/</link>
       <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-08-03-year_2015_hottest_on_record_cr2/</guid>
+      <guid>http://localhost:1313/blog/2016-08-03-year_2015_hottest_on_record_cr2/</guid>
       <description>&lt;p&gt;El año 2015 marcó una temporada de lluvias más abundantes que el promedio, provocando graves &lt;strong&gt;inundaciones&lt;/strong&gt;. Severas &lt;strong&gt;sequías&lt;/strong&gt; afectaron superficies casi &lt;strong&gt;dos veces mayores en 2015 que en el año anterior&lt;/strong&gt; (14%, contra 8% en 2014).&lt;/p&gt;
 &lt;p&gt;Las aguas más calientes agravaron la propagación de algas, que afectaron el 2015 una importante región del Pacífico norte, desde California hasta la Columbia Británica, en Canadá.&lt;/p&gt;
 &lt;hr&gt;
@@ -7977,9 +7977,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>PhD summer school Remote Sensing applications for Water Accounting</title>
-      <link>https://hzambran.github.io/dissemination/2016-07-20-training_on_rs_at_itt/</link>
+      <link>http://localhost:1313/dissemination/2016-07-20-training_on_rs_at_itt/</link>
       <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2016-07-20-training_on_rs_at_itt/</guid>
+      <guid>http://localhost:1313/dissemination/2016-07-20-training_on_rs_at_itt/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Water accounting&lt;/strong&gt; is a fundamental basis to understand water availability and demands and the related benefits and efficiencies are related to water uses. While the fundamental data needed for establishing water accounts is often missing, Remote Sensing can contribute to fill the data gaps.
 With this course PhD students and staff at ITT will become familiar with the application of Remote Sensing to derive information on precipitation, evapotranspiration and land cover - three essential information elements for water accounts.
 Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce the basic techinques of Remote Sensing using the software SPRING and introduce to derive land cover information from products such as Landsat. &lt;strong&gt;Dr. Mauricio Zambrano-Bigiarini&lt;/strong&gt; from 
@@ -8003,7 +8003,7 @@ Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce th
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2016-07-20-RS_PhD_course_at_ITT.png&#34; alt=&#34;example of analysis&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/2016-07-20-RS_PhD_course_at_ITT.png&#34; alt=&#34;example of analysis&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -8018,9 +8018,9 @@ Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce th
     
     <item>
       <title>Research and Education Week on the Water, Energy and Food Security Nexus</title>
-      <link>https://hzambran.github.io/dissemination/2016-07-15-nexusweek_at_itt/</link>
+      <link>http://localhost:1313/dissemination/2016-07-15-nexusweek_at_itt/</link>
       <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination/2016-07-15-nexusweek_at_itt/</guid>
+      <guid>http://localhost:1313/dissemination/2016-07-15-nexusweek_at_itt/</guid>
       <description>&lt;p&gt;The 
  (WEF Nexus) is currently a highly important debate in environmental policy with expected implications for priorities in research, education and international cooperation. Increasing demands for water, energy and food together with external and internal change drivers on current natural resources use patterns make the Nexus idea crucial to understand the multiple resource use interlinkages.
 The 
@@ -8043,7 +8043,7 @@ The
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2016-07-14-WEF_Nexus_Group-768x512.jpg&#34; alt=&#34;WEF_Nexus_Group&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/2016-07-14-WEF_Nexus_Group-768x512.jpg&#34; alt=&#34;WEF_Nexus_Group&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;During the Nexus Week, the professor &lt;strong&gt;Mauricio Zambrano-Bigiarini&lt;/strong&gt; along with international partners presented their case studies from related projects as &lt;em&gt;nexus laboratories&lt;/em&gt; useful for enhancing educational contents and outlining future collaborative research activities. International experts and young researchers were involved in providing insights on the WEF Nexus topic from ongoing research and and outlining further research demand.
@@ -8063,9 +8063,9 @@ During additional side events of the Nexus Week, the participants developed new 
     
     <item>
       <title>Forestry development, water scarcity, and the Mapuche protest for environmental justice in Chile</title>
-      <link>https://hzambran.github.io/publications/2016-torressalinas-forestry-development/</link>
+      <link>http://localhost:1313/publications/2016-torressalinas-forestry-development/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2016-torressalinas-forestry-development/</guid>
+      <guid>http://localhost:1313/publications/2016-torressalinas-forestry-development/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -8155,9 +8155,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>2015 was the warmest year ever recorded on Earth (NASA-NOAA)</title>
-      <link>https://hzambran.github.io/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</link>
+      <link>http://localhost:1313/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</guid>
+      <guid>http://localhost:1313/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</guid>
       <description>&lt;p&gt;&lt;strong&gt;2015 was the warmest year ever recorded on Earth&lt;/strong&gt;, and it was not even close.&lt;/p&gt;
 &lt;p&gt;On January 20, 2016, scientists from NASA and the National Oceanic and Atmospheric Administration (NOAA) released their analyses of surface temperatures for the past year.
 The NASA team found that globally averaged temperatures from January through December 2015 were &lt;strong&gt;0.87 degrees Celsius above the norm&lt;/strong&gt; (defined as a 1951-1980 base period). The previous record—set last year—was 0.74°C above the norm.
@@ -8184,9 +8184,9 @@ In the past, the highest global temperature records were often set in El Niño y
     
     <item>
       <title>Comparison of stationary and dynamic conceptual models in a mountainous and data-sparse catchment in the South-central Chilean Andes</title>
-      <link>https://hzambran.github.io/publications/2015-toledo-comparison-of/</link>
+      <link>http://localhost:1313/publications/2015-toledo-comparison-of/</link>
       <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2015-toledo-comparison-of/</guid>
+      <guid>http://localhost:1313/publications/2015-toledo-comparison-of/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -8276,9 +8276,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Particle Swarm Optimization for inverse modeling of solute transport in fractured gneiss aquifer</title>
-      <link>https://hzambran.github.io/publications/2014-abdelaziz-particle-swarm/</link>
+      <link>http://localhost:1313/publications/2014-abdelaziz-particle-swarm/</link>
       <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2014-abdelaziz-particle-swarm/</guid>
+      <guid>http://localhost:1313/publications/2014-abdelaziz-particle-swarm/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -8368,9 +8368,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Hydrological evaluation of satellite-based rainfall estimates over the Volta and Baro-Akobo Basin</title>
-      <link>https://hzambran.github.io/publications/2013-thiemig-hydrological-evaluation/</link>
+      <link>http://localhost:1313/publications/2013-thiemig-hydrological-evaluation/</link>
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2013-thiemig-hydrological-evaluation/</guid>
+      <guid>http://localhost:1313/publications/2013-thiemig-hydrological-evaluation/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -8460,9 +8460,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Standard Particle Swarm Optimisation 2011 at CEC-2013: A baseline for future PSO improvements</title>
-      <link>https://hzambran.github.io/publications/2013-zambranobigiarini-standard-particle/</link>
+      <link>http://localhost:1313/publications/2013-zambranobigiarini-standard-particle/</link>
       <pubDate>Sun, 23 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2013-zambranobigiarini-standard-particle/</guid>
+      <guid>http://localhost:1313/publications/2013-zambranobigiarini-standard-particle/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -8552,9 +8552,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>A model-independent Particle Swarm Optimisation software for model calibration</title>
-      <link>https://hzambran.github.io/publications/2013-zambranobigiarini-a-modelindependent/</link>
+      <link>http://localhost:1313/publications/2013-zambranobigiarini-a-modelindependent/</link>
       <pubDate>Tue, 26 Feb 2013 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2013-zambranobigiarini-a-modelindependent/</guid>
+      <guid>http://localhost:1313/publications/2013-zambranobigiarini-a-modelindependent/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -8644,9 +8644,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Validation of Satellite-Based Precipitation Products over Sparsely Gauged African River Basins</title>
-      <link>https://hzambran.github.io/publications/2012-thiemig-validation-of/</link>
+      <link>http://localhost:1313/publications/2012-thiemig-validation-of/</link>
       <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/publications/2012-thiemig-validation-of/</guid>
+      <guid>http://localhost:1313/publications/2012-thiemig-validation-of/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -8736,9 +8736,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>hydroPSO</title>
-      <link>https://hzambran.github.io/rpackages/hydropso/</link>
+      <link>http://localhost:1313/rpackages/hydropso/</link>
       <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/hydropso/</guid>
+      <guid>http://localhost:1313/rpackages/hydropso/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -8778,7 +8778,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 , Environmental Modelling &amp;amp; Software, 43, 5-25, doi:10.1016/j.envsoft.2013.01.004.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/hydropso/hydroPSO-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/hydropso/hydroPSO-logo.jpg&#34;
     alt=&#34;hydroTSM R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -8789,9 +8789,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>hydroGOF</title>
-      <link>https://hzambran.github.io/rpackages/hydrogof/</link>
+      <link>http://localhost:1313/rpackages/hydrogof/</link>
       <pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/hydrogof/</guid>
+      <guid>http://localhost:1313/rpackages/hydrogof/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -8824,7 +8824,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;
  is widely used in research, teaching, and professional practice, which makes it particularly suitable for users who require dependable, well-documented tools to quantify model accuracy and communicate results with clarity. It provides a technically robust foundation for evidence-based model development, benchmarking, and decision support in hydrology and related environmental sciences.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/hydrogof/hydroGOF-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/hydrogof/hydroGOF-logo.jpg&#34;
     alt=&#34;hydroGOF R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -8835,9 +8835,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>hydroTSM</title>
-      <link>https://hzambran.github.io/rpackages/hydrotsm/</link>
+      <link>http://localhost:1313/rpackages/hydrotsm/</link>
       <pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/rpackages/hydrotsm/</guid>
+      <guid>http://localhost:1313/rpackages/hydrotsm/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -8870,7 +8870,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;Developed with the daily needs of practitioners in mind, 
  has been widely used in research, teaching, and professional applications. It is especially suitable for users who require dependable, well-documented tools to support routine hydrological analysis while maintaining full control over data processing steps within the R environment.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/hydrotsm/hydroTSM-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/hydrotsm/hydroTSM-logo.jpg&#34;
     alt=&#34;hydroTSM R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -8881,9 +8881,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>https://hzambran.github.io/blog/example_folders/get-started/</link>
+      <link>http://localhost:1313/blog/example_folders/get-started/</link>
       <pubDate>Sat, 27 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/example_folders/get-started/</guid>
+      <guid>http://localhost:1313/blog/example_folders/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -9171,9 +9171,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>https://hzambran.github.io/blog/example_folders/second-brain/</link>
+      <link>http://localhost:1313/blog/example_folders/second-brain/</link>
       <pubDate>Fri, 26 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/example_folders/second-brain/</guid>
+      <guid>http://localhost:1313/blog/example_folders/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -9357,9 +9357,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>https://hzambran.github.io/blog/example_folders/data-visualization/</link>
+      <link>http://localhost:1313/blog/example_folders/data-visualization/</link>
       <pubDate>Thu, 25 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/example_folders/data-visualization/</guid>
+      <guid>http://localhost:1313/blog/example_folders/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;embed-rich-content&#34;&gt;Embed Rich Content&lt;/h2&gt;
@@ -9624,9 +9624,9 @@ This Hugging Face dataset is a mirror. For the …
     &lt;div class=&#34;p-6 space-y-4&#34;&gt;
       &lt;div class=&#34;mb-4 overflow-hidden rounded-lg&#34;&gt;
     &lt;img class=&#34;w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105&#34; 
-         srcset=&#34;https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp 400w, https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_2b9219625df66689.webp 600w, https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_f768b3ade4e0bafb.webp 800w, https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_943bd725d39b28c5.webp 800w&#34;
+         srcset=&#34;http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp 400w, http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_2b9219625df66689.webp 600w, http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_f768b3ade4e0bafb.webp 800w, http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_943bd725d39b28c5.webp 800w&#34;
          sizes=&#34;(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw&#34;
-         src=&#34;https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp&#34; 
+         src=&#34;http://localhost:1313/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp&#34; 
          width=&#34;400&#34; 
          height=&#34;300&#34;
          loading=&#34;lazy&#34; 
@@ -9686,9 +9686,9 @@ This Hugging Face dataset is a mirror. For the …
     &lt;div class=&#34;p-6 space-y-4&#34;&gt;
       &lt;div class=&#34;mb-4 overflow-hidden rounded-lg&#34;&gt;
     &lt;img class=&#34;w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105&#34; 
-         srcset=&#34;https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp 400w, https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_920ba61058f3c5cc.webp 600w, https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_de34421e7136549f.webp 600w&#34;
+         srcset=&#34;http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp 400w, http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_920ba61058f3c5cc.webp 600w, http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_de34421e7136549f.webp 600w&#34;
          sizes=&#34;(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw&#34;
-         src=&#34;https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp&#34; 
+         src=&#34;http://localhost:1313/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp&#34; 
          width=&#34;400&#34; 
          height=&#34;267&#34;
          loading=&#34;lazy&#34; 
@@ -9728,7 +9728,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-187356942&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-426857319&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -9746,7 +9746,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-187356942&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-426857319&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -9929,7 +9929,7 @@ Crash --&gt; [*]
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-7e224f8477195bc3f16f35c894e9ba69&#34;
-    href=&#34;https://hzambran.github.io/&#34;
+    href=&#34;http://localhost:1313/&#34;
     
     
     
@@ -10014,7 +10014,7 @@ Crash --&gt; [*]
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-13d14104c82aaedf3f0ca1dbe530cbe4&#34;
-    href=&#34;https://hzambran.github.io/data/results.csv&#34;
+    href=&#34;http://localhost:1313/data/results.csv&#34;
     
     
     
@@ -10137,9 +10137,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>https://hzambran.github.io/blog/example_folders/teach-courses/</link>
+      <link>http://localhost:1313/blog/example_folders/teach-courses/</link>
       <pubDate>Wed, 24 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/example_folders/teach-courses/</guid>
+      <guid>http://localhost:1313/blog/example_folders/teach-courses/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -10211,7 +10211,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://hzambran.github.io/blog/example_folders/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;http://localhost:1313/blog/example_folders/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -10270,9 +10270,9 @@ data.head()
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>https://hzambran.github.io/blog/example_folders/project-management/</link>
+      <link>http://localhost:1313/blog/example_folders/project-management/</link>
       <pubDate>Tue, 23 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/example_folders/project-management/</guid>
+      <guid>http://localhost:1313/blog/example_folders/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
@@ -10345,9 +10345,9 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>⚡️ Turn Jupyter Notebooks into Blog Posts</title>
-      <link>https://hzambran.github.io/blog/example_folders/notebook-onboarding/</link>
+      <link>http://localhost:1313/blog/example_folders/notebook-onboarding/</link>
       <pubDate>Sun, 15 Jul 1900 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/blog/example_folders/notebook-onboarding/</guid>
+      <guid>http://localhost:1313/blog/example_folders/notebook-onboarding/</guid>
       <description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
 &lt;p&gt;Hugo Blox changes that. With the &lt;code&gt;{{&amp;lt; notebook &amp;gt;}}&lt;/code&gt; shortcode, you can render your actual &lt;code&gt;.ipynb&lt;/code&gt; files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.&lt;/p&gt;
 
@@ -10431,7 +10431,7 @@ Parallel 4   :         des6, after des4, 1d
       &lt;p class=&#34;hb-notebook-title&#34;&gt;Launch Readiness Analysis&lt;/p&gt;
         &lt;p class=&#34;hb-notebook-subtitle&#34;&gt;Python · Kernel: Python 3 · nbformat 4.5 · 6 cells&lt;/p&gt;
     &lt;/div&gt;
-      &lt;a class=&#34;hb-notebook-download&#34; href=&#34;https://hzambran.github.io/blog/example_folders/notebook-onboarding/hugoblox-onboarding.ipynb&#34; download&gt;
+      &lt;a class=&#34;hb-notebook-download&#34; href=&#34;http://localhost:1313/blog/example_folders/notebook-onboarding/hugoblox-onboarding.ipynb&#34; download&gt;
         &lt;svg class=&#34;w-4 h-4&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3&#34;/&gt;&lt;/svg&gt;
         &lt;span&gt;Download notebook&lt;/span&gt;
       &lt;/a&gt;
@@ -10650,9 +10650,9 @@ Done!
     
     <item>
       <title>Buttons</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/guide/formatting/button/</link>
+      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/guide/formatting/button/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/button/</guid>
       <description>&lt;p&gt;A modern, customizable button shortcode with gradient styling, icons, and smart link handling.&lt;/p&gt;
 &lt;h2 id=&#34;basic-usage&#34;&gt;Basic Usage&lt;/h2&gt;
 
@@ -10661,7 +10661,7 @@ Done!
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-351ac412531c23e422b81c6422c17da5&#34;
-    href=&#34;https://hzambran.github.io/contact&#34;
+    href=&#34;http://localhost:1313/contact&#34;
     
     
     
@@ -11189,7 +11189,7 @@ Done!
 &lt;div class=&#34;text-center&#34;&gt;
   &lt;a
     id=&#34;button-62059f8d62052633590d3f60ec092595&#34;
-    href=&#34;https://hzambran.github.io/signup&#34;
+    href=&#34;http://localhost:1313/signup&#34;
     
     
     
@@ -11251,7 +11251,7 @@ Done!
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-72ec86801f391f16b84b269ade9d2995&#34;
-    href=&#34;https://hzambran.github.io/files/document.pdf&#34;
+    href=&#34;http://localhost:1313/files/document.pdf&#34;
     
     
     
@@ -11370,9 +11370,9 @@ Done!
     
     <item>
       <title>Buttons</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/button/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/button/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/button/</guid>
       <description>&lt;p&gt;A modern, customizable button shortcode with gradient styling, icons, and smart link handling.&lt;/p&gt;
 &lt;h2 id=&#34;basic-usage&#34;&gt;Basic Usage&lt;/h2&gt;
 
@@ -11381,7 +11381,7 @@ Done!
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-dabd0393b1801dd6fb9e8661038eb4dd&#34;
-    href=&#34;https://hzambran.github.io/contact&#34;
+    href=&#34;http://localhost:1313/contact&#34;
     
     
     
@@ -11909,7 +11909,7 @@ Done!
 &lt;div class=&#34;text-center&#34;&gt;
   &lt;a
     id=&#34;button-ca6f0b7e226d7ae504aa356099e00bbf&#34;
-    href=&#34;https://hzambran.github.io/signup&#34;
+    href=&#34;http://localhost:1313/signup&#34;
     
     
     
@@ -11971,7 +11971,7 @@ Done!
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-5b7f7905184dd64040278c1f5207a783&#34;
-    href=&#34;https://hzambran.github.io/files/document.pdf&#34;
+    href=&#34;http://localhost:1313/files/document.pdf&#34;
     
     
     
@@ -12090,9 +12090,9 @@ Done!
     
     <item>
       <title>Callouts</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/guide/formatting/callout/</link>
+      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/callout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/guide/formatting/callout/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/callout/</guid>
       <description>&lt;p&gt;Hugo Blox supports GitHub and Obsidian-style Markdown callouts for maximum compatibility and content portability.&lt;/p&gt;
 &lt;p&gt;Callouts are a useful feature to draw attention to important or related content such as notes, hints, or warnings in your articles.&lt;/p&gt;
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
@@ -12957,9 +12957,9 @@ Done!
     
     <item>
       <title>Callouts</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/callout/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/callout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/callout/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/callout/</guid>
       <description>&lt;p&gt;Hugo Blox supports GitHub and Obsidian-style Markdown callouts for maximum compatibility and content portability.&lt;/p&gt;
 &lt;p&gt;Callouts are a useful feature to draw attention to important or related content such as notes, hints, or warnings in your articles.&lt;/p&gt;
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
@@ -13824,9 +13824,9 @@ Done!
     
     <item>
       <title>Cards</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/guide/formatting/cards/</link>
+      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/cards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/guide/formatting/cards/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/cards/</guid>
       <description>&lt;p&gt;A Hugo extension to create cards. Cards can be shown as links or as plain text.&lt;/p&gt;
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 
@@ -13887,9 +13887,9 @@ Done!
     
     <item>
       <title>Cards</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/cards/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/cards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/cards/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/cards/</guid>
       <description>&lt;p&gt;A Hugo extension to create cards. Cards can be shown as links or as plain text.&lt;/p&gt;
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 
@@ -13950,9 +13950,9 @@ Done!
     
     <item>
       <title>Internationalization (i18n)</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/reference/i18n/</link>
+      <link>http://localhost:1313/courses/hugo-blox/reference/i18n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/reference/i18n/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/reference/i18n/</guid>
       <description>&lt;p&gt;Hugo Blox enables you to easily edit the interface text as well as translating your site into multiple languages using Hugo&amp;rsquo;s 
  feature.&lt;/p&gt;
 &lt;p&gt;View the full docs at 
@@ -13961,9 +13961,9 @@ Done!
     
     <item>
       <title>Internationalization (i18n)</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/reference/i18n/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/reference/i18n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/reference/i18n/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/reference/i18n/</guid>
       <description>&lt;p&gt;Hugo Blox enables you to easily edit the interface text as well as translating your site into multiple languages using Hugo&amp;rsquo;s 
  feature.&lt;/p&gt;
 &lt;p&gt;View the full docs at 
@@ -13972,9 +13972,9 @@ Done!
     
     <item>
       <title>Spoilers</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/guide/formatting/toggle/</link>
+      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/toggle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/guide/formatting/toggle/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/toggle/</guid>
       <description>&lt;p&gt;A Hugo shortcode to toggle collapsible content.&lt;/p&gt;
 &lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
@@ -13998,9 +13998,9 @@ Done!
     
     <item>
       <title>Spoilers</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/toggle/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/toggle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/toggle/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/toggle/</guid>
       <description>&lt;p&gt;A Hugo shortcode to toggle collapsible content.&lt;/p&gt;
 &lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
@@ -14024,9 +14024,9 @@ Done!
     
     <item>
       <title>Steps</title>
-      <link>https://hzambran.github.io/courses/hugo-blox/guide/formatting/steps/</link>
+      <link>http://localhost:1313/courses/hugo-blox/guide/formatting/steps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/hugo-blox/guide/formatting/steps/</guid>
+      <guid>http://localhost:1313/courses/hugo-blox/guide/formatting/steps/</guid>
       <description>&lt;p&gt;Display a series of steps, such as for a tutorial.&lt;/p&gt;
 &lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
 &lt;div class=&#34;hb-steps&#34;&gt;
@@ -14059,9 +14059,9 @@ Done!
     
     <item>
       <title>Steps</title>
-      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/steps/</link>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/steps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/guide/formatting/steps/</guid>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/guide/formatting/steps/</guid>
       <description>&lt;p&gt;Display a series of steps, such as for a tutorial.&lt;/p&gt;
 &lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
 &lt;div class=&#34;hb-steps&#34;&gt;

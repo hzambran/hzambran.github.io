@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IIO409 - Hydrological Modelling (undergraduate) | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>https://hzambran.github.io/courses/iio409-modelacionhidrologica/</link>
-      <atom:link href="https://hzambran.github.io/courses/iio409-modelacionhidrologica/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/courses/iio409-modelacionhidrologica/</link>
+      <atom:link href="http://localhost:1313/courses/iio409-modelacionhidrologica/index.xml" rel="self" type="application/rss+xml" />
     <description>IIO409 - Hydrological Modelling (undergraduate)</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hzambran.github.io/courses/iio409-modelacionhidrologica/featured.jpg</url>
+      <url>http://localhost:1313/courses/iio409-modelacionhidrologica/featured.jpg</url>
       <title>IIO409 - Hydrological Modelling (undergraduate)</title>
-      <link>https://hzambran.github.io/courses/iio409-modelacionhidrologica/</link>
+      <link>http://localhost:1313/courses/iio409-modelacionhidrologica/</link>
     </image>
     
   </channel>
