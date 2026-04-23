@@ -1,7 +1,7 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 22, 2026 --><html lang="en-us" dir="ltr"
-      data-wc-theme-default="system"
+<!-- Last Published: April 23, 2026 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="dark"
       data-hbb-relurl="/">
   
 <head>
@@ -9149,7 +9149,7 @@
   
     
       
-        <link rel="stylesheet" href="/css/_entry.dd85780f7c1c9dae8fb58e10db199d0feb54822a82e717751406b78aa7d4c6d6.css" integrity="sha256-3YV4D3wcna6PtY4Q2xmdD&#43;tUgiqC5xd1FAa3iqfUxtY=" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/_entry.e807b110082af2b99259aabe76dc5adec0000b5934c88b4da3ee8e9f03954085.css" integrity="sha256-6AexEAgq8rmSWaq&#43;dtxa3sAAC1k0yItNo&#43;6OnwOVQIU=" crossorigin="anonymous">
       
     
   
@@ -9171,12 +9171,51 @@
 
 
 
+<meta name="google-site-verification" content="fEUYZKYsWqUgQqwSQ6A-DHXmUopEMm4IcgJojbncX_o" /><meta name="msvalidate.01" content="DF43D1351451B30C282C6758EC4F98D8" />
 
 
 
 
 
 
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-445243XQPF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-445243XQPF', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -9284,22 +9323,12 @@
       {
         "@type": "ListItem",
         "item": {
-          "@id": "https://hzambran.github.io/publications/2026-nezibarra-from-grid/",
+          "@id": "https://hzambran.github.io/publications/2026-nunezibarra-from-grid/",
           "@type": "WebPage",
           "name": "From grid to ground: how well do gridded products represent soil moisture dynamics in natural ecosystems during precipitation events?",
-          "url": "https://hzambran.github.io/publications/2026-nezibarra-from-grid/"
+          "url": "https://hzambran.github.io/publications/2026-nunezibarra-from-grid/"
         },
         "position": 1
-      },
-      {
-        "@type": "ListItem",
-        "item": {
-          "@id": "https://hzambran.github.io/publications/2026-hess/",
-          "@type": "WebPage",
-          "name": "2025-HESS",
-          "url": "https://hzambran.github.io/publications/2026-hess/"
-        },
-        "position": 2
       },
       {
         "@type": "ListItem",
@@ -9309,7 +9338,7 @@
           "name": "Developing Intensity-Duration-Frequency (IDF) curves using sub-daily gridded and in situ datasets: characterising precipitation extremes in a drying climate",
           "url": "https://hzambran.github.io/publications/2026-sotoescobar-developing-intensitydurationfrequency/"
         },
-        "position": 3
+        "position": 2
       },
       {
         "@type": "ListItem",
@@ -9319,17 +9348,7 @@
           "name": "hydroMOPSO: A flexible and model-independent multi-objective optimisation R package for environmental and hydrological models",
           "url": "https://hzambran.github.io/publications/2026-marinao-hydromopso-a/"
         },
-        "position": 4
-      },
-      {
-        "@type": "ListItem",
-        "item": {
-          "@id": "https://hzambran.github.io/publications/2026-gimeno-hydropedological-clustering/",
-          "@type": "WebPage",
-          "name": "Hydropedological clustering: improving the representation of low streamflows in a semi-distributed hydrological model",
-          "url": "https://hzambran.github.io/publications/2026-gimeno-hydropedological-clustering/"
-        },
-        "position": 5
+        "position": 3
       },
       {
         "@type": "ListItem",
@@ -9339,7 +9358,7 @@
           "name": "Hydropedological clustering: improving the representation of low streamflows in a semi-distributed hydrological model",
           "url": "https://hzambran.github.io/publications/2025-gimeno-hydropedological-clustering/"
         },
-        "position": 6
+        "position": 4
       },
       {
         "@type": "ListItem",
@@ -9349,7 +9368,7 @@
           "name": "Hyperdroughts in central Chile: drivers, impacts, and projections",
           "url": "https://hzambran.github.io/publications/2025-garreaud-hyperdroughts-in/"
         },
-        "position": 7
+        "position": 5
       },
       {
         "@type": "ListItem",
@@ -9359,31 +9378,11 @@
           "name": "Technical note: What does the Standardized Streamflow Index actually reflect? Insights and implications for hydrological drought analysis",
           "url": "https://hzambran.github.io/publications/2025-lema-technical-note/"
         },
-        "position": 8
-      },
-      {
-        "@type": "ListItem",
-        "item": {
-          "@id": "https://hzambran.github.io/publications/2024-aguayo-patagoniamet-a/",
-          "@type": "WebPage",
-          "name": "PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia",
-          "url": "https://hzambran.github.io/publications/2024-aguayo-patagoniamet-a/"
-        },
-        "position": 9
-      },
-      {
-        "@type": "ListItem",
-        "item": {
-          "@id": "https://hzambran.github.io/publications/2024-baezvillanueva-on-the/",
-          "@type": "WebPage",
-          "name": "On the timescale of drought indices for monitoring streamflow drought considering catchment hydrological regimes",
-          "url": "https://hzambran.github.io/publications/2024-baezvillanueva-on-the/"
-        },
-        "position": 10
+        "position": 6
       }
     ],
     "itemListOrder": "Descending",
-    "numberOfItems": 10
+    "numberOfItems": 6
   },
   "name": "Article-Journal",
   "url": "https://hzambran.github.io/publication_types/article-journal/"
@@ -9619,10 +9618,6 @@
       
       
     
-      
-      
-      
-    
     
   
 
@@ -9742,25 +9737,6 @@
     
   
     
-    
-  
-    
-    
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
     
   
   
@@ -11440,7 +11416,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-013cf41e6ed13e1ffbef5362480d9211">
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-9995296605d0efb7454e1583f33db1e7">
     
     <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
       
@@ -11451,11 +11427,11 @@ document.addEventListener('DOMContentLoaded', function() {
             
           
           
-          <a href="/publications/2026-nezibarra-from-grid/"  class="block">
+          <a href="/publications/2026-nunezibarra-from-grid/"  class="block">
             <img class="w-full h-full transition-transform duration-500 ease-out group-hover:scale-105 object-fill" 
-                 srcset="/publications/2026-nezibarra-from-grid/featured_hu_fe3c754ce3bf01c8.webp 400w, /publications/2026-nezibarra-from-grid/featured_hu_d070238538f4debe.webp 600w, /publications/2026-nezibarra-from-grid/featured_hu_51fc964081bdd3b3.webp 800w, /publications/2026-nezibarra-from-grid/featured_hu_cc539fb1096c794b.webp 800w"
+                 srcset="/publications/2026-nunezibarra-from-grid/featured_hu_fe3c754ce3bf01c8.webp 400w, /publications/2026-nunezibarra-from-grid/featured_hu_d070238538f4debe.webp 600w, /publications/2026-nunezibarra-from-grid/featured_hu_51fc964081bdd3b3.webp 800w, /publications/2026-nunezibarra-from-grid/featured_hu_cc539fb1096c794b.webp 800w"
                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                 src="/publications/2026-nezibarra-from-grid/featured_hu_fe3c754ce3bf01c8.webp" 
+                 src="/publications/2026-nunezibarra-from-grid/featured_hu_fe3c754ce3bf01c8.webp" 
                  width="800" 
                  height="450"
                  loading="lazy" 
@@ -11477,8 +11453,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       
 
-      <h3 id="card-title-013cf41e6ed13e1ffbef5362480d9211" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
-        <a href="/publications/2026-nezibarra-from-grid/"  class="hover:underline">
+      <h3 id="card-title-9995296605d0efb7454e1583f33db1e7" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
+        <a href="/publications/2026-nunezibarra-from-grid/"  class="hover:underline">
           From grid to ground: how well do gridded products represent soil moisture dynamics in natural ecosystems during precipitation events?
           
         </a>
@@ -11532,145 +11508,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         
         <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
-          <a href="/publications/2026-nezibarra-from-grid/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
-            <span>Read more</span>
-            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-            </svg>
-          </a>
-        </div>
-        
-      </div>
-      
-      
-      
-      
-    </div>
-</div>
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-cd7d8f4114bb66352bca0b48a6f651d2">
-    
-    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
-      
-      
-        
-          
-          
-            
-          
-          
-          <a href="/publications/2026-hess/"  class="block">
-            <img class="w-full h-full transition-transform duration-500 ease-out group-hover:scale-105 object-fill" 
-                 srcset="/publications/2026-hess/featured_hu_9a8f1f943dd9c797.webp 400w, /publications/2026-hess/featured_hu_9b7c95451017d206.webp 600w, /publications/2026-hess/featured_hu_82b53f869f924ea5.webp 800w, /publications/2026-hess/featured_hu_63551a8a88bb5a00.webp 800w"
-                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                 src="/publications/2026-hess/featured_hu_9a8f1f943dd9c797.webp" 
-                 width="800" 
-                 height="450"
-                 loading="lazy" 
-                 decoding="async"
-                 
-                 style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-                 alt="2025-HESS featured image">
-          </a>
-        
-      
-      
-      
-      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-    </div>
-
-    
-    <div class="p-8 space-y-4">
-      
-
-      
-      <div class="flex items-center gap-2">
-        
-        <a href="/tags/source-themes/">
-          <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-primary-100 text-primary-800 dark:bg-primary-900/40 dark:text-primary-300">
-            Source Themes
-          </span>
-        </a>
-        
-      </div>
-      
-
-      <h3 id="card-title-cd7d8f4114bb66352bca0b48a6f651d2" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
-        <a href="/publications/2026-hess/"  class="hover:underline">
-          2025-HESS
-          
-        </a>
-      </h3>
-      
-      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-      </p>
-
-      
-
-      
-      
-      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
-        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
-          
-          <div class="flex items-center gap-2 min-w-0">
-            
-            
-            
-            <div class="relative h-6 w-6 flex-shrink-0">
-              
-                
-                <img alt="avatar" class="rounded-full object-cover" src="/media/authors/me_hu_ef7e3d9424d63b4b.webp" width="24" height="24" loading="lazy" decoding="async" />
-              
-            </div>
-            <span class="truncate max-w-[9rem] text-sm">Dr. Mauricio Zambrano-Bigiarini</span>
-          </div>
-          <span class="opacity-40">•</span>
-          
-          
-            
-            <time class="hidden sm:inline whitespace-nowrap" datetime="2026-02-01">
-              Feb 1, 2026
-            </time>
-            
-          
-          
-            <span class="hidden sm:inline opacity-40">•</span>
-          
-          
-            
-            
-            
-            
-            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
-          
-        </div>
-        
-        
-        
-        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
-          <a href="/publications/2026-hess/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
+          <a href="/publications/2026-nunezibarra-from-grid/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
             <span>Read more</span>
             <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -11929,135 +11767,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
           <a href="/publications/2026-marinao-hydromopso-a/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
-            <span>Read more</span>
-            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-            </svg>
-          </a>
-        </div>
-        
-      </div>
-      
-      
-      
-      
-    </div>
-</div>
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-8be593d2ee39a98c5f98a92565da9837">
-    
-    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
-      
-      
-        
-          
-          
-            
-          
-          
-          <a href="/publications/2026-gimeno-hydropedological-clustering/"  class="block">
-            <img class="w-full h-full transition-transform duration-500 ease-out group-hover:scale-105 object-fill" 
-                 srcset="/publications/2026-gimeno-hydropedological-clustering/featured_hu_ddd7731afa1e4b5c.webp 400w, /publications/2026-gimeno-hydropedological-clustering/featured_hu_38060bf9fa26db75.webp 600w, /publications/2026-gimeno-hydropedological-clustering/featured_hu_b0d0e5a542f3e785.webp 800w, /publications/2026-gimeno-hydropedological-clustering/featured_hu_cb87bd87354385c7.webp 800w"
-                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                 src="/publications/2026-gimeno-hydropedological-clustering/featured_hu_ddd7731afa1e4b5c.webp" 
-                 width="800" 
-                 height="450"
-                 loading="lazy" 
-                 decoding="async"
-                 
-                 style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-                 alt="Hydropedological clustering: improving the representation of low streamflows in a semi-distributed hydrological model featured image">
-          </a>
-        
-      
-      
-      
-      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-    </div>
-
-    
-    <div class="p-8 space-y-4">
-      
-
-      
-
-      <h3 id="card-title-8be593d2ee39a98c5f98a92565da9837" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
-        <a href="/publications/2026-gimeno-hydropedological-clustering/"  class="hover:underline">
-          Hydropedological clustering: improving the representation of low streamflows in a semi-distributed hydrological model
-          
-        </a>
-      </h3>
-      
-      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
-         Short Summary: Low streamflows are critical for sustaining water supply in Mediterranean regions, yet their simulation remains challenging due to the complex influence of soils on …
-      </p>
-
-      
-
-      
-      
-      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
-        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
-          
-          <div class="flex items-center gap-2 min-w-0">
-            
-            
-            
-            <div class="relative h-6 w-6 flex-shrink-0">
-              
-                <div class="w-6 h-6 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center">
-                  <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 6a3.75 3.75 0 1 1-7.5 0a3.75 3.75 0 0 1 7.5 0M4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632"/></svg>
-                </div>
-              
-            </div>
-            <span class="truncate max-w-[9rem] text-sm">fernando-gimeno</span>
-          </div>
-          <span class="opacity-40">•</span>
-          
-          
-            
-            <time class="hidden sm:inline whitespace-nowrap" datetime="2026-01-01">
-              Jan 1, 2026
-            </time>
-            
-          
-          
-            <span class="hidden sm:inline opacity-40">•</span>
-          
-          
-            
-            
-            
-            
-            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
-          
-        </div>
-        
-        
-        
-        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
-          <a href="/publications/2026-gimeno-hydropedological-clustering/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
             <span>Read more</span>
             <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
@@ -12460,278 +12169,11 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </div>
   
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-5eff014c67b00a796fed82af519a34ac">
-    
-    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
-      
-      
-        
-          
-          
-            
-          
-          
-          <a href="/publications/2024-aguayo-patagoniamet-a/"  class="block">
-            <img class="w-full h-full transition-transform duration-500 ease-out group-hover:scale-105 object-fill" 
-                 srcset="/publications/2024-aguayo-patagoniamet-a/featured_hu_ddd7731afa1e4b5c.webp 400w, /publications/2024-aguayo-patagoniamet-a/featured_hu_38060bf9fa26db75.webp 600w, /publications/2024-aguayo-patagoniamet-a/featured_hu_b0d0e5a542f3e785.webp 800w, /publications/2024-aguayo-patagoniamet-a/featured_hu_cb87bd87354385c7.webp 800w"
-                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                 src="/publications/2024-aguayo-patagoniamet-a/featured_hu_ddd7731afa1e4b5c.webp" 
-                 width="800" 
-                 height="450"
-                 loading="lazy" 
-                 decoding="async"
-                 
-                 style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-                 alt="PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia featured image">
-          </a>
-        
-      
-      
-      
-      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-    </div>
-
-    
-    <div class="p-8 space-y-4">
-      
-
-      
-
-      <h3 id="card-title-5eff014c67b00a796fed82af519a34ac" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
-        <a href="/publications/2024-aguayo-patagoniamet-a/"  class="hover:underline">
-          PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia
-          
-        </a>
-      </h3>
-      
-      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
-         Short Summary: Western Patagonia (40–56°S) is a clear example of how the systematic lack of publicly available data and poor quality control protocols have hindered further …
-      </p>
-
-      
-
-      
-      
-      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
-        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
-          
-          <div class="flex items-center gap-2 min-w-0">
-            
-            
-            
-            <div class="relative h-6 w-6 flex-shrink-0">
-              
-                <div class="w-6 h-6 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center">
-                  <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 6a3.75 3.75 0 1 1-7.5 0a3.75 3.75 0 0 1 7.5 0M4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632"/></svg>
-                </div>
-              
-            </div>
-            <span class="truncate max-w-[9rem] text-sm">rodrigo-aguayo</span>
-          </div>
-          <span class="opacity-40">•</span>
-          
-          
-            
-            <time class="hidden sm:inline whitespace-nowrap" datetime="2024-01-01">
-              Jan 1, 2024
-            </time>
-            
-          
-          
-            <span class="hidden sm:inline opacity-40">•</span>
-          
-          
-            
-            
-            
-            
-            <span class="hidden sm:inline whitespace-nowrap">1 min read</span>
-          
-        </div>
-        
-        
-        
-        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
-          <a href="/publications/2024-aguayo-patagoniamet-a/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
-            <span>Read more</span>
-            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-            </svg>
-          </a>
-        </div>
-        
-      </div>
-      
-      
-      
-      
-    </div>
-</div>
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-primary-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-primary-500/50" role="article" aria-labelledby="card-title-b6824a75bb5a65c8244814b66ccb28fd">
-    
-    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
-      
-      
-        
-          
-          
-            
-          
-          
-          <a href="/publications/2024-baezvillanueva-on-the/"  class="block">
-            <img class="w-full h-full transition-transform duration-500 ease-out group-hover:scale-105 object-fill" 
-                 srcset="/publications/2024-baezvillanueva-on-the/featured_hu_ddd7731afa1e4b5c.webp 400w, /publications/2024-baezvillanueva-on-the/featured_hu_38060bf9fa26db75.webp 600w, /publications/2024-baezvillanueva-on-the/featured_hu_b0d0e5a542f3e785.webp 800w, /publications/2024-baezvillanueva-on-the/featured_hu_cb87bd87354385c7.webp 800w"
-                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                 src="/publications/2024-baezvillanueva-on-the/featured_hu_ddd7731afa1e4b5c.webp" 
-                 width="800" 
-                 height="450"
-                 loading="lazy" 
-                 decoding="async"
-                 
-                 style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-                 alt="On the timescale of drought indices for monitoring streamflow drought considering catchment hydrological regimes featured image">
-          </a>
-        
-      
-      
-      
-      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-    </div>
-
-    
-    <div class="p-8 space-y-4">
-      
-
-      
-
-      <h3 id="card-title-b6824a75bb5a65c8244814b66ccb28fd" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200 leading-tight">
-        <a href="/publications/2024-baezvillanueva-on-the/"  class="hover:underline">
-          On the timescale of drought indices for monitoring streamflow drought considering catchment hydrological regimes
-          
-        </a>
-      </h3>
-      
-      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
-         Short Summary: There is a wide variety of drought indices, yet a consensus on suitable indices and temporal scales for monitoring streamflow drought remains elusive across diverse …
-      </p>
-
-      
-
-      
-      
-      <div class="pt-3 border-t border-zinc-100 dark:border-zinc-800">
-        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap mb-3">
-          
-          <div class="flex items-center gap-2 min-w-0">
-            
-            
-            
-            <div class="relative h-6 w-6 flex-shrink-0">
-              
-                <div class="w-6 h-6 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center">
-                  <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.75 6a3.75 3.75 0 1 1-7.5 0a3.75 3.75 0 0 1 7.5 0M4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632"/></svg>
-                </div>
-              
-            </div>
-            <span class="truncate max-w-[9rem] text-sm">oscar-m.-baez-villanueva</span>
-          </div>
-          <span class="opacity-40">•</span>
-          
-          
-            
-            <time class="hidden sm:inline whitespace-nowrap" datetime="2024-01-01">
-              Jan 1, 2024
-            </time>
-            
-          
-          
-            <span class="hidden sm:inline opacity-40">•</span>
-          
-          
-            
-            
-            
-            
-            <span class="hidden sm:inline whitespace-nowrap">3 min read</span>
-          
-        </div>
-        
-        
-        
-        <div class="pt-2 border-t border-zinc-200/50 dark:border-zinc-700/50">
-          <a href="/publications/2024-baezvillanueva-on-the/"  class="inline-flex items-center gap-2 text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 font-medium text-sm transition-all duration-300 group/link">
-            <span>Read more</span>
-            <svg class="w-4 h-4 transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-            </svg>
-          </a>
-        </div>
-        
-      </div>
-      
-      
-      
-      
-    </div>
-</div>
-  
 
   </div>
 
 
   
-<nav class="mt-1">
-  <ul class="container mx-auto flex justify-center">
-    
-    
-    <li class="p-5"><a class="page-link" href="/publication_types/article-journal/page/2/">Next &raquo;</a></li>
-    
-  </ul>
-</nav>
-
 
 
 </div>

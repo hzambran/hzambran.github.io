@@ -1,7 +1,7 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 22, 2026 --><html lang="en-us" dir="ltr"
-      data-wc-theme-default="system"
+<!-- Last Published: April 23, 2026 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="dark"
       data-hbb-relurl="/">
   
 <head>
@@ -9149,7 +9149,7 @@
   
     
       
-        <link rel="stylesheet" href="/css/_entry.dd85780f7c1c9dae8fb58e10db199d0feb54822a82e717751406b78aa7d4c6d6.css" integrity="sha256-3YV4D3wcna6PtY4Q2xmdD&#43;tUgiqC5xd1FAa3iqfUxtY=" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/_entry.e807b110082af2b99259aabe76dc5adec0000b5934c88b4da3ee8e9f03954085.css" integrity="sha256-6AexEAgq8rmSWaq&#43;dtxa3sAAC1k0yItNo&#43;6OnwOVQIU=" crossorigin="anonymous">
       
     
   
@@ -9171,12 +9171,51 @@
 
 
 
+<meta name="google-site-verification" content="fEUYZKYsWqUgQqwSQ6A-DHXmUopEMm4IcgJojbncX_o" /><meta name="msvalidate.01" content="DF43D1351451B30C282C6758EC4F98D8" />
 
 
 
 
 
 
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-445243XQPF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-445243XQPF', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -9258,7 +9297,7 @@
     <meta property="twitter:image" content="https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2026-02-01T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2026-01-30T00:00:00&#43;00:00" />
     
   
 
@@ -9269,7 +9308,7 @@
   "@context": "https://schema.org",
   "@id": "https://hzambran.github.io/tags/",
   "@type": "CollectionPage",
-  "dateModified": "2026-02-01T00:00:00Z",
+  "dateModified": "2026-01-30T00:00:00Z",
   "description": "Research profile of Mauricio Zambrano-Bigiarini, focusing on hydrometeorological forecasting, drought and flood early-warning systems, and climate risk assessment.",
   "inLanguage": "en-us",
   "isPartOf": {
@@ -9284,32 +9323,12 @@
       {
         "@type": "ListItem",
         "item": {
-          "@id": "https://hzambran.github.io/tags/source-themes/",
-          "@type": "WebPage",
-          "name": "Source Themes",
-          "url": "https://hzambran.github.io/tags/source-themes/"
-        },
-        "position": 1
-      },
-      {
-        "@type": "ListItem",
-        "item": {
-          "@id": "https://hzambran.github.io/tags/mzb-themes/",
-          "@type": "WebPage",
-          "name": "MZB Themes",
-          "url": "https://hzambran.github.io/tags/mzb-themes/"
-        },
-        "position": 2
-      },
-      {
-        "@type": "ListItem",
-        "item": {
           "@id": "https://hzambran.github.io/tags/web-platforms/",
           "@type": "WebPage",
           "name": "Web Platforms",
           "url": "https://hzambran.github.io/tags/web-platforms/"
         },
-        "position": 3
+        "position": 1
       },
       {
         "@type": "ListItem",
@@ -9319,7 +9338,7 @@
           "name": "Soil Moisture",
           "url": "https://hzambran.github.io/tags/soil-moisture/"
         },
-        "position": 4
+        "position": 2
       },
       {
         "@type": "ListItem",
@@ -9329,7 +9348,7 @@
           "name": "R",
           "url": "https://hzambran.github.io/tags/r/"
         },
-        "position": 5
+        "position": 3
       },
       {
         "@type": "ListItem",
@@ -9339,7 +9358,7 @@
           "name": "Kimün-Ko",
           "url": "https://hzambran.github.io/tags/kimun-ko/"
         },
-        "position": 6
+        "position": 4
       },
       {
         "@type": "ListItem",
@@ -9349,7 +9368,7 @@
           "name": "Time Series",
           "url": "https://hzambran.github.io/tags/time-series/"
         },
-        "position": 7
+        "position": 5
       },
       {
         "@type": "ListItem",
@@ -9359,7 +9378,7 @@
           "name": "R Package",
           "url": "https://hzambran.github.io/tags/r-package/"
         },
-        "position": 8
+        "position": 6
       },
       {
         "@type": "ListItem",
@@ -9369,7 +9388,7 @@
           "name": "Precipitation",
           "url": "https://hzambran.github.io/tags/precipitation/"
         },
-        "position": 9
+        "position": 7
       },
       {
         "@type": "ListItem",
@@ -9378,6 +9397,26 @@
           "@type": "WebPage",
           "name": "Hydrology",
           "url": "https://hzambran.github.io/tags/hydrology/"
+        },
+        "position": 8
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://hzambran.github.io/tags/hydrological-modelling/",
+          "@type": "WebPage",
+          "name": "Hydrological Modelling",
+          "url": "https://hzambran.github.io/tags/hydrological-modelling/"
+        },
+        "position": 9
+      },
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "https://hzambran.github.io/tags/climate-change/",
+          "@type": "WebPage",
+          "name": "Climate Change",
+          "url": "https://hzambran.github.io/tags/climate-change/"
         },
         "position": 10
       }
@@ -9610,10 +9649,6 @@
       
       
     
-      
-      
-      
-    
     
   
 
@@ -9733,25 +9768,6 @@
     
   
     
-    
-  
-    
-    
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
     
   
   
@@ -11451,7 +11467,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <a href="/tags/course/" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
           Course
           <span class="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold text-primary-800 bg-primary-200 rounded-full">
-            4
+            3
           </span>
         </a>
 
@@ -11563,7 +11579,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <a href="/tags/hugo-blox/" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
           Hugo Blox
           <span class="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold text-primary-800 bg-primary-200 rounded-full">
-            5
+            4
           </span>
         </a>
 
@@ -11609,13 +11625,6 @@ document.addEventListener('DOMContentLoaded', function() {
           </span>
         </a>
 
-        <a href="/tags/large-language-models/" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-          Large Language Models
-          <span class="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold text-primary-800 bg-primary-200 rounded-full">
-            2
-          </span>
-        </a>
-
         <a href="/tags/mapocho/" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
           Mapocho
           <span class="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold text-primary-800 bg-primary-200 rounded-full">
@@ -11653,13 +11662,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         <a href="/tags/mzb/" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
           MZB
-          <span class="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold text-primary-800 bg-primary-200 rounded-full">
-            1
-          </span>
-        </a>
-
-        <a href="/tags/mzb-themes/" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-          MZB Themes
           <span class="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold text-primary-800 bg-primary-200 rounded-full">
             1
           </span>
@@ -11746,13 +11748,6 @@ document.addEventListener('DOMContentLoaded', function() {
           Soil Moisture
           <span class="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold text-primary-800 bg-primary-200 rounded-full">
             2
-          </span>
-        </a>
-
-        <a href="/tags/source-themes/" class="inline-flex items-center px-5 py-2.5 text-sm font-medium text-center text-white bg-primary-700 rounded-lg hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
-          Source Themes
-          <span class="inline-flex items-center justify-center w-4 h-4 ms-2 text-xs font-semibold text-primary-800 bg-primary-200 rounded-full">
-            1
           </span>
         </a>
 

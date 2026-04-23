@@ -1,7 +1,7 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: April 22, 2026 --><html lang="en-us" dir="ltr"
-      data-wc-theme-default="system"
+<!-- Last Published: April 23, 2026 --><html lang="en-us" dir="ltr"
+      data-wc-theme-default="dark"
       data-hbb-relurl="/">
   
 <head>
@@ -9149,7 +9149,7 @@
   
     
       
-        <link rel="stylesheet" href="/css/_entry.dd85780f7c1c9dae8fb58e10db199d0feb54822a82e717751406b78aa7d4c6d6.css" integrity="sha256-3YV4D3wcna6PtY4Q2xmdD&#43;tUgiqC5xd1FAa3iqfUxtY=" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/_entry.e807b110082af2b99259aabe76dc5adec0000b5934c88b4da3ee8e9f03954085.css" integrity="sha256-6AexEAgq8rmSWaq&#43;dtxa3sAAC1k0yItNo&#43;6OnwOVQIU=" crossorigin="anonymous">
       
     
   
@@ -9171,12 +9171,51 @@
 
 
 
+<meta name="google-site-verification" content="fEUYZKYsWqUgQqwSQ6A-DHXmUopEMm4IcgJojbncX_o" /><meta name="msvalidate.01" content="DF43D1351451B30C282C6758EC4F98D8" />
 
 
 
 
 
 
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-445243XQPF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-445243XQPF', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -9319,10 +9358,10 @@
       {
         "@type": "ListItem",
         "item": {
-          "@id": "https://hzambran.github.io/publications/2026-nezibarra-from-grid/",
+          "@id": "https://hzambran.github.io/publications/2026-nunezibarra-from-grid/",
           "@type": "WebPage",
           "name": "From grid to ground: how well do gridded products represent soil moisture dynamics in natural ecosystems during precipitation events?",
-          "url": "https://hzambran.github.io/publications/2026-nezibarra-from-grid/"
+          "url": "https://hzambran.github.io/publications/2026-nunezibarra-from-grid/"
         },
         "position": 5
       },
@@ -9605,10 +9644,6 @@
       
       
     
-      
-      
-      
-    
     
   
 
@@ -9728,25 +9763,6 @@
     
   
     
-    
-  
-    
-    
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
     
   
   
@@ -11395,11 +11411,9 @@ document.addEventListener('DOMContentLoaded', function() {
       
       <li><a href="/publications/">Full list of Publications</a></li>
       
-      <li><a href="/publications/2026-nezibarra-from-grid/">From grid to ground: how well do gridded products represent soil moisture dynamics in natural ecosystems during precipitation events?</a></li>
+      <li><a href="/publications/2026-nunezibarra-from-grid/">From grid to ground: how well do gridded products represent soil moisture dynamics in natural ecosystems during precipitation events?</a></li>
       
       <li><a href="/software/">Web Platforms</a></li>
-      
-      <li><a href="/publications/2026-hess/">2025-HESS</a></li>
       
       <li><a href="/web-platforms/">Web-Platforms</a></li>
       
@@ -11412,6 +11426,8 @@ document.addEventListener('DOMContentLoaded', function() {
       <li><a href="/web-platforms/curvas_idf/">Curvas IDF Chile</a></li>
       
       <li><a href="/blog/2026-01-14-past_3_years_have_been_the_hottest/">The Past 3 Years Have Been the Three Hottest</a></li>
+      
+      <li><a href="/blog/">Blog</a></li>
       
     </ul>
     
