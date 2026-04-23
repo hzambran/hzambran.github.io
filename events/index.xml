@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>http://localhost:1313/events/</link>
-      <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hzambran.github.io/events/</link>
+      <atom:link href="https://hzambran.github.io/events/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>http://localhost:1313/events/</link>
+      <link>https://hzambran.github.io/events/</link>
     </image>
     
     <item>
       <title>Create Beautiful Presentations with Markdown</title>
-      <link>http://localhost:1313/events/create-beautiful-presentations-with-markdown/</link>
+      <link>https://hzambran.github.io/events/create-beautiful-presentations-with-markdown/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/events/create-beautiful-presentations-with-markdown/</guid>
+      <guid>https://hzambran.github.io/events/create-beautiful-presentations-with-markdown/</guid>
       <description>&lt;h2 id=&#34;-why-markdown-slides&#34;&gt;🎯 Why Markdown Slides?&lt;/h2&gt;
 
 
@@ -501,7 +501,7 @@ Navigate down for sub-topics!&lt;/p&gt;
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-64e601f8a8934bfe4df8ad2c2165141f&#34;
-    href=&#34;http://localhost:1313/slides/example/&#34;
+    href=&#34;https://hzambran.github.io/slides/example/&#34;
     target=&#34;_blank&#34;
     rel=&#34;noopener&#34;
     

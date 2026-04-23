@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chile | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>http://localhost:1313/tags/chile/</link>
-      <atom:link href="http://localhost:1313/tags/chile/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hzambran.github.io/tags/chile/</link>
+      <atom:link href="https://hzambran.github.io/tags/chile/index.xml" rel="self" type="application/rss+xml" />
     <description>Chile</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Chile</title>
-      <link>http://localhost:1313/tags/chile/</link>
+      <link>https://hzambran.github.io/tags/chile/</link>
     </image>
     
     <item>
       <title>SICA: Integrated Climate and Water System in Chile (TA25I10030. )</title>
-      <link>http://localhost:1313/projects/2025-2029-ta25i10030/</link>
+      <link>https://hzambran.github.io/projects/2025-2029-ta25i10030/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/2025-2029-ta25i10030/</guid>
+      <guid>https://hzambran.github.io/projects/2025-2029-ta25i10030/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -53,9 +53,9 @@
     
     <item>
       <title>Hidrodesafios 2025 Seminar</title>
-      <link>http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</link>
+      <link>https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</guid>
+      <guid>https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</guid>
       <description>&lt;p&gt;On Wednesday, November 26th 2025, I participated as a speaker at the seminar &amp;ldquo;
 &amp;rdquo; organized by the Sanitation Services Concessionaire Company S.A. (ECONSSA Chile) with sponsorship from the Chilean Association for Water Rights (AChDA) and Fundación Chile.&lt;/p&gt;
 &lt;p&gt;This event took place from 8:30 hrs at the Ritz-Carlton Hotel in the Las Condes district, with the objective of addressing the future of the sanitation sector in a context of water scarcity and climate change, and analyzing the role of seawater desalination and wastewater reuse in confronting the water crisis.&lt;/p&gt;
@@ -76,7 +76,7 @@
 &lt;p&gt;More information and the program for the event can be found at 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/Debate_sanitario.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/Debate_sanitario.jpg&#34;
     alt=&#34;Dr. Zambrano-Bigiarini at the Hidrodesafios 2025 Seminar&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Debate on proposals for the water and sanitary sector in Chile&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -87,9 +87,9 @@
     
     <item>
       <title>III Regional Climate Change Seminar</title>
-      <link>http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/</link>
+      <link>https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/</link>
       <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/</guid>
+      <guid>https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/</guid>
       <description>&lt;p&gt;On Friday, November 21 2025, I participated as a speaker at the III Regional Climate Change Seminar, organized by the Regional Environmental Secretariat (SEREMI) of the Araucanía Region, the Regional Government of the Araucanía Region, the Catholic University of Temuco, and EBP.&lt;/p&gt;
 &lt;p&gt;The seminar aimed to share the contents of the 
  with key stakeholders in the region, strengthening regional understanding, ownership, and commitment to addressing the challenges of climate change.&lt;/p&gt;
@@ -130,9 +130,9 @@
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;MZB_speaking&#34; 
-               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_d1f3d4861ef3c785.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_cee733e63d013609.webp 570w&#34;
+               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_d1f3d4861ef3c785.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_cee733e63d013609.webp 570w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp&#34;
+               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_speaking_hu_fe7518c28a80b352.webp&#34;
                width=&#34;570&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -158,9 +158,9 @@
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;MZB_presentation&#34; 
-               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_7335dc7a29a68431.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_4c1a5f5003393cb8.webp 760w&#34;
+               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_7335dc7a29a68431.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_4c1a5f5003393cb8.webp 760w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp&#34;
+               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/MZB_presentation_hu_fc2504e4ecd563c3.webp&#34;
                width=&#34;760&#34;
                height=&#34;424&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -186,9 +186,9 @@
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;Discussion_Panel&#34; 
-               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_de44885b3f6064e5.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_d8a52476d5cb49d1.webp 760w&#34;
+               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_de44885b3f6064e5.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_d8a52476d5cb49d1.webp 760w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp&#34;
+               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/featured_hu_68e20e80f16b55d6.webp&#34;
                width=&#34;760&#34;
                height=&#34;557&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -214,9 +214,9 @@
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-full&#34; &gt;
           &lt;img alt=&#34;Audience&#34; 
-               srcset=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp 320w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_7aa7a95ec05f7bb.webp 480w, http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_2051562c3199adfd.webp 760w&#34;
+               srcset=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp 320w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_7aa7a95ec05f7bb.webp 480w, https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_2051562c3199adfd.webp 760w&#34;
                sizes=&#34;(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px&#34;
-               src=&#34;http://localhost:1313/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp&#34;
+               src=&#34;https://hzambran.github.io/dissemination/2025-11-21-iii_seminario_regional_de_cc/Audience_hu_a808445b89e36f27.webp&#34;
                width=&#34;760&#34;
                height=&#34;570&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -227,9 +227,9 @@
     
     <item>
       <title>SICyR 2025: Sessions HC2 and HC7</title>
-      <link>http://localhost:1313/dissemination/2025-11-07-sicyr_2025/</link>
+      <link>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2025-11-07-sicyr_2025/</guid>
+      <guid>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/</guid>
       <description>&lt;p&gt;Members of the 
  participated in the 
 , an event that brought together leading researchers, academics, and professionals from the social and natural sciences. The symposium took place on November 3-4 in Santiago, where the plenary sessions and workshops were held, and continued from November 5-7 in Viña del Mar, where the thematic scientific sessions took place.&lt;/p&gt;
@@ -272,11 +272,11 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/2025/2025-11-07-SICyR_2025/KimunKo_y_Equipo_Propagacion_Sequia.jpg&#34; alt=&#34;KimunKo_y_Equipo_Propagacion_Sequia&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2025/2025-11-07-SICyR_2025/KimunKo_y_Equipo_Propagacion_Sequia.jpg&#34; alt=&#34;KimunKo_y_Equipo_Propagacion_Sequia&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-07-sicyr_2025/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/featured.jpg&#34;
     alt=&#34;Kimuün-Ko and Drought progpagation teams&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Former and current Kimün-Ko members along with Dr. Mauricio Gellguillos (UAI), Giancarlo Casanova, DR(c) Emilia Figueiras (AR) y Dr. Pablo Spennemann&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -287,13 +287,13 @@
     
     <item>
       <title>SICyR 2025: R course</title>
-      <link>http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/</link>
+      <link>https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/</guid>
+      <guid>https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/</guid>
       <description>&lt;h1 id=&#34;r-course-spatiotemporal-data-analysis&#34;&gt;R Course: Spatiotemporal Data Analysis&lt;/h1&gt;
 &lt;p&gt;On November 4, I taught the course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;, which was attended by undergraduate and graduate students, as well as public and private sector professionals.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/featured.jpg&#34;
     alt=&#34;R Course&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -304,13 +304,13 @@
     
     <item>
       <title>SICyR 2025: R course</title>
-      <link>http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/</link>
+      <link>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/</guid>
+      <guid>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/</guid>
       <description>&lt;h1 id=&#34;r-course-spatiotemporal-data-analysis&#34;&gt;R Course: Spatiotemporal Data Analysis&lt;/h1&gt;
 &lt;p&gt;On November 4, I taught the course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;, which was attended by undergraduate and graduate students, as well as public and private sector professionals.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/featured.jpg&#34;
     alt=&#34;R Course&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -321,9 +321,9 @@
     
     <item>
       <title>Anemometer installation at the Invernada station</title>
-      <link>http://localhost:1313/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</link>
+      <link>https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</guid>
+      <guid>https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</guid>
       <description>&lt;p&gt;Last Tuesday, April 9th 2024, part of the Water Resources Observatory team of the Department of Civil Engineering (
 ) of the Universidad of La Frontera carried out the installation of an anemometer in the Invernada meteorological station located in the Conguillio National Park (Los Paraguas sector).&lt;/p&gt;
 &lt;p&gt;The installation of this anemometer will allow the station to record both the average hourly wind speed, the gust speed (maximum instantaneous speed), and the wind direction. These parameters are added to the existing measurements of precipitation, air temperature, solar radiation, relative humidity and dew point, providing essential data for future research related to water resources in the region. In particular, from now on it will be possible to estimate the reference evapotranspiration, which accounts for the maximum amount of water that a standard crop is capable of evaporating.&lt;/p&gt;
@@ -332,19 +332,19 @@
 &lt;p&gt;This milestone marked the end of a great filed work day for the team, which in this occasion included Dra. Rebeca Martínez, Civil Engineer Rodrigo Marinao, undergratuate student Marfa Saldivia and Dr. Mauricio Zambrano-Bigiarini. During the installation day it was also possible to carry out other routine activities, including streamflow measurements (through gauging and mass balance) and estimation of soil hydraulic conductivity (double ring infiltrometer).&lt;/p&gt;
 &lt;p&gt;These advances have been possible thanks to the funding provided by the projects: ANID Fondecyt Regular 1212071, ANID-NSFC 190018, ANID Fondecyt Postdoctoral 11190864, UFRO Postdoc grant405VRIP20P001, and ANID Fondecyt Postdoctoral 3220382.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4595.JPEG&#34;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4595.JPEG&#34;
     alt=&#34;Anemómetro&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Anemómetro&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4596.JPEG&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4596.JPEG&#34;
     alt=&#34;Estación invernada&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Estación invernada&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/featured.jpeg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/featured.jpeg&#34;
     alt=&#34;Parte del equipo de trabjo&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Parte del equipo de trabjo&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -355,9 +355,9 @@
     
     <item>
       <title>Cambio climático alimenta &#39;mancha&#39; caliente oceánica que causa megasequía en Chile según un estudio (La Tercera)</title>
-      <link>http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
+      <link>https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
+      <guid>https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
       <description>&lt;p&gt;According to a recent study, a gigantic slick of more than 8 million kilometers located east of New Zealand is largely responsible for the dramatic lack of water that is affecting the central area of Chile.&lt;/p&gt;
 &lt;p&gt;The full note can be read on the 
  or in the 
@@ -365,7 +365,7 @@
 &lt;p&gt;The scientific article published in the &lt;em&gt;Journal of Climate&lt;/em&gt; is available 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
     alt=&#34;https://www.latercera.com/que-pasa/noticia/cambio-climatico-alimenta-mancha-caliente-oceanica-que-causa-megasequia-en-chile-segun-un-estudio/&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Fuente: La Tercera&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -376,9 +376,9 @@
     
     <item>
       <title>Seminario Cambio global y recursos hídricos: experiencias y desafíos</title>
-      <link>http://localhost:1313/dissemination/2021-07-29-seminario_rrhh_en_ufro/</link>
+      <link>https://hzambran.github.io/dissemination/2021-07-29-seminario_rrhh_en_ufro/</link>
       <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2021-07-29-seminario_rrhh_en_ufro/</guid>
+      <guid>https://hzambran.github.io/dissemination/2021-07-29-seminario_rrhh_en_ufro/</guid>
       <description>&lt;p&gt;Researchers from the Universidad de La Frontera, U. de Chile, U. de los Lagos and the Center for Climate and Resilience Research (CR)2, will meet this Friday, July 30th, to address some relevant issues from their professional and academic experience for the country and La Araucanía in terms of water resources.&lt;/p&gt;
 &lt;p&gt;Organized by the 
 , the Seminar &amp;ldquo;Global change and water resources: experiences and challenges&amp;rdquo;, aims to disseminate the advances and experiences related to national water resources and generate a space for discussion with public services , the university community and local actors related to water resources, addressing topics such as: climate change, drought, water security, new data sources, water allocation permits, land use management and its impact on water availability, and erosion in forested catchments.&lt;/p&gt;
@@ -402,7 +402,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/2021-07-30-Seminario_RRHH-AficheDeDifusion.png&#34; alt=&#34;Afiche de disfusión&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2021-07-30-Seminario_RRHH-AficheDeDifusion.png&#34; alt=&#34;Afiche de disfusión&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -417,9 +417,9 @@
     
     <item>
       <title>Esta es la última víctima del cambio climático en Chile (La Tercera)</title>
-      <link>http://localhost:1313/blog/2021-03-17-la_tercera_cauquenes_joh2021/</link>
+      <link>https://hzambran.github.io/blog/2021-03-17-la_tercera_cauquenes_joh2021/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2021-03-17-la_tercera_cauquenes_joh2021/</guid>
+      <guid>https://hzambran.github.io/blog/2021-03-17-la_tercera_cauquenes_joh2021/</guid>
       <description>&lt;p&gt;A recent study by the Center for Climate Science and Resilience 
 , led by Dr. Mauricio Galleguillos, analyzed in detail the impact of climate change and land use change on water availability from the Cauquenes River Basin, which dried up during the summer of 2020.&lt;/p&gt;
 &lt;p&gt;The full note can be read on the [(CR)2 website](
@@ -439,9 +439,9 @@
     
     <item>
       <title>The catchment’s memory: understanding how hydrological extremes are modulated by antecedent soil moisture conditions in a warmer climate</title>
-      <link>http://localhost:1313/projects/2021-2025-fondecyt1212071/</link>
+      <link>https://hzambran.github.io/projects/2021-2025-fondecyt1212071/</link>
       <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/2021-2025-fondecyt1212071/</guid>
+      <guid>https://hzambran.github.io/projects/2021-2025-fondecyt1212071/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -483,9 +483,9 @@
     
     <item>
       <title>Balance Hídrico Nacional revela dramática situación: proyecta escasez de agua de hasta 50% y alza de temperatura de hasta 2.5°C</title>
-      <link>http://localhost:1313/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</link>
+      <link>https://hzambran.github.io/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</guid>
+      <guid>https://hzambran.github.io/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</guid>
       <description>&lt;p&gt;An update of the Chilean Water Balance, led by academics from the University of Chile, reveals the complex local scenario, which apparently will not improve in the coming decades.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -501,9 +501,9 @@
     
     <item>
       <title>Entra en vigencia la nueva Ley de Servicios Sanitarios Rurales</title>
-      <link>http://localhost:1313/blog/2020-11-23-nueva_ley_de_ssr/</link>
+      <link>https://hzambran.github.io/blog/2020-11-23-nueva_ley_de_ssr/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2020-11-23-nueva_ley_de_ssr/</guid>
+      <guid>https://hzambran.github.io/blog/2020-11-23-nueva_ley_de_ssr/</guid>
       <description>&lt;p&gt;Noticia titulada 
 , donde se describe la nueva Ley N°20.998, la cual permitirá avanzar en forma significativa para garantizar el abastecimiento de agua potable y saneamiento para los habitantes del sector rural.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -518,9 +518,9 @@
     
     <item>
       <title>Management of global change impacts on hydrological extremes by coupling remote sensing data and an interdisciplinary modelling approach (NSFC190018)</title>
-      <link>http://localhost:1313/projects/2023-2024-nsfc190018/</link>
+      <link>https://hzambran.github.io/projects/2023-2024-nsfc190018/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/2023-2024-nsfc190018/</guid>
+      <guid>https://hzambran.github.io/projects/2023-2024-nsfc190018/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 

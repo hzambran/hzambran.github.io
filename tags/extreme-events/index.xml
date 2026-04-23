@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Extreme Events | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>http://localhost:1313/tags/extreme-events/</link>
-      <atom:link href="http://localhost:1313/tags/extreme-events/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hzambran.github.io/tags/extreme-events/</link>
+      <atom:link href="https://hzambran.github.io/tags/extreme-events/index.xml" rel="self" type="application/rss+xml" />
     <description>Extreme Events</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Extreme Events</title>
-      <link>http://localhost:1313/tags/extreme-events/</link>
+      <link>https://hzambran.github.io/tags/extreme-events/</link>
     </image>
     
     <item>
       <title>Hidrodesafios 2025 Seminar</title>
-      <link>http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</link>
+      <link>https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</link>
       <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</guid>
+      <guid>https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/</guid>
       <description>&lt;p&gt;On Wednesday, November 26th 2025, I participated as a speaker at the seminar &amp;ldquo;
 &amp;rdquo; organized by the Sanitation Services Concessionaire Company S.A. (ECONSSA Chile) with sponsorship from the Chilean Association for Water Rights (AChDA) and Fundación Chile.&lt;/p&gt;
 &lt;p&gt;This event took place from 8:30 hrs at the Ritz-Carlton Hotel in the Las Condes district, with the objective of addressing the future of the sanitation sector in a context of water scarcity and climate change, and analyzing the role of seawater desalination and wastewater reuse in confronting the water crisis.&lt;/p&gt;
@@ -37,7 +37,7 @@
 &lt;p&gt;More information and the program for the event can be found at 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/Debate_sanitario.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-26-iii_seminario_hidrodesafios_chile_2025/Debate_sanitario.jpg&#34;
     alt=&#34;Dr. Zambrano-Bigiarini at the Hidrodesafios 2025 Seminar&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Debate on proposals for the water and sanitary sector in Chile&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -48,9 +48,9 @@
     
     <item>
       <title>SICyR 2025: Sessions HC2 and HC7</title>
-      <link>http://localhost:1313/dissemination/2025-11-07-sicyr_2025/</link>
+      <link>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2025-11-07-sicyr_2025/</guid>
+      <guid>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/</guid>
       <description>&lt;p&gt;Members of the 
  participated in the 
 , an event that brought together leading researchers, academics, and professionals from the social and natural sciences. The symposium took place on November 3-4 in Santiago, where the plenary sessions and workshops were held, and continued from November 5-7 in Viña del Mar, where the thematic scientific sessions took place.&lt;/p&gt;
@@ -93,11 +93,11 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/2025/2025-11-07-SICyR_2025/KimunKo_y_Equipo_Propagacion_Sequia.jpg&#34; alt=&#34;KimunKo_y_Equipo_Propagacion_Sequia&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2025/2025-11-07-SICyR_2025/KimunKo_y_Equipo_Propagacion_Sequia.jpg&#34; alt=&#34;KimunKo_y_Equipo_Propagacion_Sequia&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-07-sicyr_2025/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025/featured.jpg&#34;
     alt=&#34;Kimuün-Ko and Drought progpagation teams&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Former and current Kimün-Ko members along with Dr. Mauricio Gellguillos (UAI), Giancarlo Casanova, DR(c) Emilia Figueiras (AR) y Dr. Pablo Spennemann&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -108,13 +108,13 @@
     
     <item>
       <title>SICyR 2025: R course</title>
-      <link>http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/</link>
+      <link>https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/</guid>
+      <guid>https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/</guid>
       <description>&lt;h1 id=&#34;r-course-spatiotemporal-data-analysis&#34;&gt;R Course: Spatiotemporal Data Analysis&lt;/h1&gt;
 &lt;p&gt;On November 4, I taught the course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;, which was attended by undergraduate and graduate students, as well as public and private sector professionals.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-10-21-cchih_2025-curso_de_r/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-10-21-cchih_2025-curso_de_r/featured.jpg&#34;
     alt=&#34;R Course&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -125,13 +125,13 @@
     
     <item>
       <title>SICyR 2025: R course</title>
-      <link>http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/</link>
+      <link>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/</guid>
+      <guid>https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/</guid>
       <description>&lt;h1 id=&#34;r-course-spatiotemporal-data-analysis&#34;&gt;R Course: Spatiotemporal Data Analysis&lt;/h1&gt;
 &lt;p&gt;On November 4, I taught the course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;, which was attended by undergraduate and graduate students, as well as public and private sector professionals.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/dissemination/2025-11-07-sicyr_2025-curso_de_r/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/dissemination/2025-11-07-sicyr_2025-curso_de_r/featured.jpg&#34;
     alt=&#34;R Course&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Course &lt;strong&gt;Using R for Spatiotemporal Data Analysis: Application to Precipitation from CR2Met2.5&lt;/strong&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -142,9 +142,9 @@
     
     <item>
       <title>Después de la gran tormenta, ¿cómo rediseñaremos? (El Mostrador)</title>
-      <link>http://localhost:1313/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</link>
+      <link>https://hzambran.github.io/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</guid>
+      <guid>https://hzambran.github.io/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</guid>
       <description>&lt;p&gt;I just published an opinion column in the newspaper El Mostrador on how we will redesign the infrastructure that have been affected by the big storm that hit the Central-South zone of Chile in the end of June of this year 2023.&lt;/p&gt;
 &lt;p&gt;In this column, I states that it is of vital importance that the design of future infrastructure works considers -at least- the estimation of flood risk maps, and that the use of floodplains (free of human settlements) be prioritized in the communal regulatory plans, floodplains that must be estimated using the best data and techniques available, to avoid future human, social and material tragedies.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -161,9 +161,9 @@
     
     <item>
       <title>Management of global change impacts on hydrological extremes by coupling remote sensing data and an interdisciplinary modelling approach (NSFC190018)</title>
-      <link>http://localhost:1313/projects/2023-2024-nsfc190018/</link>
+      <link>https://hzambran.github.io/projects/2023-2024-nsfc190018/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/2023-2024-nsfc190018/</guid>
+      <guid>https://hzambran.github.io/projects/2023-2024-nsfc190018/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 

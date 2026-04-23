@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HugoBlox Kit | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>http://localhost:1313/tags/hugoblox-kit/</link>
-      <atom:link href="http://localhost:1313/tags/hugoblox-kit/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hzambran.github.io/tags/hugoblox-kit/</link>
+      <atom:link href="https://hzambran.github.io/tags/hugoblox-kit/index.xml" rel="self" type="application/rss+xml" />
     <description>HugoBlox Kit</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Oct 1900 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>HugoBlox Kit</title>
-      <link>http://localhost:1313/tags/hugoblox-kit/</link>
+      <link>https://hzambran.github.io/tags/hugoblox-kit/</link>
     </image>
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>http://localhost:1313/blog/example_folders/teach-courses/</link>
+      <link>https://hzambran.github.io/blog/example_folders/teach-courses/</link>
       <pubDate>Wed, 24 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/example_folders/teach-courses/</guid>
+      <guid>https://hzambran.github.io/blog/example_folders/teach-courses/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -88,7 +88,7 @@
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/blog/example_folders/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://hzambran.github.io/blog/example_folders/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;

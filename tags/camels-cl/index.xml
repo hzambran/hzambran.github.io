@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CAMELS-CL | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>http://localhost:1313/tags/camels-cl/</link>
-      <atom:link href="http://localhost:1313/tags/camels-cl/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hzambran.github.io/tags/camels-cl/</link>
+      <atom:link href="https://hzambran.github.io/tags/camels-cl/index.xml" rel="self" type="application/rss+xml" />
     <description>CAMELS-CL</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>CAMELS-CL</title>
-      <link>http://localhost:1313/tags/camels-cl/</link>
+      <link>https://hzambran.github.io/tags/camels-cl/</link>
     </image>
     
     <item>
       <title>RcamelsCL</title>
-      <link>http://localhost:1313/rpackages/rcamelscl/</link>
+      <link>https://hzambran.github.io/rpackages/rcamelscl/</link>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/rpackages/rcamelscl/</guid>
+      <guid>https://hzambran.github.io/rpackages/rcamelscl/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -52,7 +52,7 @@
 &lt;p&gt;Well suited for research, teaching, and operational analysis, 
  provides a technically sound and efficient gateway to one of the most comprehensive hydrological datasets available for Chile. It is especially valuable for users seeking a reliable foundation for data-driven hydrological studies and reproducible environmental research.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/rcamelscl/RcamelsCL-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/rcamelscl/RcamelsCL-logo.jpg&#34;
     alt=&#34;RcamelsCL R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;

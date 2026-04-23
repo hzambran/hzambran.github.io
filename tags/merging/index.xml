@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Merging | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>http://localhost:1313/tags/merging/</link>
-      <atom:link href="http://localhost:1313/tags/merging/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hzambran.github.io/tags/merging/</link>
+      <atom:link href="https://hzambran.github.io/tags/merging/index.xml" rel="self" type="application/rss+xml" />
     <description>Merging</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Merging</title>
-      <link>http://localhost:1313/tags/merging/</link>
+      <link>https://hzambran.github.io/tags/merging/</link>
     </image>
     
     <item>
       <title>RFmerge</title>
-      <link>http://localhost:1313/rpackages/rfmerge/</link>
+      <link>https://hzambran.github.io/rpackages/rfmerge/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/rpackages/rfmerge/</guid>
+      <guid>https://hzambran.github.io/rpackages/rfmerge/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -42,7 +42,7 @@
   }
 &lt;/style&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/rpackages/rfmerge/RFmerge-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/rfmerge/RFmerge-logo.jpg&#34;
     alt=&#34;RFmerge R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;

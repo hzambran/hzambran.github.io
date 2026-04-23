@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fondecyt-11150861 | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>http://localhost:1313/tags/fondecyt-11150861/</link>
-      <atom:link href="http://localhost:1313/tags/fondecyt-11150861/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hzambran.github.io/tags/fondecyt-11150861/</link>
+      <atom:link href="https://hzambran.github.io/tags/fondecyt-11150861/index.xml" rel="self" type="application/rss+xml" />
     <description>Fondecyt-11150861</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Fondecyt-11150861</title>
-      <link>http://localhost:1313/tags/fondecyt-11150861/</link>
+      <link>https://hzambran.github.io/tags/fondecyt-11150861/</link>
     </image>
     
     <item>
       <title>Article on hydrological drought monitoring published in HESS</title>
-      <link>http://localhost:1313/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
+      <link>https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
       <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
+      <guid>https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
       <description>&lt;p&gt;On March 28th, 2024, 
  published the article entitled 
 . This study investigates the suitability of different drought indices and temporal scales for monitoring streamflow drought in catchments with different hydrological regimes.&lt;/p&gt;
@@ -48,7 +48,7 @@
 &lt;p&gt;The full article can be found here: 
 .&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
     alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Graphical abstract&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -59,9 +59,9 @@
     
     <item>
       <title>Two posters at AGU 2022</title>
-      <link>http://localhost:1313/dissemination/2022-12-12-agu2022/</link>
+      <link>https://hzambran.github.io/dissemination/2022-12-12-agu2022/</link>
       <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2022-12-12-agu2022/</guid>
+      <guid>https://hzambran.github.io/dissemination/2022-12-12-agu2022/</guid>
       <description>&lt;p&gt;During the week of December 12 to 16th, 2022, I participated in the Conference 
 , held in the city of Chicago ( USES). This is the most important conference worldwide in the area of Earth Sciences, and it is held annually.&lt;/p&gt;
 &lt;p&gt;On this occasion, I presented two posters:&lt;/p&gt;
@@ -90,7 +90,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/AGU2022-01_Fotos_hydroRTS.jpg&#34; alt=&#34;An R package for efficient analysis of raster time series&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/AGU2022-01_Fotos_hydroRTS.jpg&#34; alt=&#34;An R package for efficient analysis of raster time series&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
@@ -121,7 +121,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/AGU2022-02_Foto_hydroMOPSO.jpg&#34; alt=&#34;hydroMOPSO: A Versatile Multi-Objective Optimization R Package for Calibration of Environmental and Hydrological Models&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/AGU2022-02_Foto_hydroMOPSO.jpg&#34; alt=&#34;hydroMOPSO: A Versatile Multi-Objective Optimization R Package for Calibration of Environmental and Hydrological Models&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;/li&gt;
@@ -146,7 +146,7 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;http://localhost:1313/assets/posts/AGU2022-03_Foto_Chi2.jpg&#34; alt=&#34;Project Chile-China NSFC 190018&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/AGU2022-03_Foto_Chi2.jpg&#34; alt=&#34;Project Chile-China NSFC 190018&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -161,9 +161,9 @@
     
     <item>
       <title>Article on challenge of unprecedented floods and droughts in risk management published in Nature</title>
-      <link>http://localhost:1313/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
+      <link>https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
       <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
+      <guid>https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
       <description>&lt;p&gt;On August 4, 2022, Nature published the article entitled 
 . This article
 shows that risk management has reduced vulnerability to floods and droughts worldwide, but their impacts continue to increase. Therefore, we need a better understanding of the causes of impacts in a changing climate, but this better understanding has been hampered by a lack of empirical data.&lt;/p&gt;
@@ -176,7 +176,7 @@ shows that risk management has reduced vulnerability to floods and droughts worl
 &lt;p&gt;The full article can be found here: 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
     alt=&#34;https://doi.org/10.1038/s41586-022-04917-5&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -187,16 +187,16 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Article on Water Balancece in the Nile Basin using gridded P and ETa accepted for publication in JoH-RS</title>
-      <link>http://localhost:1313/blog/2021-08-13-johrs_article_on_rs4nile_published/</link>
+      <link>https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/</link>
       <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2021-08-13-johrs_article_on_rs4nile_published/</guid>
+      <guid>https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/</guid>
       <description>&lt;p&gt;The article  
  has been published on the 
  journal.&lt;/p&gt;
 &lt;p&gt;This article evaluates the performance of eleven state-of-the-art precipitation (&lt;em&gt;P&lt;/em&gt;) products and seven actual evapotranspiration (&lt;em&gt;ETa&lt;/em&gt;) products over the Nile Basin using a four-step procedure: (&lt;strong&gt;i&lt;/strong&gt;)  products were evaluated at the monthly scale through a point-to-pixel approach; (&lt;strong&gt;ii&lt;/strong&gt;) streamflow was modelled using the Random Forest machine learning technique, and simulated for well-performing catchments for 2009–2018 (to correspond with ETa product availability); (&lt;strong&gt;iii&lt;/strong&gt;) ETa products were evaluated at the multiannual scale using the water balance method; and (&lt;strong&gt;iv&lt;/strong&gt;) the ability of the best-performing  and ETa products to represent monthly variations in terrestrial water storage (&lt;em&gt;TWS&lt;/em&gt;) was assessed through a comparison with GRACE Level-3 data.&lt;/p&gt;
 &lt;p&gt;The application of the water balance using the best-performing products captures the seasonality of TWS well over the White Nile Basin, but overestimates seasonality over the Blue Nile Basin. Our study &lt;strong&gt;demonstrates how gridded  and ETa products can be evaluated over extremely data-scarce conditions using an easily transferable methodology&lt;/strong&gt;.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/blog/2021-08-13-johrs_article_on_rs4nile_published/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/featured.jpg&#34;
     alt=&#34;https://doi.org/10.1016/j.ejrh.2021.100884&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -207,9 +207,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Article on Water Resources Management in the Araucanía region (Chile) accepted for publication in IJWRD</title>
-      <link>http://localhost:1313/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</link>
+      <link>https://hzambran.github.io/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</guid>
+      <guid>https://hzambran.github.io/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</guid>
       <description>&lt;p&gt;The article 
  was finally published on the 
  journal.&lt;/p&gt;
@@ -226,9 +226,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Article on Random Forest for merging satellite-based datasets with gorund observations published in RSE</title>
-      <link>http://localhost:1313/blog/2020-01-02-rse_article_rfmerge_published/</link>
+      <link>https://hzambran.github.io/blog/2020-01-02-rse_article_rfmerge_published/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2020-01-02-rse_article_rfmerge_published/</guid>
+      <guid>https://hzambran.github.io/blog/2020-01-02-rse_article_rfmerge_published/</guid>
       <description>&lt;p&gt;The article 
  was accepted for publication in December 2019 and made available online on January 2nd 2020 in the 
  journal.&lt;/p&gt;
@@ -246,9 +246,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Special Issue on hydrological processes in LAC published in HP</title>
-      <link>http://localhost:1313/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</link>
+      <link>https://hzambran.github.io/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</guid>
+      <guid>https://hzambran.github.io/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</guid>
       <description>&lt;p&gt;Finally, the preface 
  was published on November 12th 2019 for the 
 .&lt;/p&gt;
@@ -266,9 +266,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Article on bias correction of global high-resolution precipitation climatologies published in JoC</title>
-      <link>http://localhost:1313/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</link>
+      <link>https://hzambran.github.io/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</guid>
+      <guid>https://hzambran.github.io/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</guid>
       <description>&lt;p&gt;On November 4th, the article 
  was published in the 
 . In this article, we introduce a set of global high-resolution (0.05º) precipitation (P) climatologies corrected for bias using streamflow (Q) observations from 9372 stations worldwide.&lt;/p&gt;
@@ -289,9 +289,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Conference: When, where, and how much did it rain?</title>
-      <link>http://localhost:1313/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</link>
+      <link>https://hzambran.github.io/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</guid>
+      <guid>https://hzambran.github.io/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Conference: When, where, and how much did it rain?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On January 22th 2019, Dr Hylke Beck gave an 
  entitled &lt;em&gt;&amp;ldquo;When, where, and how much did it rain?&amp;rdquo;&lt;/em&gt; at the Facultad de Ingeniería y Ciencias of the Universidad de La Frontera (UFRO) in Temuco. In this presentation Dr. Beck presented 
@@ -309,9 +309,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Oral presentation at AGU 2018</title>
-      <link>http://localhost:1313/dissemination/2018-12-15-agu2018/</link>
+      <link>https://hzambran.github.io/dissemination/2018-12-15-agu2018/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2018-12-15-agu2018/</guid>
+      <guid>https://hzambran.github.io/dissemination/2018-12-15-agu2018/</guid>
       <description>&lt;p&gt;During the second week of December 2018, I made an oral presentation at the 
  in Washington D.C. (USA), the most important scientific event of Earth Sciences worldwide.&lt;/p&gt;
 &lt;p&gt;The work was entitled 
@@ -333,9 +333,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Oral presentation at SPIE 2018</title>
-      <link>http://localhost:1313/dissemination/2018-10-18-spie2018/</link>
+      <link>https://hzambran.github.io/dissemination/2018-10-18-spie2018/</link>
       <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2018-10-18-spie2018/</guid>
+      <guid>https://hzambran.github.io/dissemination/2018-10-18-spie2018/</guid>
       <description>&lt;p&gt;From 24 to 27th of September 2018 I participated at the SPIE Asia-Pacific Remote Sensing symposium, which took place in Honolulu (Hawaii, USA). In that conference I made an oral presentation entitled 
 , which was finally published in the proceedings of the international Society of Photo-Optical Instrumentation Engineers (
 ):&lt;/p&gt;
@@ -355,9 +355,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Visiting period at NASA&#39;s Jet Propulsion Laboratory</title>
-      <link>http://localhost:1313/blog/2018-09-18-jpl2018/</link>
+      <link>https://hzambran.github.io/blog/2018-09-18-jpl2018/</link>
       <pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2018-09-18-jpl2018/</guid>
+      <guid>https://hzambran.github.io/blog/2018-09-18-jpl2018/</guid>
       <description>&lt;p&gt;In August 2018 I got an invitation from the co-chair of the 
  to conduct a two-week (18-Sep to 01-Oct 2018) visiting period at the NASA&amp;rsquo;s Jet Propulsion Laboratory (
 ). This internship was carried out (and funded) by Ziad S. Haddad (Assistant Section Manager, Radar JPL Science and Engineering Section), to discuss a comprehensive evaluation of current rainfall products of global scale, to allow scientists and users of the international community to make objective evaluations and make informed decisions about the use of these products.&lt;/p&gt;
@@ -379,9 +379,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Article on satellite-based rainfall estimates over Latin America accepted for publication in Atmospheric Research</title>
-      <link>http://localhost:1313/blog/2018-05-24-ar_article_on_sre_accepted/</link>
+      <link>https://hzambran.github.io/blog/2018-05-24-ar_article_on_sre_accepted/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2018-05-24-ar_article_on_sre_accepted/</guid>
+      <guid>https://hzambran.github.io/blog/2018-05-24-ar_article_on_sre_accepted/</guid>
       <description>&lt;p&gt;The article 
  was accepted for publication in the 
  journal.&lt;/p&gt;
@@ -398,9 +398,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Oral presentation at EGU 2018</title>
-      <link>http://localhost:1313/dissemination/2018-04-10-egu2018/</link>
+      <link>https://hzambran.github.io/dissemination/2018-04-10-egu2018/</link>
       <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2018-04-10-egu2018/</guid>
+      <guid>https://hzambran.github.io/dissemination/2018-04-10-egu2018/</guid>
       <description>&lt;p&gt;During the second week of April 2018, I made an oral presentation at the 
  in Vienna (Austria), the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
 &lt;p&gt;The work was entitled 
@@ -436,9 +436,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Oral presentation at AGU 2017</title>
-      <link>http://localhost:1313/dissemination/2017-12-12-agu2017/</link>
+      <link>https://hzambran.github.io/dissemination/2017-12-12-agu2017/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2017-12-12-agu2017/</guid>
+      <guid>https://hzambran.github.io/dissemination/2017-12-12-agu2017/</guid>
       <description>&lt;p&gt;During the second week of December 2017, I made an oral presentation at the 
  in New orleans (USA), the most important scientific event of Earth Sciences worldwide.&lt;/p&gt;
 &lt;p&gt;The work was entitled 
@@ -459,9 +459,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Short course on use of R for analysing satelite-based rainfall estimates (SREs) in Germany</title>
-      <link>http://localhost:1313/dissemination/2017-05-05-training_on_rs_at_itt/</link>
+      <link>https://hzambran.github.io/dissemination/2017-05-05-training_on_rs_at_itt/</link>
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2017-05-05-training_on_rs_at_itt/</guid>
+      <guid>https://hzambran.github.io/dissemination/2017-05-05-training_on_rs_at_itt/</guid>
       <description>&lt;p&gt;During the first week of May, I gave a short course to postgraduate students of the 
  of TH Köln (
 ).&lt;/p&gt;
@@ -487,9 +487,9 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
     
     <item>
       <title>Participación en la Conferencia EGU 2017</title>
-      <link>http://localhost:1313/dissemination/2017-04-27-egu2017/</link>
+      <link>https://hzambran.github.io/dissemination/2017-04-27-egu2017/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2017-04-27-egu2017/</guid>
+      <guid>https://hzambran.github.io/dissemination/2017-04-27-egu2017/</guid>
       <description>&lt;p&gt;During the last week of April, I presented two works on the 
 , the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
 &lt;p&gt;The first work was 
@@ -523,9 +523,9 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
     
     <item>
       <title>Article on satellite-based rainfall estimates over Chile accepted for publication in HESS</title>
-      <link>http://localhost:1313/blog/2017-01-30-hess_article_on_sre_accepted/</link>
+      <link>https://hzambran.github.io/blog/2017-01-30-hess_article_on_sre_accepted/</link>
       <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2017-01-30-hess_article_on_sre_accepted/</guid>
+      <guid>https://hzambran.github.io/blog/2017-01-30-hess_article_on_sre_accepted/</guid>
       <description>&lt;p&gt;The article 
  was accepted yesterday (January 30th, 2017) for publication in the 
  journal (HESS).&lt;/p&gt;
@@ -542,9 +542,9 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
     
     <item>
       <title>Poster presentation at AGU 2016</title>
-      <link>http://localhost:1313/dissemination/2016-12-13-agu2016/</link>
+      <link>https://hzambran.github.io/dissemination/2016-12-13-agu2016/</link>
       <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2016-12-13-agu2016/</guid>
+      <guid>https://hzambran.github.io/dissemination/2016-12-13-agu2016/</guid>
       <description>&lt;p&gt;On December 13th 2016, I presented the work titled 
  at the conference 
 . In this work I used two drought indices to analyze the contribution of precipitation and temperature to the recent droughts that have affected Chile, in order to improve our understanding about the onset, duration and magnitude of these events.&lt;/p&gt;

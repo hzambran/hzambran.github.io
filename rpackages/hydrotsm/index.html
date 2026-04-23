@@ -4,7 +4,7 @@
       data-wc-theme-default="dark"
       data-hbb-relurl="/">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -57,7 +57,7 @@
   <meta name="description" content="Time Series Management and Analysis for Hydrological Modelling" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/rpackages/hydrotsm/" />
+  <link rel="alternate" hreflang="en-us" href="https://hzambran.github.io/rpackages/hydrotsm/" />
 
   
   
@@ -9146,7 +9146,9 @@
   
   
     
-      <link rel="stylesheet" href="/css/_entry.css">
+      
+        <link rel="stylesheet" href="/css/_entry.e807b110082af2b99259aabe76dc5adec0000b5934c88b4da3ee8e9f03954085.css" integrity="sha256-6AexEAgq8rmSWaq&#43;dtxa3sAAC1k0yItNo&#43;6OnwOVQIU=" crossorigin="anonymous">
+      
     
   
 
@@ -9159,7 +9161,7 @@
 
   
 
-  <script src="/js/hb-head.min.js"></script>
+  <script src="/js/hb-head.min.e9ff67ddf77122b225756bf5a926e24420bea2586199fddcb3b1813a009f4ee5.js" integrity="sha256-6f9n3fdxIrIldWv1qSbiRCC&#43;olhhmf3cs7GBOgCfTuU=" crossorigin="anonymous"></script>
 
   
   
@@ -9173,6 +9175,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-445243XQPF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-445243XQPF', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -9217,7 +9258,7 @@
     
   
 
-  <link rel="canonical" href="http://localhost:1313/rpackages/hydrotsm/" />
+  <link rel="canonical" href="https://hzambran.github.io/rpackages/hydrotsm/" />
 
   
   
@@ -9242,10 +9283,10 @@
     <meta property="twitter:creator" content="@LoreLabs_" />
   
   <meta property="og:site_name" content="Mauricio Zambrano-Bigiarini | Hydrometeorological modelling and forecasting" />
-  <meta property="og:url" content="http://localhost:1313/rpackages/hydrotsm/" />
+  <meta property="og:url" content="https://hzambran.github.io/rpackages/hydrotsm/" />
   <meta property="og:title" content="hydroTSM | Mauricio Zambrano-Bigiarini | Hydrometeorological modelling and forecasting" />
-  <meta property="og:description" content="Time Series Management and Analysis for Hydrological Modelling" /><meta property="og:image" content="http://localhost:1313/rpackages/hydrotsm/featured.jpg" />
-    <meta property="twitter:image" content="http://localhost:1313/rpackages/hydrotsm/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Time Series Management and Analysis for Hydrological Modelling" /><meta property="og:image" content="https://hzambran.github.io/rpackages/hydrotsm/featured.jpg" />
+    <meta property="twitter:image" content="https://hzambran.github.io/rpackages/hydrotsm/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -9271,26 +9312,26 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@id": "http://localhost:1313/rpackages/hydrotsm/",
+  "@id": "https://hzambran.github.io/rpackages/hydrotsm/",
   "@type": "WebPage",
   "dateModified": "2010-10-11T00:00:00Z",
   "datePublished": "2010-10-11T00:00:00Z",
   "description": "Time Series Management and Analysis for Hydrological Modelling",
   "inLanguage": "en-us",
   "isPartOf": {
-    "@id": "http://localhost:1313/",
+    "@id": "https://hzambran.github.io/",
     "@type": "WebSite",
     "name": "Dr. Mauricio Zambrano-Bigiarini",
-    "url": "http://localhost:1313/"
+    "url": "https://hzambran.github.io/"
   },
   "name": "hydroTSM",
   "primaryImageOfPage": {
     "@type": "ImageObject",
     "height": 400,
-    "url": "http://localhost:1313/rpackages/hydrotsm/featured.jpg",
+    "url": "https://hzambran.github.io/rpackages/hydrotsm/featured.jpg",
     "width": 575
   },
-  "url": "http://localhost:1313/rpackages/hydrotsm/"
+  "url": "https://hzambran.github.io/rpackages/hydrotsm/"
 }
 </script>
 
@@ -9304,7 +9345,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "http://localhost:1313/",
+        "@id": "https://hzambran.github.io/",
         "name": "Dr. Mauricio Zambrano-Bigiarini"
       },
       "name": "Dr. Mauricio Zambrano-Bigiarini",
@@ -9313,7 +9354,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "http://localhost:1313/rpackages/",
+        "@id": "https://hzambran.github.io/rpackages/",
         "name": "Rpackages"
       },
       "name": "Rpackages",
@@ -9322,7 +9363,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "http://localhost:1313/rpackages/hydrotsm/",
+        "@id": "https://hzambran.github.io/rpackages/hydrotsm/",
         "name": "hydroTSM"
       },
       "name": "hydroTSM",
@@ -10225,8 +10266,8 @@
 
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.8e67887d1e4e773521ed17aef87acbf3d4d07207c99e1e3f4d76d00fc44e7065.js"
+    integrity="sha256-jmeIfR5OdzUh7Reu&#43;HrL89TQcgfJnh4/TXbQD8ROcGU="
   ></script>
 
   
@@ -10252,7 +10293,7 @@
 
 
 
-<script defer src="/js/hb-search.min.js"></script>
+<script defer src="/js/hb-search.min.135366008264b9d452ff89aad28374bc7e4b40d2c047098318511786419873b0.js" integrity="sha256-E1NmAIJkudRS/4mq0oN0vH5LQNLARwmDGFEXhkGYc7A="></script>
 
 
 
@@ -12950,7 +12991,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://x.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Frpackages%2Fhydrotsm%2F&amp;text=hydroTSM"
+    href="https://x.com/intent/tweet?url=https%3A%2F%2Fhzambran.github.io%2Frpackages%2Fhydrotsm%2F&amp;text=hydroTSM"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -12968,7 +13009,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Frpackages%2Fhydrotsm%2F&amp;t=hydroTSM"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhzambran.github.io%2Frpackages%2Fhydrotsm%2F&amp;t=hydroTSM"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -12988,7 +13029,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=hydroTSM&amp;body=http%3A%2F%2Flocalhost%3A1313%2Frpackages%2Fhydrotsm%2F"
+    href="mailto:?subject=hydroTSM&amp;body=https%3A%2F%2Fhzambran.github.io%2Frpackages%2Fhydrotsm%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -13006,7 +13047,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Frpackages%2Fhydrotsm%2F&amp;title=hydroTSM"
+    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhzambran.github.io%2Frpackages%2Fhydrotsm%2F&amp;title=hydroTSM"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -13024,7 +13065,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=hydroTSM%20http%3A%2F%2Flocalhost%3A1313%2Frpackages%2Fhydrotsm%2F"
+    href="whatsapp://send?text=hydroTSM%20https%3A%2F%2Fhzambran.github.io%2Frpackages%2Fhydrotsm%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -13089,7 +13130,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
       <span class="inline-block">
-        <a href="http://localhost:1313/" class="no-underline">
+        <a href="https://hzambran.github.io/" class="no-underline">
         Dr. Mauricio Zambrano-Bigiarini
         </a>
       </span><span class="text-sm font-normal text-gray-600 dark:text-gray-400 ml-1 inline-block">(he/him)</span></div>
@@ -13430,9 +13471,9 @@ environmental decision-making.</p>
       
       
       
-      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Kit</a>.
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox</a>.
       <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
-         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
+         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Create yours →</a>
     </p>  
 
 </footer>

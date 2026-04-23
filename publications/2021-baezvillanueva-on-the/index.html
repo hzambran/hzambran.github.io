@@ -4,7 +4,7 @@
       data-wc-theme-default="dark"
       data-hbb-relurl="/">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -57,7 +57,7 @@
   <meta name="description" content="Over the past decades, novel parameter regionalisation techniques have been developed to predict streamflow in data-scarce regions. In this paper, we examined how the choice of gridded daily precipitation (P) products affects the relative performance of three well-known parameter regionalisation techniques (spatial proximity, feature similarity, and parameter regression) over 100 near-natural catchments with diverse hydrological regimes across Chile. We set up and calibrated a conceptual semi-distributed HBV-like hydrological model (TUWmodel) for each catchment, using four P products (CR2MET, RF-MEP, ERA5, and MSWEPv2.8). We assessed the ability of these regionalisation techniques to transfer the parameters of a rainfall-runoff model, implementing a leave-one-out cross-validation procedure for each P product. Despite differences in the spatio-temporal distribution of P, all products provided good performance during calibration (median Kling–Gupta efficiencies (KGE′s) textgreater 0.77), two independent verification periods (median KGE′s textgreater0.70 and 0.61, for near-normal and dry conditions, respectively), and regionalisation (median KGE′s for the best method ranging from 0.56 to 0.63). We show how model calibration is able to compensate, to some extent, differences between P forcings by adjusting model parameters and thus the water balance components. Overall, feature similarity provided the best results, followed by spatial proximity, while parameter regression resulted in the worst performance, reinforcing the importance of transferring complete model parameter sets to ungauged catchments. Our results suggest that (i) merging P products and ground-based measurements does not necessarily translate into an improved hydrologic model performance; (ii) the spatial resolution of P products does not substantially affect the regionalisation performance; (iii) a P product that provides the best individual model performance during calibration and verification does not necessarily yield the best performance in terms of parameter regionalisation; and (iv) the model parameters and the performance of regionalisation methods are affected by the hydrological regime, with the best results for spatial proximity and feature similarity obtained for rain-dominated catchments with a minor snowmelt component." />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publications/2021-baezvillanueva-on-the/" />
+  <link rel="alternate" hreflang="en-us" href="https://hzambran.github.io/publications/2021-baezvillanueva-on-the/" />
 
   
   
@@ -9146,7 +9146,9 @@
   
   
     
-      <link rel="stylesheet" href="/css/_entry.css">
+      
+        <link rel="stylesheet" href="/css/_entry.e807b110082af2b99259aabe76dc5adec0000b5934c88b4da3ee8e9f03954085.css" integrity="sha256-6AexEAgq8rmSWaq&#43;dtxa3sAAC1k0yItNo&#43;6OnwOVQIU=" crossorigin="anonymous">
+      
     
   
 
@@ -9159,7 +9161,7 @@
 
   
 
-  <script src="/js/hb-head.min.js"></script>
+  <script src="/js/hb-head.min.e9ff67ddf77122b225756bf5a926e24420bea2586199fddcb3b1813a009f4ee5.js" integrity="sha256-6f9n3fdxIrIldWv1qSbiRCC&#43;olhhmf3cs7GBOgCfTuU=" crossorigin="anonymous"></script>
 
   
   
@@ -9173,6 +9175,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-445243XQPF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-445243XQPF', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -9217,7 +9258,7 @@
     
   
 
-  <link rel="canonical" href="http://localhost:1313/publications/2021-baezvillanueva-on-the/" />
+  <link rel="canonical" href="https://hzambran.github.io/publications/2021-baezvillanueva-on-the/" />
 
   
   
@@ -9242,10 +9283,10 @@
     <meta property="twitter:creator" content="@LoreLabs_" />
   
   <meta property="og:site_name" content="Mauricio Zambrano-Bigiarini | Hydrometeorological modelling and forecasting" />
-  <meta property="og:url" content="http://localhost:1313/publications/2021-baezvillanueva-on-the/" />
+  <meta property="og:url" content="https://hzambran.github.io/publications/2021-baezvillanueva-on-the/" />
   <meta property="og:title" content="On the selection of precipitation products for the regionalisation of hydrological model parameters | Mauricio Zambrano-Bigiarini | Hydrometeorological modelling and forecasting" />
-  <meta property="og:description" content="Over the past decades, novel parameter regionalisation techniques have been developed to predict streamflow in data-scarce regions. In this paper, we examined how the choice of gridded daily precipitation (P) products affects the relative performance of three well-known parameter regionalisation techniques (spatial proximity, feature similarity, and parameter regression) over 100 near-natural catchments with diverse hydrological regimes across Chile. We set up and calibrated a conceptual semi-distributed HBV-like hydrological model (TUWmodel) for each catchment, using four P products (CR2MET, RF-MEP, ERA5, and MSWEPv2.8). We assessed the ability of these regionalisation techniques to transfer the parameters of a rainfall-runoff model, implementing a leave-one-out cross-validation procedure for each P product. Despite differences in the spatio-temporal distribution of P, all products provided good performance during calibration (median Kling–Gupta efficiencies (KGE′s) textgreater 0.77), two independent verification periods (median KGE′s textgreater0.70 and 0.61, for near-normal and dry conditions, respectively), and regionalisation (median KGE′s for the best method ranging from 0.56 to 0.63). We show how model calibration is able to compensate, to some extent, differences between P forcings by adjusting model parameters and thus the water balance components. Overall, feature similarity provided the best results, followed by spatial proximity, while parameter regression resulted in the worst performance, reinforcing the importance of transferring complete model parameter sets to ungauged catchments. Our results suggest that (i) merging P products and ground-based measurements does not necessarily translate into an improved hydrologic model performance; (ii) the spatial resolution of P products does not substantially affect the regionalisation performance; (iii) a P product that provides the best individual model performance during calibration and verification does not necessarily yield the best performance in terms of parameter regionalisation; and (iv) the model parameters and the performance of regionalisation methods are affected by the hydrological regime, with the best results for spatial proximity and feature similarity obtained for rain-dominated catchments with a minor snowmelt component." /><meta property="og:image" content="http://localhost:1313/publications/2021-baezvillanueva-on-the/featured.jpg" />
-    <meta property="twitter:image" content="http://localhost:1313/publications/2021-baezvillanueva-on-the/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Over the past decades, novel parameter regionalisation techniques have been developed to predict streamflow in data-scarce regions. In this paper, we examined how the choice of gridded daily precipitation (P) products affects the relative performance of three well-known parameter regionalisation techniques (spatial proximity, feature similarity, and parameter regression) over 100 near-natural catchments with diverse hydrological regimes across Chile. We set up and calibrated a conceptual semi-distributed HBV-like hydrological model (TUWmodel) for each catchment, using four P products (CR2MET, RF-MEP, ERA5, and MSWEPv2.8). We assessed the ability of these regionalisation techniques to transfer the parameters of a rainfall-runoff model, implementing a leave-one-out cross-validation procedure for each P product. Despite differences in the spatio-temporal distribution of P, all products provided good performance during calibration (median Kling–Gupta efficiencies (KGE′s) textgreater 0.77), two independent verification periods (median KGE′s textgreater0.70 and 0.61, for near-normal and dry conditions, respectively), and regionalisation (median KGE′s for the best method ranging from 0.56 to 0.63). We show how model calibration is able to compensate, to some extent, differences between P forcings by adjusting model parameters and thus the water balance components. Overall, feature similarity provided the best results, followed by spatial proximity, while parameter regression resulted in the worst performance, reinforcing the importance of transferring complete model parameter sets to ungauged catchments. Our results suggest that (i) merging P products and ground-based measurements does not necessarily translate into an improved hydrologic model performance; (ii) the spatial resolution of P products does not substantially affect the regionalisation performance; (iii) a P product that provides the best individual model performance during calibration and verification does not necessarily yield the best performance in terms of parameter regionalisation; and (iv) the model parameters and the performance of regionalisation methods are affected by the hydrological regime, with the best results for spatial proximity and feature similarity obtained for rain-dominated catchments with a minor snowmelt component." /><meta property="og:image" content="https://hzambran.github.io/publications/2021-baezvillanueva-on-the/featured.jpg" />
+    <meta property="twitter:image" content="https://hzambran.github.io/publications/2021-baezvillanueva-on-the/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -9276,12 +9317,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/publications/2021-baezvillanueva-on-the/"
+    "@id": "https://hzambran.github.io/publications/2021-baezvillanueva-on-the/"
   },
   "headline": "On the selection of precipitation products for the regionalisation of hydrological model parameters",
   
   "image": [
-    "http://localhost:1313/publications/2021-baezvillanueva-on-the/featured.jpg"
+    "https://hzambran.github.io/publications/2021-baezvillanueva-on-the/featured.jpg"
   ],
   
   "datePublished": "2021-11-11T00:00:00Z",
@@ -9317,26 +9358,26 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@id": "http://localhost:1313/publications/2021-baezvillanueva-on-the/",
+  "@id": "https://hzambran.github.io/publications/2021-baezvillanueva-on-the/",
   "@type": "WebPage",
   "dateModified": "2021-11-11T00:00:00Z",
   "datePublished": "2021-11-11T00:00:00Z",
   "description": "Over the past decades, novel parameter regionalisation techniques have been developed to predict streamflow in data-scarce regions. In this paper, we examined how the choice of gridded daily precipitation (P) products affects the relative performance of three well-known parameter regionalisation techniques (spatial proximity, feature similarity, and parameter regression) over 100 near-natural catchments with diverse hydrological regimes across Chile. We set up and calibrated a conceptual semi-distributed HBV-like hydrological model (TUWmodel) for each catchment, using four P products (CR2MET, RF-MEP, ERA5, and MSWEPv2.8). We assessed the ability of these regionalisation techniques to transfer the parameters of a rainfall-runoff model, implementing a leave-one-out cross-validation procedure for each P product. Despite differences in the spatio-temporal distribution of P, all products provided good performance during calibration (median Kling–Gupta efficiencies (KGE′s) textgreater 0.77), two independent verification periods (median KGE′s textgreater0.70 and 0.61, for near-normal and dry conditions, respectively), and regionalisation (median KGE′s for the best method ranging from 0.56 to 0.63). We show how model calibration is able to compensate, to some extent, differences between P forcings by adjusting model parameters and thus the water balance components. Overall, feature similarity provided the best results, followed by spatial proximity, while parameter regression resulted in the worst performance, reinforcing the importance of transferring complete model parameter sets to ungauged catchments. Our results suggest that (i) merging P products and ground-based measurements does not necessarily translate into an improved hydrologic model performance; (ii) the spatial resolution of P products does not substantially affect the regionalisation performance; (iii) a P product that provides the best individual model performance during calibration and verification does not necessarily yield the best performance in terms of parameter regionalisation; and (iv) the model parameters and the performance of regionalisation methods are affected by the hydrological regime, with the best results for spatial proximity and feature similarity obtained for rain-dominated catchments with a minor snowmelt component.",
   "inLanguage": "en-us",
   "isPartOf": {
-    "@id": "http://localhost:1313/",
+    "@id": "https://hzambran.github.io/",
     "@type": "WebSite",
     "name": "Dr. Mauricio Zambrano-Bigiarini",
-    "url": "http://localhost:1313/"
+    "url": "https://hzambran.github.io/"
   },
   "name": "On the selection of precipitation products for the regionalisation of hydrological model parameters",
   "primaryImageOfPage": {
     "@type": "ImageObject",
     "height": 400,
-    "url": "http://localhost:1313/publications/2021-baezvillanueva-on-the/featured.jpg",
+    "url": "https://hzambran.github.io/publications/2021-baezvillanueva-on-the/featured.jpg",
     "width": 800
   },
-  "url": "http://localhost:1313/publications/2021-baezvillanueva-on-the/"
+  "url": "https://hzambran.github.io/publications/2021-baezvillanueva-on-the/"
 }
 </script>
 
@@ -9350,7 +9391,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "http://localhost:1313/",
+        "@id": "https://hzambran.github.io/",
         "name": "Dr. Mauricio Zambrano-Bigiarini"
       },
       "name": "Dr. Mauricio Zambrano-Bigiarini",
@@ -9359,7 +9400,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "http://localhost:1313/publications/",
+        "@id": "https://hzambran.github.io/publications/",
         "name": "Full list of Publications"
       },
       "name": "Full list of Publications",
@@ -9368,7 +9409,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "http://localhost:1313/publications/2021-baezvillanueva-on-the/",
+        "@id": "https://hzambran.github.io/publications/2021-baezvillanueva-on-the/",
         "name": "On the selection of precipitation products for the regionalisation of hydrological model parameters"
       },
       "name": "On the selection of precipitation products for the regionalisation of hydrological model parameters",
@@ -10271,8 +10312,8 @@
 
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.8e67887d1e4e773521ed17aef87acbf3d4d07207c99e1e3f4d76d00fc44e7065.js"
+    integrity="sha256-jmeIfR5OdzUh7Reu&#43;HrL89TQcgfJnh4/TXbQD8ROcGU="
   ></script>
 
   
@@ -10298,7 +10339,7 @@
 
 
 
-<script defer src="/js/hb-search.min.js"></script>
+<script defer src="/js/hb-search.min.135366008264b9d452ff89aad28374bc7e4b40d2c047098318511786419873b0.js" integrity="sha256-E1NmAIJkudRS/4mq0oN0vH5LQNLARwmDGFEXhkGYc7A="></script>
 
 
 
@@ -13174,7 +13215,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://x.com/intent/tweet?url=http%3A%2F%2Flocalhost%3A1313%2Fpublications%2F2021-baezvillanueva-on-the%2F&amp;text=On&#43;the&#43;selection&#43;of&#43;precipitation&#43;products&#43;for&#43;the&#43;regionalisation&#43;of&#43;hydrological&#43;model&#43;parameters"
+    href="https://x.com/intent/tweet?url=https%3A%2F%2Fhzambran.github.io%2Fpublications%2F2021-baezvillanueva-on-the%2F&amp;text=On&#43;the&#43;selection&#43;of&#43;precipitation&#43;products&#43;for&#43;the&#43;regionalisation&#43;of&#43;hydrological&#43;model&#43;parameters"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -13192,7 +13233,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpublications%2F2021-baezvillanueva-on-the%2F&amp;t=On&#43;the&#43;selection&#43;of&#43;precipitation&#43;products&#43;for&#43;the&#43;regionalisation&#43;of&#43;hydrological&#43;model&#43;parameters"
+    href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fhzambran.github.io%2Fpublications%2F2021-baezvillanueva-on-the%2F&amp;t=On&#43;the&#43;selection&#43;of&#43;precipitation&#43;products&#43;for&#43;the&#43;regionalisation&#43;of&#43;hydrological&#43;model&#43;parameters"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -13212,7 +13253,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=On%20the%20selection%20of%20precipitation%20products%20for%20the%20regionalisation%20of%20hydrological%20model%20parameters&amp;body=http%3A%2F%2Flocalhost%3A1313%2Fpublications%2F2021-baezvillanueva-on-the%2F"
+    href="mailto:?subject=On%20the%20selection%20of%20precipitation%20products%20for%20the%20regionalisation%20of%20hydrological%20model%20parameters&amp;body=https%3A%2F%2Fhzambran.github.io%2Fpublications%2F2021-baezvillanueva-on-the%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -13230,7 +13271,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A1313%2Fpublications%2F2021-baezvillanueva-on-the%2F&amp;title=On&#43;the&#43;selection&#43;of&#43;precipitation&#43;products&#43;for&#43;the&#43;regionalisation&#43;of&#43;hydrological&#43;model&#43;parameters"
+    href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fhzambran.github.io%2Fpublications%2F2021-baezvillanueva-on-the%2F&amp;title=On&#43;the&#43;selection&#43;of&#43;precipitation&#43;products&#43;for&#43;the&#43;regionalisation&#43;of&#43;hydrological&#43;model&#43;parameters"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -13248,7 +13289,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=On&#43;the&#43;selection&#43;of&#43;precipitation&#43;products&#43;for&#43;the&#43;regionalisation&#43;of&#43;hydrological&#43;model&#43;parameters%20http%3A%2F%2Flocalhost%3A1313%2Fpublications%2F2021-baezvillanueva-on-the%2F"
+    href="whatsapp://send?text=On&#43;the&#43;selection&#43;of&#43;precipitation&#43;products&#43;for&#43;the&#43;regionalisation&#43;of&#43;hydrological&#43;model&#43;parameters%20https%3A%2F%2Fhzambran.github.io%2Fpublications%2F2021-baezvillanueva-on-the%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -13451,9 +13492,9 @@ document.addEventListener('DOMContentLoaded', function() {
       
       
       
-      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Kit</a>.
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox</a>.
       <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
-         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
+         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Create yours →</a>
     </p>  
 
 </footer>

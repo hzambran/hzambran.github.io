@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CR2 | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>http://localhost:1313/tags/cr2/</link>
-      <atom:link href="http://localhost:1313/tags/cr2/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://hzambran.github.io/tags/cr2/</link>
+      <atom:link href="https://hzambran.github.io/tags/cr2/index.xml" rel="self" type="application/rss+xml" />
     <description>CR2</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 13 Dec 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>CR2</title>
-      <link>http://localhost:1313/tags/cr2/</link>
+      <link>https://hzambran.github.io/tags/cr2/</link>
     </image>
     
     <item>
       <title>Poster presentation at AGU 2016</title>
-      <link>http://localhost:1313/dissemination/2016-12-13-agu2016/</link>
+      <link>https://hzambran.github.io/dissemination/2016-12-13-agu2016/</link>
       <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/dissemination/2016-12-13-agu2016/</guid>
+      <guid>https://hzambran.github.io/dissemination/2016-12-13-agu2016/</guid>
       <description>&lt;p&gt;On December 13th 2016, I presented the work titled 
  at the conference 
 . In this work I used two drought indices to analyze the contribution of precipitation and temperature to the recent droughts that have affected Chile, in order to improve our understanding about the onset, duration and magnitude of these events.&lt;/p&gt;

@@ -4,7 +4,7 @@
       data-wc-theme-default="dark"
       data-hbb-relurl="/">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -59,7 +59,7 @@
   <meta name="description" content="Research profile of Mauricio Zambrano-Bigiarini, focusing on hydrometeorological forecasting, drought and flood early-warning systems, and climate risk assessment." />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/tags/floods/" />
+  <link rel="alternate" hreflang="en-us" href="https://hzambran.github.io/tags/floods/" />
 
   
   
@@ -9148,7 +9148,9 @@
   
   
     
-      <link rel="stylesheet" href="/css/_entry.css">
+      
+        <link rel="stylesheet" href="/css/_entry.e807b110082af2b99259aabe76dc5adec0000b5934c88b4da3ee8e9f03954085.css" integrity="sha256-6AexEAgq8rmSWaq&#43;dtxa3sAAC1k0yItNo&#43;6OnwOVQIU=" crossorigin="anonymous">
+      
     
   
 
@@ -9161,7 +9163,7 @@
 
   
 
-  <script src="/js/hb-head.min.js"></script>
+  <script src="/js/hb-head.min.e9ff67ddf77122b225756bf5a926e24420bea2586199fddcb3b1813a009f4ee5.js" integrity="sha256-6f9n3fdxIrIldWv1qSbiRCC&#43;olhhmf3cs7GBOgCfTuU=" crossorigin="anonymous"></script>
 
   
   
@@ -9175,6 +9177,45 @@
 
 
 
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-445243XQPF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-445243XQPF', { 'anonymize_ip': true });
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
 
 
 
@@ -9221,7 +9262,7 @@
     
   
 
-  <link rel="canonical" href="http://localhost:1313/tags/floods/" />
+  <link rel="canonical" href="https://hzambran.github.io/tags/floods/" />
 
   
   
@@ -9250,10 +9291,10 @@
     <meta property="twitter:creator" content="@LoreLabs_" />
   
   <meta property="og:site_name" content="Mauricio Zambrano-Bigiarini | Hydrometeorological modelling and forecasting" />
-  <meta property="og:url" content="http://localhost:1313/tags/floods/" />
+  <meta property="og:url" content="https://hzambran.github.io/tags/floods/" />
   <meta property="og:title" content="Floods | Mauricio Zambrano-Bigiarini | Hydrometeorological modelling and forecasting" />
-  <meta property="og:description" content="Research profile of Mauricio Zambrano-Bigiarini, focusing on hydrometeorological forecasting, drought and flood early-warning systems, and climate risk assessment." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png" />
-    <meta property="twitter:image" content="http://localhost:1313/media/icon_hu_edd58fc588fafe6f.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Research profile of Mauricio Zambrano-Bigiarini, focusing on hydrometeorological forecasting, drought and flood early-warning systems, and climate risk assessment." /><meta property="og:image" content="https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png" />
+    <meta property="twitter:image" content="https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta property="og:updated_time" content="2022-08-04T00:00:00&#43;00:00" />
@@ -9265,16 +9306,16 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@id": "http://localhost:1313/tags/floods/",
+  "@id": "https://hzambran.github.io/tags/floods/",
   "@type": "CollectionPage",
   "dateModified": "2022-08-04T00:00:00Z",
   "description": "Research profile of Mauricio Zambrano-Bigiarini, focusing on hydrometeorological forecasting, drought and flood early-warning systems, and climate risk assessment.",
   "inLanguage": "en-us",
   "isPartOf": {
-    "@id": "http://localhost:1313/",
+    "@id": "https://hzambran.github.io/",
     "@type": "WebSite",
     "name": "Dr. Mauricio Zambrano-Bigiarini",
-    "url": "http://localhost:1313/"
+    "url": "https://hzambran.github.io/"
   },
   "mainEntity": {
     "@type": "ItemList",
@@ -9282,10 +9323,10 @@
       {
         "@type": "ListItem",
         "item": {
-          "@id": "http://localhost:1313/blog/2022-08-04-nature_article_on_floods_and_droughts_published/",
+          "@id": "https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/",
           "@type": "WebPage",
           "name": "Article on challenge of unprecedented floods and droughts in risk management published in Nature",
-          "url": "http://localhost:1313/blog/2022-08-04-nature_article_on_floods_and_droughts_published/"
+          "url": "https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/"
         },
         "position": 1
       }
@@ -9294,7 +9335,7 @@
     "numberOfItems": 1
   },
   "name": "Floods",
-  "url": "http://localhost:1313/tags/floods/"
+  "url": "https://hzambran.github.io/tags/floods/"
 }
 </script>
 
@@ -9308,7 +9349,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "http://localhost:1313/",
+        "@id": "https://hzambran.github.io/",
         "name": "Dr. Mauricio Zambrano-Bigiarini"
       },
       "name": "Dr. Mauricio Zambrano-Bigiarini",
@@ -9317,7 +9358,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "http://localhost:1313/tags/",
+        "@id": "https://hzambran.github.io/tags/",
         "name": "Tags"
       },
       "name": "Tags",
@@ -9326,7 +9367,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "http://localhost:1313/tags/floods/",
+        "@id": "https://hzambran.github.io/tags/floods/",
         "name": "Floods"
       },
       "name": "Floods",
@@ -10229,8 +10270,8 @@
 
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.8e67887d1e4e773521ed17aef87acbf3d4d07207c99e1e3f4d76d00fc44e7065.js"
+    integrity="sha256-jmeIfR5OdzUh7Reu&#43;HrL89TQcgfJnh4/TXbQD8ROcGU="
   ></script>
 
   
@@ -10256,7 +10297,7 @@
 
 
 
-<script defer src="/js/hb-search.min.js"></script>
+<script defer src="/js/hb-search.min.135366008264b9d452ff89aad28374bc7e4b40d2c047098318511786419873b0.js" integrity="sha256-E1NmAIJkudRS/4mq0oN0vH5LQNLARwmDGFEXhkGYc7A="></script>
 
 
 
@@ -11572,9 +11613,9 @@ document.addEventListener('DOMContentLoaded', function() {
       
       
       
-      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Kit</a>.
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox</a>.
       <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
-         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
+         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Create yours →</a>
     </p>  
 
 </footer>
