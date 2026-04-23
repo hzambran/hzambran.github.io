@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hydrometeorology | </title>
+    <link>https://example.com/tags/hydrometeorology/</link>
+      <atom:link href="https://example.com/tags/hydrometeorology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hydrometeorology</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Hydrometeorology</title>
+      <link>https://example.com/tags/hydrometeorology/</link>
+    </image>
+    
+    <item>
+      <title>SICA: Integrated Climate and Water System in Chile (TA25I10030. )</title>
+      <link>https://example.com/projects/2025-2029-ta25i10030/</link>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/2025-2029-ta25i10030/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h3 id=&#34;context-and-motivation&#34;&gt;Context and motivation&lt;/h3&gt;
+&lt;p&gt;Climate change is intensifying hydrological extremes; such as droughts, floods, and heatwaves; posing growing challenges for water resources management and risk reduction. Addressing these challenges requires &lt;strong&gt;reliable, spatially consistent hydrological simulations at the catchment scale&lt;/strong&gt;, capable of linking atmospheric processes with surface water responses across diverse climatic and physiographic conditions. High-quality, integrated climate–hydrology information is therefore essential to support robust scientific analysis and evidence-based decision-making.&lt;/p&gt;
+&lt;h3 id=&#34;project-description&#34;&gt;Project description&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;SICLO&lt;/strong&gt; is a four-year research project (December 2025–November 2029) funded by the Chilean National Agency for Research and Development (
+) under the &lt;em&gt;Concurso IDeA I+D Tecnologías Avanzadas 2025&lt;/em&gt; call. The project aims to develop an &lt;strong&gt;integrated climate service for continental Chile&lt;/strong&gt; by coupling satellite-based observations, regional climate modeling, and distributed surface hydrological modeling.&lt;/p&gt;
+&lt;p&gt;The SICLO framework will generate physically consistent estimates of key atmospheric and hydrological variables across &lt;strong&gt;historical, near-real-time, and future climate scenarios&lt;/strong&gt;, with a particular emphasis on catchment-scale processes. The resulting datasets and modeling tools are designed to support hydrological analysis, impact assessment, and the evaluation of climate-driven changes in water availability and extremes.&lt;/p&gt;
+&lt;p&gt;The project (&lt;em&gt;ANID-TA25I10030: SICA – Integrated Climate and Water System in Chile&lt;/em&gt;) is led by the Center for Climate and Resilience Research (CR2) and brings together a multidisciplinary team of researchers and professionals, including Juan P. Boisier (Director, PI), Camila Alvarez-Garreton (Co-Director, PI), Mauricio Galleguillos, &lt;strong&gt;Mauricio Zambrano-Bigiarini&lt;/strong&gt;, Francisca Muñoz, René Garreaud, and Pilar Barría.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

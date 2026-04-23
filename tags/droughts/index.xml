@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Droughts | </title>
+    <link>https://example.com/tags/droughts/</link>
+      <atom:link href="https://example.com/tags/droughts/index.xml" rel="self" type="application/rss+xml" />
+    <description>Droughts</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Droughts</title>
+      <link>https://example.com/tags/droughts/</link>
+    </image>
+    
+    <item>
+      <title>Article on hydrological drought monitoring published in HESS</title>
+      <link>https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
+      <description>&lt;p&gt;On March 28th, 2024, 
+ published the article entitled 
+. This study investigates the suitability of different drought indices and temporal scales for monitoring streamflow drought in catchments with different hydrological regimes.&lt;/p&gt;
+&lt;p&gt;Considering the lack of consensus on which drought indices and temporal scales are most appropriate for monitoring hydrological droughts, and the growing interest in the use of spatially distributed drought indices in ungauged areas (i.e, without streamflow data), this study addresses the following questions:&lt;/p&gt;
+&lt;p&gt;i) Which temporal scales of precipitation-based indices are best suited to assess streamflow drought in catchments with different hydrological regimes?&lt;/p&gt;
+&lt;p&gt;ii) Are soil moisture indices superior to meteorological indices as proxies of streamflow drought?&lt;/p&gt;
+&lt;p&gt;iii) Are snow indices more effective than meteorological indices for assessing streamflow drought in snow-influenced catchments?&lt;/p&gt;
+&lt;p&gt;To answer these questions, we investigated 100 near-natural catchments in Chile with four hydrological regimes (nival, nivo-pluvial, pluvio-nival, and pluvial), using the standardised precipitation index (&lt;strong&gt;SPI&lt;/strong&gt;), the standardised precipitation evapotranspiration index (&lt;strong&gt;SPEI&lt;/strong&gt;), the empirical standardised soil moisture index (&lt;strong&gt;ESSMI&lt;/strong&gt;), and the standardised snow water equivalent index (&lt;strong&gt;SWEI&lt;/strong&gt;), aggregated over different temporal scales. Cross-correlation and event coincidence analyses were performed between these indices and the standardised streamflow index on a temporal scale of 1 month (&lt;strong&gt;SSI-1&lt;/strong&gt;), as representative of streamflow drought events.&lt;/p&gt;
+&lt;p&gt;Our results reveal that &lt;strong&gt;no single drought index and temporal scale can be recommended for all catchments and hydrological regimes&lt;/strong&gt;, and that snow-influenced catchments require drought indices with larger temporal scales. In particular, for &lt;strong&gt;snowmelt-driven catchments&lt;/strong&gt; characterised by a slow response of runoff to precipitation we recommend &lt;strong&gt;SPI-12&lt;/strong&gt; and &lt;strong&gt;SPI-24&lt;/strong&gt; as the best proxy indices for characterising streamflow droughts. In contrast, for faster-response &lt;strong&gt;rainfall-driven catchments&lt;/strong&gt; we recommend the &lt;strong&gt;SPI-3&lt;/strong&gt; as the best proxies. Although soil moisture and snowpack are key variables that modulate the propagation of meteorological deficits into hydrological ones, &lt;strong&gt;the SPI and SPEI meteorological indices generally outperformed the soil moisture and snowpack-based indices in monitoring streamflow drought&lt;/strong&gt;. Finally, to exclude the influence of non-drought periods, we recommend using the &lt;strong&gt;event coincidence analysis&lt;/strong&gt;, a method that helps to assess the suitability of meteorological, soil moisture, and/or snowpack-based drought indices as proxies for streamflow drought events.&lt;/p&gt;
+&lt;p&gt;The 
+ to this article contains much aditional information on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the selection of soil moisture and SWE products (&lt;strong&gt;S1&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;the temporal scales with the highest cross-correlation and event coincidence rates (&lt;strong&gt;S2&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;boxplots for analysing the cross-correlation and event coincidence on different temporal scales and with different lag times (&lt;strong&gt;S3&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;spatial analysis for cross-correlation and event coincidence analysis at different temporal scales and lag times (&lt;strong&gt;S4&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;boxplots for the cross-correlation analysis for different hydrological regimes (&lt;strong&gt;S5&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;boxplots for the event coincidence analysis for different hydrological regimes (&lt;strong&gt;S6&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;difference between parametric and non-parametric approach for the calculation of drought indices for soil moisture (&lt;strong&gt;S7&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;summary of them median monthly P and Q values for all selected catchments (&lt;strong&gt;S8&lt;/strong&gt;), and&lt;/li&gt;
+&lt;li&gt;figures with the median monthly P and Q values for all selected catchments (&lt;strong&gt;S9&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This work is the result of years of international collaboration with Dr. Oscar M. Baez-Villanueva, collecting and analysing different gridded datasets of key meteorological variables, since the  ANID Fondecyt 11150861 project in 2017. In particular, this article was an integral part of the project 
+ lead by Camila Álvarez-Garretón and Juan Pablo Boisier at the 
+, and received additional funding from the research projects 
+ led by me at 
+, Chile.&lt;/p&gt;
+&lt;p&gt;I hope that the results of this article can be considered by the General Directorate of Water of Chile (DGA) to improve the criteria used to monitor and identify hydrological droughts in Chile, within the framework of water scarcity declarations (Res. Exe. DGA No. 1331/2022, and articles 314 and 315 of the Chilean Water Code).&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
+    alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Graphical abstract&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on challenge of unprecedented floods and droughts in risk management published in Nature</title>
+      <link>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
+      <description>&lt;p&gt;On August 4, 2022, Nature published the article entitled 
+. This article
+shows that risk management has reduced vulnerability to floods and droughts worldwide, but their impacts continue to increase. Therefore, we need a better understanding of the causes of impacts in a changing climate, but this better understanding has been hampered by a lack of empirical data.&lt;/p&gt;
+&lt;p&gt;Based on a global data set of 45 pairs of extreme events that occurred within the same area (one of them in Chile), an interdisciplinary team of 92 authors from various countries, led by Dra. Heidi Kreibich, showed that adequate risk management generally succeeds in reducing impacts of floods and droughts, but faces difficulties in reducing the impacts of unprecedented events, i.e., events of a magnitude never experienced before.&lt;/p&gt;
+&lt;p&gt;Furthermore, when the second extreme event was more dangerous than the first, its impact was almost always greater. This is because management was not designed to deal with such extreme events, which resulted in levees and reservoirs exceeding design levels.&lt;/p&gt;
+&lt;p&gt;In two success stories, the impact of the second, more dangerous event was less, as a result of better risk management governance and high investment in integrated management. The observed difficulty in managing unprecedented events is alarming, given that more extreme hydrological events are projected due to climate change.&lt;/p&gt;
+&lt;p&gt;This work is the fruit of years of international cooperation with the Technical University of Cologne in Germany and with the 
+ Group, dedicated to research activities on changes in hydrology and society. This work had its origins in a meeting held at the European Geosciences Union (EGU) Conference in 2018, where Dr. Zambrano-Bigiarini participated together with Dr. Camila Álvarez Garretón (both belonging to the CR2 FONDAP center) in a meeting with members of the 
+, and began to define the objectives of this article.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
+    alt=&#34;https://doi.org/10.1038/s41586-022-04917-5&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Is the megadrought over with the last frontal system? (The Clinic)</title>
+      <link>https://example.com/blog/2022-07-19-termino_la_megasequia-theclinic/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2022-07-19-termino_la_megasequia-theclinic/</guid>
+      <description>&lt;p&gt;On July 19th, 2022, Dr. Mauricio Zambrano-Bigiarini was interviewed about the impact of the latest frontal system in the drought that affects our country by the digital newspaper The Clinic.&lt;/p&gt;
+&lt;p&gt;In 
+, the academic discusses the impact that the latest rainfall had in reducing the water deficit in our country, and whether or not we can affirm that the mega-drought that affects our country has ended.&lt;/p&gt;
+&lt;p&gt;The full interview can be found here: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2022-07-19-termino_la_megasequia-theclinic/featured.jpg&#34;
+    alt=&#34;https://www.theclinic.cl/2022/07/19/lluvia-nieve-sequia-sistema-frontal-expertos/&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Entra en vigencia la nueva Ley de Servicios Sanitarios Rurales</title>
+      <link>https://example.com/blog/2020-11-23-nueva_ley_de_ssr/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2020-11-23-nueva_ley_de_ssr/</guid>
+      <description>&lt;p&gt;Noticia titulada 
+, donde se describe la nueva Ley N°20.998, la cual permitirá avanzar en forma significativa para garantizar el abastecimiento de agua potable y saneamiento para los habitantes del sector rural.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Climate change: Last decade confirmed as warmest on record</title>
+      <link>https://example.com/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</guid>
+      <description>&lt;p&gt;The 10 years to the end of 2019 have been confirmed as &lt;strong&gt;the warmest decade on record&lt;/strong&gt; by three global agencies.&lt;/p&gt;
+&lt;p&gt;According to Nasa, NOAA and the UK Met Office, last year was the second warmest in a record dating back to 1850.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;past five years were the hottest&lt;/strong&gt; in the 170-year series, with the average of each one more than 1C warmer than pre-industrial.&lt;/p&gt;
+&lt;p&gt;The Met Office says that 2020 is likely to continue this warming trend.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2016 remains the warmest year on record&lt;/strong&gt;, when temperatures were boosted by the El Niño weather phenomenon.&lt;/p&gt;
+&lt;p&gt;For more information please visit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+.&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Sequia y escasez hídrica en Chile - parecidas pero no iguales (El Mostrador)</title>
+      <link>https://example.com/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</guid>
+      <description>&lt;p&gt;We cannot solve a problem that we do not fully understand. Water scarcity in a place is the result of a complex interaction between meteorological anomalies, hydrological processes and changes in the use that man makes of the resource. Our current inability to properly analyze and manage water scarcity points out a failure in our understanding of the problem as a whole, and to inadequate data and tools to monitor the evolution of water over time.&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Crisis hídrica, sequía legal y carretera hídrica (El Mostrador)</title>
+      <link>https://example.com/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</guid>
+      <description>&lt;p&gt;The country cannot continue to be a victim of the lobby of those who promote initiatives for their benefit over the damage of Chileans and against the public interest. Chile needs a legal framework that prioritizes security and equity in access to the vital element for the stability of drinking water, sanitation, food security and local productive development that ensures the well-being of the population and local and regional economies. The lucrative agribusiness and mining business cannot continue to put the country in greater water vulnerability, but to adjust, adapting to climate change.&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>¿Temuco sin agua en 2025? (El Austral)</title>
+      <link>https://example.com/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</guid>
+      <description>&lt;p&gt;Professors Mauricio Zambrano-Bigiarini and Ivo Fustos of the Department of Civil Engineering at the Universidad de La Frontera expressed their opinion on the news 
+ published on September 1, 2019 in the newspaper 
+ and then reproduced by the newspaper 
+.&lt;/p&gt;
+&lt;p&gt;The academics expressed that, given the amount of information currently available on the water situation in the region, it is impossible to predict with an adequate level of confidence the date on which Temuco will run out of water, if that happens at some point.&lt;/p&gt;
+&lt;p&gt;You can read the complete answer in the 
+ on September 5.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Carretera hídrica: una falsa panacea (El Mostrador)</title>
+      <link>https://example.com/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</guid>
+      <description>&lt;p&gt;These &amp;ldquo;solutions&amp;rdquo; to the problem of water supply, only serve to strengthen the close relationship between the State and companies that has existed in the field of water, ensuring private legal and functional ownership of an increasingly scarce resource . At the same time, this type of project shows that our country is increasingly moving away from integrated watershed management. The latter are the essential territorial references for the management of the water resource that should guide the preservation of life and society.&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>10 mil animales han muerto en las regiones más golpeadas por la prolongada sequía (El Mercurio)</title>
+      <link>https://example.com/blog/2019-09-01-10mil_animales_muertos-elmercurio/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-09-01-10mil_animales_muertos-elmercurio/</guid>
+      <description>&lt;p&gt;Due to the extended drought affecting central Chile, farmers in the area between the Coquimbo and Maule regions estimate that 10 000 animals have already died, including abortions that occur due to lack of food and water (5 000 in Valparaíso; 2 thousand in Coquimbo, and another 3 thousand in O&amp;rsquo;Higgins and el Maule).&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Maipo, Limarí y Maule, tres cuencas en que el cambio climático ya hizo estragos (La Tercera)</title>
+      <link>https://example.com/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</guid>
+      <description>&lt;p&gt;An investigation by the PUC Global Change Center, an institution with more than 10 years studying this climatic phenomenon, recorded how the temperature in these areas has already changed due to global warming.&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>La guerra del agua: las graves secuelas de la crisis hídrica en Chile (El Mostrador)</title>
+      <link>https://example.com/blog/2019-08-26-la_guerra_del_agua-elmostrador/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-08-26-la_guerra_del_agua-elmostrador/</guid>
+      <description>&lt;p&gt;Central and Southern Chile have already suffered, for decades, a tendency to lower rainfall amounts, up to 7% per decade at some points, which will probably remain. By 2050, water available in Chile will be reduced by one third in some regions, according to current models, which will extend the irrigation periods that are applied today and reduce more water-intensive crops, especially those without access to technological improvements.&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Anomalies of monthly mean temperature compared to the 1961-1990 averages</title>
+      <link>https://example.com/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</link>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</guid>
+      <description>&lt;p&gt;A very impressive figure showing the 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Workshop on Climate Change Challenges for La Araucanía (Temuco)</title>
+      <link>https://example.com/dissemination/2019-07-25-seminario_cc-temuco/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2019-07-25-seminario_cc-temuco/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Workshop on Climate Change Challenges for La Araucanía&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On July 25, 2019,  I made an oral presentation at the workshop entitled &amp;ldquo;&lt;em&gt;Regional challenges of climate change for La Araucanía region&lt;/em&gt;&amp;rdquo;, organized by the Regional Ministry of Environment of the Araucanía region.&lt;/p&gt;
+&lt;p&gt; This seminar was held in the Aula Magna of the Universidad Mayor in Temuco, and was attended by various municipalities, NGOs, civil organizations and members of the Regional Committee on Climate Change (CORECC).&lt;/p&gt;
+&lt;p&gt;My presentation was entitled &amp;ldquo;&lt;strong&gt;Climate Change and Drought: Projections for Chile and Araucanía&lt;/strong&gt;&amp;rdquo;, where 7 climate scenarios (RCP 8.5) for the Araucanía region were analysed, along with the water-related challenges that the Araucanía region very likely will face during the rest of this century.&lt;/p&gt;
+&lt;p&gt;More information 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Workshop on Efficient Management of Water Resources (Vallenar)</title>
+      <link>https://example.com/dissemination/2019-06-28-workshop_gestion_eficiente_del_recurso_hidrico-vallenar/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2019-06-28-workshop_gestion_eficiente_del_recurso_hidrico-vallenar/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Workshop on Efficient Management of Water Resources&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On June 28th 2019 I made an oral presentation at the workshop &amp;ldquo;&lt;em&gt;Efficient Management of Water Resources: a challenge against Climate Change&lt;/em&gt;&amp;rdquo;, organised by the University of Atacama and carried out at Vallenar in the Atacama region.&lt;/p&gt;
+&lt;p&gt;This workshop was funded by the Regional Government of Atacama in the framework of the finalization activity of the FIC Project &amp;ldquo;&lt;em&gt;Laboratorio para el estudio hídrico de la Cuenca, uso eficiente, monitoreo y predicción de caudales aplicando Modelo de Redes Neuronales Artificiales y Snow Runoff Model Nasa para la cuenca del Río Huasco, Región de Atacama, Chile&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;My presentation was entitled &amp;ldquo;&lt;strong&gt;Space-time evaluation of IMERGv05-F satellite precipitation estimates over different climates and the complex topography of Chile&lt;/strong&gt;&amp;rdquo;, which discussed the improvement of the lastest satellite estimates derived from the Global Precipitation Measurement (GPM) mission. In the afternoon, a hands-on training was carried out aimed at local stakeholders.&lt;/p&gt;
+&lt;p&gt;More information 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>44% of water scarcity in Chile is due to poor water management (La Tercera)</title>
+      <link>https://example.com/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</link>
+      <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</guid>
+      <description>&lt;p&gt;The National Water Balance, a document from the National Water Directorate (DGA) that this year will have its final version after 32 years, will establish how much water is available in the country. In an advance delivered at the beginning of the year, it has already established that the country has a water deficit that ranges between 10% and 37%.&lt;/p&gt;
+&lt;p&gt;To alleviate this deficit, the document &amp;ldquo;Transición Hídrica: el futuro del agua en Chile&amp;rdquo; proposes to establish a strategy with emphasis on four axes: water management and institutionality; conservation and protection of water ecosystems; efficiency and strategic use of water resources; and migration and incorporation of new water sources.&lt;/p&gt;
+&lt;p&gt;The implementation of these four measures would be key to achieving water security: &amp;ldquo;44% of the causes of water problems are related to poor management of the resource, 17% is due to the increase in demand for water, 14% to water pollution, 12% to the decrease in water supply , 6% to environmental damage of water ecosystems and 5% to the increase in the frequency of natural disasters&amp;rdquo; (Ulrike Broschek, leader of Escenarios Hídricos 2030 and Deputy Manager of Sustainability of Fundación Chile)&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+ y 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Agua: ¿ soluciones sostenibles? (Diario Austral)</title>
+      <link>https://example.com/blog/2019-03-29-agua-soluciones_sustentables/</link>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-03-29-agua-soluciones_sustentables/</guid>
+      <description>&lt;p&gt;Columna titulada 
+, con ocasión del Día Mundial del Agua: 
+.&lt;/p&gt;
+&lt;p&gt;Además:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Agua y desarrollo sostenible (CodexVerde)</title>
+      <link>https://example.com/blog/2019-03-22-agua_y_desarrollo_sostenible/</link>
+      <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-03-22-agua_y_desarrollo_sostenible/</guid>
+      <description>&lt;p&gt;Columna titulada 
+, con ocasión del Día Mundial del Agua: 
+.&lt;/p&gt;
+&lt;p&gt;Además:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>The dramatic disappearance of water in Chile (La Tercera)</title>
+      <link>https://example.com/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</guid>
+      <description>&lt;p&gt;A team of specialists from the Universidad de Chile and Universidad Católica is working on updating the National Water Balance, which dates back to 1987. During 2019, the final report will be issued.&lt;/p&gt;
+&lt;p&gt;The project is led by Ximena Vargas, academic from the Faculty of Physical and Mathematical Sciences of the University of Chile. &amp;ldquo;&lt;em&gt;What has been found in stations measuring precipitation and temperature is that, in general, there are decreases in average annual precipitation and increases in average annual temperature&lt;/em&gt;&amp;rdquo; This, she explains, has generated a decrease in the water availability in some coastal sectors. &amp;ldquo;&lt;em&gt;Comparing the reported values for water availability (dating from 1987), changes in average annual runoff are around 10% and 37%&lt;/em&gt;&amp;rdquo; she points out.&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>2018 was the fourth-hottest year on record</title>
+      <link>https://example.com/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</link>
+      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;2018 was the fourth hottest year on record&lt;/strong&gt;, according to two independent reports released today (Feb. 6) by 
+ and the 
+.
+Last year was so hot that global land- and ocean-surface temperatures were 1.42 degrees Fahrenheit (0.79 degrees Celsius) above the 20th-century average, NOAA reported. Since 1880, when record-keeping began, only three years - 2016 (the highest, in part because of El Niño), 2015 and 2017 — were hotter.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The key message is that 
+,&amp;rdquo; Gavin Schmidt, the director of NASA&amp;rsquo;s Goddard Institute for Space Studies in New York City, told reporters at a news conference. &amp;ldquo;And our understanding of why those trends are occurring is also very robust. It&amp;rsquo;s because of the greenhouse gases that we[&amp;rsquo;ve] put into the atmosphere over the last 100 years.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The trend isn&amp;rsquo;t a new one. Nine of the 10 warmest winters have happened since 2005, and five of the warmest years on record happened within the last five years, or from 2014 to 2018.&lt;/p&gt;
+&lt;p&gt;For more information please visit:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>2016: Hottest Year on Record</title>
+      <link>https://example.com/blog/2017-01-19-year_2016_hottest_on_record/</link>
+      <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2017-01-19-year_2016_hottest_on_record/</guid>
+      <description>&lt;p&gt;Earth&amp;rsquo;s 2016 surface temperatures were the warmest since modern recordkeeping began in 1880, according to independent analyses by NASA and the National Oceanic and Atmospheric Administration (NOAA).&lt;/p&gt;
+&lt;p&gt;Globally-averaged temperatures in 2016 were 0.99 degrees Celsius (1.78 degrees Fahrenheit) warmer than the mid-20th century mean. This makes &lt;strong&gt;2016 the third year in a row&lt;/strong&gt; to set a new record for global average surface temperatures. Since the start of the 21st century, the annual global temperature record has been broken five times (2005, 2010, 2014, 2015, and 2016) 
+.&lt;/p&gt;
+&lt;p&gt;Most of the warming occurred in the past 35 years, with 16 of the 17 warmest years on record occurring since 2001. Not only was 2016 the warmest year on record, but eight of the 12 months that make up the year - from January through September, with the exception of June - were the warmest on record for those respective months. October, November, and December of 2016 were the second warmest of those months on record - in all three cases, behind records set in 2015 
+&lt;/p&gt;
+&lt;p&gt;The warming was truly global. &lt;em&gt;&amp;ldquo;Some part of every continent, and some part of every major ocean basin was warmest on record&amp;rdquo;&lt;/em&gt; Arndt says, adding that in the United States, only Georgia and Alaska had record-setting warmth but &lt;em&gt;&amp;ldquo;pretty much the entire country was above normal, and well above normal.&amp;rdquo;&lt;/em&gt; 
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;The long-term warming is driven almost entirely by greenhouse gases&amp;rdquo;&lt;/em&gt; Arndt says. &lt;em&gt;&amp;ldquo;We&amp;rsquo;ve seen a warming trend related to greenhouse gases for four, five, six decades now&amp;rdquo;&lt;/em&gt;. 
+.&lt;/p&gt;
+&lt;p&gt;Two graphs that shows the time evolution of globally-averaged temperatues are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Poster presentation at AGU 2016</title>
+      <link>https://example.com/dissemination/2016-12-13-agu2016/</link>
+      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2016-12-13-agu2016/</guid>
+      <description>&lt;p&gt;On December 13th 2016, I presented the work titled 
+ at the conference 
+. In this work I used two drought indices to analyze the contribution of precipitation and temperature to the recent droughts that have affected Chile, in order to improve our understanding about the onset, duration and magnitude of these events.&lt;/p&gt;
+&lt;p&gt;It is the first time that a professor with affiliation &amp;ldquo;Universidad de La Frontera&amp;rdquo; presents in this conference, the most important of Earth Sciences worldwide.&lt;/p&gt;
+&lt;p&gt;This work is part of a collaborative research that I carry out for the 
+ of the Universidad de Chile.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spanish version&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;El pasado 13 de Diciembre de 2016, presenté el trabajo titulado 
+ en la conferencia 
+. En este trabajo utilicé dos índices de sequía para analizar la contribución de la precipitación y la temperatura a las recientes sequías que han afectado Chile, para mejorar nuestra comprensión acerca del inicio, duración y magnitud de estos eventos.&lt;/p&gt;
+&lt;p&gt;Es la primera vez que un docente con afiliación Universidad de La Frontera presenta en este evento, el más importante de las Ciencias de la Tierra a nivel mundial.&lt;/p&gt;
+&lt;p&gt;Este trabajo forma parte del trabajo como investigador adjunto que realizo para el 
+ de la Universidad de Chile.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Drought in Puyehue and Rupanco lakes (SoyChile.cl)</title>
+      <link>https://example.com/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</guid>
+      <description>&lt;p&gt;After 
+ revealed the worrying decline in the water levels of Llanquihue Lake in the  surrounding of Puerto Octay, it was found that is not the only lake basin of the region affected by the lack of rainfall that experts have attributed to climate change.&lt;/p&gt;
+&lt;p&gt;This is because now the Rupanco and Puyehue lakes in the province of Osorno, have also shown and alarming and disturbing situation. In the first case, locals say that in some sectors the beach has increased from 20 to 200 meters, and in areas normally covered by water can now move on foot or by vehicle.&lt;/p&gt;
+&lt;p&gt;A similar situation occurs in the Rupanco, where residents also confirm that there is an obvious decline in its water levels, exposing larger portions of land. *This is the year where I&amp;rsquo;ve seen the worst shortage of water in the lake. It has fallen very little rain. Luckily our pastures are still green, but the lake has suffered,&amp;quot; said a local farmer.&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Expected changes in precipitation and temperature by 2050 (La Tercera)</title>
+      <link>https://example.com/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</guid>
+      <description>&lt;p&gt;A recent study, delivered in July 2016, projected that by 2050 Santiago will have the most extreme variation in temperature of all regional capitals, with 2.7°C, which is 14% higher compared to today. In winter, the increase will be 1.7%, representing an increase of 19%, while precipitation will be reduced by 55 millimeters (mm), 15% less.&lt;/p&gt;
+&lt;p&gt;In other regional capitals, as Arica and Copiapó, extreme temperatures rise about 2.2°C are also expected for each summer, but it will be Arica where the temperature will rise more in winter, with 2.5° C.&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Megadrought expands to southern Chile (La Tercera)</title>
+      <link>https://example.com/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</link>
+      <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</guid>
+      <description>&lt;p&gt;Today the country is experiencing one of the longest and most geographically extensive droughts in its history, which has nearly eight years in some sectors, and extends from the Coquimbo to the La Araucania region. Experts estimate that in the future these cycles would increase. According to an analysis by the  Center for Climate and Resilience Research (CR2) in 2015, these mega-droughts will become more common, occurring in Chile every 20 years by 2050 if emissions continue to increase greenhouse gases.&lt;/p&gt;
+&lt;p&gt;To date, 17 of the 22 stations of the Meteorological Direction of Chile (DMC) present below normal precipitation amounts. Coyhaique (45ºS) is the one with the most extreme situation. There, the precipitation is around 220 mm, far from normal to date according to the climatological period 1981-2010, which is 884.5 mm, resulting in a deficit of 75%. The level of rainfall is the lowest registration for the area (starting in 1960), although it is projected that in the next three months rains occur within the normal range indicates Catalina Cortes, meteorologist at DMC. However, it should end the year in deficit.&lt;/p&gt;
+&lt;p&gt;For more information please visit: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>El año 2015 batió récords de fenómenos climáticos extremos (El Mercurio)</title>
+      <link>https://example.com/blog/2016-08-03-year_2015_hottest_on_record_cr2/</link>
+      <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2016-08-03-year_2015_hottest_on_record_cr2/</guid>
+      <description>&lt;p&gt;El año 2015 marcó una temporada de lluvias más abundantes que el promedio, provocando graves &lt;strong&gt;inundaciones&lt;/strong&gt;. Severas &lt;strong&gt;sequías&lt;/strong&gt; afectaron superficies casi &lt;strong&gt;dos veces mayores en 2015 que en el año anterior&lt;/strong&gt; (14%, contra 8% en 2014).&lt;/p&gt;
+&lt;p&gt;Las aguas más calientes agravaron la propagación de algas, que afectaron el 2015 una importante región del Pacífico norte, desde California hasta la Columbia Británica, en Canadá.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;calor-y-lluvias&#34;&gt;Calor y lluvias&lt;/h4&gt;
+&lt;p&gt;En el caso sudamericano, El Niño influyó en las condiciones climáticas durante todo el 2015. La &lt;strong&gt;temperatura del aire aumentó por sobre el promedio&lt;/strong&gt; en la mayor parte del continente, lo que generó condiciones más secas que el promedio en el norte y más húmedas en el sur, especialmente Chile y Argentina.&lt;/p&gt;
+&lt;p&gt;No obstante, se presentó un otoño e invierno más calurosos de lo habitual. En Argentina fue el invierno más caliente desde que se tienen registros, con un aumento de la media por sobre los 3ºC. En contraste, un aumento de los sistemas frontales y de la nubosidad produjo en Chile y, particularmente, en Argentina el más frío octubre desde que se tienen registros.&lt;/p&gt;
+&lt;p&gt;En marzo 2015, una &lt;strong&gt;anormal lluvia&lt;/strong&gt; sorprendió a las secas regiones de &lt;strong&gt;Atacama&lt;/strong&gt; y &lt;strong&gt;Antofagasta&lt;/strong&gt;. En esta última ciudad, entre el 25 y el 26 de ese mes cayeron 24,4 milímetros de agua, cuando el promedio anual es de 1,7. En agosto y diciembre, las precipitaciones intensas se presentaron en Argentina y Paraguay, generando inundaciones.&lt;/p&gt;
+&lt;p&gt;For more information please visit the website: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

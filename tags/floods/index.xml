@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Floods | </title>
+    <link>https://example.com/tags/floods/</link>
+      <atom:link href="https://example.com/tags/floods/index.xml" rel="self" type="application/rss+xml" />
+    <description>Floods</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 04 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Floods</title>
+      <link>https://example.com/tags/floods/</link>
+    </image>
+    
+    <item>
+      <title>Article on challenge of unprecedented floods and droughts in risk management published in Nature</title>
+      <link>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
+      <description>&lt;p&gt;On August 4, 2022, Nature published the article entitled 
+. This article
+shows that risk management has reduced vulnerability to floods and droughts worldwide, but their impacts continue to increase. Therefore, we need a better understanding of the causes of impacts in a changing climate, but this better understanding has been hampered by a lack of empirical data.&lt;/p&gt;
+&lt;p&gt;Based on a global data set of 45 pairs of extreme events that occurred within the same area (one of them in Chile), an interdisciplinary team of 92 authors from various countries, led by Dra. Heidi Kreibich, showed that adequate risk management generally succeeds in reducing impacts of floods and droughts, but faces difficulties in reducing the impacts of unprecedented events, i.e., events of a magnitude never experienced before.&lt;/p&gt;
+&lt;p&gt;Furthermore, when the second extreme event was more dangerous than the first, its impact was almost always greater. This is because management was not designed to deal with such extreme events, which resulted in levees and reservoirs exceeding design levels.&lt;/p&gt;
+&lt;p&gt;In two success stories, the impact of the second, more dangerous event was less, as a result of better risk management governance and high investment in integrated management. The observed difficulty in managing unprecedented events is alarming, given that more extreme hydrological events are projected due to climate change.&lt;/p&gt;
+&lt;p&gt;This work is the fruit of years of international cooperation with the Technical University of Cologne in Germany and with the 
+ Group, dedicated to research activities on changes in hydrology and society. This work had its origins in a meeting held at the European Geosciences Union (EGU) Conference in 2018, where Dr. Zambrano-Bigiarini participated together with Dr. Camila Álvarez Garretón (both belonging to the CR2 FONDAP center) in a meeting with members of the 
+, and began to define the objectives of this article.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
+    alt=&#34;https://doi.org/10.1038/s41586-022-04917-5&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trancura | </title>
+    <link>https://example.com/tags/trancura/</link>
+      <atom:link href="https://example.com/tags/trancura/index.xml" rel="self" type="application/rss+xml" />
+    <description>Trancura</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Trancura</title>
+      <link>https://example.com/tags/trancura/</link>
+    </image>
+    
+    <item>
+      <title>The catchment’s memory: understanding how hydrological extremes are modulated by antecedent soil moisture conditions in a warmer climate</title>
+      <link>https://example.com/projects/2021-2025-fondecyt1212071/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/2021-2025-fondecyt1212071/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h3 id=&#34;context-and-motivation&#34;&gt;Context and motivation&lt;/h3&gt;
+&lt;p&gt;Global warming is reshaping the hydrological cycle, not only through gradual shifts in mean precipitation but also by intensifying precipitation extremes. These extremes cascade through river basins, potentially triggering floods or prolonged hydrological droughts, with far-reaching impacts on communities, infrastructure, and ecosystems. A critical regulator of this cascade is &lt;strong&gt;antecedent soil moisture&lt;/strong&gt;, which governs runoff generation and reflects the &amp;ldquo;memory&amp;rdquo; of the catchment and modulating how atmospheric anomalies translate into hydrological responses.&lt;/p&gt;
+&lt;p&gt;Chile&amp;rsquo;s 2010&amp;ndash;2019 megadrought offers a unique large-scale natural experiment to examine how sustained warming and drying alter the transformation of meteorological extremes into hydrological extremes. Understanding this transformation is essential for anticipating future risks under a changing climate.&lt;/p&gt;
+&lt;h3 id=&#34;project-description&#34;&gt;Project description&lt;/h3&gt;
+&lt;p&gt;This four-year research project (April 2021–March 2025) is funded by the Chilean National Agency for Research and Development (
+) under the &lt;em&gt;Concurso Fondecyt Regular 2021&lt;/em&gt; call. The project investigates four representative Chilean catchments (Petorca en Longotoma, Mapocho en Los Almendros, Cauquenes en Desembocadura y Trancura antes de Llafenco) over the 1980&amp;ndash;2019 period, integrating statistical extreme-event analysis with process-based hydrological modelling. Meteorological and hydrological extremes will be systematically characterized using standardised indices (e.g., SPI, SSI/SRI) and complementary metrics of duration, volume, and intensity to assess multi-decadal changes in frequency and severity.&lt;/p&gt;
+&lt;p&gt;To explore the mechanisms underlying these changes, two hydrological models with contrasting structural representations of catchment processes will be implemented (TUWmodel, SWAT+). Model calibration will rely on a &lt;strong&gt;multi-variable, multi-objective framework&lt;/strong&gt;, jointly assimilating in-situ observations and advanced remote-sensing products, including soil moisture, total water storage, evapotranspiration, and snow cover.&lt;/p&gt;
+&lt;p&gt;Sub-daily simulations (2001–2019) will further enable a detailed assessment of how antecedent soil moisture conditions influence peak discharge generation and storm-event dynamics, providing process-level insight into the amplification or attenuation of extremes.&lt;/p&gt;
+&lt;p&gt;The project (&lt;em&gt;ANID-Fondecyt 1212071: The catchment&amp;rsquo;s memory: understanding how hydrological extremes are modulated by antecedent soil moisture conditions in a warmer climate&lt;/em&gt;) is led by me, and have Dr. Mauricio Galleguillos (U. de Chile and U. Adolfo Ibañez, Chile), Dra. Camila Alvarez-Garreton (CR2, Chile) and Dr. Oscar Baez-Villanueva (U. Ghent, Belgium) as co-investigators.&lt;/p&gt;
+&lt;h3 id=&#34;expected-contribution-to-decision-making&#34;&gt;Expected contribution to decision-making&lt;/h3&gt;
+&lt;p&gt;By elucidating the role of soil moisture as a mediator between atmospheric forcing and hydrological response, the project will advance understanding of how warming climates reshape flood and drought dynamics. The results will provide quantitative evidence on the potential amplification of flood peaks and the persistence of hydrological droughts under changing baseline conditions.&lt;/p&gt;
+&lt;p&gt;These findings will directly inform water resources planning, risk assessment, and early-warning system design. Beyond Chile, the methodological framework and analytical tools developed in this project will offer transferable approaches for operational hydrological assessment and climate resilience planning in regions facing increasing hydroclimatic stress.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

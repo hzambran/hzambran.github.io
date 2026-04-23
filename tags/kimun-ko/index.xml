@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kimün-Ko | </title>
+    <link>https://example.com/tags/kimun-ko/</link>
+      <atom:link href="https://example.com/tags/kimun-ko/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kimün-Ko</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Kimün-Ko</title>
+      <link>https://example.com/tags/kimun-ko/</link>
+    </image>
+    
+    <item>
+      <title>Pulliko: Gridded soil moisture for Chile</title>
+      <link>https://example.com/web-platforms/pulliko/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/web-platforms/pulliko/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h3 id=&#34;context-and-motivation&#34;&gt;Context and motivation&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Reliable monitoring of soil moisture&lt;/strong&gt; is essential for understanding water availability, managing drought risk, and supporting sustainable water resources management. Soil moisture regulates key hydrological processes such as infiltration, runoff, evaporation, and plant water uptake, and plays a central role in land–atmosphere interactions. Conditions in the surface soil layer (&lt;strong&gt;SSM&lt;/strong&gt;; 0–10 cm) respond rapidly to rainfall events, while moisture in the deeper root zone (&lt;strong&gt;RZSM&lt;/strong&gt;; 0–100 cm) evolves more slowly and sustains vegetation during dry periods, influencing the onset and persistence of extreme events such as droughts and intense rainfall.&lt;/p&gt;
+&lt;p&gt;Accurate representation of these dynamics requires spatially continuous information derived from multiple data sources. Ground-based measurements provide high-quality observations but are geographically sparse, particularly in the Southern Hemisphere. Satellite observations offer broad and frequent coverage, yet they primarily capture near-surface conditions and can be affected by vegetation and environmental factors. Therefore, &lt;strong&gt;integrating diverse datasets within a unified monitoring framework&lt;/strong&gt; is therefore critical for delivering timely, reliable information on soil moisture conditions across large and climatically diverse regions such as Chile, where environmental conditions range from the hyper-arid north to the humid south.&lt;/p&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;In response to this need, during her undergraduate thesis, &lt;strong&gt;Rocío Muñoz Neira&lt;/strong&gt; developed under my supervision an operational web platform designed to provide near real-time monitoring of soil moisture and its anomalies across continental Chile. The platform integrates multiple high-quality datasets to deliver timely, spatially consistent information that can support decision-making in agriculture, water resources management, environmental monitoring, and scientific research.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Four state-of-the-art gridded soil moisture products&lt;/strong&gt; were selected based on their long-term data availability, spatial and temporal resolution, and operational reliability. These products provide volumetric soil moisture estimates for both the &lt;strong&gt;surface soil layer&lt;/strong&gt; (0–10 cm) and the &lt;strong&gt;root zone soil layer&lt;/strong&gt; (0–100 cm). The four available gridded soil moisture products are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ERA5&lt;/strong&gt; (0.25° spatial resolution, hourly updates, approximately 6-day latency),&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ERA5-Land&lt;/strong&gt; (0.1°, hourly, approximately 6-day latency),&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GLDAS-Noah&lt;/strong&gt; (0.25°, three-hourly, approximately 4-month latency), and&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SMAP-L4&lt;/strong&gt; (9 km resolution, three-hourly, approximately 2.5-day latency).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following article evalautes the four previous soil moisture datasets against in situ measurements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Núñez-Ibarra, D. A.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Galleguillos, M. (2026). 
+. Hydrology and Earth System Sciences, 30, 1813&amp;ndash;1847. 
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Together, these complementary soil moisture datasets offer robust coverage across a wide range of climatic and hydrological conditions.&lt;/p&gt;
+&lt;p&gt;To enhance the interpretation of soil moisture conditions, the platform also computes &lt;strong&gt;two standardised drought indicators&lt;/strong&gt; of soil moisture anomalies:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;strong&gt;Standardized Soil Moisture Index&lt;/strong&gt; (&lt;strong&gt;SSMI&lt;/strong&gt;) is a parametric indicator based on the gamma probability distribution, while&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;the &lt;strong&gt;Empirical Standardized Soil Moisture Index&lt;/strong&gt; (&lt;strong&gt;ESSMI&lt;/strong&gt;) is a non-parametric indicator derived using kernel density estimation techniques.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These indices are calculated automatically on a daily basis at multiple temporal aggregation scales (1, 3, 6, 12, and 24 months), allowing users to assess short-term variability as well as longer-term hydrological trends.&lt;/p&gt;
+&lt;p&gt;The system operates through a fully automated data pipeline. External data servers are queried regularly to identify the most recent observations, which are then downloaded, processed, and stored on the internal infrastructure of the 
+ of the Department of Civil Engineering at the Universidad de La Frontera. The processed soil moisture fields and derived anomaly indicators are subsequently displayed through the 
+, meaning &amp;ldquo;water in the soil&amp;rdquo; in mapuzungun, interactive web interface, enabling users to explore current conditions and historical patterns in an intuitive and accessible manner.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/web-platforms/pulliko/pulliko-main_screen.jpg&#34;
+    alt=&#34;Pulliko web platform&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Main screen of 
+ web platform&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;By combining reliable data sources, automated processing, and interactive visualization tools, this platform provides a practical and scientifically robust resource for monitoring soil moisture dynamics across Chile. Its near real-time capabilities support informed decision-making, improve situational awareness during hydrological extremes, and contribute to a better understanding of the country&amp;rsquo;s evolving water and climate conditions.&lt;/p&gt;
+&lt;p&gt;Additional information about the development of this platform can be found in the 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Curvas IDF Chile</title>
+      <link>https://example.com/web-platforms/curvas_idf/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/web-platforms/curvas_idf/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h2 id=&#34;context-and-motivation&#34;&gt;Context and motivation&lt;/h2&gt;
+&lt;p&gt;Extreme precipitation events are expected to intensify under global warming, particularly at sub-daily time scales, increasing the risk of flash floods and infrastructure failure. Reliable estimation of these extremes is therefore essential for hydraulic design, urban drainage planning, and flood risk management. &lt;strong&gt;Intensity–Duration–Frequency (IDF) curves&lt;/strong&gt; remain the standard engineering tool for quantifying the relationship between rainfall intensity, duration, and frequency of occurrence.&lt;/p&gt;
+&lt;p&gt;Traditionally, IDF curves have been derived from rain gauge observations under the assumption of stationarity and often based on relatively short sub-daily records. These limitations can lead to biased estimates of extreme rainfall, particularly in regions with sparse monitoring networks, complex topography, or strong climatic variability. Moreover, ongoing climate change challenges the validity of stationary assumptions commonly used in engineering practice.&lt;/p&gt;
+&lt;p&gt;Recent advances in gridded precipitation datasets provide spatially continuous and temporally consistent information that complements conventional observations and improves the representation of precipitation extremes. Integrating these datasets with modern statistical approaches enables the development of more robust and spatially consistent IDF estimates, particularly in countries such as Chile, where climatic gradients and terrain complexity strongly influence rainfall patterns.&lt;/p&gt;
+&lt;p&gt;To operationalise these advances, the 
+ web platform was developed by the former student &lt;strong&gt;Cristóbal Soto Escobar&lt;/strong&gt; and I with the support of the 
+ and the 
+, by providing standardised, nationally consistent estimates of extreme rainfall across continental Chile. By combining multiple datasets and updated statistical methodologies within an accessible web environment, the platform supports evidence-based infrastructure design and risk assessment under evolving climatic conditions.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+ is a web platform designed to support the computation and visualization of &lt;strong&gt;Intensity–Duration–Frequency (IDF)&lt;/strong&gt; curves across continental Chile. The platform integrates modern datasets and statistical methodologies to provide robust estimates of extreme precipitation across diverse climatic and topographic regions, including areas with limited observational coverage.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/web-platforms/curvas_idf/curvasIDF-main_screen.jpg&#34;
+    alt=&#34;curvasIDF web platform&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Main screen of 
+ web platform&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;By delivering nation-wide, spatially consistent IDF information, the platform supports infrastructure design, flood risk assessment, urban drainage planning, and climate resilience studies. It also promotes transparent and reproducible analyses, reducing the technical burden traditionally associated with extreme value modeling and facilitating the practical use of advanced statistical methods in engineering and applied hydrology.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;curvas-idf-functionality&#34;&gt;Curvas IDF functionality&lt;/h2&gt;
+&lt;p&gt;
+ provides a set of operational tools designed to support engineering design, hydrological analysis, and climate risk evaluation.&lt;/p&gt;
+&lt;p&gt;Core capabilities include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Computation of IDF curves&lt;/strong&gt; for any location in continental Chile using statistically consistent methodologies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Interactive visualization&lt;/strong&gt; of rainfall intensity estimates for multiple durations and return periods.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Implementation of stationary and non-stationary statistical models&lt;/strong&gt;, enabling users to evaluate the potential influence of changing climatic conditions on extreme precipitation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Access to annual maximum precipitation intensities (Imax)&lt;/strong&gt; derived from both gridded datasets and in-situ rain gauge observations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Spatial exploration of extreme rainfall patterns&lt;/strong&gt;, facilitating comparison of intensity values across regions with contrasting climates and topography.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Download of computed intensity values and associated parameters&lt;/strong&gt; for use in engineering design studies, hydrological modeling, and risk assessments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These functionalities streamline workflows that traditionally required specialized statistical expertise and extensive data processing, thereby broadening access to reliable extreme rainfall information for both technical and operational users.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;methodological-framework&#34;&gt;Methodological framework&lt;/h2&gt;
+&lt;p&gt;The methodology implemented in 
+ is fully documented in a 2026 scientific article published in the journal &lt;em&gt;Hydrology and Earth System Sciences&lt;/em&gt;. This study represents one of the most comprehensive national-scale analyses of precipitation extremes in Chile, combining multiple gridded datasets with quality-controlled rain gauge observations to characterize rainfall intensity under both stationary and non-stationary climate assumptions.&lt;/p&gt;
+&lt;p&gt;The platform is based on a rigorous statistical framework that integrates observational and model-derived precipitation data to estimate extreme rainfall intensities across the country. Annual maximum precipitation intensities are computed using both &lt;strong&gt;stationary&lt;/strong&gt; and &lt;strong&gt;non-stationary Gumbel probability distributions&lt;/strong&gt;, covering the range of durations and return periods commonly required in hydrological and hydraulic design.&lt;/p&gt;
+&lt;p&gt;The analysis incorporates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Five high-resolution hourly gridded precipitation datasets&lt;/strong&gt;, representing different methodological approaches to precipitation estimation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;More than 160 quality-controlled rain gauge stations&lt;/strong&gt;, providing reference observations for validation and bias correction.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bias-adjusted precipitation intensities&lt;/strong&gt;, ensuring consistency between gridded and in-situ estimates.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Trend detection techniques&lt;/strong&gt;, including the modified Mann–Kendall test, to evaluate long-term changes in extreme rainfall behavior.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The resulting intensity estimates are calculated for durations ranging from &lt;strong&gt;1 to 72 hours&lt;/strong&gt; and for return periods between &lt;strong&gt;2 and 100 years&lt;/strong&gt;, covering the range typically required for hydraulic and hydrologic design standards. This integrated methodology captures regional differences in precipitation extremes and reflects the strong spatial variability associated with Chile’s climatic and topographic diversity.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;data-sources&#34;&gt;Data sources&lt;/h2&gt;
+&lt;p&gt;
+ combines information from both observational and gridded precipitation datasets to ensure broad spatial coverage and statistical robustness.&lt;/p&gt;
+&lt;h3 id=&#34;gridded-precipitation-datasets&#34;&gt;Gridded precipitation datasets&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;IMERG v06B&lt;/li&gt;
+&lt;li&gt;IMERG v07B&lt;/li&gt;
+&lt;li&gt;ERA5&lt;/li&gt;
+&lt;li&gt;ERA5-Land&lt;/li&gt;
+&lt;li&gt;CMORPH-CDR&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;in-situ-observations&#34;&gt;In-situ observations&lt;/h3&gt;
+&lt;p&gt;Hourly precipitation records from quality-controlled rain gauge stations distributed across continental Chile.&lt;/p&gt;
+&lt;p&gt;These complementary datasets enable reliable estimation of extreme rainfall intensities in both data-rich and data-sparse regions, improving the spatial consistency and practical applicability of IDF curves nationwide.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;relevance-and-applications&#34;&gt;Relevance and applications&lt;/h2&gt;
+&lt;p&gt;Reliable estimates of extreme precipitation are essential for the safe design and operation of critical infrastructure. The &lt;strong&gt;Curvas IDF&lt;/strong&gt; platform provides a standardized, transparent, and nationally consistent reference for evaluating rainfall extremes in Chile, particularly in the context of increasing climate variability and the prolonged drought conditions observed since 2010.&lt;/p&gt;
+&lt;p&gt;By integrating advanced statistical methods, multiple data sources, and an accessible web interface, the platform supports evidence-based decision-making in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hydraulic and hydrologic engineering design&lt;/li&gt;
+&lt;li&gt;Flood risk and hazard assessment&lt;/li&gt;
+&lt;li&gt;Urban stormwater management&lt;/li&gt;
+&lt;li&gt;Climate adaptation planning&lt;/li&gt;
+&lt;li&gt;Environmental and infrastructure resilience studies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In operational terms, the platform transforms complex statistical analyses into accessible, decision-ready information that can be directly applied in engineering practice, scientific research, and public-sector planning.&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Soto-Escobar, C., &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Tolorza, V., &amp;amp; Garreaud, R. (2026). 
+. Hydrology and Earth System Sciences, 30(1), 91&amp;ndash;117. 
+.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mawün-NRT: Near real-time gridded precipitation for Chile</title>
+      <link>https://example.com/web-platforms/mawun-nrt/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/web-platforms/mawun-nrt/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;In an era characterized by increasing climate variability and the intensification of extreme weather events, the need for accurate and timely precipitation data has never been more critical. While several websites and applications offer weather forecasts that are improving every day, there is a critical gap in readily available post-event precipitation data.&lt;/p&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Mawün-NRT&lt;/strong&gt; (in Mapuzungun, &amp;ldquo;mawün&amp;rdquo; means &amp;ldquo;rain”) is a free and publicly accessible web platform (
+) that provides a user-friendly visualisation of the spatio-temporal distribution of precipitation events for continental Chile in near real-time.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/web-platforms/mawun-nrt/mawun-NRT-main_screen.jpg&#34;
+    alt=&#34;Mawün-NRT web platform&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Main screen of 
+ web platform&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;Mawün-NRT&lt;/strong&gt; was developed by the former student &lt;strong&gt;Rodrigo Marinao&lt;/strong&gt; and I with the support of the 
+ and the 
+, to supplement the existing web platform &lt;strong&gt;Mawün&lt;/strong&gt; (
+, which is focused on historical precipitation data.&lt;/p&gt;
+&lt;p&gt;Three state-of-the-art precipitation products are included in this first version of Mawün-NRT:&lt;/p&gt;
+&lt;p&gt;i) the near-real-time Multi-Source Weather (&lt;strong&gt;MSWX-NRT&lt;/strong&gt;, 3-hourly, 0.1°),&lt;/p&gt;
+&lt;p&gt;ii) PERSIANN Dynamic Infrared–Rain Rate (&lt;strong&gt;PDIR-Now&lt;/strong&gt;, hourly and 0.04°) and&lt;/p&gt;
+&lt;p&gt;iii) the Integrated Multi-satellitE Retrievals for GPM (&lt;strong&gt;IMERGv07&lt;/strong&gt; and IMERGv06, half-hourly, 0.1°) in both the Early and Late versions.&lt;/p&gt;
+&lt;p&gt;In addition, hourly data from hundreds of rain gauges of different Chilean institutions (e.g. DGA, DMC, Agromet, CEAZA) are collected in near real-time by the Vismet web platform (
+) and used in Mawün-NRT to compare the gridded precipitation estimates with the corresponding in situ values, as a soft measure of the uncertainty in the precipitation estimates.&lt;/p&gt;
+&lt;p&gt;The near real-time capabilities of Mawün-NRT allows decision makers to evaluate which product provides better identification of the spatial area really affected by the precipitation event, fostering a timely decision-making and a proactive response to evolving weather conditions. A case study shows the monitoring of an extreme event that affected the south-central area of Chile in June of this year 2024, with devastating societal and economic impacts.&lt;/p&gt;
+&lt;p&gt;A detailed tutorial can be found 
+.&lt;/p&gt;
+&lt;p&gt;Some example applications can be found 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mawün: Historical gridded precipitation for Chile</title>
+      <link>https://example.com/web-platforms/mawun/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/web-platforms/mawun/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h3 id=&#34;context&#34;&gt;Context&lt;/h3&gt;
+&lt;p&gt;Over recent decades, gridded precipitation products have become an essential data source for hydrological and climate studies, particularly in regions where conventional observations from rain gauges are sparse or unevenly distributed. This situation is especially relevant in Chile, where complex topography, such as the Andes mountain range, and large geographic contrasts create significant challenges for monitoring precipitation using traditional measurement networks alone.&lt;/p&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;
+, meaning &amp;ldquo;rain&amp;rdquo; in Mapuzungun, is a web platform designed to support the exploration, visualisation, and analysis of spatially distributed precipitation estimates (SDPEs), commonly referred to as gridded precipitation datasets, for continental Chile during the historical period 1981–2020. The platform was created by the former student &lt;strong&gt;Rodrigo Marinao&lt;/strong&gt; and I to simplify access to complex precipitation datasets and to enable users to quickly obtain actionable information without the need for specialised data processing workflows.&lt;/p&gt;
+&lt;p&gt;Developed by the 
+ with support from the 
+, &lt;strong&gt;Mawün&lt;/strong&gt; provides a centralized environment where researchers, practitioners, and decision-makers can interactively examine precipitation patterns across Chile’s diverse climatic regions.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/web-platforms/mawun/mawun-main_screen.jpg&#34;
+    alt=&#34;Mawün web platform&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Main screen of 
+ web platform&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;mawün-functionality&#34;&gt;Mawün functionality&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Mawün v2.0&lt;/strong&gt; provides a suite of tools designed to support exploratory analysis, validation, and data extraction workflows commonly required in hydrology, climatology, and water resources management. Core capabilities include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Interactive visualization&lt;/strong&gt; of the spatial distribution of precipitation from multiple gridded products, enabling rapid assessment of regional patterns and variability.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Direct comparison&lt;/strong&gt; between precipitation time series from gridded datasets and in-situ observations recorded at rain gauge stations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Point-based data extraction&lt;/strong&gt;, allowing users to obtain precipitation time series for any location in continental Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Area-based data extraction&lt;/strong&gt;, enabling the download of precipitation time series aggregated over user-defined polygons, such as watersheds or administrative regions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Event-focused analysis&lt;/strong&gt;, including the download of daily precipitation maps for specific precipitation events (up to 20 consecutive days), with optional spatial cropping.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Climatological visualization&lt;/strong&gt;, supporting the display of long-term average annual and monthly precipitation patterns.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Multi-dataset comparison&lt;/strong&gt;, facilitating the evaluation of consistency and differences among gridded precipitation products and observational records.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These tools are designed to reduce technical barriers to data access and to support reproducible analyses, rapid diagnostics, and evidence-based decision-making.&lt;/p&gt;
+&lt;h3 id=&#34;data-sources&#34;&gt;Data Sources&lt;/h3&gt;
+&lt;p&gt;The datasets available through Mawün originate from both national and international initiatives and combine information derived from satellite observations, atmospheric reanalysis systems, and, in many cases, statistical calibration with ground-based rain gauge measurements. By integrating these complementary sources, the platform offers a consistent and spatially comprehensive representation of precipitation variability across the country over the last four decades.&lt;/p&gt;
+&lt;p&gt;Rain gauge observations integrated into Mawün were compiled by the 
+ from the national hydrometeorological monitoring networks operated by the 
+ and the 
+. These observational records provide the reference measurements used for validation and calibration of gridded precipitation products.&lt;/p&gt;
+&lt;p&gt;The platform currently provides access to the following gridded precipitation datasets covering (in most cases) the period 1981–2020:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CR2MET v2&lt;/li&gt;
+&lt;li&gt;CR2MET v2.5beta&lt;/li&gt;
+&lt;li&gt;IMERG v06B&lt;/li&gt;
+&lt;li&gt;ERA5&lt;/li&gt;
+&lt;li&gt;ERA5-Land&lt;/li&gt;
+&lt;li&gt;CHIRPS v2&lt;/li&gt;
+&lt;li&gt;CMORPH v1&lt;/li&gt;
+&lt;li&gt;MSWEP v2.8&lt;/li&gt;
+&lt;li&gt;MSWX v1.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Geenreal description in Spanish&lt;/strong&gt;: 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;User-manual in Spanish&lt;/strong&gt;: 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Study cases&lt;/strong&gt;: 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

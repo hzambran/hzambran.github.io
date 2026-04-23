@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soil Moisture | </title>
+    <link>https://example.com/tags/soil-moisture/</link>
+      <atom:link href="https://example.com/tags/soil-moisture/index.xml" rel="self" type="application/rss+xml" />
+    <description>Soil Moisture</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Soil Moisture</title>
+      <link>https://example.com/tags/soil-moisture/</link>
+    </image>
+    
+    <item>
+      <title>Pulliko: Gridded soil moisture for Chile</title>
+      <link>https://example.com/web-platforms/pulliko/</link>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.com/web-platforms/pulliko/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h3 id=&#34;context-and-motivation&#34;&gt;Context and motivation&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Reliable monitoring of soil moisture&lt;/strong&gt; is essential for understanding water availability, managing drought risk, and supporting sustainable water resources management. Soil moisture regulates key hydrological processes such as infiltration, runoff, evaporation, and plant water uptake, and plays a central role in land–atmosphere interactions. Conditions in the surface soil layer (&lt;strong&gt;SSM&lt;/strong&gt;; 0–10 cm) respond rapidly to rainfall events, while moisture in the deeper root zone (&lt;strong&gt;RZSM&lt;/strong&gt;; 0–100 cm) evolves more slowly and sustains vegetation during dry periods, influencing the onset and persistence of extreme events such as droughts and intense rainfall.&lt;/p&gt;
+&lt;p&gt;Accurate representation of these dynamics requires spatially continuous information derived from multiple data sources. Ground-based measurements provide high-quality observations but are geographically sparse, particularly in the Southern Hemisphere. Satellite observations offer broad and frequent coverage, yet they primarily capture near-surface conditions and can be affected by vegetation and environmental factors. Therefore, &lt;strong&gt;integrating diverse datasets within a unified monitoring framework&lt;/strong&gt; is therefore critical for delivering timely, reliable information on soil moisture conditions across large and climatically diverse regions such as Chile, where environmental conditions range from the hyper-arid north to the humid south.&lt;/p&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;In response to this need, during her undergraduate thesis, &lt;strong&gt;Rocío Muñoz Neira&lt;/strong&gt; developed under my supervision an operational web platform designed to provide near real-time monitoring of soil moisture and its anomalies across continental Chile. The platform integrates multiple high-quality datasets to deliver timely, spatially consistent information that can support decision-making in agriculture, water resources management, environmental monitoring, and scientific research.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Four state-of-the-art gridded soil moisture products&lt;/strong&gt; were selected based on their long-term data availability, spatial and temporal resolution, and operational reliability. These products provide volumetric soil moisture estimates for both the &lt;strong&gt;surface soil layer&lt;/strong&gt; (0–10 cm) and the &lt;strong&gt;root zone soil layer&lt;/strong&gt; (0–100 cm). The four available gridded soil moisture products are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ERA5&lt;/strong&gt; (0.25° spatial resolution, hourly updates, approximately 6-day latency),&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ERA5-Land&lt;/strong&gt; (0.1°, hourly, approximately 6-day latency),&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GLDAS-Noah&lt;/strong&gt; (0.25°, three-hourly, approximately 4-month latency), and&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SMAP-L4&lt;/strong&gt; (9 km resolution, three-hourly, approximately 2.5-day latency).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following article evalautes the four previous soil moisture datasets against in situ measurements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Núñez-Ibarra, D. A.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Galleguillos, M. (2026). 
+. Hydrology and Earth System Sciences, 30, 1813&amp;ndash;1847. 
+.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Together, these complementary soil moisture datasets offer robust coverage across a wide range of climatic and hydrological conditions.&lt;/p&gt;
+&lt;p&gt;To enhance the interpretation of soil moisture conditions, the platform also computes &lt;strong&gt;two standardised drought indicators&lt;/strong&gt; of soil moisture anomalies:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;strong&gt;Standardized Soil Moisture Index&lt;/strong&gt; (&lt;strong&gt;SSMI&lt;/strong&gt;) is a parametric indicator based on the gamma probability distribution, while&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;the &lt;strong&gt;Empirical Standardized Soil Moisture Index&lt;/strong&gt; (&lt;strong&gt;ESSMI&lt;/strong&gt;) is a non-parametric indicator derived using kernel density estimation techniques.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These indices are calculated automatically on a daily basis at multiple temporal aggregation scales (1, 3, 6, 12, and 24 months), allowing users to assess short-term variability as well as longer-term hydrological trends.&lt;/p&gt;
+&lt;p&gt;The system operates through a fully automated data pipeline. External data servers are queried regularly to identify the most recent observations, which are then downloaded, processed, and stored on the internal infrastructure of the 
+ of the Department of Civil Engineering at the Universidad de La Frontera. The processed soil moisture fields and derived anomaly indicators are subsequently displayed through the 
+, meaning &amp;ldquo;water in the soil&amp;rdquo; in mapuzungun, interactive web interface, enabling users to explore current conditions and historical patterns in an intuitive and accessible manner.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/web-platforms/pulliko/pulliko-main_screen.jpg&#34;
+    alt=&#34;Pulliko web platform&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Main screen of 
+ web platform&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;By combining reliable data sources, automated processing, and interactive visualization tools, this platform provides a practical and scientifically robust resource for monitoring soil moisture dynamics across Chile. Its near real-time capabilities support informed decision-making, improve situational awareness during hydrological extremes, and contribute to a better understanding of the country&amp;rsquo;s evolving water and climate conditions.&lt;/p&gt;
+&lt;p&gt;Additional information about the development of this platform can be found in the 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The catchment’s memory: understanding how hydrological extremes are modulated by antecedent soil moisture conditions in a warmer climate</title>
+      <link>https://example.com/projects/2021-2025-fondecyt1212071/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/projects/2021-2025-fondecyt1212071/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h3 id=&#34;context-and-motivation&#34;&gt;Context and motivation&lt;/h3&gt;
+&lt;p&gt;Global warming is reshaping the hydrological cycle, not only through gradual shifts in mean precipitation but also by intensifying precipitation extremes. These extremes cascade through river basins, potentially triggering floods or prolonged hydrological droughts, with far-reaching impacts on communities, infrastructure, and ecosystems. A critical regulator of this cascade is &lt;strong&gt;antecedent soil moisture&lt;/strong&gt;, which governs runoff generation and reflects the &amp;ldquo;memory&amp;rdquo; of the catchment and modulating how atmospheric anomalies translate into hydrological responses.&lt;/p&gt;
+&lt;p&gt;Chile&amp;rsquo;s 2010&amp;ndash;2019 megadrought offers a unique large-scale natural experiment to examine how sustained warming and drying alter the transformation of meteorological extremes into hydrological extremes. Understanding this transformation is essential for anticipating future risks under a changing climate.&lt;/p&gt;
+&lt;h3 id=&#34;project-description&#34;&gt;Project description&lt;/h3&gt;
+&lt;p&gt;This four-year research project (April 2021–March 2025) is funded by the Chilean National Agency for Research and Development (
+) under the &lt;em&gt;Concurso Fondecyt Regular 2021&lt;/em&gt; call. The project investigates four representative Chilean catchments (Petorca en Longotoma, Mapocho en Los Almendros, Cauquenes en Desembocadura y Trancura antes de Llafenco) over the 1980&amp;ndash;2019 period, integrating statistical extreme-event analysis with process-based hydrological modelling. Meteorological and hydrological extremes will be systematically characterized using standardised indices (e.g., SPI, SSI/SRI) and complementary metrics of duration, volume, and intensity to assess multi-decadal changes in frequency and severity.&lt;/p&gt;
+&lt;p&gt;To explore the mechanisms underlying these changes, two hydrological models with contrasting structural representations of catchment processes will be implemented (TUWmodel, SWAT+). Model calibration will rely on a &lt;strong&gt;multi-variable, multi-objective framework&lt;/strong&gt;, jointly assimilating in-situ observations and advanced remote-sensing products, including soil moisture, total water storage, evapotranspiration, and snow cover.&lt;/p&gt;
+&lt;p&gt;Sub-daily simulations (2001–2019) will further enable a detailed assessment of how antecedent soil moisture conditions influence peak discharge generation and storm-event dynamics, providing process-level insight into the amplification or attenuation of extremes.&lt;/p&gt;
+&lt;p&gt;The project (&lt;em&gt;ANID-Fondecyt 1212071: The catchment&amp;rsquo;s memory: understanding how hydrological extremes are modulated by antecedent soil moisture conditions in a warmer climate&lt;/em&gt;) is led by me, and have Dr. Mauricio Galleguillos (U. de Chile and U. Adolfo Ibañez, Chile), Dra. Camila Alvarez-Garreton (CR2, Chile) and Dr. Oscar Baez-Villanueva (U. Ghent, Belgium) as co-investigators.&lt;/p&gt;
+&lt;h3 id=&#34;expected-contribution-to-decision-making&#34;&gt;Expected contribution to decision-making&lt;/h3&gt;
+&lt;p&gt;By elucidating the role of soil moisture as a mediator between atmospheric forcing and hydrological response, the project will advance understanding of how warming climates reshape flood and drought dynamics. The results will provide quantitative evidence on the potential amplification of flood peaks and the persistence of hydrological droughts under changing baseline conditions.&lt;/p&gt;
+&lt;p&gt;These findings will directly inform water resources planning, risk assessment, and early-warning system design. Beyond Chile, the methodological framework and analytical tools developed in this project will offer transferable approaches for operational hydrological assessment and climate resilience planning in regions facing increasing hydroclimatic stress.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

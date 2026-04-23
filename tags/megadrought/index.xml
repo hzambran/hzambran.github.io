@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Megadrought | </title>
+    <link>https://example.com/tags/megadrought/</link>
+      <atom:link href="https://example.com/tags/megadrought/index.xml" rel="self" type="application/rss+xml" />
+    <description>Megadrought</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Megadrought</title>
+      <link>https://example.com/tags/megadrought/</link>
+    </image>
+    
+    <item>
+      <title>Cambio climático alimenta &#39;mancha&#39; caliente oceánica que causa megasequía en Chile según un estudio (La Tercera)</title>
+      <link>https://example.com/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
+      <description>&lt;p&gt;According to a recent study, a gigantic slick of more than 8 million kilometers located east of New Zealand is largely responsible for the dramatic lack of water that is affecting the central area of Chile.&lt;/p&gt;
+&lt;p&gt;The full note can be read on the 
+ or in the 
+.&lt;/p&gt;
+&lt;p&gt;The scientific article published in the &lt;em&gt;Journal of Climate&lt;/em&gt; is available 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
+    alt=&#34;https://www.latercera.com/que-pasa/noticia/cambio-climatico-alimenta-mancha-caliente-oceanica-que-causa-megasequia-en-chile-segun-un-estudio/&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Fuente: La Tercera&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

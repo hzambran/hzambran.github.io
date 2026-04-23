@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fondecyt-1171560 | </title>
+    <link>https://example.com/tags/fondecyt-1171560/</link>
+      <atom:link href="https://example.com/tags/fondecyt-1171560/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fondecyt-1171560</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Fondecyt-1171560</title>
+      <link>https://example.com/tags/fondecyt-1171560/</link>
+    </image>
+    
+    <item>
+      <title>Fondecyt Regular 1171560 selected in 2017 competition !</title>
+      <link>https://example.com/blog/2017-02-07-fondecyt_regular_con_mg-accepted/</link>
+      <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2017-02-07-fondecyt_regular_con_mg-accepted/</guid>
+      <description>&lt;p&gt;The proyect 1171560 entitled &amp;ldquo;&lt;em&gt;Assessing spatio-temporal impacts of global change on water and biomass production processes at catchment scale: a synergistic approach based on remote sensing and coupled hydrological models to improve sustainable management of forest ecosystems&lt;/em&gt;&amp;rdquo; was 
+ in the 2017 Chilean competition for &amp;ldquo;Fondecyt Regular&amp;rdquo; proyects.&lt;/p&gt;
+&lt;p&gt;This proposal is a collaborative effort born completly within the  
+ FONDAP, where the principal investigator (PI) Mauricio Galleguillos and me (Co-PI) are working. This proyect started as a truly interdisciplinary idea, and a research visit of the PI to Temuco was the perfect ocassion to discuss about the main research question, methodology and expected outcomes.&lt;/p&gt;
+&lt;p&gt;The recent fires that are affecting Chile since January 2017, are important evidence that the outcomes of this project might have important societal impacts.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

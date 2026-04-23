@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAMELS-CL | </title>
+    <link>https://example.com/tags/camels-cl/</link>
+      <atom:link href="https://example.com/tags/camels-cl/index.xml" rel="self" type="application/rss+xml" />
+    <description>CAMELS-CL</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>CAMELS-CL</title>
+      <link>https://example.com/tags/camels-cl/</link>
+    </image>
+    
+    <item>
+      <title>RcamelsCL</title>
+      <link>https://example.com/rpackages/rcamelscl/</link>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/rpackages/rcamelscl/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+ is an R package developed to provide streamlined and reliable access to the Catchment Attributes and Meteorology for Large Sample Studies – Chile dataset (
+), a widely used benchmark resource for large-sample hydrology and comparative catchment analysis. This package focuses on simplifying the acquisition, organisation, and handling of both spatial and temporal data required for hydrological research and modelling across diverse climatic and physiographic regions of Chile.&lt;/p&gt;
+&lt;p&gt;Designed to support reproducible scientific workflows, 
+ offers a consistent interface for downloading and managing hydrometeorological time series and catchment attributes directly from the official data repository. By standardising data access and preprocessing steps, the package reduces the time and effort typically required to prepare datasets for analysis, allowing users to focus on model development, hypothesis testing, and large-sample hydrological investigations.&lt;/p&gt;
+&lt;p&gt;Importantly, 
+ preserves the integrity of the original dataset by providing direct access to the original raw data, without altering their content. This approach ensures transparency and traceability in scientific applications, which is particularly relevant for studies involving benchmarking, model intercomparison, and regional hydrological assessment.&lt;/p&gt;
+&lt;p&gt;Well suited for research, teaching, and operational analysis, 
+ provides a technically sound and efficient gateway to one of the most comprehensive hydrological datasets available for Chile. It is especially valuable for users seeking a reliable foundation for data-driven hydrological studies and reproducible environmental research.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/rpackages/rcamelscl/RcamelsCL-logo.jpg&#34;
+    alt=&#34;RcamelsCL R package.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;R package.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fondecyt-11150861 | </title>
+    <link>https://example.com/tags/fondecyt-11150861/</link>
+      <atom:link href="https://example.com/tags/fondecyt-11150861/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fondecyt-11150861</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Fondecyt-11150861</title>
+      <link>https://example.com/tags/fondecyt-11150861/</link>
+    </image>
+    
+    <item>
+      <title>Article on hydrological drought monitoring published in HESS</title>
+      <link>https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
+      <description>&lt;p&gt;On March 28th, 2024, 
+ published the article entitled 
+. This study investigates the suitability of different drought indices and temporal scales for monitoring streamflow drought in catchments with different hydrological regimes.&lt;/p&gt;
+&lt;p&gt;Considering the lack of consensus on which drought indices and temporal scales are most appropriate for monitoring hydrological droughts, and the growing interest in the use of spatially distributed drought indices in ungauged areas (i.e, without streamflow data), this study addresses the following questions:&lt;/p&gt;
+&lt;p&gt;i) Which temporal scales of precipitation-based indices are best suited to assess streamflow drought in catchments with different hydrological regimes?&lt;/p&gt;
+&lt;p&gt;ii) Are soil moisture indices superior to meteorological indices as proxies of streamflow drought?&lt;/p&gt;
+&lt;p&gt;iii) Are snow indices more effective than meteorological indices for assessing streamflow drought in snow-influenced catchments?&lt;/p&gt;
+&lt;p&gt;To answer these questions, we investigated 100 near-natural catchments in Chile with four hydrological regimes (nival, nivo-pluvial, pluvio-nival, and pluvial), using the standardised precipitation index (&lt;strong&gt;SPI&lt;/strong&gt;), the standardised precipitation evapotranspiration index (&lt;strong&gt;SPEI&lt;/strong&gt;), the empirical standardised soil moisture index (&lt;strong&gt;ESSMI&lt;/strong&gt;), and the standardised snow water equivalent index (&lt;strong&gt;SWEI&lt;/strong&gt;), aggregated over different temporal scales. Cross-correlation and event coincidence analyses were performed between these indices and the standardised streamflow index on a temporal scale of 1 month (&lt;strong&gt;SSI-1&lt;/strong&gt;), as representative of streamflow drought events.&lt;/p&gt;
+&lt;p&gt;Our results reveal that &lt;strong&gt;no single drought index and temporal scale can be recommended for all catchments and hydrological regimes&lt;/strong&gt;, and that snow-influenced catchments require drought indices with larger temporal scales. In particular, for &lt;strong&gt;snowmelt-driven catchments&lt;/strong&gt; characterised by a slow response of runoff to precipitation we recommend &lt;strong&gt;SPI-12&lt;/strong&gt; and &lt;strong&gt;SPI-24&lt;/strong&gt; as the best proxy indices for characterising streamflow droughts. In contrast, for faster-response &lt;strong&gt;rainfall-driven catchments&lt;/strong&gt; we recommend the &lt;strong&gt;SPI-3&lt;/strong&gt; as the best proxies. Although soil moisture and snowpack are key variables that modulate the propagation of meteorological deficits into hydrological ones, &lt;strong&gt;the SPI and SPEI meteorological indices generally outperformed the soil moisture and snowpack-based indices in monitoring streamflow drought&lt;/strong&gt;. Finally, to exclude the influence of non-drought periods, we recommend using the &lt;strong&gt;event coincidence analysis&lt;/strong&gt;, a method that helps to assess the suitability of meteorological, soil moisture, and/or snowpack-based drought indices as proxies for streamflow drought events.&lt;/p&gt;
+&lt;p&gt;The 
+ to this article contains much aditional information on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the selection of soil moisture and SWE products (&lt;strong&gt;S1&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;the temporal scales with the highest cross-correlation and event coincidence rates (&lt;strong&gt;S2&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;boxplots for analysing the cross-correlation and event coincidence on different temporal scales and with different lag times (&lt;strong&gt;S3&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;spatial analysis for cross-correlation and event coincidence analysis at different temporal scales and lag times (&lt;strong&gt;S4&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;boxplots for the cross-correlation analysis for different hydrological regimes (&lt;strong&gt;S5&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;boxplots for the event coincidence analysis for different hydrological regimes (&lt;strong&gt;S6&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;difference between parametric and non-parametric approach for the calculation of drought indices for soil moisture (&lt;strong&gt;S7&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;summary of them median monthly P and Q values for all selected catchments (&lt;strong&gt;S8&lt;/strong&gt;), and&lt;/li&gt;
+&lt;li&gt;figures with the median monthly P and Q values for all selected catchments (&lt;strong&gt;S9&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This work is the result of years of international collaboration with Dr. Oscar M. Baez-Villanueva, collecting and analysing different gridded datasets of key meteorological variables, since the  ANID Fondecyt 11150861 project in 2017. In particular, this article was an integral part of the project 
+ lead by Camila Álvarez-Garretón and Juan Pablo Boisier at the 
+, and received additional funding from the research projects 
+ led by me at 
+, Chile.&lt;/p&gt;
+&lt;p&gt;I hope that the results of this article can be considered by the General Directorate of Water of Chile (DGA) to improve the criteria used to monitor and identify hydrological droughts in Chile, within the framework of water scarcity declarations (Res. Exe. DGA No. 1331/2022, and articles 314 and 315 of the Chilean Water Code).&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
+    alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Graphical abstract&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Two posters at AGU 2022</title>
+      <link>https://example.com/dissemination/2022-12-12-agu2022/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2022-12-12-agu2022/</guid>
+      <description>&lt;p&gt;During the week of December 12 to 16th, 2022, I participated in the Conference 
+, held in the city of Chicago ( USES). This is the most important conference worldwide in the area of Earth Sciences, and it is held annually.&lt;/p&gt;
+&lt;p&gt;On this occasion, I presented two posters:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+. hydroRTS is a new package for the 
+ that is about to be submitted to [CRAN](
+- project.org/). This package allows you to work efficiently with large amounts of gridded data that have an hourly, daily, monthly, or annual time frequency. This work summarizes a large amount of work that I have carried out since 2013. However, only the collaboration of Civil Engineer Sebastián Bernal, who graduated in Civil Engineering in 2022 from the Universidad de la Frontera, made it possible to organize systematically and adequately document a set of functions that are useful to the global community of Hydrologists and Earth Scientists. This collaboration was only possible thanks to the funding provided by the 
+, directed by Dr. Zambrano-Bigiarini.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/AGU2022-01_Fotos_hydroRTS.jpg&#34; alt=&#34;An R package for efficient analysis of raster time series&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. 
+ is a new package for the 
+ that is about to be submitted to [CRAN](
+- project.org/). This package allows you to perform a multi-objective calibration of any hydrological/environmental model (actually, a model from any subject area), whether this model is implemented in R or requires to be executed from the system console in a local PC or in a server. This package has been developed by Civil Engineer Rodrigo Marinao, who is a graduate of Civil Engineering at the Universidad de la Frontera, student of the 
+ of the same house of studies, and research assistant at the 
+. The collaboration with Rodrigo Marinao started during the Hydrology course in the Civil Engineering degree, and has continued uninterrupted since then. This work also received funding from 
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/AGU2022-02_Foto_hydroMOPSO.jpg&#34; alt=&#34;hydroMOPSO: A Versatile Multi-Objective Optimization R Package for Calibration of Environmental and Hydrological Models&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, during this conference I took the opportunity to discuss various topics with Dr. Camila Álvarez Garreón (CR2), Dr. Mauricio Galleguillos (U. Adolfo Ibáñez) and Dr. Juan Pablo Boiser (CR2), who also participate in the 
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/AGU2022-03_Foto_Chi2.jpg&#34; alt=&#34;Project Chile-China NSFC 190018&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on challenge of unprecedented floods and droughts in risk management published in Nature</title>
+      <link>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
+      <description>&lt;p&gt;On August 4, 2022, Nature published the article entitled 
+. This article
+shows that risk management has reduced vulnerability to floods and droughts worldwide, but their impacts continue to increase. Therefore, we need a better understanding of the causes of impacts in a changing climate, but this better understanding has been hampered by a lack of empirical data.&lt;/p&gt;
+&lt;p&gt;Based on a global data set of 45 pairs of extreme events that occurred within the same area (one of them in Chile), an interdisciplinary team of 92 authors from various countries, led by Dra. Heidi Kreibich, showed that adequate risk management generally succeeds in reducing impacts of floods and droughts, but faces difficulties in reducing the impacts of unprecedented events, i.e., events of a magnitude never experienced before.&lt;/p&gt;
+&lt;p&gt;Furthermore, when the second extreme event was more dangerous than the first, its impact was almost always greater. This is because management was not designed to deal with such extreme events, which resulted in levees and reservoirs exceeding design levels.&lt;/p&gt;
+&lt;p&gt;In two success stories, the impact of the second, more dangerous event was less, as a result of better risk management governance and high investment in integrated management. The observed difficulty in managing unprecedented events is alarming, given that more extreme hydrological events are projected due to climate change.&lt;/p&gt;
+&lt;p&gt;This work is the fruit of years of international cooperation with the Technical University of Cologne in Germany and with the 
+ Group, dedicated to research activities on changes in hydrology and society. This work had its origins in a meeting held at the European Geosciences Union (EGU) Conference in 2018, where Dr. Zambrano-Bigiarini participated together with Dr. Camila Álvarez Garretón (both belonging to the CR2 FONDAP center) in a meeting with members of the 
+, and began to define the objectives of this article.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
+    alt=&#34;https://doi.org/10.1038/s41586-022-04917-5&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on Water Balancece in the Nile Basin using gridded P and ETa accepted for publication in JoH-RS</title>
+      <link>https://example.com/blog/2021-08-13-johrs_article_on_rs4nile_published/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2021-08-13-johrs_article_on_rs4nile_published/</guid>
+      <description>&lt;p&gt;The article  
+ has been published on the 
+ journal.&lt;/p&gt;
+&lt;p&gt;This article evaluates the performance of eleven state-of-the-art precipitation (&lt;em&gt;P&lt;/em&gt;) products and seven actual evapotranspiration (&lt;em&gt;ETa&lt;/em&gt;) products over the Nile Basin using a four-step procedure: (&lt;strong&gt;i&lt;/strong&gt;)  products were evaluated at the monthly scale through a point-to-pixel approach; (&lt;strong&gt;ii&lt;/strong&gt;) streamflow was modelled using the Random Forest machine learning technique, and simulated for well-performing catchments for 2009–2018 (to correspond with ETa product availability); (&lt;strong&gt;iii&lt;/strong&gt;) ETa products were evaluated at the multiannual scale using the water balance method; and (&lt;strong&gt;iv&lt;/strong&gt;) the ability of the best-performing  and ETa products to represent monthly variations in terrestrial water storage (&lt;em&gt;TWS&lt;/em&gt;) was assessed through a comparison with GRACE Level-3 data.&lt;/p&gt;
+&lt;p&gt;The application of the water balance using the best-performing products captures the seasonality of TWS well over the White Nile Basin, but overestimates seasonality over the Blue Nile Basin. Our study &lt;strong&gt;demonstrates how gridded  and ETa products can be evaluated over extremely data-scarce conditions using an easily transferable methodology&lt;/strong&gt;.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2021-08-13-johrs_article_on_rs4nile_published/featured.jpg&#34;
+    alt=&#34;https://doi.org/10.1016/j.ejrh.2021.100884&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on Water Resources Management in the Araucanía region (Chile) accepted for publication in IJWRD</title>
+      <link>https://example.com/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</guid>
+      <description>&lt;p&gt;The article 
+ was finally published on the 
+ journal.&lt;/p&gt;
+&lt;p&gt;The Chilean Irrigation Commission (CNR) is evaluating an important expansion of irrigated areas in the Araucanía region in southern Chile. This work uses the WEAP water allocation model to investigate whether the construction of two reservoirs combined with higher irrigation efficiency could increase drought resilience in the drought-prone Araucanía region (Chile).&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on Random Forest for merging satellite-based datasets with gorund observations published in RSE</title>
+      <link>https://example.com/blog/2020-01-02-rse_article_rfmerge_published/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2020-01-02-rse_article_rfmerge_published/</guid>
+      <description>&lt;p&gt;The article 
+ was accepted for publication in December 2019 and made available online on January 2nd 2020 in the 
+ journal.&lt;/p&gt;
+&lt;p&gt;This work presents the &lt;strong&gt;Random Forest based MErging Procedure&lt;/strong&gt; (&lt;strong&gt;RF-MEP&lt;/strong&gt;), which allows to combine information from ground-based measurements, satellite-based precipitation products, and topography-related features to improve the representation of the spatio-temporal distribution of precipitation, especially in data-scarce regions. RF-MEP is applied over Chile for 2000-2016, using daily measurements from 258 rain gauges for model training and 111 stations for validation. Two merged datasets were computed: RF-MEP3P (based on PERSIANN-CDR, ERA-Interim, and CHIRPSv2) and RF-MEP5P (which additionally includes CMORPHv1 and TRMM 3B42v7). Our results suggest that RF-MEP could successfully be applied to other regions and to correct other climatological variables. The &lt;strong&gt;RFmerge&lt;/strong&gt; R package, which implements RF-MEP, is freely available online at 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Special Issue on hydrological processes in LAC published in HP</title>
+      <link>https://example.com/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</guid>
+      <description>&lt;p&gt;Finally, the preface 
+ was published on November 12th 2019 for the 
+.&lt;/p&gt;
+&lt;p&gt;In this special issue of Hydrological Processes, we showcase the variety of ongoing research in catchments of the hydrometeorological, geomorphological and biogeographical mega-diverse region of Latin America and the Caribbean (LAC). The papers of this special issue address hydrological processes that regulate storage, mixing, and fluxes of water and solutes from the driest Atacama Desert in Chile (annual precipitation lower than 10 mm in some places) to the wettest mountainous areas of Central America (annual rainfall up to 8000 mm), including the richest biodiversity on Earth present in the Amazon. Not only are tropical rainforest ecosystems poorly represented in hydrologic research, the LAC contains a myriad of unique lowland to montane ecosystems across the climate gradient that also includes snow and ice processes. Opportunities to advance understanding of how vegetation and landforms redistribute moisture abound in the remote reaches of Latin America.&lt;/p&gt;
+&lt;p&gt;There are three major transcending themes covered in this SI: 1) Hydrological processes across climate gradients 2) Unique ecosystems with limited hydrological research 3) Effects of land use change on hydrology&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on bias correction of global high-resolution precipitation climatologies published in JoC</title>
+      <link>https://example.com/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</guid>
+      <description>&lt;p&gt;On November 4th, the article 
+ was published in the 
+. In this article, we introduce a set of global high-resolution (0.05º) precipitation (P) climatologies corrected for bias using streamflow (Q) observations from 9372 stations worldwide.&lt;/p&gt;
+&lt;p&gt;For each station, we inferred the &amp;ldquo;true&amp;rdquo; long-term P using a Budyko curve, an empirical equation relating long-term P, Q, and potential evaporation. We subsequently calculated long-term bias correction factors for three state-of-the-art P climatologies (WorldClim V2, CHELSA V1.2, and CHPclim V1), after which we used random forest regression to produce global gap-free bias correction maps for the climatologies. Monthly climatological bias correction factors were calculated by disaggregating the long-term bias correction factors based on gauge catch efficiencies.&lt;/p&gt;
+&lt;p&gt;We found that &lt;strong&gt;all three climatologies systematically underestimate P&lt;/strong&gt; over parts of all major mountain ranges globally, despite the explicit consideration of orography in the production of each climatology. Additionally, all climatologies underestimate P at latitudes &amp;gt; 60ºN, likely due to gauge under-catch. Exceptionally &lt;strong&gt;high long-term correction factors (&amp;gt; 1.5) were obtained for all three climatologies in Alaska, High Mountain Asia, and Chile&lt;/strong&gt; - regions characterized by marked elevation gradients, sparse gauge networks, and significant snowfall. Using the bias-corrected WorldClim V2, we demonstrated that other widely used P datasets (GPCC V2015, GPCP V2.3, and MERRA-2) severely underestimate P over Chile, the Himalayas, and along the Pacific coast of North America. Mean P for the global land surface based on the bias-corrected WorldClim V2 is 862 mm yr−1 (a 9.4% increase over the original WorldClim V2).&lt;/p&gt;
+&lt;p&gt;The annual and monthly bias-corrected P climatologies have been released as the Precipitation Bias CORrection (PBCOR) dataset — downloadable via 
+.&lt;/p&gt;
+&lt;p&gt;This work started with the visit of Hylke Beck to the Universidad de La Frontera in January 2019, thanks to the funds provided by the Fondecyt project 11150861.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Conference: When, where, and how much did it rain?</title>
+      <link>https://example.com/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Conference: When, where, and how much did it rain?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On January 22th 2019, Dr Hylke Beck gave an 
+ entitled &lt;em&gt;&amp;ldquo;When, where, and how much did it rain?&amp;rdquo;&lt;/em&gt; at the Facultad de Ingeniería y Ciencias of the Universidad de La Frontera (UFRO) in Temuco. In this presentation Dr. Beck presented 
+, the first fully global precipitation dataset with a 0.1º resolution derived by optimally merging a range of gauge, satellite, and reanalysis estimates.&lt;/p&gt;
+&lt;p&gt;Dr Hylke Beck (BSc, MSc, PhD) is an experienced researcher specializing in earth observation, hydrological modeling, and flood and drought forecasting. He has published over 40 peer-reviewed papers in prestigious international journals, including Nature Climate Change and Bulletin of the American Meteorological Society, and collaborated with several world-renowned scientists in the fields of hydrology and meteorology. At Princeton University, where he is currently employed, he is developing a global flood and drought warning system with unprecedented accuracy and resolution. He has produced multiple innovative climate data products, including the groundbreaking Multi-Source Weighted-Ensemble Precipitation (MSWEP) product, which has already been used by 500+ institutions worldwide.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Oral presentation at AGU 2018</title>
+      <link>https://example.com/dissemination/2018-12-15-agu2018/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2018-12-15-agu2018/</guid>
+      <description>&lt;p&gt;During the second week of December 2018, I made an oral presentation at the 
+ in Washington D.C. (USA), the most important scientific event of Earth Sciences worldwide.&lt;/p&gt;
+&lt;p&gt;The work was entitled 
+ (Final paper number 
+). It evaluates the improvements of the latest IMERG version 05 Final Run (IMERGv05-F) over its predecessor TMPA 3B42v7, over the diverse climatic gradients and complex topography of Chile, from January 2015 to December 2016.&lt;/p&gt;
+&lt;p&gt;In addition, I participated as co-author in the work 
+ (Final paper number 
+), which summarises the MSc thesis carried out by Hamish Hann (
+) during his visiting period at the University of La Frontera (first semester 2017).&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Oral presentation at SPIE 2018</title>
+      <link>https://example.com/dissemination/2018-10-18-spie2018/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2018-10-18-spie2018/</guid>
+      <description>&lt;p&gt;From 24 to 27th of September 2018 I participated at the SPIE Asia-Pacific Remote Sensing symposium, which took place in Honolulu (Hawaii, USA). In that conference I made an oral presentation entitled 
+, which was finally published in the proceedings of the international Society of Photo-Optical Instrumentation Engineers (
+):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; (2018) &amp;ldquo;Temporal and spatial evaluation of long-term satellite-based precipitation products across the complex topographical and climatic gradients of Chile&amp;rdquo;, Proc. SPIE 10782, Remote Sensing and Modeling of the Atmosphere, Oceans, and Interactions VII, 1078202 (23 October 2018); doi: 10.1117/12.2513645; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Visiting period at NASA&#39;s Jet Propulsion Laboratory</title>
+      <link>https://example.com/blog/2018-09-18-jpl2018/</link>
+      <pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2018-09-18-jpl2018/</guid>
+      <description>&lt;p&gt;In August 2018 I got an invitation from the co-chair of the 
+ to conduct a two-week (18-Sep to 01-Oct 2018) visiting period at the NASA&amp;rsquo;s Jet Propulsion Laboratory (
+). This internship was carried out (and funded) by Ziad S. Haddad (Assistant Section Manager, Radar JPL Science and Engineering Section), to discuss a comprehensive evaluation of current rainfall products of global scale, to allow scientists and users of the international community to make objective evaluations and make informed decisions about the use of these products.&lt;/p&gt;
+&lt;p&gt;During this period, ziad and I attended a meeting at the 
+ at the 
+, in order to discuss the methodology and time period to be used for the comprehensive evaluation of current rainfall products of global scale. In this opportunity I met Soroosh Sorooshian, Efi Foufoula-Georgiou and most of their team at UCL. This was an excellent opportunity to know all the people behind the excellent work producing the PERSIANN  family of satellite precipititation estimates.&lt;/p&gt;
+&lt;p&gt;This internship ended with the publication of an Scopus 
+ in the proceedings of the International Society of Photo-Optical Instrumentation Engineers (
+).&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on satellite-based rainfall estimates over Latin America accepted for publication in Atmospheric Research</title>
+      <link>https://example.com/blog/2018-05-24-ar_article_on_sre_accepted/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2018-05-24-ar_article_on_sre_accepted/</guid>
+      <description>&lt;p&gt;The article 
+ was accepted for publication in the 
+ journal.&lt;/p&gt;
+&lt;p&gt;This work exhaustively evaluate six satellite rainfall estimates (TRMM 3B42v7, TRMM 3B42RT, CHIRPSv2, CMORPHv1, PERSIANN-CDR, and MSWEPv2) over three basins in Latin-America (Imperial in Chile, Paraiba do Sul in Brazil, and Magdalena in Colombia). Several continuous and categorical indices of performance are used at daily, monthly and seasonal time scales. Our analysis revealed which products are in beter agreement with ground-based observations of precipitation and if the upscaling procedure, used in CHIRPSv2 and MSWEPv2, affects the evaluation of the SREs performance at different time scales.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Oral presentation at EGU 2018</title>
+      <link>https://example.com/dissemination/2018-04-10-egu2018/</link>
+      <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2018-04-10-egu2018/</guid>
+      <description>&lt;p&gt;During the second week of April 2018, I made an oral presentation at the 
+ in Vienna (Austria), the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
+&lt;p&gt;The work was entitled 
+ (
+). It analises the suitability of the combined use of state-of-the-art satellite-based precipitation (CHIRPS) and potential evapotranspiration (MOD16A2) estimates to characterise the spatial distribution of the so called &amp;ldquo;Chilean megadrought&amp;rdquo;, which has affected the central-southern territory of Chile (29ºS-46ºS) during the last decade.&lt;/p&gt;
+&lt;p&gt;In addition, I participated as co-author in the following three works presented at the same conference:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+. [EGU2018-12036].&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. [EGU2018-2374].&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. [EGU2018-18702].&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first two works are product of the interdisciplinary collaboration at the Center for Climate and Resilience Research (
+), while the last work summarise the MSc thesis carried out by Hamish Hann (
+) during his visiting period at Temuco (first semester 2017).&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Oral presentation at AGU 2017</title>
+      <link>https://example.com/dissemination/2017-12-12-agu2017/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2017-12-12-agu2017/</guid>
+      <description>&lt;p&gt;During the second week of December 2017, I made an oral presentation at the 
+ in New orleans (USA), the most important scientific event of Earth Sciences worldwide.&lt;/p&gt;
+&lt;p&gt;The work was entitled 
+ (Final paper number 
+). It uses two drought indices to analyze the impacts of precipitation and temperature on the frequency, severity and duration of Chilean droughts (25°S-56°S) during the XXI century, using multi-model climate projections consistent with the high-end RCP 8.5 scenario.&lt;/p&gt;
+&lt;p&gt;In addition, I participated as co-author in the work  
+) (Final paper number 
+), which evaluate several sate-of-the-art satellite-based rainfall estimates  (TMPA 3B42v7, TMPA 3B42RT, CHIRPSv2, CMORPH, PERSIANN-CDR and MSWEPv1.2)  over different basins in Latin-America (Imperial Basin in Chile, Paraiba do Sul in Brazil and Magdalena in Colombia) to determine the best performing satellite product.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Short course on use of R for analysing satelite-based rainfall estimates (SREs) in Germany</title>
+      <link>https://example.com/dissemination/2017-05-05-training_on_rs_at_itt/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2017-05-05-training_on_rs_at_itt/</guid>
+      <description>&lt;p&gt;During the first week of May, I gave a short course to postgraduate students of the 
+ of TH Köln (
+).&lt;/p&gt;
+&lt;p&gt;This course had two parts, the first one was given by the doctoral student Oscar Baez, who was at UFRO last April. The objective of this first part (April 23th to 27th) was to provide students with basic concepts about 
+, free software environment for statistical computing and graphics, (installation, types of variables, exploratory data analysis, and spatial data management).
+ 
+The second part (May 3rd and 4th) was to introduce participants to the management of time series in R, and the use of it for the analysis of spatio-temporal data, in particular for reading and analysing satelite-based rainfall estimates (SREs), expanding the work &amp;ldquo;
+&amp;rdquo; presented at the EGUA 2017 during the last week of April (
+), which was an oral 
+.&lt;/p&gt;
+&lt;p&gt;This short course is product of the international collaboration with Lars Ribbe and Alexandra Nauditt from the 
+ of TH Köln (
+).&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Participación en la Conferencia EGU 2017</title>
+      <link>https://example.com/dissemination/2017-04-27-egu2017/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2017-04-27-egu2017/</guid>
+      <description>&lt;p&gt;During the last week of April, I presented two works on the 
+, the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
+&lt;p&gt;The first work was 
+ (
+), which was an oral 
+ about the use of R, the free software environment for statistical computing and graphics, for analysing different spatio-temporal datasets of precipitation at the Chilean spatail scale.&lt;/p&gt;
+&lt;p&gt;The second work was the oral presentation 
+ (
+), which summarises the main findings about the performance of seven different satellite-based precipitation products over the Chilean territory.&lt;/p&gt;
+&lt;p&gt;Both works are the product of the international collaboration with researchers from Germany, Costa Rica and Chile on the use of different satellite-based precipitation products as a complement to current ground-based rainfall measurement networks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spanish version&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Durante la semana del 24 al 28 de Abril, presenté dos trabajos en la conferencia 
+, el evento científico más importante de Ciencias de la Tierra en Europa.&lt;/p&gt;
+&lt;p&gt;El primer trabajo fue 
+ (
+), una 
+ sobre el uso de R, el ambiente estadístico libre, para el análisis de distintos conjuntos de datos espacio-temporales de precipitaciòn a escala nacional (Chile).&lt;/p&gt;
+&lt;p&gt;El segundo trabajo fue la presentación oral 
+ (
+), la cual resume los principales resultados de una comparación exhaustiva de siete productos satelitales de precipitación sobre el territorio de Chile.&lt;/p&gt;
+&lt;p&gt;Ambos trabajos son producto de la colaboración internacional con investigadores de Alemania, Costa Rica y Chile, sobre el uso de distintos productos satelitales de precipitación como complemento a las actuales redes de medición pluviométrica.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on satellite-based rainfall estimates over Chile accepted for publication in HESS</title>
+      <link>https://example.com/blog/2017-01-30-hess_article_on_sre_accepted/</link>
+      <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2017-01-30-hess_article_on_sre_accepted/</guid>
+      <description>&lt;p&gt;The article 
+ was accepted yesterday (January 30th, 2017) for publication in the 
+ journal (HESS).&lt;/p&gt;
+&lt;p&gt;This work exhaustively evaluate -for the first time- the suitability of seven state-of-the-art satellite-based rainfall estimates (SRE) over the complex topography and diverse climatic gradients of Chile. Several indices of performance are used for different time scales and elevation zones. Our analysis revealed which products are in best with ground based observations of precipitation and which indices of performance suitable to capture mismatches in shape, magnitude, variability and intensity of precipitation.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Poster presentation at AGU 2016</title>
+      <link>https://example.com/dissemination/2016-12-13-agu2016/</link>
+      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2016-12-13-agu2016/</guid>
+      <description>&lt;p&gt;On December 13th 2016, I presented the work titled 
+ at the conference 
+. In this work I used two drought indices to analyze the contribution of precipitation and temperature to the recent droughts that have affected Chile, in order to improve our understanding about the onset, duration and magnitude of these events.&lt;/p&gt;
+&lt;p&gt;It is the first time that a professor with affiliation &amp;ldquo;Universidad de La Frontera&amp;rdquo; presents in this conference, the most important of Earth Sciences worldwide.&lt;/p&gt;
+&lt;p&gt;This work is part of a collaborative research that I carry out for the 
+ of the Universidad de Chile.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spanish version&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;El pasado 13 de Diciembre de 2016, presenté el trabajo titulado 
+ en la conferencia 
+. En este trabajo utilicé dos índices de sequía para analizar la contribución de la precipitación y la temperatura a las recientes sequías que han afectado Chile, para mejorar nuestra comprensión acerca del inicio, duración y magnitud de estos eventos.&lt;/p&gt;
+&lt;p&gt;Es la primera vez que un docente con afiliación Universidad de La Frontera presenta en este evento, el más importante de las Ciencias de la Tierra a nivel mundial.&lt;/p&gt;
+&lt;p&gt;Este trabajo forma parte del trabajo como investigador adjunto que realizo para el 
+ de la Universidad de Chile.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

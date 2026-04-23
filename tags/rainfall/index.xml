@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rainfall | </title>
+    <link>https://example.com/tags/rainfall/</link>
+      <atom:link href="https://example.com/tags/rainfall/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rainfall</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Rainfall</title>
+      <link>https://example.com/tags/rainfall/</link>
+    </image>
+    
+    <item>
+      <title>Mawün rainfall explorer launched !</title>
+      <link>https://example.com/blog/2020-09-01-lanzamiento_de_mawun/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2020-09-01-lanzamiento_de_mawun/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Mawün rainfall explorer launched !&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After more than one year of development, on September 1st 2020 an &lt;strong&gt;unprecedented web platform&lt;/strong&gt; for exploring gridded precipitation products was launced as a new weather service at the 
+ website: 
+:&lt;/p&gt;
+&lt;p&gt;
+ (&amp;quot;&lt;em&gt;rain&lt;/em&gt;&amp;quot; in 
+) is an online platform dedicated to exploring different spatially distributed estimates of precipitation available for continental Chile until 2019, whose main objective is to facilitate the visualization and exploratory analysis of various available products.&lt;/p&gt;
+&lt;p&gt;
+ was developed by the &lt;strong&gt;Water Resources Observatory&lt;/strong&gt; of the 
+ at the 
+ with the support of the 
+.&lt;/p&gt;
+&lt;p&gt;A description of the web platform, examples, a complete tutorial and the platform itself can be found in the following links (only in Spanish):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Description: 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Examples: 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tutorial: 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Web platform: 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All comments are highly welcome at the e-mail address indicated in the &amp;lsquo;&lt;em&gt;Acerca de&lt;/em&gt;&amp;rsquo; window of [Mawün].&lt;/p&gt;
+&lt;p&gt;I hope that this new climate service will be useful for all those interested in precipitation.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

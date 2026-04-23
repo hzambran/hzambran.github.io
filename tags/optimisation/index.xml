@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimisation | </title>
+    <link>https://example.com/tags/optimisation/</link>
+      <atom:link href="https://example.com/tags/optimisation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Optimisation</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 Apr 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Optimisation</title>
+      <link>https://example.com/tags/optimisation/</link>
+    </image>
+    
+    <item>
+      <title>hydroPSO</title>
+      <link>https://example.com/rpackages/hydropso/</link>
+      <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://example.com/rpackages/hydropso/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+ is an R package developed to provide a robust and flexible framework for the global optimisation and calibration of environmental and engineering models. It implements state-of-the-art variants of the &lt;strong&gt;Particle Swarm Optimisation (PSO)&lt;/strong&gt; algorithm, designed to efficiently explore complex parameter spaces commonly associated with non-linear, non-smooth, and computationally demanding models.&lt;/p&gt;
+&lt;p&gt;The package was conceived with practical modelling workflows in mind. It is fully model-independent, allowing users to couple the optimisation engine with virtually any simulation model, whether implemented in R or executed externally, without requiring modifications to the model&amp;rsquo;s internal code. This architecture makes 
+ particularly suitable for systematic calibration of hydrological and environmental models, where reproducibility, transparency, and flexibility are essential.&lt;/p&gt;
+&lt;p&gt;To support rigorous model evaluation, 
+ includes advanced diagnostic and sensitivity analysis capabilities, as well as comprehensive graphical summaries that facilitate interpretation of optimisation results. Its parallel computing support enables efficient use of multi-core machines and computing clusters, helping to reduce the computational burden associated with large-scale or high-resolution simulations.&lt;/p&gt;
+&lt;p&gt;Widely used in research, teaching, and applied modelling, 
+ provides a technically sound and operationally reliable optimisation environment. It is especially well suited for users who require a scalable, transparent, and methodologically robust tool to calibrate complex models and support evidence-based analysis in hydrology and related environmental sciences.&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Zambrano-Bigiarini, M. and Rojas, R. (2013). 
+, Environmental Modelling &amp;amp; Software, 43, 5-25, doi:10.1016/j.envsoft.2013.01.004.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/rpackages/hydropso/hydroPSO-logo.jpg&#34;
+    alt=&#34;hydroTSM R package.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;R package.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

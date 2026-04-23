@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Remote-Sensing | </title>
+    <link>https://example.com/tags/remote-sensing/</link>
+      <atom:link href="https://example.com/tags/remote-sensing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Remote-Sensing</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Remote-Sensing</title>
+      <link>https://example.com/tags/remote-sensing/</link>
+    </image>
+    
+    <item>
+      <title>Two works at International SWAT Conference (Aarhus, Dinamarca)</title>
+      <link>https://example.com/dissemination/2023-07-07-swat2023-aarhus_denmark/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2023-07-07-swat2023-aarhus_denmark/</guid>
+      <description>&lt;p&gt;During the week of June 26th to 30th, 2023, I participated in the International Conference 
+, held at the 
+ (Aarhus Denmark). This is a small conference, aimed at all scientists working with the 
+ worldwide. On this occasion, more than 170 scientists from 41 countries on six continents participated.&lt;/p&gt;
+&lt;p&gt;I participated as co-author in one paper and presented another:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this work, the Master&amp;rsquo;s candidate Rodrigo Marinao Rivas presented 
+ to the 
+ eco-hydrological model user community. 
+ is a new 
+ package for multi-objective calibration, which combines two search mechanisms to maintain population diversity and accelerate its convergence towards the Pareto optimal front. 
+ is model-independent, allowing the calibration engine to interact with any type of model that needs to be run from the command line, including SWAT and SWAT+, but also other hydrological models available in R (eg, 
+, 
+, 
+). In addition, 
+ is independent of the operating system used (i.e. it can run on GNU/Linux, Mac OSX and Windows, among others) and can run on multi-core machines or network clusters, which significantly alleviates the load computational associated with the optimization of complex models with long execution times.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this paper, Dr. Zambrano-Bigiarini presented an application of the 
+ multi-objective calibration software to the 
+ eco-hydrological model implemented in the Trancura River Basin before Llafenco (Araucanía Region). In this work, two cases of multi-objective calibration were analyzed. In the first case study, the SWAT+ model was simultaneously calibrated for two time periods: one with normal/wet conditions and one with dry conditions (i.e., below-normal rainfall). In the second case study, daily flows at the outlet of the basin and average monthly real evapotranspiration throughout the basin were calibrated simultaneously. The package has been developed by Civil Engineer Rodrigo Marinao, who is a graduate of Civil Engineering at the Universidad de la Frontera, a student of the Master&amp;rsquo;s Degree in Engineering Sciences from the same university, and a research assistant at the Center for Climate and Resilience Research (CR2). The collaboration between Rodrigo Marinao and I began from the Hydrology course in the Civil Engineering degree, and has continued uninterrupted since then. This work also received funding from the 
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/SWAT2023-Presentation_MZB.jpg&#34; alt=&#34;Multi-period and multi-variable calibration of SWAT&amp;#43; using gridded input datasets and a novel R package&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, during this conference, I took the opportunity to clarify doubts about the implementation of the growth of some plant species typical of Chile, learn about the latest advances in the development of the model (e.g., 
+, 
+, 
+), and possibilities of collaboration with doctoral candidate 
+ from the 
+.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/SWAT2023-MZB_Sirinivasan_Palominos.jpg&#34; alt=&#34;Sirinivasan, Palominos and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/SWAT2023-MZB_RMR_Palominos.jpg&#34; alt=&#34;Rodrigo, Carolos and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/SWAT2023-Aarhus2.jpg&#34; alt=&#34;Aarhus&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Four works at EGU 2023</title>
+      <link>https://example.com/dissemination/2023-05-02-egu2023/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2023-05-02-egu2023/</guid>
+      <description>&lt;p&gt;During the week of April 24 to 28, 2023, I participated in the 
+, held in the city of Wien (Austria). On this occasion, I presented two works and participated in other two:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this work, I presented 
+, a new package for the 
+ that is about to be submitted to 
+. This package expands the functions of the terra package to work with gridded data that has a time attribute. In particular, hydroRTS allows you to work efficiently with large amounts of gridded data that have an hourly, daily, monthly, or annual time frequency. This work summarizes a large amount of work that I has done since 2013. However, only the collaboration of Civil Engineer Sebastián Bernal, graduated in 2022 from Civil Engineering at the Universidad de la Frontera, allowed to systematically organize and adequately document a set of functions that are useful for the Hydrological and Earth Sciences community worldwide. This collaboration was only possible thanks to funding provided by the 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this work, I presented to the international community an application of 
+, an 
+ package for global multi-objective optimization. In this work, two cases of multi-objective calibration of the SWAT+ semi-distributed hydrological model in the Trancura River Basin before Llafenco (Araucanía Region) were analyzed. In the first case study, the SWAT+ model was simultaneously calibrated for two time periods: one with normal/wet conditions and one with dry conditions (i.e., below-normal rainfall). In the second case study, daily flows at the outlet of the basin and average monthly real evapotranspiration throughout the basin were calibrated simultaneously. This package has been developed by Civil Engineer Rodrigo Marinao, who is a graduate of Civil Engineering at the Universidad de la Frontera, a student of the 
+ from the same university, and a research assistant at the 
+. The collaboration between the Marine Engineer and I began from the Hydrology course in the Civil Engineering degree, and has continued uninterrupted since then. This work also received funding from the 
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/EGU2023-01_Poster_hydroMOPSO.jpg&#34; alt=&#34;Multi-period and multi-variable calibration of SWAT&amp;#43; using gridded input datasets and a novel R package&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this paper, Dr. Oscar Baez-Villanueva (TH Köln, Germany) presented a paper that analyzes which meteorological drought indices (SPI, SPEI), soil moisture (ESSMI) or snow (SSWEI) are more related to the occurrence of hydrological drought (SSI-1), based on the hydrological regime (i.e., pluvial, pluvio-nival, nivo-pluvial, nival) of 100 basins of Central-South Chile. This work has been carried out in collaboration with me within the framework of the project &amp;ldquo;&lt;em&gt;Drought and water security platform for catchment planning: historical evolution and future trajectories under global change&lt;/em&gt;&amp;rdquo;, financed by ANID in the Rapid Assignment Contest Fondo de Strategic Research in Drought for the year 2021, whose director is Dr. Camila Álvarez Garreón (CR2).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this paper, Fabian Lema, a Master&amp;rsquo;s candidate at the 
+, presented a paper where the characteristics of drought events in six basins of Central-South Chile are analyzed, both for a historical period and for a future period. Dr. Pablo Mendoza from the University of Chile invited I to participate in this work thanks to his collaboration as an evaluating member of Fabián Lema&amp;rsquo;s Master&amp;rsquo;s thesis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, during this conference, I took the opportunity to discuss, among other things, postgraduate collaboration possibilities with 
+ from the 
+ (USA) and to talk about a joint article with Dr. Oscar Baez-Villanueva from the 
+ (Germany) and with 
+ from the 
+ (Arabia Saudita).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/EGU2023-02_Ian_Oscar_MZB.jpg&#34; alt=&#34;Ian, Oscar and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/EGU2023-03_Stephansdom.jpg&#34; alt=&#34;Wien: Stephansdom&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Two posters at AGU 2022</title>
+      <link>https://example.com/dissemination/2022-12-12-agu2022/</link>
+      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2022-12-12-agu2022/</guid>
+      <description>&lt;p&gt;During the week of December 12 to 16th, 2022, I participated in the Conference 
+, held in the city of Chicago ( USES). This is the most important conference worldwide in the area of Earth Sciences, and it is held annually.&lt;/p&gt;
+&lt;p&gt;On this occasion, I presented two posters:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+. hydroRTS is a new package for the 
+ that is about to be submitted to [CRAN](
+- project.org/). This package allows you to work efficiently with large amounts of gridded data that have an hourly, daily, monthly, or annual time frequency. This work summarizes a large amount of work that I have carried out since 2013. However, only the collaboration of Civil Engineer Sebastián Bernal, who graduated in Civil Engineering in 2022 from the Universidad de la Frontera, made it possible to organize systematically and adequately document a set of functions that are useful to the global community of Hydrologists and Earth Scientists. This collaboration was only possible thanks to the funding provided by the 
+, directed by Dr. Zambrano-Bigiarini.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/AGU2022-01_Fotos_hydroRTS.jpg&#34; alt=&#34;An R package for efficient analysis of raster time series&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. 
+ is a new package for the 
+ that is about to be submitted to [CRAN](
+- project.org/). This package allows you to perform a multi-objective calibration of any hydrological/environmental model (actually, a model from any subject area), whether this model is implemented in R or requires to be executed from the system console in a local PC or in a server. This package has been developed by Civil Engineer Rodrigo Marinao, who is a graduate of Civil Engineering at the Universidad de la Frontera, student of the 
+ of the same house of studies, and research assistant at the 
+. The collaboration with Rodrigo Marinao started during the Hydrology course in the Civil Engineering degree, and has continued uninterrupted since then. This work also received funding from 
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/AGU2022-02_Foto_hydroMOPSO.jpg&#34; alt=&#34;hydroMOPSO: A Versatile Multi-Objective Optimization R Package for Calibration of Environmental and Hydrological Models&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, during this conference I took the opportunity to discuss various topics with Dr. Camila Álvarez Garreón (CR2), Dr. Mauricio Galleguillos (U. Adolfo Ibáñez) and Dr. Juan Pablo Boiser (CR2), who also participate in the 
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/AGU2022-03_Foto_Chi2.jpg&#34; alt=&#34;Project Chile-China NSFC 190018&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on Random Forest for merging satellite-based datasets with gorund observations published in RSE</title>
+      <link>https://example.com/blog/2020-01-02-rse_article_rfmerge_published/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2020-01-02-rse_article_rfmerge_published/</guid>
+      <description>&lt;p&gt;The article 
+ was accepted for publication in December 2019 and made available online on January 2nd 2020 in the 
+ journal.&lt;/p&gt;
+&lt;p&gt;This work presents the &lt;strong&gt;Random Forest based MErging Procedure&lt;/strong&gt; (&lt;strong&gt;RF-MEP&lt;/strong&gt;), which allows to combine information from ground-based measurements, satellite-based precipitation products, and topography-related features to improve the representation of the spatio-temporal distribution of precipitation, especially in data-scarce regions. RF-MEP is applied over Chile for 2000-2016, using daily measurements from 258 rain gauges for model training and 111 stations for validation. Two merged datasets were computed: RF-MEP3P (based on PERSIANN-CDR, ERA-Interim, and CHIRPSv2) and RF-MEP5P (which additionally includes CMORPHv1 and TRMM 3B42v7). Our results suggest that RF-MEP could successfully be applied to other regions and to correct other climatological variables. The &lt;strong&gt;RFmerge&lt;/strong&gt; R package, which implements RF-MEP, is freely available online at 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Conference: When, where, and how much did it rain?</title>
+      <link>https://example.com/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Conference: When, where, and how much did it rain?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On January 22th 2019, Dr Hylke Beck gave an 
+ entitled &lt;em&gt;&amp;ldquo;When, where, and how much did it rain?&amp;rdquo;&lt;/em&gt; at the Facultad de Ingeniería y Ciencias of the Universidad de La Frontera (UFRO) in Temuco. In this presentation Dr. Beck presented 
+, the first fully global precipitation dataset with a 0.1º resolution derived by optimally merging a range of gauge, satellite, and reanalysis estimates.&lt;/p&gt;
+&lt;p&gt;Dr Hylke Beck (BSc, MSc, PhD) is an experienced researcher specializing in earth observation, hydrological modeling, and flood and drought forecasting. He has published over 40 peer-reviewed papers in prestigious international journals, including Nature Climate Change and Bulletin of the American Meteorological Society, and collaborated with several world-renowned scientists in the fields of hydrology and meteorology. At Princeton University, where he is currently employed, he is developing a global flood and drought warning system with unprecedented accuracy and resolution. He has produced multiple innovative climate data products, including the groundbreaking Multi-Source Weighted-Ensemble Precipitation (MSWEP) product, which has already been used by 500+ institutions worldwide.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Oral presentation at AGU 2018</title>
+      <link>https://example.com/dissemination/2018-12-15-agu2018/</link>
+      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2018-12-15-agu2018/</guid>
+      <description>&lt;p&gt;During the second week of December 2018, I made an oral presentation at the 
+ in Washington D.C. (USA), the most important scientific event of Earth Sciences worldwide.&lt;/p&gt;
+&lt;p&gt;The work was entitled 
+ (Final paper number 
+). It evaluates the improvements of the latest IMERG version 05 Final Run (IMERGv05-F) over its predecessor TMPA 3B42v7, over the diverse climatic gradients and complex topography of Chile, from January 2015 to December 2016.&lt;/p&gt;
+&lt;p&gt;In addition, I participated as co-author in the work 
+ (Final paper number 
+), which summarises the MSc thesis carried out by Hamish Hann (
+) during his visiting period at the University of La Frontera (first semester 2017).&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Oral presentation at SPIE 2018</title>
+      <link>https://example.com/dissemination/2018-10-18-spie2018/</link>
+      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2018-10-18-spie2018/</guid>
+      <description>&lt;p&gt;From 24 to 27th of September 2018 I participated at the SPIE Asia-Pacific Remote Sensing symposium, which took place in Honolulu (Hawaii, USA). In that conference I made an oral presentation entitled 
+, which was finally published in the proceedings of the international Society of Photo-Optical Instrumentation Engineers (
+):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; (2018) &amp;ldquo;Temporal and spatial evaluation of long-term satellite-based precipitation products across the complex topographical and climatic gradients of Chile&amp;rdquo;, Proc. SPIE 10782, Remote Sensing and Modeling of the Atmosphere, Oceans, and Interactions VII, 1078202 (23 October 2018); doi: 10.1117/12.2513645; 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Visiting period at NASA&#39;s Jet Propulsion Laboratory</title>
+      <link>https://example.com/blog/2018-09-18-jpl2018/</link>
+      <pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2018-09-18-jpl2018/</guid>
+      <description>&lt;p&gt;In August 2018 I got an invitation from the co-chair of the 
+ to conduct a two-week (18-Sep to 01-Oct 2018) visiting period at the NASA&amp;rsquo;s Jet Propulsion Laboratory (
+). This internship was carried out (and funded) by Ziad S. Haddad (Assistant Section Manager, Radar JPL Science and Engineering Section), to discuss a comprehensive evaluation of current rainfall products of global scale, to allow scientists and users of the international community to make objective evaluations and make informed decisions about the use of these products.&lt;/p&gt;
+&lt;p&gt;During this period, ziad and I attended a meeting at the 
+ at the 
+, in order to discuss the methodology and time period to be used for the comprehensive evaluation of current rainfall products of global scale. In this opportunity I met Soroosh Sorooshian, Efi Foufoula-Georgiou and most of their team at UCL. This was an excellent opportunity to know all the people behind the excellent work producing the PERSIANN  family of satellite precipititation estimates.&lt;/p&gt;
+&lt;p&gt;This internship ended with the publication of an Scopus 
+ in the proceedings of the International Society of Photo-Optical Instrumentation Engineers (
+).&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on satellite-based rainfall estimates over Latin America accepted for publication in Atmospheric Research</title>
+      <link>https://example.com/blog/2018-05-24-ar_article_on_sre_accepted/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2018-05-24-ar_article_on_sre_accepted/</guid>
+      <description>&lt;p&gt;The article 
+ was accepted for publication in the 
+ journal.&lt;/p&gt;
+&lt;p&gt;This work exhaustively evaluate six satellite rainfall estimates (TRMM 3B42v7, TRMM 3B42RT, CHIRPSv2, CMORPHv1, PERSIANN-CDR, and MSWEPv2) over three basins in Latin-America (Imperial in Chile, Paraiba do Sul in Brazil, and Magdalena in Colombia). Several continuous and categorical indices of performance are used at daily, monthly and seasonal time scales. Our analysis revealed which products are in beter agreement with ground-based observations of precipitation and if the upscaling procedure, used in CHIRPSv2 and MSWEPv2, affects the evaluation of the SREs performance at different time scales.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Oral presentation at EGU 2018</title>
+      <link>https://example.com/dissemination/2018-04-10-egu2018/</link>
+      <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2018-04-10-egu2018/</guid>
+      <description>&lt;p&gt;During the second week of April 2018, I made an oral presentation at the 
+ in Vienna (Austria), the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
+&lt;p&gt;The work was entitled 
+ (
+). It analises the suitability of the combined use of state-of-the-art satellite-based precipitation (CHIRPS) and potential evapotranspiration (MOD16A2) estimates to characterise the spatial distribution of the so called &amp;ldquo;Chilean megadrought&amp;rdquo;, which has affected the central-southern territory of Chile (29ºS-46ºS) during the last decade.&lt;/p&gt;
+&lt;p&gt;In addition, I participated as co-author in the following three works presented at the same conference:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+. [EGU2018-12036].&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. [EGU2018-2374].&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. [EGU2018-18702].&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first two works are product of the interdisciplinary collaboration at the Center for Climate and Resilience Research (
+), while the last work summarise the MSc thesis carried out by Hamish Hann (
+) during his visiting period at Temuco (first semester 2017).&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Oral presentation at AGU 2017</title>
+      <link>https://example.com/dissemination/2017-12-12-agu2017/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2017-12-12-agu2017/</guid>
+      <description>&lt;p&gt;During the second week of December 2017, I made an oral presentation at the 
+ in New orleans (USA), the most important scientific event of Earth Sciences worldwide.&lt;/p&gt;
+&lt;p&gt;The work was entitled 
+ (Final paper number 
+). It uses two drought indices to analyze the impacts of precipitation and temperature on the frequency, severity and duration of Chilean droughts (25°S-56°S) during the XXI century, using multi-model climate projections consistent with the high-end RCP 8.5 scenario.&lt;/p&gt;
+&lt;p&gt;In addition, I participated as co-author in the work  
+) (Final paper number 
+), which evaluate several sate-of-the-art satellite-based rainfall estimates  (TMPA 3B42v7, TMPA 3B42RT, CHIRPSv2, CMORPH, PERSIANN-CDR and MSWEPv1.2)  over different basins in Latin-America (Imperial Basin in Chile, Paraiba do Sul in Brazil and Magdalena in Colombia) to determine the best performing satellite product.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Short course on use of R for analysing satelite-based rainfall estimates (SREs) in Germany</title>
+      <link>https://example.com/dissemination/2017-05-05-training_on_rs_at_itt/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2017-05-05-training_on_rs_at_itt/</guid>
+      <description>&lt;p&gt;During the first week of May, I gave a short course to postgraduate students of the 
+ of TH Köln (
+).&lt;/p&gt;
+&lt;p&gt;This course had two parts, the first one was given by the doctoral student Oscar Baez, who was at UFRO last April. The objective of this first part (April 23th to 27th) was to provide students with basic concepts about 
+, free software environment for statistical computing and graphics, (installation, types of variables, exploratory data analysis, and spatial data management).
+ 
+The second part (May 3rd and 4th) was to introduce participants to the management of time series in R, and the use of it for the analysis of spatio-temporal data, in particular for reading and analysing satelite-based rainfall estimates (SREs), expanding the work &amp;ldquo;
+&amp;rdquo; presented at the EGUA 2017 during the last week of April (
+), which was an oral 
+.&lt;/p&gt;
+&lt;p&gt;This short course is product of the international collaboration with Lars Ribbe and Alexandra Nauditt from the 
+ of TH Köln (
+).&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Participación en la Conferencia EGU 2017</title>
+      <link>https://example.com/dissemination/2017-04-27-egu2017/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2017-04-27-egu2017/</guid>
+      <description>&lt;p&gt;During the last week of April, I presented two works on the 
+, the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
+&lt;p&gt;The first work was 
+ (
+), which was an oral 
+ about the use of R, the free software environment for statistical computing and graphics, for analysing different spatio-temporal datasets of precipitation at the Chilean spatail scale.&lt;/p&gt;
+&lt;p&gt;The second work was the oral presentation 
+ (
+), which summarises the main findings about the performance of seven different satellite-based precipitation products over the Chilean territory.&lt;/p&gt;
+&lt;p&gt;Both works are the product of the international collaboration with researchers from Germany, Costa Rica and Chile on the use of different satellite-based precipitation products as a complement to current ground-based rainfall measurement networks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spanish version&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;Durante la semana del 24 al 28 de Abril, presenté dos trabajos en la conferencia 
+, el evento científico más importante de Ciencias de la Tierra en Europa.&lt;/p&gt;
+&lt;p&gt;El primer trabajo fue 
+ (
+), una 
+ sobre el uso de R, el ambiente estadístico libre, para el análisis de distintos conjuntos de datos espacio-temporales de precipitaciòn a escala nacional (Chile).&lt;/p&gt;
+&lt;p&gt;El segundo trabajo fue la presentación oral 
+ (
+), la cual resume los principales resultados de una comparación exhaustiva de siete productos satelitales de precipitación sobre el territorio de Chile.&lt;/p&gt;
+&lt;p&gt;Ambos trabajos son producto de la colaboración internacional con investigadores de Alemania, Costa Rica y Chile, sobre el uso de distintos productos satelitales de precipitación como complemento a las actuales redes de medición pluviométrica.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on satellite-based rainfall estimates over Chile accepted for publication in HESS</title>
+      <link>https://example.com/blog/2017-01-30-hess_article_on_sre_accepted/</link>
+      <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2017-01-30-hess_article_on_sre_accepted/</guid>
+      <description>&lt;p&gt;The article 
+ was accepted yesterday (January 30th, 2017) for publication in the 
+ journal (HESS).&lt;/p&gt;
+&lt;p&gt;This work exhaustively evaluate -for the first time- the suitability of seven state-of-the-art satellite-based rainfall estimates (SRE) over the complex topography and diverse climatic gradients of Chile. Several indices of performance are used for different time scales and elevation zones. Our analysis revealed which products are in best with ground based observations of precipitation and which indices of performance suitable to capture mismatches in shape, magnitude, variability and intensity of precipitation.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>PhD summer school Remote Sensing applications for Water Accounting</title>
+      <link>https://example.com/dissemination/2016-07-20-training_on_rs_at_itt/</link>
+      <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2016-07-20-training_on_rs_at_itt/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Water accounting&lt;/strong&gt; is a fundamental basis to understand water availability and demands and the related benefits and efficiencies are related to water uses. While the fundamental data needed for establishing water accounts is often missing, Remote Sensing can contribute to fill the data gaps.
+With this course PhD students and staff at ITT will become familiar with the application of Remote Sensing to derive information on precipitation, evapotranspiration and land cover - three essential information elements for water accounts.
+Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce the basic techinques of Remote Sensing using the software SPRING and introduce to derive land cover information from products such as Landsat. &lt;strong&gt;Dr. Mauricio Zambrano-Bigiarini&lt;/strong&gt; from 
+, Chile, will focus on the use of the 
+ software to derive Precipitation estimates from products such as TRMM. Finally Dr Islam Sabry from the National Water Research Center, Egypt will introduce the use of satellite based estimates for evapotranspiration data.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/2016-07-20-RS_PhD_course_at_ITT.png&#34; alt=&#34;example of analysis&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

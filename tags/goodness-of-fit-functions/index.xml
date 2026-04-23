@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Goodness-of-Fit Functions | </title>
+    <link>https://example.com/tags/goodness-of-fit-functions/</link>
+      <atom:link href="https://example.com/tags/goodness-of-fit-functions/index.xml" rel="self" type="application/rss+xml" />
+    <description>Goodness-of-Fit Functions</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Oct 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Goodness-of-Fit Functions</title>
+      <link>https://example.com/tags/goodness-of-fit-functions/</link>
+    </image>
+    
+    <item>
+      <title>hydroGOF</title>
+      <link>https://example.com/rpackages/hydrogof/</link>
+      <pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>https://example.com/rpackages/hydrogof/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+ is an R package developed to provide a rigorous and consistent framework for evaluating the performance of hydrological and environmental models. It implements a broad suite of widely used statistical and graphical goodness-of-fit metrics to compare simulatd values agains iits observed counterparts; such as the coefficient of determination (R²), Nash–Sutcliffe efficiency (NSE), Kling–Gupta efficiency (KGE), and percent bias (PBIAS); that support objective assessment of model behaviour during calibration, validation, and operational application.&lt;/p&gt;
+&lt;p&gt;The package is designed with practical modelling workflows in mind. Its functions facilitate transparent comparison between observed and simulated time series, enable systematic performance diagnostics, and handle common data challenges such as missing values in a controlled and reproducible manner. By standardising the computation of performance indicators, 
+ helps ensure that model evaluation remains methodologically consistent across studies and applications.&lt;/p&gt;
+&lt;p&gt;
+ is widely used in research, teaching, and professional practice, which makes it particularly suitable for users who require dependable, well-documented tools to quantify model accuracy and communicate results with clarity. It provides a technically robust foundation for evidence-based model development, benchmarking, and decision support in hydrology and related environmental sciences.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/rpackages/hydrogof/hydroGOF-logo.jpg&#34;
+    alt=&#34;hydroGOF R package.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;R package.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

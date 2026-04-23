@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Fusion | </title>
+    <link>https://example.com/tags/data-fusion/</link>
+      <atom:link href="https://example.com/tags/data-fusion/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Fusion</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Data Fusion</title>
+      <link>https://example.com/tags/data-fusion/</link>
+    </image>
+    
+    <item>
+      <title>RFmerge</title>
+      <link>https://example.com/rpackages/rfmerge/</link>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/rpackages/rfmerge/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/rpackages/rfmerge/RFmerge-logo.jpg&#34;
+    alt=&#34;RFmerge R package.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;R package.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+ is an R package (currently not on CRAN, but working with the &lt;em&gt;terra&lt;/em&gt; package on Github) designed to generate more reliable environmental datasets by combining information from gridded datasets and ground-based observations. It implements the &lt;strong&gt;Random Forest Merging Procedure (RF-MEP)&lt;/strong&gt; (Baez-Villanueva et al., 2020), a machine-learning approach developed to improve the spatial and temporal representation of environmental variables—particularly precipitation—by leveraging the complementary strengths of different data sources.&lt;/p&gt;
+&lt;p&gt;The package addresses a persistent challenge in hydrology and Earth system sciences: no single dataset provides a complete and unbiased representation of environmental conditions. Rain gauges offer accurate point measurements but limited spatial coverage, while satellite products provide broad spatial information that may contain systematic errors. By integrating these sources within a unified statistical framework, 
+ produces merged datasets that better capture variability, reduce bias, and enhance the reliability of environmental analyses, especially in data-scarce regions.&lt;/p&gt;
+&lt;p&gt;Built with operational applications in mind, 
+ provides a transparent and reproducible workflow for dataset merging that can be adapted to a wide range of variables beyond precipitation, including temperature, soil moisture, or other gridded datasets. It is particularly well suited for researchers and practitioners who require spatially consistent datasets to support hydrological modelling, climate analysis, and water resources assessment.&lt;/p&gt;
+&lt;p&gt;Grounded in peer-reviewed research and real-world applications, 
+ offers a technically robust and methodologically sound foundation for transforming heterogeneous environmental observations into coherent, analysis-ready datasets.&lt;/p&gt;
+&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Baez-Villanueva, O.M.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Beck, H.; McNamara, I.; Ribbe, L.; Nauditt, A.; Birkel, C.; Verbist, K.; Giraldo-Osorio, J.D.; Thinh, N.X. (2020). 
+, Remote Sensing of Environment, 239, 111610. doi:10.1016/j.rse.2019.111606.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

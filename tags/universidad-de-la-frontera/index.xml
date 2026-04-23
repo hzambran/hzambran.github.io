@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Universidad De La Frontera | </title>
+    <link>https://example.com/tags/universidad-de-la-frontera/</link>
+      <atom:link href="https://example.com/tags/universidad-de-la-frontera/index.xml" rel="self" type="application/rss+xml" />
+    <description>Universidad De La Frontera</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Universidad De La Frontera</title>
+      <link>https://example.com/tags/universidad-de-la-frontera/</link>
+    </image>
+    
+    <item>
+      <title>IIO222 - Programación Aplicada (undergraduate)</title>
+      <link>https://example.com/courses/iio222-programacionaplicada/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/courses/iio222-programacionaplicada/</guid>
+      <description>&lt;p&gt;👋 Description of the Applied Programming undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
+&lt;h2 id=&#34;identification-of-the-course&#34;&gt;Identification of the course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Professional degree&lt;/strong&gt;: Civil Engineering&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ID and name&lt;/strong&gt;: IIO3222, Programación Aplicada (Applied Programming)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Type of training&lt;/strong&gt;: specialised, theoretical and practical&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Weekly dedication&lt;/strong&gt;: 4 hrs intra-classroom, 2 hrs extra-classroom&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Faculty&lt;/strong&gt;: Faculty of Engineering and Sciences&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Department&lt;/strong&gt;: Civil Engineering&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;SCT Credits&lt;/strong&gt;: 4&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Required courses&lt;/strong&gt;: ICC157 Basic programming, COD592 Basic English&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 1 semester (16 weeks)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Language&lt;/strong&gt;: Spanish&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;This compulsory course introduces Civil Engineering students to the potential of scientific programming as a fundamental tool for solving complex problems inherent to the discipline. Throughout the course, students will explore how programming concepts and techniques, along with the use of open-source languages widely used in data science and civil engineering, can be applied to model, simulate, and analyse problems in the field of civil engineering. The focus will be on developing practical skills to transform engineering challenges into efficient algorithms, enabling the automation of data downloads, calculations, and the interactive visualization of data and results. By the end of the course, students will be equipped with the necessary skills to integrate scientific programming into their daily workflow, preparing them to face the technological challenges of the 21st century.&lt;/p&gt;
+&lt;h2 id=&#34;professional-skills&#34;&gt;Professional skills&lt;/h2&gt;
+&lt;p&gt;Design solutions to problems related to the use of water resources in engineering projects, applying solid knowledge of basic sciences and engineering, in compliance with current regulations and project specifications, and using appropriate technological tools, while demonstrating the ability to work in teams, engage in independent learning, and act with social responsibility.&lt;/p&gt;
+&lt;h2 id=&#34;generic-skills&#34;&gt;Generic skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Teamwork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;learning-outcomes&#34;&gt;Learning outcomes&lt;/h2&gt;
+&lt;p&gt;Upon successful completion of this course or module, students should be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA1&lt;/strong&gt;: Critically analyse a relevant problem in the field of Civil Engineering, in one of the following areas: Structures and Geotechnics, Water Resources and Hydraulics, or Transportation and Road Infrastructure.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA2&lt;/strong&gt;: Analyze data obtained through acquisition techniques, visualising them graphically using appropriate tools, in one of the following areas of Civil Engineering: Structures and Geotechnics, Water Resources and Hydraulics, or Transportation and Road Infrastructure.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA3&lt;/strong&gt;: Develop a web application that allows data entry and download, analysis, and the visualization of the corresponding results, using scientific programming in the field of Civil Engineering, in the areas of: Structures and Geotechnics, Water Resources and Hydraulics, or Transportation and Road Infrastructure.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA4&lt;/strong&gt;: Improve teamwork skills through the development of tasks and/or a final project that must be carried out collaboratively within a team.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Introduction to scientific programming
+1.1. Description of the programming language (R/Python)
+1.2 Data types
+1.3 Assignment, symbols, operators&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Exploratory data analysis in Civil Engineering
+2.1 Basic statistical summary
+2.2 Static data visualization
+2.3 Data cleaning
+2.4 Outlier detection
+2.5 Data storage&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Functions and control structures
+3.1 User-defined Functions
+3.2 Data flow control structures
+3.3 Iterative structures&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Time series
+4.1 Reading time series
+4.2 Manipulating time series
+4.3 Visualizing time series&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Spatial Data
+5.1 Reading spatial data
+5.2 Manipulating spatial data
+5.3 Visualizing spatial data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Advanced programming techniques
+6.1 Web crawling
+6.2 Web scraping
+6.3. Automatic report generation&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Interactive visualization&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;7.1. Introduction to interactive data visualization
+7.2. Interactive application development&lt;/p&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+&lt;h3 id=&#34;basic-bibliography&#34;&gt;Basic bibliography&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Bloomfield, Víctor A. (2014). 
+. ISBN 9781439884485. (Biblioteca UFRO).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gerrard, P.; Johnson, R.; Johnson, R. (2015). 
+. ISBN: 9781783555253.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;supplementary-bibliography&#34;&gt;Supplementary bibliography&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Trejo, O. (2017). 
+. Packt Publishing Ltd. ISBN: 9781788291361.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Shahare, G. Manchalwar, J., Wankhede, K., Meshram, S., Kalbande, K., &amp;amp; Wyawahare, N. (2024). 
+ In  2024 2nd International Conference on Advancements and Key Challenges in Green Energy and Computing (AKGEC).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ren, K. (2016). 
+. Packt Publishing Ltd. ISBN: 9781785889776.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lovelace, Robin, Jakub Nowosad, and Jannes Muenchow. (2025). 
+. Second edition. CRC Press. ISBN: 9781032248882.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>IIO409 - Hydrological Modelling (undergraduate)</title>
+      <link>https://example.com/courses/iio409-modelacionhidrologica/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/courses/iio409-modelacionhidrologica/</guid>
+      <description>&lt;p&gt;👋 Description of the Hydrological Modelling undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
+&lt;h2 id=&#34;identification-of-the-course&#34;&gt;Identification of the course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Professional degree&lt;/strong&gt;: Civil Engineering&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ID and name&lt;/strong&gt;: IIO409, Modelación Hidrológica (Hydrological Modelling)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Type of training&lt;/strong&gt;: specialised, theoretical and practical&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Weekly dedication&lt;/strong&gt;: 4 hrs intra-classroom, 4 hrs extra-classroom&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Faculty&lt;/strong&gt;: Faculty of Engineering and Sciences&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Department&lt;/strong&gt;: Civil Engineering&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;SCT Credits&lt;/strong&gt;: 5&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Required courses&lt;/strong&gt;: None ()&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 1 semester (16 weeks)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Language&lt;/strong&gt;: Spanish&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;This elective course deepens the training of students interested in the Water Resources and Hydraulics area through instruction in the application of techniques for the mathematical simulation of the transformation of precipitation into surface runoff within a catchment. The first part of the course reviews the different types of hydrological models, their structure, and the formulation of conceptual models to represent the hydrological processes of a given catchment. Subsequently, the principal sources of in situ and satellite data are described. The course then introduces the main techniques for sensitivity analysis, calibration and validation, and uncertainty analysis of model parameters and associated outputs. Finally, the course examines the range of climate change scenarios available for Chile and analyzes their potential impacts on water resource availability at the catchment scale.&lt;/p&gt;
+&lt;h2 id=&#34;professional-skills&#34;&gt;Professional skills&lt;/h2&gt;
+&lt;p&gt;Design solutions to problems related to the use of water resources in engineering projects, applying solid knowledge of basic sciences and engineering, in compliance with current regulations and project specifications, and using appropriate technological tools, while demonstrating the ability to work in teams, engage in independent learning, and act with social responsibility.&lt;/p&gt;
+&lt;h2 id=&#34;generic-skills&#34;&gt;Generic skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;None.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;learning-outcomes&#34;&gt;Learning outcomes&lt;/h2&gt;
+&lt;p&gt;Upon successful completion of this course or module, students should be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA1&lt;/strong&gt;: Develop a conceptual model that represents the hydrological processes of a catchment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA2&lt;/strong&gt;: Select one or more hydrological models to analyse water resource availability within a near-natual catchment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA3&lt;/strong&gt;: Quantify the uncertainty associated with model parameters and the resulting model outputs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hydrological models&lt;/strong&gt;. Context of hydrological modeling. Types of hydrological models. Structure of a model. Formulation of the conceptual model. Selection and implementation of the computational model.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Hydrometeorological data&lt;/strong&gt;. Existing in-situ data sources in Chile. Existing satellite data worldwide, with their respective spatial and temporal resolutions. Selection and implementation of hydrometeorological data for a hydrological basin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Sensitivity analysis&lt;/strong&gt;. Concept. General description of local (Morris) and global (Sobol) techniques. Computational application of the Sobol technique for identifying the sensitive parameters of a model.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Calibration/Optimisation&lt;/strong&gt;. Concept. General description of local (Levenberg-Marquardt) and global (Shuffled Complex Evolution, Differential Evolution, Particle Swarm Optimization) techniques. Pareto front and the concept of multi-objective calibration. Computational application of Particle Swarm Optimization (PSO) to estimate the numerical values of a model.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Uncertainty Analysis&lt;/strong&gt;. Concept. General description of the Generalized Likelihood Uncertainty Estimation (GLUE) technique. Computational application of GLUE in a model.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Regionalisation&lt;/strong&gt;. Hydrological signatures. Regionalization techniques.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Impacts of Climate Change&lt;/strong&gt;. Climate change scenarios available for Chile. General description of downscaling techniques.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+&lt;h3 id=&#34;basic-bibliography&#34;&gt;Basic bibliography&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Beven, Keith J. (2012). 
+. 2nd edition. ISBN: ISBN:9780470714591. (Biblioteca UFRO).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Musy, A.; Hingray, B.;  Picouet, C. (Eds.). (2015). Hydrology: a science for engineers. CRC press. ISBN: ISBN 9781466590595.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Shaw, Elizabeth M. ;  Beven, Keith J.; Chappell, Nick A.; Lamb, Rob (2011). 
+. ISBN: 9781315274904 (Biblioteca UFRO).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;supplementary-bibliography&#34;&gt;Supplementary bibliography&lt;/h3&gt;
+&lt;p&gt;Several scientific articles.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IIO352/IIO422 - Hidrología (undergraduate)</title>
+      <link>https://example.com/courses/iio352-hidrologia/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/courses/iio352-hidrologia/</guid>
+      <description>&lt;p&gt;👋 Description of the Hydrology undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/courses/iio352-hidrologia/iio352-logo.jpg&#34;
+    alt=&#34;Hydrology course&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Hydrology course at undergraduate level&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;identification-of-the-course&#34;&gt;Identification of the course&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Professional degree&lt;/strong&gt;: Civil Engineering&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ID and name&lt;/strong&gt;: IIO352/IIO422, Hidrología (Hydrology)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Type of training&lt;/strong&gt;: specialised, theoretical and practical&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Weekly dedication&lt;/strong&gt;: 4 hrs intra-classroom, 4 hrs extra-classroom&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Faculty&lt;/strong&gt;: Faculty of Engineering and Sciences&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Department&lt;/strong&gt;: Civil Engineering&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;SCT Credits&lt;/strong&gt;: 5&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Required courses&lt;/strong&gt;: IIO316 Hydraulics, COD558 Basic English&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Duration&lt;/strong&gt;: 1 semester (16 weeks)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Language&lt;/strong&gt;: Spanish&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;This compulsory course studies the occurrence, distribution, and circulation of water on Earth, with particular emphasis on understanding and numerically evaluating the various components of the hydrological cycle, using a catchment as the spatial unit of analysis. It also provides knowledge on the management and exploratory analysis of hydro-meteorological data and an introduction to the use of hydrological models for both water resource management and obtaining current and future values of key hydrological variables.&lt;/p&gt;
+&lt;h2 id=&#34;professional-skills&#34;&gt;Professional skills&lt;/h2&gt;
+&lt;p&gt;Design solutions to problems related to the use of water resources in engineering projects, applying solid knowledge of basic sciences and engineering, in compliance with current regulations and project specifications, and using appropriate technological tools, while demonstrating the ability to work in teams, engage in independent learning, and act with social responsibility.&lt;/p&gt;
+&lt;h2 id=&#34;generic-skills&#34;&gt;Generic skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Teamwork&lt;/li&gt;
+&lt;li&gt;Social responsibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;learning-outcomes&#34;&gt;Learning outcomes&lt;/h2&gt;
+&lt;p&gt;Upon successful completion of this course or module, students should be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA1&lt;/strong&gt;: Describe the relevant phenomena of the hydrological cycle, incorporating concepts from meteorology.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA2&lt;/strong&gt;: Characterise basic concepts of precipitation, evaporation, and evapotranspiration for water resource assessment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA3&lt;/strong&gt;: Apply numerical methods of hydrological analysis for water resource assessment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA4&lt;/strong&gt;: Analyse probabilistically the hydrological variables necessary for planning hydrological and hydraulic projects.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA5&lt;/strong&gt;: Integrate the dimension of social responsibility associated with engineering challenges into problem-solving.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RA6&lt;/strong&gt;: Self-evaluate their own performance as a member of a work team.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Introduction and basic concepts&lt;/strong&gt;: Definition and scope of hydrology. The hydrological cycle and the general equation for hydrological balance. Concept of a catchment and integrated water resource management. Spatial and temporal variability of hydrological processes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Water in the atmosphere&lt;/strong&gt;: Basic climatology and atmospheric circulation. Solar radiation. Air temperature, humidity, and water vapor. Precipitation. Interception. Evaporation. Evapotranspiration. Methods for interpolating hydrological variables.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Water in the soil&lt;/strong&gt;: Flow in porous media. Infiltration. Green-Ampt method. Soil uses and types.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Surface runoff&lt;/strong&gt;: Hydrological information. Streamflow measurement. Hydrographs. Flow duration curves (FDC). Effective precipitation and direct runoff. Transit time. Precipitation-runoff relationships. Unit hydrograph. Flood routing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Probabilistic and statistical methods in hydrology&lt;/strong&gt;: Exploratory data analysis and descriptive statistics. Probabilistic treatment of hydrological information. Frequency and probability functions. Return period. Statistical parameters. Fitting probability distributions. Probability distributions of hydrological variables. Characterization and analysis of droughts and floods. Risk analysis. Design storms.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Introduction to hydrological models&lt;/strong&gt;: Types of models. Concepts of sensitivity analysis, calibration/optimisation, and uncertainty analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+&lt;h3 id=&#34;basic-bibliography&#34;&gt;Basic bibliography&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Hakim, Gregory J. and Patoux, Jérôme (2022). 
+. Second edition. Cambridge University Press. ISBN: 9781108832717. (Biblioteca UFRO).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Naghettini, Mauro (2017). 
+. Springer International Publishing. ISBN:978-3-319-43560-2. (Biblioteca UFRO).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jain, Sharad K. and Singh, Vijay P. (2019). 
+. McGraw Hill. ISBN:978-1259641985. (Biblioteca UFRO).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bloomfield, Víctor A. (2014). 
+. ISBN 9781439884485. (Biblioteca UFRO).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Shaw, Elizabeth M. ;  Beven, Keith J.; Chappell, Nick A.; Lamb, Rob (2011). 
+. ISBN: 9781315274904 (Biblioteca UFRO).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;supplementary-bibliography&#34;&gt;Supplementary bibliography&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Robinson, M. and Ward, R. C. (2017). 
+. IWA Publishing. ISBN: 9781780407296.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Musy, A. and Higy, C. (2011) 
+ (pp. 263-274). CRC Press. ISBN: 9781578087099.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stowhas, L. (2017). 
+. Editorial USM.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Espíldora, B. 2020. 
+. ISBN: 978-956-306-154-3.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fernández, B. and Gironás, J. (2021). 
+. Springer. ISBN: 978-3-030-56900-6.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Little C., Zambrano-Bigiarini M., Benítez S. and Rivera A. (2016), 
+. Editado por Centro de Análisis de Políticas Públicas, Instituto de Asuntos Públicos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vijay P. Singh (2017). 
+ (Second Edition). McGraw-Hill Education. ISBN: 0071835105.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Te Chow, V.; Maidment, D. R.; Mays, L. W. (1994). 
+. McGraw Hill. ISBN: 9789586001717.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Helsel, D. R.; Hirsch, R. M. ; Ryberg, K. R.; Archfield, S. A.; Gilroy, E. J. (2020). Statistical methods in water resources: U.S. Geological Survey Techniques and Methods, book 4, chapter A3, 458 p., 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DGA (2016). Atlas del Agua: Chile 2016. 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Balram Panigrahi, B. P. and Kajal Panigrahi, K. P. (2020). Engineering hydrology.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Reddy, P. J. (2021). Stochastic Hydrology (HB). Laxmi Publications, Ltd.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

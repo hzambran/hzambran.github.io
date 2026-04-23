@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R-Pkgs | </title>
+    <link>https://example.com/tags/r-pkgs/</link>
+      <atom:link href="https://example.com/tags/r-pkgs/index.xml" rel="self" type="application/rss+xml" />
+    <description>R-Pkgs</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>R-Pkgs</title>
+      <link>https://example.com/tags/r-pkgs/</link>
+    </image>
+    
+    <item>
+      <title>hydroPSO v0.5-0 on CRAN</title>
+      <link>https://example.com/blog/2020-03-18-hydropso_v050_on_cran/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2020-03-18-hydropso_v050_on_cran/</guid>
+      <description>&lt;p&gt;After a long amount of work, the new version of &lt;code&gt;hydroPSO&lt;/code&gt; (v0.5-0) was released today March 18th 2020, and it is available on CRAN now 
+&lt;/p&gt;
+&lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Full compatibility with (hydrological/environmental) models implemented as R functions (e.g., &lt;code&gt;TUWmodel&lt;/code&gt;, &lt;code&gt;GR4J&lt;/code&gt;, etc)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New 
+ showing how to calibrate TUWmodel with hydroPSO.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New 
+ showing how to calibrate TUWmodel with GR4J (and other models of the &lt;code&gt;airGR&lt;/code&gt; family).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;verification&lt;/code&gt;: now it is fully compatible with R-based models and allows parallelisation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;read_results&lt;/code&gt;, &lt;code&gt;plot_results&lt;/code&gt;, &lt;code&gt;read_out&lt;/code&gt;  :much faster now due to the use of &lt;code&gt;data.table::fread&lt;/code&gt; instead of &lt;code&gt;read.table&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New dataset &lt;code&gt;Trancura9414001&lt;/code&gt; with daily time series on P, Temp, PET, and Q from 1979 to 2016.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Package tested against R 4.0.0 (unstable) (2020-03-17 r77992) &amp;ndash;&amp;ldquo;Unsuffered Consequences&amp;rdquo;, following an imperative request made by CRAN.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All the new features can be read at: 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I hope you enjoy it !.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>hydroGOF v0.4-0 on CRAN</title>
+      <link>https://example.com/blog/2020-03-12-hydrogof_v040_on_cran/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2020-03-12-hydrogof_v040_on_cran/</guid>
+      <description>&lt;p&gt;Following a request made by CRAN regarding compatibility issues with the upcoming version of R, the new version of &lt;code&gt;hydroGOF&lt;/code&gt; (v0.4-0) was released today March 12th 2020, and it is available on CRAN now 
+&lt;/p&gt;
+&lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Package tested against R Under development (unstable) (2020-03-10 r77920) &amp;ndash; &amp;ldquo;Unsuffered Consequences&amp;rdquo;, following an imperative request made by CRAN.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Citation file changed, following CRAN comments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vignette on Goodness-of-fit Measures to Compare Obserligved and Simulated Values was moved from Sweave to Knitr.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New references were added for &lt;code&gt;KGE&lt;/code&gt; (Santos et. al, 2018; Knoben et al., 2019; Mizukami et al., 2019)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New reference was added for &lt;code&gt;me&lt;/code&gt; (Hill et al., 2006) Thanks to Erli Pinto dos Santos !.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;br2&lt;/code&gt;: new argument &amp;lsquo;use.abs=FALSE&amp;rsquo;, to allow the user to use &amp;lsquo;abs(b)&amp;rsquo; as condition to decide whether using abs(b)*r2 or [1/abs(b)]*r2 in equation (5) in Krausse et al. (2005). Thanks to Ellie White !&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I hope you enjoy it !.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>hydroTSM v0.6-0 on CRAN</title>
+      <link>https://example.com/blog/2020-03-11-hydrotsm_v060_on_cran/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2020-03-11-hydrotsm_v060_on_cran/</guid>
+      <description>&lt;p&gt;Following a request made by CRAN regarding compatibility issues with the upcoming version of R, the new version of &lt;code&gt;hydroTSM&lt;/code&gt; (v0.6-0) was released today March 11th 2020, and it is available on CRAN now 
+&lt;/p&gt;
+&lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Package tested against R Under development (unstable) (2020-03-10 r77920) &amp;ndash; &amp;ldquo;Unsuffered Consequences&amp;rdquo;, following an imperative request made by CRAN.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vignette on 
+ was moved from Sweave to Knitr and now includes a climograph example.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;subdaily2daily&lt;/code&gt;: new argument &lt;em&gt;start&lt;/em&gt; to allow daily observations start at any time different from 00:00:00 UTC.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;time2season&lt;/code&gt;   : class of objects is now tested in a way compatible with the upcoming R 4.0.0&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;dm2seasonal&lt;/code&gt;   : class of objects is now tested in a way compatible with the upcoming R 4.0.0&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;matrixplot&lt;/code&gt;    : class of objects is now tested in a way compatible with the upcoming R 4.0.0&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I hope you enjoy it !.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

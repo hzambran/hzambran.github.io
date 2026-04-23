@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fondecyt-1212071 | </title>
+    <link>https://example.com/tags/fondecyt-1212071/</link>
+      <atom:link href="https://example.com/tags/fondecyt-1212071/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fondecyt-1212071</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 13 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <title>Fondecyt-1212071</title>
+      <link>https://example.com/tags/fondecyt-1212071/</link>
+    </image>
+    
+    <item>
+      <title>Two works at EGU 2024</title>
+      <link>https://example.com/dissemination/2024-04-13-egu2024/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2024-04-13-egu2024/</guid>
+      <description>&lt;p&gt;During the week of April 15 to 19, 2024, two works will be presented by PhD(c) Fernando Gimeno in the 
+, held in the city of Wien (Austria):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+. This works presents the development of Intensity-Duratin-Frequency (IDF) curves for the climatically and topographically diverse Chilean territory (17-56ºS), using both stationary and non-stationary approaches based on three state-of-the-art gridded datasets (IMERGv06B, ERA5, ERA5-Land). This collaboration was only possible thanks to funding provided by ANID-Fondecyt Regular 1212071, ANID-PCI NSFC 190018, and ANID-Fondecyt Iniciación 111908064.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. This work addresses the pressing need for robust soil input data for SWAT+ hydrological model, by evaluating assessing the performance of four different soil type maps in the respresenation of streamflows and soild moisture data in the mediterranean Cauquenes in Desembocadura River Basin. This work was only possible thanks to funding provided by ANID-Fondecyt Regular 1212071, ANID-PCI NSFC 190018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on hydrological drought monitoring published in HESS</title>
+      <link>https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
+      <description>&lt;p&gt;On March 28th, 2024, 
+ published the article entitled 
+. This study investigates the suitability of different drought indices and temporal scales for monitoring streamflow drought in catchments with different hydrological regimes.&lt;/p&gt;
+&lt;p&gt;Considering the lack of consensus on which drought indices and temporal scales are most appropriate for monitoring hydrological droughts, and the growing interest in the use of spatially distributed drought indices in ungauged areas (i.e, without streamflow data), this study addresses the following questions:&lt;/p&gt;
+&lt;p&gt;i) Which temporal scales of precipitation-based indices are best suited to assess streamflow drought in catchments with different hydrological regimes?&lt;/p&gt;
+&lt;p&gt;ii) Are soil moisture indices superior to meteorological indices as proxies of streamflow drought?&lt;/p&gt;
+&lt;p&gt;iii) Are snow indices more effective than meteorological indices for assessing streamflow drought in snow-influenced catchments?&lt;/p&gt;
+&lt;p&gt;To answer these questions, we investigated 100 near-natural catchments in Chile with four hydrological regimes (nival, nivo-pluvial, pluvio-nival, and pluvial), using the standardised precipitation index (&lt;strong&gt;SPI&lt;/strong&gt;), the standardised precipitation evapotranspiration index (&lt;strong&gt;SPEI&lt;/strong&gt;), the empirical standardised soil moisture index (&lt;strong&gt;ESSMI&lt;/strong&gt;), and the standardised snow water equivalent index (&lt;strong&gt;SWEI&lt;/strong&gt;), aggregated over different temporal scales. Cross-correlation and event coincidence analyses were performed between these indices and the standardised streamflow index on a temporal scale of 1 month (&lt;strong&gt;SSI-1&lt;/strong&gt;), as representative of streamflow drought events.&lt;/p&gt;
+&lt;p&gt;Our results reveal that &lt;strong&gt;no single drought index and temporal scale can be recommended for all catchments and hydrological regimes&lt;/strong&gt;, and that snow-influenced catchments require drought indices with larger temporal scales. In particular, for &lt;strong&gt;snowmelt-driven catchments&lt;/strong&gt; characterised by a slow response of runoff to precipitation we recommend &lt;strong&gt;SPI-12&lt;/strong&gt; and &lt;strong&gt;SPI-24&lt;/strong&gt; as the best proxy indices for characterising streamflow droughts. In contrast, for faster-response &lt;strong&gt;rainfall-driven catchments&lt;/strong&gt; we recommend the &lt;strong&gt;SPI-3&lt;/strong&gt; as the best proxies. Although soil moisture and snowpack are key variables that modulate the propagation of meteorological deficits into hydrological ones, &lt;strong&gt;the SPI and SPEI meteorological indices generally outperformed the soil moisture and snowpack-based indices in monitoring streamflow drought&lt;/strong&gt;. Finally, to exclude the influence of non-drought periods, we recommend using the &lt;strong&gt;event coincidence analysis&lt;/strong&gt;, a method that helps to assess the suitability of meteorological, soil moisture, and/or snowpack-based drought indices as proxies for streamflow drought events.&lt;/p&gt;
+&lt;p&gt;The 
+ to this article contains much aditional information on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the selection of soil moisture and SWE products (&lt;strong&gt;S1&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;the temporal scales with the highest cross-correlation and event coincidence rates (&lt;strong&gt;S2&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;boxplots for analysing the cross-correlation and event coincidence on different temporal scales and with different lag times (&lt;strong&gt;S3&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;spatial analysis for cross-correlation and event coincidence analysis at different temporal scales and lag times (&lt;strong&gt;S4&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;boxplots for the cross-correlation analysis for different hydrological regimes (&lt;strong&gt;S5&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;boxplots for the event coincidence analysis for different hydrological regimes (&lt;strong&gt;S6&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;difference between parametric and non-parametric approach for the calculation of drought indices for soil moisture (&lt;strong&gt;S7&lt;/strong&gt;),&lt;/li&gt;
+&lt;li&gt;summary of them median monthly P and Q values for all selected catchments (&lt;strong&gt;S8&lt;/strong&gt;), and&lt;/li&gt;
+&lt;li&gt;figures with the median monthly P and Q values for all selected catchments (&lt;strong&gt;S9&lt;/strong&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This work is the result of years of international collaboration with Dr. Oscar M. Baez-Villanueva, collecting and analysing different gridded datasets of key meteorological variables, since the  ANID Fondecyt 11150861 project in 2017. In particular, this article was an integral part of the project 
+ lead by Camila Álvarez-Garretón and Juan Pablo Boisier at the 
+, and received additional funding from the research projects 
+ led by me at 
+, Chile.&lt;/p&gt;
+&lt;p&gt;I hope that the results of this article can be considered by the General Directorate of Water of Chile (DGA) to improve the criteria used to monitor and identify hydrological droughts in Chile, within the framework of water scarcity declarations (Res. Exe. DGA No. 1331/2022, and articles 314 and 315 of the Chilean Water Code).&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
+    alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Graphical abstract&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Two works at International SWAT Conference (Aarhus, Dinamarca)</title>
+      <link>https://example.com/dissemination/2023-07-07-swat2023-aarhus_denmark/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2023-07-07-swat2023-aarhus_denmark/</guid>
+      <description>&lt;p&gt;During the week of June 26th to 30th, 2023, I participated in the International Conference 
+, held at the 
+ (Aarhus Denmark). This is a small conference, aimed at all scientists working with the 
+ worldwide. On this occasion, more than 170 scientists from 41 countries on six continents participated.&lt;/p&gt;
+&lt;p&gt;I participated as co-author in one paper and presented another:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this work, the Master&amp;rsquo;s candidate Rodrigo Marinao Rivas presented 
+ to the 
+ eco-hydrological model user community. 
+ is a new 
+ package for multi-objective calibration, which combines two search mechanisms to maintain population diversity and accelerate its convergence towards the Pareto optimal front. 
+ is model-independent, allowing the calibration engine to interact with any type of model that needs to be run from the command line, including SWAT and SWAT+, but also other hydrological models available in R (eg, 
+, 
+, 
+). In addition, 
+ is independent of the operating system used (i.e. it can run on GNU/Linux, Mac OSX and Windows, among others) and can run on multi-core machines or network clusters, which significantly alleviates the load computational associated with the optimization of complex models with long execution times.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this paper, Dr. Zambrano-Bigiarini presented an application of the 
+ multi-objective calibration software to the 
+ eco-hydrological model implemented in the Trancura River Basin before Llafenco (Araucanía Region). In this work, two cases of multi-objective calibration were analyzed. In the first case study, the SWAT+ model was simultaneously calibrated for two time periods: one with normal/wet conditions and one with dry conditions (i.e., below-normal rainfall). In the second case study, daily flows at the outlet of the basin and average monthly real evapotranspiration throughout the basin were calibrated simultaneously. The package has been developed by Civil Engineer Rodrigo Marinao, who is a graduate of Civil Engineering at the Universidad de la Frontera, a student of the Master&amp;rsquo;s Degree in Engineering Sciences from the same university, and a research assistant at the Center for Climate and Resilience Research (CR2). The collaboration between Rodrigo Marinao and I began from the Hydrology course in the Civil Engineering degree, and has continued uninterrupted since then. This work also received funding from the 
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/SWAT2023-Presentation_MZB.jpg&#34; alt=&#34;Multi-period and multi-variable calibration of SWAT&amp;#43; using gridded input datasets and a novel R package&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, during this conference, I took the opportunity to clarify doubts about the implementation of the growth of some plant species typical of Chile, learn about the latest advances in the development of the model (e.g., 
+, 
+, 
+), and possibilities of collaboration with doctoral candidate 
+ from the 
+.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/SWAT2023-MZB_Sirinivasan_Palominos.jpg&#34; alt=&#34;Sirinivasan, Palominos and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/SWAT2023-MZB_RMR_Palominos.jpg&#34; alt=&#34;Rodrigo, Carolos and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/SWAT2023-Aarhus2.jpg&#34; alt=&#34;Aarhus&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Four works at EGU 2023</title>
+      <link>https://example.com/dissemination/2023-05-02-egu2023/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/dissemination/2023-05-02-egu2023/</guid>
+      <description>&lt;p&gt;During the week of April 24 to 28, 2023, I participated in the 
+, held in the city of Wien (Austria). On this occasion, I presented two works and participated in other two:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this work, I presented 
+, a new package for the 
+ that is about to be submitted to 
+. This package expands the functions of the terra package to work with gridded data that has a time attribute. In particular, hydroRTS allows you to work efficiently with large amounts of gridded data that have an hourly, daily, monthly, or annual time frequency. This work summarizes a large amount of work that I has done since 2013. However, only the collaboration of Civil Engineer Sebastián Bernal, graduated in 2022 from Civil Engineering at the Universidad de la Frontera, allowed to systematically organize and adequately document a set of functions that are useful for the Hydrological and Earth Sciences community worldwide. This collaboration was only possible thanks to funding provided by the 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this work, I presented to the international community an application of 
+, an 
+ package for global multi-objective optimization. In this work, two cases of multi-objective calibration of the SWAT+ semi-distributed hydrological model in the Trancura River Basin before Llafenco (Araucanía Region) were analyzed. In the first case study, the SWAT+ model was simultaneously calibrated for two time periods: one with normal/wet conditions and one with dry conditions (i.e., below-normal rainfall). In the second case study, daily flows at the outlet of the basin and average monthly real evapotranspiration throughout the basin were calibrated simultaneously. This package has been developed by Civil Engineer Rodrigo Marinao, who is a graduate of Civil Engineering at the Universidad de la Frontera, a student of the 
+ from the same university, and a research assistant at the 
+. The collaboration between the Marine Engineer and I began from the Hydrology course in the Civil Engineering degree, and has continued uninterrupted since then. This work also received funding from the 
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/EGU2023-01_Poster_hydroMOPSO.jpg&#34; alt=&#34;Multi-period and multi-variable calibration of SWAT&amp;#43; using gridded input datasets and a novel R package&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this paper, Dr. Oscar Baez-Villanueva (TH Köln, Germany) presented a paper that analyzes which meteorological drought indices (SPI, SPEI), soil moisture (ESSMI) or snow (SSWEI) are more related to the occurrence of hydrological drought (SSI-1), based on the hydrological regime (i.e., pluvial, pluvio-nival, nivo-pluvial, nival) of 100 basins of Central-South Chile. This work has been carried out in collaboration with me within the framework of the project &amp;ldquo;&lt;em&gt;Drought and water security platform for catchment planning: historical evolution and future trajectories under global change&lt;/em&gt;&amp;rdquo;, financed by ANID in the Rapid Assignment Contest Fondo de Strategic Research in Drought for the year 2021, whose director is Dr. Camila Álvarez Garreón (CR2).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+. In this paper, Fabian Lema, a Master&amp;rsquo;s candidate at the 
+, presented a paper where the characteristics of drought events in six basins of Central-South Chile are analyzed, both for a historical period and for a future period. Dr. Pablo Mendoza from the University of Chile invited I to participate in this work thanks to his collaboration as an evaluating member of Fabián Lema&amp;rsquo;s Master&amp;rsquo;s thesis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Finally, during this conference, I took the opportunity to discuss, among other things, postgraduate collaboration possibilities with 
+ from the 
+ (USA) and to talk about a joint article with Dr. Oscar Baez-Villanueva from the 
+ (Germany) and with 
+ from the 
+ (Arabia Saudita).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/EGU2023-02_Ian_Oscar_MZB.jpg&#34; alt=&#34;Ian, Oscar and I&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/EGU2023-03_Stephansdom.jpg&#34; alt=&#34;Wien: Stephansdom&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
+    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;My Caption&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on challenge of unprecedented floods and droughts in risk management published in Nature</title>
+      <link>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
+      <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
+      <description>&lt;p&gt;On August 4, 2022, Nature published the article entitled 
+. This article
+shows that risk management has reduced vulnerability to floods and droughts worldwide, but their impacts continue to increase. Therefore, we need a better understanding of the causes of impacts in a changing climate, but this better understanding has been hampered by a lack of empirical data.&lt;/p&gt;
+&lt;p&gt;Based on a global data set of 45 pairs of extreme events that occurred within the same area (one of them in Chile), an interdisciplinary team of 92 authors from various countries, led by Dra. Heidi Kreibich, showed that adequate risk management generally succeeds in reducing impacts of floods and droughts, but faces difficulties in reducing the impacts of unprecedented events, i.e., events of a magnitude never experienced before.&lt;/p&gt;
+&lt;p&gt;Furthermore, when the second extreme event was more dangerous than the first, its impact was almost always greater. This is because management was not designed to deal with such extreme events, which resulted in levees and reservoirs exceeding design levels.&lt;/p&gt;
+&lt;p&gt;In two success stories, the impact of the second, more dangerous event was less, as a result of better risk management governance and high investment in integrated management. The observed difficulty in managing unprecedented events is alarming, given that more extreme hydrological events are projected due to climate change.&lt;/p&gt;
+&lt;p&gt;This work is the fruit of years of international cooperation with the Technical University of Cologne in Germany and with the 
+ Group, dedicated to research activities on changes in hydrology and society. This work had its origins in a meeting held at the European Geosciences Union (EGU) Conference in 2018, where Dr. Zambrano-Bigiarini participated together with Dr. Camila Álvarez Garretón (both belonging to the CR2 FONDAP center) in a meeting with members of the 
+, and began to define the objectives of this article.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
+    alt=&#34;https://doi.org/10.1038/s41586-022-04917-5&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
