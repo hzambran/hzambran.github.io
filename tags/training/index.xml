@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Training | </title>
-    <link>https://example.com/tags/training/</link>
-      <atom:link href="https://example.com/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    <title>Training | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/training/</link>
+      <atom:link href="https://hzambran.github.io/tags/training/index.xml" rel="self" type="application/rss+xml" />
     <description>Training</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 May 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Training</title>
-      <link>https://example.com/tags/training/</link>
+      <link>https://hzambran.github.io/tags/training/</link>
     </image>
     
     <item>
       <title>Short course on use of R for analysing satelite-based rainfall estimates (SREs) in Germany</title>
-      <link>https://example.com/dissemination/2017-05-05-training_on_rs_at_itt/</link>
+      <link>https://hzambran.github.io/dissemination/2017-05-05-training_on_rs_at_itt/</link>
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/dissemination/2017-05-05-training_on_rs_at_itt/</guid>
+      <guid>https://hzambran.github.io/dissemination/2017-05-05-training_on_rs_at_itt/</guid>
       <description>&lt;p&gt;During the first week of May, I gave a short course to postgraduate students of the 
  of TH Köln (
 ).&lt;/p&gt;
@@ -42,9 +42,9 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
     
     <item>
       <title>PhD summer school Remote Sensing applications for Water Accounting</title>
-      <link>https://example.com/dissemination/2016-07-20-training_on_rs_at_itt/</link>
+      <link>https://hzambran.github.io/dissemination/2016-07-20-training_on_rs_at_itt/</link>
       <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/dissemination/2016-07-20-training_on_rs_at_itt/</guid>
+      <guid>https://hzambran.github.io/dissemination/2016-07-20-training_on_rs_at_itt/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Water accounting&lt;/strong&gt; is a fundamental basis to understand water availability and demands and the related benefits and efficiencies are related to water uses. While the fundamental data needed for establishing water accounts is often missing, Remote Sensing can contribute to fill the data gaps.
 With this course PhD students and staff at ITT will become familiar with the application of Remote Sensing to derive information on precipitation, evapotranspiration and land cover - three essential information elements for water accounts.
 Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce the basic techinques of Remote Sensing using the software SPRING and introduce to derive land cover information from products such as Landsat. &lt;strong&gt;Dr. Mauricio Zambrano-Bigiarini&lt;/strong&gt; from 
@@ -68,7 +68,7 @@ Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce th
 
 &lt;figure  &gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://example.com/assets/posts/2016-07-20-RS_PhD_course_at_ITT.png&#34; alt=&#34;example of analysis&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2016-07-20-RS_PhD_course_at_ITT.png&#34; alt=&#34;example of analysis&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;

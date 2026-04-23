@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog | </title>
-    <link>https://example.com/blog/</link>
-      <atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <title>Blog | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/blog/</link>
+      <atom:link href="https://hzambran.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Blog</title>
-      <link>https://example.com/blog/</link>
+      <link>https://hzambran.github.io/blog/</link>
     </image>
     
     <item>
       <title>The Past 3 Years Have Been the Three Hottest</title>
-      <link>https://example.com/blog/2026-01-14-past_3_years_have_been_the_hottest/</link>
+      <link>https://hzambran.github.io/blog/2026-01-14-past_3_years_have_been_the_hottest/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2026-01-14-past_3_years_have_been_the_hottest/</guid>
+      <guid>https://hzambran.github.io/blog/2026-01-14-past_3_years_have_been_the_hottest/</guid>
       <description>&lt;p&gt;The recent analysis published by &lt;strong&gt;Berkeley Earth&lt;/strong&gt;, corroborated by the &lt;strong&gt;National Oceanic and Atmospheric Administration (NOAA)&lt;/strong&gt;, confirms that &lt;strong&gt;2025 was the third-warmest year on record&lt;/strong&gt;. This year follows 2024 and 2023, collectively forming a three-year &amp;ldquo;warming spike&amp;rdquo; that deviates significantly from long-term linear trends and poses critical questions regarding the acceleration of anthropogenic climate change.&lt;/p&gt;
 &lt;h3 id=&#34;statistical-overview-and-record-benchmarks&#34;&gt;Statistical Overview and Record Benchmarks&lt;/h3&gt;
 &lt;p&gt;In 2025, global average temperatures were estimated to be between &lt;strong&gt;1.35°C and 1.53°C&lt;/strong&gt; above the 1850–1900 pre-industrial baseline. While slightly lower than the peaks seen in 2024 ($1.46\text{--}1.62\text{°C}$) and 2023 ($1.48\text{--}1.60\text{°C}$), the data underscores a persistent breach of, or proximity to, the &lt;strong&gt;1.5°C threshold&lt;/strong&gt; established by the Paris Agreement.&lt;/p&gt;
@@ -51,7 +51,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2026-01-14-past_3_years_have_been_the_hottest/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-14-past_3_years_have_been_the_hottest/featured.jpg&#34;
     alt=&#34;exceptional warming observed in the past 3 years&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Scientists say the exceptional warming observed in the past 3 years could be evidence of accelerating warming. Credit: Berkeley Earth, CC BY-NC 4.0&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -62,9 +62,9 @@
     
     <item>
       <title>WMO confirms 2024 as warmest year on record at about 1.55°C above pre-industrial level</title>
-      <link>https://example.com/blog/2025-01-10-2024_was_warmest_year_on_record/</link>
+      <link>https://hzambran.github.io/blog/2025-01-10-2024_was_warmest_year_on_record/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2025-01-10-2024_was_warmest_year_on_record/</guid>
+      <guid>https://hzambran.github.io/blog/2025-01-10-2024_was_warmest_year_on_record/</guid>
       <description>&lt;p&gt;The World Meteorological Organization (WMO) has released a consolidated report confirming that 2024 was the warmest calendar year on record. By synthesizing six leading international datasets, the WMO provides a high-confidence assessment of global thermal anomalies, the state of oceanic heat reservoirs, and the current standing of international climate targets.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;1-temperature-anomalies-and-statistical-significance&#34;&gt;1. Temperature anomalies and statistical significance&lt;/h3&gt;
@@ -119,7 +119,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2025-01-10-2024_was_warmest_year_on_record/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2025-01-10-2024_was_warmest_year_on_record/featured.jpg&#34;
     alt=&#34;Global heating is a cold, hard fact&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;“Today&amp;rsquo;s assessment from the World Meteorological Organization (WMO) proves yet again – global heating is a cold, hard fact,” said UN Secretary-General Antóno Guterres. Source: WMO&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -130,9 +130,9 @@
     
     <item>
       <title>Anemometer installation at the Invernada station</title>
-      <link>https://example.com/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</link>
+      <link>https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</guid>
+      <guid>https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</guid>
       <description>&lt;p&gt;Last Tuesday, April 9th 2024, part of the Water Resources Observatory team of the Department of Civil Engineering (
 ) of the Universidad of La Frontera carried out the installation of an anemometer in the Invernada meteorological station located in the Conguillio National Park (Los Paraguas sector).&lt;/p&gt;
 &lt;p&gt;The installation of this anemometer will allow the station to record both the average hourly wind speed, the gust speed (maximum instantaneous speed), and the wind direction. These parameters are added to the existing measurements of precipitation, air temperature, solar radiation, relative humidity and dew point, providing essential data for future research related to water resources in the region. In particular, from now on it will be possible to estimate the reference evapotranspiration, which accounts for the maximum amount of water that a standard crop is capable of evaporating.&lt;/p&gt;
@@ -141,19 +141,19 @@
 &lt;p&gt;This milestone marked the end of a great filed work day for the team, which in this occasion included Dra. Rebeca Martínez, Civil Engineer Rodrigo Marinao, undergratuate student Marfa Saldivia and Dr. Mauricio Zambrano-Bigiarini. During the installation day it was also possible to carry out other routine activities, including streamflow measurements (through gauging and mass balance) and estimation of soil hydraulic conductivity (double ring infiltrometer).&lt;/p&gt;
 &lt;p&gt;These advances have been possible thanks to the funding provided by the projects: ANID Fondecyt Regular 1212071, ANID-NSFC 190018, ANID Fondecyt Postdoctoral 11190864, UFRO Postdoc grant405VRIP20P001, and ANID Fondecyt Postdoctoral 3220382.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4595.JPEG&#34;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4595.JPEG&#34;
     alt=&#34;Anemómetro&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Anemómetro&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4596.JPEG&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4596.JPEG&#34;
     alt=&#34;Estación invernada&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Estación invernada&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/featured.jpeg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/featured.jpeg&#34;
     alt=&#34;Parte del equipo de trabjo&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Parte del equipo de trabjo&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -164,9 +164,9 @@
     
     <item>
       <title>Article on hydrological drought monitoring published in HESS</title>
-      <link>https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
+      <link>https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</link>
       <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
+      <guid>https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/</guid>
       <description>&lt;p&gt;On March 28th, 2024, 
  published the article entitled 
 . This study investigates the suitability of different drought indices and temporal scales for monitoring streamflow drought in catchments with different hydrological regimes.&lt;/p&gt;
@@ -198,7 +198,7 @@
 &lt;p&gt;The full article can be found here: 
 .&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-03-28-hess_article_on_hydrological_drought_monioring_published/featured.jpeg&#34;
     alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Graphical abstract&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -209,9 +209,9 @@
     
     <item>
       <title>2023 was the warmest year on record, (NOAA)</title>
-      <link>https://example.com/blog/2024-01-12-2023_was_the_warmest_year_on_record/</link>
+      <link>https://hzambran.github.io/blog/2024-01-12-2023_was_the_warmest_year_on_record/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2024-01-12-2023_was_the_warmest_year_on_record/</guid>
+      <guid>https://hzambran.github.io/blog/2024-01-12-2023_was_the_warmest_year_on_record/</guid>
       <description>&lt;p&gt;Earth’s average land and ocean surface temperature in 2023 was 1.18ºC above the 20th century, the highest global temperature among all years in NOAA&amp;rsquo;s 1850-2023 climate record.
 It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC.&lt;/p&gt;
 &lt;p&gt;The 10 warmest years since 1850 have all occurred in the past decade. In fact, the average global temperature for 2023 exceeded the pre-industrial (1850-1900) average by 1.35ºC.&lt;/p&gt;
@@ -235,7 +235,7 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-01-12-2023_was_the_warmest_year_on_record/curves-2023.gif.webp&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-01-12-2023_was_the_warmest_year_on_record/curves-2023.gif.webp&#34;
     alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;My Caption&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -246,9 +246,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Hottest July on Record (174 years), (NASA)</title>
-      <link>https://example.com/blog/2023-08-14-hottest_july_on_record/</link>
+      <link>https://hzambran.github.io/blog/2023-08-14-hottest_july_on_record/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2023-08-14-hottest_july_on_record/</guid>
+      <guid>https://hzambran.github.io/blog/2023-08-14-hottest_july_on_record/</guid>
       <description>&lt;p&gt;Earth just roasted under its hottest July on record, according to scientists from NOAA&amp;rsquo;s National Centers for Environmental Information (NCEI) and also ffrom scientist from NASA.&lt;/p&gt;
 &lt;p&gt;For the fourth-consecutive month, the global ocean surface temperature also hit a record high.&lt;/p&gt;
 &lt;p&gt;Overall, July 2023 was 0.24ºC warmer than any other July in NASA&amp;rsquo;s record (since 1880), and it was 1.18ºC warmer than the average July between 1951 and 1980.&lt;/p&gt;
@@ -262,7 +262,7 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2023-08-14-hottest_july_on_record/featured.png.webp&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2023-08-14-hottest_july_on_record/featured.png.webp&#34;
     alt=&#34;Global temperature anomalies for July 2023&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;This map shows global temperature anomalies for July 2023 according to the GISTEMP analysis by scientists at NASA’s Goddard Institute for Space Studies. Temperature anomalies reflect how July 2023 compared to the average July temperature from 1951-1980.Credits: NASA&amp;rsquo;s Goddard Institute for Space Studies&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -273,9 +273,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Earth just had its hottest June on record (NOAA)</title>
-      <link>https://example.com/blog/2023-07-13-hottest_june_on_record/</link>
+      <link>https://hzambran.github.io/blog/2023-07-13-hottest_june_on_record/</link>
       <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2023-07-13-hottest_june_on_record/</guid>
+      <guid>https://hzambran.github.io/blog/2023-07-13-hottest_june_on_record/</guid>
       <description>&lt;p&gt;The world just sweltered through its &lt;strong&gt;hottest June&lt;/strong&gt; in the 174-year global climate record.&lt;/p&gt;
 &lt;p&gt;The June global surface temperature was 1.05°C above the 20th-century average of 15.5°C, making it the warmest June on record. This marked the first time a June temperature exceeded 1°C above the long-term average.&lt;/p&gt;
 &lt;p&gt;June 2023 was 0.13°C warmer than the previous June record from 2020, but 0.29°C cooler than the all-time highest monthly temperature anomaly on record (March 2016).&lt;/p&gt;
@@ -289,7 +289,7 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2023-07-13-hottest_june_on_record/featured.png.webp&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2023-07-13-hottest_june_on_record/featured.png.webp&#34;
     alt=&#34;Global temperature anomalies for June 2023&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;This map shows global temperature anomalies for June 2023 according to the GISTEMP analysis by scientists at NASA&amp;rsquo;s Goddard Institute for Space Studies. Temperature anomalies reflect how June 2023 compared to the average June temperature from 1951-1980. Credits: NASA’s Goddard Institute for Space Studies&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -300,9 +300,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Después de la gran tormenta, ¿cómo rediseñaremos? (El Mostrador)</title>
-      <link>https://example.com/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</link>
+      <link>https://hzambran.github.io/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</guid>
+      <guid>https://hzambran.github.io/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</guid>
       <description>&lt;p&gt;I just published an opinion column in the newspaper El Mostrador on how we will redesign the infrastructure that have been affected by the big storm that hit the Central-South zone of Chile in the end of June of this year 2023.&lt;/p&gt;
 &lt;p&gt;In this column, I states that it is of vital importance that the design of future infrastructure works considers -at least- the estimation of flood risk maps, and that the use of floodplains (free of human settlements) be prioritized in the communal regulatory plans, floodplains that must be estimated using the best data and techniques available, to avoid future human, social and material tragedies.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -319,9 +319,9 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
     
     <item>
       <title>Article on challenge of unprecedented floods and droughts in risk management published in Nature</title>
-      <link>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
+      <link>https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
       <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
+      <guid>https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
       <description>&lt;p&gt;On August 4, 2022, Nature published the article entitled 
 . This article
 shows that risk management has reduced vulnerability to floods and droughts worldwide, but their impacts continue to increase. Therefore, we need a better understanding of the causes of impacts in a changing climate, but this better understanding has been hampered by a lack of empirical data.&lt;/p&gt;
@@ -334,7 +334,7 @@ shows that risk management has reduced vulnerability to floods and droughts worl
 &lt;p&gt;The full article can be found here: 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
     alt=&#34;https://doi.org/10.1038/s41586-022-04917-5&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -345,16 +345,16 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Is the megadrought over with the last frontal system? (The Clinic)</title>
-      <link>https://example.com/blog/2022-07-19-termino_la_megasequia-theclinic/</link>
+      <link>https://hzambran.github.io/blog/2022-07-19-termino_la_megasequia-theclinic/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2022-07-19-termino_la_megasequia-theclinic/</guid>
+      <guid>https://hzambran.github.io/blog/2022-07-19-termino_la_megasequia-theclinic/</guid>
       <description>&lt;p&gt;On July 19th, 2022, Dr. Mauricio Zambrano-Bigiarini was interviewed about the impact of the latest frontal system in the drought that affects our country by the digital newspaper The Clinic.&lt;/p&gt;
 &lt;p&gt;In 
 , the academic discusses the impact that the latest rainfall had in reducing the water deficit in our country, and whether or not we can affirm that the mega-drought that affects our country has ended.&lt;/p&gt;
 &lt;p&gt;The full interview can be found here: 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2022-07-19-termino_la_megasequia-theclinic/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2022-07-19-termino_la_megasequia-theclinic/featured.jpg&#34;
     alt=&#34;https://www.theclinic.cl/2022/07/19/lluvia-nieve-sequia-sistema-frontal-expertos/&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -365,9 +365,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Cambio climático alimenta &#39;mancha&#39; caliente oceánica que causa megasequía en Chile según un estudio (La Tercera)</title>
-      <link>https://example.com/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
+      <link>https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
+      <guid>https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/</guid>
       <description>&lt;p&gt;According to a recent study, a gigantic slick of more than 8 million kilometers located east of New Zealand is largely responsible for the dramatic lack of water that is affecting the central area of Chile.&lt;/p&gt;
 &lt;p&gt;The full note can be read on the 
  or in the 
@@ -375,7 +375,7 @@ shows that risk management has reduced vulnerability to floods and droughts worl
 &lt;p&gt;The scientific article published in the &lt;em&gt;Journal of Climate&lt;/em&gt; is available 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2021-08-26-la_tercera_manchacalienteoceanica_y_megasequia/featured.jpg&#34;
     alt=&#34;https://www.latercera.com/que-pasa/noticia/cambio-climatico-alimenta-mancha-caliente-oceanica-que-causa-megasequia-en-chile-segun-un-estudio/&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Fuente: La Tercera&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -386,16 +386,16 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Article on Water Balancece in the Nile Basin using gridded P and ETa accepted for publication in JoH-RS</title>
-      <link>https://example.com/blog/2021-08-13-johrs_article_on_rs4nile_published/</link>
+      <link>https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/</link>
       <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2021-08-13-johrs_article_on_rs4nile_published/</guid>
+      <guid>https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/</guid>
       <description>&lt;p&gt;The article  
  has been published on the 
  journal.&lt;/p&gt;
 &lt;p&gt;This article evaluates the performance of eleven state-of-the-art precipitation (&lt;em&gt;P&lt;/em&gt;) products and seven actual evapotranspiration (&lt;em&gt;ETa&lt;/em&gt;) products over the Nile Basin using a four-step procedure: (&lt;strong&gt;i&lt;/strong&gt;)  products were evaluated at the monthly scale through a point-to-pixel approach; (&lt;strong&gt;ii&lt;/strong&gt;) streamflow was modelled using the Random Forest machine learning technique, and simulated for well-performing catchments for 2009–2018 (to correspond with ETa product availability); (&lt;strong&gt;iii&lt;/strong&gt;) ETa products were evaluated at the multiannual scale using the water balance method; and (&lt;strong&gt;iv&lt;/strong&gt;) the ability of the best-performing  and ETa products to represent monthly variations in terrestrial water storage (&lt;em&gt;TWS&lt;/em&gt;) was assessed through a comparison with GRACE Level-3 data.&lt;/p&gt;
 &lt;p&gt;The application of the water balance using the best-performing products captures the seasonality of TWS well over the White Nile Basin, but overestimates seasonality over the Blue Nile Basin. Our study &lt;strong&gt;demonstrates how gridded  and ETa products can be evaluated over extremely data-scarce conditions using an easily transferable methodology&lt;/strong&gt;.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2021-08-13-johrs_article_on_rs4nile_published/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/featured.jpg&#34;
     alt=&#34;https://doi.org/10.1016/j.ejrh.2021.100884&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -406,9 +406,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Esta es la última víctima del cambio climático en Chile (La Tercera)</title>
-      <link>https://example.com/blog/2021-03-17-la_tercera_cauquenes_joh2021/</link>
+      <link>https://hzambran.github.io/blog/2021-03-17-la_tercera_cauquenes_joh2021/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2021-03-17-la_tercera_cauquenes_joh2021/</guid>
+      <guid>https://hzambran.github.io/blog/2021-03-17-la_tercera_cauquenes_joh2021/</guid>
       <description>&lt;p&gt;A recent study by the Center for Climate Science and Resilience 
 , led by Dr. Mauricio Galleguillos, analyzed in detail the impact of climate change and land use change on water availability from the Cauquenes River Basin, which dried up during the summer of 2020.&lt;/p&gt;
 &lt;p&gt;The full note can be read on the [(CR)2 website](
@@ -428,9 +428,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Ingreso al Grupo de Evaluación de Ciencias de la Tierra de ANID !</title>
-      <link>https://example.com/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</link>
+      <link>https://hzambran.github.io/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</link>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</guid>
+      <guid>https://hzambran.github.io/blog/2021-03-01-mzb_ingresa_a_grupoevaluacion_anid/</guid>
       <description>&lt;p&gt;In March 2021, as a water resources specialist, I was invited to join the &lt;strong&gt;Assessment Group of Earth Sciences&lt;/strong&gt; (&lt;em&gt;Grupo de Evaluación de Ciencias de la Tierra&lt;/em&gt;) of the Chilean Science Foundation (
 ), which is a great honor and responsability.&lt;/p&gt;
 &lt;p&gt;This group has to evaluate science and technologial proposals submitted by Chilean scientists to the following calls: 
@@ -449,9 +449,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Balance Hídrico Nacional revela dramática situación: proyecta escasez de agua de hasta 50% y alza de temperatura de hasta 2.5°C</title>
-      <link>https://example.com/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</link>
+      <link>https://hzambran.github.io/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</guid>
+      <guid>https://hzambran.github.io/blog/2021-01-04-balance_hidrico_nacional_proyecta_escasez/</guid>
       <description>&lt;p&gt;An update of the Chilean Water Balance, led by academics from the University of Chile, reveals the complex local scenario, which apparently will not improve in the coming decades.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -467,9 +467,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Entra en vigencia la nueva Ley de Servicios Sanitarios Rurales</title>
-      <link>https://example.com/blog/2020-11-23-nueva_ley_de_ssr/</link>
+      <link>https://hzambran.github.io/blog/2020-11-23-nueva_ley_de_ssr/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-11-23-nueva_ley_de_ssr/</guid>
+      <guid>https://hzambran.github.io/blog/2020-11-23-nueva_ley_de_ssr/</guid>
       <description>&lt;p&gt;Noticia titulada 
 , donde se describe la nueva Ley N°20.998, la cual permitirá avanzar en forma significativa para garantizar el abastecimiento de agua potable y saneamiento para los habitantes del sector rural.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -484,9 +484,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Chi2 project on &#39;Exploradores 2020&#39; (24horas.cl)</title>
-      <link>https://example.com/blog/2020-09-11-chi2-reportaje_exploradores_24_horas/</link>
+      <link>https://hzambran.github.io/blog/2020-09-11-chi2-reportaje_exploradores_24_horas/</link>
       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-09-11-chi2-reportaje_exploradores_24_horas/</guid>
+      <guid>https://hzambran.github.io/blog/2020-09-11-chi2-reportaje_exploradores_24_horas/</guid>
       <description>&lt;p&gt;On September 11th, 2020 the international cooperation project NSFC190018 
  appeared in the &lt;em&gt;Exploradores 2020&lt;/em&gt; program of the &lt;em&gt;24 horas&lt;/em&gt; Chilean TV channel (national coverage).&lt;/p&gt;
 &lt;p&gt;This short reportage was invited by the 
@@ -512,9 +512,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Mawün rainfall explorer launched !</title>
-      <link>https://example.com/blog/2020-09-01-lanzamiento_de_mawun/</link>
+      <link>https://hzambran.github.io/blog/2020-09-01-lanzamiento_de_mawun/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-09-01-lanzamiento_de_mawun/</guid>
+      <guid>https://hzambran.github.io/blog/2020-09-01-lanzamiento_de_mawun/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Mawün rainfall explorer launched !&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;After more than one year of development, on September 1st 2020 an &lt;strong&gt;unprecedented web platform&lt;/strong&gt; for exploring gridded precipitation products was launced as a new weather service at the 
  website: 
@@ -560,9 +560,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Article on Water Resources Management in the Araucanía region (Chile) accepted for publication in IJWRD</title>
-      <link>https://example.com/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</link>
+      <link>https://hzambran.github.io/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</link>
       <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</guid>
+      <guid>https://hzambran.github.io/blog/2020-07-17-ijwrd_article_on_weap4araucania_published/</guid>
       <description>&lt;p&gt;The article 
  was finally published on the 
  journal.&lt;/p&gt;
@@ -579,9 +579,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>hydroPSO v0.5-0 on CRAN</title>
-      <link>https://example.com/blog/2020-03-18-hydropso_v050_on_cran/</link>
+      <link>https://hzambran.github.io/blog/2020-03-18-hydropso_v050_on_cran/</link>
       <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-03-18-hydropso_v050_on_cran/</guid>
+      <guid>https://hzambran.github.io/blog/2020-03-18-hydropso_v050_on_cran/</guid>
       <description>&lt;p&gt;After a long amount of work, the new version of &lt;code&gt;hydroPSO&lt;/code&gt; (v0.5-0) was released today March 18th 2020, and it is available on CRAN now 
 &lt;/p&gt;
 &lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
@@ -627,9 +627,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>hydroGOF v0.4-0 on CRAN</title>
-      <link>https://example.com/blog/2020-03-12-hydrogof_v040_on_cran/</link>
+      <link>https://hzambran.github.io/blog/2020-03-12-hydrogof_v040_on_cran/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-03-12-hydrogof_v040_on_cran/</guid>
+      <guid>https://hzambran.github.io/blog/2020-03-12-hydrogof_v040_on_cran/</guid>
       <description>&lt;p&gt;Following a request made by CRAN regarding compatibility issues with the upcoming version of R, the new version of &lt;code&gt;hydroGOF&lt;/code&gt; (v0.4-0) was released today March 12th 2020, and it is available on CRAN now 
 &lt;/p&gt;
 &lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
@@ -666,9 +666,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>hydroTSM v0.6-0 on CRAN</title>
-      <link>https://example.com/blog/2020-03-11-hydrotsm_v060_on_cran/</link>
+      <link>https://hzambran.github.io/blog/2020-03-11-hydrotsm_v060_on_cran/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-03-11-hydrotsm_v060_on_cran/</guid>
+      <guid>https://hzambran.github.io/blog/2020-03-11-hydrotsm_v060_on_cran/</guid>
       <description>&lt;p&gt;Following a request made by CRAN regarding compatibility issues with the upcoming version of R, the new version of &lt;code&gt;hydroTSM&lt;/code&gt; (v0.6-0) was released today March 11th 2020, and it is available on CRAN now 
 &lt;/p&gt;
 &lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
@@ -706,9 +706,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Climate change: Last decade confirmed as warmest on record</title>
-      <link>https://example.com/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</link>
+      <link>https://hzambran.github.io/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</link>
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</guid>
+      <guid>https://hzambran.github.io/blog/2020-01-15-last_decade_confirmed_as_warmest_on_record/</guid>
       <description>&lt;p&gt;The 10 years to the end of 2019 have been confirmed as &lt;strong&gt;the warmest decade on record&lt;/strong&gt; by three global agencies.&lt;/p&gt;
 &lt;p&gt;According to Nasa, NOAA and the UK Met Office, last year was the second warmest in a record dating back to 1850.&lt;/p&gt;
 &lt;p&gt;The &lt;strong&gt;past five years were the hottest&lt;/strong&gt; in the 170-year series, with the average of each one more than 1C warmer than pre-industrial.&lt;/p&gt;
@@ -733,9 +733,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Radio Concierto interview on water scarcity</title>
-      <link>https://example.com/blog/2020-01-08-entrevista_radio_concierto/</link>
+      <link>https://hzambran.github.io/blog/2020-01-08-entrevista_radio_concierto/</link>
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-01-08-entrevista_radio_concierto/</guid>
+      <guid>https://hzambran.github.io/blog/2020-01-08-entrevista_radio_concierto/</guid>
       <description>&lt;p&gt;In the early morning of today January 8th, 2020 Dr. Mauricio Zambrano Bigiarini was interviewed by Radio Concierto (national coverage), to talk about the drought and water scarcity situation that currently affects Chile.&lt;/p&gt;
 &lt;p&gt;This interview was managed by the press unit of the Center for Climate and Resilience Research (CR2), and Dr. Zambrano-Bigiarini addresses issues such as &amp;ldquo;zero day&amp;rdquo; in some cities, the effectiveness of water saving campaigns promoted by the government, the response of the political world to the water problem, payment of patents for non-use of water, the importance of efficient water management, sustainability of use of water, and what can we do to combat water scarcity.&lt;/p&gt;
 &lt;p&gt;This interview is available at 
@@ -752,9 +752,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Article on Random Forest for merging satellite-based datasets with gorund observations published in RSE</title>
-      <link>https://example.com/blog/2020-01-02-rse_article_rfmerge_published/</link>
+      <link>https://hzambran.github.io/blog/2020-01-02-rse_article_rfmerge_published/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-01-02-rse_article_rfmerge_published/</guid>
+      <guid>https://hzambran.github.io/blog/2020-01-02-rse_article_rfmerge_published/</guid>
       <description>&lt;p&gt;The article 
  was accepted for publication in December 2019 and made available online on January 2nd 2020 in the 
  journal.&lt;/p&gt;
@@ -772,9 +772,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Special Issue on hydrological processes in LAC published in HP</title>
-      <link>https://example.com/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</link>
+      <link>https://hzambran.github.io/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</guid>
+      <guid>https://hzambran.github.io/blog/2019-11-12-hp_specialissue_for_lac_publihsed/</guid>
       <description>&lt;p&gt;Finally, the preface 
  was published on November 12th 2019 for the 
 .&lt;/p&gt;
@@ -792,9 +792,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Article on bias correction of global high-resolution precipitation climatologies published in JoC</title>
-      <link>https://example.com/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</link>
+      <link>https://hzambran.github.io/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</guid>
+      <guid>https://hzambran.github.io/blog/2019-11-04-joc_bias_of_p_climatologies_publihsed/</guid>
       <description>&lt;p&gt;On November 4th, the article 
  was published in the 
 . In this article, we introduce a set of global high-resolution (0.05º) precipitation (P) climatologies corrected for bias using streamflow (Q) observations from 9372 stations worldwide.&lt;/p&gt;
@@ -815,9 +815,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Sequia y escasez hídrica en Chile - parecidas pero no iguales (El Mostrador)</title>
-      <link>https://example.com/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</link>
+      <link>https://hzambran.github.io/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</guid>
+      <guid>https://hzambran.github.io/blog/2019-09-13-mzb-sequia_y_escasez_hidrica_en_chile_parecidas_pero_no_iguales-elmostrador/</guid>
       <description>&lt;p&gt;We cannot solve a problem that we do not fully understand. Water scarcity in a place is the result of a complex interaction between meteorological anomalies, hydrological processes and changes in the use that man makes of the resource. Our current inability to properly analyze and manage water scarcity points out a failure in our understanding of the problem as a whole, and to inadequate data and tools to monitor the evolution of water over time.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -833,9 +833,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Crisis hídrica, sequía legal y carretera hídrica (El Mostrador)</title>
-      <link>https://example.com/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</link>
+      <link>https://hzambran.github.io/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</guid>
+      <guid>https://hzambran.github.io/blog/2019-09-11-crisis_hidrica_sequia_legal_y_carretera_hidrica-elmostrador/</guid>
       <description>&lt;p&gt;The country cannot continue to be a victim of the lobby of those who promote initiatives for their benefit over the damage of Chileans and against the public interest. Chile needs a legal framework that prioritizes security and equity in access to the vital element for the stability of drinking water, sanitation, food security and local productive development that ensures the well-being of the population and local and regional economies. The lucrative agribusiness and mining business cannot continue to put the country in greater water vulnerability, but to adjust, adapting to climate change.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -851,9 +851,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>¿Temuco sin agua en 2025? (El Austral)</title>
-      <link>https://example.com/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</link>
+      <link>https://hzambran.github.io/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</guid>
+      <guid>https://hzambran.github.io/blog/2019-09-05-mzb-temuco_sin_agua_en_2025-elaustral/</guid>
       <description>&lt;p&gt;Professors Mauricio Zambrano-Bigiarini and Ivo Fustos of the Department of Civil Engineering at the Universidad de La Frontera expressed their opinion on the news 
  published on September 1, 2019 in the newspaper 
  and then reproduced by the newspaper 
@@ -873,9 +873,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Carretera hídrica: una falsa panacea (El Mostrador)</title>
-      <link>https://example.com/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</link>
+      <link>https://hzambran.github.io/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</link>
       <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</guid>
+      <guid>https://hzambran.github.io/blog/2019-09-03-carretera_hidrica_una_falsa_panacea-elmostrador/</guid>
       <description>&lt;p&gt;These &amp;ldquo;solutions&amp;rdquo; to the problem of water supply, only serve to strengthen the close relationship between the State and companies that has existed in the field of water, ensuring private legal and functional ownership of an increasingly scarce resource . At the same time, this type of project shows that our country is increasingly moving away from integrated watershed management. The latter are the essential territorial references for the management of the water resource that should guide the preservation of life and society.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -891,9 +891,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>10 mil animales han muerto en las regiones más golpeadas por la prolongada sequía (El Mercurio)</title>
-      <link>https://example.com/blog/2019-09-01-10mil_animales_muertos-elmercurio/</link>
+      <link>https://hzambran.github.io/blog/2019-09-01-10mil_animales_muertos-elmercurio/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-09-01-10mil_animales_muertos-elmercurio/</guid>
+      <guid>https://hzambran.github.io/blog/2019-09-01-10mil_animales_muertos-elmercurio/</guid>
       <description>&lt;p&gt;Due to the extended drought affecting central Chile, farmers in the area between the Coquimbo and Maule regions estimate that 10 000 animals have already died, including abortions that occur due to lack of food and water (5 000 in Valparaíso; 2 thousand in Coquimbo, and another 3 thousand in O&amp;rsquo;Higgins and el Maule).&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -909,9 +909,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Maipo, Limarí y Maule, tres cuencas en que el cambio climático ya hizo estragos (La Tercera)</title>
-      <link>https://example.com/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</link>
+      <link>https://hzambran.github.io/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</link>
       <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</guid>
+      <guid>https://hzambran.github.io/blog/2019-08-30-maipo_limari_maule_estragos_del_cc-latercera/</guid>
       <description>&lt;p&gt;An investigation by the PUC Global Change Center, an institution with more than 10 years studying this climatic phenomenon, recorded how the temperature in these areas has already changed due to global warming.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -927,9 +927,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>La guerra del agua: las graves secuelas de la crisis hídrica en Chile (El Mostrador)</title>
-      <link>https://example.com/blog/2019-08-26-la_guerra_del_agua-elmostrador/</link>
+      <link>https://hzambran.github.io/blog/2019-08-26-la_guerra_del_agua-elmostrador/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-08-26-la_guerra_del_agua-elmostrador/</guid>
+      <guid>https://hzambran.github.io/blog/2019-08-26-la_guerra_del_agua-elmostrador/</guid>
       <description>&lt;p&gt;Central and Southern Chile have already suffered, for decades, a tendency to lower rainfall amounts, up to 7% per decade at some points, which will probably remain. By 2050, water available in Chile will be reduced by one third in some regions, according to current models, which will extend the irrigation periods that are applied today and reduce more water-intensive crops, especially those without access to technological improvements.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
 &lt;/p&gt;
@@ -945,9 +945,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Anomalies of monthly mean temperature compared to the 1961-1990 averages</title>
-      <link>https://example.com/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</link>
+      <link>https://hzambran.github.io/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</link>
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</guid>
+      <guid>https://hzambran.github.io/blog/2019-07-30-monthly_mean-temperature_anomalies_1961_1990/</guid>
       <description>&lt;p&gt;A very impressive figure showing the 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
@@ -962,9 +962,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>June 2019 was hottest on record for the globe</title>
-      <link>https://example.com/blog/2019-07-18-hottest_june_on_record/</link>
+      <link>https://hzambran.github.io/blog/2019-07-18-hottest_june_on_record/</link>
       <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-07-18-hottest_june_on_record/</guid>
+      <guid>https://hzambran.github.io/blog/2019-07-18-hottest_june_on_record/</guid>
       <description>&lt;p&gt;The average global temperature in June was 1.71ºF above the 20th-century average of 59.9ºF, making it the &lt;strong&gt;hottest June in the 140-year record&lt;/strong&gt;, according scientists to NOAA&amp;rsquo;s National Centers for Environmental Information.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Nine of the 10 hottest Junes have occurred since 2010&lt;/strong&gt;. Last month also was the 43rd consecutive June and 414th consecutive month with above-average global temperatures.&lt;/p&gt;
 &lt;p&gt;For more information please visit the website: 
@@ -981,9 +981,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>44% of water scarcity in Chile is due to poor water management (La Tercera)</title>
-      <link>https://example.com/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</link>
+      <link>https://hzambran.github.io/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</link>
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</guid>
+      <guid>https://hzambran.github.io/blog/2019-06-17-escasez_hidrica_en_chile_y_gestion_del_agua/</guid>
       <description>&lt;p&gt;The National Water Balance, a document from the National Water Directorate (DGA) that this year will have its final version after 32 years, will establish how much water is available in the country. In an advance delivered at the beginning of the year, it has already established that the country has a water deficit that ranges between 10% and 37%.&lt;/p&gt;
 &lt;p&gt;To alleviate this deficit, the document &amp;ldquo;Transición Hídrica: el futuro del agua en Chile&amp;rdquo; proposes to establish a strategy with emphasis on four axes: water management and institutionality; conservation and protection of water ecosystems; efficiency and strategic use of water resources; and migration and incorporation of new water sources.&lt;/p&gt;
 &lt;p&gt;The implementation of these four measures would be key to achieving water security: &amp;ldquo;44% of the causes of water problems are related to poor management of the resource, 17% is due to the increase in demand for water, 14% to water pollution, 12% to the decrease in water supply , 6% to environmental damage of water ecosystems and 5% to the increase in the frequency of natural disasters&amp;rdquo; (Ulrike Broschek, leader of Escenarios Hídricos 2030 and Deputy Manager of Sustainability of Fundación Chile)&lt;/p&gt;
@@ -1002,9 +1002,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Agua: ¿ soluciones sostenibles? (Diario Austral)</title>
-      <link>https://example.com/blog/2019-03-29-agua-soluciones_sustentables/</link>
+      <link>https://hzambran.github.io/blog/2019-03-29-agua-soluciones_sustentables/</link>
       <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-03-29-agua-soluciones_sustentables/</guid>
+      <guid>https://hzambran.github.io/blog/2019-03-29-agua-soluciones_sustentables/</guid>
       <description>&lt;p&gt;Columna titulada 
 , con ocasión del Día Mundial del Agua: 
 .&lt;/p&gt;
@@ -1031,9 +1031,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Agua y desarrollo sostenible (CodexVerde)</title>
-      <link>https://example.com/blog/2019-03-22-agua_y_desarrollo_sostenible/</link>
+      <link>https://hzambran.github.io/blog/2019-03-22-agua_y_desarrollo_sostenible/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-03-22-agua_y_desarrollo_sostenible/</guid>
+      <guid>https://hzambran.github.io/blog/2019-03-22-agua_y_desarrollo_sostenible/</guid>
       <description>&lt;p&gt;Columna titulada 
 , con ocasión del Día Mundial del Agua: 
 .&lt;/p&gt;
@@ -1064,9 +1064,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>The dramatic disappearance of water in Chile (La Tercera)</title>
-      <link>https://example.com/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</link>
+      <link>https://hzambran.github.io/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</guid>
+      <guid>https://hzambran.github.io/blog/2019-02-21-la_dramatica_desaparicion_del_agua_en_chile/</guid>
       <description>&lt;p&gt;A team of specialists from the Universidad de Chile and Universidad Católica is working on updating the National Water Balance, which dates back to 1987. During 2019, the final report will be issued.&lt;/p&gt;
 &lt;p&gt;The project is led by Ximena Vargas, academic from the Faculty of Physical and Mathematical Sciences of the University of Chile. &amp;ldquo;&lt;em&gt;What has been found in stations measuring precipitation and temperature is that, in general, there are decreases in average annual precipitation and increases in average annual temperature&lt;/em&gt;&amp;rdquo; This, she explains, has generated a decrease in the water availability in some coastal sectors. &amp;ldquo;&lt;em&gt;Comparing the reported values for water availability (dating from 1987), changes in average annual runoff are around 10% and 37%&lt;/em&gt;&amp;rdquo; she points out.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -1083,9 +1083,9 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>2018 was the fourth-hottest year on record</title>
-      <link>https://example.com/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</link>
+      <link>https://hzambran.github.io/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</link>
       <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</guid>
+      <guid>https://hzambran.github.io/blog/2019-02-06-year_2018_fourth-hottest_year_on_record/</guid>
       <description>&lt;p&gt;&lt;strong&gt;2018 was the fourth hottest year on record&lt;/strong&gt;, according to two independent reports released today (Feb. 6) by 
  and the 
 .
@@ -1116,9 +1116,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Conference: When, where, and how much did it rain?</title>
-      <link>https://example.com/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</link>
+      <link>https://hzambran.github.io/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</guid>
+      <guid>https://hzambran.github.io/blog/2019-01-22-conference_when_where_and_how_much_did_it_rain/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Conference: When, where, and how much did it rain?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On January 22th 2019, Dr Hylke Beck gave an 
  entitled &lt;em&gt;&amp;ldquo;When, where, and how much did it rain?&amp;rdquo;&lt;/em&gt; at the Facultad de Ingeniería y Ciencias of the Universidad de La Frontera (UFRO) in Temuco. In this presentation Dr. Beck presented 
@@ -1136,9 +1136,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Visiting period at NASA&#39;s Jet Propulsion Laboratory</title>
-      <link>https://example.com/blog/2018-09-18-jpl2018/</link>
+      <link>https://hzambran.github.io/blog/2018-09-18-jpl2018/</link>
       <pubDate>Sat, 22 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2018-09-18-jpl2018/</guid>
+      <guid>https://hzambran.github.io/blog/2018-09-18-jpl2018/</guid>
       <description>&lt;p&gt;In August 2018 I got an invitation from the co-chair of the 
  to conduct a two-week (18-Sep to 01-Oct 2018) visiting period at the NASA&amp;rsquo;s Jet Propulsion Laboratory (
 ). This internship was carried out (and funded) by Ziad S. Haddad (Assistant Section Manager, Radar JPL Science and Engineering Section), to discuss a comprehensive evaluation of current rainfall products of global scale, to allow scientists and users of the international community to make objective evaluations and make informed decisions about the use of these products.&lt;/p&gt;
@@ -1160,9 +1160,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Article on satellite-based rainfall estimates over Latin America accepted for publication in Atmospheric Research</title>
-      <link>https://example.com/blog/2018-05-24-ar_article_on_sre_accepted/</link>
+      <link>https://hzambran.github.io/blog/2018-05-24-ar_article_on_sre_accepted/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2018-05-24-ar_article_on_sre_accepted/</guid>
+      <guid>https://hzambran.github.io/blog/2018-05-24-ar_article_on_sre_accepted/</guid>
       <description>&lt;p&gt;The article 
  was accepted for publication in the 
  journal.&lt;/p&gt;
@@ -1179,9 +1179,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Fondecyt Regular 1171560 selected in 2017 competition !</title>
-      <link>https://example.com/blog/2017-02-07-fondecyt_regular_con_mg-accepted/</link>
+      <link>https://hzambran.github.io/blog/2017-02-07-fondecyt_regular_con_mg-accepted/</link>
       <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2017-02-07-fondecyt_regular_con_mg-accepted/</guid>
+      <guid>https://hzambran.github.io/blog/2017-02-07-fondecyt_regular_con_mg-accepted/</guid>
       <description>&lt;p&gt;The proyect 1171560 entitled &amp;ldquo;&lt;em&gt;Assessing spatio-temporal impacts of global change on water and biomass production processes at catchment scale: a synergistic approach based on remote sensing and coupled hydrological models to improve sustainable management of forest ecosystems&lt;/em&gt;&amp;rdquo; was 
  in the 2017 Chilean competition for &amp;ldquo;Fondecyt Regular&amp;rdquo; proyects.&lt;/p&gt;
 &lt;p&gt;This proposal is a collaborative effort born completly within the  
@@ -1199,9 +1199,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Article on satellite-based rainfall estimates over Chile accepted for publication in HESS</title>
-      <link>https://example.com/blog/2017-01-30-hess_article_on_sre_accepted/</link>
+      <link>https://hzambran.github.io/blog/2017-01-30-hess_article_on_sre_accepted/</link>
       <pubDate>Mon, 30 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2017-01-30-hess_article_on_sre_accepted/</guid>
+      <guid>https://hzambran.github.io/blog/2017-01-30-hess_article_on_sre_accepted/</guid>
       <description>&lt;p&gt;The article 
  was accepted yesterday (January 30th, 2017) for publication in the 
  journal (HESS).&lt;/p&gt;
@@ -1218,9 +1218,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>2016: Hottest Year on Record</title>
-      <link>https://example.com/blog/2017-01-19-year_2016_hottest_on_record/</link>
+      <link>https://hzambran.github.io/blog/2017-01-19-year_2016_hottest_on_record/</link>
       <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2017-01-19-year_2016_hottest_on_record/</guid>
+      <guid>https://hzambran.github.io/blog/2017-01-19-year_2016_hottest_on_record/</guid>
       <description>&lt;p&gt;Earth&amp;rsquo;s 2016 surface temperatures were the warmest since modern recordkeeping began in 1880, according to independent analyses by NASA and the National Oceanic and Atmospheric Administration (NOAA).&lt;/p&gt;
 &lt;p&gt;Globally-averaged temperatures in 2016 were 0.99 degrees Celsius (1.78 degrees Fahrenheit) warmer than the mid-20th century mean. This makes &lt;strong&gt;2016 the third year in a row&lt;/strong&gt; to set a new record for global average surface temperatures. Since the start of the 21st century, the annual global temperature record has been broken five times (2005, 2010, 2014, 2015, and 2016) 
 .&lt;/p&gt;
@@ -1251,9 +1251,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Drought in Puyehue and Rupanco lakes (SoyChile.cl)</title>
-      <link>https://example.com/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</link>
+      <link>https://hzambran.github.io/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</link>
       <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</guid>
+      <guid>https://hzambran.github.io/blog/2016-06-17-drought_in_puyehue_and_rupanco_lakes/</guid>
       <description>&lt;p&gt;After 
  revealed the worrying decline in the water levels of Llanquihue Lake in the  surrounding of Puerto Octay, it was found that is not the only lake basin of the region affected by the lack of rainfall that experts have attributed to climate change.&lt;/p&gt;
 &lt;p&gt;This is because now the Rupanco and Puyehue lakes in the province of Osorno, have also shown and alarming and disturbing situation. In the first case, locals say that in some sectors the beach has increased from 20 to 200 meters, and in areas normally covered by water can now move on foot or by vehicle.&lt;/p&gt;
@@ -1272,9 +1272,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Expected changes in precipitation and temperature by 2050 (La Tercera)</title>
-      <link>https://example.com/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</link>
+      <link>https://hzambran.github.io/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</link>
       <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</guid>
+      <guid>https://hzambran.github.io/blog/2016-09-21-temperature_and_precipitation_changes_by_2050/</guid>
       <description>&lt;p&gt;A recent study, delivered in July 2016, projected that by 2050 Santiago will have the most extreme variation in temperature of all regional capitals, with 2.7°C, which is 14% higher compared to today. In winter, the increase will be 1.7%, representing an increase of 19%, while precipitation will be reduced by 55 millimeters (mm), 15% less.&lt;/p&gt;
 &lt;p&gt;In other regional capitals, as Arica and Copiapó, extreme temperatures rise about 2.2°C are also expected for each summer, but it will be Arica where the temperature will rise more in winter, with 2.5° C.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -1291,9 +1291,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>Megadrought expands to southern Chile (La Tercera)</title>
-      <link>https://example.com/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</link>
+      <link>https://hzambran.github.io/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</link>
       <pubDate>Sun, 21 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</guid>
+      <guid>https://hzambran.github.io/blog/2016-08-21-megasequia-se_expande_hacia_el_sur/</guid>
       <description>&lt;p&gt;Today the country is experiencing one of the longest and most geographically extensive droughts in its history, which has nearly eight years in some sectors, and extends from the Coquimbo to the La Araucania region. Experts estimate that in the future these cycles would increase. According to an analysis by the  Center for Climate and Resilience Research (CR2) in 2015, these mega-droughts will become more common, occurring in Chile every 20 years by 2050 if emissions continue to increase greenhouse gases.&lt;/p&gt;
 &lt;p&gt;To date, 17 of the 22 stations of the Meteorological Direction of Chile (DMC) present below normal precipitation amounts. Coyhaique (45ºS) is the one with the most extreme situation. There, the precipitation is around 220 mm, far from normal to date according to the climatological period 1981-2010, which is 884.5 mm, resulting in a deficit of 75%. The level of rainfall is the lowest registration for the area (starting in 1960), although it is projected that in the next three months rains occur within the normal range indicates Catalina Cortes, meteorologist at DMC. However, it should end the year in deficit.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 
@@ -1310,9 +1310,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>July 2016 was world&#39;s hottest month since records began, says Nasa (The Guardian)</title>
-      <link>https://example.com/blog/2016-08-20-hottest_july_on_record/</link>
+      <link>https://hzambran.github.io/blog/2016-08-20-hottest_july_on_record/</link>
       <pubDate>Sat, 20 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2016-08-20-hottest_july_on_record/</guid>
+      <guid>https://hzambran.github.io/blog/2016-08-20-hottest_july_on_record/</guid>
       <description>&lt;p&gt;Nasa&amp;rsquo;s results, which combine sea-surface temperature and air temperature on land, show July 2016 was 10th month in a row to break monthly temperature record&lt;/p&gt;
 &lt;p&gt;As the string of hottest months continues, 2016 is &lt;em&gt;virtually certain&lt;/em&gt; to be the &lt;strong&gt;hottest year on record&lt;/strong&gt;, says David Karoly, a climate scientist from the University of Melbourne.&lt;/p&gt;
 &lt;p&gt;Last month was the hottest month in recorded history, beating the record set just 12 months before and continuing the long string of monthly records, according to the latest Nasa data.&lt;/p&gt;
@@ -1332,9 +1332,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>El año 2015 batió récords de fenómenos climáticos extremos (El Mercurio)</title>
-      <link>https://example.com/blog/2016-08-03-year_2015_hottest_on_record_cr2/</link>
+      <link>https://hzambran.github.io/blog/2016-08-03-year_2015_hottest_on_record_cr2/</link>
       <pubDate>Wed, 03 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2016-08-03-year_2015_hottest_on_record_cr2/</guid>
+      <guid>https://hzambran.github.io/blog/2016-08-03-year_2015_hottest_on_record_cr2/</guid>
       <description>&lt;p&gt;El año 2015 marcó una temporada de lluvias más abundantes que el promedio, provocando graves &lt;strong&gt;inundaciones&lt;/strong&gt;. Severas &lt;strong&gt;sequías&lt;/strong&gt; afectaron superficies casi &lt;strong&gt;dos veces mayores en 2015 que en el año anterior&lt;/strong&gt; (14%, contra 8% en 2014).&lt;/p&gt;
 &lt;p&gt;Las aguas más calientes agravaron la propagación de algas, que afectaron el 2015 una importante región del Pacífico norte, desde California hasta la Columbia Británica, en Canadá.&lt;/p&gt;
 &lt;hr&gt;
@@ -1356,9 +1356,9 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
     
     <item>
       <title>2015 was the warmest year ever recorded on Earth (NASA-NOAA)</title>
-      <link>https://example.com/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</link>
+      <link>https://hzambran.github.io/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</guid>
+      <guid>https://hzambran.github.io/blog/2016-02-01-year_2015_was_the_warmest_year_ever_recorded_on_earth_nasa/</guid>
       <description>&lt;p&gt;&lt;strong&gt;2015 was the warmest year ever recorded on Earth&lt;/strong&gt;, and it was not even close.&lt;/p&gt;
 &lt;p&gt;On January 20, 2016, scientists from NASA and the National Oceanic and Atmospheric Administration (NOAA) released their analyses of surface temperatures for the past year.
 The NASA team found that globally averaged temperatures from January through December 2015 were &lt;strong&gt;0.87 degrees Celsius above the norm&lt;/strong&gt; (defined as a 1951-1980 base period). The previous record—set last year—was 0.74°C above the norm.
@@ -1385,9 +1385,9 @@ In the past, the highest global temperature records were often set in El Niño y
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
-      <link>https://example.com/blog/example_folders/get-started/</link>
+      <link>https://hzambran.github.io/blog/example_folders/get-started/</link>
       <pubDate>Sat, 27 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/example_folders/get-started/</guid>
+      <guid>https://hzambran.github.io/blog/example_folders/get-started/</guid>
       <description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 
 
@@ -1675,9 +1675,9 @@ In the past, the highest global temperature records were often set in El Niño y
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>https://example.com/blog/example_folders/second-brain/</link>
+      <link>https://hzambran.github.io/blog/example_folders/second-brain/</link>
       <pubDate>Fri, 26 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/example_folders/second-brain/</guid>
+      <guid>https://hzambran.github.io/blog/example_folders/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -1861,9 +1861,9 @@ In the past, the highest global temperature records were often set in El Niño y
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>https://example.com/blog/example_folders/data-visualization/</link>
+      <link>https://hzambran.github.io/blog/example_folders/data-visualization/</link>
       <pubDate>Thu, 25 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/example_folders/data-visualization/</guid>
+      <guid>https://hzambran.github.io/blog/example_folders/data-visualization/</guid>
       <description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;embed-rich-content&#34;&gt;Embed Rich Content&lt;/h2&gt;
@@ -2128,9 +2128,9 @@ This Hugging Face dataset is a mirror. For the …
     &lt;div class=&#34;p-6 space-y-4&#34;&gt;
       &lt;div class=&#34;mb-4 overflow-hidden rounded-lg&#34;&gt;
     &lt;img class=&#34;w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105&#34; 
-         srcset=&#34;https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp 400w, https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_2b9219625df66689.webp 600w, https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_f768b3ade4e0bafb.webp 800w, https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_943bd725d39b28c5.webp 800w&#34;
+         srcset=&#34;https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp 400w, https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_2b9219625df66689.webp 600w, https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_f768b3ade4e0bafb.webp 800w, https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_943bd725d39b28c5.webp 800w&#34;
          sizes=&#34;(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw&#34;
-         src=&#34;https://example.com/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp&#34; 
+         src=&#34;https://hzambran.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_219bdd97b63ad80c.webp&#34; 
          width=&#34;400&#34; 
          height=&#34;300&#34;
          loading=&#34;lazy&#34; 
@@ -2190,9 +2190,9 @@ This Hugging Face dataset is a mirror. For the …
     &lt;div class=&#34;p-6 space-y-4&#34;&gt;
       &lt;div class=&#34;mb-4 overflow-hidden rounded-lg&#34;&gt;
     &lt;img class=&#34;w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105&#34; 
-         srcset=&#34;https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp 400w, https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_920ba61058f3c5cc.webp 600w, https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_de34421e7136549f.webp 600w&#34;
+         srcset=&#34;https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp 400w, https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_920ba61058f3c5cc.webp 600w, https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_de34421e7136549f.webp 600w&#34;
          sizes=&#34;(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw&#34;
-         src=&#34;https://example.com/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp&#34; 
+         src=&#34;https://hzambran.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_18fa46f58e1ef5f5.webp&#34; 
          width=&#34;400&#34; 
          height=&#34;267&#34;
          loading=&#34;lazy&#34; 
@@ -2232,7 +2232,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-257349681&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-562193478&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -2250,7 +2250,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-257349681&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-562193478&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2433,7 +2433,7 @@ Crash --&gt; [*]
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-7e224f8477195bc3f16f35c894e9ba69&#34;
-    href=&#34;https://example.com/&#34;
+    href=&#34;https://hzambran.github.io/&#34;
     
     
     
@@ -2518,7 +2518,7 @@ Crash --&gt; [*]
 &lt;div class=&#34;text-left&#34;&gt;
   &lt;a
     id=&#34;button-13d14104c82aaedf3f0ca1dbe530cbe4&#34;
-    href=&#34;https://example.com/data/results.csv&#34;
+    href=&#34;https://hzambran.github.io/data/results.csv&#34;
     
     
     
@@ -2641,9 +2641,9 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>https://example.com/blog/example_folders/teach-courses/</link>
+      <link>https://hzambran.github.io/blog/example_folders/teach-courses/</link>
       <pubDate>Wed, 24 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/example_folders/teach-courses/</guid>
+      <guid>https://hzambran.github.io/blog/example_folders/teach-courses/</guid>
       <description>&lt;p&gt;
  is designed to give technical content creators a seamless experience. You can focus on the content and the HugoBlox Kit which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
@@ -2674,7 +2674,7 @@ Crash --&gt; [*]
     &lt;span &gt;&lt;a href=&#34;&#34;&gt;Dr. Mauricio Zambrano-Bigiarini&lt;/a&gt;&lt;/span&gt;
   &lt;/span&gt;
   (2026).
-  &lt;a href=&#34;https://example.com/publications/preprint/&#34; class=&#34;underline&#34;&gt;An example preprint / working paper&lt;/a&gt;.
+  &lt;a href=&#34;https://hzambran.github.io/publications/preprint/&#34; class=&#34;underline&#34;&gt;An example preprint / working paper&lt;/a&gt;.
   
 
   
@@ -2797,7 +2797,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://example.com/#&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://hzambran.github.io/#&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125&#34;/&gt;&lt;/svg&gt;
         Dataset
       &lt;/a&gt;
@@ -2826,7 +2826,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://example.com/#&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://hzambran.github.io/#&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0&#34;/&gt;&lt;/svg&gt;
         Poster
       &lt;/a&gt;
@@ -2855,7 +2855,7 @@ Crash --&gt; [*]
     
 
     
-      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://example.com/#&#34;  &gt;
+      &lt;a class=&#34;hb-attachment-link hb-attachment-link-small&#34; href=&#34;https://hzambran.github.io/#&#34;  &gt;
         &lt;svg style=&#34;height: 1em&#34; class=&#39;inline-block&#39; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9&#34;/&gt;&lt;/svg&gt;
         Source Document
       &lt;/a&gt;
@@ -3005,7 +3005,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;https://example.com/blog/example_folders/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;https://hzambran.github.io/blog/example_folders/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -3064,9 +3064,9 @@ data.head()
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>https://example.com/blog/example_folders/project-management/</link>
+      <link>https://hzambran.github.io/blog/example_folders/project-management/</link>
       <pubDate>Tue, 23 Oct 1900 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/example_folders/project-management/</guid>
+      <guid>https://hzambran.github.io/blog/example_folders/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
@@ -3139,9 +3139,9 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>⚡️ Turn Jupyter Notebooks into Blog Posts</title>
-      <link>https://example.com/blog/example_folders/notebook-onboarding/</link>
+      <link>https://hzambran.github.io/blog/example_folders/notebook-onboarding/</link>
       <pubDate>Sun, 15 Jul 1900 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/example_folders/notebook-onboarding/</guid>
+      <guid>https://hzambran.github.io/blog/example_folders/notebook-onboarding/</guid>
       <description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
 &lt;p&gt;Hugo Blox changes that. With the &lt;code&gt;{{&amp;lt; notebook &amp;gt;}}&lt;/code&gt; shortcode, you can render your actual &lt;code&gt;.ipynb&lt;/code&gt; files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.&lt;/p&gt;
 
@@ -3225,7 +3225,7 @@ Parallel 4   :         des6, after des4, 1d
       &lt;p class=&#34;hb-notebook-title&#34;&gt;Launch Readiness Analysis&lt;/p&gt;
         &lt;p class=&#34;hb-notebook-subtitle&#34;&gt;Python · Kernel: Python 3 · nbformat 4.5 · 6 cells&lt;/p&gt;
     &lt;/div&gt;
-      &lt;a class=&#34;hb-notebook-download&#34; href=&#34;https://example.com/blog/example_folders/notebook-onboarding/hugoblox-onboarding.ipynb&#34; download&gt;
+      &lt;a class=&#34;hb-notebook-download&#34; href=&#34;https://hzambran.github.io/blog/example_folders/notebook-onboarding/hugoblox-onboarding.ipynb&#34; download&gt;
         &lt;svg class=&#34;w-4 h-4&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3&#34;/&gt;&lt;/svg&gt;
         &lt;span&gt;Download notebook&lt;/span&gt;
       &lt;/a&gt;

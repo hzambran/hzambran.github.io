@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kimün-Ko | </title>
-    <link>https://example.com/tags/kimun-ko/</link>
-      <atom:link href="https://example.com/tags/kimun-ko/index.xml" rel="self" type="application/rss+xml" />
+    <title>Kimün-Ko | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/kimun-ko/</link>
+      <atom:link href="https://hzambran.github.io/tags/kimun-ko/index.xml" rel="self" type="application/rss+xml" />
     <description>Kimün-Ko</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Kimün-Ko</title>
-      <link>https://example.com/tags/kimun-ko/</link>
+      <link>https://hzambran.github.io/tags/kimun-ko/</link>
     </image>
     
     <item>
       <title>Pulliko: Gridded soil moisture for Chile</title>
-      <link>https://example.com/web-platforms/pulliko/</link>
+      <link>https://hzambran.github.io/web-platforms/pulliko/</link>
       <pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.com/web-platforms/pulliko/</guid>
+      <guid>https://hzambran.github.io/web-platforms/pulliko/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -74,7 +74,7 @@
  of the Department of Civil Engineering at the Universidad de La Frontera. The processed soil moisture fields and derived anomaly indicators are subsequently displayed through the 
 , meaning &amp;ldquo;water in the soil&amp;rdquo; in mapuzungun, interactive web interface, enabling users to explore current conditions and historical patterns in an intuitive and accessible manner.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/web-platforms/pulliko/pulliko-main_screen.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/web-platforms/pulliko/pulliko-main_screen.jpg&#34;
     alt=&#34;Pulliko web platform&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Main screen of 
  web platform&lt;/p&gt;
@@ -89,9 +89,9 @@
     
     <item>
       <title>Curvas IDF Chile</title>
-      <link>https://example.com/web-platforms/curvas_idf/</link>
+      <link>https://hzambran.github.io/web-platforms/curvas_idf/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.com/web-platforms/curvas_idf/</guid>
+      <guid>https://hzambran.github.io/web-platforms/curvas_idf/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -129,7 +129,7 @@
 &lt;p&gt;
  is a web platform designed to support the computation and visualization of &lt;strong&gt;Intensity–Duration–Frequency (IDF)&lt;/strong&gt; curves across continental Chile. The platform integrates modern datasets and statistical methodologies to provide robust estimates of extreme precipitation across diverse climatic and topographic regions, including areas with limited observational coverage.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/web-platforms/curvas_idf/curvasIDF-main_screen.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/web-platforms/curvas_idf/curvasIDF-main_screen.jpg&#34;
     alt=&#34;curvasIDF web platform&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Main screen of 
  web platform&lt;/p&gt;
@@ -222,9 +222,9 @@
     
     <item>
       <title>Mawün-NRT: Near real-time gridded precipitation for Chile</title>
-      <link>https://example.com/web-platforms/mawun-nrt/</link>
+      <link>https://hzambran.github.io/web-platforms/mawun-nrt/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/web-platforms/mawun-nrt/</guid>
+      <guid>https://hzambran.github.io/web-platforms/mawun-nrt/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -255,7 +255,7 @@
 &lt;p&gt;&lt;strong&gt;Mawün-NRT&lt;/strong&gt; (in Mapuzungun, &amp;ldquo;mawün&amp;rdquo; means &amp;ldquo;rain”) is a free and publicly accessible web platform (
 ) that provides a user-friendly visualisation of the spatio-temporal distribution of precipitation events for continental Chile in near real-time.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/web-platforms/mawun-nrt/mawun-NRT-main_screen.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/web-platforms/mawun-nrt/mawun-NRT-main_screen.jpg&#34;
     alt=&#34;Mawün-NRT web platform&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Main screen of 
  web platform&lt;/p&gt;
@@ -282,9 +282,9 @@
     
     <item>
       <title>Mawün: Historical gridded precipitation for Chile</title>
-      <link>https://example.com/web-platforms/mawun/</link>
+      <link>https://hzambran.github.io/web-platforms/mawun/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/web-platforms/mawun/</guid>
+      <guid>https://hzambran.github.io/web-platforms/mawun/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -318,7 +318,7 @@
  with support from the 
 , &lt;strong&gt;Mawün&lt;/strong&gt; provides a centralized environment where researchers, practitioners, and decision-makers can interactively examine precipitation patterns across Chile’s diverse climatic regions.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/web-platforms/mawun/mawun-main_screen.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/web-platforms/mawun/mawun-main_screen.jpg&#34;
     alt=&#34;Mawün web platform&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Main screen of 
  web platform&lt;/p&gt;

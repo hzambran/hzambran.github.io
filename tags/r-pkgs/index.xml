@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>R-Pkgs | </title>
-    <link>https://example.com/tags/r-pkgs/</link>
-      <atom:link href="https://example.com/tags/r-pkgs/index.xml" rel="self" type="application/rss+xml" />
+    <title>R-Pkgs | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/r-pkgs/</link>
+      <atom:link href="https://hzambran.github.io/tags/r-pkgs/index.xml" rel="self" type="application/rss+xml" />
     <description>R-Pkgs</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>R-Pkgs</title>
-      <link>https://example.com/tags/r-pkgs/</link>
+      <link>https://hzambran.github.io/tags/r-pkgs/</link>
     </image>
     
     <item>
       <title>hydroPSO v0.5-0 on CRAN</title>
-      <link>https://example.com/blog/2020-03-18-hydropso_v050_on_cran/</link>
+      <link>https://hzambran.github.io/blog/2020-03-18-hydropso_v050_on_cran/</link>
       <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-03-18-hydropso_v050_on_cran/</guid>
+      <guid>https://hzambran.github.io/blog/2020-03-18-hydropso_v050_on_cran/</guid>
       <description>&lt;p&gt;After a long amount of work, the new version of &lt;code&gt;hydroPSO&lt;/code&gt; (v0.5-0) was released today March 18th 2020, and it is available on CRAN now 
 &lt;/p&gt;
 &lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
@@ -62,9 +62,9 @@
     
     <item>
       <title>hydroGOF v0.4-0 on CRAN</title>
-      <link>https://example.com/blog/2020-03-12-hydrogof_v040_on_cran/</link>
+      <link>https://hzambran.github.io/blog/2020-03-12-hydrogof_v040_on_cran/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-03-12-hydrogof_v040_on_cran/</guid>
+      <guid>https://hzambran.github.io/blog/2020-03-12-hydrogof_v040_on_cran/</guid>
       <description>&lt;p&gt;Following a request made by CRAN regarding compatibility issues with the upcoming version of R, the new version of &lt;code&gt;hydroGOF&lt;/code&gt; (v0.4-0) was released today March 12th 2020, and it is available on CRAN now 
 &lt;/p&gt;
 &lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;
@@ -101,9 +101,9 @@
     
     <item>
       <title>hydroTSM v0.6-0 on CRAN</title>
-      <link>https://example.com/blog/2020-03-11-hydrotsm_v060_on_cran/</link>
+      <link>https://hzambran.github.io/blog/2020-03-11-hydrotsm_v060_on_cran/</link>
       <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-03-11-hydrotsm_v060_on_cran/</guid>
+      <guid>https://hzambran.github.io/blog/2020-03-11-hydrotsm_v060_on_cran/</guid>
       <description>&lt;p&gt;Following a request made by CRAN regarding compatibility issues with the upcoming version of R, the new version of &lt;code&gt;hydroTSM&lt;/code&gt; (v0.6-0) was released today March 11th 2020, and it is available on CRAN now 
 &lt;/p&gt;
 &lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; stand out:&lt;/p&gt;

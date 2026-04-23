@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IIO352/IIO422 - Hidrología (undergraduate) | </title>
-    <link>https://example.com/courses/iio352-hidrologia/</link>
-      <atom:link href="https://example.com/courses/iio352-hidrologia/index.xml" rel="self" type="application/rss+xml" />
+    <title>IIO352/IIO422 - Hidrología (undergraduate) | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/courses/iio352-hidrologia/</link>
+      <atom:link href="https://hzambran.github.io/courses/iio352-hidrologia/index.xml" rel="self" type="application/rss+xml" />
     <description>IIO352/IIO422 - Hidrología (undergraduate)</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/courses/iio352-hidrologia/featured.jpg</url>
+      <url>https://hzambran.github.io/courses/iio352-hidrologia/featured.jpg</url>
       <title>IIO352/IIO422 - Hidrología (undergraduate)</title>
-      <link>https://example.com/courses/iio352-hidrologia/</link>
+      <link>https://hzambran.github.io/courses/iio352-hidrologia/</link>
     </image>
     
   </channel>

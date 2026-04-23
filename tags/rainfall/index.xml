@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rainfall | </title>
-    <link>https://example.com/tags/rainfall/</link>
-      <atom:link href="https://example.com/tags/rainfall/index.xml" rel="self" type="application/rss+xml" />
+    <title>Rainfall | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/rainfall/</link>
+      <atom:link href="https://hzambran.github.io/tags/rainfall/index.xml" rel="self" type="application/rss+xml" />
     <description>Rainfall</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Rainfall</title>
-      <link>https://example.com/tags/rainfall/</link>
+      <link>https://hzambran.github.io/tags/rainfall/</link>
     </image>
     
     <item>
       <title>Mawün rainfall explorer launched !</title>
-      <link>https://example.com/blog/2020-09-01-lanzamiento_de_mawun/</link>
+      <link>https://hzambran.github.io/blog/2020-09-01-lanzamiento_de_mawun/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2020-09-01-lanzamiento_de_mawun/</guid>
+      <guid>https://hzambran.github.io/blog/2020-09-01-lanzamiento_de_mawun/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Mawün rainfall explorer launched !&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;After more than one year of development, on September 1st 2020 an &lt;strong&gt;unprecedented web platform&lt;/strong&gt; for exploring gridded precipitation products was launced as a new weather service at the 
  website: 

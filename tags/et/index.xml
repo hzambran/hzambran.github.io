@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Et | </title>
-    <link>https://example.com/tags/et/</link>
-      <atom:link href="https://example.com/tags/et/index.xml" rel="self" type="application/rss+xml" />
+    <title>Et | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/et/</link>
+      <atom:link href="https://hzambran.github.io/tags/et/index.xml" rel="self" type="application/rss+xml" />
     <description>Et</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Et</title>
-      <link>https://example.com/tags/et/</link>
+      <link>https://hzambran.github.io/tags/et/</link>
     </image>
     
     <item>
       <title>Article on Water Balancece in the Nile Basin using gridded P and ETa accepted for publication in JoH-RS</title>
-      <link>https://example.com/blog/2021-08-13-johrs_article_on_rs4nile_published/</link>
+      <link>https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/</link>
       <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2021-08-13-johrs_article_on_rs4nile_published/</guid>
+      <guid>https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/</guid>
       <description>&lt;p&gt;The article  
  has been published on the 
  journal.&lt;/p&gt;
 &lt;p&gt;This article evaluates the performance of eleven state-of-the-art precipitation (&lt;em&gt;P&lt;/em&gt;) products and seven actual evapotranspiration (&lt;em&gt;ETa&lt;/em&gt;) products over the Nile Basin using a four-step procedure: (&lt;strong&gt;i&lt;/strong&gt;)  products were evaluated at the monthly scale through a point-to-pixel approach; (&lt;strong&gt;ii&lt;/strong&gt;) streamflow was modelled using the Random Forest machine learning technique, and simulated for well-performing catchments for 2009–2018 (to correspond with ETa product availability); (&lt;strong&gt;iii&lt;/strong&gt;) ETa products were evaluated at the multiannual scale using the water balance method; and (&lt;strong&gt;iv&lt;/strong&gt;) the ability of the best-performing  and ETa products to represent monthly variations in terrestrial water storage (&lt;em&gt;TWS&lt;/em&gt;) was assessed through a comparison with GRACE Level-3 data.&lt;/p&gt;
 &lt;p&gt;The application of the water balance using the best-performing products captures the seasonality of TWS well over the White Nile Basin, but overestimates seasonality over the Blue Nile Basin. Our study &lt;strong&gt;demonstrates how gridded  and ETa products can be evaluated over extremely data-scarce conditions using an easily transferable methodology&lt;/strong&gt;.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2021-08-13-johrs_article_on_rs4nile_published/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2021-08-13-johrs_article_on_rs4nile_published/featured.jpg&#34;
     alt=&#34;https://doi.org/10.1016/j.ejrh.2021.100884&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;

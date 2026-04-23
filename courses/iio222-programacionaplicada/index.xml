@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IIO222 - Programación Aplicada (undergraduate) | </title>
-    <link>https://example.com/courses/iio222-programacionaplicada/</link>
-      <atom:link href="https://example.com/courses/iio222-programacionaplicada/index.xml" rel="self" type="application/rss+xml" />
+    <title>IIO222 - Programación Aplicada (undergraduate) | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/courses/iio222-programacionaplicada/</link>
+      <atom:link href="https://hzambran.github.io/courses/iio222-programacionaplicada/index.xml" rel="self" type="application/rss+xml" />
     <description>IIO222 - Programación Aplicada (undergraduate)</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/courses/iio222-programacionaplicada/featured.jpg</url>
+      <url>https://hzambran.github.io/courses/iio222-programacionaplicada/featured.jpg</url>
       <title>IIO222 - Programación Aplicada (undergraduate)</title>
-      <link>https://example.com/courses/iio222-programacionaplicada/</link>
+      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/</link>
     </image>
     
     <item>
       <title>Getting Started</title>
-      <link>https://example.com/courses/iio222-programacionaplicada/getting-started/</link>
+      <link>https://hzambran.github.io/courses/iio222-programacionaplicada/getting-started/</link>
       <pubDate>Sat, 17 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/courses/iio222-programacionaplicada/getting-started/</guid>
+      <guid>https://hzambran.github.io/courses/iio222-programacionaplicada/getting-started/</guid>
       <description>&lt;h2 id=&#34;quick-start-from-template&#34;&gt;Quick Start from Template&lt;/h2&gt;
 &lt;div class=&#34;hb-steps&#34;&gt;
 &lt;h3 id=&#34;create-a-site&#34;&gt;Create a site&lt;/h3&gt;

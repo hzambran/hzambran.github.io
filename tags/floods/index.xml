@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Floods | </title>
-    <link>https://example.com/tags/floods/</link>
-      <atom:link href="https://example.com/tags/floods/index.xml" rel="self" type="application/rss+xml" />
+    <title>Floods | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/floods/</link>
+      <atom:link href="https://hzambran.github.io/tags/floods/index.xml" rel="self" type="application/rss+xml" />
     <description>Floods</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 04 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Floods</title>
-      <link>https://example.com/tags/floods/</link>
+      <link>https://hzambran.github.io/tags/floods/</link>
     </image>
     
     <item>
       <title>Article on challenge of unprecedented floods and droughts in risk management published in Nature</title>
-      <link>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
+      <link>https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</link>
       <pubDate>Thu, 04 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
+      <guid>https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/</guid>
       <description>&lt;p&gt;On August 4, 2022, Nature published the article entitled 
 . This article
 shows that risk management has reduced vulnerability to floods and droughts worldwide, but their impacts continue to increase. Therefore, we need a better understanding of the causes of impacts in a changing climate, but this better understanding has been hampered by a lack of empirical data.&lt;/p&gt;
@@ -29,7 +29,7 @@ shows that risk management has reduced vulnerability to floods and droughts worl
 &lt;p&gt;The full article can be found here: 
 &lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2022-08-04-nature_article_on_floods_and_droughts_published/featured.jpg&#34;
     alt=&#34;https://doi.org/10.1038/s41586-022-04917-5&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;&lt;/p&gt;
     &lt;/figcaption&gt;

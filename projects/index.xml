@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | </title>
-    <link>https://example.com/projects/</link>
-      <atom:link href="https://example.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    <title>Projects | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/projects/</link>
+      <atom:link href="https://hzambran.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 19 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Projects</title>
-      <link>https://example.com/projects/</link>
+      <link>https://hzambran.github.io/projects/</link>
     </image>
     
     <item>
       <title>SICA: Integrated Climate and Water System in Chile (TA25I10030. )</title>
-      <link>https://example.com/projects/2025-2029-ta25i10030/</link>
+      <link>https://hzambran.github.io/projects/2025-2029-ta25i10030/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/2025-2029-ta25i10030/</guid>
+      <guid>https://hzambran.github.io/projects/2025-2029-ta25i10030/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -53,9 +53,9 @@
     
     <item>
       <title>The catchment’s memory: understanding how hydrological extremes are modulated by antecedent soil moisture conditions in a warmer climate</title>
-      <link>https://example.com/projects/2021-2025-fondecyt1212071/</link>
+      <link>https://hzambran.github.io/projects/2021-2025-fondecyt1212071/</link>
       <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/2021-2025-fondecyt1212071/</guid>
+      <guid>https://hzambran.github.io/projects/2021-2025-fondecyt1212071/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -97,9 +97,9 @@
     
     <item>
       <title>Management of global change impacts on hydrological extremes by coupling remote sensing data and an interdisciplinary modelling approach (NSFC190018)</title>
-      <link>https://example.com/projects/2023-2024-nsfc190018/</link>
+      <link>https://hzambran.github.io/projects/2023-2024-nsfc190018/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/projects/2023-2024-nsfc190018/</guid>
+      <guid>https://hzambran.github.io/projects/2023-2024-nsfc190018/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 

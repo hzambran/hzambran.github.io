@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Storms | </title>
-    <link>https://example.com/tags/storms/</link>
-      <atom:link href="https://example.com/tags/storms/index.xml" rel="self" type="application/rss+xml" />
+    <title>Storms | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/storms/</link>
+      <atom:link href="https://hzambran.github.io/tags/storms/index.xml" rel="self" type="application/rss+xml" />
     <description>Storms</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Storms</title>
-      <link>https://example.com/tags/storms/</link>
+      <link>https://hzambran.github.io/tags/storms/</link>
     </image>
     
     <item>
       <title>Después de la gran tormenta, ¿cómo rediseñaremos? (El Mostrador)</title>
-      <link>https://example.com/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</link>
+      <link>https://hzambran.github.io/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</guid>
+      <guid>https://hzambran.github.io/blog/2023-07-07-despuesdelagrantormenta-elmostrador/</guid>
       <description>&lt;p&gt;I just published an opinion column in the newspaper El Mostrador on how we will redesign the infrastructure that have been affected by the big storm that hit the Central-South zone of Chile in the end of June of this year 2023.&lt;/p&gt;
 &lt;p&gt;In this column, I states that it is of vital importance that the design of future infrastructure works considers -at least- the estimation of flood risk maps, and that the use of floodplains (free of human settlements) be prioritized in the communal regulatory plans, floodplains that must be estimated using the best data and techniques available, to avoid future human, social and material tragedies.&lt;/p&gt;
 &lt;p&gt;For more information please visit: 

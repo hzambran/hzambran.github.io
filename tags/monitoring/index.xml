@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Monitoring | </title>
-    <link>https://example.com/tags/monitoring/</link>
-      <atom:link href="https://example.com/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <title>Monitoring | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/monitoring/</link>
+      <atom:link href="https://hzambran.github.io/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
     <description>Monitoring</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Monitoring</title>
-      <link>https://example.com/tags/monitoring/</link>
+      <link>https://hzambran.github.io/tags/monitoring/</link>
     </image>
     
     <item>
       <title>Anemometer installation at the Invernada station</title>
-      <link>https://example.com/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</link>
+      <link>https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</guid>
+      <guid>https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/</guid>
       <description>&lt;p&gt;Last Tuesday, April 9th 2024, part of the Water Resources Observatory team of the Department of Civil Engineering (
 ) of the Universidad of La Frontera carried out the installation of an anemometer in the Invernada meteorological station located in the Conguillio National Park (Los Paraguas sector).&lt;/p&gt;
 &lt;p&gt;The installation of this anemometer will allow the station to record both the average hourly wind speed, the gust speed (maximum instantaneous speed), and the wind direction. These parameters are added to the existing measurements of precipitation, air temperature, solar radiation, relative humidity and dew point, providing essential data for future research related to water resources in the region. In particular, from now on it will be possible to estimate the reference evapotranspiration, which accounts for the maximum amount of water that a standard crop is capable of evaporating.&lt;/p&gt;
@@ -25,19 +25,19 @@
 &lt;p&gt;This milestone marked the end of a great filed work day for the team, which in this occasion included Dra. Rebeca Martínez, Civil Engineer Rodrigo Marinao, undergratuate student Marfa Saldivia and Dr. Mauricio Zambrano-Bigiarini. During the installation day it was also possible to carry out other routine activities, including streamflow measurements (through gauging and mass balance) and estimation of soil hydraulic conductivity (double ring infiltrometer).&lt;/p&gt;
 &lt;p&gt;These advances have been possible thanks to the funding provided by the projects: ANID Fondecyt Regular 1212071, ANID-NSFC 190018, ANID Fondecyt Postdoctoral 11190864, UFRO Postdoc grant405VRIP20P001, and ANID Fondecyt Postdoctoral 3220382.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4595.JPEG&#34;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4595.JPEG&#34;
     alt=&#34;Anemómetro&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Anemómetro&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4596.JPEG&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/2024-04-09-IMG_4596.JPEG&#34;
     alt=&#34;Estación invernada&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Estación invernada&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;https://example.com/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/featured.jpeg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2024-04-09-instalacion_de_anemometro_en_est_invernada/featured.jpeg&#34;
     alt=&#34;Parte del equipo de trabjo&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Parte del equipo de trabjo&lt;/p&gt;
     &lt;/figcaption&gt;

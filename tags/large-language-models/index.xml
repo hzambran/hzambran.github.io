@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Large Language Models | </title>
-    <link>https://example.com/tags/large-language-models/</link>
-      <atom:link href="https://example.com/tags/large-language-models/index.xml" rel="self" type="application/rss+xml" />
+    <title>Large Language Models | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/large-language-models/</link>
+      <atom:link href="https://hzambran.github.io/tags/large-language-models/index.xml" rel="self" type="application/rss+xml" />
     <description>Large Language Models</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Large Language Models</title>
-      <link>https://example.com/tags/large-language-models/</link>
+      <link>https://hzambran.github.io/tags/large-language-models/</link>
     </image>
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://example.com/publications/preprint/</link>
+      <link>https://hzambran.github.io/publications/preprint/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/preprint/</guid>
+      <guid>https://hzambran.github.io/publications/preprint/</guid>
       <description>&lt;p&gt;This work is driven by the results in my 
  on LLMs.&lt;/p&gt;
 
@@ -74,9 +74,9 @@
     
     <item>
       <title>An example conference paper</title>
-      <link>https://example.com/publications/2026-conference-paper/</link>
+      <link>https://hzambran.github.io/publications/2026-conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/2026-conference-paper/</guid>
+      <guid>https://hzambran.github.io/publications/2026-conference-paper/</guid>
       <description>
 
 

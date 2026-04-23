@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slides | </title>
-    <link>https://example.com/slides/</link>
-      <atom:link href="https://example.com/slides/index.xml" rel="self" type="application/rss+xml" />
+    <title>Slides | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/slides/</link>
+      <atom:link href="https://hzambran.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Slides</title>
-      <link>https://example.com/slides/</link>
+      <link>https://hzambran.github.io/slides/</link>
     </image>
     
     <item>
       <title>Example Talk: Recent Work</title>
-      <link>https://example.com/slides/example/</link>
+      <link>https://hzambran.github.io/slides/example/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://example.com/slides/example/</guid>
+      <guid>https://hzambran.github.io/slides/example/</guid>
       <description>&lt;!-- no-branding --&gt;
 &lt;h1 id=&#34;example-talk&#34;&gt;Example Talk&lt;/h1&gt;
 &lt;h3 id=&#34;dr-alex-johnson--meta-ai&#34;&gt;Dr. Alex Johnson · Meta AI&lt;/h3&gt;

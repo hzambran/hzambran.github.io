@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gridded Datasets | </title>
-    <link>https://example.com/tags/gridded-datasets/</link>
-      <atom:link href="https://example.com/tags/gridded-datasets/index.xml" rel="self" type="application/rss+xml" />
+    <title>Gridded Datasets | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/gridded-datasets/</link>
+      <atom:link href="https://hzambran.github.io/tags/gridded-datasets/index.xml" rel="self" type="application/rss+xml" />
     <description>Gridded Datasets</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Gridded Datasets</title>
-      <link>https://example.com/tags/gridded-datasets/</link>
+      <link>https://hzambran.github.io/tags/gridded-datasets/</link>
     </image>
     
     <item>
       <title>RFmerge</title>
-      <link>https://example.com/rpackages/rfmerge/</link>
+      <link>https://hzambran.github.io/rpackages/rfmerge/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/rpackages/rfmerge/</guid>
+      <guid>https://hzambran.github.io/rpackages/rfmerge/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -42,7 +42,7 @@
   }
 &lt;/style&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/rpackages/rfmerge/RFmerge-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/rfmerge/RFmerge-logo.jpg&#34;
     alt=&#34;RFmerge R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Paper-Conference | </title>
-    <link>https://example.com/publication_types/paper-conference/</link>
-      <atom:link href="https://example.com/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <title>Paper-Conference | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/publication_types/paper-conference/</link>
+      <atom:link href="https://hzambran.github.io/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Paper-Conference</title>
-      <link>https://example.com/publication_types/paper-conference/</link>
+      <link>https://hzambran.github.io/publication_types/paper-conference/</link>
     </image>
     
     <item>
       <title>Towards best default configuration settings for NMPSO in multi-objective optimization</title>
-      <link>https://example.com/publications/2021-marinaorivas-towards-best/</link>
+      <link>https://hzambran.github.io/publications/2021-marinaorivas-towards-best/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/2021-marinaorivas-towards-best/</guid>
+      <guid>https://hzambran.github.io/publications/2021-marinaorivas-towards-best/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
@@ -59,9 +59,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>An example conference paper</title>
-      <link>https://example.com/publications/2026-conference-paper/</link>
+      <link>https://hzambran.github.io/publications/2026-conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/2026-conference-paper/</guid>
+      <guid>https://hzambran.github.io/publications/2026-conference-paper/</guid>
       <description>
 
 
@@ -165,9 +165,9 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
     
     <item>
       <title>Standard Particle Swarm Optimisation 2011 at CEC-2013: A baseline for future PSO improvements</title>
-      <link>https://example.com/publications/2013-zambranobigiarini-standard-particle/</link>
+      <link>https://hzambran.github.io/publications/2013-zambranobigiarini-standard-particle/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publications/2013-zambranobigiarini-standard-particle/</guid>
+      <guid>https://hzambran.github.io/publications/2013-zambranobigiarini-standard-particle/</guid>
       <description>&lt;style&gt;
   .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
       font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;

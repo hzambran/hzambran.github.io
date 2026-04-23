@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Goodness-of-Fit Functions | </title>
-    <link>https://example.com/tags/goodness-of-fit-functions/</link>
-      <atom:link href="https://example.com/tags/goodness-of-fit-functions/index.xml" rel="self" type="application/rss+xml" />
+    <title>Goodness-of-Fit Functions | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/goodness-of-fit-functions/</link>
+      <atom:link href="https://hzambran.github.io/tags/goodness-of-fit-functions/index.xml" rel="self" type="application/rss+xml" />
     <description>Goodness-of-Fit Functions</description>
     <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Oct 2010 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_982c5d63a71b2961.png</url>
+      <url>https://hzambran.github.io/media/icon_hu_982c5d63a71b2961.png</url>
       <title>Goodness-of-Fit Functions</title>
-      <link>https://example.com/tags/goodness-of-fit-functions/</link>
+      <link>https://hzambran.github.io/tags/goodness-of-fit-functions/</link>
     </image>
     
     <item>
       <title>hydroGOF</title>
-      <link>https://example.com/rpackages/hydrogof/</link>
+      <link>https://hzambran.github.io/rpackages/hydrogof/</link>
       <pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://example.com/rpackages/hydrogof/</guid>
+      <guid>https://hzambran.github.io/rpackages/hydrogof/</guid>
       <description>&lt;style&gt;
   /* 1. Target the main article container broadly */
   body .page-body, 
@@ -49,7 +49,7 @@
 &lt;p&gt;
  is widely used in research, teaching, and professional practice, which makes it particularly suitable for users who require dependable, well-documented tools to quantify model accuracy and communicate results with clarity. It provides a technically robust foundation for evidence-based model development, benchmarking, and decision support in hydrology and related environmental sciences.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://example.com/rpackages/hydrogof/hydroGOF-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/hydrogof/hydroGOF-logo.jpg&#34;
     alt=&#34;hydroGOF R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
     &lt;/figcaption&gt;
