@@ -5,12 +5,72 @@
     <link>https://hzambran.github.io/tags/soil-moisture/</link>
       <atom:link href="https://hzambran.github.io/tags/soil-moisture/index.xml" rel="self" type="application/rss+xml" />
     <description>Soil Moisture</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Soil Moisture</title>
       <link>https://hzambran.github.io/tags/soil-moisture/</link>
     </image>
+    
+    <item>
+      <title>Article on the evaluation of gridded soil moisture products published in HESS</title>
+      <link>https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/</guid>
+      <description>&lt;p&gt;On January 12th, 2026, 
+ published our article entitled 
+. This study investigates how spatial patterns, temporal trends, and record length in hourly precipitation data affect annual maximum intensities estimated with stationary and non-stationary models across a climatically and topographically diverse region.&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;Soil moisture is a key variable controlling how water moves through landscapes, supports vegetation, and interacts with the atmosphere. It plays a central role in drought monitoring, ecosystem management, and hydrological modelling. In many regions—particularly natural or remote ecosystems—direct soil moisture measurements are scarce. As a result, scientists and practitioners often rely on large-scale datasets derived from satellites or land surface models. This study evaluates how accurately these datasets represent soil moisture dynamics across Chile’s wide range of climates, from arid northern zones to humid southern forests.&lt;/p&gt;
+&lt;h3 id=&#34;what-was-the-novelty&#34;&gt;What was the novelty?&lt;/h3&gt;
+&lt;p&gt;The study assessed four widely used soil moisture datasets, &lt;strong&gt;ERA5&lt;/strong&gt;, &lt;strong&gt;ERA5-Land&lt;/strong&gt;, &lt;strong&gt;SMAP-L4&lt;/strong&gt;, and &lt;strong&gt;GLDAS-Noah&lt;/strong&gt;, against detailed field observations collected every three hours from the &lt;strong&gt;Kimün-Ko monitoring network&lt;/strong&gt;. The monitoring sites span ten near-natural ecosystems along Chile&amp;rsquo;s hydroclimatic gradient.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/Fig1-studyarea.jpg&#34;
+    alt=&#34;Study area.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Study area: (a) catchment location (CAMELS-CL; Alvarez-Garreton et al., 2018); (b) elevation (SRTMv4.1; Jarvis et al., 2008); (c) land cover classification (CLDynamicLandCover.V2; Galleguillos et al., 2024); (d) soil properties (CLSoilMaps; Dinamarca et al., 2023); and (e) aridity index (AI=P/PET) 1970–2000 (Global-AI-PET-v3; Zomer et al., 2022).&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/Fig2-sites.jpg&#34;
+    alt=&#34;Locations of in situ TEROS 10 and TEROS 12 sensors.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Locations of in situ TEROS 10 and TEROS 12 sensors. (a) Example of TEROS 10 and TEROS 12 sensors installed across various land cover types; (b) northern arid sites in the Petorca (PRB) and Mapocho (MRB) river basins; and (c) southern humid sites in the Cauquenes (CRB) and Trancura (TRB) river basins. Red triangles indicate the locations of in situ SM monitoring sites. Grid cell boundaries of each gridded SM product are shown for ERA5 (green), ERA5-Land (purple), SPL4SMAU (blue), and GLDAS-Noah (lightblue).&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In addition to standard statistical indicators, the researchers applied an event-based diagnostic method that examines how soil moisture responds to individual rainfall events. This approach evaluates both the magnitude of the response and how quickly the soil becomes wetter after rainfall.&lt;/p&gt;
+&lt;h3 id=&#34;what-we-found&#34;&gt;What we found&lt;/h3&gt;
+&lt;p&gt;The evaluation revealed consistent patterns with direct implications for environmental monitoring and modelling:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ERA5 and ERA5-Land showed the most reliable overall performance&lt;/strong&gt;. These datasets reproduced seasonal soil moisture dynamics reasonably well across most regions, particularly in the wetter southern ecosystems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Deeper soil layers were simulated more accurately than surface layers&lt;/strong&gt;. Root-zone soil moisture changes more slowly and is less sensitive to short-term fluctuations, making it easier for large-scale models to represent.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Arid regions remain difficult to simulate&lt;/strong&gt;. In northern ecosystems, all datasets struggled to reproduce the first rainfall response after long dry periods, typically overestimating how much and how quickly soil moisture increased.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Performance varies by product and location&lt;/strong&gt;. Some datasets performed well under specific conditions—for example, one showed relatively strong skill for surface soil moisture in selected arid sites—while others systematically underestimated soil moisture in wetter environments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/Summary_of_Results.jpg&#34;
+    alt=&#34;Schematic summary of the main conclusions.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Schematic summary of the main conclusions.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;why-the-new-diagnostic-approach-is-important&#34;&gt;Why the new diagnostic approach is important&lt;/h3&gt;
+&lt;p&gt;A key contribution of the study is the demonstration that traditional performance metrics can overlook important timing and response errors. &lt;strong&gt;A dataset may appear accurate when evaluated over long periods but still fail to capture the rapid changes that occur during individual storms&lt;/strong&gt;. Event-based diagnostics provide a clearer understanding of how models represent real hydrological processes, especially during extreme or short-lived events.&lt;/p&gt;
+&lt;h3 id=&#34;why-this-matters-for-practice-and-decision-making&#34;&gt;Why this matters for practice and decision-making&lt;/h3&gt;
+&lt;p&gt;The findings provide practical guidance for selecting soil moisture datasets in regions where field measurements are limited. In particular, identifying the most reliable products supports better drought monitoring, improved hydrological simulations, and more informed ecosystem and water resource management.&lt;/p&gt;
+&lt;p&gt;Our study also highlights the importance of evaluating not only average performance, but also the dynamic response of soils to rainfall—an aspect that becomes increasingly critical under changing climate conditions.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Pulliko: Gridded soil moisture for Chile</title>
@@ -97,7 +157,7 @@
 . This study investigates how different soil datasets and classification approaches affect the performance of the SWAT+ hydrological model in simulating low streamflows and soil water content (SWC).&lt;/p&gt;
 &lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
 &lt;p&gt;In Mediterranean climates, such as central Chile, rivers often experience very low flows during long dry seasons. These low flows are critical for agriculture, drinking water supply, and ecosystem health. Yet they remain difficult to be reliably simulated because the way soils store and release water is complex and varies substantially across the landscape. Many hydrological models rely on global soil databases that do not fully capture local soil behavior. This study evaluates a new method for organizing soil information, called &lt;strong&gt;hydropedological clustering&lt;/strong&gt;, to improve the simulation of low streamflows in the Cauquenes catchment.&lt;/p&gt;
-&lt;h3 id=&#34;what-is-new-in-this-approach&#34;&gt;What is new in this approach&lt;/h3&gt;
+&lt;h3 id=&#34;what-is-new-in-this-study&#34;&gt;What is new in this study&lt;/h3&gt;
 &lt;p&gt;The researchers compared four different soil datasets, including widely used global maps and locally developed soil information. They introduced a new clustering strategy that groups soils according to &lt;strong&gt;key soil hydraulic properties&lt;/strong&gt; that directly control water movement and storage:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Saturated hydraulic conductivity&lt;/strong&gt;, which governs how quickly water can move through soil&lt;/li&gt;
@@ -105,9 +165,9 @@
 &lt;li&gt;The &lt;strong&gt;van Genuchten α parameter&lt;/strong&gt;, which reflects soil pore structure&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Rather than classifying soils only by texture (sand, silt, and clay), this method focuses on how soils actually function hydrologically. The result is a more meaningful representation of soil processes within the model.&lt;/p&gt;
-&lt;h3 id=&#34;what-the-study-found&#34;&gt;What the study found&lt;/h3&gt;
+&lt;h3 id=&#34;what-we-found&#34;&gt;What we found&lt;/h3&gt;
 &lt;p&gt;The hydropedological clustering method produced consistently better results than conventional soil classifications. It improved the accuracy of low-flow simulations, reproduced key hydrological indicators more realistically, and reduced model calibration time. The approach also provided more reliable estimates of soil moisture across the root zone, avoiding the large overestimations often associated with coarse global datasets. A central conclusion is that &lt;strong&gt;how soils are classified can matter more than how detailed the map resolution is&lt;/strong&gt;!.&lt;/p&gt;
-&lt;h3 id=&#34;why-this-is-important-for-water-management&#34;&gt;Why this is important for water management&lt;/h3&gt;
+&lt;h3 id=&#34;why-this-study-is-important-for-water-management&#34;&gt;Why this study is important for water management&lt;/h3&gt;
 &lt;p&gt;Reliable low-flow simulations are essential for managing water during droughts, when supply is limited and demand is high. Improved modelling supports better decisions on water allocation, irrigation planning, environmental flow protection, and energy production. The study demonstrates a practical and transferable framework for integrating locally relevant soil knowledge into hydrological models. This capability is particularly valuable for regions facing increasing water stress under climate variability and prolonged drought conditions.&lt;/p&gt;
 &lt;p&gt;The full article can be found here: 
 .&lt;/p&gt;

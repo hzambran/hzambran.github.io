@@ -5,12 +5,72 @@
     <link>https://hzambran.github.io/blog/</link>
       <atom:link href="https://hzambran.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>Blog</title>
       <link>https://hzambran.github.io/blog/</link>
     </image>
+    
+    <item>
+      <title>Article on the evaluation of gridded soil moisture products published in HESS</title>
+      <link>https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/</guid>
+      <description>&lt;p&gt;On January 12th, 2026, 
+ published our article entitled 
+. This study investigates how spatial patterns, temporal trends, and record length in hourly precipitation data affect annual maximum intensities estimated with stationary and non-stationary models across a climatically and topographically diverse region.&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;Soil moisture is a key variable controlling how water moves through landscapes, supports vegetation, and interacts with the atmosphere. It plays a central role in drought monitoring, ecosystem management, and hydrological modelling. In many regions—particularly natural or remote ecosystems—direct soil moisture measurements are scarce. As a result, scientists and practitioners often rely on large-scale datasets derived from satellites or land surface models. This study evaluates how accurately these datasets represent soil moisture dynamics across Chile’s wide range of climates, from arid northern zones to humid southern forests.&lt;/p&gt;
+&lt;h3 id=&#34;what-was-the-novelty&#34;&gt;What was the novelty?&lt;/h3&gt;
+&lt;p&gt;The study assessed four widely used soil moisture datasets, &lt;strong&gt;ERA5&lt;/strong&gt;, &lt;strong&gt;ERA5-Land&lt;/strong&gt;, &lt;strong&gt;SMAP-L4&lt;/strong&gt;, and &lt;strong&gt;GLDAS-Noah&lt;/strong&gt;, against detailed field observations collected every three hours from the &lt;strong&gt;Kimün-Ko monitoring network&lt;/strong&gt;. The monitoring sites span ten near-natural ecosystems along Chile&amp;rsquo;s hydroclimatic gradient.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/Fig1-studyarea.jpg&#34;
+    alt=&#34;Study area.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Study area: (a) catchment location (CAMELS-CL; Alvarez-Garreton et al., 2018); (b) elevation (SRTMv4.1; Jarvis et al., 2008); (c) land cover classification (CLDynamicLandCover.V2; Galleguillos et al., 2024); (d) soil properties (CLSoilMaps; Dinamarca et al., 2023); and (e) aridity index (AI=P/PET) 1970–2000 (Global-AI-PET-v3; Zomer et al., 2022).&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/Fig2-sites.jpg&#34;
+    alt=&#34;Locations of in situ TEROS 10 and TEROS 12 sensors.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Locations of in situ TEROS 10 and TEROS 12 sensors. (a) Example of TEROS 10 and TEROS 12 sensors installed across various land cover types; (b) northern arid sites in the Petorca (PRB) and Mapocho (MRB) river basins; and (c) southern humid sites in the Cauquenes (CRB) and Trancura (TRB) river basins. Red triangles indicate the locations of in situ SM monitoring sites. Grid cell boundaries of each gridded SM product are shown for ERA5 (green), ERA5-Land (purple), SPL4SMAU (blue), and GLDAS-Noah (lightblue).&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In addition to standard statistical indicators, the researchers applied an event-based diagnostic method that examines how soil moisture responds to individual rainfall events. This approach evaluates both the magnitude of the response and how quickly the soil becomes wetter after rainfall.&lt;/p&gt;
+&lt;h3 id=&#34;what-we-found&#34;&gt;What we found&lt;/h3&gt;
+&lt;p&gt;The evaluation revealed consistent patterns with direct implications for environmental monitoring and modelling:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ERA5 and ERA5-Land showed the most reliable overall performance&lt;/strong&gt;. These datasets reproduced seasonal soil moisture dynamics reasonably well across most regions, particularly in the wetter southern ecosystems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Deeper soil layers were simulated more accurately than surface layers&lt;/strong&gt;. Root-zone soil moisture changes more slowly and is less sensitive to short-term fluctuations, making it easier for large-scale models to represent.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Arid regions remain difficult to simulate&lt;/strong&gt;. In northern ecosystems, all datasets struggled to reproduce the first rainfall response after long dry periods, typically overestimating how much and how quickly soil moisture increased.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Performance varies by product and location&lt;/strong&gt;. Some datasets performed well under specific conditions—for example, one showed relatively strong skill for surface soil moisture in selected arid sites—while others systematically underestimated soil moisture in wetter environments.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/Summary_of_Results.jpg&#34;
+    alt=&#34;Schematic summary of the main conclusions.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Schematic summary of the main conclusions.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;why-the-new-diagnostic-approach-is-important&#34;&gt;Why the new diagnostic approach is important&lt;/h3&gt;
+&lt;p&gt;A key contribution of the study is the demonstration that traditional performance metrics can overlook important timing and response errors. &lt;strong&gt;A dataset may appear accurate when evaluated over long periods but still fail to capture the rapid changes that occur during individual storms&lt;/strong&gt;. Event-based diagnostics provide a clearer understanding of how models represent real hydrological processes, especially during extreme or short-lived events.&lt;/p&gt;
+&lt;h3 id=&#34;why-this-matters-for-practice-and-decision-making&#34;&gt;Why this matters for practice and decision-making&lt;/h3&gt;
+&lt;p&gt;The findings provide practical guidance for selecting soil moisture datasets in regions where field measurements are limited. In particular, identifying the most reliable products supports better drought monitoring, improved hydrological simulations, and more informed ecosystem and water resource management.&lt;/p&gt;
+&lt;p&gt;Our study also highlights the importance of evaluating not only average performance, but also the dynamic response of soils to rainfall—an aspect that becomes increasingly critical under changing climate conditions.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The Past 3 Years Have Been the Three Hottest</title>
@@ -61,6 +121,152 @@
     </item>
     
     <item>
+      <title>Article on gridded IDF curves published in HESS</title>
+      <link>https://hzambran.github.io/blog/2026-01-12-hess_article_on_idf_curves/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2026-01-12-hess_article_on_idf_curves/</guid>
+      <description>&lt;p&gt;On January 12th, 2026, 
+ published our article entitled 
+. This study investigates how spatial patterns, temporal trends, and record length in hourly precipitation data affect annual maximum intensities estimated with stationary and non-stationary models across a climatically and topographically diverse region.&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Intensity–Duration–Frequency (IDF) curves&lt;/strong&gt; are essential for designing infrastructure that must safely manage extreme rainfall, including urban drainage systems, culverts, and flood protection works. Traditionally, these curves depend on long-term observations from rain gauges. In many parts of Chile, however, such records are sparse, unevenly distributed, or too short to support robust design. This study evaluates whether modern gridded precipitation datasets can provide reliable alternatives for estimating rainfall extremes across Chile’s diverse climatic and topographic regions.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-new-in-this-study&#34;&gt;What is new in this study&lt;/h3&gt;
+&lt;p&gt;The study analysed -for the first time in Chile- data from 161 quality-controlled hourly rain gauges together with five widely used gridded precipitation products:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IMERG&lt;/strong&gt; (versions v06B and v07B)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ERA5&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ERA5-Land&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CMORPH-CDR&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then, a new &lt;strong&gt;systematic evaluation framework&lt;/strong&gt; was developed to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Correct systematic biases in gridded precipitation estimates using local observations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Detect long-term changes in extreme precipitation intensity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compare conventional (stationary) and trend-aware (non-stationary) statistical models for estimating design storms with return periods from 2 to 100 years and durations from 1 to 72 hours.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Assess how the length of the precipitation record influences the reliability of design estimates&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-12-hess_article_on_idf_curves/methodology.jpg&#34;
+    alt=&#34;Flowchart summarising the methodology.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Flowchart summarising the methodology used in this study&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;what-we-found&#34;&gt;What we found&lt;/h3&gt;
+&lt;p&gt;Several findings are directly relevant for engineering practice and hydrological planning:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Extreme precipitation does not mirror average precipitation patterns.&lt;/strong&gt; The most intense short-duration storms occur in central–southern Chile, even though total annual precipitation increases farther south.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mountains experience substantially higher extremes.&lt;/strong&gt; For longer storm durations, the Andes show markedly higher intensities than nearby lowland areas, indicating that design values derived from valley stations may underestimate risk in mountainous terrain.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Recent decades show declining extremes in central Chile.&lt;/strong&gt; This pattern is consistent with the prolonged regional drought and reduced frequency of winter storm systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Traditional statistical assumptions remain adequate for design.&lt;/strong&gt; Differences between stationary and non-stationary models were generally small, suggesting that standard engineering approaches remain appropriate in most applications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Shorter records can still provide reliable estimates.&lt;/strong&gt; In many cases, 20 years of data produced results comparable to those obtained from 40-year records, which is operationally important in data-limited regions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why-this-study-is-important-for-infrastructure-and-risk-management&#34;&gt;Why this study is important for infrastructure and risk management&lt;/h3&gt;
+&lt;p&gt;The results demonstrate that carefully evaluated &lt;strong&gt;gridded precipitation datasets can extend reliable rainfall design information&lt;/strong&gt; to areas without rain gauges. This capability is particularly relevant in Chile, where steep topography and strong climatic gradients create large spatial variability in extreme rainfall.&lt;/p&gt;
+&lt;p&gt;To facilitate practical use, the authors implemented these findings in an operational web platform that provides location-specific IDF curves for continental Chile: 
+. This tool enables engineers, planners, and public agencies to access consistent design rainfall estimates, supporting safer infrastructure development and more resilient water management under changing climatic conditions. We hope this tool might be incorporated in future design manuals in Chile.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-12-hess_article_on_idf_curves/curvasIDF-main_screen.jpg&#34;
+    alt=&#34;Main screen of the curvasIDF.cl web platform&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Main screen of the 
+ web platform&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Article on hydroMOPSO R package published in EMS</title>
+      <link>https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/</guid>
+      <description>&lt;p&gt;On January 2nd, 2026, 
+ published our article entitled 
+. This study introduces hydroMOPSO, a multi-objective, model-independent R package for the calibration of hydrological and environmental models.&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;Environmental and hydrological models are widely used to support decisions on water management, flood forecasting, and climate change adaptation. A critical step in building trustworthy models is &lt;strong&gt;calibration&lt;/strong&gt;, the process of adjusting model parameters so that simulations reproduce observed conditions.&lt;/p&gt;
+&lt;p&gt;Traditionally, calibration has relied on optimizing a single performance metric. While straightforward, this approach can overlook important trade-offs among different processes—such as reproducing both floods and droughts—and can lead to multiple parameter sets producing similar results, reducing confidence in model predictions.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-novel-in-hydromopso&#34;&gt;What is novel in hydroMOPSO&lt;/h3&gt;
+&lt;p&gt;
+ is an open-source R package designed to calibrate models using &lt;strong&gt;multi-objective optimisation&lt;/strong&gt;. Instead of searching for a single &lt;em&gt;best&lt;/em&gt; solution, 
+ is able to evaluate several performance criteria simultaneously, to and identify a set of solutions that balance the competing objectives. This provides a more comprehensive view of model behavior and improves the robustness of calibration outcomes.&lt;/p&gt;
+&lt;p&gt;A central design feature of the tool is its &lt;strong&gt;model independence&lt;/strong&gt;, i.e., it can be used with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Models written directly in R.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;External models executed from the command line (for example, hydrological or groundwater models).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This flexibility allows users to apply advanced optimization techniques without modifying the original model code. The package also supports &lt;strong&gt;parallel computing&lt;/strong&gt;, which can substantially reduce calibration time for computationally demanding applications.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/methodology.jpg&#34;
+    alt=&#34;Flowchart illustrating the interaction between the main hydroMOPSO functions&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Flowchart illustrating the interaction between the main 
+ functions, from the initial PSO and hybrid search to the update of the global best&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/wrapper_function.jpg&#34;
+    alt=&#34;Flowchart illustrating the wrapper function required to run hydroMOPSO.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Flowchart illustrating the wrapper function required to run hydroMOPSO.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;what-the-study-demonstrated&#34;&gt;What the study demonstrated&lt;/h3&gt;
+&lt;p&gt;We evaluated 
+ using both standard mathematical benachmark problems and real hydrological case studies. Across these tests, the method showed consistent advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Improved search efficiency:&lt;/strong&gt; The algorithm reached high-quality solutions more rapidly than an established alternative approach.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Better representation of trade-offs:&lt;/strong&gt; In practical hydrological applications, the method more effectively identified the range of optimal compromises between conflicting objectives, such as matching peak flows while maintaining realistic low-flow behavior.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Operational usability:&lt;/strong&gt; The software automatically highlights a &lt;strong&gt;Best Compromise Solution&lt;/strong&gt;, helping users select a practical parameter set from among multiple optimal options.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/POF_hydrograph.jpg&#34;
+    alt=&#34;Results of the R-external model calibration using SWAT&amp;#43;.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Results of the R-external model calibration using SWAT+.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;why-this-is-important-for-applied-modelling&#34;&gt;Why this is important for applied modelling&lt;/h3&gt;
+&lt;p&gt;Multi-objective calibration methods are often perceived as complex to implement and interpret. This work demonstrates that such approaches can be integrated into routine modelling workflows using accessible, open-source tools. By improving calibration transparency and efficiency, the framework supports more credible simulations for water resources planning, environmental assessment, and risk management.&lt;/p&gt;
+&lt;p&gt;The package is publicly distributed through the 
+, ensuring open access, reproducibility, and long-term availability for the modelling community.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Article on hydropedological clustering published in JoH</title>
       <link>https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
@@ -70,7 +276,7 @@
 . This study investigates how different soil datasets and classification approaches affect the performance of the SWAT+ hydrological model in simulating low streamflows and soil water content (SWC).&lt;/p&gt;
 &lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
 &lt;p&gt;In Mediterranean climates, such as central Chile, rivers often experience very low flows during long dry seasons. These low flows are critical for agriculture, drinking water supply, and ecosystem health. Yet they remain difficult to be reliably simulated because the way soils store and release water is complex and varies substantially across the landscape. Many hydrological models rely on global soil databases that do not fully capture local soil behavior. This study evaluates a new method for organizing soil information, called &lt;strong&gt;hydropedological clustering&lt;/strong&gt;, to improve the simulation of low streamflows in the Cauquenes catchment.&lt;/p&gt;
-&lt;h3 id=&#34;what-is-new-in-this-approach&#34;&gt;What is new in this approach&lt;/h3&gt;
+&lt;h3 id=&#34;what-is-new-in-this-study&#34;&gt;What is new in this study&lt;/h3&gt;
 &lt;p&gt;The researchers compared four different soil datasets, including widely used global maps and locally developed soil information. They introduced a new clustering strategy that groups soils according to &lt;strong&gt;key soil hydraulic properties&lt;/strong&gt; that directly control water movement and storage:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Saturated hydraulic conductivity&lt;/strong&gt;, which governs how quickly water can move through soil&lt;/li&gt;
@@ -78,9 +284,9 @@
 &lt;li&gt;The &lt;strong&gt;van Genuchten α parameter&lt;/strong&gt;, which reflects soil pore structure&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Rather than classifying soils only by texture (sand, silt, and clay), this method focuses on how soils actually function hydrologically. The result is a more meaningful representation of soil processes within the model.&lt;/p&gt;
-&lt;h3 id=&#34;what-the-study-found&#34;&gt;What the study found&lt;/h3&gt;
+&lt;h3 id=&#34;what-we-found&#34;&gt;What we found&lt;/h3&gt;
 &lt;p&gt;The hydropedological clustering method produced consistently better results than conventional soil classifications. It improved the accuracy of low-flow simulations, reproduced key hydrological indicators more realistically, and reduced model calibration time. The approach also provided more reliable estimates of soil moisture across the root zone, avoiding the large overestimations often associated with coarse global datasets. A central conclusion is that &lt;strong&gt;how soils are classified can matter more than how detailed the map resolution is&lt;/strong&gt;!.&lt;/p&gt;
-&lt;h3 id=&#34;why-this-is-important-for-water-management&#34;&gt;Why this is important for water management&lt;/h3&gt;
+&lt;h3 id=&#34;why-this-study-is-important-for-water-management&#34;&gt;Why this study is important for water management&lt;/h3&gt;
 &lt;p&gt;Reliable low-flow simulations are essential for managing water during droughts, when supply is limited and demand is high. Improved modelling supports better decisions on water allocation, irrigation planning, environmental flow protection, and energy production. The study demonstrates a practical and transferable framework for integrating locally relevant soil knowledge into hydrological models. This capability is particularly valuable for regions facing increasing water stress under climate variability and prolonged drought conditions.&lt;/p&gt;
 &lt;p&gt;The full article can be found here: 
 .&lt;/p&gt;
@@ -2266,7 +2472,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-469125738&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-529146378&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -2284,7 +2490,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-469125738&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-529146378&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

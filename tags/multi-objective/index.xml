@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-Objective | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/multi-objective/</link>
+      <atom:link href="https://hzambran.github.io/tags/multi-objective/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multi-Objective</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 02 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <title>Multi-Objective</title>
+      <link>https://hzambran.github.io/tags/multi-objective/</link>
+    </image>
+    
+    <item>
+      <title>Article on hydroMOPSO R package published in EMS</title>
+      <link>https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/</guid>
+      <description>&lt;p&gt;On January 2nd, 2026, 
+ published our article entitled 
+. This study introduces hydroMOPSO, a multi-objective, model-independent R package for the calibration of hydrological and environmental models.&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;Environmental and hydrological models are widely used to support decisions on water management, flood forecasting, and climate change adaptation. A critical step in building trustworthy models is &lt;strong&gt;calibration&lt;/strong&gt;, the process of adjusting model parameters so that simulations reproduce observed conditions.&lt;/p&gt;
+&lt;p&gt;Traditionally, calibration has relied on optimizing a single performance metric. While straightforward, this approach can overlook important trade-offs among different processes—such as reproducing both floods and droughts—and can lead to multiple parameter sets producing similar results, reducing confidence in model predictions.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-novel-in-hydromopso&#34;&gt;What is novel in hydroMOPSO&lt;/h3&gt;
+&lt;p&gt;
+ is an open-source R package designed to calibrate models using &lt;strong&gt;multi-objective optimisation&lt;/strong&gt;. Instead of searching for a single &lt;em&gt;best&lt;/em&gt; solution, 
+ is able to evaluate several performance criteria simultaneously, to and identify a set of solutions that balance the competing objectives. This provides a more comprehensive view of model behavior and improves the robustness of calibration outcomes.&lt;/p&gt;
+&lt;p&gt;A central design feature of the tool is its &lt;strong&gt;model independence&lt;/strong&gt;, i.e., it can be used with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Models written directly in R.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;External models executed from the command line (for example, hydrological or groundwater models).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This flexibility allows users to apply advanced optimization techniques without modifying the original model code. The package also supports &lt;strong&gt;parallel computing&lt;/strong&gt;, which can substantially reduce calibration time for computationally demanding applications.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/methodology.jpg&#34;
+    alt=&#34;Flowchart illustrating the interaction between the main hydroMOPSO functions&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Flowchart illustrating the interaction between the main 
+ functions, from the initial PSO and hybrid search to the update of the global best&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/wrapper_function.jpg&#34;
+    alt=&#34;Flowchart illustrating the wrapper function required to run hydroMOPSO.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Flowchart illustrating the wrapper function required to run hydroMOPSO.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;what-the-study-demonstrated&#34;&gt;What the study demonstrated&lt;/h3&gt;
+&lt;p&gt;We evaluated 
+ using both standard mathematical benachmark problems and real hydrological case studies. Across these tests, the method showed consistent advantages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Improved search efficiency:&lt;/strong&gt; The algorithm reached high-quality solutions more rapidly than an established alternative approach.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Better representation of trade-offs:&lt;/strong&gt; In practical hydrological applications, the method more effectively identified the range of optimal compromises between conflicting objectives, such as matching peak flows while maintaining realistic low-flow behavior.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Operational usability:&lt;/strong&gt; The software automatically highlights a &lt;strong&gt;Best Compromise Solution&lt;/strong&gt;, helping users select a practical parameter set from among multiple optimal options.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/POF_hydrograph.jpg&#34;
+    alt=&#34;Results of the R-external model calibration using SWAT&amp;#43;.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Results of the R-external model calibration using SWAT+.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;why-this-is-important-for-applied-modelling&#34;&gt;Why this is important for applied modelling&lt;/h3&gt;
+&lt;p&gt;Multi-objective calibration methods are often perceived as complex to implement and interpret. This work demonstrates that such approaches can be integrated into routine modelling workflows using accessible, open-source tools. By improving calibration transparency and efficiency, the framework supports more credible simulations for water resources planning, environmental assessment, and risk management.&lt;/p&gt;
+&lt;p&gt;The package is publicly distributed through the 
+, ensuring open access, reproducibility, and long-term availability for the modelling community.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

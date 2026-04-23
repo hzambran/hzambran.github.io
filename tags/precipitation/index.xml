@@ -146,6 +146,82 @@
     </item>
     
     <item>
+      <title>Article on gridded IDF curves published in HESS</title>
+      <link>https://hzambran.github.io/blog/2026-01-12-hess_article_on_idf_curves/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2026-01-12-hess_article_on_idf_curves/</guid>
+      <description>&lt;p&gt;On January 12th, 2026, 
+ published our article entitled 
+. This study investigates how spatial patterns, temporal trends, and record length in hourly precipitation data affect annual maximum intensities estimated with stationary and non-stationary models across a climatically and topographically diverse region.&lt;/p&gt;
+&lt;h3 id=&#34;motivation&#34;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Intensity–Duration–Frequency (IDF) curves&lt;/strong&gt; are essential for designing infrastructure that must safely manage extreme rainfall, including urban drainage systems, culverts, and flood protection works. Traditionally, these curves depend on long-term observations from rain gauges. In many parts of Chile, however, such records are sparse, unevenly distributed, or too short to support robust design. This study evaluates whether modern gridded precipitation datasets can provide reliable alternatives for estimating rainfall extremes across Chile’s diverse climatic and topographic regions.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-new-in-this-study&#34;&gt;What is new in this study&lt;/h3&gt;
+&lt;p&gt;The study analysed -for the first time in Chile- data from 161 quality-controlled hourly rain gauges together with five widely used gridded precipitation products:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IMERG&lt;/strong&gt; (versions v06B and v07B)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ERA5&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ERA5-Land&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CMORPH-CDR&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then, a new &lt;strong&gt;systematic evaluation framework&lt;/strong&gt; was developed to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Correct systematic biases in gridded precipitation estimates using local observations.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Detect long-term changes in extreme precipitation intensity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compare conventional (stationary) and trend-aware (non-stationary) statistical models for estimating design storms with return periods from 2 to 100 years and durations from 1 to 72 hours.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Assess how the length of the precipitation record influences the reliability of design estimates&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-12-hess_article_on_idf_curves/methodology.jpg&#34;
+    alt=&#34;Flowchart summarising the methodology.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Flowchart summarising the methodology used in this study&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;what-we-found&#34;&gt;What we found&lt;/h3&gt;
+&lt;p&gt;Several findings are directly relevant for engineering practice and hydrological planning:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Extreme precipitation does not mirror average precipitation patterns.&lt;/strong&gt; The most intense short-duration storms occur in central–southern Chile, even though total annual precipitation increases farther south.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mountains experience substantially higher extremes.&lt;/strong&gt; For longer storm durations, the Andes show markedly higher intensities than nearby lowland areas, indicating that design values derived from valley stations may underestimate risk in mountainous terrain.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Recent decades show declining extremes in central Chile.&lt;/strong&gt; This pattern is consistent with the prolonged regional drought and reduced frequency of winter storm systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Traditional statistical assumptions remain adequate for design.&lt;/strong&gt; Differences between stationary and non-stationary models were generally small, suggesting that standard engineering approaches remain appropriate in most applications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Shorter records can still provide reliable estimates.&lt;/strong&gt; In many cases, 20 years of data produced results comparable to those obtained from 40-year records, which is operationally important in data-limited regions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;why-this-study-is-important-for-infrastructure-and-risk-management&#34;&gt;Why this study is important for infrastructure and risk management&lt;/h3&gt;
+&lt;p&gt;The results demonstrate that carefully evaluated &lt;strong&gt;gridded precipitation datasets can extend reliable rainfall design information&lt;/strong&gt; to areas without rain gauges. This capability is particularly relevant in Chile, where steep topography and strong climatic gradients create large spatial variability in extreme rainfall.&lt;/p&gt;
+&lt;p&gt;To facilitate practical use, the authors implemented these findings in an operational web platform that provides location-specific IDF curves for continental Chile: 
+. This tool enables engineers, planners, and public agencies to access consistent design rainfall estimates, supporting safer infrastructure development and more resilient water management under changing climatic conditions. We hope this tool might be incorporated in future design manuals in Chile.&lt;/p&gt;
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-12-hess_article_on_idf_curves/curvasIDF-main_screen.jpg&#34;
+    alt=&#34;Main screen of the curvasIDF.cl web platform&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Main screen of the 
+ web platform&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Mawün-NRT: Near real-time gridded precipitation for Chile</title>
       <link>https://hzambran.github.io/web-platforms/mawun-nrt/</link>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
