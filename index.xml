@@ -225,6 +225,13 @@
 &lt;p&gt;Our study also highlights the importance of evaluating not only average performance, but also the dynamic response of soils to rainfall—an aspect that becomes increasingly critical under changing climate conditions.&lt;/p&gt;
 &lt;p&gt;The full article can be found here: 
 .&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/infographic.jpg&#34;
+    alt=&#34;Infographic summary&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Infographic summary, created by Google NotebookLM (23-Apr-2026)&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
 </description>
     </item>
     
@@ -687,13 +694,20 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;The results demonstrate that carefully evaluated &lt;strong&gt;gridded precipitation datasets can extend reliable rainfall design information&lt;/strong&gt; to areas without rain gauges. This capability is particularly relevant in Chile, where steep topography and strong climatic gradients create large spatial variability in extreme rainfall.&lt;/p&gt;
 &lt;p&gt;To facilitate practical use, the authors implemented these findings in an operational web platform that provides location-specific IDF curves for continental Chile: 
 . This tool enables engineers, planners, and public agencies to access consistent design rainfall estimates, supporting safer infrastructure development and more resilient water management under changing climatic conditions. We hope this tool might be incorporated in future design manuals in Chile.&lt;/p&gt;
-&lt;p&gt;The full article can be found here: 
-.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
 &lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-12-hess_article_on_idf_curves/curvasIDF-main_screen.jpg&#34;
     alt=&#34;Main screen of the curvasIDF.cl web platform&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Main screen of the 
  web platform&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The full article can be found here: 
+.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-12-hess_article_on_idf_curves/infographic.jpg&#34;
+    alt=&#34;Infographic summary&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Infographic summary, created by Google NotebookLM (23-Apr-2026)&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -859,6 +873,13 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 , ensuring open access, reproducibility, and long-term availability for the modelling community.&lt;/p&gt;
 &lt;p&gt;The full article can be found here: 
 .&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-01-02-ems_article_on_hydromopso/infographic.jpg&#34;
+    alt=&#34;Infographic summary&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Infographic summary, created by Google NotebookLM (23-Apr-2026)&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
 </description>
     </item>
     
@@ -982,6 +1003,13 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/graphical_abstract.jpg&#34;
     alt=&#34;Graphical abstract&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Graphical abstract&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2025-12-19-joh_article_on_hydropedological_clustering_published/infographic.jpg&#34;
+    alt=&#34;Infographic summary&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Infographic summary, created by Google NotebookLM (23-Apr-2026)&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -9628,7 +9656,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-596134287&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-764128395&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -9646,7 +9674,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-596134287&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-764128395&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
