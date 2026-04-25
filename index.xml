@@ -696,10 +696,10 @@ L&#39;ho vedüü in sœ la curriera che &#39;l nava a Rimini a vede&#39; i delfi
     </item>
     
     <item>
-      <title>2028-11: Addio Paura - España Circo Este / MCR</title>
-      <link>https://hzambran.github.io/songs/2024-03-bacciami_ancora/</link>
+      <title>2024-11: Addio Paura - España Circo Este / MCR</title>
+      <link>https://hzambran.github.io/songs/2024-11-addio_paura/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/songs/2024-03-bacciami_ancora/</guid>
+      <guid>https://hzambran.github.io/songs/2024-11-addio_paura/</guid>
       <description>
 
 
@@ -778,9 +778,9 @@ E nei giorni storti anche ridere.&lt;/p&gt;
     
     <item>
       <title>2024-03: Baciami Ancora - Jovanotti</title>
-      <link>https://hzambran.github.io/songs/2024-11-addio_paura/</link>
+      <link>https://hzambran.github.io/songs/2024-03-bacciami_ancora/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/songs/2024-11-addio_paura/</guid>
+      <guid>https://hzambran.github.io/songs/2024-03-bacciami_ancora/</guid>
       <description>
 
 
@@ -11835,7 +11835,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-374985216&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-643198257&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -11853,7 +11853,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-374985216&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-643198257&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
