@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses I have previously taught, but not anymore | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/courses/cursos_anteriores/</link>
+      <atom:link href="https://hzambran.github.io/courses/cursos_anteriores/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses I have previously taught, but not anymore</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hzambran.github.io/courses/cursos_anteriores/featured.jpg</url>
+      <title>Courses I have previously taught, but not anymore</title>
+      <link>https://hzambran.github.io/courses/cursos_anteriores/</link>
+    </image>
+    
+  </channel>
+</rss>

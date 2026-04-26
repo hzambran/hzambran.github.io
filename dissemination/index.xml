@@ -1265,5 +1265,793 @@ During additional side events of the Nexus Week, the participants developed new 
 </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://hzambran.github.io/dissemination/03-summer_schools_and_technical_courses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/dissemination/03-summer_schools_and_technical_courses/</guid>
+      <description>&lt;style&gt;
+  /* 1. Remove width limits */
+  #wide-text-section3 .prose,
+  #wide-text-section3 div[class*=&#34;prose&#34;],
+  #wide-text-section3 .max-w-prose { 
+    max-width: 100% !important; 
+  }
+  #wide-text-section5 .wg-body {
+    max-width: 80% !important;
+    margin: 0 auto;
+  }
+
+  /* 2. THE KEY FIX: Spacing for list items */
+  
+  /* Target paragraphs INSIDE list items (Hugo often wraps bullets in &lt;p&gt;) */
+  #wide-text-section3 .prose li p {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;      /* Line spacing within the text */
+  }
+
+  /* Target list items directly (just in case they aren&#39;t wrapped in &lt;p&gt;) */
+  #wide-text-section3 .prose li {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;
+  }
+
+  /* 3. Tighten the list container itself */
+  #wide-text-section3 .prose ul {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;div style=&#34;font-size: 1.1rem; font-family: inherit;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; Enero 2026. Escuela de verano &lt;em&gt;Eventos climáticos extremos: Impactos, adaptación y resiliencia desde un enfoque interdisciplinario&lt;/em&gt;. Santiago, Chile. Parte de las activides del 
+, Santiago, Chile, 6-16 Enero 2026.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; November 2025. Curso &lt;em&gt;Uso de R para análisis de datos espacio-temporales: aplicación a precipitación de CR2Met2.5&lt;/em&gt;. Santiago, Chile. Parte de las activides del 
+, Santiago-Viña del Mar, Chile, 3-7 November 2025.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; October 2025. Curso &lt;em&gt;Uso de R para análisis de datos espacio-temporales: aplicación a datos diarios CR2Met2.5&lt;/em&gt;. Concepción, Chile. Parte de las activides del 
+, Concepción, Chile, 20-25 October 2025.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; January 2017. R.I.N° EXS17-0479. &lt;em&gt;EduNexus International Summer School: Understanding and Modelling the Water-Energy-Food Nexus&lt;/em&gt;. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hzambran.github.io/dissemination/04-international_conferences_workshops_and_seminars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/dissemination/04-international_conferences_workshops_and_seminars/</guid>
+      <description>&lt;style&gt;
+  /* 1. Remove width limits */
+  #wide-text-section4 .prose,
+  #wide-text-section4 div[class*=&#34;prose&#34;],
+  #wide-text-section4 .max-w-prose { 
+    max-width: 100% !important; 
+  }
+  #wide-text-section4 .wg-body {
+    max-width: 80% !important;
+    margin: 0 auto;
+  }
+
+  /* 2. THE KEY FIX: Spacing for list items */
+  
+  /* Target paragraphs INSIDE list items (Hugo often wraps bullets in &lt;p&gt;) */
+  #wide-text-section4 .prose li p {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;      /* Line spacing within the text */
+  }
+
+  /* Target list items directly (just in case they aren&#39;t wrapped in &lt;p&gt;) */
+  #wide-text-section4 .prose li {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;
+  }
+
+  /* 3. Tighten the list container itself */
+  #wide-text-section4 .prose ul {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;div style=&#34;font-size: 1.1rem; font-family: inherit;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Garcés-Figueroa, H.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; (&lt;strong&gt;2025&lt;/strong&gt;). Ahead of the Flood: Medium-Range Hydrological Forecasting for Southern Chilean Catchments (oral presentation). 
+, Santiago-Viña del Mar, Chile, 3-7 November 2025. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Baez-Villanueva, O.; Tolorza, V.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; (&lt;strong&gt;2025&lt;/strong&gt;). Understanding soil memory: how antecedent moisture modulates streamflow responses to precipita on events (oral presentation). 
+, Santiago-Viña del Mar, Chile, 3-7 November 2025. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Muñoz Neira, R.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; (&lt;strong&gt;2025&lt;/strong&gt;). Monitoreo operacional de las anomalías de humedad de suelo para Chile continental (poster presentation). 
+, Santiago-Viña del Mar, Chile, 3-7 November 2025. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gimeno Molina, F.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Galleguillos, M.; Block, P. (&lt;strong&gt;2025&lt;/strong&gt;). Soil mapping matters: Changes high streamflow simulations through spatial soil information (poster presentation). 
+, Santiago-Viña del Mar, Chile, 3-7 November 2025. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Figueiras, E.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Spennemann, Pablo C.; Galleguillos, M.; Salvia, M.; Baez Villanueva, Oscar M. (&lt;strong&gt;2025&lt;/strong&gt;). Sequía a través del ciclo hidrológico: comprendiendo el tiempo de propagación a través de escalas temporales y paisajes del centro-sur de Chile (poster presentation). 
+, Santiago-Viña del Mar, Chile, 3-7 November 2025. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Torres, R.; Alvarez-Garreton, C.; Marinao, R.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; (&lt;strong&gt;2025&lt;/strong&gt;). Caracterización y clasificación de pozos de agua subterránea en Chile (poster presentation). 
+, Santiago-Viña del Mar, Chile, 3-7 November 2025. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Nu~{n}ez-Ibarra, D. ; Galleguillos, M. (&lt;strong&gt;2025&lt;/strong&gt;). 
+. EGU General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025, EGU25-13801 
+. Abstract EGU24-21043 (poster presentation).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Garcés-Figueroa, H.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; (&lt;strong&gt;2025&lt;/strong&gt;). 
+. EGU General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025, EGU25-13525 
+. Abstract EGU25-13525 (oral presentation).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. and Marinao Rivas, Rodrigo (&lt;strong&gt;2024&lt;/strong&gt;). 
+. Presented at AGU24 Annual Meeting, Washington D.C., 9-13 December 2024. 
+. Abstract H41S-0770 (poster presentation).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Gimeno, F.; Galleguillos, M.; Marinao, R. (&lt;strong&gt;2024&lt;/strong&gt;). 
+. 2024 International SWAT Conference, Strasbourg, France. 
+. (oral presentation).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Soto, C.; Tolorza, V. (&lt;strong&gt;2024&lt;/strong&gt;). 
+. EGU General Assembly 2024, Vienna, Austria, 14-19 Apr 2024. 
+. Abstract EGU24-21043 (poster presentation).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gimeno, F.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Galleguillos, M.; Marinao, R. (&lt;strong&gt;2024&lt;/strong&gt;). 
+. EGU General Assembly 2024, Vienna, Austria, 14-19 Apr 2024, 
+. Abstract EGU24-12291 (poster presentation)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Soto, C.; Tolorza, V.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; (&lt;strong&gt;2023&lt;/strong&gt;). 
+. XVI Congreso Geológico Chileno, Santiago, Chile, 26/Nov-1/Dic 2023. doi:10.5281/zenodo.10340230.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tolorza, V.; Mohr, C.H.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Sotomayor, B.; Pobleto-Caballero, D.; Carretier, S.; Galleguillos-Torres, M. (&lt;strong&gt;2023&lt;/strong&gt;). 
+. XVI Congreso Geológico Chileno, Santiago, Chile, 26/Nov-1/Dic 2023. doi:10.5281/zenodo.10599900.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Baez, O. M.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Miralles, D.G.; Beck, H.E.; Siegmund, J.F.; Álvarez-Garretón, C.; Verbist, K.; Garreaud, R.; Boisier, J.P.; Galleguillos, M. (&lt;strong&gt;2023&lt;/strong&gt;). Uso de índices de sequía meteorológicos, de humedad del suelo y de nieve como proxies de la sequía hidrológica. 
+, Santiago-Viña del Mar, Chile, 4-7 Sep 2023. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Seguel, O.; Galleguillos, M.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Pfeiffer, M.; Casanova, G. (&lt;strong&gt;2023&lt;/strong&gt;). Rol de los suelos de alta montaña en la reserva hidrológica de las cuencas. 
+, Santiago-Viña del Mar, Chile, 4-7 Sep 2023. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lema, F.; Mendoza, P.; Vásquez, N.; Mizukami, N.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Vargas, X. (&lt;strong&gt;2023&lt;/strong&gt;). Análisis de sequías históricas y proyectadas en cuencas de diferente régimen hidrológico en Chile Central. 
+, Santiago-Viña del Mar, Chile, 4-7 Sep 2023. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Grau, A.; Galleguillos, M.; Manuschevich, D.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Marinao, R. (&lt;strong&gt;2023&lt;/strong&gt;). Evaluación de la provisión de agua bajo distintos escenarios futuros de cambio de uso del suelo en la cuenca de Cauquenes, Chile. 
+, Santiago-Viña del Mar, Chile, 4-7 Sep 2023. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Soto, C.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Tolorza, V. (&lt;strong&gt;2023&lt;/strong&gt;). Intensidad, Duración y Frecuencia de precipitaciones máximas en Chile utilizando productos grillados de precipitación de alta resolución espacial. 
+, Santiago-Viña del Mar, Chile, 4-7 Sep 2023. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Saldivia, M.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Boisier, J.P.; Galleguillos, M.; Álvarez-Garretón, C.; Galleguillos, M.; Lagos-Zuñiga, M. (&lt;strong&gt;2023&lt;/strong&gt;). Comparación de métodos de corrección de sesgo basados en mapeo de cuantiles en la simulación hidrológica de la cuenca nivo-pluvial Mapocho en los Almendros. 
+, Santiago-Viña del Mar, Chile, 4-7 Sep 2023. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Galleguillos, M; Seguel, O.; Fustos, I.; Faúndez, C.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Pérez-Quezada, J. (&lt;strong&gt;2023&lt;/strong&gt;). The Role of Native Ecosystems in Water Transfers under a Drying Climate: From Pores to Catchments. 
+, Santiago-Viña del Mar, Chile, 4-7 Sep 2023. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nuñez, D..; Galleguillos, M.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; (&lt;strong&gt;2023&lt;/strong&gt;). Evaluación de la humedad de suelo estimada mediante productos grillados en la zona centro-sur de Chile. 
+, Santiago-Viña del Mar, Chile, 4-7 Sep 2023. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Marinao-Rivas, R.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; (&lt;strong&gt;2023&lt;/strong&gt;). Explorador de precipitaciones Mawün. 
+, Santiago-Viña del Mar, Chile, 4-7 Sep 2023. 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tolorza, V.; Mohr, C.H.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Carretier S.; Galleguillos, M. (&lt;strong&gt;2023&lt;/strong&gt;). Discrete disturbances, connectivity and a persistent drought at the Purapel catchment. 
+, Santiago-Viña del Mar, Chile, 4-7 Sep 2023. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Marinao, R.; (&lt;strong&gt;2023&lt;/strong&gt;). 
+. International SWAT Conference 2023, Aarhus, Denmark, 28-30 Jun 2023.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Marinao, R.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; (&lt;strong&gt;2023&lt;/strong&gt;). 
+. International SWAT Conference 2023, Aarhus, Denmark, 28-30 Jun 2023.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Bernal Vallejos, S. (&lt;strong&gt;2023&lt;/strong&gt;). 
+, EGU General Assembly 2023, Vienna, Austria, 24-28 Apr 2023, EGU23-16978, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Marinao, R.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; (&lt;strong&gt;2023&lt;/strong&gt;) 
+ (&lt;strong&gt;2023&lt;/strong&gt;). EGU General Assembly 2023, Vienna, Austria, 24-28 Apr 2023, EGU23-16995, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Baez Villanueva, O. M.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; (&lt;strong&gt;2023&lt;/strong&gt;). 
+. EGU General Assembly 2023, Vienna, Austria, 24-28 Apr 2023, EGU23-16949, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lema, F.; Mendoza, P.; Vásquez, N.; Mizukami, N.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Vargas, X.  (&lt;strong&gt;2023&lt;/strong&gt;) 
+ (&lt;strong&gt;2023&lt;/strong&gt;) EGU General Assembly 2023, Vienna, Austria, 24-28 Apr 2023, EGU23-9349, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kreibich, H. and the Flood and drought paired event community: 
+ (&lt;strong&gt;2023&lt;/strong&gt;). EGU General Assembly 2023, Vienna, Austria, 24-28 Apr 2023, EGU23-4932, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. and Bernal Vallejos, Sebastián (&lt;strong&gt;2022&lt;/strong&gt;). 
+. H12P-0873. Presented at 2022 AGU Fall Meeting, Chicago, IL, 12-16 Dec.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Marinao-Rivas, R. and &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2022&lt;/strong&gt;). 
+. H15M-0961. Presented at 2022 AGU Fall Meeting, Chicago, IL, 12-16 Dec.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Baez-Villanueva, O. M., &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Mendoza, P. A., McNamara, I., Beck, H. E., Thurner, J., Nauditt, A., Ribbe, L., and Thinh, N. X. (&lt;strong&gt;2022&lt;/strong&gt;). 
+, EGU General Assembly 2022, Vienna, Austria, 23-27 May 2022, EGU22-10286, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Marinao-Rivas, R. and &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2022&lt;/strong&gt;). 
+, EGU General Assembly 2022, Vienna, Austria, 23-27 May 2022, EGU22-9902, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tolorza, V.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Mohr, C.; Sotomayor, B.; Poblete-Caballero, D.; Galleguillos, M. (&lt;strong&gt;2022&lt;/strong&gt;). 
+, EGU General Assembly 2022, Vienna, Austria, 23-27 May 2022, EGU22-10839, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Grau-Neira, A., Manuschevich, D., Galleguillos, M., &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, and Marinao, R. (&lt;strong&gt;2022&lt;/strong&gt;). 
+. EGU General Assembly 2022, Vienna, Austria, 23-27 May 2022, EGU22-8141, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tolorza, V.; Poblete, D.; González, V.I.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Cabezas, J.  Galleguillos, M. (&lt;strong&gt;2021&lt;/strong&gt;). 
+ (PICO presentation). EGU General Assembly 2021, online, 19-30 Apr 2021, EGU21-13140, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Chen, Y.; Sheng, Z. P.; Kunstmann, H.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2020&lt;/strong&gt;). Session 
+. 2020 Fall Meeting, AGU, San Francisco, CA, 7-11 Dec.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Soto, C.; Baez-Villanueva, O. M. (&lt;strong&gt;2020&lt;/strong&gt;). 
+ (poster presentation). EGU General Assembly 2020, Online, 4-8 May 2020, EGU2020-21091, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Alvarez-Garreton, C.D.; Beck, H.; Wood, E.F.; McVicar, T.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Baez-Villanueva, O.; Sheffield, J.; Karger, D. (&lt;strong&gt;2020&lt;/strong&gt;). 
+ (PICO presentation). EGU General Assembly 2020, Online, 4-8 May 2020, EGU2020-10699, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Baez-Villanueva, O. M.; McNamara, I.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Ribbe, L. (&lt;strong&gt;2020&lt;/strong&gt;). 
+ (poster presentation). EGU General Assembly 2020, Online, 4-8 May 2020, EGU2020-11877, 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Beck, H.; McVicar, T.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Alvarez-Garreton, C.D.; Baez-Villanueva, O.; Sheffield, J.; Karger, D.; Wood, E.F. (&lt;strong&gt;2019&lt;/strong&gt;). 
+. Final paper number 
+ presented as poster at 2019 Fall Meeting, AGU, San Francisco, CA, 9-13 Dec. Session: H51V - Using Precipitation Data Sets and Quantifying Associated Uncertainties in Hydrometeorological and Climate Impact Applications. Abstract # 586472.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2019&lt;/strong&gt;). &lt;em&gt;On the impacts of Temperature to Chilean Droughts Using Ensemble Climate Projections&lt;/em&gt; (oral presentation). 
+. San Luis de Potosí, México. November 2019. Session: Novel Approaches to Assess and Cope with Droughts in Data Scarce Regions, Abstract #194.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Baez-Villanueva, O. M.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Ribbe, L.; Nauditt, A.; Giraldo-Osorio, J.D.; Birkel, C.; Verbist, K.; McNamara, I.; Thinh, N.X. (&lt;strong&gt;2019&lt;/strong&gt;). 
+ (oral presentation). EGU General Assembly 2019. 7-12 April 2019, Wien, Austria. HS7.2 Precipitation Modelling: uncertainty, variability, assimilation, ensemble simulation and downscaling. Abstract EGU2019-10659.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Baez-Villanueva, O. (&lt;strong&gt;2018&lt;/strong&gt;). 
+ (oral presentation). Final paper number 
+ presented at 2018 Fall Meeting, AGU, Washington, D.C., 10-14 Dec. Session: H52C (Global Precipitation Measurement, Validation, and Applications II). Abstract #455831.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hann, H., Nauditt, A., &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Ribbe, L. (&lt;strong&gt;2018&lt;/strong&gt;). 
+ (oral presentation). Final paper number 
+ presented at 2018 Fall Meeting, AGU, Washington, D.C., 10-14 Dec. Session: H32B (Advances in Remote Sensing Hydrology II). Abstract #410946.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Galleguillos, M.; Puelma, C.; Munro, J. (&lt;strong&gt;2018&lt;/strong&gt;). 
+. Proc. Joint conference Forests and Water 2018. November 2018. Valdivia, Chile. (oral presentation).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2018&lt;/strong&gt;). 
+. Proc. SPIE 10782, Remote Sensing and Modeling of the Atmosphere, Oceans, and Interactions VII, October 2018. 1078202. DOI: 10.1117/12.2513645. Honolulu, USA. (oral presentation).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Galleguillos, M.; Garreaud, R.; Puelma, C.; Jopia, A. (&lt;strong&gt;2018&lt;/strong&gt;). 
+ (oral presentation). EGU General Assembly 2018. 8-13 April 2018. Wien, Austria. Session HS4.4, Abstract EGU2018-11460.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Galleguillos, M., &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Puelma, C. (&lt;strong&gt;2018&lt;/strong&gt;). 
+ (poster presentation). EGU General Assembly 2018. 8-13 April 2018. Wien, Austria. Session HS2.4.1, Abstract EGU2018-12036.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nauditt, A., &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Hann, H., Thurner, J., Ribbe, L. (&lt;strong&gt;2018&lt;/strong&gt;). 
+ (poster presentation). EGU General Assembly 2018. 8-13 April 2018. Wien, Austria. Session HS4.4, Abstract EGU2018-18702.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Alvarez-Garreton, C., Mendoza, P., Boisier, J.P., Galleguillos, M. &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Lara, A., Addor, N., Puelma, C., Cortes, G., Garreaud, R., McPhee, J. (&lt;strong&gt;2018&lt;/strong&gt;). 
+ (oral presentation). EGU General Assembly 2018. 8-13 April 2018. Wien, Austria. Session HS1.10, Abstract EGU2018-2374.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, L. Alfieri, G. Naumann, R. Garreaud. (&lt;strong&gt;2017&lt;/strong&gt;). 
+ (oral presentation). Final paper number 
+, presented at 2017 Fall Meeting, AGU, New Orleans, 11-15 Dec. Session: H11O (Hydroclimatic Extremes: Drought I). Abstract #268147. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Baez Villanueva, O.M., &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Ribbe, L., Nauditt, A., Rebolledo Coy, M.A., Thinh, N.X., Bartz-Beielstein, T. (&lt;strong&gt;2017&lt;/strong&gt;). 
+ (oral presentation). Final paper number 
+, presented at 2017 Fall Meeting, AGU, New Orleans, 11-15 Dec. Session: H52G (Remote Sensing and Modeling of the Terrestrial Water Cycle II). Abstract #250312.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;, Nauditt, A., Birkel, C., Verbist, K. and Ribbe, L. (&lt;strong&gt;2017&lt;/strong&gt;). 
+ (oral presentation). EGU General Assembly 2017. 23-28 April 2017. Wien, Austria, EGU2017-10425. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;. (&lt;strong&gt;2017&lt;/strong&gt;). 
+ (
+. EGU General Assembly 2017. 23-28 April 2017. Wien, Austria, EGU2017-18343. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;, R. Garreaud. (&lt;strong&gt;2016&lt;/strong&gt;). 
+ (poster presentation). Final paper number 
+, presented at 2016 Fall Meeting, AGU, San Francisco, 12-16 Dec. Session: H21D (Drought: Monitoring, Prediction, and Links to Evapotranspiration and Evaporative Demand III Posters). Abstract #162980. 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt; (&lt;strong&gt;2014&lt;/strong&gt;). 
+ (oral presentation). XXVI Congreso Latinoamericano de Hidráulica (&lt;em&gt;Hidrolatam 2014&lt;/em&gt;). August 2014. Santiago, Chile, Session O-2.1, O-060. ID:521).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;, Z. Zajce, P. Salamon. (&lt;strong&gt;2013&lt;/strong&gt;). 
+ (poster presentation), presented at 2013 Fall Meeting, AGU, San Francisco, 9-13 Dec, Session: H43E, Abstract #H51R-06).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;, Z. Zajce, S. Tarantola. (&lt;strong&gt;2013&lt;/strong&gt;). 
+. 7th International Conference on Sensitivity Analysis of Model Output, MASCOT-SAMO 2013. July 2013. Nice, France.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Thiemig V., Rojas R., &lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt; and De Roo A. (&lt;strong&gt;2013&lt;/strong&gt;). 
+ (poster presentation). EGU General Assembly 2013. 7-12 April 2013. Wien, Austria&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rojas, R., &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, September 2012. &lt;em&gt;hydroPSO: A model-independent R package for calibration of environmental models&lt;/em&gt; (poster presentation). hydroPredict 2012. Wien, Austria.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Rojas, R., April 2012. 
+ (poster presentation). EGU General Assembly 2017. 22-27 April 2012. Wien, Austria.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Bellin, A., (&lt;strong&gt;2012&lt;/strong&gt;). 
+ (poster presentation). EGU General Assembly 2017. 22-27 April 2012. Wien, Austria.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Majone, B., Bellin, A., Bovolo, C. I., Blenkinsop, S., Fowler, H.J., (&lt;strong&gt;2010&lt;/strong&gt;). 
+ (oral presentation). EGU General Assembly 2010. 2-7 May 2010. Wien, Austria.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Bellin, A., (&lt;strong&gt;2010&lt;/strong&gt;). 
+ (oral presentation). EGU General Assembly 2010. 2-7 May 2010. Wien, Austria.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;, Majone, B., Bellin, A., Bovolo, C. I., Blenkinsop, S. (&lt;strong&gt;2009&lt;/strong&gt;). &lt;em&gt;Hydrological Impacts of Climate Change: A Case Study on the Ebro Basin (Spain)&lt;/em&gt; (oral presentation), presented at 2009 Fall Meeting, AGU, San Francisco, 14-18 Dec.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt; (&lt;strong&gt;2009&lt;/strong&gt;). 
+ (oral presentation). Use R! 2009 Conference. July 2009. Rennes, France.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;, Bellin A., Majone B., Bovolo, C.I., Blenkinsop, S., Fowler, H.J., Burton, A. (&lt;strong&gt;2009&lt;/strong&gt;). &lt;em&gt;Hydrological Impact of Climate Change on the Ebro Basin: Attempting an Integrated approach at a Large Scale&lt;/em&gt; (poster presentation). Aquaterra Final Assembly. March 2009. Tübingen, Germany.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;, Bellin A. (&lt;strong&gt;2008&lt;/strong&gt;). &lt;em&gt;Hydrological Impact of Climate Change on a Complex Basin: Ebro, Spain&lt;/em&gt; (oral presentation). Aquaterra General Assambly. April 2008. Kracow, Poland.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hzambran.github.io/dissemination/05-national_dissemination_activities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/dissemination/05-national_dissemination_activities/</guid>
+      <description>&lt;style&gt;
+  /* 1. Remove width limits */
+  #wide-text-section5 .prose,
+  #wide-text-section5 div[class*=&#34;prose&#34;],
+  #wide-text-section5 .max-w-prose { 
+    max-width: 100% !important; 
+  }
+  #wide-text-section5 .wg-body {
+    max-width: 80% !important;
+    margin: 0 auto;
+  }
+
+  /* 2. THE KEY FIX: Spacing for list items */
+  
+  /* Target paragraphs INSIDE list items (Hugo often wraps bullets in &lt;p&gt;) */
+  #wide-text-section5 .prose li p {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;      /* Line spacing within the text */
+  }
+
+  /* Target list items directly (just in case they aren&#39;t wrapped in &lt;p&gt;) */
+  #wide-text-section5 .prose li {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;
+  }
+
+  /* 3. Tighten the list container itself */
+  #wide-text-section5 .prose ul {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;div style=&#34;font-size: 1.1rem; font-family: inherit;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; November 2025. 
+. &lt;em&gt;
+&amp;quot;&lt;/em&gt;. Organized by the Sanitation Services Concessionaire Company S.A. (ECONSSA Chile). 26 de Noviembre 2025, Santiago, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; November 2025. 
+. III Regional Climate Change Seminar. Organised by the Regional Environmental Secretariat (SEREMI) of the Araucanía Region, the Regional Government of the Araucanía Region, the Catholic University of Temuco, and EBP. 21 de Noviembre 2025, Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; September 2021. ODS6 y el Ciclo Integrado del Agua. &lt;em&gt;Workshop &amp;ldquo;Avanzando hacia el ODS 6 en un contexto de cambio climático: brechas, desafı́os y oportunidades para una gobernanza integrada del agua en Chile&amp;rdquo;&lt;/em&gt;. Virtual event organised by the Center of Climate and Resilience Research (CR)2. 23 de Septiembre 2021, Virtual, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; September 2021. &lt;em&gt;Uso de datos grillados para mejorar la comprensión de los procesos hidrológicos a escala de cuenca&lt;/em&gt;. Organised by the Asociación Internacional de Hidrogeólogos (AIH) Capı́tulo Chileno. 01 de Septiembre 2021, Virtual, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; July 2021. &lt;em&gt;Sequía en Araucanía: diagnóstico y desafíos&lt;/em&gt;. Virtual Semminar &lt;em&gt;Cambio global y recursos hídricos: experiencias y desafíos&lt;/em&gt;. Organised by the Universidad de La Frontera. 30 de Julio 2021, Virtual, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; June 2021. Panelist in the &lt;em&gt;Conversatorio Wiñoy Xipantv y Cambio Climático&lt;/em&gt;. Virtual event organised by the Museo de Historia Natural de Concepción (MHNC), Museo Mapuche Cañete Ruka Kimvn Taiñ Volil Juan Cayupi Huechicura, and Subdirección de Pueblos Orginarios (SUBPO). 26 de Junio de 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; November 2019. &lt;em&gt;Cambio climático y recursos hídricos:impactos y desafíos para la educación en la Araucanía&lt;/em&gt;. Regional workshop &amp;ldquo;&lt;em&gt;Seminario de Educación Ambiental y Cambio Climático&lt;/em&gt;&amp;rdquo;. Organised by SEREMI de Medio Ambiente de la región de la Araucanía. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; November 2019. 
+. Revista 
+. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; July 2019. 
+. Regional workshop &amp;ldquo;&lt;em&gt;Desafío regional de cambio climático en La Araucanía&lt;/em&gt;&amp;rdquo;. Organised by SEREMI de Medio Ambiente de la región de la Araucanía. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; August 2018. &lt;em&gt;Ingeniería Civil: desde las matemáticas hasta el estudio de sequías e inundaciones&lt;/em&gt;. Proyecto 
+. Organised by CONICYT. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; September 2017. &lt;em&gt;¿Sequía en la Araucanía?&lt;/em&gt;. Feria de Investigación &lt;em&gt;FIUFRO 2017&lt;/em&gt;. Organised by Dirección de Investigación de la Universidad de La Frontera. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; September 2017. R.I.N° EXS17-0365. &lt;em&gt;Sequía en Chile: conceptos y situación actual&lt;/em&gt; (oral presentation). Regional Workshop &lt;em&gt;Carretera hídrica: oportunidades productivas para la región de la Araucanía&lt;/em&gt;. Organised by Facultad de Ingeniería y Ciencias de la Universidad de La Frontera. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; July 2017. R.I.N° EXS17-0310. &lt;em&gt;Cambio Climático y sequía: proyecciones para Chile y la Araucanía&lt;/em&gt; (oral presentation). International Workshop &lt;em&gt;Impacto del cambio climático sobre los recursos naturales: desafíos y experiencias en la implementación de planes de adaptación&lt;/em&gt;. Organised by SEREMI del Ministerio de Medio Ambiente. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; January 2017. R.I.N° EXT17-0073 (collaborator). &lt;em&gt;Evaluación preliminar de los efectos del cambio climático sobre la disponibilidad de agua en la cuenca del río Picoiquen. Un aporte al Acuerdo Voluntario de Gestión de la Cuenca&lt;/em&gt;.  Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; October 2016. &lt;em&gt;Agua en la Araucanía: Situación actual, proyecciones futuras y desafíos para el MOP&lt;/em&gt; (oral presentation). Workshop &lt;em&gt;Plan Chile 30/30 Obras Públicas y Agua para el año 2030&lt;/em&gt;. Organised by Ministerio de Obras Públicas Región de la Araucanía. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; January 2015. R.I.N° EXS15-0145. &lt;em&gt;Recursos Hídricos en la Araucanía&lt;/em&gt; (oral presentation). Local Workshop &lt;em&gt;Seminario Día Mundial del Agua&lt;/em&gt;. Organised by Centro de Gestión y Tecnología del Agua. Universidad de La Frontera. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hzambran.github.io/dissemination/06-press_releases_radio_and_tv_appearances/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/dissemination/06-press_releases_radio_and_tv_appearances/</guid>
+      <description>&lt;style&gt;
+  /* 1. Remove width limits */
+  #wide-text-section6 .prose,
+  #wide-text-section6 div[class*=&#34;prose&#34;],
+  #wide-text-section6 .max-w-prose { 
+    max-width: 100% !important; 
+  }
+  #wide-text-section6 .wg-body {
+    max-width: 80% !important;
+    margin: 0 auto;
+  }
+
+  /* 2. THE KEY FIX: Spacing for list items */
+
+  /* Target paragraphs INSIDE list items (Hugo often wraps bullets in &lt;p&gt;) */
+  #wide-text-section6 .prose li p {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;      /* Line spacing within the text */
+  }
+
+  /* Target list items directly (just in case they aren&#39;t wrapped in &lt;p&gt;) */
+  #wide-text-section6 .prose li {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;
+  }
+
+  /* 3. Tighten the list container itself */
+  #wide-text-section6 .prose ul {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;div style=&#34;font-size: 1.1rem; font-family: inherit;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; January 2020. 
+. Entrevista Radio Concierto, programa &amp;ldquo;&lt;em&gt;Mañana será otro día&lt;/em&gt;&amp;rdquo;. 8 de Enero 2020. Bloque entre 07:00 y 08:00, desde el minuto 41:40 en adelante.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; January 2020. 
+. Conversación sobre plataforma web Mawün e Hidrología, en programa Rocadictos. 23 de Septiembre 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; September 2019. 
+. Columna escrita en respuesta al reportaje 
+. Diario Austral, Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; September 2019. 
+. Columna escrita con ocasión del Día Mundial del Agua. Diario El Mostrador, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; March 2019. 
+. Columna escrita con ocasión del Día Mundial del Agua. Diario Austral, Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; March 2019. 
+. Columna escrita con ocasión del Día Mundial del Agua. CodexVerde, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; October 2017. &lt;em&gt;Impactos del cambio global: sequía en Chile&lt;/em&gt; (oral presentation). XX Congreso de Estudiantes de Ingeniería Civil. Organised by Asociación Nacional de Estudiantes de Ingeniería Civil. Viña del Mar. Chile. Viña del Mar. Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; March 2017. &lt;em&gt;Estimaciones satelitales de precipitación en Chile: estado actual y posibles aplicaciones&lt;/em&gt; (oral presentation). Dirección General de Aguas, Ministerio de Obras Públicas. Santiago, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; January 2016. &lt;em&gt;Estimaciones satelitales de precipitación en Chile y otros datos públicos útiles para análisis hidrológico&lt;/em&gt; (oral presentation). Escuela de Verano UC &lt;em&gt;Agua y agricultura, desafíos del futuro&lt;/em&gt;. Pontificia Universidad Católica de Chile. Santiago, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; January 2016. &lt;em&gt;Sequía: conceptos, monitoreo e investigación en la Araucanía&lt;/em&gt;. Seminario &lt;em&gt;Gestión efectiva de los recursos hídricos: alianzas Universidad - Sector público&lt;/em&gt; (oral presentation). Organised by the Centro de Gestión y Tecnología del Agua de la Facultad de Ingeniería y Ciencias de la Universidad de La Frontera. Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hzambran.github.io/dissemination/07-national_conferences_and_workshops_and_other_presentations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/dissemination/07-national_conferences_and_workshops_and_other_presentations/</guid>
+      <description>&lt;style&gt;
+  /* 1. Remove width limits */
+  #wide-text-section7 .prose,
+  #wide-text-section7 div[class*=&#34;prose&#34;],
+  #wide-text-section7 .max-w-prose { 
+    max-width: 100% !important; 
+  }
+  #wide-text-section7 .wg-body {
+    max-width: 80% !important;
+    margin: 0 auto;
+  }
+
+  /* 2. THE KEY FIX: Spacing for list items */
+  
+  /* Target paragraphs INSIDE list items (Hugo often wraps bullets in &lt;p&gt;) */
+  #wide-text-section7 .prose li p {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;      /* Line spacing within the text */
+  }
+
+  /* Target list items directly (just in case they aren&#39;t wrapped in &lt;p&gt;) */
+  #wide-text-section7 .prose li {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;
+  }
+
+  /* 3. Tighten the list container itself */
+  #wide-text-section7 .prose ul {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;div style=&#34;font-size: 1.1rem; font-family: inherit;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Núñez, D.; Galleguillos, M.; Zambrano-Bigiarini, M. (&lt;strong&gt;2022&lt;/strong&gt;). Evaluación de la humedad de suelo estimada mediante productos grillados en la zona centro-sur de Chile. XIV Congreso Nacional de la Ciencia del Suelo. Valdivia, Chile, 22-25 November 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Soto Escobar, C.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2021&lt;/strong&gt;). &lt;em&gt;Construcción de curvas IDF en alta resolución espacial para la zona Centro-Sur de Chile&lt;/em&gt;. 
+. Santiago (Virtual), Chile. 13-15 October 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Burgos Victoriano, B.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2021&lt;/strong&gt;). &lt;em&gt;Evaluación del impacto del cambio climático en el caudal de salida de una subcuenca del río Trancura, en base a proyecciones climáticas globales de alta y super alta resolución&lt;/em&gt;. 
+. Santiago (Virtual), Chile. 13-15 October 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Marinao Rivas, R.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2021&lt;/strong&gt;). &lt;em&gt;Impacto de una calibración multiobjetivo en la incerteza predictiva de una cuenca pluvio-nival&lt;/em&gt;. 
+. Santiago (Virtual), Chile. 13-15 October 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Munro Gormaz, J.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2021&lt;/strong&gt;). &lt;em&gt;¿Qué rol juega la geomorfología y los factores climatológicos en la propagación de sequía meteorológica a hidrológica? Análisis en Chile centro-sur durante el siglo XXI&lt;/em&gt;. 
+. Santiago (Virtual), Chile. 13-15 October 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bernal Vallejos, S.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2021&lt;/strong&gt;). &lt;em&gt;Análisis del comportamiento histórico de eventos extremos de precipitación y temperatura en Chile mediante el cálculo de índices CLIMDEX&lt;/em&gt;. 
+. Santiago (Virtual), Chile. 13-15 October 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Marinao Rivas, R.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2020&lt;/strong&gt;). Una metodología flexible y de código abierto para evaluar el desempeño de productos de precipitación en la simulación de caudales en la zona Centro-Sur de Chile. 
+. Santiago, Chile. 11-12 November 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2019&lt;/strong&gt;). &lt;em&gt;Evaluación espacio-temporal de las estimaciones satelitales de precipitación IMERGv05-F sobre los diferentes climas y la compleja topografía de Chile&lt;/em&gt; (oral presentation). Workshop &amp;ldquo;&lt;em&gt;Gestión Eficiente del Recurso Hídrico, un desafío frente al Cambio Climático&lt;/em&gt;&amp;rdquo;, 28 Jun, Vallenar, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; and Nistal, M. (&lt;strong&gt;2017&lt;/strong&gt;). 
+ in Al-Saidi, Mohammad, Ribbe, Lars (Eds.) &amp;ldquo;Nexus Outlook: assessing resource use challenges in the water, energy and food nexus&amp;rdquo;. Nexus Research Focus, TH-Köln, University of Applied Sciences.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2016&lt;/strong&gt;). Recursos hídricos en Chile: desafíos actuales y futuros. Charla por el día del Agua. Universidad de La Frontera Temuco, Chile (oral presentation). March.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;. (&lt;strong&gt;2016&lt;/strong&gt;). Modelo SWAT 2012: Descripción, aplicaciones y un ejemplo en Chile. Estimaciones satelitales de precipitación y otros datos públicos útiles para análisis hidrológico. Escuela de Verano UC &amp;ldquo;Agua y agricultura, desafíos del futuro&amp;rdquo;. Santiago, Chile (oral presentation). January.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;. (&lt;strong&gt;2015&lt;/strong&gt;). 
+. International Symposium &lt;em&gt;Hidrología Andina para el Manejo de los Recursos Hídricos: Conceptos y Herramientas&lt;/em&gt;. Santiago, Chile (oral presentation). doi:10.5281/zenodo.34228. November.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;. (&lt;strong&gt;2015&lt;/strong&gt;). 
+. International Symposium &lt;em&gt;Hidrología Andina para el Manejo de los Recursos Hídricos: Conceptos y Herramientas&lt;/em&gt;. Santiago, Chile (oral presentation). doi:10.5281/zenodo.34219. November&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;. (&lt;strong&gt;2014&lt;/strong&gt;). 
+. International Expert Symposium &lt;em&gt;Coping with Droughts&lt;/em&gt;. Santiago, Chile (oral presentation). November.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt; (&lt;strong&gt;2014&lt;/strong&gt;). 
+. XIII Jornadas de Hidráulica. Concepción, Chile (oral presentation). October.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hzambran.github.io/dissemination/08-technical_reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/dissemination/08-technical_reports/</guid>
+      <description>&lt;style&gt;
+  /* 1. Remove width limits */
+  #wide-text-section8 .prose,
+  #wide-text-section8 div[class*=&#34;prose&#34;],
+  #wide-text-section8 .max-w-prose { 
+    max-width: 100% !important; 
+  }
+  #wide-text-section8 .wg-body {
+    max-width: 80% !important;
+    margin: 0 auto;
+  }
+
+  /* 2. THE KEY FIX: Spacing for list items */
+  
+  /* Target paragraphs INSIDE list items (Hugo often wraps bullets in &lt;p&gt;) */
+  #wide-text-section8 .prose li p {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;      /* Line spacing within the text */
+  }
+
+  /* Target list items directly (just in case they aren&#39;t wrapped in &lt;p&gt;) */
+  #wide-text-section8 .prose li {
+    margin-top: 0 !important;
+    margin-bottom: 0.8rem !important; /* INCREASED: Space between bullet points */
+    line-height: 1.4 !important;
+  }
+
+  /* 3. Tighten the list container itself */
+  #wide-text-section8 .prose ul {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;div style=&#34;font-size: 1.1rem; font-family: inherit;&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Zajac, Z., &lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;, Salomon P., Burek P., Gentile A., Bianchi A. (&lt;strong&gt;2013&lt;/strong&gt;). &lt;em&gt;Calibration of the LISFLOOD hydrological model for Europe. Calibration Round 2013&lt;/em&gt;. European Union 2013.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;, Majone B., Bellin A., Bovolo C. I., Blenkinsop S., (&lt;strong&gt;2009&lt;/strong&gt;). &lt;em&gt;Calibration of the hydrological model on the Ebro River basin, and interpretations of predictive climatic scenarios&lt;/em&gt;. EU FP6 Aquaterra deliverable C3.11.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;, Bellin A. (&lt;strong&gt;2008&lt;/strong&gt;). &lt;em&gt;GEOTRANSF applications to the Ebro River basin (analysis of data consistency and conceptual model)&lt;/em&gt;. EU FP6 Aquaterra deliverable C3.5.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano-Bigiarini M.&lt;/strong&gt;, Bellin A., Majone B. (&lt;strong&gt;2007&lt;/strong&gt;). &lt;em&gt;Intermediate data collection for the entire Ebro River basin&lt;/em&gt;. EU FP6 Aquaterra deliverable C3.4.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano, M.&lt;/strong&gt;, Pagliero, L., Rojas, R. and Gangas. A. M. (&lt;strong&gt;2005&lt;/strong&gt;). &lt;em&gt;MAGIC: Modelación analítica, genérica e integrada de cuencas&lt;/em&gt;. Dirección General de Aguas. Reporte Técnico S.I.T. No 107, pp 178, Santiago, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano H.&lt;/strong&gt;, Gangas, A., San Martín, A. (&lt;strong&gt;2005&lt;/strong&gt;). Modelación de calidad de las aguas superficiales y subterráneas del valle del río Aconcagua. En: Actas del VII Congreso Sociedad de Química y Toxicología Ambiental, América Latina (SETAC-LA). Santiago. Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Salazar C., Gangas, A. &lt;strong&gt;M., Zambrano&lt;/strong&gt;, M. Caro, M. A. (&lt;strong&gt;2004&lt;/strong&gt;). &lt;em&gt;Modelo de simulación de escorrentía diaria para cuencas pluviales SIMED: calibración y validación en la cuenca del río Purapel, VII región&lt;/em&gt;. Manual Técnico, Dirección General de Aguas. Reporte Técnico S.I.T. No 93, pp164. Santiago, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zambrano M.&lt;/strong&gt;, Pagliero, L., Rojas, R., Gangas, A., (&lt;strong&gt;2003&lt;/strong&gt;). 
+. Vertiente, 8 (1), 39-44. Santiago, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Salazar C., Pagliero L., Gangas, A. M., &lt;strong&gt;Zambrano M.&lt;/strong&gt;, Orphanóupoulos, D., Isensee, P. (&lt;strong&gt;2002&lt;/strong&gt;). &lt;em&gt;Análisis del Desarrollo de los Recursos Hídricos Cuenca del Río Aconcagua. Manual Técnico&lt;/em&gt;, Dirección General de Aguas. Reporte Técnico S.I.T. No 79, pp84, Santiago, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+    </item>
+    
   </channel>
 </rss>

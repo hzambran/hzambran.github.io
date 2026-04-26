@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses as invited lecturer | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/courses/cursos_como_invitado/</link>
+      <atom:link href="https://hzambran.github.io/courses/cursos_como_invitado/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses as invited lecturer</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hzambran.github.io/courses/cursos_como_invitado/featured.jpg</url>
+      <title>Courses as invited lecturer</title>
+      <link>https://hzambran.github.io/courses/cursos_como_invitado/</link>
+    </image>
+    
+  </channel>
+</rss>

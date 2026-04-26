@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Universidad De Chile | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>https://hzambran.github.io/tags/universidad-de-chile/</link>
+      <atom:link href="https://hzambran.github.io/tags/universidad-de-chile/index.xml" rel="self" type="application/rss+xml" />
+    <description>Universidad De Chile</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
+      <title>Universidad De Chile</title>
+      <link>https://hzambran.github.io/tags/universidad-de-chile/</link>
+    </image>
+    
+    <item>
+      <title>Courses as invited lecturer</title>
+      <link>https://hzambran.github.io/courses/cursos_como_invitado/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/courses/cursos_como_invitado/</guid>
+      <description>&lt;p&gt;Description of undergraduate and graduate courses I have previously taught, but not anymore.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/courses/cursos_como_invitado/Cursos_como_Invitado_Logo.jpg&#34;
+    alt=&#34;.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Courses as invited lecturer.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&#34;graduate-courses-as-invited-lecturer&#34;&gt;Graduate courses as invited lecturer&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;2025-present&lt;/strong&gt;: PCN217: &lt;strong&gt;Integrated Management of Natural Resources&lt;/strong&gt; [in Spanish]. 
+, Faculty of Engineering and Sciences, Universidad de La Frontera, Temuco, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;2020-present&lt;/strong&gt;: AG010350: &lt;strong&gt;Ecosystem Ecology&lt;/strong&gt; [in Spanish]. 
+, Faculty of Agronomic Sciences, Universidad de Chile, Santiago, Chile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
