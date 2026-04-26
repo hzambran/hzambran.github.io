@@ -14,34 +14,6 @@
     
     <item>
       <title>Short course on use of R for analysing satelite-based rainfall estimates (SREs) in Germany</title>
-      <link>https://hzambran.github.io/dissemination-old/2017-05-05-training_on_rs_at_itt/</link>
-      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination-old/2017-05-05-training_on_rs_at_itt/</guid>
-      <description>&lt;p&gt;During the first week of May, I gave a short course to postgraduate students of the 
- of TH Köln (
-).&lt;/p&gt;
-&lt;p&gt;This course had two parts, the first one was given by the doctoral student Oscar Baez, who was at UFRO last April. The objective of this first part (April 23th to 27th) was to provide students with basic concepts about 
-, free software environment for statistical computing and graphics, (installation, types of variables, exploratory data analysis, and spatial data management).
- 
-The second part (May 3rd and 4th) was to introduce participants to the management of time series in R, and the use of it for the analysis of spatio-temporal data, in particular for reading and analysing satelite-based rainfall estimates (SREs), expanding the work &amp;ldquo;
-&amp;rdquo; presented at the EGUA 2017 during the last week of April (
-), which was an oral 
-.&lt;/p&gt;
-&lt;p&gt;This short course is product of the international collaboration with Lars Ribbe and Alexandra Nauditt from the 
- of TH Köln (
-).&lt;/p&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
-    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;My Caption&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Short course on use of R for analysing satelite-based rainfall estimates (SREs) in Germany</title>
       <link>https://hzambran.github.io/dissemination/2017-05-05-training_on_rs_at_itt/</link>
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/dissemination/2017-05-05-training_on_rs_at_itt/</guid>
@@ -58,47 +30,6 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
 &lt;p&gt;This short course is product of the international collaboration with Lars Ribbe and Alexandra Nauditt from the 
  of TH Köln (
 ).&lt;/p&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
-    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;My Caption&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>PhD summer school Remote Sensing applications for Water Accounting</title>
-      <link>https://hzambran.github.io/dissemination-old/2016-07-20-training_on_rs_at_itt/</link>
-      <pubDate>Wed, 20 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination-old/2016-07-20-training_on_rs_at_itt/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Water accounting&lt;/strong&gt; is a fundamental basis to understand water availability and demands and the related benefits and efficiencies are related to water uses. While the fundamental data needed for establishing water accounts is often missing, Remote Sensing can contribute to fill the data gaps.
-With this course PhD students and staff at ITT will become familiar with the application of Remote Sensing to derive information on precipitation, evapotranspiration and land cover - three essential information elements for water accounts.
-Dr. Raul Vicens from Universidade Federal Fluminense de Brasil will introduce the basic techinques of Remote Sensing using the software SPRING and introduce to derive land cover information from products such as Landsat. &lt;strong&gt;Dr. Mauricio Zambrano-Bigiarini&lt;/strong&gt; from 
-, Chile, will focus on the use of the 
- software to derive Precipitation estimates from products such as TRMM. Finally Dr Islam Sabry from the National Water Research Center, Egypt will introduce the use of satellite based estimates for evapotranspiration data.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/2016-07-20-RS_PhD_course_at_ITT.png&#34; alt=&#34;example of analysis&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
 &lt;!-- Fotos --&gt;
 &lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
     alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;

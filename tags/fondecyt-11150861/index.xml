@@ -59,108 +59,6 @@
     
     <item>
       <title>Two posters at AGU 2022</title>
-      <link>https://hzambran.github.io/dissemination-old/2022-12-12-agu2022/</link>
-      <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination-old/2022-12-12-agu2022/</guid>
-      <description>&lt;p&gt;During the week of December 12 to 16th, 2022, I participated in the Conference 
-, held in the city of Chicago ( USES). This is the most important conference worldwide in the area of Earth Sciences, and it is held annually.&lt;/p&gt;
-&lt;p&gt;On this occasion, I presented two posters:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;
-. hydroRTS is a new package for the 
- that is about to be submitted to [CRAN](
-- project.org/). This package allows you to work efficiently with large amounts of gridded data that have an hourly, daily, monthly, or annual time frequency. This work summarizes a large amount of work that I have carried out since 2013. However, only the collaboration of Civil Engineer Sebastián Bernal, who graduated in Civil Engineering in 2022 from the Universidad de la Frontera, made it possible to organize systematically and adequately document a set of functions that are useful to the global community of Hydrologists and Earth Scientists. This collaboration was only possible thanks to the funding provided by the 
-, directed by Dr. Zambrano-Bigiarini.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/AGU2022-01_Fotos_hydroRTS.jpg&#34; alt=&#34;An R package for efficient analysis of raster time series&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-. 
- is a new package for the 
- that is about to be submitted to [CRAN](
-- project.org/). This package allows you to perform a multi-objective calibration of any hydrological/environmental model (actually, a model from any subject area), whether this model is implemented in R or requires to be executed from the system console in a local PC or in a server. This package has been developed by Civil Engineer Rodrigo Marinao, who is a graduate of Civil Engineering at the Universidad de la Frontera, student of the 
- of the same house of studies, and research assistant at the 
-. The collaboration with Rodrigo Marinao started during the Hydrology course in the Civil Engineering degree, and has continued uninterrupted since then. This work also received funding from 
-.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/AGU2022-02_Foto_hydroMOPSO.jpg&#34; alt=&#34;hydroMOPSO: A Versatile Multi-Objective Optimization R Package for Calibration of Environmental and Hydrological Models&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Finally, during this conference I took the opportunity to discuss various topics with Dr. Camila Álvarez Garreón (CR2), Dr. Mauricio Galleguillos (U. Adolfo Ibáñez) and Dr. Juan Pablo Boiser (CR2), who also participate in the 
-.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;flex justify-center	&#34;&gt;
-    &lt;div class=&#34;w-full&#34; &gt;&lt;img src=&#34;https://hzambran.github.io/assets/posts/AGU2022-03_Foto_Chi2.jpg&#34; alt=&#34;Project Chile-China NSFC 190018&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
-    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;My Caption&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Two posters at AGU 2022</title>
       <link>https://hzambran.github.io/dissemination/2022-12-12-agu2022/</link>
       <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/dissemination/2022-12-12-agu2022/</guid>
@@ -411,30 +309,6 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Oral presentation at AGU 2018</title>
-      <link>https://hzambran.github.io/dissemination-old/2018-12-15-agu2018/</link>
-      <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination-old/2018-12-15-agu2018/</guid>
-      <description>&lt;p&gt;During the second week of December 2018, I made an oral presentation at the 
- in Washington D.C. (USA), the most important scientific event of Earth Sciences worldwide.&lt;/p&gt;
-&lt;p&gt;The work was entitled 
- (Final paper number 
-). It evaluates the improvements of the latest IMERG version 05 Final Run (IMERGv05-F) over its predecessor TMPA 3B42v7, over the diverse climatic gradients and complex topography of Chile, from January 2015 to December 2016.&lt;/p&gt;
-&lt;p&gt;In addition, I participated as co-author in the work 
- (Final paper number 
-), which summarises the MSc thesis carried out by Hamish Hann (
-) during his visiting period at the University of La Frontera (first semester 2017).&lt;/p&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
-    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;My Caption&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Oral presentation at AGU 2018</title>
       <link>https://hzambran.github.io/dissemination/2018-12-15-agu2018/</link>
       <pubDate>Fri, 14 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/dissemination/2018-12-15-agu2018/</guid>
@@ -447,28 +321,6 @@ shows that risk management has reduced vulnerability to floods and droughts worl
  (Final paper number 
 ), which summarises the MSc thesis carried out by Hamish Hann (
 ) during his visiting period at the University of La Frontera (first semester 2017).&lt;/p&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
-    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;My Caption&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Oral presentation at SPIE 2018</title>
-      <link>https://hzambran.github.io/dissemination-old/2018-10-18-spie2018/</link>
-      <pubDate>Tue, 23 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination-old/2018-10-18-spie2018/</guid>
-      <description>&lt;p&gt;From 24 to 27th of September 2018 I participated at the SPIE Asia-Pacific Remote Sensing symposium, which took place in Honolulu (Hawaii, USA). In that conference I made an oral presentation entitled 
-, which was finally published in the proceedings of the international Society of Photo-Optical Instrumentation Engineers (
-):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt; (2018) &amp;ldquo;Temporal and spatial evaluation of long-term satellite-based precipitation products across the complex topographical and climatic gradients of Chile&amp;rdquo;, Proc. SPIE 10782, Remote Sensing and Modeling of the Atmosphere, Oceans, and Interactions VII, 1078202 (23 October 2018); doi: 10.1117/12.2513645; 
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;!-- Fotos --&gt;
 &lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
     alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
@@ -546,44 +398,6 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Oral presentation at EGU 2018</title>
-      <link>https://hzambran.github.io/dissemination-old/2018-04-10-egu2018/</link>
-      <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination-old/2018-04-10-egu2018/</guid>
-      <description>&lt;p&gt;During the second week of April 2018, I made an oral presentation at the 
- in Vienna (Austria), the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
-&lt;p&gt;The work was entitled 
- (
-). It analises the suitability of the combined use of state-of-the-art satellite-based precipitation (CHIRPS) and potential evapotranspiration (MOD16A2) estimates to characterise the spatial distribution of the so called &amp;ldquo;Chilean megadrought&amp;rdquo;, which has affected the central-southern territory of Chile (29ºS-46ºS) during the last decade.&lt;/p&gt;
-&lt;p&gt;In addition, I participated as co-author in the following three works presented at the same conference:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;
-. [EGU2018-12036].&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-. [EGU2018-2374].&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;
-. [EGU2018-18702].&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The first two works are product of the interdisciplinary collaboration at the Center for Climate and Resilience Research (
-), while the last work summarise the MSc thesis carried out by Hamish Hann (
-) during his visiting period at Temuco (first semester 2017).&lt;/p&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
-    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;My Caption&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Oral presentation at EGU 2018</title>
       <link>https://hzambran.github.io/dissemination/2018-04-10-egu2018/</link>
       <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/dissemination/2018-04-10-egu2018/</guid>
@@ -622,29 +436,6 @@ shows that risk management has reduced vulnerability to floods and droughts worl
     
     <item>
       <title>Oral presentation at AGU 2017</title>
-      <link>https://hzambran.github.io/dissemination-old/2017-12-12-agu2017/</link>
-      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination-old/2017-12-12-agu2017/</guid>
-      <description>&lt;p&gt;During the second week of December 2017, I made an oral presentation at the 
- in New orleans (USA), the most important scientific event of Earth Sciences worldwide.&lt;/p&gt;
-&lt;p&gt;The work was entitled 
- (Final paper number 
-). It uses two drought indices to analyze the impacts of precipitation and temperature on the frequency, severity and duration of Chilean droughts (25°S-56°S) during the XXI century, using multi-model climate projections consistent with the high-end RCP 8.5 scenario.&lt;/p&gt;
-&lt;p&gt;In addition, I participated as co-author in the work  
-) (Final paper number 
-), which evaluate several sate-of-the-art satellite-based rainfall estimates  (TMPA 3B42v7, TMPA 3B42RT, CHIRPSv2, CMORPH, PERSIANN-CDR and MSWEPv1.2)  over different basins in Latin-America (Imperial Basin in Chile, Paraiba do Sul in Brazil and Magdalena in Colombia) to determine the best performing satellite product.&lt;/p&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
-    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;My Caption&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Oral presentation at AGU 2017</title>
       <link>https://hzambran.github.io/dissemination/2017-12-12-agu2017/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/dissemination/2017-12-12-agu2017/</guid>
@@ -656,34 +447,6 @@ shows that risk management has reduced vulnerability to floods and droughts worl
 &lt;p&gt;In addition, I participated as co-author in the work  
 ) (Final paper number 
 ), which evaluate several sate-of-the-art satellite-based rainfall estimates  (TMPA 3B42v7, TMPA 3B42RT, CHIRPSv2, CMORPH, PERSIANN-CDR and MSWEPv1.2)  over different basins in Latin-America (Imperial Basin in Chile, Paraiba do Sul in Brazil and Magdalena in Colombia) to determine the best performing satellite product.&lt;/p&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
-    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;My Caption&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Short course on use of R for analysing satelite-based rainfall estimates (SREs) in Germany</title>
-      <link>https://hzambran.github.io/dissemination-old/2017-05-05-training_on_rs_at_itt/</link>
-      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination-old/2017-05-05-training_on_rs_at_itt/</guid>
-      <description>&lt;p&gt;During the first week of May, I gave a short course to postgraduate students of the 
- of TH Köln (
-).&lt;/p&gt;
-&lt;p&gt;This course had two parts, the first one was given by the doctoral student Oscar Baez, who was at UFRO last April. The objective of this first part (April 23th to 27th) was to provide students with basic concepts about 
-, free software environment for statistical computing and graphics, (installation, types of variables, exploratory data analysis, and spatial data management).
- 
-The second part (May 3rd and 4th) was to introduce participants to the management of time series in R, and the use of it for the analysis of spatio-temporal data, in particular for reading and analysing satelite-based rainfall estimates (SREs), expanding the work &amp;ldquo;
-&amp;rdquo; presented at the EGUA 2017 during the last week of April (
-), which was an oral 
-.&lt;/p&gt;
-&lt;p&gt;This short course is product of the international collaboration with Lars Ribbe and Alexandra Nauditt from the 
- of TH Köln (
-).&lt;/p&gt;
 &lt;!-- Fotos --&gt;
 &lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
     alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
@@ -712,42 +475,6 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
 &lt;p&gt;This short course is product of the international collaboration with Lars Ribbe and Alexandra Nauditt from the 
  of TH Köln (
 ).&lt;/p&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
-    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;My Caption&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Participación en la Conferencia EGU 2017</title>
-      <link>https://hzambran.github.io/dissemination-old/2017-04-27-egu2017/</link>
-      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination-old/2017-04-27-egu2017/</guid>
-      <description>&lt;p&gt;During the last week of April, I presented two works on the 
-, the most important scientific event of Earth Sciences in Europe.&lt;/p&gt;
-&lt;p&gt;The first work was 
- (
-), which was an oral 
- about the use of R, the free software environment for statistical computing and graphics, for analysing different spatio-temporal datasets of precipitation at the Chilean spatail scale.&lt;/p&gt;
-&lt;p&gt;The second work was the oral presentation 
- (
-), which summarises the main findings about the performance of seven different satellite-based precipitation products over the Chilean territory.&lt;/p&gt;
-&lt;p&gt;Both works are the product of the international collaboration with researchers from Germany, Costa Rica and Chile on the use of different satellite-based precipitation products as a complement to current ground-based rainfall measurement networks.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Spanish version&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;Durante la semana del 24 al 28 de Abril, presenté dos trabajos en la conferencia 
-, el evento científico más importante de Ciencias de la Tierra en Europa.&lt;/p&gt;
-&lt;p&gt;El primer trabajo fue 
- (
-), una 
- sobre el uso de R, el ambiente estadístico libre, para el análisis de distintos conjuntos de datos espacio-temporales de precipitaciòn a escala nacional (Chile).&lt;/p&gt;
-&lt;p&gt;El segundo trabajo fue la presentación oral 
- (
-), la cual resume los principales resultados de una comparación exhaustiva de siete productos satelitales de precipitación sobre el territorio de Chile.&lt;/p&gt;
-&lt;p&gt;Ambos trabajos son producto de la colaboración internacional con investigadores de Alemania, Costa Rica y Chile, sobre el uso de distintos productos satelitales de precipitación como complemento a las actuales redes de medición pluviométrica.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
 &lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
     alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
@@ -803,34 +530,6 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
  was accepted yesterday (January 30th, 2017) for publication in the 
  journal (HESS).&lt;/p&gt;
 &lt;p&gt;This work exhaustively evaluate -for the first time- the suitability of seven state-of-the-art satellite-based rainfall estimates (SRE) over the complex topography and diverse climatic gradients of Chile. Several indices of performance are used for different time scales and elevation zones. Our analysis revealed which products are in best with ground based observations of precipitation and which indices of performance suitable to capture mismatches in shape, magnitude, variability and intensity of precipitation.&lt;/p&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
-    alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;My Caption&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Poster presentation at AGU 2016</title>
-      <link>https://hzambran.github.io/dissemination-old/2016-12-13-agu2016/</link>
-      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
-      <guid>https://hzambran.github.io/dissemination-old/2016-12-13-agu2016/</guid>
-      <description>&lt;p&gt;On December 13th 2016, I presented the work titled 
- at the conference 
-. In this work I used two drought indices to analyze the contribution of precipitation and temperature to the recent droughts that have affected Chile, in order to improve our understanding about the onset, duration and magnitude of these events.&lt;/p&gt;
-&lt;p&gt;It is the first time that a professor with affiliation &amp;ldquo;Universidad de La Frontera&amp;rdquo; presents in this conference, the most important of Earth Sciences worldwide.&lt;/p&gt;
-&lt;p&gt;This work is part of a collaborative research that I carry out for the 
- of the Universidad de Chile.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Spanish version&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;El pasado 13 de Diciembre de 2016, presenté el trabajo titulado 
- en la conferencia 
-. En este trabajo utilicé dos índices de sequía para analizar la contribución de la precipitación y la temperatura a las recientes sequías que han afectado Chile, para mejorar nuestra comprensión acerca del inicio, duración y magnitud de estos eventos.&lt;/p&gt;
-&lt;p&gt;Es la primera vez que un docente con afiliación Universidad de La Frontera presenta en este evento, el más importante de las Ciencias de la Tierra a nivel mundial.&lt;/p&gt;
-&lt;p&gt;Este trabajo forma parte del trabajo como investigador adjunto que realizo para el 
- de la Universidad de Chile.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
 &lt;figure&gt;&lt;img src=&#34;myimage.jpg&#34;
     alt=&#34;Alternative display text&#34;&gt;&lt;figcaption&gt;
