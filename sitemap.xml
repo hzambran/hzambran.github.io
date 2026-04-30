@@ -68,6 +68,16 @@
   <url>
     <loc>https://hzambran.github.io/songs/2019-09-wie_ein_schutzender_engel/</loc><lastmod>2019-09-17T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://hzambran.github.io/blog/</loc><lastmod>2026-04-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://hzambran.github.io/blog/2026-04-28-hydrotsm_v086_on_cran/</loc><lastmod>2026-04-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://hzambran.github.io/tags/r/</loc><lastmod>2026-04-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://hzambran.github.io/tags/r-pkgs/</loc><lastmod>2026-04-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://hzambran.github.io/tags/</loc><lastmod>2026-04-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://hzambran.github.io/songs/</loc><lastmod>2026-04-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://hzambran.github.io/students/</loc><lastmod>2026-04-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -82,13 +92,9 @@
   <url>
     <loc>https://hzambran.github.io/blog/2026-04-02-hess_article_on_gridded_sm/</loc><lastmod>2026-04-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://hzambran.github.io/blog/</loc><lastmod>2026-04-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://hzambran.github.io/tags/gridded-datasets/</loc><lastmod>2026-04-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://hzambran.github.io/tags/soil-moisture/</loc><lastmod>2026-04-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://hzambran.github.io/tags/</loc><lastmod>2026-04-04T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://hzambran.github.io/publication_types/article-journal/</loc><lastmod>2026-04-02T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -103,8 +109,6 @@
     <loc>https://hzambran.github.io/tags/kimun-ko/</loc><lastmod>2026-01-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://hzambran.github.io/web-platforms/pulliko/</loc><lastmod>2026-01-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://hzambran.github.io/tags/r/</loc><lastmod>2026-01-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://hzambran.github.io/tags/web-platforms/</loc><lastmod>2026-01-30T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -349,8 +353,6 @@
     <loc>https://hzambran.github.io/rpackages/rfmerge/</loc><lastmod>2020-05-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://hzambran.github.io/blog/2020-03-18-hydropso_v050_on_cran/</loc><lastmod>2020-03-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://hzambran.github.io/tags/r-pkgs/</loc><lastmod>2020-03-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://hzambran.github.io/blog/2020-03-12-hydrogof_v040_on_cran/</loc><lastmod>2020-03-12T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>

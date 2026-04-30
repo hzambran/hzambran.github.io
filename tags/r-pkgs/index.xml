@@ -5,12 +5,68 @@
     <link>https://hzambran.github.io/tags/r-pkgs/</link>
       <atom:link href="https://hzambran.github.io/tags/r-pkgs/index.xml" rel="self" type="application/rss+xml" />
     <description>R-Pkgs</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 18 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>R-Pkgs</title>
       <link>https://hzambran.github.io/tags/r-pkgs/</link>
     </image>
+    
+    <item>
+      <title>hydroTSM v0.8-6 on CRAN</title>
+      <link>https://hzambran.github.io/blog/2026-04-28-hydrotsm_v086_on_cran/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2026-04-28-hydrotsm_v086_on_cran/</guid>
+      <description>&lt;p&gt;After two years of working mostly in sub-daily functions, the new version of &lt;code&gt;hydroTSM&lt;/code&gt; (v0.8-6) was released on April 28th 2026, and it is available on CRAN now 
+&lt;/p&gt;
+&lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; the following stand out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;New graphical logo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New 
+, created with pkgdown.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Package tested against R version 4.6.0 (2026-04-24) &amp;ndash; &amp;ldquo;Because it was There&amp;rdquo;, following an imperative request made by CRAN.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New function &lt;code&gt;isComplete&lt;/code&gt;, for identifying whether a zoo object has a regular time frequency without missing values from the first one to the last one.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New function &lt;code&gt;shiftyears&lt;/code&gt;, to allow the computation of annual values starting in a month different from january. Mostly for internal purposes only.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;baseflow&lt;/code&gt; function can now apply the low-pass filter more than three times, which should be mandatory for hourly time series (Ladson et al., 2013).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;daily2annual&lt;/code&gt; function has a new argument &amp;lsquo;start.month&amp;rsquo;, to choose the starting month to be used in the computation of annual values.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The function &lt;code&gt;cmv&lt;/code&gt;  has a new argument &amp;lsquo;start.month&amp;rsquo;, to choose the starting month to be used in the computation of annual values.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;matrixplot&lt;/code&gt; several new arguments to customise the legend and the output figure.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &lt;code&gt;fdc&lt;/code&gt; has a new argument &amp;rsquo;thr.pos&amp;rsquo;, to customise the position of the thresold in the output figure.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Several bugfixes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I hope you enjoy it !.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-04-28-hydrotsm_v086_on_cran/featured.jpg&#34;
+    alt=&#34;New logo of the [hydroTSM] R package&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;New logo of the 
+ R package&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
     
     <item>
       <title>hydroPSO v0.5-0 on CRAN</title>
