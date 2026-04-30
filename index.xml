@@ -2934,7 +2934,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
  is an R package designed to support robust multi-objective optimisation of complex environmental and engineering models. It implements a state-of-the-art &lt;strong&gt;Multi-Objective Particle Swarm Optimisation (MOPSO)&lt;/strong&gt; algorithm, tailored to address the practical challenges commonly encountered in hydrological modelling, such as non-linearity, non-smooth response surfaces, computationally intensive simulations, and competing performance criteria.&lt;/p&gt;
 &lt;p&gt;
  is built to integrate seamlessly with real-world modelling workflows. It can optimise models written in R as well as external simulation models executed from the system console—such as distributed hydrological or water quality models—by communicating through standard input and output files. This architecture allows users to perform advanced optimisation without modifying model source code, preserving model integrity while enabling systematic calibration across multiple parameters, variables, and time periods.&lt;/p&gt;
-&lt;p&gt;Designed with flexibility and computational efficiency in mind, 
+&lt;p&gt;It was designed by &lt;strong&gt;Rodrigo Marinao&lt;/strong&gt; and I to  be flexible and computational efficienct. 
  supports parallel execution on multi-core machines and computing clusters, making it suitable for large-scale calibration and decision-support applications. Its configurable optimisation settings and multi-objective capabilities enable users to explore trade-offs among performance metrics and identify parameter sets that balance competing modelling goals.&lt;/p&gt;
 &lt;p&gt;
  is widely applicable to hydrology and other environmental sciences, providing a technically rigorous and operationally practical framework for global optimisation. It is particularly well suited for researchers and practitioners who require transparent, reproducible, and scalable tools to calibrate complex models and support evidence-based analysis.&lt;/p&gt;
@@ -3914,7 +3914,7 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
 &lt;p&gt;
  is an R package developed to provide streamlined and reliable access to the Catchment Attributes and Meteorology for Large Sample Studies – Chile dataset (
 ), a widely used benchmark resource for large-sample hydrology and comparative catchment analysis. This package focuses on simplifying the acquisition, organisation, and handling of both spatial and temporal data required for hydrological research and modelling across diverse climatic and physiographic regions of Chile.&lt;/p&gt;
-&lt;p&gt;Designed to support reproducible scientific workflows, 
+&lt;p&gt;It was designed by &lt;strong&gt;Héctor Garcés-Figueroa&lt;/strong&gt; and I to support reproducible scientific workflows. 
  offers a consistent interface for downloading and managing hydrometeorological time series and catchment attributes directly from the official data repository. By standardising data access and preprocessing steps, the package reduces the time and effort typically required to prepare datasets for analysis, allowing users to focus on model development, hypothesis testing, and large-sample hydrological investigations.&lt;/p&gt;
 &lt;p&gt;Importantly, 
  preserves the integrity of the original dataset by providing direct access to the original raw data, without altering their content. This approach ensures transparency and traceability in scientific applications, which is particularly relevant for studies involving benchmarking, model intercomparison, and regional hydrological assessment.&lt;/p&gt;
@@ -12014,7 +12014,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-398651247&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-615794328&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -12032,7 +12032,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-398651247&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-615794328&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

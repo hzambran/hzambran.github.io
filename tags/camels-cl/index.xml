@@ -45,7 +45,7 @@
 &lt;p&gt;
  is an R package developed to provide streamlined and reliable access to the Catchment Attributes and Meteorology for Large Sample Studies – Chile dataset (
 ), a widely used benchmark resource for large-sample hydrology and comparative catchment analysis. This package focuses on simplifying the acquisition, organisation, and handling of both spatial and temporal data required for hydrological research and modelling across diverse climatic and physiographic regions of Chile.&lt;/p&gt;
-&lt;p&gt;Designed to support reproducible scientific workflows, 
+&lt;p&gt;It was designed by &lt;strong&gt;Héctor Garcés-Figueroa&lt;/strong&gt; and I to support reproducible scientific workflows. 
  offers a consistent interface for downloading and managing hydrometeorological time series and catchment attributes directly from the official data repository. By standardising data access and preprocessing steps, the package reduces the time and effort typically required to prepare datasets for analysis, allowing users to focus on model development, hypothesis testing, and large-sample hydrological investigations.&lt;/p&gt;
 &lt;p&gt;Importantly, 
  preserves the integrity of the original dataset by providing direct access to the original raw data, without altering their content. This approach ensures transparency and traceability in scientific applications, which is particularly relevant for studies involving benchmarking, model intercomparison, and regional hydrological assessment.&lt;/p&gt;
