@@ -5,12 +5,65 @@
     <link>https://hzambran.github.io/tags/r-pkgs/</link>
       <atom:link href="https://hzambran.github.io/tags/r-pkgs/index.xml" rel="self" type="application/rss+xml" />
     <description>R-Pkgs</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>R-Pkgs</title>
       <link>https://hzambran.github.io/tags/r-pkgs/</link>
     </image>
+    
+    <item>
+      <title>hydroGOF v0.7-0 on CRAN</title>
+      <link>https://hzambran.github.io/blog/2026-05-01-hydrogof_v070_on_cran/</link>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2026-05-01-hydrogof_v070_on_cran/</guid>
+      <description>&lt;p&gt;After two years of working mostly in sub-daily functions, the new version of &lt;code&gt;hydroGOF&lt;/code&gt; (v0.7-0) was released on May 1st 2026, and it is available on CRAN now 
+&lt;/p&gt;
+&lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; the following stand out:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;New graphical logo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New 
+, created with pkgdown.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The package DOI was changed form the one given by Zotero to the new DOI given by CRAN (
+) since June 2024.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Improved documentation of some functions (e.g., sKGE, KGEkm, pfactor, rfactor)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;New functions:&lt;/p&gt;
+&lt;p&gt;o &lt;strong&gt;PMR&lt;/strong&gt;  : to compute the Proxy for Model Robustness to quantify the temporal stability of model bias, proposed by Royer-Gaspard et al. (2021).&lt;/p&gt;
+&lt;p&gt;o &lt;strong&gt;JDKGE&lt;/strong&gt;: to compute the Joint Divergence Kling-Gupta Efficiency, which extends the traditional Kling-Gupta efficiency by incorporating a
+fourth diagnostic component that evaluates the similarity between the probability distributions of simulated and observed values,
+proposed by Ficchi et al. (2026).&lt;/p&gt;
+&lt;p&gt;o &lt;strong&gt;LME&lt;/strong&gt;  : to compute the Liu-Mean Efficiency, which evaluates how large the error is compared to the average level of the observations,
+making it particularly useful in hydrological applications where the mean value is a meaningful scale for evaluating prediction accuracy.&lt;/p&gt;
+&lt;p&gt;o &lt;strong&gt;LCE&lt;/strong&gt;  : to compute the Lee and Choi Efficiency, which jointly assess the correlation, variability, and bias component of the error,
+while explicitly penalizing imbalances between correlation and variability through two complementary terms (r x Alpha and r/Alpha).&lt;/p&gt;
+&lt;p&gt;o &lt;strong&gt;HFB&lt;/strong&gt;  : to compute the median annual high-flows bias, focused on high flows. This function was competly re-formulated with respect to version 0.6-0.1,
+in order to make it more compatible with APFB and PBIAS, with an optimum value in 0 and not in 1.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Several 
+, mostly related to temporal aggregation functions&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I hope you enjoy it !.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-05-01-hydrogof_v070_on_cran/featured.jpg&#34;
+    alt=&#34;New logo of the hydroGOF R package&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;New logo of the 
+ R package&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
     
     <item>
       <title>hydroTSM v0.8-6 on CRAN</title>
@@ -27,6 +80,10 @@
 &lt;li&gt;
 &lt;p&gt;New 
 , created with pkgdown.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The package DOI was changed form the one given by Zotero to the new DOI given by CRAN (
+) since June 2024.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Package tested against R version 4.6.0 (2026-04-24) &amp;ndash; &amp;ldquo;Because it was There&amp;rdquo;, following an imperative request made by CRAN.&lt;/p&gt;
@@ -62,7 +119,7 @@
 &lt;p&gt;I hope you enjoy it !.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
 &lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-04-28-hydrotsm_v086_on_cran/featured.jpg&#34;
-    alt=&#34;New logo of the [hydroTSM] R package&#34;&gt;&lt;figcaption&gt;
+    alt=&#34;New logo of the hydroTSM R package&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;New logo of the 
  R package&lt;/p&gt;
     &lt;/figcaption&gt;
