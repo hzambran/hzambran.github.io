@@ -50,10 +50,13 @@
 &lt;p&gt;The &lt;code&gt;matrixplot&lt;/code&gt; several new arguments to customise the legend and the output figure.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The &lt;code&gt;fdc&lt;/code&gt; has a new argument &amp;rsquo;thr.pos&amp;rsquo;, to customise the position of the thresold in the output figure.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;fdc&lt;/code&gt; has a new argument &amp;rsquo;thr.pos&amp;rsquo;, to customise the position of the threshold in the output figure.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Several bugfixes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Several 
+, mostly related to temporal aggregation functions&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I hope you enjoy it !.&lt;/p&gt;
@@ -2556,7 +2559,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-817649325&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-613875294&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -2574,7 +2577,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-817649325&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-613875294&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
