@@ -47,7 +47,8 @@
 &lt;p&gt;&lt;strong&gt;SICLO&lt;/strong&gt; is a four-year research project (December 2025–November 2029) funded by the Chilean National Agency for Research and Development (
 ) under the &lt;em&gt;Concurso IDeA I+D Tecnologías Avanzadas 2025&lt;/em&gt; call. The project aims to develop an &lt;strong&gt;integrated climate service for continental Chile&lt;/strong&gt; by coupling satellite-based observations, regional climate modeling, and distributed surface hydrological modeling.&lt;/p&gt;
 &lt;p&gt;The SICLO framework will generate physically consistent estimates of key atmospheric and hydrological variables across &lt;strong&gt;historical, near-real-time, and future climate scenarios&lt;/strong&gt;, with a particular emphasis on catchment-scale processes. The resulting datasets and modeling tools are designed to support hydrological analysis, impact assessment, and the evaluation of climate-driven changes in water availability and extremes.&lt;/p&gt;
-&lt;p&gt;The project (&lt;em&gt;ANID-TA25I10030: SICA – Integrated Climate and Water System in Chile&lt;/em&gt;) is led by the Center for Climate and Resilience Research (CR2) and brings together a multidisciplinary team of researchers and professionals, including Juan P. Boisier (Director, PI), Camila Alvarez-Garreton (Co-Director, PI), Mauricio Galleguillos, &lt;strong&gt;Mauricio Zambrano-Bigiarini&lt;/strong&gt;, Francisca Muñoz, René Garreaud, and Pilar Barría.&lt;/p&gt;
+&lt;p&gt;The project (&lt;em&gt;ANID-TA25I10030: SICA – Integrated Climate and Water System in Chile&lt;/em&gt;) 
+, is fully developed within the Center for Climate and Resilience Research (CR2), bringing togethertogether a multidisciplinary team of researchers and professionals, including Juan P. Boisier (Director, PI), Camila Alvarez-Garreton (Co-Director, PI), Mauricio Galleguillos, &lt;strong&gt;Mauricio Zambrano-Bigiarini&lt;/strong&gt;, Francisca Muñoz, René Garreaud, and Pilar Barría.&lt;/p&gt;
 </description>
     </item>
     
@@ -333,6 +334,85 @@
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Drought and water security platform for catchment planning (ANID-FSEQ210001)</title>
+      <link>https://hzambran.github.io/projects/2022-2023-fseq210001/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/projects/2022-2023-fseq210001/</guid>
+      <description>&lt;style&gt;
+  /* 1. Target the main article container broadly */
+  body .page-body, 
+  body .universal-wrapper, 
+  article.article {
+      font-size: 1rem !important; /* Forces base size to 16px */
+  }
+
+  /* 2. Target paragraphs and lists specifically with !important */
+  .article-style p, 
+  .article-container p, 
+  article p,
+  .project-content p {
+      font-size: 1rem !important; 
+      line-height: 1.6 !important;
+  }
+
+  /* 3. Target list items */
+  .article-style li, 
+  .article-container li, 
+  article li {
+      font-size: 1rem !important;
+  }
+&lt;/style&gt;
+&lt;h3 id=&#34;context-and-motivation&#34;&gt;Context and motivation&lt;/h3&gt;
+&lt;p&gt;The current and projected water situation in Chile presents one of the country’s most pressing environmental and societal challenges. Freshwater availability is declining, while water demand continues to increase across cities, agriculture, industry, energy production, and ecosystems. This growing imbalance places strong pressure on river basins and makes water-resource planning increasingly complex, particularly under a changing climate and more frequent drought conditions.&lt;/p&gt;
+&lt;p&gt;A review of the current understanding of Chile’s socio-hydrological-environmental system, together with existing institutional strategies for managing drought and water scarcity, revealed important information and knowledge gaps. These gaps limit the ability of institutions, water users, and decision-makers to respond effectively to current drought conditions and to plan for future water-security challenges.&lt;/p&gt;
+&lt;p&gt;In the short term, Chile lacks a versatile, accessible, and timely drought-monitoring system capable of describing drought conditions with sufficient spatial detail, temporal resolution, and low latency to support rapid decision-making.&lt;/p&gt;
+&lt;p&gt;In the medium and long term, there is still limited knowledge about the sustainable limits of water use in Chilean basins. In other words, it remains unclear how much water can be used in each basin while maintaining acceptable levels of water security under scenarios of more frequent and severe droughts. Addressing this question requires better information on historical and projected water availability, land-use change, groundwater dynamics, water demand, and the effects of different socio-economic development pathways.&lt;/p&gt;
+&lt;h3 id=&#34;project-description&#34;&gt;Project description&lt;/h3&gt;
+&lt;p&gt;The project 
+, funded by the Chilean National Agency for Research and Development (
+) through the &lt;em&gt;Concurso Fondo de Investigación Estratégica en Sequía — Asignación Rápida 2021&lt;/em&gt;, was designed to help close these gaps. Its main goal is to generate scientific knowledge, high-resolution data, and practical tools to support better decision-making on drought, water scarcity, and water security in Chile.&lt;/p&gt;
+&lt;p&gt;This one-year strategic research project seeks to transform complex scientific information into accessible products for river-basin planning. By integrating climate information, land-cover change, soil properties, water availability, water use, and future projections, the project aims to provide a more complete picture of how drought and human water demand interact across Chilean basins.&lt;/p&gt;
+&lt;p&gt;The project is structured around three main objectives.&lt;/p&gt;
+&lt;h4 id=&#34;1-building-a-high-resolution-national-dataset&#34;&gt;1. Building a high-resolution national dataset&lt;/h4&gt;
+&lt;p&gt;The first objective is to reduce critical information gaps by developing a national dataset with high spatial and temporal resolution. This dataset includes information on drought and climate conditions, changes in land cover over the last seven decades, soil properties, water availability, and water uses.&lt;/p&gt;
+&lt;p&gt;The project covers the historical period 1950–2020 and also includes projections to 2050 under climate-change conditions and different socio-economic development scenarios. This information provides a robust basis for understanding how Chile’s water resources have changed over time and how they may evolve in the coming decades.&lt;/p&gt;
+&lt;h4 id=&#34;2-improving-knowledge-about-drought-water-use-and-water-security&#34;&gt;2. Improving knowledge about drought, water use, and water security&lt;/h4&gt;
+&lt;p&gt;The second objective is to address key scientific and management questions related to drought and water resources in Chile. These include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;What is the current state of drought and water-resource levels in Chile, and how have they changed since 1950?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;How much of the observed change in river flows and groundwater levels is explained by climate variability and drought, and how much is due to increasing water demand from human consumption and economic activities?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;What has been the effect of irrigation technology on consumptive and non-consumptive water use?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Can surface-water indicators provide reliable information about unsustainable groundwater use?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Under future scenarios with more frequent droughts, what are the maximum water-use levels that remain compatible with adequate water security in each basin?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By answering these questions, the project provides scientific evidence to better distinguish the effects of climate variability, land-use change, and human water demand on Chile’s water resources.&lt;/p&gt;
+&lt;h4 id=&#34;3-developing-a-platform-for-drought-and-water-security-planning&#34;&gt;3. Developing a platform for drought and water-security planning&lt;/h4&gt;
+&lt;p&gt;The third objective is to develop a digital platform to transfer the information and knowledge generated by the project to decision-makers, practitioners, researchers, and the general public.&lt;/p&gt;
+&lt;p&gt;The platform includes four complementary tools:&lt;/p&gt;
+&lt;p&gt;A drought monitor, designed to provide timely and accessible information on current drought conditions across Chile.&lt;/p&gt;
+&lt;p&gt;A water-resource-level explorer, aimed at visualising the historical and projected evolution of water availability and water stress in Chilean basins.&lt;/p&gt;
+&lt;p&gt;A river-basin management simulator, intended to support the exploration of future water-use scenarios and their implications for water security.&lt;/p&gt;
+&lt;p&gt;A knowledge portal, created to disseminate scientific information about droughts, water scarcity, and the water cycle in Chile.&lt;/p&gt;
+&lt;p&gt;Together, these tools seek to strengthen evidence-based river-basin planning and support more transparent, informed, and adaptive water-management decisions.&lt;/p&gt;
+&lt;h3 id=&#34;overall-contribution&#34;&gt;Overall contribution&lt;/h3&gt;
+&lt;p&gt;The project (&lt;em&gt;ANID-FSEQ210001: Drought and water security platform for catchment planning: historical evolution and future trajectories under global change&lt;/em&gt;) 
+, is fully developed within the Center for Climate and Resilience Research (CR2), bringing together a multidisciplinary team of researchers and professionals, including Camila Alvarez-Garreton (Director, PI), Juan P. Boisier (Co-Director, PI), René Garreaud (PI), Mauricio Galleguillos (PI), and &lt;strong&gt;Mauricio Zambrano-Bigiarini&lt;/strong&gt; (PI)&lt;/p&gt;
+&lt;p&gt;By combining scientific research, national-scale datasets, future scenarios, and accessible digital tools, ANID-FSEQ210001 contributes to a better understanding of drought and water security in Chile. The project supports the transition from reactive responses to drought toward more anticipatory and integrated water planning.&lt;/p&gt;
+&lt;p&gt;Its broader contribution is to provide public, science-based information that can help Chile prepare for a future with less water, higher demand, and greater uncertainty.&lt;/p&gt;
 </description>
     </item>
     
