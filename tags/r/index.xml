@@ -17,7 +17,7 @@
       <link>https://hzambran.github.io/blog/2026-05-01-hydrogof_v070_on_cran/</link>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/blog/2026-05-01-hydrogof_v070_on_cran/</guid>
-      <description>&lt;p&gt;After two years of working mostly in sub-daily functions, the new version of &lt;code&gt;hydroGOF&lt;/code&gt; (v0.7-0) was released on May 1st 2026, and it is available on CRAN now 
+      <description>&lt;p&gt;After two years, the new version of &lt;code&gt;hydroGOF&lt;/code&gt; (v0.7-0) was released on May 1st 2026, and it is available on CRAN now 
 &lt;/p&gt;
 &lt;p&gt;Among its &lt;strong&gt;new features&lt;/strong&gt; the following stand out:&lt;/p&gt;
 &lt;ul&gt;
@@ -29,8 +29,8 @@
 , created with pkgdown.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The package DOI was changed form the one given by Zotero to the new DOI given by CRAN (
-) since June 2024.&lt;/p&gt;
+&lt;p&gt;The package DOI was changed from the one given by Zotero to the new DOI given by CRAN (
+) in June 2024.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Improved documentation of some functions (e.g., sKGE, KGEkm, pfactor, rfactor)&lt;/p&gt;
@@ -45,7 +45,7 @@ proposed by Ficchi et al. (2026).&lt;/p&gt;
 making it particularly useful in hydrological applications where the mean value is a meaningful scale for evaluating prediction accuracy.&lt;/p&gt;
 &lt;p&gt;o &lt;strong&gt;LCE&lt;/strong&gt;  : to compute the Lee and Choi Efficiency, which jointly assess the correlation, variability, and bias component of the error,
 while explicitly penalizing imbalances between correlation and variability through two complementary terms (r x Alpha and r/Alpha).&lt;/p&gt;
-&lt;p&gt;o &lt;strong&gt;HFB&lt;/strong&gt;  : to compute the median annual high-flows bias, focused on high flows. This function was competly re-formulated with respect to version 0.6-0.1,
+&lt;p&gt;o &lt;strong&gt;HFB&lt;/strong&gt;  : to compute the median annual high-flows bias, focused on high flows. This function was completely re-formulated with respect to version 0.6-0.1,
 in order to make it more compatible with APFB and PBIAS, with an optimum value in 0 and not in 1.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
