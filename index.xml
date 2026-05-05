@@ -3822,28 +3822,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2025-garreaud-hyperdroughts-in/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -4056,28 +4087,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2025-lema-technical-note/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -4216,28 +4278,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2024-petermannrocha-disponibilidad-y/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -4308,28 +4401,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2024-tolorza-exotic-tree/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -4487,28 +4611,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2024-alvarezgarreton-hess-opinions/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -4658,28 +4813,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2024-baezvillanueva-on-the/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -4750,28 +4936,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2024-diazjara-land-management/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -4879,28 +5096,59 @@ It also beats the next warmest year, 2016, by a record-setting margin of 0.15ºC
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2024-aguayo-patagoniamet-a/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -5791,28 +6039,59 @@ data.head()
       <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2023-kreibich-panta-rhei/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -6133,28 +6412,59 @@ shows that risk management has reduced vulnerability to floods and droughts worl
       <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2022-kreibich-the-challenge/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -6245,28 +6555,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2022-gimeno-a-coupled/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -6337,28 +6678,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2021-baezvillanueva-on-the/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -6429,28 +6801,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2021-marinaorivas-towards-best/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -6542,28 +6945,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2021-mcnamara-how-well/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -6782,28 +7216,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2021-galleguillos-disentangling-the/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -7092,28 +7557,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2020-mcnamara-modelling-water/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -7449,28 +7945,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2020-baezvillanueva-rfmep-a/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -7541,28 +8068,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2020-beck-bias-correction/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -7633,28 +8191,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2019-birkel-hydrological-processes/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -7806,28 +8395,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2019-rivera-validation-of/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -8261,28 +8881,59 @@ Last year was so hot that global land- and ocean-surface temperatures were 1.42 
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2019-abdelaziz-particle-swarm/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -8399,28 +9050,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2018-zambranobigiarini-temporal-and/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -8515,28 +9197,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2018-baezvillanueva-temporal-and/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -8664,28 +9377,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2017-garreaud-the-20102015/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -8843,28 +9587,59 @@ The second part (May 3rd and 4th) was to introduce participants to the managemen
       <pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2017-zambranobigiarini-temporal-and/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -10038,28 +10813,59 @@ Navigate down for sub-topics!&lt;/p&gt;
       <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2016-krstic-the-br2weighting/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -10130,28 +10936,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2016-bisselink-assessing-the/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -10413,28 +11250,59 @@ During additional side events of the Nexus Week, the participants developed new 
       <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2016-torressalinas-forestry-development/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -10534,28 +11402,59 @@ In the past, the highest global temperature records were often set in El Niño y
       <pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2015-toledo-comparison-of/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -10626,28 +11525,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2014-abdelaziz-particle-swarm/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -10718,28 +11648,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2013-thiemig-hydrological-evaluation/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -10810,28 +11771,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Sun, 23 Jun 2013 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2013-zambranobigiarini-standard-particle/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -10902,28 +11894,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Tue, 26 Feb 2013 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2013-zambranobigiarini-a-modelindependent/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -10994,28 +12017,59 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://hzambran.github.io/publications/2012-thiemig-validation-of/</guid>
       <description>&lt;style&gt;
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 &lt;/style&gt;
 &lt;div class=&#39;manual-content&#39;&gt;&lt;div id=&#39;citation&#39;&gt;&lt;/div&gt;
@@ -12074,7 +13128,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-729316485&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-632145789&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -12092,7 +13146,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-729316485&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-632145789&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

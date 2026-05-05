@@ -9345,7 +9345,7 @@ Citation:Petermann-Rocha, F., Pizarro, A., Nazar, G., Zambrano-Bigiarini, M., Pl
       "url":  null 
     }
   },
-  "description": "\u003cstyle\u003e\n  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {\n      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;\n  }\n  .manual-content {\n      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;\n  }\n  .manual-content strong { font-size: 0.95rem !important; color: #333; }\n  .citation-block {\n      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;\n  }\n  .author-card, .share-box, .article-widget.content-widget-hr { \n      display: none !important; \n  }\n  .featured-img-container {\n      margin-top: 30px;\n      text-align: center;\n  }\n  .featured-img-container img {\n      max-width: 100%;\n      height: auto;\n      border-radius: 8px;\n      box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n  }\n\u003c/style\u003e\n\u003cdiv class='manual-content'\u003e\u003cdiv id='citation'\u003e\u003c/div\u003e\n\u003cdiv style='margin-top: 15px;'\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e\u003cbr\u003e\u003cdiv class='citation-block'\u003ePetermann-Rocha, F., Pizarro, A., Nazar, G., Zambrano-Bigiarini, M., Plaza-Garrido, A., Díaz-Toro, F., Troncoso-Pantoja, C., Celis, A., Sugg, D., \u0026 Celis-Morales, C. (2024). Disponibilidad y seguridad hídrica en el desarrollo de enfermedades crónicas no transmisibles. ¿ Nuevos factores de riesgo?. \u003ci\u003eRevista médica de Chile\u003c/i\u003e, \u003ci\u003e152\u003c/i\u003e(5), 643--644. \u003ca href='https://doi.org/10.4067/s0034-98872024000500643' target='_blank'\u003ehttps://doi.org/10.4067/s0034-98872024000500643\u003c/a\u003e\u003c/div\u003e\u003c/div\u003e\u003cdiv class='featured-img-container'\u003e\u003cimg src='featured.jpg' alt='Featured Publication Image'\u003e\u003c/div\u003e\u003c/div\u003e\n\u003cscript\u003e\ndocument.addEventListener('DOMContentLoaded', function() {\n    var publicationFound = false;\n    var projectsText = '';\n\n    function replacePublication(node) {\n        if (node.nodeType === 3) { \n            var text = node.nodeValue;\n            if (text.includes('Publication')) {\n                var newText = text.replace(/Publication/g, 'Journal');\n                node.nodeValue = newText;\n            }\n            if (text.trim() === 'In') { node.nodeValue = 'Journal'; }\n        }\n    }\n    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);\n    var node;\n    while(node = walker.nextNode()) { replacePublication(node); }\n\n    // Dynamically bold the target author's name\n    var authorElements = document.querySelectorAll('.article-metadata a, .article-metadata span, .author-card .card-title');\n    authorElements.forEach(function(el) {\n        if (el.textContent.includes('Mauricio Zambrano-Bigiarini')) {\n            el.style.fontWeight = 'bold';\n        }\n    });\n\n    // Dynamically insert Projects field immediately after the Journal field\n    if (projectsText !== '') {\n        var headings = document.querySelectorAll('.pub-row-heading');\n        headings.forEach(function(heading) {\n            if (heading.textContent.trim() === 'Journal') {\n                publicationFound = true;\n                var parentRow = heading.parentElement;\n                \n                var newRow = document.createElement('div');\n                newRow.className = 'row';\n                newRow.style.paddingTop = '10px';\n                newRow.innerHTML = '\u003cdiv class=\"col-12 col-md-3 pub-row-heading\"\u003eProjects\u003c/div\u003e\u003cdiv class=\"col-12 col-md-9\"\u003e' + projectsText + '\u003c/div\u003e';\n                \n                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);\n            }\n        });\n        \n        // Fallback: If 'Journal' isn't found, safely place it at the top of the manual content\n        if (!publicationFound) {\n            var manualContent = document.querySelector('.manual-content');\n            if (manualContent) {\n                var fallbackDiv = document.createElement('div');\n                fallbackDiv.style.marginBottom = '15px';\n                fallbackDiv.innerHTML = '\u003cstrong\u003eProjects:\u003c/strong\u003e ' + projectsText;\n                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);\n            }\n        }\n    }\n});\n\u003c/script\u003e"
+  "description": "\u003cstyle\u003e\n  :root {\n    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));\n    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));\n    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));\n    --pub-border: var(--color-primary-600, var(--primary, currentColor));\n  }\n\n  .article-metadata,\n  .article-metadata span,\n  .article-metadata a,\n  .pub-info {\n      font-size: 0.85rem !important;\n      line-height: 1.2 !important;\n      margin-bottom: 0px !important;\n  }\n\n  .manual-content {\n      font-size: 0.95rem !important;\n      line-height: 1.5;\n      margin-top: 15px;\n      color: var(--pub-text);\n  }\n\n  .manual-content strong {\n      font-size: 0.95rem !important;\n      color: inherit;\n  }\n\n  .citation-block {\n      background-color: var(--pub-surface-alt);\n      padding: 10px;\n      border-left: 3px solid var(--pub-border);\n      margin-top: 15px;\n      font-size: 0.9rem;\n      color: var(--pub-text);\n  }\n\n  .author-card,\n  .share-box,\n  .article-widget.content-widget-hr {\n      display: none !important;\n  }\n\n  .featured-img-container {\n      margin-top: 30px;\n      text-align: center;\n  }\n\n  .featured-img-container img {\n      max-width: 100%;\n      height: auto;\n      border-radius: 8px;\n      box-shadow: 0 4px 12px rgba(0,0,0,0.12);\n  }\n\u003c/style\u003e\n\u003cdiv class='manual-content'\u003e\u003cdiv id='citation'\u003e\u003c/div\u003e\n\u003cdiv style='margin-top: 15px;'\u003e\u003cstrong\u003eCitation:\u003c/strong\u003e\u003cbr\u003e\u003cdiv class='citation-block'\u003ePetermann-Rocha, F., Pizarro, A., Nazar, G., Zambrano-Bigiarini, M., Plaza-Garrido, A., Díaz-Toro, F., Troncoso-Pantoja, C., Celis, A., Sugg, D., \u0026 Celis-Morales, C. (2024). Disponibilidad y seguridad hídrica en el desarrollo de enfermedades crónicas no transmisibles. ¿ Nuevos factores de riesgo?. \u003ci\u003eRevista médica de Chile\u003c/i\u003e, \u003ci\u003e152\u003c/i\u003e(5), 643--644. \u003ca href='https://doi.org/10.4067/s0034-98872024000500643' target='_blank'\u003ehttps://doi.org/10.4067/s0034-98872024000500643\u003c/a\u003e\u003c/div\u003e\u003c/div\u003e\u003cdiv class='featured-img-container'\u003e\u003cimg src='featured.jpg' alt='Featured Publication Image'\u003e\u003c/div\u003e\u003c/div\u003e\n\u003cscript\u003e\ndocument.addEventListener('DOMContentLoaded', function() {\n    var publicationFound = false;\n    var projectsText = '';\n\n    function replacePublication(node) {\n        if (node.nodeType === 3) { \n            var text = node.nodeValue;\n            if (text.includes('Publication')) {\n                var newText = text.replace(/Publication/g, 'Journal');\n                node.nodeValue = newText;\n            }\n            if (text.trim() === 'In') { node.nodeValue = 'Journal'; }\n        }\n    }\n    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);\n    var node;\n    while(node = walker.nextNode()) { replacePublication(node); }\n\n    // Dynamically bold the target author's name\n    var authorElements = document.querySelectorAll('.article-metadata a, .article-metadata span, .author-card .card-title');\n    authorElements.forEach(function(el) {\n        if (el.textContent.includes('Mauricio Zambrano-Bigiarini')) {\n            el.style.fontWeight = 'bold';\n        }\n    });\n\n    // Dynamically insert Projects field immediately after the Journal field\n    if (projectsText !== '') {\n        var headings = document.querySelectorAll('.pub-row-heading');\n        headings.forEach(function(heading) {\n            if (heading.textContent.trim() === 'Journal') {\n                publicationFound = true;\n                var parentRow = heading.parentElement;\n                \n                var newRow = document.createElement('div');\n                newRow.className = 'row';\n                newRow.style.paddingTop = '10px';\n                newRow.innerHTML = '\u003cdiv class=\"col-12 col-md-3 pub-row-heading\"\u003eProjects\u003c/div\u003e\u003cdiv class=\"col-12 col-md-9\"\u003e' + projectsText + '\u003c/div\u003e';\n                \n                parentRow.parentNode.insertBefore(newRow, parentRow.nextSibling);\n            }\n        });\n        \n        // Fallback: If 'Journal' isn't found, safely place it at the top of the manual content\n        if (!publicationFound) {\n            var manualContent = document.querySelector('.manual-content');\n            if (manualContent) {\n                var fallbackDiv = document.createElement('div');\n                fallbackDiv.style.marginBottom = '15px';\n                fallbackDiv.innerHTML = '\u003cstrong\u003eProjects:\u003c/strong\u003e ' + projectsText;\n                manualContent.insertBefore(fallbackDiv, manualContent.firstChild);\n            }\n        }\n    }\n});\n\u003c/script\u003e"
 }
 </script>
 
@@ -13355,28 +13355,59 @@ document.addEventListener('DOMContentLoaded', function() {
         
         
         <style>
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 </style>
 <div class='manual-content'><div id='citation'></div>

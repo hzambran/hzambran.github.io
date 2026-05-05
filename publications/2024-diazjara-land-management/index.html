@@ -13306,28 +13306,59 @@ document.addEventListener('DOMContentLoaded', function() {
         
         
         <style>
-  .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
-      font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
+  :root {
+    --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
+    --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
+    --pub-text: var(--color-neutral-800, var(--bs-body-color, inherit));
+    --pub-border: var(--color-primary-600, var(--primary, currentColor));
   }
+
+  .article-metadata,
+  .article-metadata span,
+  .article-metadata a,
+  .pub-info {
+      font-size: 0.85rem !important;
+      line-height: 1.2 !important;
+      margin-bottom: 0px !important;
+  }
+
   .manual-content {
-      font-size: 0.95rem !important; line-height: 1.5; margin-top: 15px;
+      font-size: 0.95rem !important;
+      line-height: 1.5;
+      margin-top: 15px;
+      color: var(--pub-text);
   }
-  .manual-content strong { font-size: 0.95rem !important; color: #333; }
+
+  .manual-content strong {
+      font-size: 0.95rem !important;
+      color: inherit;
+  }
+
   .citation-block {
-      background-color: #f8f9fa; padding: 10px; border-left: 3px solid #337ab7; margin-top: 15px; font-size: 0.9rem;
+      background-color: var(--pub-surface-alt);
+      padding: 10px;
+      border-left: 3px solid var(--pub-border);
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: var(--pub-text);
   }
-  .author-card, .share-box, .article-widget.content-widget-hr { 
-      display: none !important; 
+
+  .author-card,
+  .share-box,
+  .article-widget.content-widget-hr {
+      display: none !important;
   }
+
   .featured-img-container {
       margin-top: 30px;
       text-align: center;
   }
+
   .featured-img-container img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
   }
 </style>
 <div class='manual-content'><div id='citation'></div>
