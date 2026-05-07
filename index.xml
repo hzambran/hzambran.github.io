@@ -7802,13 +7802,6 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
       font-size: 1rem !important;
   }
 &lt;/style&gt;
-&lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/rfmerge/RFmerge-logo.jpg&#34;
-    alt=&#34;RFmerge R package.&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;R package.&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 &lt;p&gt;
  is an R package (currently not on CRAN, but working with the &lt;em&gt;terra&lt;/em&gt; package on Github) designed to generate more reliable environmental datasets by combining information from gridded datasets and ground-based observations. It implements the &lt;strong&gt;Random Forest Merging Procedure (RF-MEP)&lt;/strong&gt; (Baez-Villanueva et al., 2020), a machine-learning approach developed to improve the spatial and temporal representation of environmental variables—particularly precipitation—by leveraging the complementary strengths of different data sources.&lt;/p&gt;
@@ -7818,10 +7811,26 @@ document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
  provides a transparent and reproducible workflow for dataset merging that can be adapted to a wide range of variables beyond precipitation, including temperature, soil moisture, or other gridded datasets. It is particularly well suited for researchers and practitioners who require spatially consistent datasets to support hydrological modelling, climate analysis, and water resources assessment.&lt;/p&gt;
 &lt;p&gt;Grounded in peer-reviewed research and real-world applications, 
  offers a technically robust and methodologically sound foundation for transforming heterogeneous environmental observations into coherent, analysis-ready datasets.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/rfmerge/RFmerge-logo.jpg&#34;
+    alt=&#34;RFmerge R package.&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;R package.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
 &lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Baez-Villanueva, O.M.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Beck, H.; McNamara, I.; Ribbe, L.; Nauditt, A.; Birkel, C.; Verbist, K.; Giraldo-Osorio, J.D.; Thinh, N.X. (2020). 
-, Remote Sensing of Environment, 239, 111610. doi:10.1016/j.rse.2019.111606.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Baez-Villanueva, O.M.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Beck, H.; McNamara, I.; Ribbe, L.; Nauditt, A.; Birkel, C.; Verbist, K.; Giraldo-Osorio, J.D.; Thinh, N.X. (2020). 
+, Remote Sensing of Environment, 239, 111610. doi:10.1016/j.rse.2019.111606.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zambrano-Bigiarini, M.; Baez-Villanueva, O.M.; Giraldo-Osorio, J.D. (2026). Tutorial for merging satellite-based precipitation datasets with ground observations using RFmerge (&amp;gt;=0.3-3). doi:10.5281/zenodo.20061104.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zambrano-Bigiarini, M.; Baez-Villanueva, O.M., Giraldo-Osorio, J. (2026). RFmerge: Merging of Satellite Datasets with Ground Observations using Random Forests. R package version 0.3-3. URL: 
+. doi:10.32614/CRAN.package.RFmerge.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -13208,7 +13217,7 @@ This Hugging Face dataset is a mirror. For the …
 
 
 
-&lt;div id=&#34;chart-925168743&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-258947613&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     async function fetchChartJSON() {
@@ -13226,7 +13235,7 @@ This Hugging Face dataset is a mirror. For the …
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-925168743&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-258947613&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 5, 2026 --><html lang="en-us" dir="ltr"
+<!-- Last Published: May 7, 2026 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="dark"
       data-hbb-relurl="/">
   
@@ -13152,9 +13152,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 711px; max-height: 400px;">
           <div style="position: relative">
-            <img srcset="/rpackages/rfmerge/featured_hu_63396fd0b316fe8.webp 320w, /rpackages/rfmerge/featured_hu_718498f2917b26b5.webp 480w, /rpackages/rfmerge/featured_hu_bd71e611d15d5921.webp 640w, /rpackages/rfmerge/featured_hu_ef1b50b56d819f7d.webp 711w"
+            <img srcset="/rpackages/rfmerge/featured_hu_5517bd8758df9fd0.webp 320w, /rpackages/rfmerge/featured_hu_98fc75f288e7a984.webp 480w, /rpackages/rfmerge/featured_hu_9df9bd6632749026.webp 640w, /rpackages/rfmerge/featured_hu_ac3e3c5890475e53.webp 711w"
                  sizes="(max-width: 480px) 100vw, (max-width: 640px) 90vw, (max-width: 720px) 80vw, 720px"
-                 src="/rpackages/rfmerge/featured_hu_63396fd0b316fe8.webp" 
+                 src="/rpackages/rfmerge/featured_hu_5517bd8758df9fd0.webp" 
                  data-pagefind-meta="image[src]"
                  width="711" 
                  height="400" 
@@ -13199,6 +13199,11 @@ document.addEventListener('DOMContentLoaded', function() {
       font-size: 1rem !important;
   }
 </style>
+<h2 id="description">Description</h2>
+<p><a href="https://hzambran.github.io/RFmerge/" target="_blank" rel="noopener"><strong>RFmerge</strong></a> is an R package (currently not on CRAN, but working with the <em>terra</em> package on Github) designed to generate more reliable environmental datasets by combining information from gridded datasets and ground-based observations. It implements the <strong>Random Forest Merging Procedure (RF-MEP)</strong> (Baez-Villanueva et al., 2020), a machine-learning approach developed to improve the spatial and temporal representation of environmental variables—particularly precipitation—by leveraging the complementary strengths of different data sources.</p>
+<p>The package addresses a persistent challenge in hydrology and Earth system sciences: no single dataset provides a complete and unbiased representation of environmental conditions. Rain gauges offer accurate point measurements but limited spatial coverage, while satellite products provide broad spatial information that may contain systematic errors. By integrating these sources within a unified statistical framework, <a href="https://hzambran.github.io/RFmerge/" target="_blank" rel="noopener"><strong>RFmerge</strong></a> produces merged datasets that better capture variability, reduce bias, and enhance the reliability of environmental analyses, especially in data-scarce regions.</p>
+<p>Built with operational applications in mind, <a href="https://hzambran.github.io/RFmerge/" target="_blank" rel="noopener"><strong>RFmerge</strong></a> provides a transparent and reproducible workflow for dataset merging that can be adapted to a wide range of variables beyond precipitation, including temperature, soil moisture, or other gridded datasets. It is particularly well suited for researchers and practitioners who require spatially consistent datasets to support hydrological modelling, climate analysis, and water resources assessment.</p>
+<p>Grounded in peer-reviewed research and real-world applications, <a href="https://hzambran.github.io/RFmerge/" target="_blank" rel="noopener"><strong>RFmerge</strong></a> offers a technically robust and methodologically sound foundation for transforming heterogeneous environmental observations into coherent, analysis-ready datasets.</p>
 <!-- Fotos -->
 <figure><img src="/rpackages/rfmerge/RFmerge-logo.jpg"
     alt="RFmerge R package."><figcaption>
@@ -13206,14 +13211,17 @@ document.addEventListener('DOMContentLoaded', function() {
     </figcaption>
 </figure>
 
-<h2 id="description">Description</h2>
-<p><a href="https://hzambran.github.io/RFmerge/" target="_blank" rel="noopener"><strong>RFmerge</strong></a> is an R package (currently not on CRAN, but working with the <em>terra</em> package on Github) designed to generate more reliable environmental datasets by combining information from gridded datasets and ground-based observations. It implements the <strong>Random Forest Merging Procedure (RF-MEP)</strong> (Baez-Villanueva et al., 2020), a machine-learning approach developed to improve the spatial and temporal representation of environmental variables—particularly precipitation—by leveraging the complementary strengths of different data sources.</p>
-<p>The package addresses a persistent challenge in hydrology and Earth system sciences: no single dataset provides a complete and unbiased representation of environmental conditions. Rain gauges offer accurate point measurements but limited spatial coverage, while satellite products provide broad spatial information that may contain systematic errors. By integrating these sources within a unified statistical framework, <a href="https://hzambran.github.io/RFmerge/" target="_blank" rel="noopener"><strong>RFmerge</strong></a> produces merged datasets that better capture variability, reduce bias, and enhance the reliability of environmental analyses, especially in data-scarce regions.</p>
-<p>Built with operational applications in mind, <a href="https://hzambran.github.io/RFmerge/" target="_blank" rel="noopener"><strong>RFmerge</strong></a> provides a transparent and reproducible workflow for dataset merging that can be adapted to a wide range of variables beyond precipitation, including temperature, soil moisture, or other gridded datasets. It is particularly well suited for researchers and practitioners who require spatially consistent datasets to support hydrological modelling, climate analysis, and water resources assessment.</p>
-<p>Grounded in peer-reviewed research and real-world applications, <a href="https://hzambran.github.io/RFmerge/" target="_blank" rel="noopener"><strong>RFmerge</strong></a> offers a technically robust and methodologically sound foundation for transforming heterogeneous environmental observations into coherent, analysis-ready datasets.</p>
 <h2 id="reference">Reference</h2>
 <ul>
-<li>Baez-Villanueva, O.M.; <strong>Zambrano-Bigiarini, M.</strong>; Beck, H.; McNamara, I.; Ribbe, L.; Nauditt, A.; Birkel, C.; Verbist, K.; Giraldo-Osorio, J.D.; Thinh, N.X. (2020). <a href="https://doi.org/10.1016/j.rse.2019.111606" target="_blank" rel="noopener">RF-MEP: a novel Random Forest method for merging gridded precipitation products and ground-based measurements</a>, Remote Sensing of Environment, 239, 111610. doi:10.1016/j.rse.2019.111606.</li>
+<li>
+<p>Baez-Villanueva, O.M.; <strong>Zambrano-Bigiarini, M.</strong>; Beck, H.; McNamara, I.; Ribbe, L.; Nauditt, A.; Birkel, C.; Verbist, K.; Giraldo-Osorio, J.D.; Thinh, N.X. (2020). <a href="https://doi.org/10.1016/j.rse.2019.111606" target="_blank" rel="noopener">RF-MEP: a novel Random Forest method for merging gridded precipitation products and ground-based measurements</a>, Remote Sensing of Environment, 239, 111610. doi:10.1016/j.rse.2019.111606.</p>
+</li>
+<li>
+<p>Zambrano-Bigiarini, M.; Baez-Villanueva, O.M.; Giraldo-Osorio, J.D. (2026). Tutorial for merging satellite-based precipitation datasets with ground observations using RFmerge (&gt;=0.3-3). doi:10.5281/zenodo.20061104.</p>
+</li>
+<li>
+<p>Zambrano-Bigiarini, M.; Baez-Villanueva, O.M., Giraldo-Osorio, J. (2026). RFmerge: Merging of Satellite Datasets with Ground Observations using Random Forests. R package version 0.3-3. URL: <a href="https://hzambran.github.io/RFmerge/" target="_blank" rel="noopener">https://hzambran.github.io/RFmerge/</a>. doi:10.32614/CRAN.package.RFmerge.</p>
+</li>
 </ul>
 
       </div>
