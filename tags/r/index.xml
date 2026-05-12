@@ -5,12 +5,77 @@
     <link>https://hzambran.github.io/tags/r/</link>
       <atom:link href="https://hzambran.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hzambran.github.io/media/icon_hu_edd58fc588fafe6f.png</url>
       <title>R</title>
       <link>https://hzambran.github.io/tags/r/</link>
     </image>
+    
+    <item>
+      <title>RFmerge v0.3-3 on CRAN</title>
+      <link>https://hzambran.github.io/blog/2026-05-10-rfmerge_v030_on_cran/</link>
+      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://hzambran.github.io/blog/2026-05-10-rfmerge_v030_on_cran/</guid>
+      <description>&lt;p&gt;In February 2023, &lt;strong&gt;RFmerge&lt;/strong&gt; was removed from CRAN because we did not resolve several issues related to the retirement of &lt;em&gt;rgdal&lt;/em&gt; and &lt;em&gt;rgeos&lt;/em&gt; (
+, which were used in RFmerge 0.1-6 together with the 
+ package.&lt;/p&gt;
+&lt;p&gt;By July 2023, these issues were addressed, in time for a short technical course organized by SISSA. Oscar Baez-Villanueva and I delivered this course at the facilities of the Servicio Meteorológico Nacional (Argentina) from July 24 to 27, 2023. The objective was to introduce participants to the use of 
+ for combining satellite-based precipitation products with in situ observations. A total of 15 participants attended, representing meteorological services and public institutions related to water and agriculture in Argentina, Brazil, Bolivia, Chile, Paraguay, and Uruguay.&lt;/p&gt;
+&lt;p&gt;Unfortunately, this updated version of the package (v0.2-0) was not submitted to CRAN at the time, due to time constraints affecting the development team.&lt;/p&gt;
+&lt;p&gt;A new version of &lt;strong&gt;RFmerge&lt;/strong&gt; (v0.3-3) has now been released on May 8, 2026, and is available on CRAN: 
+.&lt;/p&gt;
+&lt;p&gt;Key new features include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Migration to the 
+ package, which supersedes 
+. This represents a major change and results in a substantial improvement in computational performance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Support for multi-core processing and distributed computing environments via the &lt;em&gt;parallel&lt;/em&gt; package.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;An updated vignette (
+:&lt;/p&gt;
+
+
+
+  
+  &lt;blockquote class=&#34;border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6&#34;&gt;
+    &lt;p&gt;Zambrano-Bigiarini, M., Baez-Villanueva, O. M., Giraldo-Osorio, J. D., &amp;amp; McNamara, I. (2026). &lt;em&gt;Tutorial for merging satellite-based precipitation datasets with ground observations using RFmerge (&amp;gt;=0.3-0)&lt;/em&gt;. Zenodo. 
+&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A new graphical logo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A new project website built with 
+: 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The package DOI was updated in June 2024 from the Zotero-assigned identifier to the CRAN DOI: 
+.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A complete list of changes is available at: 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I hope you find this new version useful and enjoy it !&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/blog/2026-05-10-rfmerge_v030_on_cran/featured.jpg&#34;
+    alt=&#34;New logo of the RFmerge R package&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;New logo of the 
+ R package&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
     
     <item>
       <title>hydroGOF v0.7-0 on CRAN</title>
