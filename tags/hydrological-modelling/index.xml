@@ -91,7 +91,7 @@
 &lt;/style&gt;
 &lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 &lt;p&gt;
- is an R package developed to provide streamlined and reliable access to the Catchment Attributes and Meteorology for Large Sample Studies – Chile dataset (
+ is an R package developed to provide easy and reliable access to the Catchment Attributes and Meteorology for Large Sample Studies – Chile dataset (
 ), a widely used benchmark resource for large-sample hydrology and comparative catchment analysis. This package focuses on simplifying the acquisition, organisation, and handling of both spatial and temporal data required for hydrological research and modelling across diverse climatic and physiographic regions of Chile.&lt;/p&gt;
 &lt;p&gt;It was designed by &lt;strong&gt;Héctor Garcés-Figueroa&lt;/strong&gt; and I to support reproducible scientific workflows. 
  offers a consistent interface for downloading and managing hydrometeorological time series and catchment attributes directly from the official data repository. By standardising data access and preprocessing steps, the package reduces the time and effort typically required to prepare datasets for analysis, allowing users to focus on model development, hypothesis testing, and large-sample hydrological investigations.&lt;/p&gt;
@@ -100,9 +100,88 @@
 &lt;p&gt;Well suited for research, teaching, and operational analysis, 
  provides a technically sound and efficient gateway to one of the most comprehensive hydrological datasets available for Chile. It is especially valuable for users seeking a reliable foundation for data-driven hydrological studies and reproducible environmental research.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/rcamelscl/RcamelsCL-logo.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;RcamelsCL-logo.jpg&#34;
     alt=&#34;RcamelsCL R package.&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;R package.&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;a-simpler-way-to-work-with-camels-cl&#34;&gt;A simpler way to work with CAMELS-CL&lt;/h2&gt;
+&lt;p&gt;
+ is an &lt;strong&gt;R package&lt;/strong&gt; built to make the &lt;strong&gt;CAMELS-CL&lt;/strong&gt; dataset easier to use. For hydrologists, that matters because CAMELS-CL (
+) has become a key reference for studying how river basins behave across Chile&amp;rsquo;s wide range of climates and landscapes.&lt;/p&gt;
+&lt;p&gt;Instead of spending a large amount of time downloading files, reorganizing folders, and cleaning inputs, users can access the CAMELS-CL data through a consistent R workflow designed for research and modelling.&lt;/p&gt;
+&lt;h2 id=&#34;why-camels-cl-matters&#34;&gt;Why CAMELS-CL matters&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CAMELS-CL&lt;/strong&gt;, short for &lt;strong&gt;Catchment Attributes and Meteorology for Large Sample Studies &amp;ndash; Chile&lt;/strong&gt;, is one of the Chile&amp;rsquo;s main benchmark datasets for &lt;strong&gt;large-sample hydrology&lt;/strong&gt; and &lt;strong&gt;comparative catchment analysis&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It brings together the kinds of information researchers need to ask big questions, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hydrometeorological time series&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Catchment attributes&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Datasets spanning &lt;strong&gt;diverse climatic and physiographic regions of Chile&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That broad coverage makes the dataset especially useful for testing hydrological models, comparing catchments, and exploring how geography and climate shape water availability.&lt;/p&gt;
+&lt;h2 id=&#34;what-rcamelscl-does&#34;&gt;What RcamelsCL does&lt;/h2&gt;
+&lt;p&gt;Developed by &lt;strong&gt;Héctor Garcés-Figueroa&lt;/strong&gt; and me, &lt;strong&gt;RcamelsCL&lt;/strong&gt; was designed to support &lt;strong&gt;reproducible scientific workflows&lt;/strong&gt; end-to-end..&lt;/p&gt;
+&lt;p&gt;
+ gives users a reliable way to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download data directly from the &lt;strong&gt;official CAMELS-CL repository&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Organize both &lt;strong&gt;spatial&lt;/strong&gt; and &lt;strong&gt;temporal&lt;/strong&gt; datasets.&lt;/li&gt;
+&lt;li&gt;Manage hydrometeorological series and basin attributes through a single interface.&lt;/li&gt;
+&lt;li&gt;Reduce repetitive preprocessing steps before analysis begins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The result is straightforward: less time spent preparing data, and more time spent on &lt;strong&gt;model development&lt;/strong&gt;, &lt;strong&gt;hypothesis testing&lt;/strong&gt;, and &lt;strong&gt;hydrological analysis&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;why-direct-access-to-raw-data-is-important&#34;&gt;Why direct access to raw data is important&lt;/h2&gt;
+&lt;p&gt;One of the package&amp;rsquo;s strongest features is that it preserves the &lt;strong&gt;original dataset exactly as published&lt;/strong&gt;. 
+ provides access to the &lt;strong&gt;raw source CAMELS-CL data&lt;/strong&gt; without changing its content.&lt;/p&gt;
+&lt;p&gt;That matters for public trust in science as much as for technical work. When researchers can trace their inputs back to the original repository, it becomes easier to check methods, compare results, and repeat studies with confidence.&lt;/p&gt;
+&lt;p&gt;This kind of transparency is especially valuable for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Benchmarking studies&lt;/strong&gt;, where researchers need to know they are testing models against the same source material.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Model intercomparison&lt;/strong&gt;, to avoid that small preprocessing differences can change model outcomes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Regional hydrological assessment&lt;/strong&gt;, where consistent data handling makes it easier to compare catchments across Chile in a reproducible way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Uses beyond specialist research&lt;/strong&gt;. Although the package is built mostly for the scientific community, its value goes beyond high-level research projects. &lt;strong&gt;RcamelsCL&lt;/strong&gt; is also well suited for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Teaching.&lt;/li&gt;
+&lt;li&gt;Operational analysis.&lt;/li&gt;
+&lt;li&gt;Training in reproducible environmental workflows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For students, it lowers the barrier to working with real hydrological data. For practitioners, it offers a dependable entry point into one of the most comprehensive catchment datasets available for Chile.&lt;/p&gt;
+&lt;h2 id=&#34;the-bigger-picture&#34;&gt;The bigger picture&lt;/h2&gt;
+&lt;p&gt;Hydrology increasingly depends on tools that are not just accurate, but also &lt;strong&gt;transparent&lt;/strong&gt;, &lt;strong&gt;repeatable&lt;/strong&gt;, and &lt;strong&gt;efficient&lt;/strong&gt;. 
+ addresses a basic but important bottleneck: &lt;strong&gt;reproducible data access&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;By making 
+ easier to download, organise, and use without altering the original records, the package gives researchers a stronger foundation for &lt;strong&gt;data-driven hydrology&lt;/strong&gt; in Chile. That is a practical contribution with wide reach, from classroom exercises to large-scale environmental assessments.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-cite-it&#34;&gt;How to cite it?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The package should be cited as:&lt;/p&gt;
+
+
+
+  
+  &lt;blockquote class=&#34;border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6&#34;&gt;
+    &lt;p&gt;Garces-Figueroa H., Zambrano-Bigiarini M. (2026). &lt;em&gt;RcamelsCL: Easy Handling of the CAMELS-CL Dataset&lt;/em&gt;. R package version
+0.2-0, doi:10.32614/CRAN.package.RcamelsCL. 
+.&lt;/p&gt;
+  &lt;/blockquote&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src=&#34;https://hzambran.github.io/rpackages/rcamelscl/featured.png&#34;
+    alt=&#34;Logo of the RcamelsCL R package&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Logo of the 
+ R package&lt;/p&gt;
     &lt;/figcaption&gt;
 &lt;/figure&gt;
 

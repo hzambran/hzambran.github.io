@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: May 12, 2026 --><html lang="en-us" dir="ltr"
+<!-- Last Published: May 19, 2026 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="dark"
       data-hbb-relurl="/">
   
@@ -9285,8 +9285,8 @@
   <meta property="og:site_name" content="Mauricio Zambrano-Bigiarini | Hydrometeorological modelling and forecasting" />
   <meta property="og:url" content="https://hzambran.github.io/rpackages/rcamelscl/" />
   <meta property="og:title" content="RcamelsCL | Mauricio Zambrano-Bigiarini | Hydrometeorological modelling and forecasting" />
-  <meta property="og:description" content="Easy Handling of the CAMELS-CL Dataset" /><meta property="og:image" content="https://hzambran.github.io/rpackages/rcamelscl/featured.jpg" />
-    <meta property="twitter:image" content="https://hzambran.github.io/rpackages/rcamelscl/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Easy Handling of the CAMELS-CL Dataset" /><meta property="og:image" content="https://hzambran.github.io/rpackages/rcamelscl/featured.png" />
+    <meta property="twitter:image" content="https://hzambran.github.io/rpackages/rcamelscl/featured.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -9328,8 +9328,8 @@
   "primaryImageOfPage": {
     "@type": "ImageObject",
     "height": 400,
-    "url": "https://hzambran.github.io/rpackages/rcamelscl/featured.jpg",
-    "width": 788
+    "url": "https://hzambran.github.io/rpackages/rcamelscl/featured.png",
+    "width": 711
   },
   "url": "https://hzambran.github.io/rpackages/rcamelscl/"
 }
@@ -11384,6 +11384,14 @@ document.addEventListener('DOMContentLoaded', function() {
         <ul class="hb-sidebar-list"><li class="flex flex-col "><a
     class="hb-sidebar-custom-link
       text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
+    href="/blog/2026-05-18-rcamelscl_v020_on_cran/"
+    
+  >RcamelsCL Opens Chile&#39;s Benchmark Hydrology Dataset to Faster, Reproducible Research
+    </a>
+              
+            </li><li class="flex flex-col "><a
+    class="hb-sidebar-custom-link
+      text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-primary-800 dark:hover:text-gray-50"
     href="/blog/2026-05-10-rfmerge_v030_on_cran/"
     
   >RFmerge v0.3-3 on CRAN
@@ -12545,6 +12553,42 @@ document.addEventListener('DOMContentLoaded', function() {
                 class="hb-docs-link"
               >Description</a>
             </li>
+          <li>
+              <a
+                href="#a-simpler-way-to-work-with-camels-cl"
+                class="hb-docs-link"
+              >A simpler way to work with CAMELS-CL</a>
+            </li>
+          <li>
+              <a
+                href="#why-camels-cl-matters"
+                class="hb-docs-link"
+              >Why CAMELS-CL matters</a>
+            </li>
+          <li>
+              <a
+                href="#what-rcamelscl-does"
+                class="hb-docs-link"
+              >What RcamelsCL does</a>
+            </li>
+          <li>
+              <a
+                href="#why-direct-access-to-raw-data-is-important"
+                class="hb-docs-link"
+              >Why direct access to raw data is important</a>
+            </li>
+          <li>
+              <a
+                href="#the-bigger-picture"
+                class="hb-docs-link"
+              >The bigger picture</a>
+            </li>
+          <li>
+              <a
+                href="#how-to-cite-it"
+                class="hb-docs-link"
+              >How to cite it?</a>
+            </li>
           </ul>
   
               
@@ -13001,6 +13045,24 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="hb-scrollbar text-sm [hyphens:auto] sticky top-16 overflow-y-auto pr-4 pt-6 max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] -mr-4 rtl:-ml-4"><p class="mb-4 font-semibold tracking-tight">On this page</p><ul>
       <li class="my-2 scroll-my-6 scroll-py-6">
         <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#description">Description</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#a-simpler-way-to-work-with-camels-cl">A simpler way to work with CAMELS-CL</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#why-camels-cl-matters">Why CAMELS-CL matters</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#what-rcamelscl-does">What RcamelsCL does</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#why-direct-access-to-raw-data-is-important">Why direct access to raw data is important</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#the-bigger-picture">The bigger picture</a>
+      </li>
+      <li class="my-2 scroll-my-6 scroll-py-6">
+        <a class="font-semibold inline-block text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-300 w-full break-words" href="#how-to-cite-it">How to cite it?</a>
       </li></ul>
 
   
@@ -13055,7 +13117,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         <span class="mx-1">·</span>
         <span class="mx-1">
-          2 min read
+          4 min read
         </span>
         
         </div>
@@ -13149,14 +13211,14 @@ document.addEventListener('DOMContentLoaded', function() {
         
         
         
-        <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 720px; max-height: 365px;">
+        <div class="article-header article-container featured-image-wrapper mt-4 mb-16" style="max-width: 711px; max-height: 400px;">
           <div style="position: relative">
-            <img srcset="/rpackages/rcamelscl/featured_hu_53b1e906229a8c9f.webp 320w, /rpackages/rcamelscl/featured_hu_b2e2660c43ea0c96.webp 480w, /rpackages/rcamelscl/featured_hu_a414463bb46129e9.webp 640w, /rpackages/rcamelscl/featured_hu_dc2fd8b85eb972b7.webp 720w, /rpackages/rcamelscl/featured_hu_3d99a83033041f2c.webp 720w"
+            <img srcset="/rpackages/rcamelscl/featured_hu_ce85d7876a8cdce0.webp 320w, /rpackages/rcamelscl/featured_hu_94e8b64195999d0a.webp 480w, /rpackages/rcamelscl/featured_hu_a34d59a9d81bb180.webp 640w, /rpackages/rcamelscl/featured_hu_ceedf505620dc90e.webp 711w"
                  sizes="(max-width: 480px) 100vw, (max-width: 640px) 90vw, (max-width: 720px) 80vw, 720px"
-                 src="/rpackages/rcamelscl/featured_hu_53b1e906229a8c9f.webp" 
+                 src="/rpackages/rcamelscl/featured_hu_ce85d7876a8cdce0.webp" 
                  data-pagefind-meta="image[src]"
-                 width="720" 
-                 height="365" 
+                 width="711" 
+                 height="400" 
                  alt="" 
                  class="featured-image"
                  fetchpriority="high">
@@ -13199,14 +13261,85 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 </style>
 <h2 id="description">Description</h2>
-<p><a href="https://cran.r-project.org/package=RcamelsCL" target="_blank" rel="noopener"><strong>RcamelsCL</strong></a> is an R package developed to provide streamlined and reliable access to the Catchment Attributes and Meteorology for Large Sample Studies – Chile dataset (<a href="https://camels.cr2.cl/" target="_blank" rel="noopener"><strong>CAMELS-CL</strong></a>), a widely used benchmark resource for large-sample hydrology and comparative catchment analysis. This package focuses on simplifying the acquisition, organisation, and handling of both spatial and temporal data required for hydrological research and modelling across diverse climatic and physiographic regions of Chile.</p>
+<p><a href="https://cran.r-project.org/package=RcamelsCL" target="_blank" rel="noopener"><strong>RcamelsCL</strong></a> is an R package developed to provide easy and reliable access to the Catchment Attributes and Meteorology for Large Sample Studies – Chile dataset (<a href="https://camels.cr2.cl/" target="_blank" rel="noopener"><strong>CAMELS-CL</strong></a>), a widely used benchmark resource for large-sample hydrology and comparative catchment analysis. This package focuses on simplifying the acquisition, organisation, and handling of both spatial and temporal data required for hydrological research and modelling across diverse climatic and physiographic regions of Chile.</p>
 <p>It was designed by <strong>Héctor Garcés-Figueroa</strong> and I to support reproducible scientific workflows. <a href="https://cran.r-project.org/package=RcamelsCL" target="_blank" rel="noopener"><strong>RcamelsCL</strong></a> offers a consistent interface for downloading and managing hydrometeorological time series and catchment attributes directly from the official data repository. By standardising data access and preprocessing steps, the package reduces the time and effort typically required to prepare datasets for analysis, allowing users to focus on model development, hypothesis testing, and large-sample hydrological investigations.</p>
 <p>Importantly, <a href="https://cran.r-project.org/package=RcamelsCL" target="_blank" rel="noopener"><strong>RcamelsCL</strong></a> preserves the integrity of the original dataset by providing direct access to the original raw data, without altering their content. This approach ensures transparency and traceability in scientific applications, which is particularly relevant for studies involving benchmarking, model intercomparison, and regional hydrological assessment.</p>
 <p>Well suited for research, teaching, and operational analysis, <a href="https://cran.r-project.org/package=RcamelsCL" target="_blank" rel="noopener"><strong>RcamelsCL</strong></a> provides a technically sound and efficient gateway to one of the most comprehensive hydrological datasets available for Chile. It is especially valuable for users seeking a reliable foundation for data-driven hydrological studies and reproducible environmental research.</p>
 <!-- Fotos -->
-<figure><img src="/rpackages/rcamelscl/RcamelsCL-logo.jpg"
+<figure><img src="RcamelsCL-logo.jpg"
     alt="RcamelsCL R package."><figcaption>
       <p><a href="https://cran.r-project.org/package=RcamelsCL" target="_blank" rel="noopener"><strong>RcamelsCL</strong></a> R package.</p>
+    </figcaption>
+</figure>
+
+<h2 id="a-simpler-way-to-work-with-camels-cl">A simpler way to work with CAMELS-CL</h2>
+<p><a href="https://CRAN.R-project.org/package=RcamelsCL" target="_blank" rel="noopener"><strong>RcamelsCL</strong></a> is an <strong>R package</strong> built to make the <strong>CAMELS-CL</strong> dataset easier to use. For hydrologists, that matters because CAMELS-CL (<a href="https://doi.org/10.5194/hess-22-5817-2018" target="_blank" rel="noopener">Alvarez-Garreton et al., 2018</a>) has become a key reference for studying how river basins behave across Chile&rsquo;s wide range of climates and landscapes.</p>
+<p>Instead of spending a large amount of time downloading files, reorganizing folders, and cleaning inputs, users can access the CAMELS-CL data through a consistent R workflow designed for research and modelling.</p>
+<h2 id="why-camels-cl-matters">Why CAMELS-CL matters</h2>
+<p><strong>CAMELS-CL</strong>, short for <strong>Catchment Attributes and Meteorology for Large Sample Studies &ndash; Chile</strong>, is one of the Chile&rsquo;s main benchmark datasets for <strong>large-sample hydrology</strong> and <strong>comparative catchment analysis</strong>.</p>
+<p>It brings together the kinds of information researchers need to ask big questions, including:</p>
+<ul>
+<li><strong>Hydrometeorological time series</strong></li>
+<li><strong>Catchment attributes</strong></li>
+<li>Datasets spanning <strong>diverse climatic and physiographic regions of Chile</strong></li>
+</ul>
+<p>That broad coverage makes the dataset especially useful for testing hydrological models, comparing catchments, and exploring how geography and climate shape water availability.</p>
+<h2 id="what-rcamelscl-does">What RcamelsCL does</h2>
+<p>Developed by <strong>Héctor Garcés-Figueroa</strong> and me, <strong>RcamelsCL</strong> was designed to support <strong>reproducible scientific workflows</strong> end-to-end..</p>
+<p><a href="https://CRAN.R-project.org/package=RcamelsCL" target="_blank" rel="noopener"><strong>RcamelsCL</strong></a> gives users a reliable way to:</p>
+<ul>
+<li>Download data directly from the <strong>official CAMELS-CL repository</strong>.</li>
+<li>Organize both <strong>spatial</strong> and <strong>temporal</strong> datasets.</li>
+<li>Manage hydrometeorological series and basin attributes through a single interface.</li>
+<li>Reduce repetitive preprocessing steps before analysis begins.</li>
+</ul>
+<p>The result is straightforward: less time spent preparing data, and more time spent on <strong>model development</strong>, <strong>hypothesis testing</strong>, and <strong>hydrological analysis</strong>.</p>
+<h2 id="why-direct-access-to-raw-data-is-important">Why direct access to raw data is important</h2>
+<p>One of the package&rsquo;s strongest features is that it preserves the <strong>original dataset exactly as published</strong>. <a href="https://CRAN.R-project.org/package=RcamelsCL" target="_blank" rel="noopener"><strong>RcamelsCL</strong></a> provides access to the <strong>raw source CAMELS-CL data</strong> without changing its content.</p>
+<p>That matters for public trust in science as much as for technical work. When researchers can trace their inputs back to the original repository, it becomes easier to check methods, compare results, and repeat studies with confidence.</p>
+<p>This kind of transparency is especially valuable for:</p>
+<ul>
+<li>
+<p><strong>Benchmarking studies</strong>, where researchers need to know they are testing models against the same source material.</p>
+</li>
+<li>
+<p><strong>Model intercomparison</strong>, to avoid that small preprocessing differences can change model outcomes.</p>
+</li>
+<li>
+<p><strong>Regional hydrological assessment</strong>, where consistent data handling makes it easier to compare catchments across Chile in a reproducible way.</p>
+</li>
+<li>
+<p><strong>Uses beyond specialist research</strong>. Although the package is built mostly for the scientific community, its value goes beyond high-level research projects. <strong>RcamelsCL</strong> is also well suited for:</p>
+<ul>
+<li>Teaching.</li>
+<li>Operational analysis.</li>
+<li>Training in reproducible environmental workflows.</li>
+</ul>
+</li>
+</ul>
+<p>For students, it lowers the barrier to working with real hydrological data. For practitioners, it offers a dependable entry point into one of the most comprehensive catchment datasets available for Chile.</p>
+<h2 id="the-bigger-picture">The bigger picture</h2>
+<p>Hydrology increasingly depends on tools that are not just accurate, but also <strong>transparent</strong>, <strong>repeatable</strong>, and <strong>efficient</strong>. <a href="https://CRAN.R-project.org/package=RcamelsCL" target="_blank" rel="noopener"><strong>RcamelsCL</strong></a> addresses a basic but important bottleneck: <strong>reproducible data access</strong>.</p>
+<p>By making <a href="https://doi.org/10.5194/hess-22-5817-2018" target="_blank" rel="noopener"><strong>CAMELS-CL</strong></a> easier to download, organise, and use without altering the original records, the package gives researchers a stronger foundation for <strong>data-driven hydrology</strong> in Chile. That is a practical contribution with wide reach, from classroom exercises to large-scale environmental assessments.</p>
+<h2 id="how-to-cite-it">How to cite it?</h2>
+<ul>
+<li>
+<p>The package should be cited as:</p>
+
+
+
+  
+  <blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6">
+    <p>Garces-Figueroa H., Zambrano-Bigiarini M. (2026). <em>RcamelsCL: Easy Handling of the CAMELS-CL Dataset</em>. R package version
+0.2-0, doi:10.32614/CRAN.package.RcamelsCL. <a href="https://CRAN.R-project.org/package=RcamelsCL" target="_blank" rel="noopener">https://CRAN.R-project.org/package=RcamelsCL</a>.</p>
+  </blockquote>
+
+</li>
+</ul>
+<!-- Fotos -->
+<figure><img src="/rpackages/rcamelscl/featured.png"
+    alt="Logo of the RcamelsCL R package"><figcaption>
+      <p>Logo of the <a href="https://hgarcesf.gitlab.io/RcamelsCL/" target="_blank" rel="noopener">RcamelsCL</a> R package</p>
     </figcaption>
 </figure>
 
