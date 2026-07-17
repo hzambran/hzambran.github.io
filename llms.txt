@@ -15,6 +15,15 @@ Primary topics: hydrological and hydrometeorological modelling; gridded precipit
 - Dissemination and outreach: https://mzb.cl/dissemination/
 - Software, R packages, and hydrology resources: https://mzb.cl/software/
 - Blog: https://mzb.cl/blog/
+- Students and supervised research: https://mzb.cl/students/
+- Accompanying songs: https://mzb.cl/songs/
+
+## Research resources
+
+- Curated gridded hydrometeorological datasets: https://mzb.cl/software/#water-resources-links
+- R packages: https://mzb.cl/rpackages/
+- Web platforms for precipitation, soil moisture, drought, and IDF analysis: https://mzb.cl/web-platforms/
+- Complete publication catalogue with DOI, BibTeX, and APA 7 citations: https://mzb.cl/publications/
 
 ## Identity and citation
 
