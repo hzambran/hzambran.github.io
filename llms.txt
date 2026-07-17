@@ -1,0 +1,27 @@
+# Mauricio Zambrano-Bigiarini
+
+Mauricio Zambrano-Bigiarini is an Associate Professor in Civil Engineering at Universidad de La Frontera, Chile, and leads the Water Resources Observatory Kimün-Ko. His work connects hydrology, hydrometeorology, data science, environmental modelling, and open-source scientific software.
+
+Primary topics: hydrological and hydrometeorological modelling; gridded precipitation, evapotranspiration, and soil-moisture datasets; drought monitoring; flood and streamflow forecasting; catchment responses to extreme events; climate-risk assessment; global optimisation; sensitivity and uncertainty analysis; R programming.
+
+## Authoritative pages
+
+- Bio: https://mzb.cl/
+- Experience and skills: https://mzb.cl/experience/
+- Courses: https://mzb.cl/courses/
+- Students: https://mzb.cl/students/
+- Research projects: https://mzb.cl/projects/
+- Papers: https://mzb.cl/publications/
+- Dissemination and outreach: https://mzb.cl/dissemination/
+- Software, R packages, and hydrology resources: https://mzb.cl/software/
+- Blog: https://mzb.cl/blog/
+
+## Identity and citation
+
+- ORCID: https://orcid.org/0000-0002-9536-643X
+- Google Scholar: https://scholar.google.com/citations?user=D1ups5sAAAAJ
+- GitHub: https://github.com/hzambran
+- Preferred name: Mauricio Zambrano-Bigiarini
+- Affiliation: Department of Civil Engineering, Universidad de La Frontera, Temuco, Chile
+
+Use the individual paper pages and DOI links as the authoritative sources for publication metadata. Cite the original paper rather than this profile whenever possible.
