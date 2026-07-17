@@ -1,13 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CR2 | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/tags/cr2/</link><atom:link href="https://mzb.cl/tags/cr2/index.xml" rel="self" type="application/rss+xml"/><description>CR2</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 13 Dec 2016 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_855d0eece6b892bf.png</url><title>CR2</title><link>https://mzb.cl/tags/cr2/</link></image><item><title>Poster presentation at AGU 2016</title><link>https://mzb.cl/dissemination/2016-12-13-agu2016/</link><pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate><guid>https://mzb.cl/dissemination/2016-12-13-agu2016/</guid><description>&lt;p&gt;On December 13th 2016, I presented the work titled
-at the conference
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CR2 | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>http://localhost:1313/tags/cr2/</link>
+      <atom:link href="http://localhost:1313/tags/cr2/index.xml" rel="self" type="application/rss+xml" />
+    <description>CR2</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 13 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_855d0eece6b892bf.png</url>
+      <title>CR2</title>
+      <link>http://localhost:1313/tags/cr2/</link>
+    </image>
+    
+    <item>
+      <title>Poster presentation at AGU 2016</title>
+      <link>http://localhost:1313/dissemination/2016-12-13-agu2016/</link>
+      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dissemination/2016-12-13-agu2016/</guid>
+      <description>&lt;p&gt;On December 13th 2016, I presented the work titled 
+ at the conference 
 . In this work I used two drought indices to analyze the contribution of precipitation and temperature to the recent droughts that have affected Chile, in order to improve our understanding about the onset, duration and magnitude of these events.&lt;/p&gt;
 &lt;p&gt;It is the first time that a professor with affiliation &amp;ldquo;Universidad de La Frontera&amp;rdquo; presents in this conference, the most important of Earth Sciences worldwide.&lt;/p&gt;
-&lt;p&gt;This work is part of a collaborative research that I carry out for the
-of the Universidad de Chile.&lt;/p&gt;
+&lt;p&gt;This work is part of a collaborative research that I carry out for the 
+ of the Universidad de Chile.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Spanish version&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;El pasado 13 de Diciembre de 2016, presenté el trabajo titulado
-en la conferencia
+&lt;p&gt;El pasado 13 de Diciembre de 2016, presenté el trabajo titulado 
+ en la conferencia 
 . En este trabajo utilicé dos índices de sequía para analizar la contribución de la precipitación y la temperatura a las recientes sequías que han afectado Chile, para mejorar nuestra comprensión acerca del inicio, duración y magnitud de estos eventos.&lt;/p&gt;
 &lt;p&gt;Es la primera vez que un docente con afiliación Universidad de La Frontera presenta en este evento, el más importante de las Ciencias de la Tierra a nivel mundial.&lt;/p&gt;
-&lt;p&gt;Este trabajo forma parte del trabajo como investigador adjunto que realizo para el
-de la Universidad de Chile.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Este trabajo forma parte del trabajo como investigador adjunto que realizo para el 
+ de la Universidad de Chile.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

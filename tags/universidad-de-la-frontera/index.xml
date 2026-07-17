@@ -1,11 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Universidad De La Frontera | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/tags/universidad-de-la-frontera/</link><atom:link href="https://mzb.cl/tags/universidad-de-la-frontera/index.xml" rel="self" type="application/rss+xml"/><description>Universidad De La Frontera</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_855d0eece6b892bf.png</url><title>Universidad De La Frontera</title><link>https://mzb.cl/tags/universidad-de-la-frontera/</link></image><item><title>IIO222 - Programación Aplicada (undergraduate)</title><link>https://mzb.cl/courses/iio222-programacionaplicada/</link><pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate><guid>https://mzb.cl/courses/iio222-programacionaplicada/</guid><description>&lt;p&gt;Description of the Applied Programming undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Universidad De La Frontera | Dr. Mauricio Zambrano-Bigiarini</title>
+    <link>http://localhost:1313/tags/universidad-de-la-frontera/</link>
+      <atom:link href="http://localhost:1313/tags/universidad-de-la-frontera/index.xml" rel="self" type="application/rss+xml" />
+    <description>Universidad De La Frontera</description>
+    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_855d0eece6b892bf.png</url>
+      <title>Universidad De La Frontera</title>
+      <link>http://localhost:1313/tags/universidad-de-la-frontera/</link>
+    </image>
+    
+    <item>
+      <title>IIO222 - Programación Aplicada (undergraduate)</title>
+      <link>http://localhost:1313/courses/iio222-programacionaplicada/</link>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/iio222-programacionaplicada/</guid>
+      <description>&lt;p&gt;Description of the Applied Programming undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src="https://mzb.cl/courses/iio222-programacionaplicada/iio222-logo_full.png"
-alt="Applied Programming course at UFRO"&gt;&lt;figcaption&gt;
-&lt;p&gt;Applied Programming course at the Civil Engineering Department (UFRO)&lt;/p&gt;
-&lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/courses/iio222-programacionaplicada/iio222-logo_full.png&#34;
+    alt=&#34;Applied Programming course at UFRO&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Applied Programming course at the Civil Engineering Department (UFRO)&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2 id="identification-of-the-course"&gt;Identification of the course&lt;/h2&gt;
+
+&lt;h2 id=&#34;identification-of-the-course&#34;&gt;Identification of the course&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Professional degree&lt;/strong&gt;: Civil Engineering&lt;/p&gt;
@@ -38,15 +58,15 @@ alt="Applied Programming course at UFRO"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;Language&lt;/strong&gt;: Spanish&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 &lt;p&gt;This compulsory course introduces Civil Engineering students to the potential of scientific programming as a fundamental tool for solving complex problems inherent to the discipline. Throughout the course, students will explore how programming concepts and techniques, along with the use of open-source languages widely used in data science and civil engineering, can be applied to model, simulate, and analyse problems in the field of civil engineering. The focus will be on developing practical skills to transform engineering challenges into efficient algorithms, enabling the automation of data downloads, calculations, and the interactive visualization of data and results. By the end of the course, students will be equipped with the necessary skills to integrate scientific programming into their daily workflow, preparing them to face the technological challenges of the 21st century.&lt;/p&gt;
-&lt;h2 id="professional-skills"&gt;Professional skills&lt;/h2&gt;
+&lt;h2 id=&#34;professional-skills&#34;&gt;Professional skills&lt;/h2&gt;
 &lt;p&gt;Design solutions to problems related to the use of water resources in engineering projects, applying solid knowledge of basic sciences and engineering, in compliance with current regulations and project specifications, and using appropriate technological tools, while demonstrating the ability to work in teams, engage in independent learning, and act with social responsibility.&lt;/p&gt;
-&lt;h2 id="generic-skills"&gt;Generic skills&lt;/h2&gt;
+&lt;h2 id=&#34;generic-skills&#34;&gt;Generic skills&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Teamwork&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="learning-outcomes"&gt;Learning outcomes&lt;/h2&gt;
+&lt;h2 id=&#34;learning-outcomes&#34;&gt;Learning outcomes&lt;/h2&gt;
 &lt;p&gt;Upon successful completion of this course or module, students should be able to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -62,7 +82,7 @@ alt="Applied Programming course at UFRO"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;RA4&lt;/strong&gt;: Improve teamwork skills through the development of tasks and/or a final project that must be carried out collaboratively within a team.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="contents"&gt;Contents&lt;/h2&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Introduction to scientific programming&lt;/strong&gt;: Description of the programming language (R/Python). Data types. Assignment, symbols, operators.&lt;/p&gt;
@@ -86,44 +106,53 @@ alt="Applied Programming course at UFRO"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;Interactive visualization&lt;/strong&gt;: Introduction to interactive data visualization. Interactive application development.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="bibliography"&gt;Bibliography&lt;/h2&gt;
-&lt;h3 id="basic-bibliography"&gt;Basic bibliography&lt;/h3&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+&lt;h3 id=&#34;basic-bibliography&#34;&gt;Basic bibliography&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Bloomfield, Víctor A. (2014).
+&lt;p&gt;Bloomfield, Víctor A. (2014). 
 . ISBN 9781439884485. (Biblioteca UFRO).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Gerrard, P.; Johnson, R.; Johnson, R. (2015).
+&lt;p&gt;Gerrard, P.; Johnson, R.; Johnson, R. (2015). 
 . ISBN: 9781783555253.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="supplementary-bibliography"&gt;Supplementary bibliography&lt;/h3&gt;
+&lt;h3 id=&#34;supplementary-bibliography&#34;&gt;Supplementary bibliography&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Trejo, O. (2017).
+&lt;p&gt;Trejo, O. (2017). 
 . Packt Publishing Ltd. ISBN: 9781788291361.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Shahare, G. Manchalwar, J., Wankhede, K., Meshram, S., Kalbande, K., &amp;amp; Wyawahare, N. (2024).
-In 2024 2nd International Conference on Advancements and Key Challenges in Green Energy and Computing (AKGEC).&lt;/p&gt;
+&lt;p&gt;Shahare, G. Manchalwar, J., Wankhede, K., Meshram, S., Kalbande, K., &amp;amp; Wyawahare, N. (2024). 
+ In  2024 2nd International Conference on Advancements and Key Challenges in Green Energy and Computing (AKGEC).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Ren, K. (2016).
+&lt;p&gt;Ren, K. (2016). 
 . Packt Publishing Ltd. ISBN: 9781785889776.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Lovelace, Robin, Jakub Nowosad, and Jannes Muenchow. (2025).
+&lt;p&gt;Lovelace, Robin, Jakub Nowosad, and Jannes Muenchow. (2025). 
 . Second edition. CRC Press. ISBN: 9781032248882.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>IIO409 - Hydrological Modelling (undergraduate)</title><link>https://mzb.cl/courses/iio409-modelacionhidrologica/</link><pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate><guid>https://mzb.cl/courses/iio409-modelacionhidrologica/</guid><description>&lt;p&gt;Description of the Hydrological Modelling undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>IIO409 - Hydrological Modelling (undergraduate)</title>
+      <link>http://localhost:1313/courses/iio409-modelacionhidrologica/</link>
+      <pubDate>Sat, 02 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/iio409-modelacionhidrologica/</guid>
+      <description>&lt;p&gt;Description of the Hydrological Modelling undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src="https://mzb.cl/courses/iio409-modelacionhidrologica/iio409-logo_full.png"
-alt="Hydrological Modelling course at UFRO"&gt;&lt;figcaption&gt;
-&lt;p&gt;Hydrological Modelling course at the Civil Engineering Department (UFRO)&lt;/p&gt;
-&lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/courses/iio409-modelacionhidrologica/iio409-logo_full.png&#34;
+    alt=&#34;Hydrological Modelling course at UFRO&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Hydrological Modelling course at the Civil Engineering Department (UFRO)&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2 id="identification-of-the-course"&gt;Identification of the course&lt;/h2&gt;
+
+&lt;h2 id=&#34;identification-of-the-course&#34;&gt;Identification of the course&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Professional degree&lt;/strong&gt;: Civil Engineering&lt;/p&gt;
@@ -156,15 +185,15 @@ alt="Hydrological Modelling course at UFRO"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;Language&lt;/strong&gt;: Spanish&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 &lt;p&gt;This elective course deepens the training of students interested in the Water Resources and Hydraulics area through instruction in the application of techniques for the mathematical simulation of the transformation of precipitation into surface runoff within a catchment. The first part of the course reviews the different types of hydrological models, their structure, and the formulation of conceptual models to represent the hydrological processes of a given catchment. Subsequently, the principal sources of in situ and satellite data are described. The course then introduces the main techniques for sensitivity analysis, calibration and validation, and uncertainty analysis of model parameters and associated outputs. Finally, the course examines the range of climate change scenarios available for Chile and analyzes their potential impacts on water resource availability at the catchment scale.&lt;/p&gt;
-&lt;h2 id="professional-skills"&gt;Professional skills&lt;/h2&gt;
+&lt;h2 id=&#34;professional-skills&#34;&gt;Professional skills&lt;/h2&gt;
 &lt;p&gt;Design solutions to problems related to the use of water resources in engineering projects, applying solid knowledge of basic sciences and engineering, in compliance with current regulations and project specifications, and using appropriate technological tools, while demonstrating the ability to work in teams, engage in independent learning, and act with social responsibility.&lt;/p&gt;
-&lt;h2 id="generic-skills"&gt;Generic skills&lt;/h2&gt;
+&lt;h2 id=&#34;generic-skills&#34;&gt;Generic skills&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;None.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="learning-outcomes"&gt;Learning outcomes&lt;/h2&gt;
+&lt;h2 id=&#34;learning-outcomes&#34;&gt;Learning outcomes&lt;/h2&gt;
 &lt;p&gt;Upon successful completion of this course or module, students should be able to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -177,7 +206,7 @@ alt="Hydrological Modelling course at UFRO"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;RA3&lt;/strong&gt;: Quantify the uncertainty associated with model parameters and the resulting model outputs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="contents"&gt;Contents&lt;/h2&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Hydrological models&lt;/strong&gt;. Context of hydrological modeling. Types of hydrological models. Structure of a model. Formulation of the conceptual model. Selection and implementation of the computational model.&lt;/p&gt;
@@ -201,30 +230,39 @@ alt="Hydrological Modelling course at UFRO"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;Impacts of Climate Change&lt;/strong&gt;. Climate change scenarios available for Chile. General description of downscaling techniques.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="bibliography"&gt;Bibliography&lt;/h2&gt;
-&lt;h3 id="basic-bibliography"&gt;Basic bibliography&lt;/h3&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+&lt;h3 id=&#34;basic-bibliography&#34;&gt;Basic bibliography&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Beven, Keith J. (2012).
+&lt;p&gt;Beven, Keith J. (2012). 
 . 2nd edition. ISBN: ISBN:9780470714591. (Biblioteca UFRO).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Musy, A.; Hingray, B.; Picouet, C. (Eds.). (2015). Hydrology: a science for engineers. CRC press. ISBN: ISBN 9781466590595.&lt;/p&gt;
+&lt;p&gt;Musy, A.; Hingray, B.;  Picouet, C. (Eds.). (2015). Hydrology: a science for engineers. CRC press. ISBN: ISBN 9781466590595.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Shaw, Elizabeth M. ; Beven, Keith J.; Chappell, Nick A.; Lamb, Rob (2011).
+&lt;p&gt;Shaw, Elizabeth M. ;  Beven, Keith J.; Chappell, Nick A.; Lamb, Rob (2011). 
 . ISBN: 9781315274904 (Biblioteca UFRO).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="supplementary-bibliography"&gt;Supplementary bibliography&lt;/h3&gt;
-&lt;p&gt;Several scientific articles.&lt;/p&gt;</description></item><item><title>IIO352/IIO422 - Hidrología (undergraduate)</title><link>https://mzb.cl/courses/iio352-hidrologia/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://mzb.cl/courses/iio352-hidrologia/</guid><description>&lt;p&gt;Description of the Hydrology undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
+&lt;h3 id=&#34;supplementary-bibliography&#34;&gt;Supplementary bibliography&lt;/h3&gt;
+&lt;p&gt;Several scientific articles.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IIO352/IIO422 - Hidrología (undergraduate)</title>
+      <link>http://localhost:1313/courses/iio352-hidrologia/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/iio352-hidrologia/</guid>
+      <description>&lt;p&gt;Description of the Hydrology undergraduate course at the Universidad de La Frontera (Temuco)&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src="https://mzb.cl/courses/iio352-hidrologia/iio352-logo_full.png"
-alt="Hydrology course at UFRO"&gt;&lt;figcaption&gt;
-&lt;p&gt;Hydrology course at the Civil Engineering Department (UFRO)&lt;/p&gt;
-&lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/courses/iio352-hidrologia/iio352-logo_full.png&#34;
+    alt=&#34;Hydrology course at UFRO&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Hydrology course at the Civil Engineering Department (UFRO)&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h2 id="identification-of-the-course"&gt;Identification of the course&lt;/h2&gt;
+
+&lt;h2 id=&#34;identification-of-the-course&#34;&gt;Identification of the course&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Professional degree&lt;/strong&gt;: Civil Engineering&lt;/p&gt;
@@ -257,16 +295,16 @@ alt="Hydrology course at UFRO"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;Language&lt;/strong&gt;: Spanish&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 &lt;p&gt;This compulsory course studies the occurrence, distribution, and circulation of water on Earth, with particular emphasis on understanding and numerically evaluating the various components of the hydrological cycle, using a catchment as the spatial unit of analysis. It also provides knowledge on the management and exploratory analysis of hydro-meteorological data and an introduction to the use of hydrological models for both water resource management and obtaining current and future values of key hydrological variables.&lt;/p&gt;
-&lt;h2 id="professional-skills"&gt;Professional skills&lt;/h2&gt;
+&lt;h2 id=&#34;professional-skills&#34;&gt;Professional skills&lt;/h2&gt;
 &lt;p&gt;Design solutions to problems related to the use of water resources in engineering projects, applying solid knowledge of basic sciences and engineering, in compliance with current regulations and project specifications, and using appropriate technological tools, while demonstrating the ability to work in teams, engage in independent learning, and act with social responsibility.&lt;/p&gt;
-&lt;h2 id="generic-skills"&gt;Generic skills&lt;/h2&gt;
+&lt;h2 id=&#34;generic-skills&#34;&gt;Generic skills&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Teamwork&lt;/li&gt;
 &lt;li&gt;Social responsibility&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="learning-outcomes"&gt;Learning outcomes&lt;/h2&gt;
+&lt;h2 id=&#34;learning-outcomes&#34;&gt;Learning outcomes&lt;/h2&gt;
 &lt;p&gt;Upon successful completion of this course or module, students should be able to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -288,7 +326,7 @@ alt="Hydrology course at UFRO"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;RA6&lt;/strong&gt;: Self-evaluate their own performance as a member of a work team.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="contents"&gt;Contents&lt;/h2&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Introduction and basic concepts&lt;/strong&gt;: Definition and scope of hydrology. The hydrological cycle and the general equation for hydrological balance. Concept of a catchment and integrated water resource management. Spatial and temporal variability of hydrological processes.&lt;/p&gt;
@@ -309,70 +347,70 @@ alt="Hydrology course at UFRO"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;Introduction to hydrological models&lt;/strong&gt;: Types of models. Concepts of sensitivity analysis, calibration/optimisation, and uncertainty analysis.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="bibliography"&gt;Bibliography&lt;/h2&gt;
-&lt;h3 id="basic-bibliography"&gt;Basic bibliography&lt;/h3&gt;
+&lt;h2 id=&#34;bibliography&#34;&gt;Bibliography&lt;/h2&gt;
+&lt;h3 id=&#34;basic-bibliography&#34;&gt;Basic bibliography&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Hakim, Gregory J. and Patoux, Jérôme (2022).
+&lt;p&gt;Hakim, Gregory J. and Patoux, Jérôme (2022). 
 . Second edition. Cambridge University Press. ISBN: 9781108832717. (Biblioteca UFRO).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Naghettini, Mauro (2017).
+&lt;p&gt;Naghettini, Mauro (2017). 
 . Springer International Publishing. ISBN:978-3-319-43560-2. (Biblioteca UFRO).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Jain, Sharad K. and Singh, Vijay P. (2019).
+&lt;p&gt;Jain, Sharad K. and Singh, Vijay P. (2019). 
 . McGraw Hill. ISBN:978-1259641985. (Biblioteca UFRO).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Bloomfield, Víctor A. (2014).
+&lt;p&gt;Bloomfield, Víctor A. (2014). 
 . ISBN 9781439884485. (Biblioteca UFRO).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Shaw, Elizabeth M. ; Beven, Keith J.; Chappell, Nick A.; Lamb, Rob (2011).
+&lt;p&gt;Shaw, Elizabeth M. ;  Beven, Keith J.; Chappell, Nick A.; Lamb, Rob (2011). 
 . ISBN: 9781315274904 (Biblioteca UFRO).&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="supplementary-bibliography"&gt;Supplementary bibliography&lt;/h3&gt;
+&lt;h3 id=&#34;supplementary-bibliography&#34;&gt;Supplementary bibliography&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Robinson, M. and Ward, R. C. (2017).
+&lt;p&gt;Robinson, M. and Ward, R. C. (2017). 
 . IWA Publishing. ISBN: 9781780407296.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Musy, A. and Higy, C. (2011)
-(pp. 263-274). CRC Press. ISBN: 9781578087099.&lt;/p&gt;
+&lt;p&gt;Musy, A. and Higy, C. (2011) 
+ (pp. 263-274). CRC Press. ISBN: 9781578087099.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Stowhas, L. (2017).
+&lt;p&gt;Stowhas, L. (2017). 
 . Editorial USM.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Espíldora, B. 2020.
+&lt;p&gt;Espíldora, B. 2020. 
 . ISBN: 978-956-306-154-3.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Fernández, B. and Gironás, J. (2021).
+&lt;p&gt;Fernández, B. and Gironás, J. (2021). 
 . Springer. ISBN: 978-3-030-56900-6.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Little C., Zambrano-Bigiarini M., Benítez S. and Rivera A. (2016),
+&lt;p&gt;Little C., Zambrano-Bigiarini M., Benítez S. and Rivera A. (2016), 
 . Editado por Centro de Análisis de Políticas Públicas, Instituto de Asuntos Públicos.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Vijay P. Singh (2017).
-(Second Edition). McGraw-Hill Education. ISBN: 0071835105.&lt;/p&gt;
+&lt;p&gt;Vijay P. Singh (2017). 
+ (Second Edition). McGraw-Hill Education. ISBN: 0071835105.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Te Chow, V.; Maidment, D. R.; Mays, L. W. (1994).
+&lt;p&gt;Te Chow, V.; Maidment, D. R.; Mays, L. W. (1994). 
 . McGraw Hill. ISBN: 9789586001717.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Helsel, D. R.; Hirsch, R. M. ; Ryberg, K. R.; Archfield, S. A.; Gilroy, E. J. (2020). Statistical methods in water resources: U.S. Geological Survey Techniques and Methods, book 4, chapter A3, 458 p.,
+&lt;p&gt;Helsel, D. R.; Hirsch, R. M. ; Ryberg, K. R.; Archfield, S. A.; Gilroy, E. J. (2020). Statistical methods in water resources: U.S. Geological Survey Techniques and Methods, book 4, chapter A3, 458 p., 
 .&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;DGA (2016). Atlas del Agua: Chile 2016.
+&lt;p&gt;DGA (2016). Atlas del Agua: Chile 2016. 
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -381,14 +419,23 @@ alt="Hydrology course at UFRO"&gt;&lt;figcaption&gt;
 &lt;li&gt;
 &lt;p&gt;Reddy, P. J. (2021). Stochastic Hydrology (HB). Laxmi Publications, Ltd.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Courses I have previously taught, but not anymore</title><link>https://mzb.cl/courses/cursos_anteriores/</link><pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate><guid>https://mzb.cl/courses/cursos_anteriores/</guid><description>&lt;p&gt;Description of undergraduate and graduate courses I have previously taught, but not anymore.&lt;/p&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Courses I have previously taught, but not anymore</title>
+      <link>http://localhost:1313/courses/cursos_anteriores/</link>
+      <pubDate>Wed, 02 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/courses/cursos_anteriores/</guid>
+      <description>&lt;p&gt;Description of undergraduate and graduate courses I have previously taught, but not anymore.&lt;/p&gt;
 &lt;!-- Fotos --&gt;
-&lt;figure&gt;&lt;img src="https://mzb.cl/courses/cursos_anteriores/CursosAnteriores_Logo.jpg"
-alt="Courses I have previously taught, but not anymore"&gt;&lt;figcaption&gt;
-&lt;p&gt;Courses I have previously taught, but not anymore&lt;/p&gt;
-&lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/courses/cursos_anteriores/CursosAnteriores_Logo.jpg&#34;
+    alt=&#34;Courses I have previously taught, but not anymore&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Courses I have previously taught, but not anymore&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;h3 id="undergraduate-course-as-main-professor"&gt;Undergraduate course as main professor&lt;/h3&gt;
+
+&lt;h3 id=&#34;undergraduate-course-as-main-professor&#34;&gt;Undergraduate course as main professor&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;2017-2020&lt;/strong&gt;: IIO-101: &lt;strong&gt;Introduction to Civil Engineering&lt;/strong&gt; [in Spanish]. Civil Engineering Degree, Faculty of Engineering and Sciences, Universidad de La Frontera, Temuco, Chile.&lt;/p&gt;
@@ -400,13 +447,13 @@ alt="Courses I have previously taught, but not anymore"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;2014&lt;/strong&gt;: 999035: &lt;strong&gt;Hydrology&lt;/strong&gt; [in Spanish]. Environmental Engineering Degree, Faculty of Environmental Sciences and EULA-Chile Centre, University of Concepción, Concepción, Chile.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;2014&lt;/strong&gt;: 999102: &lt;strong&gt;Introduction to the R statistical environment for analysing hydro-meteorological data&lt;/strong&gt; [in Spanish]. Environmental Engineering Degree, Faculty of Environmental Sciences and EULA-Chile Centre, University of Concepción, Concepción, Chile.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2014&lt;/strong&gt;: 999102: &lt;strong&gt;Introduction to the R statistical environment for analysing hydro-meteorological data&lt;/strong&gt;  [in Spanish]. Environmental Engineering Degree, Faculty of Environmental Sciences and EULA-Chile Centre, University of Concepción, Concepción, Chile.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;2014&lt;/strong&gt;: 4204082: &lt;strong&gt;Introduction to the R statistical environment R for analysing ecological and environmental data&lt;/strong&gt; [in Spanish]. Environmental Engineering Degree, Faculty of Environmental Sciences and EULA-Chile Centre, University of Concepción, Concepción, Chile.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="undergraduate-courses-as-collaborator"&gt;Undergraduate courses as collaborator&lt;/h3&gt;
+&lt;h3 id=&#34;undergraduate-courses-as-collaborator&#34;&gt;Undergraduate courses as collaborator&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;2014&lt;/strong&gt;: 999043: &lt;strong&gt;Water resources management&lt;/strong&gt; [in Spanish]. Faculty of Environmental Sciences and EULA-Chile Centre, University of Concepción, Concepción, Chile.&lt;/p&gt;
@@ -418,14 +465,18 @@ alt="Courses I have previously taught, but not anymore"&gt;&lt;figcaption&gt;
 &lt;p&gt;&lt;strong&gt;2014&lt;/strong&gt;: 999064: &lt;strong&gt;Advanced hydrology&lt;/strong&gt; [in Spanish]. Faculty of Environmental Sciences and EULA-Chile Centre, University of Concepción, Concepción, Chile.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="one-day-seminars-as-main-professor"&gt;One-day seminars as main professor&lt;/h3&gt;
+&lt;h3 id=&#34;one-day-seminars-as-main-professor&#34;&gt;One-day seminars as main professor&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;30 Aug 2010. &lt;strong&gt;On the Effects of Hydrological Uncertainty in Assessing the Impacts of Climate Change on Water Resources&lt;/strong&gt;. Seminar for doctoral students of Civil Agricultural Engineering, Universidad de Concepción, Chillán, Chile.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;ol start="2005"&gt;
+&lt;ol start=&#34;2005&#34;&gt;
 &lt;li&gt;&lt;strong&gt;Training on Hydrological Modelling for D.G.A.&lt;/strong&gt; Trainer of Hydrological Modelling (surface water) to the Regional Water Directorates in Chile, Regional D.G.A.s, Chile.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
