@@ -1,16 +1,1290 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>IIO352/IIO422 - Hidrología (undergraduate) | Dr. Mauricio Zambrano-Bigiarini</title>
-    <link>http://localhost:1313/courses/iio352-hidrologia/</link>
-      <atom:link href="http://localhost:1313/courses/iio352-hidrologia/index.xml" rel="self" type="application/rss+xml" />
-    <description>IIO352/IIO422 - Hidrología (undergraduate)</description>
-    <generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>http://localhost:1313/courses/iio352-hidrologia/featured.jpg</url>
-      <title>IIO352/IIO422 - Hidrología (undergraduate)</title>
-      <link>http://localhost:1313/courses/iio352-hidrologia/</link>
-    </image>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IIO352/IIO422 - Hidrología (undergraduate) | Dr. Mauricio Zambrano-Bigiarini</title><link>https://hzambran.github.io/courses/iio352-hidrologia/</link><atom:link href="https://hzambran.github.io/courses/iio352-hidrologia/index.xml" rel="self" type="application/rss+xml"/><description>IIO352/IIO422 - Hidrología (undergraduate)</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><image><url>https://hzambran.github.io/courses/iio352-hidrologia/featured.jpg</url><title>IIO352/IIO422 - Hidrología (undergraduate)</title><link>https://hzambran.github.io/courses/iio352-hidrologia/</link></image><item><title>How to use ChatGPT to learn Hydrology - Part I: configuration, context and useful prompts</title><link>https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/</link><pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate><guid>https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/</guid><description>
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Estimated reading and practice time:&lt;/strong&gt; 15-25 minutes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="why-this-series-of-tutorials"&gt;Why this series of tutorials?&lt;/h2&gt;
+&lt;p&gt;Preparing university students today for their future professional practice is unusually challenging because &lt;strong&gt;we cannot know precisely what Artificial Intelligence systems will be able to do in a few years&lt;/strong&gt;. The capabilities of generative models are evolving rapidly, barriers to access are falling, and the range of tasks that can be automated is changing. Teaching only how to operate the current version of ChatGPT therefore has limited long-term value: the tools will change, but engineers will still need to understand a problem, judge the quality of an answer, verify evidence, detect errors and make responsible decisions.&lt;/p&gt;
+&lt;p&gt;Recent discussion in higher education points in the same direction. AI can broaden access to explanations, feedback and personalised learning, but it can also foster dependence, superficial learning and reduced exercise of critical thinking when it replaces the student&amp;rsquo;s own cognitive effort (
+). The challenge is therefore not simply to adopt AI more quickly, but to decide &lt;strong&gt;what it should be used for and what kind of learning we want it to support&lt;/strong&gt; (
+). Likewise, recent analyses argue that higher education should strengthen capacities such as critical thinking, adaptability, curiosity and lifelong learning (
+), and that many of the decisions posed by AI are fundamentally &lt;strong&gt;pedagogical before they are technological&lt;/strong&gt; (
+).&lt;/p&gt;
+&lt;p&gt;For that reason, the purpose of this three-part series is not to teach you how to obtain answers more quickly. It is to help you use generative AI to &lt;strong&gt;understand Hydrology more deeply, practise more effectively, identify what you still do not understand, and develop the autonomy required to solve unfamiliar problems&lt;/strong&gt;. In short:&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Use AI to increase learning, not to avoid the process of learning.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ChatGPT can help you learn Hydrology, or it can help you avoid learning it. The difference depends mainly on how you use it.&lt;/p&gt;
+&lt;p&gt;In IIO422-Hydrology, obtaining the correct numerical answer is not enough. The course expects you to &lt;strong&gt;analyse hydrological processes, quantify variables, work probabilistically, interpret results, detect errors and justify engineering decisions&lt;/strong&gt;. Generative AI is explicitly permitted as a learning and computational support tool outside assessments, but its use must be critical, verifiable, transparent and responsible.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Two ways to use ChatGPT"
+srcset="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-1-tutor-vs-autopilot_hu_33a1b93deadb1fbe.webp 320w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-1-tutor-vs-autopilot_hu_e5f35eae898d4e55.webp 480w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-1-tutor-vs-autopilot_hu_afae3bb373388665.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-1-tutor-vs-autopilot_hu_33a1b93deadb1fbe.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="1-the-fundamental-rule-tutor-not-autopilot"&gt;1. The fundamental rule: tutor, not autopilot&lt;/h2&gt;
+&lt;p&gt;A weak query would be:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Explain the water balance.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A much better one would be:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I am taking IIO422-Hydrology in Civil Engineering.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I understand precipitation and streamflow, but I still confuse
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;evapotranspiration with changes in catchment storage.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Help me interpret the annual water balance physically.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;First ask me two diagnostic questions.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then correct my misconceptions and only afterwards give
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;a concise explanation.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Use units of mm/year and do not assume Delta S = 0
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;unless you justify that approximation.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The difference is not cosmetic. The second prompt forces you to think before receiving the explanation.&lt;/p&gt;
+&lt;h2 id="2-configure-the-context-that-actually-matters"&gt;2. Configure the context that actually matters&lt;/h2&gt;
+&lt;p&gt;The course assumes previous knowledge of Fluid Mechanics, Hydraulics, Statistics and English. It also requires you to collect and analyse hydrometeorological information, construct simplified water balances, perform frequency analysis, and estimate design rainfall and streamflow.&lt;/p&gt;
+&lt;p&gt;In &lt;code&gt;Settings &amp;gt; Personalization &amp;gt; Custom Instructions&lt;/code&gt;, you could write:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I am a Civil Engineering student in Chile taking IIO422-Hydrology.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I have already passed Fluid Mechanics, Hydraulics and Statistics.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I also know how to program in R.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;When helping me:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- prioritise reasoning and physical interpretation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- use SI units;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- check dimensional consistency;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- distinguish data, assumptions, method, result and uncertainty;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- use examples from Chilean catchments when useful;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- do not invent data, references, packages or functions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- if important information is missing, ask before assuming;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- for R, avoid tidyverse and prioritise base R, hydroTSM
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; and the tools specified in the course;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- when I am preparing for an assessment, do not provide
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; the full solution before I have attempted the problem.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Do not include personal information that is irrelevant to learning.&lt;/p&gt;
+&lt;h2 id="3-connect-chatgpt-with-the-learning-outcomes"&gt;3. Connect ChatGPT with the Learning Outcomes&lt;/h2&gt;
+&lt;p&gt;The syllabus defines five Learning Outcomes. Use them as a test of whether an AI interaction is actually helping you learn:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LO1:&lt;/strong&gt; conceptually analyse key hydrological-cycle processes and apply them to Chilean catchments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LO2:&lt;/strong&gt; quantify the temporal evolution of precipitation, evapotranspiration and runoff using in-situ and gridded data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LO3:&lt;/strong&gt; analyse hydrological variables probabilistically for engineering design and planning.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LO4:&lt;/strong&gt; incorporate social responsibility into water-resources management problems.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LO5:&lt;/strong&gt; develop personal and teamwork skills needed to meet agreed objectives and deadlines.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A useful ChatGPT session should strengthen at least one of these outcomes. If it merely produces text or code that you cannot explain, it probably strengthens none of them.&lt;/p&gt;
+&lt;h2 id="4-the-anatomy-of-a-good-prompt"&gt;4. The anatomy of a good prompt&lt;/h2&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Anatomy of a useful hydrology prompt"
+srcset="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-2-prompt-anatomy_hu_224cd08fca720514.webp 320w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-2-prompt-anatomy_hu_61e55033eed9ad7a.webp 480w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-2-prompt-anatomy_hu_95d7281e1da42e05.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-2-prompt-anatomy_hu_224cd08fca720514.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For most course tasks, five components are sufficient:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ROLE + CONTEXT + TASK + CONSTRAINTS + OUTPUT&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="role"&gt;Role&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Act as a university Hydrology lecturer for Civil Engineering.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="context"&gt;Context&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I am studying infiltration and the Green-Ampt method.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I understand infiltration capacity, but not the role
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;of initial soil moisture.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="task"&gt;Task&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Help me compare the same storm over an initially dry soil
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and an initially wet soil.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="constraints"&gt;Constraints&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not invent parameter values.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Use SI units.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not simplify the assumptions of Green-Ampt without stating them.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="output"&gt;Output&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Answer in five parts:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. physical idea;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. relevant variables;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. equation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. example;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. one question to test my understanding.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="5-make-the-model-recognise-missing-information"&gt;5. Make the model recognise missing information&lt;/h2&gt;
+&lt;p&gt;A hydrological answer may depend on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;temporal scale;&lt;/li&gt;
+&lt;li&gt;catchment area;&lt;/li&gt;
+&lt;li&gt;data resolution;&lt;/li&gt;
+&lt;li&gt;hydrological year;&lt;/li&gt;
+&lt;li&gt;antecedent conditions;&lt;/li&gt;
+&lt;li&gt;rainfall- or snow-dominated regime;&lt;/li&gt;
+&lt;li&gt;regulation;&lt;/li&gt;
+&lt;li&gt;units;&lt;/li&gt;
+&lt;li&gt;availability and quality of observations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Add:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Before solving the problem, identify whether essential information
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;is missing.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;If it is, ask me no more than three specific questions.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not introduce silent assumptions.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="6-use-the-course-learning-sequence-as-a-dialogue-structure"&gt;6. Use the course learning sequence as a dialogue structure&lt;/h2&gt;
+&lt;p&gt;The syllabus organises learning around:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;conceptualisation
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ application
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ evidence analysis
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ perturbation of the problem
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ interpretation
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ defence of results
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can turn that sequence directly into a prompt:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I want to study [TOPIC].
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Work with me in six stages:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. conceptualisation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. application;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. evidence;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. change one assumption or input;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. ask me to interpret what changes;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;6. make me defend the conclusion.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is more useful than requesting a long explanation.&lt;/p&gt;
+&lt;h2 id="7-separate-facts-assumptions-results-and-uncertainty"&gt;7. Separate facts, assumptions, results and uncertainty&lt;/h2&gt;
+&lt;p&gt;For quantitative problems:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Separate your response into:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- available data;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- assumptions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- equations;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- calculation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- result;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- physical interpretation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- uncertainty;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- limitations.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This mirrors the course-wide assessment criteria: conceptual understanding, mathematical correctness, dimensional consistency, hydrological reasoning, physical interpretation, critical judgement and consideration of uncertainty.&lt;/p&gt;
+&lt;h2 id="8-fluency-does-not-imply-truth"&gt;8. Fluency does not imply truth&lt;/h2&gt;
+&lt;p&gt;ChatGPT can produce polished but incorrect answers.&lt;/p&gt;
+&lt;p&gt;Watch especially for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;unit errors;&lt;/li&gt;
+&lt;li&gt;incorrect signs;&lt;/li&gt;
+&lt;li&gt;mixed temporal scales;&lt;/li&gt;
+&lt;li&gt;confusion between exceedance and non-exceedance;&lt;/li&gt;
+&lt;li&gt;methods used outside their assumptions;&lt;/li&gt;
+&lt;li&gt;fabricated data;&lt;/li&gt;
+&lt;li&gt;non-existent references;&lt;/li&gt;
+&lt;li&gt;non-existent R functions;&lt;/li&gt;
+&lt;li&gt;causal interpretations unsupported by evidence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Try:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Audit your answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Look specifically for:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. conceptual errors;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. dimensional errors;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. unstated assumptions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. physically implausible results;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. omitted uncertainty;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;6. references or functions you cannot verify.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="9-ai-is-not-a-scientific-authority"&gt;9. AI is not a scientific authority&lt;/h2&gt;
+&lt;p&gt;The syllabus is explicit: AI tools do not replace hydrological analysis and are not sources of scientific authority.&lt;/p&gt;
+&lt;p&gt;Verify important information using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;course material;&lt;/li&gt;
+&lt;li&gt;textbooks;&lt;/li&gt;
+&lt;li&gt;scientific papers;&lt;/li&gt;
+&lt;li&gt;official documentation;&lt;/li&gt;
+&lt;li&gt;R documentation;&lt;/li&gt;
+&lt;li&gt;original data;&lt;/li&gt;
+&lt;li&gt;independent calculations;&lt;/li&gt;
+&lt;li&gt;physical-consistency checks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="10-declare-ai-use-in-practical-assignments"&gt;10. Declare AI use in practical assignments&lt;/h2&gt;
+&lt;p&gt;Each practical assignment should include a brief declaration identifying at least:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;tool used;&lt;/li&gt;
+&lt;li&gt;purpose;&lt;/li&gt;
+&lt;li&gt;component in which it was used;&lt;/li&gt;
+&lt;li&gt;verification procedure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Tool: ChatGPT.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Purpose: support in debugging an R function for temporal aggregation.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Component: script 02_hydroclimate.R.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Verification: comparison with an independent calculation,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;unit checks and consultation of the hydroTSM documentation.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&amp;ldquo;Used ChatGPT&amp;rdquo; is not an adequate declaration.&lt;/p&gt;
+&lt;h2 id="11-study-mode-and-socratic-practice"&gt;11. Study Mode and Socratic practice&lt;/h2&gt;
+&lt;p&gt;Study Mode is useful for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;water balance;&lt;/li&gt;
+&lt;li&gt;Budyko;&lt;/li&gt;
+&lt;li&gt;infiltration;&lt;/li&gt;
+&lt;li&gt;hydrograph interpretation;&lt;/li&gt;
+&lt;li&gt;FDCs;&lt;/li&gt;
+&lt;li&gt;return period;&lt;/li&gt;
+&lt;li&gt;IDF curves;&lt;/li&gt;
+&lt;li&gt;rainfall-runoff relationships;&lt;/li&gt;
+&lt;li&gt;oral-assessment preparation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I want to learn return period.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I do not want to memorise T = 1/p.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;First diagnose my understanding.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then give me an engineering-design situation.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Finally ask me about risk over the service life of the structure.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="12-three-modes-of-use"&gt;12. Three modes of use&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Answer mode:&lt;/strong&gt; &amp;ldquo;Calculate ET.&amp;rdquo;&lt;br&gt;
+&lt;strong&gt;Tutor mode:&lt;/strong&gt; &amp;ldquo;Guide me to derive ET and check the units.&amp;rdquo;&lt;br&gt;
+&lt;strong&gt;Examiner mode:&lt;/strong&gt; &amp;ldquo;Give me a problem, wait for my solution, then ask follow-up questions.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;For this course, prioritise tutor and examiner modes.&lt;/p&gt;
+&lt;h2 id="13-free-or-plus"&gt;13. Free or Plus?&lt;/h2&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Free or Plus?"
+srcset="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-3-free-plus_hu_51d4420ddd4f9401.webp 320w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-3-free-plus_hu_2c470c818e439bcb.webp 480w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-3-free-plus_hu_a10529cc8822a6ae.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-i-configuration/assets/part-I-figure-3-free-plus_hu_51d4420ddd4f9401.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;For IIO422, the Free plan is sufficient for most learning tasks.&lt;/p&gt;
+&lt;p&gt;Plus may become useful if you repeatedly need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;greater file capacity;&lt;/li&gt;
+&lt;li&gt;long debugging sessions;&lt;/li&gt;
+&lt;li&gt;higher tool availability;&lt;/li&gt;
+&lt;li&gt;longer or more complex analyses;&lt;/li&gt;
+&lt;li&gt;intensive use across several courses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If your household budget is limited: &lt;strong&gt;start with Free and only pay for Plus after identifying a specific limitation that is genuinely affecting your work&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="14-five-prompts-worth-saving"&gt;14. Five prompts worth saving&lt;/h2&gt;
+&lt;h3 id="concept"&gt;Concept&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I want to learn [TOPIC].
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;First diagnose what I understand.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then correct my gaps using an example from Chile.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Finish with a transfer question.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="problem-solving"&gt;Problem solving&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I will show you a problem and my attempt.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not solve it immediately.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Identify the first error, give me one hint, and wait.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="audit"&gt;Audit&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Review the concept, equations, units, calculation,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;interpretation, uncertainty and assumptions.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="oral-practice"&gt;Oral practice&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Give me a short oral assessment.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask one question at a time.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Use follow-up questions and correct me only at the end.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="error-detection"&gt;Error detection&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not assume my method is correct.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Look for conceptual, numerical, methodological
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and interpretative errors.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="15-final-rule"&gt;15. Final rule&lt;/h2&gt;
+&lt;p&gt;Generative AI is permitted for learning activities and preparation of the practical assignments, &lt;strong&gt;but not during assessments&lt;/strong&gt;. The syllabus also makes clear that being unable to explain a procedure included in a submission is evidence that the corresponding learning outcome has not been achieved.&lt;/p&gt;
+&lt;p&gt;The practical rule is therefore:&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;If you cannot explain, reproduce, modify and verify something that ChatGPT produced, you should not submit it as part of your work.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="sources"&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;IIO422-Hydrology course syllabus, Universidad de La Frontera, 2026.&lt;/li&gt;
+&lt;li&gt;Baron, M. (2026).
+. &lt;em&gt;The Koala News&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Tobor, J., &amp;amp; Sommer, T. (2026).
+. Hochschulforum Digitalisierung.&lt;/li&gt;
+&lt;li&gt;Vieriu, A. M., &amp;amp; Petrea, G. (2025). The impact of artificial intelligence (AI) on students&amp;rsquo; academic development. &lt;em&gt;Education Sciences, 15&lt;/em&gt;(3), 343.
+&lt;/li&gt;
+&lt;li&gt;Woon, A. (2025).
+. Higher Education Policy Institute.&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Currency note:&lt;/strong&gt; ChatGPT features, limits and prices change. Always check the official documentation.&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>How to use ChatGPT to learn Hydrology - Part II: theory, reasoning and assessment preparation</title><link>https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/</link><pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate><guid>https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/</guid><description>
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Estimated reading and practice time:&lt;/strong&gt; 20-25 minutes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In IIO422, theoretical assessment prioritises &lt;strong&gt;conceptual understanding and reasoning&lt;/strong&gt; over memorisation or mechanical calculation. Questions may include conceptual problems, numerical exercises, interpretation of graphs and tables, analysis of hydrological situations, error diagnosis, comparison of methods, dimensional analysis, physical interpretation and integrative problems based on real catchments.&lt;/p&gt;
+&lt;p&gt;Your study strategy should reproduce those demands.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Learning cycle with ChatGPT"
+srcset="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-1-learning-cycle_hu_655a2c2d6b207395.webp 320w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-1-learning-cycle_hu_bebe653eba1eb139.webp 480w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-1-learning-cycle_hu_5a46aad8868a2fd.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-1-learning-cycle_hu_655a2c2d6b207395.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="1-recommended-learning-cycle"&gt;1. Recommended learning cycle&lt;/h2&gt;
+&lt;p&gt;For each topic, use:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;diagnosis
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ focused explanation
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ practice
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ correction
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ transfer
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ oral explanation
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I want to study evapotranspiration.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;First ask me five diagnostic questions.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not explain the topic until I answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then identify my two main conceptual gaps,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;correct them and give me two new problems.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Finish with a 90-second oral question.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="2-explicit-map-of-the-theoretical-content"&gt;2. Explicit map of the theoretical content&lt;/h2&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Concept map for the theoretical part of IIO422"
+srcset="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-2-theory-map_hu_57de89053ae24807.webp 320w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-2-theory-map_hu_1cb44a4339868167.webp 480w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-2-theory-map_hu_1a686c54127e24e7.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-2-theory-map_hu_57de89053ae24807.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="21-introduction-and-basic-concepts"&gt;2.1. Introduction and basic concepts&lt;/h3&gt;
+&lt;p&gt;You should understand:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;definition and scope of Hydrology;&lt;/li&gt;
+&lt;li&gt;the hydrological cycle;&lt;/li&gt;
+&lt;li&gt;the general water-balance equation;&lt;/li&gt;
+&lt;li&gt;the concept of a catchment;&lt;/li&gt;
+&lt;li&gt;integrated water resources management;&lt;/li&gt;
+&lt;li&gt;spatial and temporal variability of hydrological processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="definition-and-scope"&gt;Definition and scope&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me explain what Hydrology studies and how it differs
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;from Meteorology, Hydraulics and Hydrogeology.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not accept a one-sentence definition.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask for:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. object of study;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. scales;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. processes;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. engineering applications;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. one Chilean example.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="hydrological-cycle-and-water-balance"&gt;Hydrological cycle and water balance&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Treat a catchment as a control volume.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me identify inputs, outputs and storage changes.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then change the temporal scale from daily to annual
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and ask which terms may become small and which need not.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In simplified form:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Inputs - Outputs = Change in storage
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or, for a catchment:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;P - Q - ET = Delta S
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The objective is not to memorise the equation, but to understand what it includes and when the simplification is defensible.&lt;/p&gt;
+&lt;h4 id="catchments-and-integrated-water-resources-management"&gt;Catchments and integrated water resources management&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Compare a river catchment with an administrative boundary.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask why a catchment is useful for hydrological analysis
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and why integrated water resources management must also consider
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;users, institutions, infrastructure and ecosystems.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="spatial-and-temporal-variability"&gt;Spatial and temporal variability&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Use precipitation, soil moisture and streamflow.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me compare their expected spatial and temporal variability
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;in an Andean catchment and explain why they cannot all be observed
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;with the same network or resolution.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="22-water-in-the-atmosphere"&gt;2.2. Water in the atmosphere&lt;/h3&gt;
+&lt;p&gt;The syllabus includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;basic climatology and atmospheric circulation;&lt;/li&gt;
+&lt;li&gt;solar radiation;&lt;/li&gt;
+&lt;li&gt;air temperature;&lt;/li&gt;
+&lt;li&gt;humidity and water vapour;&lt;/li&gt;
+&lt;li&gt;precipitation;&lt;/li&gt;
+&lt;li&gt;interception;&lt;/li&gt;
+&lt;li&gt;evaporation;&lt;/li&gt;
+&lt;li&gt;evapotranspiration;&lt;/li&gt;
+&lt;li&gt;spatial interpolation of hydrological variables;&lt;/li&gt;
+&lt;li&gt;the Budyko framework.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="climatology-and-atmospheric-circulation"&gt;Climatology and atmospheric circulation&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Relate atmospheric circulation, topography and precipitation
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;across Chile.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me compare a northern catchment, a Mediterranean catchment
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and a southern catchment before giving the explanation.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="radiation-temperature-humidity-and-water-vapour"&gt;Radiation, temperature, humidity and water vapour&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Build a causal chain:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;radiation → temperature → vapour pressure → evaporative demand.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me distinguish direct relationships from those
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;that depend on other variables.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="precipitation"&gt;Precipitation&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Give me an hourly storm.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me distinguish:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- intensity;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- accumulated depth;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- duration;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- temporal resolution;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- antecedent dry period.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then change only the temporal resolution and ask what information is lost.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="interception"&gt;Interception&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Compare two events with the same total rainfall:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;one over a forested catchment and one over sparse vegetation.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me reason when interception can be hydrologically important
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and when its relative effect becomes smaller.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="evaporation-and-evapotranspiration"&gt;Evaporation and evapotranspiration&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me distinguish evaporation, transpiration,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;potential ET and actual ET.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then give one water-limited and one energy-limited situation.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="interpolation"&gt;Interpolation&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Compare Thiessen polygons, inverse-distance weighting
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and kriging for catchment rainfall estimation.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not ask which is &amp;#39;best&amp;#39;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Give me a station network and make me choose according to
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;network density, topography, objective, variability and data availability.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="budyko-framework"&gt;Budyko framework&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me interpret a Budyko diagram.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- what the axes represent;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- what water-limited and energy-limited mean;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- what information is required;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- why a deviation does not automatically imply an error.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="23-water-in-the-soil"&gt;2.3. Water in the soil&lt;/h3&gt;
+&lt;p&gt;The syllabus includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;flow through porous media;&lt;/li&gt;
+&lt;li&gt;infiltration;&lt;/li&gt;
+&lt;li&gt;Green-Ampt;&lt;/li&gt;
+&lt;li&gt;land use and soil types.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="flow-through-porous-media"&gt;Flow through porous media&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me explain why water can move through unsaturated soil
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;without reducing the explanation to &amp;#39;gravity pulls it down&amp;#39;.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Require discussion of gradients and hydraulic properties.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="infiltration"&gt;Infiltration&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Compare the same storm over an initially dry and an initially wet soil.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask me how infiltration, storage, runoff generation
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and streamflow response are expected to change.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="green-ampt"&gt;Green-Ampt&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not give me the equation first.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Help me reconstruct Green-Ampt from its assumptions:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;a distinct wetting front, changes in water content
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and capillary forces.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then show the equation and make me perform dimensional analysis.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="land-use-and-soil-types"&gt;Land use and soil types&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Compare forest, agricultural land and an urbanised area.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me separate the effects of:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- texture;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- structure;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- compaction;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- vegetation cover;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- impervious surfaces.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not let me attribute everything to &amp;#39;soil type&amp;#39;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="24-surface-runoff"&gt;2.4. Surface runoff&lt;/h3&gt;
+&lt;p&gt;You should understand:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hydrological information;&lt;/li&gt;
+&lt;li&gt;streamflow measurement;&lt;/li&gt;
+&lt;li&gt;hydrographs;&lt;/li&gt;
+&lt;li&gt;flow-duration curves (FDCs);&lt;/li&gt;
+&lt;li&gt;effective rainfall and direct runoff;&lt;/li&gt;
+&lt;li&gt;rainfall-runoff relationships.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="streamflow-measurement"&gt;Streamflow measurement&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me distinguish stage measurement, gauging
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and streamflow estimation from a rating curve.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then give me a flood beyond the gauged range
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and ask what uncertainty is introduced.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="hydrographs"&gt;Hydrographs&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Show me a hydrograph and make me identify:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;baseflow, rising limb, peak, lag, recession and direct-runoff volume.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not accept purely geometric descriptions:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;require interpretation of processes.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="fdcs"&gt;FDCs&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me interpret Q10, Q50 and Q90.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Include a trap involving exceedance and non-exceedance probability.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="effective-rainfall-and-direct-runoff"&gt;Effective rainfall and direct runoff&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Give me a storm and hydrograph.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me distinguish total rainfall, abstractions,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;effective rainfall and direct runoff.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="25-simplified-hydrological-models-for-annual-water-balance"&gt;2.5. Simplified hydrological models for annual water balance&lt;/h3&gt;
+&lt;p&gt;The syllabus includes simplified hydrological modelling for catchment-scale annual water balance.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Give me a catchment with P, E and Q time series.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me decide what can be estimated directly,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;what requires modelling, and which storage components
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;remain poorly observed.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Do not treat the model as a black box. Ask which assumptions about scale and mass balance are embedded in the model.&lt;/p&gt;
+&lt;h3 id="26-probabilistic-and-statistical-methods"&gt;2.6. Probabilistic and statistical methods&lt;/h3&gt;
+&lt;p&gt;Conceptually, you should understand:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;exploratory data analysis and descriptive statistics;&lt;/li&gt;
+&lt;li&gt;probabilistic treatment of hydrological information;&lt;/li&gt;
+&lt;li&gt;frequency and probability functions;&lt;/li&gt;
+&lt;li&gt;return period;&lt;/li&gt;
+&lt;li&gt;statistical parameters;&lt;/li&gt;
+&lt;li&gt;fitting probability distributions;&lt;/li&gt;
+&lt;li&gt;probability distributions of hydrological variables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me explain F(x), 1-F(x), exceedance probability,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;quantiles and return period using annual maxima.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not use equations until the interpretation is clear.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="27-rainfall-intensities-and-design"&gt;2.7. Rainfall intensities and design&lt;/h3&gt;
+&lt;p&gt;The syllabus includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;maximum 24-hour precipitation;&lt;/li&gt;
+&lt;li&gt;maximum 1-, 2- and 3-day precipitation;&lt;/li&gt;
+&lt;li&gt;Intensity-Duration-Frequency (IDF) curves;&lt;/li&gt;
+&lt;li&gt;design hyetographs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Give me an IDF table.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. select duration and T;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. convert intensity to depth;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. explain why intensity and duration are not interchangeable;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. construct a conceptual design hyetograph;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. identify one extrapolation limitation.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="28-unit-hydrographs-design-floods-and-hec-hms"&gt;2.8. Unit hydrographs, design floods and HEC-HMS&lt;/h3&gt;
+&lt;p&gt;The syllabus includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;unit and synthetic hydrographs;&lt;/li&gt;
+&lt;li&gt;design-flood calculation using SCS-CN;&lt;/li&gt;
+&lt;li&gt;introduction to HEC-HMS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me explain the linearity and superposition assumptions
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;of the unit hydrograph.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then give me a situation where those assumptions are weak.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For SCS-CN:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not give me only the calculation.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me interpret how antecedent condition, land use
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and CN affect effective rainfall and runoff.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For HEC-HMS:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Explain what each main component of an event-based HEC-HMS model represents
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and what information I should check before accepting a simulation.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="3-how-theory-is-assessed"&gt;3. How theory is assessed&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Theory = 0.15 × Tests
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; + 0.30 × Test 1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; + 0.40 × Test 2
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; + 0.15 × Individual Oral Assessment
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="How learning is translated into assessment"
+srcset="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-3-assessment_hu_1dcbc9a886c85652.webp 320w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-3-assessment_hu_26c3a1baed66a7.webp 480w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-3-assessment_hu_bc132e8694f9e7c1.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/assets/part-II-figure-3-assessment_hu_1dcbc9a886c85652.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="individual-tests---15"&gt;Individual Tests - 15%&lt;/h3&gt;
+&lt;p&gt;Purpose: progressive understanding and continuous study.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Generate a five-question micro-test:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- two conceptual;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- one on units;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- one interpretation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- one error-diagnosis question.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask one at a time.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="test-1---30"&gt;Test 1 - 30%&lt;/h3&gt;
+&lt;p&gt;Focuses mainly on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hydrological processes;&lt;/li&gt;
+&lt;li&gt;catchment characterisation;&lt;/li&gt;
+&lt;li&gt;annual water balance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Create a Chilean catchment problem combining
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;P, ET, Q, storage and physical catchment characteristics.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Assess formulation, units, calculation, interpretation and uncertainty.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="test-2---40"&gt;Test 2 - 40%&lt;/h3&gt;
+&lt;p&gt;Integrates:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;frequency analysis;&lt;/li&gt;
+&lt;li&gt;extreme events;&lt;/li&gt;
+&lt;li&gt;design rainfall and streamflow;&lt;/li&gt;
+&lt;li&gt;rainfall-runoff relationships;&lt;/li&gt;
+&lt;li&gt;hydrological modelling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Create an integrative problem.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;It must force me to combine at least three parts of the course
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and justify an engineering decision.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="individual-oral-assessment---15"&gt;Individual Oral Assessment - 15%&lt;/h3&gt;
+&lt;p&gt;There are two brief individual oral assessments, one after each major test.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Simulate a 6-minute individual oral assessment.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask one question at a time.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Require me to:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- explain concepts in my own words;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- relate processes;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- interpret a result;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- justify a decision;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- identify a limitation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- answer follow-up questions.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Correct me only at the end.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="4-practise-the-same-task-types-used-by-the-course"&gt;4. Practise the same task types used by the course&lt;/h2&gt;
+&lt;h3 id="conceptual-questions"&gt;Conceptual questions&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me explain why a 100-year return period
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;does not mean &amp;#39;once every 100 years&amp;#39;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="numerical-problems"&gt;Numerical problems&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Assess separately:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;formulation, equations, units, calculation and interpretation.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="graph-and-table-interpretation"&gt;Graph and table interpretation&lt;/h3&gt;
+&lt;p&gt;Practise with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;time series;&lt;/li&gt;
+&lt;li&gt;climographs;&lt;/li&gt;
+&lt;li&gt;hydrographs and hyetographs;&lt;/li&gt;
+&lt;li&gt;FDCs;&lt;/li&gt;
+&lt;li&gt;hydroclimatic maps;&lt;/li&gt;
+&lt;li&gt;hypsometric curves;&lt;/li&gt;
+&lt;li&gt;Budyko diagrams;&lt;/li&gt;
+&lt;li&gt;empirical and theoretical distributions;&lt;/li&gt;
+&lt;li&gt;frequency curves;&lt;/li&gt;
+&lt;li&gt;IDF curves;&lt;/li&gt;
+&lt;li&gt;hydrological-model results.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="error-diagnosis"&gt;Error diagnosis&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Construct a solution containing exactly three plausible errors:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;one conceptual, one dimensional and one methodological.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not identify them.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="method-comparison"&gt;Method comparison&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me choose only after defining:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;objective, data, scale, assumptions, uncertainty and limitations.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="dimensional-analysis"&gt;Dimensional analysis&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Generate expressions involving P, Q, area, volume,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;time and intensity.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me demonstrate which are dimensionally consistent.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="physical-interpretation"&gt;Physical interpretation&lt;/h3&gt;
+&lt;p&gt;After every calculation, ask:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Is the sign plausible?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Is the order of magnitude plausible?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Which process controls this result?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;What additional observation would increase confidence?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="5-use-chatgpt-to-prepare-peer-discussion"&gt;5. Use ChatGPT to prepare peer discussion&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Give me a conceptual multiple-choice question with five options
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and exactly one correct answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not identify the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I will answer first.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then give me two plausible arguments that another student
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;might use to defend a different option.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Finally make me answer again.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="6-the-perturbation-technique"&gt;6. The perturbation technique&lt;/h2&gt;
+&lt;p&gt;Once a problem is solved, change only one condition:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Now double the antecedent soil moisture.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not recalculate immediately.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;First ask what I expect to change and why.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;or:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Keep annual P fixed but change its seasonal distribution.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Which conclusions from the annual water balance still hold?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This reproduces the course sequence: application → perturbation → interpretation → defence.&lt;/p&gt;
+&lt;h2 id="7-a-25-minute-study-routine"&gt;7. A 25-minute study routine&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;0-5 min:&lt;/strong&gt; retrieval without notes.&lt;br&gt;
+&lt;strong&gt;5-12 min:&lt;/strong&gt; diagnosis and correction.&lt;br&gt;
+&lt;strong&gt;12-20 min:&lt;/strong&gt; new problems and perturbations.&lt;br&gt;
+&lt;strong&gt;20-25 min:&lt;/strong&gt; oral explanation and follow-up questions.&lt;/p&gt;
+&lt;h2 id="key-ideas"&gt;Key ideas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Study in the same way you will be assessed.&lt;/li&gt;
+&lt;li&gt;Connect processes rather than memorising chapters.&lt;/li&gt;
+&lt;li&gt;Include Budyko, IDF, design hyetographs, SCS-CN and HEC-HMS in your conceptual map.&lt;/li&gt;
+&lt;li&gt;Practise with real data and figures from Chilean catchments.&lt;/li&gt;
+&lt;li&gt;Require dimensional consistency, interpretation and uncertainty.&lt;/li&gt;
+&lt;li&gt;Train explicitly in error diagnosis.&lt;/li&gt;
+&lt;li&gt;Practise oral explanations throughout the semester.&lt;/li&gt;
+&lt;li&gt;AI may support learning, but it is not permitted during assessments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="sources"&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;IIO422-Hydrology course syllabus, Universidad de La Frontera, 2026.&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>How to use ChatGPT to learn Hydrology - Part III: vibe coding, hydroTSM and reproducible practical projects</title><link>https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/</link><pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate><guid>https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/</guid><description>
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Estimated reading and practice time:&lt;/strong&gt; 20-25 minutes.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This tutorial starts from an explicit assumption: &lt;strong&gt;you already know how to program in R&lt;/strong&gt;. The objective is therefore not to review vectors, &lt;code&gt;data.frame&lt;/code&gt; objects, functions or loops, but to learn how to use AI to accelerate hydrological analysis while retaining technical control over data, methods, code, results and interpretation.&lt;/p&gt;
+&lt;p&gt;In IIO422, practical work must be reproducible and every student must be able to understand and modify the procedures used.&lt;/p&gt;
+&lt;p&gt;We will therefore use a &lt;strong&gt;controlled vibe-coding&lt;/strong&gt; approach.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Controlled vibe coding"
+srcset="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_deafb62a24ffaf51.webp 320w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_16b2a89fbda10261.webp 480w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_240d814b44896371.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_deafb62a24ffaf51.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="1-what-vibe-coding-means-in-this-course"&gt;1. What vibe coding means in this course&lt;/h2&gt;
+&lt;p&gt;It does not mean:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do the practical assignment in R.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It means working iteratively:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hydrological question
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ specification
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ proposed code
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ execution and testing
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ audit
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ interpretation
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ modification
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;AI acts as a copilot. You decide what problem should be solved, whether the data are valid, which method is appropriate and whether the result is hydrologically plausible.&lt;/p&gt;
+&lt;h2 id="2-the-practical-component-is-one-final-project-divided-into-tp-01-and-tp-02"&gt;2. The practical component is one final project divided into TP-01 and TP-02&lt;/h2&gt;
+&lt;p&gt;For assessment:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Practical = 0.45 × TP-01 + 0.55 × TP-02
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Each TP combines:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;35% Reproducible Hydrological Project - team
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;15% Technical Evidence Dossier - team
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;30% Hydrological Defence - individual
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;20% Supervised Practical Challenge - individual
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Architecture of each practical assignment"
+srcset="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_751ba774e9fddc57.webp 320w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_6776d10519a268ae.webp 480w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_bed0883bcbaef2b2.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_751ba774e9fddc57.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The implication is direct: a script produced by ChatGPT may improve the team submission while simultaneously reducing your individual mark if you cannot explain it.&lt;/p&gt;
+&lt;h2 id="3-map-of-practical-competences"&gt;3. Map of practical competences&lt;/h2&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Practical skills map"
+srcset="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_72e8e31f649f14ef.webp 320w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_5f88938768431c5d.webp 480w, https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_80c6469675d08be4.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://hzambran.github.io/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_72e8e31f649f14ef.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The practical work combines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hydrometeorological time-series analysis;&lt;/li&gt;
+&lt;li&gt;catchment characterisation;&lt;/li&gt;
+&lt;li&gt;water balance;&lt;/li&gt;
+&lt;li&gt;Budyko;&lt;/li&gt;
+&lt;li&gt;probabilistic methods;&lt;/li&gt;
+&lt;li&gt;extreme events;&lt;/li&gt;
+&lt;li&gt;hydrological design;&lt;/li&gt;
+&lt;li&gt;hydrological simulation;&lt;/li&gt;
+&lt;li&gt;reproducibility;&lt;/li&gt;
+&lt;li&gt;interpretation for water management and infrastructure safety.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="4-tp-01-hydrological-processes-and-annual-water-balance"&gt;4. TP-01: hydrological processes and annual water balance&lt;/h2&gt;
+&lt;p&gt;The syllabus specifies that TP-01 includes, among other elements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;physical and hydroclimatic catchment characterisation;&lt;/li&gt;
+&lt;li&gt;catchment delineation and geomorphological analysis;&lt;/li&gt;
+&lt;li&gt;collection and basic quality control of hydrometeorological information;&lt;/li&gt;
+&lt;li&gt;analysis of precipitation, temperature, evapotranspiration and streamflow;&lt;/li&gt;
+&lt;li&gt;water-balance estimation;&lt;/li&gt;
+&lt;li&gt;application of the Budyko framework;&lt;/li&gt;
+&lt;li&gt;analysis of water supply and demand;&lt;/li&gt;
+&lt;li&gt;simplified hydrological modelling;&lt;/li&gt;
+&lt;li&gt;interpretation from a water-resources management perspective.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="starting-prompt-for-tp-01"&gt;Starting prompt for TP-01&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Act as a hydrological reviewer for TP-01.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not write code yet.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Help me turn the overall objective into verifiable questions:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. What are the physical characteristics of the catchment?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. What is its hydroclimatic regime?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. What data do I need?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. How will I check data quality?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. How will I close the water balance?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;6. How will I use Budyko?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;7. What can I conclude about water supply and demand?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;8. What uncertainty must I report?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="5-use-base-r--hydrotsm-for-time-series"&gt;5. Use base R + hydroTSM for time series&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;hydroTSM&lt;/code&gt; is appropriate for manipulating, aggregating, analysing and visualising hydrological time series.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-r" data-lang="r"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;zoo&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;library&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hydroTSM&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Potentially useful functions include:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-r" data-lang="r"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hydroTSM&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;daily2monthly&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hydroTSM&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;daily2annual&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hydroTSM&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;monthlyfunction&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hydroTSM&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;annualfunction&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hydroTSM&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;fdc&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hydroTSM&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;hydroplot&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hydroTSM&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;plot_pq&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hydroTSM&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;climograph&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Do not use a function simply because ChatGPT suggested it.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Verify that the function exists.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Explain:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- input;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- output;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- units;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- handling of NA;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- temporal assumptions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- a reasonable base-R alternative.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="6-initial-data-audit"&gt;6. Initial data audit&lt;/h2&gt;
+&lt;p&gt;Before analysis:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I have daily P, T, ET and Q series.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Design an audit covering:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- temporal coverage;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- regularity;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- NA;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- duplicates;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- units;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- physically impossible values;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- changes in station or source;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- temporal consistency among variables.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The quality of the analysis depends on this stage.&lt;/p&gt;
+&lt;h2 id="7-temporal-aggregation-think-before-coding"&gt;7. Temporal aggregation: think before coding&lt;/h2&gt;
+&lt;p&gt;P and Q do not necessarily use the same aggregation operator.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I have:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;daily P in mm/day
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;daily mean Q in m3/s
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;catchment area in km2
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Before writing code, make me derive how to obtain:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- monthly P;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- monthly mean Q;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- monthly volume;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- monthly equivalent runoff depth in mm.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You should be able to reconstruct the conversion dimensionally.&lt;/p&gt;
+&lt;h2 id="8-budyko-and-annual-water-balance"&gt;8. Budyko and annual water balance&lt;/h2&gt;
+&lt;p&gt;TP-01 explicitly requires the Budyko framework.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I have annual P, ET/PET and Q.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Help me build a Budyko diagnostic.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Before coding:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. check units;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. define the dimensionless indices;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. ask what each axis means;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. identify potentially anomalous years;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. separate physical interpretation from possible data error.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="9-simplified-hydrological-modelling-and-airgrteaching"&gt;9. Simplified hydrological modelling and airGRteaching&lt;/h2&gt;
+&lt;p&gt;The syllabus includes simplified models for annual water-balance analysis and lists &lt;code&gt;airGRteaching&lt;/code&gt; as a course resource.&lt;/p&gt;
+&lt;p&gt;A useful introduction is to work with a daily model and then analyse the outputs at annual scale.&lt;/p&gt;
+&lt;p&gt;A typical workflow is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-r" data-lang="r"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;PREP&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="n"&gt;airGRteaching&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;PrepGR&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;ObsDF&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;BasinObs&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;HydroModel&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#34;GR4J&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;CemaNeige&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;FALSE&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;CAL&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="n"&gt;airGRteaching&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;CalGR&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;PrepGR&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;PREP&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;CalCrit&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#34;KGE2&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;CalPer&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;1990-01-01&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#34;1994-12-31&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;SIM&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;-&lt;/span&gt; &lt;span class="n"&gt;airGRteaching&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="nf"&gt;SimGR&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;PrepGR&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;PREP&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;Param&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;CAL&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;EffCrit&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#34;KGE2&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="n"&gt;SimPer&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nf"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;1995-01-01&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#34;1999-12-31&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Do not memorise these calls. You should understand:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;input data;&lt;/li&gt;
+&lt;li&gt;units;&lt;/li&gt;
+&lt;li&gt;warm-up period;&lt;/li&gt;
+&lt;li&gt;calibration;&lt;/li&gt;
+&lt;li&gt;simulation;&lt;/li&gt;
+&lt;li&gt;efficiency criterion;&lt;/li&gt;
+&lt;li&gt;parameters;&lt;/li&gt;
+&lt;li&gt;water balance;&lt;/li&gt;
+&lt;li&gt;the difference between statistical fit and hydrological realism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="controlled-vibe-coding-with-airgrteaching"&gt;Controlled vibe coding with airGRteaching&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I am using GR4J with airGRteaching.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Work step by step:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. review format and units;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. check periods;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. generate only PrepGR;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. wait for me to execute it;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. interpret the output;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;6. only then generate CalGR;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;7. make me explain the criterion;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;8. continue with SimGR;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;9. finish with a defence question.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="10-tp-02-frequency-analysis-and-hydrological-extremes"&gt;10. TP-02: frequency analysis and hydrological extremes&lt;/h2&gt;
+&lt;p&gt;The syllabus states that TP-02 includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;exploratory analysis of maximum-value series;&lt;/li&gt;
+&lt;li&gt;selection and fitting of probability distributions;&lt;/li&gt;
+&lt;li&gt;parameter estimation;&lt;/li&gt;
+&lt;li&gt;goodness-of-fit analysis;&lt;/li&gt;
+&lt;li&gt;estimation of rainfall and streamflow for different return periods;&lt;/li&gt;
+&lt;li&gt;analysis of record-length effects;&lt;/li&gt;
+&lt;li&gt;uncertainty evaluation;&lt;/li&gt;
+&lt;li&gt;simulation of a flood event with HEC-HMS;&lt;/li&gt;
+&lt;li&gt;comparison of observed and simulated streamflow;&lt;/li&gt;
+&lt;li&gt;implications for design and infrastructure safety.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use this list directly as your work plan.&lt;/p&gt;
+&lt;h2 id="11-exploratory-analysis-and-descriptive-statistics"&gt;11. Exploratory analysis and descriptive statistics&lt;/h2&gt;
+&lt;p&gt;Before fitting a distribution:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not fit anything yet.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Design an EDA for annual maxima:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- coverage;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- outliers;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- visual trend;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- descriptive parameters;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- skewness;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- independence;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- sample size;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- recommended plots.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Do not use a fitted distribution to conceal a poorly reviewed series.&lt;/p&gt;
+&lt;h2 id="12-probabilistic-treatment"&gt;12. Probabilistic treatment&lt;/h2&gt;
+&lt;p&gt;You should be able to explain:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;sample;&lt;/li&gt;
+&lt;li&gt;random variable;&lt;/li&gt;
+&lt;li&gt;distribution function;&lt;/li&gt;
+&lt;li&gt;exceedance;&lt;/li&gt;
+&lt;li&gt;non-exceedance;&lt;/li&gt;
+&lt;li&gt;quantiles;&lt;/li&gt;
+&lt;li&gt;return period;&lt;/li&gt;
+&lt;li&gt;statistical parameters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me explain F(x), 1-F(x), T and a quantile
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;without equations first.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then translate the reasoning into R.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="13-fitting-probability-distributions"&gt;13. Fitting probability distributions&lt;/h2&gt;
+&lt;p&gt;Do not ask:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Which distribution is best?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ask:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I have annual maxima.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me define:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- candidate distributions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- estimation method;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- support;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- graphical diagnostics;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- goodness of fit;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- tail behaviour;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- extrapolation uncertainty.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then request code in small blocks.&lt;/p&gt;
+&lt;h2 id="14-effect-of-record-length"&gt;14. Effect of record length&lt;/h2&gt;
+&lt;p&gt;This is an explicit component of TP-02.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I have 40 years of annual maxima.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Design an experiment comparing estimates from 15, 25 and 40 years.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Before coding:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- define what remains fixed;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- define what metric will be compared;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- decide how uncertainty will be shown;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- identify what conclusions cannot be generalised.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="15-return-period-and-risk"&gt;15. Return period and risk&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I want to estimate a T-year event.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Before using a q*() function:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;make me derive the correct non-exceedance probability
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;for the quantile function I am using.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For risk:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me derive the probability of at least one exceedance
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;during n years of service life.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not give me the formula initially.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="16-intensities-idf-curves-and-design-hyetographs"&gt;16. Intensities, IDF curves and design hyetographs&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I have an IDF table.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Help me construct a design hyetograph.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Before coding:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. define T;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. define duration;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. define time step;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. choose a temporal pattern;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. check conservation of total rainfall depth;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;6. explain which assumption controls the temporal distribution.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="17-scs-cn"&gt;17. SCS-CN&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Let us implement SCS-CN.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;First define:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- P;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- CN;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- potential maximum retention;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- initial abstraction;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- effective rainfall.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then generate a simple R function.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Include unit checks and limiting cases.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If the code runs but you cannot explain what changes when CN changes, you do not yet understand the method.&lt;/p&gt;
+&lt;h2 id="18-hec-hms-flood-simulation"&gt;18. HEC-HMS flood simulation&lt;/h2&gt;
+&lt;p&gt;TP-02 explicitly includes a flood simulation using HEC-HMS.&lt;/p&gt;
+&lt;p&gt;ChatGPT can help you:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;review model structure;&lt;/li&gt;
+&lt;li&gt;interpret parameters;&lt;/li&gt;
+&lt;li&gt;document scenarios;&lt;/li&gt;
+&lt;li&gt;diagnose results;&lt;/li&gt;
+&lt;li&gt;compare observed and simulated streamflow.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But it should not invent parameter values.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I am configuring HEC-HMS.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not propose parameter values yet.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Make me review:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- catchment;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- loss method;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- transform method;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- baseflow;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- routing, where relevant;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- design storm;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- time step;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- initial conditions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- simulation period.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="19-compare-observed-and-simulated-flow-critically"&gt;19. Compare observed and simulated flow critically&lt;/h2&gt;
+&lt;p&gt;Do not reduce evaluation to a single metric.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I have Qobs and Qsim.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Design an evaluation including:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- hydrograph;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- peak;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- peak timing;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- volume;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- bias;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- one global performance metric;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- an error that matters for infrastructure safety.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="20-error-diagnosis-a-core-competence"&gt;20. Error diagnosis: a core competence&lt;/h2&gt;
+&lt;p&gt;The course deliberately incorporates incorrect results, plots, code or methods.&lt;/p&gt;
+&lt;p&gt;Practise like this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Generate an R block for frequency analysis
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;with exactly two plausible errors.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not identify them.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I must:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. detect them;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. explain the hydrological consequence;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. correct them;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. compare the result.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="21-reproducibility"&gt;21. Reproducibility&lt;/h2&gt;
+&lt;p&gt;A suggested structure is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;TP/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── README.md
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── data/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── raw/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ └── processed/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── R/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── 01_qc.R
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── 02_tp01_hydroclimate.R
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── 03_budyko_balance.R
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── 04_frequency.R
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── 05_design_event.R
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ └── 06_outputs.R
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── models/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;├── output/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ ├── figures/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;│ └── tables/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;└── evidence/
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The team should provide data, metadata, scripts, parameters, configuration files and everything else required to regenerate the results.&lt;/p&gt;
+&lt;h2 id="22-use-chatgpt-as-a-reproducibility-auditor"&gt;22. Use ChatGPT as a reproducibility auditor&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Act as a reproducibility auditor.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Look for:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- absolute paths;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- undeclared dependencies;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- manually created objects;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- scripts run out of order;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- hidden parameters;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- inconsistent units;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- non-reproducible outputs;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- non-existent functions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- undocumented steps.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="23-technical-evidence-dossier"&gt;23. Technical Evidence Dossier&lt;/h2&gt;
+&lt;p&gt;The dossier replaces the traditional long written report.&lt;/p&gt;
+&lt;p&gt;A useful evidence chain is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;question
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ method
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ result
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ evidence
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ interpretation
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ uncertainty
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;→ limitation
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Do not fill space with generic definitions.&lt;/p&gt;
+&lt;h2 id="24-prepare-for-the-hydrological-defence"&gt;24. Prepare for the Hydrological Defence&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I will give you the complete project.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask random questions about:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- catchment delineation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- data;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- QC;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- water balance;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- Budyko;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- hydroTSM;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- frequency analysis;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- distributions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- T;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- uncertainty;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- IDF;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- SCS-CN;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- HEC-HMS;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- modelling;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- results;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- limitations.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask one question at a time.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Every team member should understand the complete project.&lt;/p&gt;
+&lt;h2 id="25-prepare-for-the-supervised-practical-challenge"&gt;25. Prepare for the Supervised Practical Challenge&lt;/h2&gt;
+&lt;p&gt;The individual challenge lasts approximately 30-45 minutes and has three parts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;conceptual diagnosis;&lt;/li&gt;
+&lt;li&gt;technical solution;&lt;/li&gt;
+&lt;li&gt;hydrological interpretation.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Generate a 35-minute individual challenge.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Use a small dataset.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Include:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;A. conceptual diagnosis;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;B. an R task;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;C. hydrological interpretation.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Insert one plausible error.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not use tidyverse.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="26-the-modification-rule"&gt;26. The modification rule&lt;/h2&gt;
+&lt;p&gt;After any AI-generated code:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Now make me modify it for:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- another period;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- another unit;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- another treatment of NA;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- another T;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- another distribution;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- another hydrological assumption.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you cannot modify it, you are not ready to defend it.&lt;/p&gt;
+&lt;h2 id="27-declare-ai-use"&gt;27. Declare AI use&lt;/h2&gt;
+&lt;p&gt;Each TP should identify:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;tool;&lt;/li&gt;
+&lt;li&gt;purpose;&lt;/li&gt;
+&lt;li&gt;component;&lt;/li&gt;
+&lt;li&gt;verification.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Tool: ChatGPT.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Purpose: debugging a function that converts Q to mm.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Component: 03_budyko_balance.R.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Verification: independent dimensional derivation,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;known-value test case and comparison with a manual calculation.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="28-master-prompt-for-the-practical-project"&gt;28. Master prompt for the practical project&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Act as a tutor in R programming and Hydrology.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I already know R.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not use tidyverse.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Prefer base R and hydroTSM.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Where relevant, consider airGRteaching and HEC-HMS.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not be the author of the project.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Rules:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. start with the hydrological question;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. separate data, method and assumptions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. provide code in small blocks;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. do not invent data or functions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. require units;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;6. include checks;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;7. make me execute before continuing;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;8. require interpretation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;9. make me modify the code;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;10. finish with a defence question.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="29-final-competence"&gt;29. Final competence&lt;/h2&gt;
+&lt;p&gt;By the end of the course, you should be able to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;audit hydrometeorological series;&lt;/li&gt;
+&lt;li&gt;characterise a catchment;&lt;/li&gt;
+&lt;li&gt;analyse P, T, ET and Q;&lt;/li&gt;
+&lt;li&gt;quantify a water balance;&lt;/li&gt;
+&lt;li&gt;interpret Budyko;&lt;/li&gt;
+&lt;li&gt;analyse water supply and demand;&lt;/li&gt;
+&lt;li&gt;use a simplified hydrological model;&lt;/li&gt;
+&lt;li&gt;construct and interpret an FDC;&lt;/li&gt;
+&lt;li&gt;perform frequency analysis;&lt;/li&gt;
+&lt;li&gt;fit and compare probability distributions;&lt;/li&gt;
+&lt;li&gt;estimate design events;&lt;/li&gt;
+&lt;li&gt;evaluate uncertainty and record-length effects;&lt;/li&gt;
+&lt;li&gt;construct design storms;&lt;/li&gt;
+&lt;li&gt;apply SCS-CN;&lt;/li&gt;
+&lt;li&gt;configure and review a simulation in HEC-HMS;&lt;/li&gt;
+&lt;li&gt;compare observed and simulated streamflow;&lt;/li&gt;
+&lt;li&gt;reproduce the full workflow;&lt;/li&gt;
+&lt;li&gt;defend the decisions made.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If ChatGPT helps you develop these capacities, vibe coding is functioning as assisted learning.&lt;/p&gt;
+&lt;p&gt;If it merely produces a script that &amp;ldquo;runs&amp;rdquo;, it is hiding what you still do not know.&lt;/p&gt;
+&lt;h2 id="sources-and-documentation"&gt;Sources and documentation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;IIO422-Hydrology course syllabus, Universidad de La Frontera, 2026.&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Academic integrity:&lt;/strong&gt; AI is permitted as support for learning and practical-project preparation, but not during assessments. Any AI-generated content remains the student&amp;rsquo;s responsibility and must be verifiable, reproducible and defensible.&lt;/p&gt;
+&lt;/blockquote&gt;</description></item></channel></rss>

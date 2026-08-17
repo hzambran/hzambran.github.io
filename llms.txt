@@ -26,6 +26,17 @@ Primary topics: hydrological and hydrometeorological modelling; gridded precipit
 - Web platforms for precipitation, soil moisture, drought, and IDF analysis: https://mzb.cl/web-platforms/
 - Complete publication catalogue with DOI, BibTeX, and APA 7 citations: https://mzb.cl/publications/
 
+## Teaching resources
+
+- IIO409 Hydrological Modelling course: https://mzb.cl/courses/iio409-modelacionhidrologica/
+- IIO409 ChatGPT tutorial I - set-up, prompts and trustworthy answers: https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/
+- IIO409 ChatGPT tutorial II - conceptual understanding and critical thinking: https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-ii-critical-thinking/
+- IIO409 ChatGPT tutorial III - base R, vibe coding and reproducible projects: https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-iii-base-r/
+- IIO352/IIO422 Hydrology course: https://mzb.cl/courses/iio352-hidrologia/
+- IIO352/IIO422 ChatGPT tutorial I - configuration, context and useful prompts: https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-i-configuration/
+- IIO352/IIO422 ChatGPT tutorial II - theory, reasoning and assessment preparation: https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-ii-theory-assessment/
+- IIO352/IIO422 ChatGPT tutorial III - vibe coding and reproducible practical projects: https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/
+
 ## Identity and citation
 
 - ORCID: https://orcid.org/0000-0002-9536-643X
