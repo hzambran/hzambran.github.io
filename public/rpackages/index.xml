@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rpackages | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/rpackages/</link><atom:link href="https://mzb.cl/rpackages/index.xml" rel="self" type="application/rss+xml"/><description>Rpackages</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_855d0eece6b892bf.png</url><title>Rpackages</title><link>https://mzb.cl/rpackages/</link></image><item><title>hydroMOPSO</title><link>https://mzb.cl/rpackages/hydromopso/</link><pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/rpackages/hydromopso/</guid><description>&lt;style&gt;
+/* 1. Target the main article container broadly */
+body .page-body,
+body .universal-wrapper,
+article.article {
+font-size: 1rem !important; /* Forces base size to 16px */
+}
+/* 2. Target paragraphs and lists specifically with !important */
+.article-style p,
+.article-container p,
+article p,
+.project-content p {
+font-size: 1rem !important;
+line-height: 1.6 !important;
+}
+/* 3. Target list items */
+.article-style li,
+.article-container li,
+article li {
+font-size: 1rem !important;
+}
+&lt;/style&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src="https://mzb.cl/rpackages/hydromopso/hydroMOPSO-logo.jpg"
+alt="hydroMOPSO R package."&gt;&lt;figcaption&gt;
+&lt;p&gt;R package.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+is an R package designed to support robust multi-objective optimisation of complex environmental and engineering models. It implements a state-of-the-art &lt;strong&gt;Multi-Objective Particle Swarm Optimisation (MOPSO)&lt;/strong&gt; algorithm, tailored to address the practical challenges commonly encountered in hydrological modelling, such as non-linearity, non-smooth response surfaces, computationally intensive simulations, and competing performance criteria.&lt;/p&gt;
+&lt;p&gt;
+is built to integrate seamlessly with real-world modelling workflows. It can optimise models written in R as well as external simulation models executed from the system console—such as distributed hydrological or water quality models—by communicating through standard input and output files. This architecture allows users to perform advanced optimisation without modifying model source code, preserving model integrity while enabling systematic calibration across multiple parameters, variables, and time periods.&lt;/p&gt;
+&lt;p&gt;It was designed by &lt;strong&gt;Rodrigo Marinao&lt;/strong&gt; and I to be flexible and computational efficienct.
+supports parallel execution on multi-core machines and computing clusters, making it suitable for large-scale calibration and decision-support applications. Its configurable optimisation settings and multi-objective capabilities enable users to explore trade-offs among performance metrics and identify parameter sets that balance competing modelling goals.&lt;/p&gt;
+&lt;p&gt;
+is widely applicable to hydrology and other environmental sciences, providing a technically rigorous and operationally practical framework for global optimisation. It is particularly well suited for researchers and practitioners who require transparent, reproducible, and scalable tools to calibrate complex models and support evidence-based analysis.&lt;/p&gt;</description></item><item><title>RcamelsCL</title><link>https://mzb.cl/rpackages/rcamelscl/</link><pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate><guid>https://mzb.cl/rpackages/rcamelscl/</guid><description>&lt;style&gt;
+/* 1. Target the main article container broadly */
+body .page-body,
+body .universal-wrapper,
+article.article {
+font-size: 1rem !important; /* Forces base size to 16px */
+}
+/* 2. Target paragraphs and lists specifically with !important */
+.article-style p,
+.article-container p,
+article p,
+.project-content p {
+font-size: 1rem !important;
+line-height: 1.6 !important;
+}
+/* 3. Target list items */
+.article-style li,
+.article-container li,
+article li {
+font-size: 1rem !important;
+}
+&lt;/style&gt;
+&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+is an R package developed to provide easy and reliable access to the Catchment Attributes and Meteorology for Large Sample Studies – Chile dataset (
+), a widely used benchmark resource for large-sample hydrology and comparative catchment analysis. This package focuses on simplifying the acquisition, organisation, and handling of both spatial and temporal data required for hydrological research and modelling across diverse climatic and physiographic regions of Chile.&lt;/p&gt;
+&lt;p&gt;It was designed by &lt;strong&gt;Héctor Garcés-Figueroa&lt;/strong&gt; and I to support reproducible scientific workflows.
+offers a consistent interface for downloading and managing hydrometeorological time series and catchment attributes directly from the official data repository. By standardising data access and preprocessing steps, the package reduces the time and effort typically required to prepare datasets for analysis, allowing users to focus on model development, hypothesis testing, and large-sample hydrological investigations.&lt;/p&gt;
+&lt;p&gt;Importantly,
+preserves the integrity of the original dataset by providing direct access to the original raw data, without altering their content. This approach ensures transparency and traceability in scientific applications, which is particularly relevant for studies involving benchmarking, model intercomparison, and regional hydrological assessment.&lt;/p&gt;
+&lt;p&gt;Well suited for research, teaching, and operational analysis,
+provides a technically sound and efficient gateway to one of the most comprehensive hydrological datasets available for Chile. It is especially valuable for users seeking a reliable foundation for data-driven hydrological studies and reproducible environmental research.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src="https://mzb.cl/rpackages/rcamelscl/RcamelsCL-logo.png"
+alt="RcamelsCL R package."&gt;&lt;figcaption&gt;
+&lt;p&gt;R package.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id="a-simpler-way-to-work-with-camels-cl"&gt;A simpler way to work with CAMELS-CL&lt;/h2&gt;
+&lt;p&gt;
+is an &lt;strong&gt;R package&lt;/strong&gt; built to make the &lt;strong&gt;CAMELS-CL&lt;/strong&gt; dataset easier to use. For hydrologists, that matters because CAMELS-CL (
+) has become a key reference for studying how river basins behave across Chile&amp;rsquo;s wide range of climates and landscapes.&lt;/p&gt;
+&lt;p&gt;Instead of spending a large amount of time downloading files, reorganizing folders, and cleaning inputs, users can access the CAMELS-CL data through a consistent R workflow designed for research and modelling.&lt;/p&gt;
+&lt;h2 id="why-camels-cl-matters"&gt;Why CAMELS-CL matters?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CAMELS-CL&lt;/strong&gt;, short for &lt;strong&gt;Catchment Attributes and Meteorology for Large Sample Studies &amp;ndash; Chile&lt;/strong&gt;, is one of the Chile&amp;rsquo;s main benchmark datasets for &lt;strong&gt;large-sample hydrology&lt;/strong&gt; and &lt;strong&gt;comparative catchment analysis&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It brings together the kinds of information researchers need to ask big questions, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hydrometeorological time series&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Catchment attributes&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Datasets spanning &lt;strong&gt;diverse climatic and physiographic regions of Chile&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That broad coverage makes the dataset especially useful for testing hydrological models, comparing catchments, and exploring how geography and climate shape water availability.&lt;/p&gt;
+&lt;h2 id="what-rcamelscl-does"&gt;What RcamelsCL does?&lt;/h2&gt;
+&lt;p&gt;Developed by &lt;strong&gt;Héctor Garcés-Figueroa&lt;/strong&gt; and me, within the
+water resources observatory, &lt;strong&gt;RcamelsCL&lt;/strong&gt; was designed to support &lt;strong&gt;reproducible scientific workflows&lt;/strong&gt; end-to-end.&lt;/p&gt;
+&lt;p&gt;
+gives users a reliable way to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download data directly from the &lt;strong&gt;official CAMELS-CL repository&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Organize both &lt;strong&gt;spatial&lt;/strong&gt; and &lt;strong&gt;temporal&lt;/strong&gt; datasets.&lt;/li&gt;
+&lt;li&gt;Manage hydrometeorological series and basin attributes through a single interface.&lt;/li&gt;
+&lt;li&gt;Reduce repetitive preprocessing steps before analysis begins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The result is straightforward: less time spent preparing data, and more time spent on &lt;strong&gt;model development&lt;/strong&gt;, &lt;strong&gt;hypothesis testing&lt;/strong&gt;, and &lt;strong&gt;hydrological analysis&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="why-direct-access-to-raw-data-is-important"&gt;Why direct access to raw data is important?&lt;/h2&gt;
+&lt;p&gt;One of the package&amp;rsquo;s strongest features is that it preserves the &lt;strong&gt;original dataset exactly as published&lt;/strong&gt;.
+provides access to the &lt;strong&gt;raw source CAMELS-CL data&lt;/strong&gt; without changing its content.&lt;/p&gt;
+&lt;p&gt;That matters for public trust in science as much as for technical work. When researchers can trace their inputs back to the original repository, it becomes easier to check methods, compare results, and repeat studies with confidence.&lt;/p&gt;
+&lt;p&gt;This kind of transparency is especially valuable for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Benchmarking studies&lt;/strong&gt;, where researchers need to know they are testing models against the same source material.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Model intercomparison&lt;/strong&gt;, to avoid that small preprocessing differences can change model outcomes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Regional hydrological assessment&lt;/strong&gt;, where consistent data handling makes it easier to compare catchments across Chile in a reproducible way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Uses beyond specialist research&lt;/strong&gt;. Although the package is built mostly for the scientific community, its value goes beyond high-level research projects. &lt;strong&gt;RcamelsCL&lt;/strong&gt; is also well suited for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Teaching.&lt;/li&gt;
+&lt;li&gt;Operational analysis.&lt;/li&gt;
+&lt;li&gt;Training in reproducible environmental workflows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For students, it lowers the barrier to working with real hydrological data. For practitioners, it offers a dependable entry point into one of the most comprehensive catchment datasets available for Chile.&lt;/p&gt;
+&lt;h2 id="the-bigger-picture"&gt;The bigger picture&lt;/h2&gt;
+&lt;p&gt;Hydrology increasingly depends on tools that are not just accurate, but also &lt;strong&gt;transparent&lt;/strong&gt;, &lt;strong&gt;repeatable&lt;/strong&gt;, and &lt;strong&gt;efficient&lt;/strong&gt;.
+addresses a basic but important bottleneck: &lt;strong&gt;reproducible data access&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;By making
+easier to download, organise, and use without altering the original records, the package gives researchers a stronger foundation for &lt;strong&gt;data-driven hydrology&lt;/strong&gt; in Chile. That is a practical contribution with wide reach, from classroom exercises to large-scale environmental assessments.&lt;/p&gt;
+&lt;h2 id="how-to-cite-it"&gt;How to cite it?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The package should be cited as:&lt;/p&gt;
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;Garces-Figueroa H., Zambrano-Bigiarini M. (2026). &lt;em&gt;RcamelsCL: Easy Handling of the CAMELS-CL Dataset&lt;/em&gt;. R package version
+0.2-0, doi:10.32614/CRAN.package.RcamelsCL.
+.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src="https://mzb.cl/rpackages/rcamelscl/featured.png"
+alt="Logo of the RcamelsCL R package"&gt;&lt;figcaption&gt;
+&lt;p&gt;Logo of the
+R package&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;</description></item><item><title>RFmerge</title><link>https://mzb.cl/rpackages/rfmerge/</link><pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate><guid>https://mzb.cl/rpackages/rfmerge/</guid><description>&lt;style&gt;
+/* 1. Target the main article container broadly */
+body .page-body,
+body .universal-wrapper,
+article.article {
+font-size: 1rem !important; /* Forces base size to 16px */
+}
+/* 2. Target paragraphs and lists specifically with !important */
+.article-style p,
+.article-container p,
+article p,
+.project-content p {
+font-size: 1rem !important;
+line-height: 1.6 !important;
+}
+/* 3. Target list items */
+.article-style li,
+.article-container li,
+article li {
+font-size: 1rem !important;
+}
+&lt;/style&gt;
+&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+is an R package (currently not on CRAN, but working with the &lt;em&gt;terra&lt;/em&gt; package on Github) designed to generate more reliable environmental datasets by combining information from gridded datasets and ground-based observations. It implements the &lt;strong&gt;Random Forest Merging Procedure (RF-MEP)&lt;/strong&gt; (Baez-Villanueva et al., 2020), a machine-learning approach developed to improve the spatial and temporal representation of environmental variables—particularly precipitation—by leveraging the complementary strengths of different data sources.&lt;/p&gt;
+&lt;p&gt;The package addresses a persistent challenge in hydrology and Earth system sciences: no single dataset provides a complete and unbiased representation of environmental conditions. Rain gauges offer accurate point measurements but limited spatial coverage, while satellite products provide broad spatial information that may contain systematic errors. By integrating these sources within a unified statistical framework,
+produces merged datasets that better capture variability, reduce bias, and enhance the reliability of environmental analyses, especially in data-scarce regions.&lt;/p&gt;
+&lt;p&gt;Built with operational applications in mind,
+provides a transparent and reproducible workflow for dataset merging that can be adapted to a wide range of variables beyond precipitation, including temperature, soil moisture, or other gridded datasets. It is particularly well suited for researchers and practitioners who require spatially consistent datasets to support hydrological modelling, climate analysis, and water resources assessment.&lt;/p&gt;
+&lt;p&gt;Grounded in peer-reviewed research and real-world applications,
+offers a technically robust and methodologically sound foundation for transforming heterogeneous environmental observations into coherent, analysis-ready datasets.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src="https://mzb.cl/rpackages/rfmerge/RFmerge-logo.jpg"
+alt="RFmerge R package."&gt;&lt;figcaption&gt;
+&lt;p&gt;R package.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id="reference"&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Baez-Villanueva, O.M.; &lt;strong&gt;Zambrano-Bigiarini, M.&lt;/strong&gt;; Beck, H.; McNamara, I.; Ribbe, L.; Nauditt, A.; Birkel, C.; Verbist, K.; Giraldo-Osorio, J.D.; Thinh, N.X. (2020).
+, Remote Sensing of Environment, 239, 111610. doi:10.1016/j.rse.2019.111606.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zambrano-Bigiarini, M.; Baez-Villanueva, O.M.; Giraldo-Osorio, J.D. (2026). Tutorial for merging satellite-based precipitation datasets with ground observations using RFmerge (&amp;gt;=0.3-3). doi:10.5281/zenodo.20061104.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zambrano-Bigiarini, M.; Baez-Villanueva, O.M., Giraldo-Osorio, J. (2026). RFmerge: Merging of Satellite Datasets with Ground Observations using Random Forests. R package version 0.3-3. URL:
+. doi:10.32614/CRAN.package.RFmerge.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>hydroPSO</title><link>https://mzb.cl/rpackages/hydropso/</link><pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate><guid>https://mzb.cl/rpackages/hydropso/</guid><description>&lt;style&gt;
+/* 1. Target the main article container broadly */
+body .page-body,
+body .universal-wrapper,
+article.article {
+font-size: 1rem !important; /* Forces base size to 16px */
+}
+/* 2. Target paragraphs and lists specifically with !important */
+.article-style p,
+.article-container p,
+article p,
+.project-content p {
+font-size: 1rem !important;
+line-height: 1.6 !important;
+}
+/* 3. Target list items */
+.article-style li,
+.article-container li,
+article li {
+font-size: 1rem !important;
+}
+&lt;/style&gt;
+&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+is an R package developed to provide a robust and flexible framework for the global optimisation and calibration of environmental and engineering models. It implements state-of-the-art variants of the &lt;strong&gt;Particle Swarm Optimisation (PSO)&lt;/strong&gt; algorithm, designed to efficiently explore complex parameter spaces commonly associated with non-linear, non-smooth, and computationally demanding models.&lt;/p&gt;
+&lt;p&gt;The package was conceived with practical modelling workflows in mind. It is fully model-independent, allowing users to couple the optimisation engine with virtually any simulation model, whether implemented in R or executed externally, without requiring modifications to the model&amp;rsquo;s internal code. This architecture makes
+particularly suitable for systematic calibration of hydrological and environmental models, where reproducibility, transparency, and flexibility are essential.&lt;/p&gt;
+&lt;p&gt;To support rigorous model evaluation,
+includes advanced diagnostic and sensitivity analysis capabilities, as well as comprehensive graphical summaries that facilitate interpretation of optimisation results. Its parallel computing support enables efficient use of multi-core machines and computing clusters, helping to reduce the computational burden associated with large-scale or high-resolution simulations.&lt;/p&gt;
+&lt;p&gt;Widely used in research, teaching, and applied modelling,
+provides a technically sound and operationally reliable optimisation environment. It is especially well suited for users who require a scalable, transparent, and methodologically robust tool to calibrate complex models and support evidence-based analysis in hydrology and related environmental sciences.&lt;/p&gt;
+&lt;h2 id="reference"&gt;Reference&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Zambrano-Bigiarini, M. and Rojas, R. (2013).
+, Environmental Modelling &amp;amp; Software, 43, 5-25, doi:10.1016/j.envsoft.2013.01.004.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src="https://mzb.cl/rpackages/hydropso/hydroPSO-logo.png"
+alt="hydroPSO R package."&gt;&lt;figcaption&gt;
+&lt;p&gt;R package.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;</description></item><item><title>hydroGOF</title><link>https://mzb.cl/rpackages/hydrogof/</link><pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate><guid>https://mzb.cl/rpackages/hydrogof/</guid><description>&lt;style&gt;
+/* 1. Target the main article container broadly */
+body .page-body,
+body .universal-wrapper,
+article.article {
+font-size: 1rem !important; /* Forces base size to 16px */
+}
+/* 2. Target paragraphs and lists specifically with !important */
+.article-style p,
+.article-container p,
+article p,
+.project-content p {
+font-size: 1rem !important;
+line-height: 1.6 !important;
+}
+/* 3. Target list items */
+.article-style li,
+.article-container li,
+article li {
+font-size: 1rem !important;
+}
+&lt;/style&gt;
+&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+is an R package developed to provide a rigorous and consistent framework for evaluating the performance of hydrological and environmental models. It implements a broad suite of widely used statistical and graphical goodness-of-fit metrics to compare simulatd values agains iits observed counterparts; such as the coefficient of determination (R²), Nash–Sutcliffe efficiency (NSE), Kling–Gupta efficiency (KGE), and percent bias (PBIAS); that support objective assessment of model behaviour during calibration, validation, and operational application.&lt;/p&gt;
+&lt;p&gt;The package is designed with practical modelling workflows in mind. Its functions facilitate transparent comparison between observed and simulated time series, enable systematic performance diagnostics, and handle common data challenges such as missing values in a controlled and reproducible manner. By standardising the computation of performance indicators,
+helps ensure that model evaluation remains methodologically consistent across studies and applications.&lt;/p&gt;
+&lt;p&gt;
+is widely used in research, teaching, and professional practice, which makes it particularly suitable for users who require dependable, well-documented tools to quantify model accuracy and communicate results with clarity. It provides a technically robust foundation for evidence-based model development, benchmarking, and decision support in hydrology and related environmental sciences.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src="https://mzb.cl/rpackages/hydrogof/hydroGOF-logo.jpg"
+alt="hydroGOF R package."&gt;&lt;figcaption&gt;
+&lt;p&gt;R package.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;</description></item><item><title>hydroTSM</title><link>https://mzb.cl/rpackages/hydrotsm/</link><pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate><guid>https://mzb.cl/rpackages/hydrotsm/</guid><description>&lt;style&gt;
+/* 1. Target the main article container broadly */
+body .page-body,
+body .universal-wrapper,
+article.article {
+font-size: 1rem !important; /* Forces base size to 16px */
+}
+/* 2. Target paragraphs and lists specifically with !important */
+.article-style p,
+.article-container p,
+article p,
+.project-content p {
+font-size: 1rem !important;
+line-height: 1.6 !important;
+}
+/* 3. Target list items */
+.article-style li,
+.article-container li,
+article li {
+font-size: 1rem !important;
+}
+&lt;/style&gt;
+&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;
+is an R package designed to support the practical workflow of hydrologists and environmental scientists who routinely work with time series data. It provides a comprehensive and coherent set of tools for the management, quality control, analysis, interpolation, and visualization of hydrological and environmental time series, with particular emphasis on tasks commonly encountered in hydrological modelling and water resources assessment.&lt;/p&gt;
+&lt;p&gt;
+prioritises reliability, transparency, and functional breadth, reflecting the operational realities of applied hydrology, where reproducible data handling and robust diagnostics are often more critical than marginal computational gains. Its functions are built to integrate naturally into analytical pipelines, facilitating consistent preprocessing and exploration of observational datasets prior to modelling or decision-making.&lt;/p&gt;
+&lt;p&gt;Developed with the daily needs of practitioners in mind,
+has been widely used in research, teaching, and professional applications. It is especially suitable for users who require dependable, well-documented tools to support routine hydrological analysis while maintaining full control over data processing steps within the R environment.&lt;/p&gt;
+&lt;!-- Fotos --&gt;
+&lt;figure&gt;&lt;img src="https://mzb.cl/rpackages/hydrotsm/hydroTSM-logo.jpg"
+alt="hydroTSM R package."&gt;&lt;figcaption&gt;
+&lt;p&gt;R package.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;</description></item></channel></rss>
