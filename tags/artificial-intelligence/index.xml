@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Artificial Intelligence | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/tags/artificial-intelligence/</link><atom:link href="https://mzb.cl/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml"/><description>Artificial Intelligence</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_edd58fc588fafe6f.png</url><title>Artificial Intelligence</title><link>https://mzb.cl/tags/artificial-intelligence/</link></image><item><title>How to Use ChatGPT to Learn Hydrological Modelling (I): set-up, prompts and trustworthy answers</title><link>https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/</link><pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/</guid><description>
+&lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
+&lt;p&gt;&lt;strong&gt;Estimated reading time: 16-21 minutes&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="before-we-begin-learning-in-an-age-of-rapidly-changing-ai"&gt;Before we begin: learning in an age of rapidly changing AI&lt;/h2&gt;
+&lt;p&gt;Preparing university students for professional practice has become more difficult for one additional reason: &lt;strong&gt;we do not know exactly what AI tools will be capable of by the time today&amp;rsquo;s students graduate&lt;/strong&gt;. Generative AI is evolving quickly and is already changing how we search for information, write, analyse data, program and solve problems. The educational challenge, therefore, is not merely to adopt a new technology, but to decide &lt;strong&gt;what to use it for and which student capabilities we actually want to strengthen&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Recent discussion highlights both opportunities and risks. Generative AI can widen access to explanations, personalise support and accelerate some tasks, but it can also encourage shallow learning, dependence and a false sense of mastery when it is used to produce polished answers without the necessary reasoning. In higher education, this has led to growing emphasis on critical thinking, adaptability, curiosity and lifelong learning, as well as on pedagogical frameworks that focus on purposeful integration rather than technology alone.&lt;/p&gt;
+&lt;p&gt;That is the purpose of this three-part tutorial series. &lt;strong&gt;It is not designed to teach you how to obtain quick answers. It is designed to help you use generative AI to build knowledge, question explanations, detect errors, practise reasoning, work more efficiently and receive feedback without outsourcing understanding.&lt;/strong&gt; In IIO409, ChatGPT can help you write a function in R, propose a calibration strategy or explain GLUE in seconds. But you still need to be the person who can interpret a new result, modify a procedure and defend every modelling decision.&lt;/p&gt;
+&lt;p&gt;The sequence is deliberate. &lt;strong&gt;Part I&lt;/strong&gt; focuses on setting up ChatGPT and obtaining useful, verifiable answers. &lt;strong&gt;Part II&lt;/strong&gt; uses it as a Socratic tutor for conceptual understanding and critical thinking. &lt;strong&gt;Part III&lt;/strong&gt; uses it as a base R programming companion for practical work and &lt;em&gt;vibe coding&lt;/em&gt; without sacrificing reproducibility, validation or understanding.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;ChatGPT can be genuinely useful for learning hydrological modelling, but its usefulness depends largely on how you use it. If you type only &lt;em&gt;&amp;ldquo;Explain hydrological model calibration&amp;rdquo;&lt;/em&gt;, you may receive a correct general answer, but one that is still far too broad to be genuinely helpful in IIO409. If, instead, you define who you are, what you are learning, what your problem is, what prior knowledge you already have and what kind of answer you need, the conversation becomes much closer to a useful tutorial.&lt;/p&gt;
+&lt;p&gt;In IIO409 this matters especially. The course is not simply about running a rainfall-runoff model. You are expected to learn how to formulate a conceptual model, choose data and models, analyse sensitivity, calibrate and verify, interpret uncertainty, regionalise and discuss climate-change impacts. In other words, you must learn to make and defend modelling decisions.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Visual summary of Part I"
+srcset="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_a3f1235332bc1a8f.webp 320w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_70c0233d98dbac9b.webp 480w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_36334ca0f971bf7f.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_a3f1235332bc1a8f.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id="1-before-you-ask-set-up-the-context"&gt;1. Before you ask: set up the context&lt;/h2&gt;
+&lt;p&gt;One of the simplest and most effective ways to improve ChatGPT&amp;rsquo;s replies is to give it stable information about yourself and about the course.&lt;/p&gt;
+&lt;p&gt;You do not need to write a biography. You need to provide the context that materially changes the answer.&lt;/p&gt;
+&lt;p&gt;A good initial context for an IIO409 student might be:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I am a Civil Engineering student in Chile taking IIO409 Hydrological Modelling.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I have already completed an R course and I can work with data.frame objects,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;matrices, functions, plots and packages.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;In this course I need to learn rainfall-runoff modelling, hydrometeorological data,
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sensitivity analysis, calibration, verification, uncertainty, regionalisation
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;and climate change.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I work in base R. I do not want to use tidyverse.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;When you help me:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- prioritise conceptual understanding and hydrological reasoning;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- do not invent references, R functions or results;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- separate facts, assumptions and inferences;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- if important information is missing, ask me before answering;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- for R code, deliver simple, reproducible and verifiable solutions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- explain why each important step works;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- tell me how to check whether the result is correct.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can store part of this information in &lt;strong&gt;Custom Instructions&lt;/strong&gt;. Custom Instructions are available on both free and paid ChatGPT accounts, although the exact features and limits may vary by plan.&lt;/p&gt;
+&lt;p&gt;A particularly useful instruction is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Before answering a technical task, check whether any missing information could materially change the answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;If so, ask me up to three focused questions before continuing.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This simple rule reduces one of the most common failure modes: ChatGPT silently filling in missing information that you never provided.&lt;/p&gt;
+&lt;h3 id="why-does-this-help"&gt;Why does this help?&lt;/h3&gt;
+&lt;p&gt;A language model does not automatically know your learning objective, your software ecosystem or the constraints of the task. When context is missing, it generates a plausible continuation. In hydrological modelling, a plausible assumption can still be methodologically wrong.&lt;/p&gt;
+&lt;p&gt;For example, if you ask:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;How should I calibrate my model?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;at least these questions are missing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Which model?&lt;/li&gt;
+&lt;li&gt;Which variable are you calibrating against?&lt;/li&gt;
+&lt;li&gt;What is the purpose of the model?&lt;/li&gt;
+&lt;li&gt;What warm-up period are you using?&lt;/li&gt;
+&lt;li&gt;What are the calibration and verification periods?&lt;/li&gt;
+&lt;li&gt;What objective function do you want to optimise?&lt;/li&gt;
+&lt;li&gt;Which parameters are calibratable?&lt;/li&gt;
+&lt;li&gt;What ranges are physically acceptable?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A confident reply to such an underspecified question should make you cautious rather than reassured.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="2-the-r-c-t-f-structure-role--context--task--format"&gt;2. The R-C-T-F structure: Role + Context + Task + Format&lt;/h2&gt;
+&lt;p&gt;There is no single magic formula for writing prompts. For this course, however, it is useful to think in four parts.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Prompt architecture"
+srcset="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_9f3b66ca0a065dcc.webp 320w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_93f472e0f309e4ec.webp 480w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_6dd1a04a9e43e064.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_9f3b66ca0a065dcc.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="r-role"&gt;R: Role&lt;/h3&gt;
+&lt;p&gt;State the perspective from which you want the answer.&lt;/p&gt;
+&lt;p&gt;Examples:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Act as a university tutor with expertise in hydrological modelling.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Act as a very critical methodological reviewer.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Act as a Socratic tutor. Do not give me the answer immediately.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The role does not magically turn ChatGPT into a true expert. It helps to guide the style and depth of the answer.&lt;/p&gt;
+&lt;h3 id="c-context"&gt;C: Context&lt;/h3&gt;
+&lt;p&gt;Provide the information needed to understand the problem.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I am working on a pluvial catchment in south-central Chile.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I have daily precipitation, daily temperature and observed daily discharge.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I want to assess a conceptual rainfall-runoff model.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you are working on the course project, add:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;catchment;&lt;/li&gt;
+&lt;li&gt;period;&lt;/li&gt;
+&lt;li&gt;temporal resolution;&lt;/li&gt;
+&lt;li&gt;available data;&lt;/li&gt;
+&lt;li&gt;model;&lt;/li&gt;
+&lt;li&gt;aim of the analysis;&lt;/li&gt;
+&lt;li&gt;decisions already taken;&lt;/li&gt;
+&lt;li&gt;constraints.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="t-task"&gt;T: Task&lt;/h3&gt;
+&lt;p&gt;State exactly what ChatGPT must do.&lt;/p&gt;
+&lt;p&gt;A weak task:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Tell me about KGE.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A better one:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Explain which error components KGE attempts to summarise and why two simulations
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;with the same KGE can still behave very differently hydrologically.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Even better:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;After explaining it, give me two hypothetical simulations with the same KGE but
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;different hydrological errors and ask me which one would be preferable for low flows.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not answer that last question until I reply.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="f-format"&gt;F: Format&lt;/h3&gt;
+&lt;p&gt;Tell ChatGPT how you want the answer delivered.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Answer in this order:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. conceptual explanation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. hydrological example;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. common mistake;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. one question to check whether I understood.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Maximum 500 words.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For programming:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Provide:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. strategy;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. a base R function;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. a small reproducible example;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. checks of the result;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. possible errors.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not use tidyverse.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id="3-a-long-prompt-is-not-necessarily-a-good-prompt"&gt;3. A long prompt is not necessarily a good prompt&lt;/h2&gt;
+&lt;p&gt;A common mistake is to assume that a prompt must be huge.&lt;/p&gt;
+&lt;p&gt;What matters is not length itself, but the removal of relevant ambiguity.&lt;/p&gt;
+&lt;p&gt;A good conversation can also be iterative:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Me: I need to learn global sensitivity analysis for IIO409.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Before explaining it, ask me what I already know.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ChatGPT: What do you understand by the sensitivity of a parameter?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Me: I think it measures how much the output changes when the parameter changes.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ChatGPT: Good. What limitation does that definition have if you vary one parameter while all others stay fixed?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This kind of exchange often produces more learning than asking for an encyclopaedic explanation of Sobol indices.&lt;/p&gt;
+&lt;p&gt;OpenAI&amp;rsquo;s &lt;strong&gt;Study Mode&lt;/strong&gt; was designed around a similar logic: interactive questions, scaffolded explanations and checks of understanding. The underlying principle is simple and powerful: if you want to learn, do not ask only for content; ask to be questioned.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="4-the-instruction-you-should-use-for-ambiguous-problems"&gt;4. The instruction you should use for ambiguous problems&lt;/h2&gt;
+&lt;p&gt;A very useful general rule is to tell ChatGPT explicitly that it should ask questions before solving when key information is missing.&lt;/p&gt;
+&lt;p&gt;For IIO409, I recommend making this a standard instruction:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not assume data, methods or objectives that I have not given you.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;If missing information could change the solution, ask me before answering.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask at most three questions, prioritising the ones with the greatest methodological impact.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For instance:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;My simulation obtained KGE = 0.76. Is my model good?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A methodologically serious response should ask, among other things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;good for what purpose?&lt;/li&gt;
+&lt;li&gt;is this calibration or verification?&lt;/li&gt;
+&lt;li&gt;which KGE components produce that value?&lt;/li&gt;
+&lt;li&gt;how does the model behave for the processes or flow ranges that matter?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hydrological modelling is not about classifying isolated metrics as &amp;ldquo;good&amp;rdquo; or &amp;ldquo;bad&amp;rdquo;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="5-chatgpt-can-still-be-wrong-even-when-it-sounds-confident"&gt;5. ChatGPT can still be wrong even when it sounds confident&lt;/h2&gt;
+&lt;p&gt;A fluent reply is not evidence of correctness.&lt;/p&gt;
+&lt;p&gt;ChatGPT may:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;invent a reference;&lt;/li&gt;
+&lt;li&gt;attribute an equation to the wrong author;&lt;/li&gt;
+&lt;li&gt;use a non-existent R function;&lt;/li&gt;
+&lt;li&gt;confuse function arguments;&lt;/li&gt;
+&lt;li&gt;assume units;&lt;/li&gt;
+&lt;li&gt;invent numerical values;&lt;/li&gt;
+&lt;li&gt;misread a figure;&lt;/li&gt;
+&lt;li&gt;suggest a methodological strategy that is not appropriate for your aim.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That is why you need a verification stage.&lt;/p&gt;
+&lt;p&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;
+&lt;img alt="Reliability loop"
+srcset="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_e83b7e214d992bd4.webp 320w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_6d34e0f35314bf41.webp 480w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_b380d7274eb4f712.webp 760w"
+sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
+src="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_e83b7e214d992bd4.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id="rule-1-separate-facts-from-proposals"&gt;Rule 1: separate facts from proposals&lt;/h3&gt;
+&lt;p&gt;Ask:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Separate your answer into:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- facts that can be checked;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- assumptions you are making;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- interpretation;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- recommendation.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="rule-2-request-sources-when-they-really-matter"&gt;Rule 2: request sources when they really matter&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;For each important scientific claim, provide a verifiable reference.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not invent DOI numbers. If you are not sufficiently sure of a reference, say so.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then check the article yourself.&lt;/p&gt;
+&lt;p&gt;Do not cite ChatGPT as a substitute for a scientific source.&lt;/p&gt;
+&lt;h3 id="rule-3-when-dealing-with-r-run-the-code"&gt;Rule 3: when dealing with R, run the code&lt;/h3&gt;
+&lt;p&gt;Do not ask only:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Is this code correct?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Run it.&lt;/p&gt;
+&lt;p&gt;Check:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-r" data-lang="r"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;stopifnot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="nf"&gt;length&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;obs&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;stopifnot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;all&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;is.finite&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nf"&gt;stopifnot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;!&lt;/span&gt;&lt;span class="nf"&gt;anyNA&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sim&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Inspect plots. Test the function on a small case with a known behaviour. Check dates and units.&lt;/p&gt;
+&lt;h3 id="rule-4-ask-for-counter-examples"&gt;Rule 4: ask for counter-examples&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Give me a case in which this recommendation would be wrong.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is particularly useful in modelling.&lt;/p&gt;
+&lt;h3 id="rule-5-ask-it-to-criticise-itself"&gt;Rule 5: ask it to criticise itself&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Now act as a critical reviewer.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Identify the three weakest points in your previous answer.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This does not guarantee correctness, but it often reveals hidden assumptions.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="6-do-not-ask-it-to-think-for-you-ask-it-to-help-you-think"&gt;6. Do not ask it to think for you: ask it to help you think&lt;/h2&gt;
+&lt;p&gt;If your aim is learning, avoid prompts like:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Solve this exercise.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Prefer:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I want to solve this exercise myself.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not give me the final solution.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Ask me one question at a time and only give a hint if I get stuck.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Another useful variation is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;First ask me to explain, in my own words, what I think will happen.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then challenge my explanation.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Only at the end show me a reference solution.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This completely changes ChatGPT&amp;rsquo;s function: from answer generator to reasoning trainer.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="7-free-or-plus-for-iio409"&gt;7. Free or Plus for IIO409?&lt;/h2&gt;
+&lt;p&gt;This question matters, especially when a monthly subscription would be a significant cost for the student&amp;rsquo;s household.&lt;/p&gt;
+&lt;h3 id="my-recommendation-for-this-course"&gt;My recommendation for this course&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;I do not think students need ChatGPT Plus in order to pass IIO409 or to learn hydrological modelling well.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The free tier is often enough for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;studying concepts;&lt;/li&gt;
+&lt;li&gt;asking practice questions;&lt;/li&gt;
+&lt;li&gt;checking short fragments of R;&lt;/li&gt;
+&lt;li&gt;preparing discussion points;&lt;/li&gt;
+&lt;li&gt;using Study Mode;&lt;/li&gt;
+&lt;li&gt;rehearsing oral explanations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A paid plan can be useful when you work intensively with longer conversations, files, code and repeated tool use. But this is mainly a matter of convenience and productivity, not educational necessity.&lt;/p&gt;
+&lt;h3 id="when-might-a-paid-plan-be-worth-it"&gt;When might a paid plan be worth it?&lt;/h3&gt;
+&lt;p&gt;It may make sense if:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;you use ChatGPT heavily for programming and debugging;&lt;/li&gt;
+&lt;li&gt;you regularly work with uploaded files;&lt;/li&gt;
+&lt;li&gt;you analyse longer documents;&lt;/li&gt;
+&lt;li&gt;the free-tier limits interrupt your work often;&lt;/li&gt;
+&lt;li&gt;you are in a particularly intensive phase of the project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="when-would-i-not-pay-for-it"&gt;When would I not pay for it?&lt;/h3&gt;
+&lt;p&gt;I would not pay only to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ask for definitions;&lt;/li&gt;
+&lt;li&gt;summarise notes;&lt;/li&gt;
+&lt;li&gt;generate practice questions;&lt;/li&gt;
+&lt;li&gt;review short code;&lt;/li&gt;
+&lt;li&gt;brainstorm study ideas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For those tasks, the quality of the study method usually matters much more than the type of plan.&lt;/p&gt;
+&lt;h3 id="an-equity-consideration"&gt;An equity consideration&lt;/h3&gt;
+&lt;p&gt;No essential learning activity in the course should depend on a student&amp;rsquo;s ability to pay for a subscription. If two students have the same knowledge and one cannot afford a paid plan, that should not create an academic disadvantage.&lt;/p&gt;
+&lt;p&gt;Treat a paid plan, therefore, as an optional productivity tool, not as a requirement.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="8-five-prompts-you-can-save-today"&gt;8. Five prompts you can save today&lt;/h2&gt;
+&lt;h3 id="prompt-1-socratic-tutor"&gt;Prompt 1: Socratic tutor&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Act as a Socratic tutor for hydrological modelling for a Civil Engineering student.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I want to learn [TOPIC].
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;First ask me what I currently understand.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then ask me one question at a time.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not give me the solution before I answer.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;When I make a mistake, identify the conceptual error and give me a hint.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;At the end, give me a slightly different problem to test transfer.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="prompt-2-conceptual-checker"&gt;Prompt 2: conceptual checker&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I am going to explain [CONCEPT] in my own words.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not rewrite it immediately.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Assess my explanation in terms of:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. correct ideas;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. incomplete ideas;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. mistakes;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. implicit assumptions;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. one question that reveals whether I really understand it.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="prompt-3-methodological-critic"&gt;Prompt 3: methodological critic&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Act as a critical reviewer of a hydrological modelling study.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not try to be nice: look for methodological weaknesses.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;I will describe my methodology.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Identify problems that could affect:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- data consistency;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- warm-up;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- calibration;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- verification;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- objective function;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- identifiability;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- uncertainty;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- interpretation.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Prioritise the problems by impact and explain how to check each one.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="prompt-4-programming-companion"&gt;Prompt 4: programming companion&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Help me solve this problem in base R, without tidyverse.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Before writing code:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. summarise the goal;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. identify inputs and outputs;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. ask me for any crucial missing information.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Then deliver a minimal reproducible solution.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Include automatic checks and explain how to verify the result.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Do not invent functions or package arguments.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="prompt-5-hallucination-detector"&gt;Prompt 5: hallucination detector&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Review your previous answer as if you were an auditor.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Flag every claim that depends on:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- a reference;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- a software function;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- a number;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- a date;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- an assumption that I did not provide.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;For each one, tell me how I can verify it independently.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id="9-checklist-before-you-trust-an-answer"&gt;9. Checklist before you trust an answer&lt;/h2&gt;
+&lt;p&gt;Before using a reply from ChatGPT in IIO409, ask yourself:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do I understand why the answer makes sense?&lt;/li&gt;
+&lt;li&gt;Have I identified its assumptions?&lt;/li&gt;
+&lt;li&gt;Can I explain it without copying its wording?&lt;/li&gt;
+&lt;li&gt;Can I think of at least one case in which it would not hold?&lt;/li&gt;
+&lt;li&gt;Have I checked the references and functions?&lt;/li&gt;
+&lt;li&gt;Have I run the code?&lt;/li&gt;
+&lt;li&gt;Have I checked units and dates?&lt;/li&gt;
+&lt;li&gt;Could I defend this decision in front of my lecturer?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If the answer to several of these is &amp;ldquo;no&amp;rdquo;, you are not finished yet.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="10-final-idea-using-chatgpt-well-means-asking-better-questions"&gt;10. Final idea: using ChatGPT well means asking better questions&lt;/h2&gt;
+&lt;p&gt;The aim is not to memorise a set of &amp;ldquo;magic prompts&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;The aim is to develop a habit:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;define the problem more clearly, make assumptions explicit, ask for evidence, test the result and refine the solution.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;That is exactly the same habit you need in good hydrological modelling.&lt;/p&gt;
+&lt;p&gt;In &lt;strong&gt;Part II&lt;/strong&gt; we will apply this logic to the theory component of IIO409: how to use ChatGPT to study concepts, read articles critically, diagnose modelling cases and prepare for assessments in which memorising definitions is not enough.&lt;/p&gt;
+&lt;h2 id="recommended-references-and-further-reading"&gt;Recommended references and further reading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI. &lt;em&gt;How do I create a good prompt for an AI model?&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;OpenAI. &lt;em&gt;Study Mode in ChatGPT&lt;/em&gt;.
+&lt;/li&gt;
+&lt;li&gt;OpenAI. &lt;em&gt;ChatGPT Free Tier FAQ&lt;/em&gt;.
+&lt;/li&gt;
+&lt;li&gt;OpenAI. &lt;em&gt;What is ChatGPT Plus?&lt;/em&gt;
+&lt;/li&gt;
+&lt;li&gt;OpenAI. &lt;em&gt;Pricing&lt;/em&gt;.
+&lt;/li&gt;
+&lt;li&gt;Vieriu, D. (2025). &lt;em&gt;The impact of artificial intelligence on education&lt;/em&gt;.
+&lt;/li&gt;
+&lt;li&gt;Woon, C. (2025). &lt;em&gt;Transforming education in the age of AI: challenges and opportunities&lt;/em&gt;.
+&lt;/li&gt;
+&lt;li&gt;The Koala News (2026). &lt;em&gt;AI&amp;rsquo;s higher-education challenge isn&amp;rsquo;t speed; it&amp;rsquo;s purpose&lt;/em&gt;.
+&lt;/li&gt;
+&lt;li&gt;Hochschulforum Digitalisierung (2026). &lt;em&gt;Crafting Generative AI&lt;/em&gt;.
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
