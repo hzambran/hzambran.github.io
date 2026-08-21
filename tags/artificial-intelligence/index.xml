@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Artificial Intelligence | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/tags/artificial-intelligence/</link><atom:link href="https://mzb.cl/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml"/><description>Artificial Intelligence</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_edd58fc588fafe6f.png</url><title>Artificial Intelligence</title><link>https://mzb.cl/tags/artificial-intelligence/</link></image><item><title>How to Use ChatGPT to Learn Hydrological Modelling (I): set-up, prompts and trustworthy answers</title><link>https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/</link><pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Artificial Intelligence | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/tags/artificial-intelligence/</link><atom:link href="https://mzb.cl/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml"/><description>Artificial Intelligence</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_edd58fc588fafe6f.png</url><title>Artificial Intelligence</title><link>https://mzb.cl/tags/artificial-intelligence/</link></image><item><title>How to Use ChatGPT to Learn Hydrological Modelling (I): set-up, prompts and trustworthy answers</title><link>https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/</link><pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/</guid><description>
 &lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
 &lt;p&gt;&lt;strong&gt;Estimated reading time: 16-21 minutes&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -15,9 +15,9 @@
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt="Visual summary of Part I"
-srcset="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_a3f1235332bc1a8f.webp 320w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_70c0233d98dbac9b.webp 480w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_36334ca0f971bf7f.webp 760w"
+srcset="https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_a3f1235332bc1a8f.webp 320w, https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_70c0233d98dbac9b.webp 480w, https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_36334ca0f971bf7f.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_a3f1235332bc1a8f.webp"
+src="https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_chatgpt_part1_summary_hu_a3f1235332bc1a8f.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -74,9 +74,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt="Prompt architecture"
-srcset="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_9f3b66ca0a065dcc.webp 320w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_93f472e0f309e4ec.webp 480w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_6dd1a04a9e43e064.webp 760w"
+srcset="https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_9f3b66ca0a065dcc.webp 320w, https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_93f472e0f309e4ec.webp 480w, https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_6dd1a04a9e43e064.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_9f3b66ca0a065dcc.webp"
+src="https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_part1_prompt_architecture_hu_9f3b66ca0a065dcc.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -185,9 +185,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt="Reliability loop"
-srcset="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_e83b7e214d992bd4.webp 320w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_6d34e0f35314bf41.webp 480w, https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_b380d7274eb4f712.webp 760w"
+srcset="https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_e83b7e214d992bd4.webp 320w, https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_6d34e0f35314bf41.webp 480w, https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_b380d7274eb4f712.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://mzb.cl/courses/iio409-modelacionhidrologica/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_e83b7e214d992bd4.webp"
+src="https://mzb.cl/courses/iio409-modelacionhidrologica/suggested-usage-of-chatgpt/chatgpt-part-i-setup-prompts/images/iio409_part1_reliability_loop_hu_e83b7e214d992bd4.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;

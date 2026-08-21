@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Paper-Conference | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/publication_types/paper-conference/</link><atom:link href="https://mzb.cl/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml"/><description>Paper-Conference</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_855d0eece6b892bf.png</url><title>Paper-Conference</title><link>https://mzb.cl/publication_types/paper-conference/</link></image><item><title>Towards best default configuration settings for NMPSO in multi-objective optimization</title><link>https://mzb.cl/publications/2021-marinaorivas-towards-best/</link><pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2021-marinaorivas-towards-best/</guid><description>&lt;style&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Paper-Conference | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/publication_types/paper-conference/</link><atom:link href="https://mzb.cl/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml"/><description>Paper-Conference</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_edd58fc588fafe6f.png</url><title>Paper-Conference</title><link>https://mzb.cl/publication_types/paper-conference/</link></image><item><title>Towards best default configuration settings for NMPSO in multi-objective optimization</title><link>https://mzb.cl/publications/2021-marinaorivas-towards-best/</link><pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2021-marinaorivas-towards-best/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Real-world optimisation often requires finding good solutions with limited computational effort.&lt;/li&gt;&lt;li&gt;This study tests 16 configurations of the NMPSO algorithm to identify settings that achieve fast convergence with few function evaluations.&lt;/li&gt;&lt;li&gt;Using benchmark problems and comparisons with leading methods such as NSGA-II and NSGA-III, the results show that a carefully tuned, small-swarm configuration performs best.&lt;/li&gt;&lt;li&gt;The selected setup converges quickly toward optimal trade-offs and competes strongly with state-of-the-art algorithms, offering an efficient solution for complex multi-objective problems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -99,7 +114,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Standard Particle Swarm Optimisation 2011 at CEC-2013: A baseline for future PSO improvements</title><link>https://mzb.cl/publications/2013-zambranobigiarini-standard-particle/</link><pubDate>Sun, 23 Jun 2013 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2013-zambranobigiarini-standard-particle/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Standard Particle Swarm Optimisation 2011 at CEC-2013: A baseline for future PSO improvements</title><link>https://mzb.cl/publications/2013-zambranobigiarini-standard-particle/</link><pubDate>Sun, 23 Jun 2013 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2013-zambranobigiarini-standard-particle/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;This study benchmarks the Standard Particle Swarm Optimisation algorithm (SPSO-2011) against the 28 test functions of the CEC-2013 competition.&lt;/li&gt;&lt;li&gt;Performance was weakest for complex composition and certain multimodal functions, with limited ability to escape local optima.&lt;/li&gt;&lt;li&gt;The algorithm required fewer than 10³–10⁴ evaluations and demonstrated strong scalability up to 50 dimensions.&lt;/li&gt;&lt;li&gt;These results provide a baseline for future PSO developments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));

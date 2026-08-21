@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HEC-HMS | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/tags/hec-hms/</link><atom:link href="https://mzb.cl/tags/hec-hms/index.xml" rel="self" type="application/rss+xml"/><description>HEC-HMS</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_edd58fc588fafe6f.png</url><title>HEC-HMS</title><link>https://mzb.cl/tags/hec-hms/</link></image><item><title>How to use ChatGPT to learn Hydrology - Part III: vibe coding, hydroTSM and reproducible practical projects</title><link>https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/</link><pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HEC-HMS | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/tags/hec-hms/</link><atom:link href="https://mzb.cl/tags/hec-hms/index.xml" rel="self" type="application/rss+xml"/><description>HEC-HMS</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_edd58fc588fafe6f.png</url><title>HEC-HMS</title><link>https://mzb.cl/tags/hec-hms/</link></image><item><title>How to use ChatGPT to learn Hydrology - Part III: vibe coding, hydroTSM and reproducible practical projects</title><link>https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/</link><pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/</guid><description>
 &lt;blockquote class="border-l-4 border-neutral-300 dark:border-neutral-600 pl-4 italic text-neutral-600 dark:text-neutral-400 my-6"&gt;
 &lt;p&gt;&lt;strong&gt;Estimated reading and practice time:&lt;/strong&gt; 20-25 minutes.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -10,9 +10,9 @@
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt="Controlled vibe coding"
-srcset="https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_659ef179e5190ae9.webp 320w, https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_5da6496509a4b037.webp 480w, https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_1baef7b4a8e38b73.webp 760w"
+srcset="https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_aeca7e591b5edaa4.webp 320w, https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_6d68b65ab5538f35.webp 480w, https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_aed1293580709d42.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_659ef179e5190ae9.webp"
+src="https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-1-controlled-vibe-coding_hu_aeca7e591b5edaa4.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -43,9 +43,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt="Architecture of each practical assignment"
-srcset="https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_51d7a3b0ce11bf1f.webp 320w, https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_a3675bf626de80fa.webp 480w, https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_62ef7e7bbabb75cf.webp 760w"
+srcset="https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_9569d14de490144c.webp 320w, https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_1ecc6f57ece21522.webp 480w, https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_3f8758b6e31696b7.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_51d7a3b0ce11bf1f.webp"
+src="https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-3-practical-assessment_hu_9569d14de490144c.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;
@@ -58,9 +58,9 @@ loading="lazy" data-zoomable /&gt;&lt;/div&gt;
 &lt;div class="flex justify-center "&gt;
 &lt;div class="w-full" &gt;
 &lt;img alt="Practical skills map"
-srcset="https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_5b9b54d2e8bb9496.webp 320w, https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_73a09e8fc624ddf2.webp 480w, https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_29cfc5310cf9d5e0.webp 760w"
+srcset="https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_f2186b04a5d033ed.webp 320w, https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_d84dcce9e8cd16dd.webp 480w, https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_924a664c86fd7716.webp 760w"
 sizes="(max-width: 480px) 100vw, (max-width: 768px) 90vw, (max-width: 1024px) 80vw, 760px"
-src="https://mzb.cl/courses/iio352-hidrologia/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_5b9b54d2e8bb9496.webp"
+src="https://mzb.cl/courses/iio422-hidrologia/suggested-usage-of-chatgpt/chatgpt-part-iii-vibe-coding/assets/part-III-figure-2-practical-skills-map_hu_f2186b04a5d033ed.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable /&gt;&lt;/div&gt;

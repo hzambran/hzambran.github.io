@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Article-Journal | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/publication_types/article-journal/</link><atom:link href="https://mzb.cl/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml"/><description>Article-Journal</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_855d0eece6b892bf.png</url><title>Article-Journal</title><link>https://mzb.cl/publication_types/article-journal/</link></image><item><title>From grid to ground: how well do gridded products represent soil moisture dynamics in natural ecosystems during precipitation events?</title><link>https://mzb.cl/publications/2026-nunezibarra-from-grid/</link><pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2026-nunezibarra-from-grid/</guid><description>&lt;style&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Article-Journal | Dr. Mauricio Zambrano-Bigiarini</title><link>https://mzb.cl/publication_types/article-journal/</link><atom:link href="https://mzb.cl/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml"/><description>Article-Journal</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://mzb.cl/media/icon_hu_edd58fc588fafe6f.png</url><title>Article-Journal</title><link>https://mzb.cl/publication_types/article-journal/</link></image><item><title>From grid to ground: how well do gridded products represent soil moisture dynamics in natural ecosystems during precipitation events?</title><link>https://mzb.cl/publications/2026-nunezibarra-from-grid/</link><pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2026-nunezibarra-from-grid/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Reliable soil moisture data are essential for understanding land–atmosphere exchanges and hydrological variability, yet their accuracy remains uncertain in many Southern Hemisphere regions.&lt;/li&gt;&lt;li&gt;This study evaluated four widely used gridded datasets against field observations across contrasting climates in Chile.&lt;/li&gt;&lt;li&gt;Reanalysis-based products performed most consistently overall, while all datasets showed limitations in reproducing soil moisture responses under dry antecedent conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
 font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
 }
@@ -75,7 +90,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Developing Intensity-Duration-Frequency (IDF) curves using sub-daily gridded and in situ datasets: characterising precipitation extremes in a drying climate</title><link>https://mzb.cl/publications/2026-sotoescobar-developing-intensitydurationfrequency/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2026-sotoescobar-developing-intensitydurationfrequency/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Developing Intensity-Duration-Frequency (IDF) curves using sub-daily gridded and in situ datasets: characterising precipitation extremes in a drying climate</title><link>https://mzb.cl/publications/2026-sotoescobar-developing-intensitydurationfrequency/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2026-sotoescobar-developing-intensitydurationfrequency/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;This study assesses how spatial patterns, temporal trends, and record length in hourly precipitation data affect annual maximum intensities estimated with stationary and non-stationary models across a climatically and topographically diverse region.&lt;/li&gt;&lt;li&gt;Comparing five gridded datasets, we find consistent spatial patterns but notable differences in intensities, with non-stationary estimates generally slightly lower.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
 font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
 }
@@ -152,7 +182,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>hydroMOPSO: A flexible and model-independent multi-objective optimisation R package for environmental and hydrological models</title><link>https://mzb.cl/publications/2026-marinao-hydromopso-a/</link><pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2026-marinao-hydromopso-a/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>hydroMOPSO: A flexible and model-independent multi-objective optimisation R package for environmental and hydrological models</title><link>https://mzb.cl/publications/2026-marinao-hydromopso-a/</link><pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2026-marinao-hydromopso-a/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;hydroMOPSO is an open-source R package for calibrating hydrological and environmental models using multi-objective optimisation.&lt;/li&gt;&lt;li&gt;It works with both R-based and R-external models, offering flexibility and efficient convergence.&lt;/li&gt;&lt;li&gt;Tested against existing tools and applied to Andean catchments (TUWmodel, SWAT+ models), it showed strong performance.&lt;/li&gt;&lt;li&gt;The package provides clear outputs, helping researchers build more robust and reproducible simulations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
 font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
 }
@@ -229,7 +274,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Hydropedological clustering: improving the representation of low streamflows in a semi-distributed hydrological model</title><link>https://mzb.cl/publications/2025-gimeno-hydropedological-clustering/</link><pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2025-gimeno-hydropedological-clustering/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Hydropedological clustering: improving the representation of low streamflows in a semi-distributed hydrological model</title><link>https://mzb.cl/publications/2025-gimeno-hydropedological-clustering/</link><pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2025-gimeno-hydropedological-clustering/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Low river flows are critical for water supply in Mediterranean regions, but difficult to simulate because soils control how water is stored and released.&lt;/li&gt;&lt;li&gt;This study shows that improving the representation of soil data, using a new hydropedological clustering approach, enhances low-flow simulations in a Chilean catchment.&lt;/li&gt;&lt;li&gt;The results highlight that better soil representation leads to more reliable water assessments under drought-prone conditions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 .article-metadata, .article-metadata span, .article-metadata a, .pub-info {
 font-size: 0.85rem !important; line-height: 1.2 !important; margin-bottom: 0px !important;
 }
@@ -306,7 +366,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Hyperdroughts in central Chile: drivers, impacts, and projections</title><link>https://mzb.cl/publications/2025-garreaud-hyperdroughts-in/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2025-garreaud-hyperdroughts-in/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Hyperdroughts in central Chile: drivers, impacts, and projections</title><link>https://mzb.cl/publications/2025-garreaud-hyperdroughts-in/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2025-garreaud-hyperdroughts-in/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;This study focuses on hyperdroughts (HDs) in central Chile, defined as years with a regional rainfall deficit exceeding 75%.&lt;/li&gt;&lt;li&gt;Only five HDs occurred in the last century (1924, 1968, 1998, 2019, 2021), but they caused disproportionate environmental and social impacts.&lt;/li&gt;&lt;li&gt;In some systems, the effects were larger than expected from those considering moderate droughts and dependent on the antecedent conditions.&lt;/li&gt;&lt;li&gt;HDs have analogs from the remote past, and they are expected to increase in the near future.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -407,7 +482,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Technical note: What does the Standardized Streamflow Index actually reflect? Insights and implications for hydrological drought analysis</title><link>https://mzb.cl/publications/2025-lema-technical-note/</link><pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2025-lema-technical-note/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Technical note: What does the Standardized Streamflow Index actually reflect? Insights and implications for hydrological drought analysis</title><link>https://mzb.cl/publications/2025-lema-technical-note/</link><pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2025-lema-technical-note/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Hydrological droughts affect ecosystems and socioeconomic activities worldwide.&lt;/li&gt;&lt;li&gt;Despite the fact that they are commonly described with the Standardized Streamflow Index (SSI), there is limited understanding of what they truly reflect in terms of water cycle processes.&lt;/li&gt;&lt;li&gt;Here, we used state-of-the-art hydrological models in Andean basins to examine drivers of SSI fluctuations.&lt;/li&gt;&lt;li&gt;The results highlight the importance of careful selection of indices and timescales for accurate drought characterization and monitoring.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -508,7 +598,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Disponibilidad y seguridad hídrica en el desarrollo de enfermedades crónicas no transmisibles. ¿ Nuevos factores de riesgo?</title><link>https://mzb.cl/publications/2024-petermannrocha-disponibilidad-y/</link><pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-petermannrocha-disponibilidad-y/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Disponibilidad y seguridad hídrica en el desarrollo de enfermedades crónicas no transmisibles. ¿ Nuevos factores de riesgo?</title><link>https://mzb.cl/publications/2024-petermannrocha-disponibilidad-y/</link><pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-petermannrocha-disponibilidad-y/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Las enfermedades crónicas no transmisibles (ECNT) son una de las principales amenazas para la salud global.&lt;/li&gt;&lt;li&gt;Más allá de los factores de riesgo tradicionales, este trabajo destaca un vínculo emergente: la relación entre variabilidad climática, disponibilidad de agua y salud.&lt;/li&gt;&lt;li&gt;En un país con alto estrés hídrico como Chile, la escasez y los eventos extremos pueden agravar riesgos sanitarios y profundizar desigualdades.&lt;/li&gt;&lt;li&gt;Se plantea integrar hidrología, clima y salud pública para enfrentar de manera conjunta este nuevo desafío.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -609,7 +714,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Exotic tree plantations in the Chilean Coastal Range: balancing the effects of discrete disturbances, connectivity, and a persistent drought on catchment erosion</title><link>https://mzb.cl/publications/2024-tolorza-exotic-tree/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-tolorza-exotic-tree/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Exotic tree plantations in the Chilean Coastal Range: balancing the effects of discrete disturbances, connectivity, and a persistent drought on catchment erosion</title><link>https://mzb.cl/publications/2024-tolorza-exotic-tree/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-tolorza-exotic-tree/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;The Chilean Coastal Range, a biodiverse and water-storing landscape, has faced two centuries of human disturbance and a recent megadrought.&lt;/li&gt;&lt;li&gt;This study compares long-term natural erosion rates with recent sediment losses to understand how forestry, wildfires, earthquakes, and declining rainfall interact.&lt;/li&gt;&lt;li&gt;Surprisingly, recent erosion appears lower than expected, likely masked by reduced rainfall and streamflow.&lt;/li&gt;&lt;li&gt;The findings reveal how human impacts and climate trends can offset each other, while still driving landscape degradation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -710,7 +830,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>HESS Opinions: The unsustainable use of groundwater conceals a 'Day Zero'</title><link>https://mzb.cl/publications/2024-alvarezgarreton-hess-opinions/</link><pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-alvarezgarreton-hess-opinions/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>HESS Opinions: The unsustainable use of groundwater conceals a 'Day Zero'</title><link>https://mzb.cl/publications/2024-alvarezgarreton-hess-opinions/</link><pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-alvarezgarreton-hess-opinions/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;This opinion paper reflects on the risks of overusing groundwater savings to supply permanent water use requirements.&lt;/li&gt;&lt;li&gt;Using novel data recently developed for Chile, we reveal how groundwater is being overused, causing ecological and socioeconomic impacts and concealing a &amp;quot;Day Zero&amp;quot; scenario.&lt;/li&gt;&lt;li&gt;Our argument underscores the need for reformed water allocation rules and sustainable management, shifting from a perception of groundwater as an unlimited source to a finite and vital one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -811,7 +946,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>On the timescale of drought indices for monitoring streamflow drought considering catchment hydrological regimes</title><link>https://mzb.cl/publications/2024-baezvillanueva-on-the/</link><pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-baezvillanueva-on-the/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>On the timescale of drought indices for monitoring streamflow drought considering catchment hydrological regimes</title><link>https://mzb.cl/publications/2024-baezvillanueva-on-the/</link><pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-baezvillanueva-on-the/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Drought can be measured in many ways, but which indicators best reflect river low flows?&lt;/li&gt;&lt;li&gt;Results show there is no single best index: the most suitable indicator depends on how quickly a catchment responds to rainfall or snowmelt.&lt;/li&gt;&lt;li&gt;Surprisingly, simple precipitation-based indices often outperform soil moisture or snow metrics.&lt;/li&gt;&lt;li&gt;Our findings support more reliable drought monitoring, especially in data-scarce regions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -912,7 +1062,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Land Management Drifted: Land Use Scenario Modeling of Trancura River Basin, Araucanía, Chile</title><link>https://mzb.cl/publications/2024-diazjara-land-management/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-diazjara-land-management/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Land Management Drifted: Land Use Scenario Modeling of Trancura River Basin, Araucanía, Chile</title><link>https://mzb.cl/publications/2024-diazjara-land-management/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-diazjara-land-management/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Modeling land use scenarios is critical to understand the socio-environmental impacts of current decisions and to explore future configurations for management.&lt;/li&gt;&lt;li&gt;Key findings indicate that opportunities for developing normative planning tools are limited, leaving state management without clear direction.&lt;/li&gt;&lt;li&gt;However, current management practices can address problematic activities such as second-home projects and industrial monocultures while promoting small-scale agriculture.&lt;/li&gt;&lt;li&gt;Scenario modeling is useful for understanding how the specifics that arise from the scalar dynamics of state management affect land use change and how existing management resources can be leveraged to achieve positive outcomes for both the ecosystem and society.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -1013,7 +1178,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia</title><link>https://mzb.cl/publications/2024-aguayo-patagoniamet-a/</link><pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-aguayo-patagoniamet-a/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>PatagoniaMet: A multi-source hydrometeorological dataset for Western Patagonia</title><link>https://mzb.cl/publications/2024-aguayo-patagoniamet-a/</link><pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2024-aguayo-patagoniamet-a/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Western Patagonia holds one of the world&amp;rsquo;s largest freshwater reserves, yet hydrometeorological research has long been limited by scarce and inconsistent data.&lt;/li&gt;&lt;li&gt;This study introduces PatagoniaMet, a new open dataset combining 70 years of quality-controlled ground observations and a daily gridded climate product.&lt;/li&gt;&lt;li&gt;By integrating data from Chile and Argentina and applying rigorous validation, this new dataset significantly improves hydrological simulations.&lt;/li&gt;&lt;li&gt;PatagoniaMet opens up new opportunities for research and water management in this climatically sensitive region.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -1114,7 +1294,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Panta Rhei benchmark dataset: socio-hydrological data of paired events of floods and droughts</title><link>https://mzb.cl/publications/2023-kreibich-panta-rhei/</link><pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2023-kreibich-panta-rhei/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Panta Rhei benchmark dataset: socio-hydrological data of paired events of floods and droughts</title><link>https://mzb.cl/publications/2023-kreibich-panta-rhei/</link><pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2023-kreibich-panta-rhei/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;As the adverse impacts of hydrological extremes increase in many regions of the world, a better understanding of the drivers of changes in risk and impacts is essential for effective flood and drought risk management.&lt;/li&gt;&lt;li&gt;two floods or two droughts that occurred in the same area.&lt;/li&gt;&lt;li&gt;The dataset enables comparative analyses and allows detailed context-specific assessments.&lt;/li&gt;&lt;li&gt;Additionally, it supports the testing of socio-hydrological models.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -1215,7 +1410,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>The challenge of unprecedented floods and droughts in risk management</title><link>https://mzb.cl/publications/2022-kreibich-the-challenge/</link><pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2022-kreibich-the-challenge/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>The challenge of unprecedented floods and droughts in risk management</title><link>https://mzb.cl/publications/2022-kreibich-the-challenge/</link><pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2022-kreibich-the-challenge/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Flood and drought risk management has reduced vulnerability worldwide, yet overall impacts continue to rise.&lt;/li&gt;&lt;li&gt;Analysing 45 pairs of events in the same locations, this study shows that management works for events within past experience but often fails when extremes exceed design limits, such as levee or reservoir capacity.&lt;/li&gt;&lt;li&gt;Only where strong governance and sustained investment were in place did impacts decline despite higher hazard levels.&lt;/li&gt;&lt;li&gt;The findings warn that unprecedented climate-driven extremes may outpace current risk management systems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -1316,7 +1526,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>A coupled modeling approach to assess the effect of forest policies in water provision: A biophysical evaluation of a drought-prone rural catchment in south-central Chile</title><link>https://mzb.cl/publications/2022-gimeno-a-coupled/</link><pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2022-gimeno-a-coupled/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>A coupled modeling approach to assess the effect of forest policies in water provision: A biophysical evaluation of a drought-prone rural catchment in south-central Chile</title><link>https://mzb.cl/publications/2022-gimeno-a-coupled/</link><pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2022-gimeno-a-coupled/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;How do forest conservation policies affect water supply?&lt;/li&gt;&lt;li&gt;This study combines land-use and ecohydrological modelling to assess impacts in a drought-prone Chilean catchment where rural communities rely on water trucks.&lt;/li&gt;&lt;li&gt;Scenarios promoting native forest recovery increased forest cover substantially and produced modest but meaningful gains in dry-season streamflow.&lt;/li&gt;&lt;li&gt;These improvements could reduce emergency water delivery costs by hundreds of thousands of dollars per month, highlighting the economic and social value of forest conservation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -1417,7 +1642,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>On the selection of precipitation products for the regionalisation of hydrological model parameters</title><link>https://mzb.cl/publications/2021-baezvillanueva-on-the/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2021-baezvillanueva-on-the/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>On the selection of precipitation products for the regionalisation of hydrological model parameters</title><link>https://mzb.cl/publications/2021-baezvillanueva-on-the/</link><pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2021-baezvillanueva-on-the/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Predicting streamflows in data-scarce regions often relies on transferring model parameters from gauged to ungauged catchments.&lt;/li&gt;&lt;li&gt;Although all rainfall products performed well during calibration, their impact on parameter transfer varied.&lt;/li&gt;&lt;li&gt;Methods based on feature similarity and spatial proximity outperformed parameter regression.&lt;/li&gt;&lt;li&gt;The results show that better rainfall data do not automatically ensure better regional predictions, highlighting the importance of robust regionalisation strategies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -1518,7 +1758,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>How well do gridded precipitation and actual evapotranspiration products represent the key water balance components in the Nile Basin?</title><link>https://mzb.cl/publications/2021-mcnamara-how-well/</link><pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2021-mcnamara-how-well/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>How well do gridded precipitation and actual evapotranspiration products represent the key water balance components in the Nile Basin?</title><link>https://mzb.cl/publications/2021-mcnamara-how-well/</link><pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2021-mcnamara-how-well/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Reliable precipitation and evapotranspiration data are essential for managing water resources, yet estimates often differ widely in data-scarce regions.&lt;/li&gt;&lt;li&gt;This study evaluates state-of-the-art P and ETa products across the Nile Basin using observations, machine learning streamflow modelling, water balance analysis, and satellite-based water storage data.&lt;/li&gt;&lt;li&gt;CHIRPSv2 and PMLv2/WaPORv2.1 performed best overall.&lt;/li&gt;&lt;li&gt;The results provide a practical framework for identifying trustworthy climate datasets where ground measurements are limited.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -1619,7 +1874,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Disentangling the effect of future land use strategies and climate change on streamflow in a Mediterranean catchment dominated by tree plantations</title><link>https://mzb.cl/publications/2021-galleguillos-disentangling-the/</link><pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2021-galleguillos-disentangling-the/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Disentangling the effect of future land use strategies and climate change on streamflow in a Mediterranean catchment dominated by tree plantations</title><link>https://mzb.cl/publications/2021-galleguillos-disentangling-the/</link><pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2021-galleguillos-disentangling-the/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Can forest conservation improve water security?&lt;/li&gt;&lt;li&gt;This study combines land-use and ecohydrological models to assess policy impacts in a drought-affected Chilean catchment where rural communities depend on water trucks.&lt;/li&gt;&lt;li&gt;Scenarios promoting native forest recovery increased forest cover and slightly boosted streamflow—especially during the dry season.&lt;/li&gt;&lt;li&gt;Even modest flow gains could reduce emergency water supply costs by up to USD 440,000 per month, underscoring the economic and social benefits of conservation policies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -1720,7 +1990,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Modelling water resources for planning irrigation development in drought-prone southern Chile</title><link>https://mzb.cl/publications/2020-mcnamara-modelling-water/</link><pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2020-mcnamara-modelling-water/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Modelling water resources for planning irrigation development in drought-prone southern Chile</title><link>https://mzb.cl/publications/2020-mcnamara-modelling-water/</link><pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2020-mcnamara-modelling-water/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;To reduce poverty in drought-prone Araucanía, Chile plans to expand irrigated agriculture.&lt;/li&gt;&lt;li&gt;However, modelling future climate conditions shows that more irrigation, combined with rising temperatures and declining rainfall, could intensify seasonal water scarcity.&lt;/li&gt;&lt;li&gt;Using a basin-scale water allocation model, this study evaluates adaptation options.&lt;/li&gt;&lt;li&gt;Results indicate that building two upstream reservoirs and improving irrigation efficiency could cut unmet water demand by up to 98%, offering a pathway to strengthen drought resilience while supporting rural development.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -1821,7 +2106,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>RF-MEP: A novel Random Forest method for merging gridded precipitation products and ground-based measurements</title><link>https://mzb.cl/publications/2020-baezvillanueva-rfmep-a/</link><pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2020-baezvillanueva-rfmep-a/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>RF-MEP: A novel Random Forest method for merging gridded precipitation products and ground-based measurements</title><link>https://mzb.cl/publications/2020-baezvillanueva-rfmep-a/</link><pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2020-baezvillanueva-rfmep-a/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Accurate rainfall maps are vital for water management, yet rain gauges alone often leave large gaps, especially in data-scarce regions.&lt;/li&gt;&lt;li&gt;This study introduces RF-MEP, a Random Forest–based method that merges ground observations, satellite products, and topographic data to improve daily precipitation estimates.&lt;/li&gt;&lt;li&gt;Applied across Chile, the merged datasets outperformed leading global products, enhancing accuracy across multiple time scales and rainfall intensities.&lt;/li&gt;&lt;li&gt;The method works well even with limited ground data and is freely available as an R package.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -1922,7 +2222,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Bias Correction of Global High-Resolution Precipitation Climatologies Using Streamflow Observations from 9372 Catchments</title><link>https://mzb.cl/publications/2020-beck-bias-correction/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2020-beck-bias-correction/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Bias Correction of Global High-Resolution Precipitation Climatologies Using Streamflow Observations from 9372 Catchments</title><link>https://mzb.cl/publications/2020-beck-bias-correction/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2020-beck-bias-correction/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Many widely used climate datasets underestimate precipitation, especially in mountains and high latitudes.&lt;/li&gt;&lt;li&gt;This study corrects three major global rainfall climatologies (WorldClim V2, CHELSA V1.2, and CHPclim V1) using streamflow records from over 9,000 stations and the Budyko framework.&lt;/li&gt;&lt;li&gt;The results reveal substantial underestimation in regions such as the Himalayas, Alaska, and Chile.&lt;/li&gt;&lt;li&gt;The new high-resolution, bias-corrected dataset (PBCOR) provides more accurate global precipitation estimates to support climate research and water management.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -2023,7 +2338,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Hydrological Processes Special Issue \"Hydrological processes across climatic and geomorphological gradients of Latin America</title><link>https://mzb.cl/publications/2019-birkel-hydrological-processes/</link><pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2019-birkel-hydrological-processes/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Hydrological Processes Special Issue \"Hydrological processes across climatic and geomorphological gradients of Latin America</title><link>https://mzb.cl/publications/2019-birkel-hydrological-processes/</link><pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2019-birkel-hydrological-processes/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;From the Atacama Desert to the Amazon rainforest, Latin America and the Caribbean host some of the planet’s most diverse and understudied hydrological systems.&lt;/li&gt;&lt;li&gt;This special issue highlights research across extreme climate gradients, unique ecosystems, and rapidly changing landscapes.&lt;/li&gt;&lt;li&gt;The contributions explore how water is stored, mixed, and transported, and how vegetation, landforms, and land-use change shape the hydrological cycle.&lt;/li&gt;&lt;li&gt;Together, these studies advance understanding of water processes in one of the world’s most environmentally diverse regions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -2124,7 +2454,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Validation of Cryogenic Vacuum Extraction of Pore Water from Volcanic Soils for Isotopic Analysis</title><link>https://mzb.cl/publications/2019-rivera-validation-of/</link><pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2019-rivera-validation-of/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Validation of Cryogenic Vacuum Extraction of Pore Water from Volcanic Soils for Isotopic Analysis</title><link>https://mzb.cl/publications/2019-rivera-validation-of/</link><pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2019-rivera-validation-of/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Andean headwater catchments supply water to cities, agriculture, and industry, yet key soil–water processes remain poorly understood.&lt;/li&gt;&lt;li&gt;This study evaluates cryogenic vacuum extraction to recover water from volcanic ash–derived soils and analyse its isotopic composition.&lt;/li&gt;&lt;li&gt;Experiments show that the method efficiently extracts over 90% of soil water—even in very dry conditions, without altering isotopic signals.&lt;/li&gt;&lt;li&gt;The results support its use for tracing water movement in Andean soils and improving understanding of mountain hydrology.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -2225,7 +2570,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Particle swarm optimization for the estimation of surface complexation constants with the geochemical model PHREEQC-3.1.2</title><link>https://mzb.cl/publications/2019-abdelaziz-particle-swarm/</link><pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2019-abdelaziz-particle-swarm/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Particle swarm optimization for the estimation of surface complexation constants with the geochemical model PHREEQC-3.1.2</title><link>https://mzb.cl/publications/2019-abdelaziz-particle-swarm/</link><pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2019-abdelaziz-particle-swarm/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Understanding how metals bind to minerals is essential for water treatment and environmental protection.&lt;/li&gt;&lt;li&gt;This study applies particle swarm optimization, using the hydroPSO R package, to estimate thermodynamic parameters in a geochemical model of uranium sorption onto quartz.&lt;/li&gt;&lt;li&gt;Compared with traditional calibration software, hydroPSO produced more reliable parameter estimates and clearer uncertainty analysis.&lt;/li&gt;&lt;li&gt;The results highlight the potential of advanced optimization tools to improve modelling of water quality and contaminant processes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -2326,7 +2686,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Temporal and spatial evaluation of long-term satellite-based precipitation products across the complex topographical and climatic gradients of Chile</title><link>https://mzb.cl/publications/2018-zambranobigiarini-temporal-and/</link><pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2018-zambranobigiarini-temporal-and/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Temporal and spatial evaluation of long-term satellite-based precipitation products across the complex topographical and climatic gradients of Chile</title><link>https://mzb.cl/publications/2018-zambranobigiarini-temporal-and/</link><pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2018-zambranobigiarini-temporal-and/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Satellite rainfall products are increasingly used where ground gauges are sparse, but their accuracy varies across complex terrains.&lt;/li&gt;&lt;li&gt;Performance was highest in central-southern, low- to mid-elevation regions and during the wet season.&lt;/li&gt;&lt;li&gt;Products calibrated with local data performed best, especially MSWEPv2.2.&lt;/li&gt;&lt;li&gt;The results highlight both the value of satellite rainfall for hydrology and the need for careful validation in mountainous headwaters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -2427,7 +2802,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Temporal and spatial evaluation of satellite rainfall estimates over different regions in Latin-America</title><link>https://mzb.cl/publications/2018-baezvillanueva-temporal-and/</link><pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2018-baezvillanueva-temporal-and/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Temporal and spatial evaluation of satellite rainfall estimates over different regions in Latin-America</title><link>https://mzb.cl/publications/2018-baezvillanueva-temporal-and/</link><pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2018-baezvillanueva-temporal-and/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;In many developing regions, limited rain gauge networks make satellite rainfall estimates essential.&lt;/li&gt;&lt;li&gt;Performance varied by region and season, with MSWEPv2 and CHIRPSv2 often performing best.&lt;/li&gt;&lt;li&gt;Results show that accuracy depends on location, time scale, and even data upscaling methods.&lt;/li&gt;&lt;li&gt;The study highlights the need for site-specific validation before using satellite rainfall data in hydrological applications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -2528,7 +2918,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>The 2010-2015 megadrought in central Chile: impacts on regional hydroclimate and vegetation</title><link>https://mzb.cl/publications/2017-garreaud-the-20102015/</link><pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2017-garreaud-the-20102015/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>The 2010-2015 megadrought in central Chile: impacts on regional hydroclimate and vegetation</title><link>https://mzb.cl/publications/2017-garreaud-the-20102015/</link><pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2017-garreaud-the-20102015/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;This work synthesizes an interdisciplinary research on the megadrought (MD) that has afflicted central Chile since 2010.&lt;/li&gt;&lt;li&gt;Although 1- or 2-year droughts are not infrequent in this Mediterranean-like region, the ongoing dry period stands out because of its longevity and large extent, leading to unseen hydrological effects and vegetation impacts.&lt;/li&gt;&lt;li&gt;Understanding the nature and biophysical impacts of the MD contributes to confronting a dry, warm future regional climate scenario in subtropical regions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -2629,7 +3034,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Temporal and spatial evaluation of satellite-based rainfall estimates across the complex topographical and climatic gradients of Chile</title><link>https://mzb.cl/publications/2017-zambranobigiarini-temporal-and/</link><pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2017-zambranobigiarini-temporal-and/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Temporal and spatial evaluation of satellite-based rainfall estimates across the complex topographical and climatic gradients of Chile</title><link>https://mzb.cl/publications/2017-zambranobigiarini-temporal-and/</link><pubDate>Thu, 02 Mar 2017 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2017-zambranobigiarini-temporal-and/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;This work exhaustively evaluates – or the first time– the suitability of seven state-of-the-art satellite-based rainfall estimates (SREs) over the complex topography and diverse climatic gradients of Chile.&lt;/li&gt;&lt;li&gt;Several indices of performance are used for different timescales and elevation zones.&lt;/li&gt;&lt;li&gt;Our analysis reveals what SREs are in closer agreement to ground-based observations and what indices allow for understanding mismatches in shape, magnitude, variability and intensity of precipitation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -2730,7 +3150,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>The br2-weighting Method for Estimating the Effects of Air Pollution on Population Health</title><link>https://mzb.cl/publications/2016-krstic-the-br2weighting/</link><pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2016-krstic-the-br2weighting/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>The br2-weighting Method for Estimating the Effects of Air Pollution on Population Health</title><link>https://mzb.cl/publications/2016-krstic-the-br2weighting/</link><pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2016-krstic-the-br2weighting/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Estimating how air pollution affects public health often relies on simple linear models, yet these can be misleading if uncertainty and bias are overlooked.&lt;/li&gt;&lt;li&gt;This study proposes a more robust way to assess the strength of pollution–health relationships by combining the coefficient of determination (r2) with the regression slope.&lt;/li&gt;&lt;li&gt;The new &lt;strong&gt;br2-weighting&lt;/strong&gt; method improves the reliability of impact estimates and can be applied broadly in environmental health and other research fields.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -2831,7 +3266,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Assessing the role of uncertain precipitation estimates on the robustness of hydrological model parameters under highly variable climate conditions</title><link>https://mzb.cl/publications/2016-bisselink-assessing-the/</link><pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2016-bisselink-assessing-the/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Assessing the role of uncertain precipitation estimates on the robustness of hydrological model parameters under highly variable climate conditions</title><link>https://mzb.cl/publications/2016-bisselink-assessing-the/</link><pubDate>Wed, 28 Sep 2016 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2016-bisselink-assessing-the/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Southern Africa’s rivers are among the world’s most variable, posing challenges for hydrological modelling.&lt;/li&gt;&lt;li&gt;This study tests how different satellite rainfall datasets affect the performance and robustness of the LISFLOOD model in four headwater catchments.&lt;/li&gt;&lt;li&gt;Results show that model accuracy strongly depends on the rainfall product used, with gauge-corrected datasets performing best.&lt;/li&gt;&lt;li&gt;However, no single parameter set proved robust across conditions, highlighting the risks of transferring model parameters between periods with different wet or dry characteristics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -2932,7 +3382,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Forestry development, water scarcity, and the Mapuche protest for environmental justice in Chile</title><link>https://mzb.cl/publications/2016-torressalinas-forestry-development/</link><pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2016-torressalinas-forestry-development/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Forestry development, water scarcity, and the Mapuche protest for environmental justice in Chile</title><link>https://mzb.cl/publications/2016-torressalinas-forestry-development/</link><pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2016-torressalinas-forestry-development/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Desde la ecología política y la justicia ambiental, analizamos cómo el desarrollo forestal en el sur de Chile ha generado degradación socioambiental y escasez hídrica, afectando especialmente a comunidades Mapuche.&lt;/li&gt;&lt;li&gt;Mediante enfoques histórico-geográficos y etnográficos, examinamos el impacto de los monocultivos forestales y la consolidación del sector.&lt;/li&gt;&lt;li&gt;Asimismo, abordamos la articulación del movimiento Mapuche, cuyas demandas incluyen tierra, autonomía y la recuperación del bosque nativo y sus ciclos hídricos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -3033,7 +3498,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Comparison of stationary and dynamic conceptual models in a mountainous and data-sparse catchment in the South-central Chilean Andes</title><link>https://mzb.cl/publications/2015-toledo-comparison-of/</link><pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2015-toledo-comparison-of/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Comparison of stationary and dynamic conceptual models in a mountainous and data-sparse catchment in the South-central Chilean Andes</title><link>https://mzb.cl/publications/2015-toledo-comparison-of/</link><pubDate>Mon, 02 Nov 2015 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2015-toledo-comparison-of/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Climatic variability influences hydrological processes, yet most models assume stationarity.&lt;/li&gt;&lt;li&gt;We compared stationary (time-invariant parameters) and dynamic (time-variant parameters) conceptual models in a mountainous, data-scarce Chilean catchment using Monte Carlo simulations.&lt;/li&gt;&lt;li&gt;General and Dynamic Identifiability Analyses supported stationary and dynamic calibrations, respectively.&lt;/li&gt;&lt;li&gt;The dynamic model proved more robust, revealing temporal variability in hydrological processes and improving understanding and uncertainty assessment under climate variability and change.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -3134,7 +3614,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Particle Swarm Optimization for inverse modeling of solute transport in fractured gneiss aquifer</title><link>https://mzb.cl/publications/2014-abdelaziz-particle-swarm/</link><pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2014-abdelaziz-particle-swarm/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Particle Swarm Optimization for inverse modeling of solute transport in fractured gneiss aquifer</title><link>https://mzb.cl/publications/2014-abdelaziz-particle-swarm/</link><pubDate>Thu, 19 Jun 2014 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2014-abdelaziz-particle-swarm/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;This study demonstrates the use of Particle Swarm Optimization (PSO) for inverse modeling of a coupled MODFLOW2005–MT3DMS groundwater model in a fractured gneiss aquifer.&lt;/li&gt;&lt;li&gt;The hydroPSO R package, implementing SPSO-2011, was applied to calibrate a double-porosity solute transport model using tracer test data from TU Bergakademie Freiberg.&lt;/li&gt;&lt;li&gt;Results showed good agreement with observations, efficient convergence to the global optimum, and substantial reductions in computation time through parallelization.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -3235,7 +3730,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Hydrological evaluation of satellite-based rainfall estimates over the Volta and Baro-Akobo Basin</title><link>https://mzb.cl/publications/2013-thiemig-hydrological-evaluation/</link><pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2013-thiemig-hydrological-evaluation/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Hydrological evaluation of satellite-based rainfall estimates over the Volta and Baro-Akobo Basin</title><link>https://mzb.cl/publications/2013-thiemig-hydrological-evaluation/</link><pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2013-thiemig-hydrological-evaluation/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;This study assesses the suitability of four satellite-based rainfall estimates (CMORPH, RFE 2.0, TRMM-3B42, and PERSIANN) and the ERA-Interim reanalysis as forcing data for hydrological modelling in the Volta and Baro-Akobo basins (2003–2008).&lt;/li&gt;&lt;li&gt;For biased products, prior bias correction—particularly via histogram equalization—is essential, whereas products with good intrinsic quality require only product-specific calibration.&lt;/li&gt;&lt;li&gt;Advanced spatial interpolation adds value mainly in mountainous regions.&lt;/li&gt;&lt;li&gt;Performance is generally better during high-flow conditions, supporting the use of satellite rainfall estimates for applications targeting peak flows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -3336,7 +3846,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>A model-independent Particle Swarm Optimisation software for model calibration</title><link>https://mzb.cl/publications/2013-zambranobigiarini-a-modelindependent/</link><pubDate>Tue, 26 Feb 2013 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2013-zambranobigiarini-a-modelindependent/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>A model-independent Particle Swarm Optimisation software for model calibration</title><link>https://mzb.cl/publications/2013-zambranobigiarini-a-modelindependent/</link><pubDate>Tue, 26 Feb 2013 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2013-zambranobigiarini-a-modelindependent/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;This work introduces &lt;strong&gt;hydroPSO&lt;/strong&gt;, a multi-platform, model-independent R package for model calibration.&lt;/li&gt;&lt;li&gt;The package interfaces easily with R-external models, enables parallel execution, and provides advanced visualization tools.&lt;/li&gt;&lt;li&gt;Benchmark tests against established algorithms show that hydroPSO is efficient, scalable, and versatile.&lt;/li&gt;&lt;li&gt;Applications to hydrological and groundwater models demonstrate its flexibility and practical usefulness for environmental modelling.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
@@ -3437,7 +3962,22 @@ manualContent.insertBefore(fallbackDiv, manualContent.firstChild);
 }
 }
 });
-&lt;/script&gt;</description></item><item><title>Validation of Satellite-Based Precipitation Products over Sparsely Gauged African River Basins</title><link>https://mzb.cl/publications/2012-thiemig-validation-of/</link><pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2012-thiemig-validation-of/</guid><description>&lt;style&gt;
+&lt;/script&gt;</description></item><item><title>Validation of Satellite-Based Precipitation Products over Sparsely Gauged African River Basins</title><link>https://mzb.cl/publications/2012-thiemig-validation-of/</link><pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate><guid>https://mzb.cl/publications/2012-thiemig-validation-of/</guid><description>&lt;section class="publication-conclusions" aria-labelledby="main-conclusions-heading"&gt;
+&lt;h2 id="main-conclusions-heading"&gt;Main conclusions&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Seven satellite-based rainfall products (CMORPH, RFE2.0, TRMM 3B42, GPROF 6.0, PERSIANN, GSMaP-MVK, and ERA-Interim) were evaluated against 205 gauges across four African basins (2003–2006).&lt;/li&gt;&lt;li&gt;Products reproduced dry-season rainfall and bimodal regimes reasonably well, performed better in tropical wet–dry regions than in semiarid or mountainous areas, and showed growing uncertainty for heavy rainfall.&lt;/li&gt;&lt;li&gt;RFE2.0 and TRMM 3B42 performed best, while GPROF 6.0 and GSMaP-MVK performed worst.&lt;/li&gt;&lt;li&gt;Results support performance-based merging for hydrometeorological applications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+var conclusions = document.querySelector('.publication-conclusions');
+var articleMain = conclusions &amp;&amp; conclusions.closest('main');
+var details = articleMain &amp;&amp; articleMain.querySelector(':scope &gt; .max-w-prose.grid');
+if (details &amp;&amp; details.children.length &gt;= 2) {
+details.insertBefore(conclusions, details.children[2] || null);
+}
+});
+&lt;/script&gt;
+&lt;style&gt;
 :root {
 --pub-accent: var(--color-primary-600, var(--primary, var(--hb-primary, currentColor)));
 --pub-surface-alt: var(--color-neutral-100, var(--bs-tertiary-bg, rgba(127,127,127,0.08)));
