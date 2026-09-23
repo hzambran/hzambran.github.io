@@ -62,6 +62,32 @@
     }
   };
 
+  const imageBase = "/courses/iio409-modelacionhidrologica/hydrological-lab/images/";
+  const modelFigures = {
+    tuw: {
+      src: `${imageBase}tuwmodel-conceptual.webp`,
+      alt: "Conceptual diagram of TUWmodel hydrological processes, stores, fluxes and parameters"
+    },
+    gr4j: {
+      src: `${imageBase}gr4j-conceptual.webp`,
+      alt: "Conceptual diagram of GR4J hydrological processes, stores, fluxes and parameters"
+    },
+    "gr6j-cemaneige": {
+      src: `${imageBase}gr6j-cemaneige-conceptual.webp`,
+      alt: "Conceptual diagram of GR6J-CemaNeige hydrological processes, stores, fluxes and parameters"
+    }
+  };
+  const catchmentFigures = {
+    9414001: {
+      src: `${imageBase}catchment-trancura-9414001.webp`,
+      alt: "Map of the Trancura River catchment upstream of the Llafenco streamflow station"
+    },
+    7336001: {
+      src: `${imageBase}catchment-cauquenes-7336001.webp`,
+      alt: "Map of the Cauquenes catchment study area and its hydroclimatic characteristics"
+    }
+  };
+
   const selectors = {
     login: root.querySelector("[data-hml-login]"),
     loginForm: root.querySelector("[data-hml-login-form]"),
@@ -76,7 +102,11 @@
     view: root.querySelector("[data-hml-view]"),
     dateStart: root.querySelector("[data-hml-date-start]"),
     dateEnd: root.querySelector("[data-hml-date-end]"),
+    timeStart: root.querySelector("[data-hml-time-start]"),
+    timeEnd: root.querySelector("[data-hml-time-end]"),
+    timeOutput: root.querySelector("[data-hml-time-output]"),
     canvas: root.querySelector("[data-hml-canvas]"),
+    navigatorCanvas: root.querySelector("[data-hml-navigator-canvas]"),
     tooltip: root.querySelector("[data-hml-tooltip]"),
     runStatus: root.querySelector("[data-hml-run-status]"),
     context: root.querySelector("[data-hml-context]"),
@@ -196,7 +226,32 @@
     selectors.dateEnd.value = "2019-12-31";
     state.startIndex = Math.max(0, indexFromDate(selectors.dateStart.value));
     state.endIndex = Math.min(maximumIndex, indexFromDate(selectors.dateEnd.value));
+    selectors.timeStart.min = 0;
+    selectors.timeStart.max = maximumIndex;
+    selectors.timeEnd.min = 0;
+    selectors.timeEnd.max = maximumIndex;
+    synchroniseWindowControls();
   } // configureDates END
+
+  function synchroniseWindowControls() {
+    selectors.dateStart.value = isoDate(state.startIndex);
+    selectors.dateEnd.value = isoDate(state.endIndex);
+    selectors.timeStart.value = state.startIndex;
+    selectors.timeEnd.value = state.endIndex;
+    selectors.timeOutput.textContent = `${isoDate(state.startIndex)} – ${isoDate(state.endIndex)}`;
+  } // synchroniseWindowControls END
+
+  function refreshWindow() {
+    synchroniseWindowControls();
+    drawPlot();
+    drawNavigator();
+    updateMetrics();
+  } // refreshWindow END
+
+  function redrawCharts() {
+    drawPlot();
+    drawNavigator();
+  } // redrawCharts END
 
   function updateDateWindow() {
     let start = Math.max(0, indexFromDate(selectors.dateStart.value));
@@ -207,11 +262,20 @@
     }
     state.startIndex = start;
     state.endIndex = end;
-    selectors.dateStart.value = isoDate(start);
-    selectors.dateEnd.value = isoDate(end);
-    drawPlot();
-    updateMetrics();
+    refreshWindow();
   } // updateDateWindow END
+
+  function updateSliderWindow(event) {
+    let start = Number(selectors.timeStart.value);
+    let end = Number(selectors.timeEnd.value);
+    if (start > end) {
+      if (event.currentTarget === selectors.timeStart) end = start;
+      else start = end;
+    }
+    state.startIndex = start;
+    state.endIndex = end;
+    refreshWindow();
+  } // updateSliderWindow END
 
   function scheduleSimulation() {
     window.clearTimeout(state.runTimer);
@@ -229,6 +293,7 @@
     selectors.context.textContent = `${state.dataset.catchment.name} · ${state.dataset.catchment.id}`;
     updateFacts();
     drawPlot();
+    drawNavigator();
     updateMetrics();
   } // runSimulation END
 
@@ -286,25 +351,26 @@
     p: { label: "Precipitation", color: "#7dd3fc", type: "bar" },
     rain: { label: "Rainfall", color: "#0284c7" },
     snow: { label: "Snowfall", color: "#bae6fd" },
-    pet: { label: "Potential ET", color: "#0f766e", dash: [6, 4] },
-    aet: { label: "Actual ET", color: "#22d3ee" },
+    pet: { label: "Potential ET", color: "#006400", width: 1.8 },
+    aet: { label: "Actual ET", color: "#90ee90", dash: [10, 5], width: 2 },
     swe: { label: "Snow water equivalent", color: "#2563eb" },
     soil: { label: "Soil moisture", color: "#6366f1" },
-    baseflow: { label: "Baseflow", color: "#60a5fa" },
+    baseflow: { label: "Baseflow", color: "#8b3e2f" },
     quickflow: { label: "Quickflow", color: "#8b5cf6" },
-    q: { label: "Simulated Q", color: "#0891b2", width: 1.8 },
+    q: { label: "Simulated Q", color: "#0000ff", width: 1.8 },
     qobs: { label: "Observed Q", color: "#111827", width: 1.5 }
   };
 
   function panelDefinitions(view) {
     const flux = { title: "Precipitation phase", unit: "mm/d", keys: ["p", "rain", "snow"] };
     const evap = { title: "Evaporation", unit: "mm/d", keys: ["pet", "aet"] };
-    const states = { title: "Catchment states", unit: "mm", keys: ["swe", "soil"] };
+    const snowState = { title: "Snow water equivalent", unit: "mm", keys: ["swe"] };
+    const soilState = { title: "Soil moisture", unit: "mm", keys: ["soil"] };
     const flow = { title: "Outlet streamflow and components", unit: "mm/d", keys: ["qobs", "q", "baseflow", "quickflow"] };
     if (view === "flow") return [flow];
-    if (view === "snow-soil") return [flux, states];
+    if (view === "snow-soil") return [flux, snowState, soilState];
     if (view === "water-balance") return [flux, evap, flow];
-    return [flux, evap, states, flow];
+    return [flux, evap, snowState, soilState, flow];
   } // panelDefinitions END
 
   function binnedSeries(values, start, end, bins) {
@@ -328,12 +394,61 @@
     return output;
   } // binnedSeries END
 
+  function drawNavigator() {
+    if (!state.result || !selectors.navigatorCanvas) return;
+    const canvas = selectors.navigatorCanvas;
+    const cssWidth = Math.max(320, canvas.clientWidth || 760);
+    const cssHeight = 62;
+    const ratio = Math.min(2, window.devicePixelRatio || 1);
+    canvas.width = Math.round(cssWidth * ratio);
+    canvas.height = Math.round(cssHeight * ratio);
+    const context = canvas.getContext("2d");
+    context.setTransform(ratio, 0, 0, ratio, 0, 0);
+    context.clearRect(0, 0, cssWidth, cssHeight);
+    context.fillStyle = "#f1f5f9";
+    context.fillRect(0, 0, cssWidth, cssHeight);
+
+    const maximumIndex = state.dataset.daily.count - 1;
+    const values = binnedSeries(state.result.qobs, 0, maximumIndex, Math.floor(cssWidth));
+    let maximum = 0;
+    for (const value of values) if (Number.isFinite(value)) maximum = Math.max(maximum, value);
+    maximum = maximum > 0 ? maximum : 1;
+    context.strokeStyle = "#8da0bd";
+    context.lineWidth = 1.25;
+    context.beginPath();
+    let penDown = false;
+    for (let i = 0; i < values.length; i += 1) {
+      if (!Number.isFinite(values[i])) {
+        penDown = false;
+        continue;
+      }
+      const x = values.length === 1 ? 0 : i / (values.length - 1) * cssWidth;
+      const y = cssHeight - 5 - values[i] / maximum * (cssHeight - 10);
+      if (!penDown) context.moveTo(x, y);
+      else context.lineTo(x, y);
+      penDown = true;
+    }
+    context.stroke();
+
+    const startX = state.startIndex / maximumIndex * cssWidth;
+    const endX = state.endIndex / maximumIndex * cssWidth;
+    context.fillStyle = "rgb(37 99 235 / 16%)";
+    context.fillRect(startX, 0, endX - startX, cssHeight);
+    context.fillStyle = "rgb(255 255 255 / 68%)";
+    context.fillRect(0, 0, startX, cssHeight);
+    context.fillRect(endX, 0, cssWidth - endX, cssHeight);
+    context.strokeStyle = "#2563eb";
+    context.lineWidth = 1.5;
+    context.strokeRect(startX, 0.75, Math.max(1, endX - startX), cssHeight - 1.5);
+  } // drawNavigator END
+
   function drawPlot() {
     if (!state.result) return;
     const canvas = selectors.canvas;
     const panels = panelDefinitions(selectors.view.value);
     const cssWidth = Math.max(480, canvas.clientWidth || 900);
-    const cssHeight = panels.length === 1 ? 470 : panels.length === 2 ? 560 : panels.length === 3 ? 640 : 710;
+    const cssHeight = panels.length === 1 ? 470 : panels.length === 2 ? 560 :
+      panels.length === 3 ? 640 : panels.length === 4 ? 710 : 860;
     const ratio = Math.min(2, window.devicePixelRatio || 1);
     canvas.style.height = `${cssHeight}px`;
     canvas.width = Math.round(cssWidth * ratio);
@@ -477,6 +592,8 @@
     if (!state.dataset) return;
     const model = modelCatalog[selectors.model.value];
     const catchment = state.dataset.catchment;
+    const modelFigure = modelFigures[selectors.model.value];
+    const catchmentFigure = catchmentFigures[catchment.id];
     const parameterList = state.parameterDefinitions
       .map((parameter) => `<li><strong>${parameter.key}</strong>: ${parameter.description}</li>`)
       .join("");
@@ -484,6 +601,8 @@
     selectors.facts.innerHTML = `
       <article class="hml-fact-card"><h3>Model purpose</h3><p>${model.summary}</p><p>${model.structure}</p></article>
       <article class="hml-fact-card"><h3>Catchment</h3><p><strong>${catchment.official_name}</strong><br>ID ${catchment.id} · ${catchment.area_km2} km²</p><p>Elevation: ${catchment.elevation.min}–${catchment.elevation.max} m; mean ${catchment.elevation.mean} m.</p></article>
+      <figure class="hml-fact-card hml-fact-figure"><h3>${model.name} conceptual structure</h3><img src="${modelFigure.src}" alt="${modelFigure.alt}" loading="lazy" decoding="async"><figcaption>Processes, stores, fluxes and adjustable parameters represented by ${model.name}.</figcaption></figure>
+      <figure class="hml-fact-card hml-fact-figure"><h3>${catchment.name} study area</h3><img src="${catchmentFigure.src}" alt="${catchmentFigure.alt}" loading="lazy" decoding="async"><figcaption>Study-area context for CAMELS-CL catchment ${catchment.id}.</figcaption></figure>
       <article class="hml-fact-card"><h3>Forcing and observations</h3><p>Daily CR2MET precipitation and temperature, Hargreaves-Samani PET, and DGA streamflow from CAMELS-CL.</p><p>${state.dataset.source.period[0]} to ${state.dataset.source.period[1]}.</p></article>
       <article class="hml-fact-card"><h3>Adjustable parameters</h3><ul>${parameterList}</ul></article>
       <article class="hml-fact-card"><h3>Displayed states</h3><p>Rain, snow, PET, AET, SWE, soil moisture, quickflow, baseflow, simulated and observed outlet streamflow.</p></article>
@@ -569,7 +688,9 @@
       panel.hidden = !active;
       panel.classList.toggle("is-active", active);
     });
-    if (button.dataset.hmlTab === "model") window.requestAnimationFrame(drawPlot);
+    if (button.dataset.hmlTab === "model") {
+      window.requestAnimationFrame(redrawCharts);
+    }
   } // switchTab END
 
   function attachEvents() {
@@ -578,6 +699,8 @@
     selectors.view.addEventListener("change", drawPlot);
     selectors.dateStart.addEventListener("change", updateDateWindow);
     selectors.dateEnd.addEventListener("change", updateDateWindow);
+    selectors.timeStart.addEventListener("input", updateSliderWindow);
+    selectors.timeEnd.addEventListener("input", updateSliderWindow);
     selectors.canvas.addEventListener("mousemove", updateTooltip);
     selectors.canvas.addEventListener("mouseleave", () => {
       selectors.tooltip.textContent = "Move over the plot to inspect daily values.";
@@ -594,7 +717,7 @@
       window.close();
       window.setTimeout(() => window.location.replace(root.dataset.hmlLoginUrl), 100);
     });
-    const resizeObserver = new ResizeObserver(() => window.requestAnimationFrame(drawPlot));
+    const resizeObserver = new ResizeObserver(() => window.requestAnimationFrame(redrawCharts));
     resizeObserver.observe(selectors.canvas.parentElement);
   } // attachEvents END
 
