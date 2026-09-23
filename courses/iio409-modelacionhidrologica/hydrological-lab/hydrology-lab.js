@@ -2,12 +2,15 @@
   "use strict";
 
   const root = document.getElementById("iio409-hydrology-lab");
-  if (!root || !window.HydroLabEngine) return;
+  if (!root) return;
 
   const accessHash = "36fc57e55deb94fde8aeb37e645788652a030c6ff7513330c1f4d5bf0e868b82";
   const accessKey = "iio409-hydrology-lab-access";
+  const accessLifetime = 12 * 60 * 60 * 1000;
+  const mode = root.dataset.hmlMode;
   const dataBase = "/courses/iio409-modelacionhidrologica/hydrological-lab/data/";
   const dayMilliseconds = 86400000;
+  if (mode === "app" && !window.HydroLabEngine) return;
 
   const modelCatalog = {
     tuw: {
@@ -63,6 +66,7 @@
     login: root.querySelector("[data-hml-login]"),
     loginForm: root.querySelector("[data-hml-login-form]"),
     loginError: root.querySelector("[data-hml-login-error]"),
+    launchFallback: root.querySelector("[data-hml-launch-fallback]"),
     app: root.querySelector("[data-hml-app]"),
     dataset: root.querySelector("[data-hml-dataset]"),
     model: root.querySelector("[data-hml-model]"),
@@ -585,10 +589,10 @@
     root.querySelectorAll("[data-hml-tab]").forEach((button) =>
       button.addEventListener("click", () => switchTab(button)));
     root.querySelector("[data-hml-signout]").addEventListener("click", () => {
+      localStorage.removeItem(accessKey);
       sessionStorage.removeItem(accessKey);
-      selectors.app.hidden = true;
-      selectors.login.hidden = false;
-      selectors.loginForm.reset();
+      window.close();
+      window.setTimeout(() => window.location.replace(root.dataset.hmlLoginUrl), 100);
     });
     const resizeObserver = new ResizeObserver(() => window.requestAnimationFrame(drawPlot));
     resizeObserver.observe(selectors.canvas.parentElement);
@@ -610,24 +614,42 @@
     return Array.from(new Uint8Array(hash), (byte) => byte.toString(16).padStart(2, "0")).join("");
   } // digest END
 
+  function hasValidAccess() {
+    const grantedAt = Number(localStorage.getItem(accessKey));
+    return Number.isFinite(grantedAt) && grantedAt > 0 && Date.now() - grantedAt < accessLifetime;
+  } // hasValidAccess END
+
   async function enterApp() {
-    selectors.login.hidden = true;
     selectors.app.hidden = false;
     await initialiseApp();
   } // enterApp END
 
-  selectors.loginForm.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    selectors.loginError.textContent = "";
-    const form = new FormData(selectors.loginForm);
-    const candidate = await digest(`${form.get("username")}|${form.get("password")}`);
-    if (candidate !== accessHash) {
-      selectors.loginError.textContent = "The username or password is incorrect.";
-      return;
-    }
-    sessionStorage.setItem(accessKey, "granted");
-    await enterApp();
-  });
+  if (mode === "gate" && selectors.loginForm) {
+    selectors.loginForm.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      selectors.loginError.textContent = "";
+      selectors.launchFallback.hidden = true;
+      const pendingWindow = window.open("about:blank", "_blank");
+      const form = new FormData(selectors.loginForm);
+      const candidate = await digest(`${form.get("username")}|${form.get("password")}`);
+      if (candidate !== accessHash) {
+        if (pendingWindow) pendingWindow.close();
+        selectors.loginError.textContent = "The username or password is incorrect.";
+        return;
+      }
+      localStorage.setItem(accessKey, String(Date.now()));
+      if (pendingWindow) {
+        pendingWindow.opener = null;
+        pendingWindow.location.replace(root.dataset.hmlAppUrl);
+      } else {
+        selectors.loginError.textContent = "Access granted. Your browser blocked the new tab; use the link below.";
+        selectors.launchFallback.hidden = false;
+      }
+    });
+  }
 
-  if (sessionStorage.getItem(accessKey) === "granted") enterApp();
+  if (mode === "app") {
+    if (hasValidAccess()) enterApp();
+    else window.location.replace(root.dataset.hmlLoginUrl);
+  }
 }());
