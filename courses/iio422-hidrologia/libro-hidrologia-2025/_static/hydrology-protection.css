@@ -1,0 +1,110 @@
+/* Deter copying and keep the protected document hidden before authentication. */
+html.hydrology-locked body {
+  overflow: hidden !important;
+}
+
+html.hydrology-locked body > :not(#hydrology-access-gate) {
+  visibility: hidden !important;
+}
+
+body,
+body * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#hydrology-access-gate {
+  align-items: center;
+  background: linear-gradient(145deg, #eef6f8, #dcecf2);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 1.5rem;
+  position: fixed;
+  visibility: visible !important;
+  z-index: 2147483647;
+}
+
+.hydrology-login-card {
+  background: #fff;
+  border-radius: 0.75rem;
+  box-shadow: 0 1rem 3rem rgba(0, 40, 55, 0.18);
+  color: #24343a;
+  font-family: Lato, Arial, sans-serif;
+  max-width: 28rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+.hydrology-login-card h1 {
+  color: #19647e;
+  font-size: 1.65rem;
+  margin: 0 0 0.6rem;
+}
+
+.hydrology-login-card p {
+  line-height: 1.5;
+  margin: 0 0 1.25rem;
+}
+
+.hydrology-login-card label {
+  display: block;
+  font-weight: 700;
+  margin: 0.9rem 0 0.3rem;
+}
+
+.hydrology-login-card input {
+  border: 1px solid #9aadb4;
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  font: inherit;
+  padding: 0.65rem 0.75rem;
+  user-select: text;
+  width: 100%;
+}
+
+.hydrology-login-card button {
+  background: #19647e;
+  border: 0;
+  border-radius: 0.3rem;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  margin-top: 1.25rem;
+  padding: 0.7rem 1rem;
+  width: 100%;
+}
+
+.hydrology-login-card button:hover,
+.hydrology-login-card button:focus {
+  background: #104b60;
+}
+
+#hydrology-login-error {
+  color: #a11a1a;
+  font-weight: 700;
+  margin: 0.8rem 0 0;
+  min-height: 1.5em;
+}
+
+.hydrology-course-link {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media print {
+  body > * {
+    display: none !important;
+  }
+
+  body::before {
+    content: "Printing is disabled for these course notes.";
+    display: block;
+    font: 18px Arial, sans-serif;
+    padding: 2rem;
+  }
+}
