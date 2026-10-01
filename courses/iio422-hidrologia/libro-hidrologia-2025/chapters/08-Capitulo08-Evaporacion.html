@@ -1,0 +1,1040 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>8. Evaporación &mdash; documentación de Libro Hidrología 2025 - Alpha</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+
+
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=d000853a"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/translations.js?v=f85f4cfb"></script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="prev" title="7. Precipitación" href="07-Capitulo07-Precipitacion.html" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+  <link rel="stylesheet" href="/courses/iio422-hidrologia/libro-hidrologia-2025/_static/hydrology-protection.css" />
+  <script src="/courses/iio422-hidrologia/libro-hidrologia-2025/_static/hydrology-protection.js"></script>
+</head>
+
+<body class="wy-body-for-nav">
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+
+
+          <a href="../index.html" class="icon icon-home">
+            Libro Hidrología 2025
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Capítulos</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-Capitulo01-Historia.html">1. Historia de la hidrología como ciencia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html">2. Conceptos básicos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-Capitulo03-GestionDeRRHH.html">3. Marco legal e institucional del agua en Chile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html">4. Agua en la atmósfera</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-Capitulo05-CirculacionAtmosferica_y_VientosGlobales.html">5. Circulación atmosférica global</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-Capitulo06-ClasificacionClimatica.html">6. Clasificación climática</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-Capitulo07-Precipitacion.html">7. Precipitación</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">8. Evaporación</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduccion">8.1. Introducción</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#el-proceso-de-evaporacion-en-el-ciclo-hidrologico">8.2. El proceso de evaporación en el ciclo hidrológico</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#evaporacion-transpiracion-e-intercepcion">8.2.1. Evaporación, transpiración e intercepción</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cambio-de-fase-y-requerimiento-energetico">8.2.2. Cambio de fase y requerimiento energético</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tres-requisitos-y-controles-acoplados">8.2.3. Tres requisitos y controles acoplados</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fundamentos-fisicos-de-la-radiacion">8.3. Fundamentos físicos de la radiación</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#espectro-electromagnetico-y-leyes-de-emision">8.3.1. Espectro electromagnético y leyes de emisión</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#geometria-solar-y-radiacion-extraterrestre">8.3.2. Geometría solar y radiación extraterrestre</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#transmision-atmosferica-y-onda-corta-superficial">8.3.3. Transmisión atmosférica y onda corta superficial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#onda-larga-albedo-y-radiacion-neta">8.3.4. Onda larga, albedo y radiación neta</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#balance-de-energia-en-la-superficie">8.4. Balance de energía en la superficie</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#flujos-sensible-latente-y-del-suelo">8.4.1. Flujos sensible, latente y del suelo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#resistencias-adveccion-y-retroalimentacion">8.4.2. Resistencias, advección y retroalimentación</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#distribucion-temporal-y-espacial">8.5. Distribución temporal y espacial</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ciclos-diurno-estacional-e-interanual">8.5.1. Ciclos diurno, estacional e interanual</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#latitud-topografia-cobertura-y-agua-disponible">8.5.2. Latitud, topografía, cobertura y agua disponible</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#demanda-atmosferica-sequia-y-cambio-climatico">8.5.3. Demanda atmosférica, sequía y cambio climático</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#medicion-y-estimacion-de-la-evaporacion">8.6. Medición y estimación de la evaporación</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#instrumentos-directos-y-soporte-espacial">8.6.1. Instrumentos directos y soporte espacial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#metodos-de-energia-aerodinamicos-y-de-combinacion">8.6.2. Métodos de energía, aerodinámicos y de combinación</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#productos-globales-de-evaporacion">8.6.3. Productos globales de evaporación</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#balances-teledeteccion-e-integracion-de-evidencias">8.6.4. Balances, teledetección e integración de evidencias</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#marco-de-budyko-balance-de-agua-y-energia">8.7. Marco de Budyko: balance de agua y energía</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#hipotesis-indices-y-limites-fisicos">8.7.1. Hipótesis, índices y límites físicos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#familias-de-curvas-y-ecuacion-de-fu">8.7.2. Familias de curvas y ecuación de Fu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#interpretacion-del-parametro-omega-y-desviaciones">8.7.3. Interpretación del parámetro omega y desviaciones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#elasticidad-cambio-climatico-y-aplicaciones">8.7.4. Elasticidad, cambio climático y aplicaciones</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ejemplo-de-aplicacion-anual">8.8. Ejemplo de aplicación anual</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#calculo-paso-a-paso">8.8.1. Cálculo paso a paso</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#estacionalidad-almacenamiento-y-prueba-de-supuestos">8.8.2. Estacionalidad, almacenamiento y prueba de supuestos</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#sintesis-y-guia-de-aplicacion">8.9. Síntesis y guía de aplicación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#actividades-de-aprendizaje">8.10. Actividades de aprendizaje</a></li>
+<li><a class="reference internal" href="#referencias">8.11. Referencias</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Libro Hidrología 2025</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><span class="section-number">8. </span>Evaporación</li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+
+  <section id="evaporacion">
+<h1><span class="section-number">8. </span>Evaporación<a class="headerlink" href="#evaporacion" title="Link to this heading"></a></h1>
+<blockquote class="epigraph">
+<div><p>La evaporación es el punto en que el balance de agua y el balance de energía se convierten en una misma pregunta hidrológica.</p>
+<p>Idea guía del capítulo</p>
+</div></blockquote>
+<section id="introduccion">
+<span id="evaporacion-cap08"></span><h2><span class="section-number">8.1. </span>Introducción<a class="headerlink" href="#introduccion" title="Link to this heading"></a></h2>
+<p>La evaporación devuelve agua desde océanos, lagos, ríos, suelo, nieve y superficies vegetales hacia la atmósfera. En las plantas, el transporte termina mayoritariamente como transpiración a través de los estomas; en un dosel mojado, parte de la precipitación interceptada regresa a la atmósfera antes de alcanzar el suelo. El conjunto de estos flujos conecta la rama terrestre y la rama atmosférica del <a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html#ciclo-hidrologico"><span class="std std-ref">El ciclo hidrológico</span></a>. Esa conexión es cuantitativamente decisiva: una síntesis global estimó que la evaporación terrestre anual supera aproximadamente en 54 % a la escorrentía continental que llega al océano <span class="bibtex-citation" id="id1">(<a class="reference internal" href="#id183" title="Rodell, M., Beaudoing, H. K., L'Ecuyer, T. S., and others. The observed state of the water cycle in the early twenty-first century. Journal of Climate, 28(21):8289–8318, 2015. doi:10.1175/JCLI-D-14-00555.1.">Rodell <em>et al.</em>, 2015</a>; <a class="reference internal" href="#id146" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>)</span>. La proporción no debe aplicarse a una cuenca particular, pero muestra que la rama ascendente del ciclo es, globalmente, mayor que la salida fluvial.</p>
+<p>Sin embargo, evaporar agua no depende de una sola variable. Se requiere una fuente de agua, energía para vencer las fuerzas intermoleculares y un mecanismo que retire el vapor desde la superficie. La radiación neta suministra gran parte de la energía; la humedad, la temperatura y el viento controlan la capacidad de transporte de la atmósfera; y el suelo, la vegetación o un cuerpo de agua regulan el suministro. Por eso, dos lugares con igual temperatura pueden evaporar cantidades distintas, y una mayor demanda atmosférica no garantiza una mayor evaporación real si el agua se agota.</p>
+<p>Esta distinción tiene consecuencias de ingeniería. La evaporación reduce el volumen útil de embalses, controla los requerimientos de riego, modifica la humedad del suelo, condiciona sequías agrícolas, acopla ecosistemas y atmósfera, y determina qué fracción de la precipitación queda disponible como escorrentía y recarga. La dificultad es que el flujo no se observa con la sencillez de una altura de agua o una precipitación acumulada. Se infiere mediante balances, instrumentos micrometeorológicos, lisímetros, bandejas, modelos o sensores remotos; cada método representa una superficie y una escala diferentes <span class="bibtex-citation" id="id2">(<a class="reference internal" href="#id170" title="Chow, V. T., Maidment, D. R., and Mays, L. W. Applied Hydrology. McGraw-Hill, New York, 1988. ISBN 9780070108103.">Chow <em>et al.</em>, 1988</a>; <a class="reference internal" href="#id171" title="Davie, T. Fundamentals of Hydrology. Routledge, London, 2nd edition, 2008. ISBN 9780415399876.">Davie, 2008</a>; <a class="reference internal" href="#id144" title="Robinson, M. and Ward, R. Hydrology: Principles and Processes. IWA Publishing, 2017.">Robinson and Ward, 2017</a>; <a class="reference internal" href="#id146" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>)</span>.</p>
+<p>La <a class="reference internal" href="#fig-ch08-01"><span class="std std-numref">Figura 8.1</span></a> organiza el razonamiento del capítulo. Primero se define el proceso y sus controles; luego se desarrollan las leyes radiativas necesarias para calcular la energía disponible; después se analiza el balance de energía, la variabilidad espacial y temporal y los métodos de estimación. Finalmente, el marco de Budyko combina balances de agua y energía para interpretar la partición media de largo plazo en una <a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html#cuenca-hidrografica"><span class="std std-ref">Cuenca hidrográfica</span></a>.</p>
+<figure class="align-center" id="id213">
+<span id="fig-ch08-01"></span><a class="reference internal image-reference" href="../_images/ch08-01-ruta-conceptual.jpg"><img alt="../_images/ch08-01-ruta-conceptual.jpg" src="../_images/ch08-01-ruta-conceptual.jpg" style="width: 96%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.1 </span><span class="caption-text">Ruta conceptual desde la radiación solar hasta la partición hidroclimática de largo plazo. Elaboración propia.</span><a class="headerlink" href="#id213" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition-objetivos-de-aprendizaje admonition">
+<p class="admonition-title">Objetivos de aprendizaje</p>
+<p>Al finalizar el capítulo se espera que el lector pueda:</p>
+<ul class="simple">
+<li><p>distinguir evaporación, transpiración, evaporación de agua interceptada y evaporación total;</p></li>
+<li><p>explicar por qué la evaporación necesita simultáneamente agua, energía y transporte turbulento;</p></li>
+<li><p>aplicar las leyes de Planck, Wien y Stefan-Boltzmann al balance radiativo terrestre;</p></li>
+<li><p>calcular radiación extraterrestre, radiación neta y energía equivalente de evaporación con unidades consistentes;</p></li>
+<li><p>interpretar la partición de radiación neta entre calor del suelo, calor sensible y calor latente;</p></li>
+<li><p>justificar patrones diarios, estacionales y espaciales de evaporación;</p></li>
+<li><p>seleccionar métodos de medición o estimación compatibles con la escala de una aplicación;</p></li>
+<li><p>formular y aplicar el marco de Budyko, incluida la ecuación de Fu; y</p></li>
+<li><p>reconocer cuándo los supuestos de largo plazo, cierre de cuenca y estacionariedad no son defendibles.</p></li>
+</ul>
+</div>
+</section>
+<section id="el-proceso-de-evaporacion-en-el-ciclo-hidrologico">
+<span id="conceptos-evaporacion-cap08"></span><h2><span class="section-number">8.2. </span>El proceso de evaporación en el ciclo hidrológico<a class="headerlink" href="#el-proceso-de-evaporacion-en-el-ciclo-hidrologico" title="Link to this heading"></a></h2>
+<section id="evaporacion-transpiracion-e-intercepcion">
+<span id="componentes-evaporacion-cap08"></span><h3><span class="section-number">8.2.1. </span>Evaporación, transpiración e intercepción<a class="headerlink" href="#evaporacion-transpiracion-e-intercepcion" title="Link to this heading"></a></h3>
+<p>La <strong>evaporación</strong> es el cambio de fase mediante el cual agua líquida –o hielo mediante sublimación– pasa a vapor y se transporta hacia la atmósfera. Puede ocurrir desde agua libre, suelo húmedo, nieve, hielo, gotas retenidas sobre la vegetación y otras superficies mojadas. La <strong>transpiración</strong> es el flujo de agua que atraviesa la planta desde el suelo, asciende por el xilema y se vaporiza en las cavidades foliares antes de difundirse a través de los estomas. La <strong>evaporación de intercepción</strong> corresponde al agua almacenada temporalmente sobre hojas, ramas y tallos que retorna a la atmósfera. La formación y medición de la precipitación que origina ese almacenamiento se desarrollan en <a class="reference internal" href="07-Capitulo07-Precipitacion.html"><span class="doc">el capítulo 07</span></a>.</p>
+<p>La expresión <strong>evapotranspiración</strong> se usa ampliamente para la suma de evaporación desde el suelo y transpiración. En balances de cuenca suele emplearse en un sentido más amplio que incorpora también intercepción y, según el caso, evaporación desde agua libre o nieve. Esta conveniencia exige declarar la variable. Un producto denominado ET puede representar sólo suelo y vegetación, mientras otro cierra todo el flujo de agua terrestre hacia la atmósfera. La terminología no es inocua: la intercepción puede aportar una fracción apreciable del flujo en bosques húmedos y responde a la frecuencia de los eventos, no sólo a la precipitación total <span class="bibtex-citation" id="id3">(<a class="reference internal" href="#id181" title="Miralles, D. G., Brutsaert, W., Dolman, A. J., and Gash, J. H. On the use of the term “evapotranspiration”. Water Resources Research, 56(11):e2020WR028055, 2020. doi:10.1029/2020WR028055.">Miralles <em>et al.</em>, 2020</a>; <a class="reference internal" href="#id144" title="Robinson, M. and Ward, R. Hydrology: Principles and Processes. IWA Publishing, 2017.">Robinson and Ward, 2017</a>; <a class="reference internal" href="#id146" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>)</span>.</p>
+<p>Existe además un debate conceptual sobre el nombre del flujo. <span class="bibtex-citation" id="id4">Savenije (<a class="reference internal" href="#id198" title="Savenije, H. H. G. The importance of interception and why we should delete the term evapotranspiration from our vocabulary. Hydrological Processes, 18(8):1507–1511, 2004. doi:10.1002/hyp.5563.">2004</a>)</span> propuso abandonar <em>evapotranspiración</em> porque la transpiración es físicamente una evaporación que ocurre en las cavidades foliares y porque el término puede invisibilizar la intercepción. <span class="bibtex-citation" id="id5">Miralles <em>et al.</em> (<a class="reference internal" href="#id181" title="Miralles, D. G., Brutsaert, W., Dolman, A. J., and Gash, J. H. On the use of the term “evapotranspiration”. Water Resources Research, 56(11):e2020WR028055, 2020. doi:10.1029/2020WR028055.">2020</a>)</span> retomó el problema y recomendó usar <strong>evaporación terrestre</strong> como término paraguas, manteniendo explícitos sus componentes. Este capítulo adopta esa convención: evaporación total es la suma de transpiración, evaporación de intercepción, evaporación de suelo y evaporación de agua libre o nieve. Se conserva ET cuando una ecuación, producto o práctica profesional usa ese nombre. La regla importante no es imponer una palabra, sino declarar qué flujos entran en el numerador.</p>
+<p>La transpiración conecta agua, carbono y energía. El agua absorbida por las raíces asciende por el xilema y se evapora dentro de la hoja; el vapor sale por los mismos estomas que regulan la entrada de <span class="math notranslate nohighlight">\(CO_2\)</span>. Una síntesis para nueve biomas estimó que la transpiración representa, en promedio global, cerca de 61 % de la evaporación terrestre, con una dispersión de ±15 puntos porcentuales <span class="bibtex-citation" id="id6">(<a class="reference internal" href="#id199" title="Schlesinger, W. H. and Jasechko, S. Transpiration in the global water cycle. Agricultural and Forest Meteorology, 189–190:115–117, 2014. doi:10.1016/j.agrformet.2014.01.011.">Schlesinger and Jasechko, 2014</a>)</span>. Esa cifra expresa una síntesis incierta, no una fracción transferible a cualquier cuenca: especie, área foliar, profundidad de raíces, clima e intercepción modifican la partición.</p>
+<p>La <a class="reference internal" href="#fig-ch08-02"><span class="std std-numref">Figura 8.2</span></a> muestra cuatro rutas físicas que terminan en un flujo atmosférico agregado. Mantenerlas separadas conceptualmente permite anticipar respuestas distintas. Tras una lluvia, el dosel mojado puede evaporar aun cuando los estomas estén cerrados; durante una sequía, las raíces profundas pueden sostener transpiración cuando la superficie del suelo ya está seca; y sobre un embalse no existe resistencia estomática, pero sí almacenamiento térmico y una capa límite aerodinámica.</p>
+<figure class="align-center" id="id214">
+<span id="fig-ch08-02"></span><a class="reference internal image-reference" href="../_images/ch08-02-componentes-evaporacion.jpg"><img alt="../_images/ch08-02-componentes-evaporacion.jpg" src="../_images/ch08-02-componentes-evaporacion.jpg" style="width: 92%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.2 </span><span class="caption-text">Componentes que suelen agregarse como evaporación terrestre. Elaboración propia.</span><a class="headerlink" href="#id214" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>En una aplicación conviene responder cuatro preguntas antes de calcular: <strong>qué superficies</strong> se incluyen, <strong>qué intervalo</strong> se integra, <strong>qué soporte espacial</strong> representa el dato y <strong>si el resultado es un flujo real o una demanda potencial</strong>. Esta disciplina evita comparar, por ejemplo, evaporación de bandeja con transpiración de una parcela o ET de referencia con pérdida real de una cuenca.</p>
+</section>
+<section id="cambio-de-fase-y-requerimiento-energetico">
+<span id="mecanismo-fisico-evaporacion-cap08"></span><h3><span class="section-number">8.2.2. </span>Cambio de fase y requerimiento energético<a class="headerlink" href="#cambio-de-fase-y-requerimiento-energetico" title="Link to this heading"></a></h3>
+<p>Las moléculas de un líquido intercambian energía continuamente. Algunas cercanas a la superficie adquieren suficiente energía cinética para superar la atracción del líquido y pasar a la fase gaseosa. Al escapar preferentemente moléculas energéticas, el líquido restante tiende a enfriarse: la evaporación consume <strong>calor latente</strong> sin que ese consumo implique, durante el cambio de fase, un aumento equivalente de temperatura. La diferencia entre calor latente y sensible y la conservación de energía se relacionan con la primera ley de la termodinámica presentada en <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#conservacion-atmosferica"><span class="std std-ref">Leyes de conservación que rigen el movimiento atmosférico</span></a>.</p>
+<p>La energía requerida por unidad de masa es el <strong>calor latente de vaporización</strong>, <span class="math notranslate nohighlight">\(\lambda_v\)</span>. Cerca de temperaturas ambientales puede aproximarse por:</p>
+<div class="math notranslate nohighlight">
+\[\lambda_v \simeq 2.501 - 0.002361\,T \quad [\mathrm{MJ\,kg^{-1}}],\]</div>
+<p>donde <span class="math notranslate nohighlight">\(T\)</span> está en grados Celsius. A <span class="math notranslate nohighlight">\(20\ ^\circ\mathrm{C}\)</span>, <span class="math notranslate nohighlight">\(\lambda_v\)</span> es aproximadamente <span class="math notranslate nohighlight">\(2.45\ \mathrm{MJ\,kg^{-1}}\)</span>. Como una lámina de 1 mm sobre 1 m² equivale a 1 kg de agua, un flujo de energía <span class="math notranslate nohighlight">\(\lambda E=2.45\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span> representa aproximadamente <span class="math notranslate nohighlight">\(E=1\ \mathrm{mm\,d^{-1}}\)</span>. Esta equivalencia convierte un balance energético en profundidad de agua y será usada repetidamente.</p>
+<p>La distribución conceptual de la <a class="reference internal" href="#fig-ch08-03"><span class="std std-numref">Figura 8.3</span></a> explica por qué el calentamiento favorece la evaporación: al aumentar la temperatura, crece la fracción de moléculas en la cola de alta energía. No significa que toda la superficie deba alcanzar el punto de ebullición. La ebullición ocurre cuando la presión de vapor iguala la presión circundante en el interior del líquido; la evaporación ocurre en la interfaz a temperaturas mucho menores.</p>
+<figure class="align-center" id="id215">
+<span id="fig-ch08-03"></span><a class="reference internal image-reference" href="../_images/ch08-03-mecanismo-molecular.png"><img alt="../_images/ch08-03-mecanismo-molecular.png" src="../_images/ch08-03-mecanismo-molecular.png" style="width: 91%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.3 </span><span class="caption-text">Representación conceptual de la fracción de moléculas con energía suficiente para abandonar una superficie líquida. Las curvas están normalizadas y no constituyen una distribución termodinámica calibrada. Elaboración propia.</span><a class="headerlink" href="#id215" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>El proceso es bidireccional. Algunas moléculas de vapor regresan y condensan. En una interfaz en equilibrio, evaporación y condensación se compensan y la presión parcial alcanza la presión de vapor de saturación <span class="math notranslate nohighlight">\(e_s(T_s)\)</span>. Si el aire inmediatamente superior contiene una presión de vapor <span class="math notranslate nohighlight">\(e_a\)</span> menor que <span class="math notranslate nohighlight">\(e_s(T_s)\)</span>, existe un gradiente que favorece el flujo neto hacia la atmósfera. La dependencia de <span class="math notranslate nohighlight">\(e_s\)</span> con la temperatura se desarrolló mediante Clausius-Clapeyron en <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#clausius-clapeyron"><span class="std std-ref">Humedad atmosférica y ley de Clausius-Clapeyron</span></a>. En este capítulo esa ley se usa para obtener el déficit de presión de vapor, no como sustituto del balance de energía.</p>
+<p>Para sublimar hielo se requiere más energía que para vaporizar la misma masa de agua líquida a 0 °C. Por ello, bajo igual energía disponible, la pérdida de masa por sublimación es menor. Además, una cubierta de nieve fresca refleja gran parte de la onda corta; este doble efecto reduce el flujo, aunque viento seco y radiación pueden mantener sublimación apreciable en montaña.</p>
+</section>
+<section id="tres-requisitos-y-controles-acoplados">
+<span id="controles-evaporacion-cap08"></span><h3><span class="section-number">8.2.3. </span>Tres requisitos y controles acoplados<a class="headerlink" href="#tres-requisitos-y-controles-acoplados" title="Link to this heading"></a></h3>
+<p>Un flujo sostenido necesita tres condiciones. La primera es <strong>agua disponible</strong> en la superficie o accesible a raíces. La segunda es <strong>energía</strong>, proporcionada principalmente por radiación neta y, en algunos casos, por calor sensible advectado o por almacenamiento térmico. La tercera es <strong>transporte</strong>, porque el aire junto a una superficie mojada se aproxima a saturación y el gradiente se debilitaría si turbulencia y viento no renovaran esa capa. Los textos hidrológicos convergen en esta triple estructura, aunque difieren en la notación y en el alcance del término evapotranspiración <span class="bibtex-citation" id="id7">(<a class="reference internal" href="#id173" title="Brutsaert, W. Evaporation into the Atmosphere: Theory, History, and Applications. D. Reidel, Dordrecht, 1982. doi:10.1007/978-94-017-1497-6.">Brutsaert, 1982</a>; <a class="reference internal" href="#id170" title="Chow, V. T., Maidment, D. R., and Mays, L. W. Applied Hydrology. McGraw-Hill, New York, 1988. ISBN 9780070108103.">Chow <em>et al.</em>, 1988</a>; <a class="reference internal" href="#id171" title="Davie, T. Fundamentals of Hydrology. Routledge, London, 2nd edition, 2008. ISBN 9780415399876.">Davie, 2008</a>; <a class="reference internal" href="#id144" title="Robinson, M. and Ward, R. Hydrology: Principles and Processes. IWA Publishing, 2017.">Robinson and Ward, 2017</a>)</span>.</p>
+<p>Una forma de representar el control aerodinámico es:</p>
+<div class="math notranslate nohighlight">
+\[E = \frac{\rho_a}{\rho_w}\,\frac{q_s(T_s)-q_a}{r_a},\]</div>
+<p>donde <span class="math notranslate nohighlight">\(\rho_a\)</span> y <span class="math notranslate nohighlight">\(\rho_w\)</span> son las densidades del aire y del agua, <span class="math notranslate nohighlight">\(q_s(T_s)\)</span> es la humedad específica de saturación a la temperatura superficial, <span class="math notranslate nohighlight">\(q_a\)</span> la humedad del aire y <span class="math notranslate nohighlight">\(r_a\)</span> una resistencia aerodinámica. Una superficie más rugosa o viento más intenso suelen disminuir <span class="math notranslate nohighlight">\(r_a\)</span>; una atmósfera más seca aumenta el gradiente. En vegetación se agrega una resistencia superficial <span class="math notranslate nohighlight">\(r_s\)</span>, asociada con estomas, área foliar y disponibilidad de agua.</p>
+<p>La <a class="reference internal" href="#fig-ch08-04"><span class="std std-numref">Figura 8.4</span></a> resume respuestas parciales. Son curvas pedagógicas, no funciones universales: la radiación calienta y seca la capa límite; el viento cambia temperatura y humedad; la vegetación responde al déficit de presión de vapor cerrando estomas; y el agotamiento del suelo reduce simultáneamente transpiración y enfriamiento evaporativo. Por eso, la frase <em>ceteris paribus</em> ayuda a interpretar un control aislado, pero rara vez describe un paisaje real.</p>
+<figure class="align-center" id="id216">
+<span id="fig-ch08-04"></span><a class="reference internal image-reference" href="../_images/ch08-04-controles-evaporacion.jpg"><img alt="../_images/ch08-04-controles-evaporacion.jpg" src="../_images/ch08-04-controles-evaporacion.jpg" style="width: 96%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.4 </span><span class="caption-text">Respuesta conceptual de la evaporación a energía, demanda atmosférica, transporte y disponibilidad de agua. Elaboración propia.</span><a class="headerlink" href="#id216" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La presión atmosférica también interviene porque modifica densidad del aire y constante psicrométrica. La altitud, temperatura y presión fueron relacionadas en <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#altitud-temperatura-presion"><span class="std std-ref">Altitud, temperatura del aire y presión atmosférica</span></a>; no debe concluirse, sin embargo, que la menor presión en altura determina por sí sola una evaporación mayor. En montaña cambian simultáneamente radiación, temperatura, viento, nieve, humedad y exposición.</p>
+<div class="admonition-demanda-no-es-consumo admonition">
+<p class="admonition-title">Demanda no es consumo</p>
+<p>La demanda evaporativa describe cuánto podría evaporarse desde una superficie de referencia o bien abastecida. La evaporación real describe el flujo que efectivamente ocurre. Durante una sequía meteorológica la demanda puede aumentar mientras el flujo real disminuye por falta de agua. Confundir ambas variables conduce a diagnósticos erróneos de sequía, riego y cambio climático.</p>
+</div>
+</section>
+</section>
+<section id="fundamentos-fisicos-de-la-radiacion">
+<span id="fundamentos-radiacion-cap08"></span><h2><span class="section-number">8.3. </span>Fundamentos físicos de la radiación<a class="headerlink" href="#fundamentos-fisicos-de-la-radiacion" title="Link to this heading"></a></h2>
+<section id="espectro-electromagnetico-y-leyes-de-emision">
+<span id="leyes-radiacion-cap08"></span><h3><span class="section-number">8.3.1. </span>Espectro electromagnético y leyes de emisión<a class="headerlink" href="#espectro-electromagnetico-y-leyes-de-emision" title="Link to this heading"></a></h3>
+<p>La <strong>radiación electromagnética</strong> transfiere energía sin requerir un medio material. Se caracteriza por longitud de onda <span class="math notranslate nohighlight">\(\lambda\)</span>, frecuencia <span class="math notranslate nohighlight">\(\nu\)</span> y velocidad <span class="math notranslate nohighlight">\(c=\lambda\nu\)</span>. Para hidrología superficial es útil distinguir la radiación solar de <strong>onda corta</strong>, concentrada aproximadamente entre 0.3 y 4 µm, y la radiación terrestre de <strong>onda larga</strong>, predominante aproximadamente entre 4 y 100 µm. Esta separación no es arbitraria: se origina en la gran diferencia de temperatura entre el Sol y la Tierra.</p>
+<p>La ley de Planck describe la radiancia espectral de un cuerpo negro:</p>
+<div class="math notranslate nohighlight">
+\[B_\lambda(T)=\frac{2hc^2}{\lambda^5}
+\frac{1}{\exp\left(hc/(\lambda kT)\right)-1},\]</div>
+<p>donde <span class="math notranslate nohighlight">\(h\)</span> es la constante de Planck y <span class="math notranslate nohighlight">\(k\)</span> la constante de Boltzmann. La ley de desplazamiento de Wien localiza el máximo:</p>
+<div class="math notranslate nohighlight">
+\[\lambda_{\max}T=b, \qquad b\simeq 2898\ \mathrm{\mu m\,K}.\]</div>
+<p>Para una fotosfera solar cercana a 5772 K, <span class="math notranslate nohighlight">\(\lambda_{\max}\approx0.50\ \mathrm{\mu m}\)</span>; para una superficie terrestre cercana a 288 K, <span class="math notranslate nohighlight">\(\lambda_{\max}\approx10\ \mathrm{\mu m}\)</span>. La <a class="reference internal" href="#fig-ch08-05"><span class="std std-numref">Figura 8.5</span></a> hace visible la separación de los espectros. Las curvas se normalizan de manera independiente: no comparan la magnitud absoluta recibida en la Tierra.</p>
+<figure class="align-center" id="id217">
+<span id="fig-ch08-05"></span><a class="reference internal image-reference" href="../_images/ch08-05-leyes-radiacion.png"><img alt="../_images/ch08-05-leyes-radiacion.png" src="../_images/ch08-05-leyes-radiacion.png" style="width: 94%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.5 </span><span class="caption-text">Emitancia espectral normalizada de cuerpos negros a temperaturas representativas del Sol y la Tierra. Elaboración propia a partir de la ley de Planck.</span><a class="headerlink" href="#id217" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Al integrar el espectro se obtiene la ley de Stefan-Boltzmann:</p>
+<div class="math notranslate nohighlight">
+\[R_e=\varepsilon\sigma T^4,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(\sigma=5.670374419\times10^{-8}\ \mathrm{W\,m^{-2}\,K^{-4}}\)</span> y <span class="math notranslate nohighlight">\(\varepsilon\)</span> es la emisividad. La cuarta potencia hace que pequeños cambios de temperatura absoluta alteren apreciablemente la emisión de onda larga. Una superficie real no es un cuerpo negro perfecto; agua, suelo y vegetación suelen poseer emisividades térmicas altas, pero no idénticas.</p>
+<p>Estas tres leyes cumplen papeles distintos. Planck distribuye la emisión entre longitudes de onda; Wien identifica el máximo; Stefan-Boltzmann entrega la emisión total. Aplicarlas con grados Celsius en lugar de kelvin es un error dimensional grave. En hidrología, su consecuencia práctica es que la onda corta entrante depende principalmente de geometría solar y atmósfera, mientras la onda larga saliente depende fuertemente de temperatura y emisividad superficial <span class="bibtex-citation" id="id8">(<a class="reference internal" href="#id185" title="Stephens, G. L., Li, J., Wild, M., and others. An update on earth's energy balance in light of the latest global observations. Nature Geoscience, 5:691–696, 2012. doi:10.1038/ngeo1580.">Stephens <em>et al.</em>, 2012</a>; <a class="reference internal" href="#id110" title="Wallace, J. M. and Hobbs, P. V. Atmospheric Science: An Introductory Survey. Elsevier, 2nd edition, 2006.">Wallace and Hobbs, 2006</a>)</span>.</p>
+</section>
+<section id="geometria-solar-y-radiacion-extraterrestre">
+<span id="geometria-solar-cap08"></span><h3><span class="section-number">8.3.2. </span>Geometría solar y radiación extraterrestre<a class="headerlink" href="#geometria-solar-y-radiacion-extraterrestre" title="Link to this heading"></a></h3>
+<p>La irradiancia solar total a la distancia media Tierra-Sol es cercana a <span class="math notranslate nohighlight">\(1361\ \mathrm{W\,m^{-2}}\)</span>; el valor moderno es menor que el usado en varias formulaciones históricas <span class="bibtex-citation" id="id9">(<a class="reference internal" href="#id184" title="Kopp, G. and Lean, J. L. A new, lower value of total solar irradiance: evidence and climate significance. Geophysical Research Letters, 38:L01706, 2011. doi:10.1029/2010GL045777.">Kopp and Lean, 2011</a>)</span>. Esa magnitud corresponde a una superficie perpendicular a los rayos fuera de la atmósfera. La energía recibida por una superficie horizontal depende de la proyección cosenoidal, de la duración del día y de la distancia orbital. Por ello, la latitud y la estación –factores climáticos introducidos en <a class="reference internal" href="06-Capitulo06-ClasificacionClimatica.html#factores-clima"><span class="std std-ref">Principales factores que determinan el clima</span></a>– regulan la oferta potencial de energía.</p>
+<p>Para un día <span class="math notranslate nohighlight">\(J\)</span>, la formulación diaria usada habitualmente en hidrología agrícola expresa la radiación extraterrestre <span class="math notranslate nohighlight">\(R_a\)</span> como <span class="bibtex-citation" id="id10">(<a class="reference internal" href="#id172" title="Allen, R. G., Pereira, L. S., Raes, D., and Smith, M. Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements. Number 56 in FAO Irrigation and Drainage Paper. Food and Agriculture Organization of the United Nations, Rome, 1998. ISBN 9251042195.">Allen <em>et al.</em>, 1998</a>)</span>:</p>
+<div class="math notranslate nohighlight">
+\[R_a=\frac{24(60)}{\pi}G_{sc}d_r
+\left[\omega_s\sin\varphi\sin\delta+
+\cos\varphi\cos\delta\sin\omega_s\right],\]</div>
+<p>con</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}d_r &amp;= 1+0.033\cos\left(\frac{2\pi J}{365}\right),\\
+\delta &amp;= 0.409\sin\left(\frac{2\pi J}{365}-1.39\right),\\
+\omega_s &amp;= \arccos(-\tan\varphi\tan\delta),\end{split}\]</div>
+<p>donde <span class="math notranslate nohighlight">\(G_{sc}=0.0820\ \mathrm{MJ\,m^{-2}\,min^{-1}}\)</span>, <span class="math notranslate nohighlight">\(\varphi\)</span> es latitud en radianes, <span class="math notranslate nohighlight">\(d_r\)</span> la distancia relativa inversa Tierra-Sol, <span class="math notranslate nohighlight">\(\delta\)</span> la declinación solar y <span class="math notranslate nohighlight">\(\omega_s\)</span> el ángulo horario de puesta del Sol. <span class="math notranslate nohighlight">\(R_a\)</span> no es la radiación que alcanza la superficie: representa la cota geométrica antes de reflexión y absorción atmosférica.</p>
+<p>La <a class="reference internal" href="#fig-ch08-06"><span class="std std-numref">Figura 8.6</span></a> muestra el patrón de <span class="math notranslate nohighlight">\(R_a\)</span>. Cerca del ecuador la variación anual es moderada; en latitudes medias del hemisferio sur, el máximo ocurre alrededor de diciembre-enero y el mínimo alrededor de junio-julio. A mayor latitud aumenta la amplitud estacional. Este patrón ayuda a explicar por qué dos cuencas con igual precipitación anual pueden tener demandas evaporativas muy diferentes, y por qué la coincidencia o desfase entre lluvia y energía importa.</p>
+<figure class="align-center" id="id218">
+<span id="fig-ch08-06"></span><a class="reference internal image-reference" href="../_images/ch08-06-radiacion-extraterrestre.png"><img alt="../_images/ch08-06-radiacion-extraterrestre.png" src="../_images/ch08-06-radiacion-extraterrestre.png" style="width: 97%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.6 </span><span class="caption-text">Radiación extraterrestre diaria media para distintas latitudes y meses, calculada con la geometría de FAO-56. Elaboración propia.</span><a class="headerlink" href="#id218" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La topografía modifica el resultado para una ladera: pendiente y orientación cambian el ángulo de incidencia, y el horizonte puede ocultar el Sol. El mecanismo se conecta con la influencia topográfica desarrollada en <a class="reference internal" href="05-Capitulo05-CirculacionAtmosferica_y_VientosGlobales.html#influencia-topografia"><span class="std std-ref">Influencia de la topografía</span></a>. En una cuenca andina, una grilla horizontal de radiación puede sobrestimar una ladera sombreada y subestimar una ladera orientada al norte durante parte del año. La corrección requiere modelo de elevación, posición solar y sombras; una simple relación con altitud no basta.</p>
+</section>
+<section id="transmision-atmosferica-y-onda-corta-superficial">
+<span id="transmision-onda-corta-cap08"></span><h3><span class="section-number">8.3.3. </span>Transmisión atmosférica y onda corta superficial<a class="headerlink" href="#transmision-atmosferica-y-onda-corta-superficial" title="Link to this heading"></a></h3>
+<p>Antes de alcanzar la superficie, la radiación solar es dispersada, reflejada y absorbida. Las nubes constituyen un control dominante pero variable; aerosoles dispersan y absorben; ozono absorbe principalmente ultravioleta; vapor de agua y otros gases absorben en bandas selectivas. La composición y estructura de la atmósfera se introdujeron en <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#capas-atmosfera"><span class="std std-ref">Capas de la atmósfera</span></a>. Aquí interesa su efecto integrado sobre el flujo de onda corta.</p>
+<p>La radiación global <span class="math notranslate nohighlight">\(R_s\)</span> sobre una superficie horizontal combina un componente <strong>directo</strong>, que conserva la dirección del Sol, y uno <strong>difuso</strong>, que llega después de dispersión. En cielo despejado, <span class="math notranslate nohighlight">\(R_s\)</span> se aproxima a una fracción alta de <span class="math notranslate nohighlight">\(R_a\)</span>; bajo nubosidad espesa puede caer de forma abrupta. Un modelo simple relaciona horas de sol <span class="math notranslate nohighlight">\(n\)</span> con duración máxima <span class="math notranslate nohighlight">\(N\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[R_s=\left(a_s+b_s\frac{n}{N}\right)R_a,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(a_s\)</span> y <span class="math notranslate nohighlight">\(b_s\)</span> deben calibrarse o elegirse de acuerdo con la región. Si no hay observación de radiación, la amplitud térmica diaria puede utilizarse como proxy en formulaciones empíricas, pero nubes, advección y continentalidad limitan su transferencia <span class="bibtex-citation" id="id11">(<a class="reference internal" href="#id172" title="Allen, R. G., Pereira, L. S., Raes, D., and Smith, M. Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements. Number 56 in FAO Irrigation and Drainage Paper. Food and Agriculture Organization of the United Nations, Rome, 1998. ISBN 9251042195.">Allen <em>et al.</em>, 1998</a>; <a class="reference internal" href="#id178" title="Hargreaves, G. H. and Samani, Z. A. Reference crop evapotranspiration from temperature. Applied Engineering in Agriculture, 1(2):96–99, 1985. doi:10.13031/2013.26773.">Hargreaves and Samani, 1985</a>)</span>.</p>
+<p>Las Figuras 8.7a y 8.7b presentan el balance global mediante dos representaciones complementarias. La Figura 8.7a normaliza la radiación solar entrante a 100 unidades y permite seguir visualmente la partición entre reflexión, absorción, emisión infrarroja, calor latente y calor sensible. La Figura 8.7b expresa los flujos medios globales anuales en <span class="math notranslate nohighlight">\(\mathrm{W\,m^{-2}}\)</span> y hace explícito el pequeño desequilibrio energético planetario. La normalización facilita comparar fracciones; los valores dimensionales permiten calcular balances. Ninguna de las dos representaciones entrega coeficientes transferibles a una estación. A escala local, una nube puede simultáneamente reducir onda corta y aumentar onda larga descendente; un aerosol puede alterar radiación directa y difusa; y una cubierta de nieve eleva la reflexión superficial <span class="bibtex-citation" id="id12">(<a class="reference internal" href="#id185" title="Stephens, G. L., Li, J., Wild, M., and others. An update on earth's energy balance in light of the latest global observations. Nature Geoscience, 5:691–696, 2012. doi:10.1038/ngeo1580.">Stephens <em>et al.</em>, 2012</a>)</span>.</p>
+<figure class="align-center" id="id219">
+<span id="fig-ch08-07a"></span><a class="reference internal image-reference" href="../_images/ch08-07a-balance-global-100-unidades.jpg"><img alt="../_images/ch08-07a-balance-global-100-unidades.jpg" src="../_images/ch08-07a-balance-global-100-unidades.jpg" style="width: 97%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.7 </span><span class="caption-text">Balance global de radiación y flujos de energía expresado sobre una base normalizada de 100 unidades de energía solar entrante. Los valores son relativos y no están expresados en <span class="math notranslate nohighlight">\(\mathrm{W\,m^{-2}}\)</span>. Elaboración propia.</span><a class="headerlink" href="#id219" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id220">
+<span id="fig-ch08-07b"></span><a class="reference internal image-reference" href="../_images/ch08-07b-balance-global-wm2.jpg"><img alt="../_images/ch08-07b-balance-global-wm2.jpg" src="../_images/ch08-07b-balance-global-wm2.jpg" style="width: 97%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.8 </span><span class="caption-text">Balance global anual de radiación y flujos de energía expresado en <span class="math notranslate nohighlight">\(\mathrm{W\,m^{-2}}\)</span>. La diferencia neta absorbida representa el desequilibrio energético planetario; pequeñas discrepancias adicionales pueden provenir del redondeo. Elaboración propia.</span><a class="headerlink" href="#id220" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La onda corta neta es:</p>
+<div class="math notranslate nohighlight">
+\[R_{ns}=(1-\alpha)R_s,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(\alpha\)</span> es el <strong>albedo</strong>. Agua profunda con Sol alto puede tener albedo bajo; nieve fresca, mucho mayor; suelo y vegetación ocupan valores intermedios que cambian con humedad, estructura y ángulo solar. El albedo no es una propiedad completamente fija: una superficie acuática refleja más con incidencia rasante, un dosel cambia con fenología y un suelo se oscurece al mojarse. En términos hidrológicos, esas variaciones cambian la energía que queda disponible para calor sensible y latente.</p>
+</section>
+<section id="onda-larga-albedo-y-radiacion-neta">
+<span id="onda-larga-radiacion-neta-cap08"></span><h3><span class="section-number">8.3.4. </span>Onda larga, albedo y radiación neta<a class="headerlink" href="#onda-larga-albedo-y-radiacion-neta" title="Link to this heading"></a></h3>
+<p>La superficie emite onda larga de acuerdo con <span class="math notranslate nohighlight">\(\varepsilon_s\sigma T_s^4\)</span>. La atmósfera también emite hacia abajo porque vapor de agua, nubes y gases de efecto invernadero absorben y reemiten radiación infrarroja. La <strong>radiación neta</strong> superficial reúne los cuatro flujos:</p>
+<div class="math notranslate nohighlight">
+\[R_n=(K_\downarrow-K_\uparrow)+(L_\downarrow-L_\uparrow)
+   =(1-\alpha)R_s+L_\downarrow-L_\uparrow.\]</div>
+<p>Con la convención usada aquí, los flujos hacia la superficie son positivos. Durante el día, la onda corta neta suele dominar y <span class="math notranslate nohighlight">\(R_n\)</span> es positivo. De noche <span class="math notranslate nohighlight">\(K_\downarrow=0\)</span> y la emisión terrestre puede superar la contrarradiación atmosférica, produciendo <span class="math notranslate nohighlight">\(R_n&lt;0\)</span> y enfriamiento superficial. Nubes bajas reducen onda corta diurna, pero aumentan onda larga descendente y moderan el enfriamiento nocturno.</p>
+<p>Cuando no existe radiómetro neto, FAO-56 estima la onda larga neta diaria mediante temperatura, presión de vapor y nubosidad relativa <span class="bibtex-citation" id="id13">(<a class="reference internal" href="#id172" title="Allen, R. G., Pereira, L. S., Raes, D., and Smith, M. Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements. Number 56 in FAO Irrigation and Drainage Paper. Food and Agriculture Organization of the United Nations, Rome, 1998. ISBN 9251042195.">Allen <em>et al.</em>, 1998</a>)</span>:</p>
+<div class="math notranslate nohighlight">
+\[R_{nl}=\sigma\left[\frac{T_{max,K}^4+T_{min,K}^4}{2}\right]
+(0.34-0.14\sqrt{e_a})
+\left(1.35\frac{R_s}{R_{so}}-0.35\right),\]</div>
+<p>y luego <span class="math notranslate nohighlight">\(R_n=R_{ns}-R_{nl}\)</span>. En esta formulación diaria, <span class="math notranslate nohighlight">\(\sigma\)</span> se expresa en unidades coherentes de <span class="math notranslate nohighlight">\(\mathrm{MJ\,K^{-4}\,m^{-2}\,d^{-1}}\)</span>, <span class="math notranslate nohighlight">\(e_a\)</span> en kPa y <span class="math notranslate nohighlight">\(R_{so}\)</span> es radiación de cielo despejado. La ecuación es una parametrización, no una medición directa de temperatura de superficie o emisividad.</p>
+<p>La <a class="reference internal" href="#fig-ch08-08"><span class="std std-numref">Figura 8.9</span></a> compara dos balances ilustrativos. El cielo nublado reduce <span class="math notranslate nohighlight">\(K_\downarrow\)</span>, pero aumenta <span class="math notranslate nohighlight">\(L_\downarrow\)</span>; el resultado neto depende de ambos cambios. Esta compensación explica por qué no puede inferirse <span class="math notranslate nohighlight">\(R_n\)</span> sólo desde insolación, ni evaporación sólo desde temperatura del aire.</p>
+<figure class="align-center" id="id221">
+<span id="fig-ch08-08"></span><a class="reference internal image-reference" href="../_images/ch08-08-radiacion-neta.jpg"><img alt="../_images/ch08-08-radiacion-neta.jpg" src="../_images/ch08-08-radiacion-neta.jpg" style="width: 96%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.9 </span><span class="caption-text">Componentes de radiación neta con la convención hacia la superficie positiva. Los valores son ilustrativos y no corresponden a una estación específica. Elaboración propia.</span><a class="headerlink" href="#id221" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La medición ideal utiliza un radiómetro neto o un conjunto de piranómetros y pirgeómetros orientados hacia arriba y abajo. El sensor debe estar nivelado, ventilado cuando corresponda y situado sobre una superficie representativa. Sombras, suciedad, condensación, inclinación y una huella superficial heterogénea producen errores. En un embalse, además, la temperatura del agua y el almacenamiento de calor pueden desacoplar radiación instantánea y evaporación <span class="bibtex-citation" id="id14">(<a class="reference internal" href="#id170" title="Chow, V. T., Maidment, D. R., and Mays, L. W. Applied Hydrology. McGraw-Hill, New York, 1988. ISBN 9780070108103.">Chow <em>et al.</em>, 1988</a>; <a class="reference internal" href="#id146" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>)</span>.</p>
+<p><strong>Ejemplo razonado de cambio de cubierta.</strong> Considérese un día con <span class="math notranslate nohighlight">\(R_s=24\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span>. Sobre una cubierta oscura con <span class="math notranslate nohighlight">\(\alpha=0.18\)</span>, la onda corta neta es <span class="math notranslate nohighlight">\(19.68\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span>. Si la pérdida de onda larga neta es <span class="math notranslate nohighlight">\(4.8\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span>, entonces <span class="math notranslate nohighlight">\(R_n=14.88\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span>. Sobre nieve con <span class="math notranslate nohighlight">\(\alpha=0.75\)</span>, manteniendo los demás términos sólo para aislar el efecto del albedo, <span class="math notranslate nohighlight">\(R_{ns}\)</span> cae a 6.0 y <span class="math notranslate nohighlight">\(R_n\)</span> a <span class="math notranslate nohighlight">\(1.2\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span>. Dividir esos valores por <span class="math notranslate nohighlight">\(\lambda_v=2.45\ \mathrm{MJ\,kg^{-1}}\)</span> entrega equivalentes energéticos de 6.07 y 0.49 mm por día, respectivamente. No son predicciones de evaporación: son cotas que suponen que toda la energía neta se destina al cambio de fase y omiten <span class="math notranslate nohighlight">\(H\)</span>, <span class="math notranslate nohighlight">\(G\)</span> y almacenamiento. El ejercicio cuantifica, sin embargo, por qué una modificación de albedo puede alterar fuertemente la energía disponible.</p>
+<p>La comparación también muestra un principio de atribución. Si después de una nevada disminuye ET, no basta observar que bajó la temperatura del aire: aumentó el albedo, cambió la rugosidad, apareció energía de fusión y el agua quedó temporalmente almacenada como nieve. Para separar mecanismos se necesitan los términos del balance, no una correlación bivariada. En sentido inverso, retirar una cubierta clara o humedecer un suelo oscuro puede elevar la absorción de onda corta, pero ET sólo responderá si existe agua accesible y si la atmósfera permite exportar vapor.</p>
+<p><strong>Ejemplo razonado de nubosidad.</strong> Si el mismo suelo recibe <span class="math notranslate nohighlight">\(R_s=12\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span> bajo nubes y la pérdida de onda larga neta baja a <span class="math notranslate nohighlight">\(2.8\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span>, se obtiene <span class="math notranslate nohighlight">\(R_n=7.04\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span>. La onda corta incidente se redujo a la mitad, pero la radiación neta no lo hizo en la misma proporción porque las nubes compensaron parte de la pérdida mediante onda larga descendente. Esta compensación es más importante de noche y en atmósferas húmedas. Por ello, trasladar una relación calibrada entre insolación y ET desde un valle costero nuboso hacia una cuenca continental seca puede introducir un sesgo sistemático. La contabilidad de cuatro componentes presentada en la <a class="reference internal" href="#fig-ch08-08"><span class="std std-numref">Figura 8.9</span></a> es una defensa directa frente a esa simplificación.</p>
+</section>
+</section>
+<section id="balance-de-energia-en-la-superficie">
+<span id="balance-energia-superficie-cap08"></span><h2><span class="section-number">8.4. </span>Balance de energía en la superficie<a class="headerlink" href="#balance-de-energia-en-la-superficie" title="Link to this heading"></a></h2>
+<section id="flujos-sensible-latente-y-del-suelo">
+<span id="particion-energia-cap08"></span><h3><span class="section-number">8.4.1. </span>Flujos sensible, latente y del suelo<a class="headerlink" href="#flujos-sensible-latente-y-del-suelo" title="Link to this heading"></a></h3>
+<p>La radiación neta no se convierte íntegramente en evaporación. Para una capa superficial de control, el balance puede escribirse como:</p>
+<div class="math notranslate nohighlight">
+\[R_n-G-S=H+\lambda E,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(G\)</span> es el flujo de calor hacia el suelo o el agua, <span class="math notranslate nohighlight">\(S\)</span> representa el cambio de energía almacenada en biomasa, agua o la capa considerada, <span class="math notranslate nohighlight">\(H\)</span> es el calor sensible transferido al aire y <span class="math notranslate nohighlight">\(\lambda E\)</span> el calor latente. La convención debe declararse: aquí <span class="math notranslate nohighlight">\(R_n&gt;0\)</span> aporta energía y <span class="math notranslate nohighlight">\(H&gt;0\)</span>, <span class="math notranslate nohighlight">\(\lambda E&gt;0\)</span> representan flujos desde la superficie hacia la atmósfera. En escalas diarias sobre suelo, <span class="math notranslate nohighlight">\(G\)</span> puede ser pequeño respecto de <span class="math notranslate nohighlight">\(R_n\)</span>; en escalas horarias o sobre lagos profundos no siempre lo es.</p>
+<p>El <strong>calor sensible</strong> cambia la temperatura del aire sin cambiar su fase. El <strong>calor latente</strong> transporta energía asociada con vapor de agua. La partición suele resumirse mediante la razón de Bowen:</p>
+<div class="math notranslate nohighlight">
+\[\beta=\frac{H}{\lambda E},\]</div>
+<p>o mediante la fracción evaporativa:</p>
+<div class="math notranslate nohighlight">
+\[EF=\frac{\lambda E}{R_n-G-S}.\]</div>
+<p>Una superficie húmeda y bien abastecida suele presentar <span class="math notranslate nohighlight">\(EF\)</span> alta y <span class="math notranslate nohighlight">\(\beta\)</span> baja; una superficie seca, lo contrario. La <a class="reference internal" href="#fig-ch08-09"><span class="std std-numref">Figura 8.10</span></a> muestra dos particiones posibles para el mismo <span class="math notranslate nohighlight">\(R_n\)</span>. El ejemplo demuestra que radiación neta es una condición energética, no una predicción única de <span class="math notranslate nohighlight">\(E\)</span>.</p>
+<figure class="align-center" id="id222">
+<span id="fig-ch08-09"></span><a class="reference internal image-reference" href="../_images/ch08-09-particion-energia.jpg"><img alt="../_images/ch08-09-particion-energia.jpg" src="../_images/ch08-09-particion-energia.jpg" style="width: 91%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.10 </span><span class="caption-text">Partición ilustrativa de una misma radiación neta sobre superficies húmeda y seca. Elaboración propia.</span><a class="headerlink" href="#id222" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Si <span class="math notranslate nohighlight">\(R_n-G-S=500\ \mathrm{W\,m^{-2}}\)</span>, una superficie húmeda podría destinar 370 a <span class="math notranslate nohighlight">\(\lambda E\)</span> y 80 a <span class="math notranslate nohighlight">\(H\)</span>; una seca, 120 y 330, respectivamente. Al dividir por <span class="math notranslate nohighlight">\(\lambda_v\)</span>, <span class="math notranslate nohighlight">\(370\ \mathrm{W\,m^{-2}}\)</span> sostenidos una hora equivalen aproximadamente a <span class="math notranslate nohighlight">\(0.54\ \mathrm{mm}\)</span>. Mantener 370 <span class="math notranslate nohighlight">\(\mathrm{W\,m^{-2}}\)</span> durante 24 horas no es realista si el ciclo nocturno no se considera; para acumulaciones diarias debe integrarse el flujo observado a lo largo del tiempo.</p>
+<p>El cierre medido rara vez es perfecto. En torres de covarianza de remolinos es común que <span class="math notranslate nohighlight">\(H+\lambda E\)</span> no iguale exactamente <span class="math notranslate nohighlight">\(R_n-G-S\)</span> por errores instrumentales, falta de representatividad espacial, almacenamiento no medido, advección horizontal o remolinos de baja frecuencia. Forzar el cierre sin documentar el método redistribuye el residuo entre <span class="math notranslate nohighlight">\(H\)</span> y <span class="math notranslate nohighlight">\(\lambda E\)</span> y puede cambiar la estimación de agua.</p>
+</section>
+<section id="resistencias-adveccion-y-retroalimentacion">
+<span id="acoplamiento-adveccion-cap08"></span><h3><span class="section-number">8.4.2. </span>Resistencias, advección y retroalimentación<a class="headerlink" href="#resistencias-adveccion-y-retroalimentacion" title="Link to this heading"></a></h3>
+<p>La superficie y la atmósfera forman un sistema acoplado. La evaporación enfría y humedece la capa límite; al disminuir el déficit de presión de vapor, puede reducir la demanda posterior. Si el suelo se seca, aumenta <span class="math notranslate nohighlight">\(H\)</span>, la superficie se calienta y la capa límite se vuelve más cálida y seca, lo que eleva la demanda potencial aunque el flujo real esté restringido. Esta retroalimentación ayuda a entender por qué evaporación potencial y real no son forzantes independientes.</p>
+<p>La analogía de resistencias separa el transporte atmosférico de la regulación superficial. Una forma general de Penman-Monteith es <span class="bibtex-citation" id="id15">(<a class="reference internal" href="#id175" title="Monteith, J. L. Evaporation and environment. In The State and Movement of Water in Living Organisms, volume 19 of Symposia of the Society for Experimental Biology, pages 205–234. Cambridge University Press, 1965.">Monteith, 1965</a>; <a class="reference internal" href="#id146" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\lambda E=
+\frac{\Delta(R_n-G)+\rho_a c_p\,D/r_a}
+     {\Delta+\gamma\left(1+r_s/r_a\right)},\]</div>
+<p>donde <span class="math notranslate nohighlight">\(\Delta\)</span> es la pendiente de la curva de presión de vapor de saturación, <span class="math notranslate nohighlight">\(D=e_s-e_a\)</span> el déficit de presión de vapor, <span class="math notranslate nohighlight">\(\gamma\)</span> la constante psicrométrica, <span class="math notranslate nohighlight">\(c_p\)</span> el calor específico del aire, <span class="math notranslate nohighlight">\(r_a\)</span> la resistencia aerodinámica y <span class="math notranslate nohighlight">\(r_s\)</span> la resistencia superficial. Para agua libre <span class="math notranslate nohighlight">\(r_s\)</span> se aproxima a cero; para vegetación integra resistencia estomática y estructura del dosel; para suelo seco aumenta al limitarse el transporte interno de agua.</p>
+<p>El primer término del numerador expresa el control radiativo y el segundo el poder secante y turbulento de la atmósfera. La ecuación elimina la necesidad de medir directamente la temperatura superficial idealizada que aparecía en formulaciones puramente aerodinámicas. Su elegancia no elimina las exigencias de datos: una altura incorrecta de viento, una humedad no representativa o una resistencia superficial mal parametrizada pueden dominar el error.</p>
+<p>La <strong>advección</strong> agrega energía horizontal. En la <a class="reference internal" href="#fig-ch08-10"><span class="std std-numref">Figura 8.11</span></a>, aire cálido y seco generado sobre una superficie árida alcanza una parcela húmeda. Allí el calor sensible importado puede transformarse en calor latente, de modo que <span class="math notranslate nohighlight">\(\lambda E\)</span> exceda localmente <span class="math notranslate nohighlight">\(R_n-G\)</span>. No viola conservación de energía: el término faltante es convergencia horizontal de calor. El efecto oasis, bordes de embalses y cultivos irrigados en ambientes secos son ejemplos.</p>
+<figure class="align-center" id="id223">
+<span id="fig-ch08-10"></span><a class="reference internal image-reference" href="../_images/ch08-10-adveccion-acoplamiento.jpg"><img alt="../_images/ch08-10-adveccion-acoplamiento.jpg" src="../_images/ch08-10-adveccion-acoplamiento.jpg" style="width: 95%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.11 </span><span class="caption-text">Transporte advectivo de energía desde una superficie seca hacia una superficie húmeda. Elaboración propia.</span><a class="headerlink" href="#id223" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La escala es crucial. En una hoja, la capa límite y los estomas controlan; en un dosel, rugosidad y área foliar; en una cuenca, mosaicos de cobertura, circulación regional y almacenamiento. Al aumentar el área, parte de la advección entre parches se convierte en intercambio interno y el balance externo cambia. Por eso no se debe extrapolar linealmente una medición de parcela a toda una cuenca heterogénea <span class="bibtex-citation" id="id16">(<a class="reference internal" href="#id144" title="Robinson, M. and Ward, R. Hydrology: Principles and Processes. IWA Publishing, 2017.">Robinson and Ward, 2017</a>; <a class="reference internal" href="#id177" title="Shuttleworth, W. J. and Wallace, J. S. Evaporation from sparse crops–an energy combination theory. Quarterly Journal of the Royal Meteorological Society, 111(469):839–855, 1985. doi:10.1002/qj.49711146910.">Shuttleworth and Wallace, 1985</a>)</span>.</p>
+</section>
+</section>
+<section id="distribucion-temporal-y-espacial">
+<span id="distribucion-evaporacion-cap08"></span><h2><span class="section-number">8.5. </span>Distribución temporal y espacial<a class="headerlink" href="#distribucion-temporal-y-espacial" title="Link to this heading"></a></h2>
+<section id="ciclos-diurno-estacional-e-interanual">
+<span id="ciclos-temporales-evaporacion-cap08"></span><h3><span class="section-number">8.5.1. </span>Ciclos diurno, estacional e interanual<a class="headerlink" href="#ciclos-diurno-estacional-e-interanual" title="Link to this heading"></a></h3>
+<p>En un día despejado, la onda corta aumenta tras el amanecer, alcanza un máximo alrededor del mediodía solar y cae al atardecer. La temperatura superficial, <span class="math notranslate nohighlight">\(H\)</span> y <span class="math notranslate nohighlight">\(\lambda E\)</span> responden con desfases determinados por almacenamiento y resistencias. Durante la noche <span class="math notranslate nohighlight">\(R_n\)</span> suele ser negativo; la evaporación puede continuar si el agua almacena calor o si existe turbulencia y aire seco, pero generalmente a una tasa menor. En condiciones de rocío, el flujo de vapor puede invertirse y <span class="math notranslate nohighlight">\(E\)</span> ser negativo con la convención adoptada.</p>
+<p>La <a class="reference internal" href="#fig-ch08-11"><span class="std std-numref">Figura 8.12</span></a> compara el ciclo horario con un ciclo anual conceptual. La estacionalidad aumenta hacia latitudes medias porque cambian altura solar y duración del día. En Chile central, la demanda energética es alta en verano, precisamente cuando la precipitación es baja; en zonas con lluvia estival, agua y energía pueden coincidir. Los <a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html#regimenes-hidrologicos"><span class="std std-ref">Regímenes hidrológicos</span></a> integran este calendario con nieve, almacenamiento y escorrentía.</p>
+<figure class="align-center" id="id224">
+<span id="fig-ch08-11"></span><a class="reference internal image-reference" href="../_images/ch08-11-ciclos-temporales.png"><img alt="../_images/ch08-11-ciclos-temporales.png" src="../_images/ch08-11-ciclos-temporales.png" style="width: 97%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.12 </span><span class="caption-text">Ciclos conceptuales diario de flujos energéticos y estacional de demanda evaporativa en dos latitudes del hemisferio sur. Elaboración propia.</span><a class="headerlink" href="#id224" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>En escala interanual, evaporación responde a anomalías de radiación, precipitación, humedad, viento, vegetación y reservas. Un año cálido puede aumentar ET en una región húmeda y reducirla en una región donde el suelo se agota antes. La variabilidad atmosférica de gran escala presentada en <a class="reference internal" href="05-Capitulo05-CirculacionAtmosferica_y_VientosGlobales.html#oscilaciones-climaticas"><span class="std std-ref">Oscilaciones climáticas de gran escala</span></a> puede cambiar nubosidad, secuencias de lluvia y advección, alterando tanto oferta de agua como energía.</p>
+<p>La agregación temporal suaviza mecanismos. El promedio mensual puede ocultar pulsos de evaporación de intercepción después de cada tormenta; el promedio anual puede ocultar un desfase de seis meses entre lluvia y energía. Para modelos diarios se necesita almacenamiento explícito; para Budyko de largo plazo puede ser razonable despreciar el cambio neto de almacenamiento, pero no sin verificarlo.</p>
+<p>Una práctica recomendable es separar <strong>estado</strong> y <strong>flujo</strong>. Humedad del suelo, nieve y nivel de embalse son estados; evaporación, precipitación y caudal son flujos. Integrar un flujo en el tiempo produce volumen o lámina. Restar estados sin considerar su fecha produce balances falsos. Esta distinción retoma las leyes de conservación de <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#conservacion-atmosferica"><span class="std std-ref">Leyes de conservación que rigen el movimiento atmosférico</span></a> y las aplica al control superficial.</p>
+</section>
+<section id="latitud-topografia-cobertura-y-agua-disponible">
+<span id="controles-espaciales-evaporacion-cap08"></span><h3><span class="section-number">8.5.2. </span>Latitud, topografía, cobertura y agua disponible<a class="headerlink" href="#latitud-topografia-cobertura-y-agua-disponible" title="Link to this heading"></a></h3>
+<p>Los patrones espaciales surgen de cadenas causales. La latitud y la estación controlan <span class="math notranslate nohighlight">\(R_a\)</span>; nubes y aerosoles controlan transmisión; albedo y temperatura superficial controlan radiación neta; viento, rugosidad y humedad controlan transporte; suelo, raíces y cuerpos de agua controlan suministro. La <a class="reference internal" href="#fig-ch08-12"><span class="std std-numref">Figura 8.13</span></a> ordena esos vínculos y muestra por qué un mismo factor puede actuar en varias rutas.</p>
+<figure class="align-center" id="id225">
+<span id="fig-ch08-12"></span><a class="reference internal image-reference" href="../_images/ch08-12-controles-espaciales.png"><img alt="../_images/ch08-12-controles-espaciales.png" src="../_images/ch08-12-controles-espaciales.png" style="width: 96%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.13 </span><span class="caption-text">Signo conceptual de los principales vínculos entre factores geográficos y controles de evaporación. Elaboración propia.</span><a class="headerlink" href="#id225" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La <strong>altitud</strong> puede aumentar la radiación solar recibida por menor masa atmosférica, pero también reducir temperatura y presión de vapor de saturación; además suele modificar viento, nubosidad, nieve y vegetación. La <strong>orientación</strong> de laderas controla irradiación y deshielo; el relieve también canaliza el viento y genera sombras. Estas interacciones fueron introducidas en <a class="reference internal" href="05-Capitulo05-CirculacionAtmosferica_y_VientosGlobales.html#influencia-topografia"><span class="std std-ref">Influencia de la topografía</span></a> y se aplican aquí a energía y transporte.</p>
+<p>La <strong>cobertura</strong> cambia albedo, rugosidad, resistencia superficial y acceso al agua. Un bosque puede transpirar agua desde mayor profundidad, interceptar lluvia y mantener una capa límite distinta de un pastizal. No se sigue que todo bosque evapore siempre más: clima, especie, edad, manejo, agua del suelo y escala determinan el resultado. Un área urbana reemplaza suelo y vegetación por superficies impermeables que almacenan calor; puede reducir transpiración local y aumentar temperatura, pero riego urbano y pérdidas de redes complican el balance.</p>
+<p>El <strong>suelo</strong> controla infiltración, almacenamiento y ascenso capilar. Después de mojarse, la evaporación de suelo puede ocurrir cerca de la tasa potencial; al secarse la capa superficial, el transporte interno pasa a limitar y la tasa declina. Textura, estructura, profundidad y cobertura de residuos modifican la duración de ambas etapas. En zonas salinas, la menor actividad del agua y la formación de costras agregan resistencias.</p>
+<p>Los <strong>cuerpos de agua</strong> aseguran suministro superficial, pero su profundidad y mezcla almacenan energía. Un lago puede evaporar intensamente después del máximo de radiación estacional porque libera calor acumulado. Un embalse estrecho recibe advección de sus bordes; uno grande modifica la capa límite. En nieve y glaciares, el albedo, la energía de fusión y la sublimación introducen controles diferentes. Por ello, un único mapa de ET no debe interpretarse como si todos los píxeles representaran el mismo proceso.</p>
+</section>
+<section id="demanda-atmosferica-sequia-y-cambio-climatico">
+<span id="cambio-climatico-evaporacion-cap08"></span><h3><span class="section-number">8.5.3. </span>Demanda atmosférica, sequía y cambio climático<a class="headerlink" href="#demanda-atmosferica-sequia-y-cambio-climatico" title="Link to this heading"></a></h3>
+<p>El calentamiento aumenta la presión de vapor de saturación de acuerdo con <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#clausius-clapeyron"><span class="std std-ref">Humedad atmosférica y ley de Clausius-Clapeyron</span></a>. Si la humedad real no aumenta en la misma proporción, crece el déficit de presión de vapor y la demanda atmosférica. También pueden cambiar radiación, viento, nubosidad, precipitación, nieve, vegetación y concentración de CO₂. El efecto neto sobre evaporación real es regional y dependiente del agua disponible <span class="bibtex-citation" id="id17">(<a class="reference internal" href="#id141" title="Masson-Delmotte, V., Zhai, P., Pirani, A., and others, editors. Climate Change 2021: The Physical Science Basis. Cambridge University Press, Cambridge and New York, 2021. doi:10.1017/9781009157896.">Masson-Delmotte <em>et al.</em>, 2021</a>)</span>.</p>
+<p>La <a class="reference internal" href="#fig-ch08-13"><span class="std std-numref">Figura 8.14</span></a> distingue tres curvas. La demanda potencial aumenta con déficit de presión de vapor. Una superficie húmeda puede responder con mayor flujo. Un suelo que se seca puede alcanzar un máximo y luego disminuir porque raíces y estomas limitan. Esta divergencia es central para interpretar sequías: una atmósfera más demandante agrava el estrés aunque la ET observada termine bajando.</p>
+<figure class="align-center" id="id226">
+<span id="fig-ch08-13"></span><a class="reference internal image-reference" href="../_images/ch08-13-cambio-climatico.png"><img alt="../_images/ch08-13-cambio-climatico.png" src="../_images/ch08-13-cambio-climatico.png" style="width: 92%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.14 </span><span class="caption-text">Respuestas conceptuales de demanda atmosférica y evaporación real al déficit de presión de vapor. Elaboración propia.</span><a class="headerlink" href="#id226" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>El concepto de <strong>aridez</strong> requiere especificar índice y período. La razón <span class="math notranslate nohighlight">\(ET_0/P\)</span> compara demanda y oferta climática; humedad del suelo incorpora almacenamiento; déficit de precipitación describe sólo entrada; y un índice basado en temperatura puede exagerar cambios si no representa radiación, viento y humedad. El <a class="reference internal" href="06-Capitulo06-ClasificacionClimatica.html#climograma-cap06"><span class="std std-ref">El climograma: síntesis visual del clima</span></a> ayuda a visualizar la estacionalidad conjunta de temperatura y precipitación, pero no reemplaza el balance de energía.</p>
+<p>El aumento de CO₂ puede mejorar eficiencia de uso de agua y reducir conductancia estomática en ciertas plantas, mientras el calentamiento y una estación de crecimiento más larga pueden aumentar demanda. Cambios de cobertura, incendios, riego y extracción de agua se superponen al forzamiento climático. Por ello, atribuir un cambio de caudal exclusivamente a temperatura a partir de una fórmula empírica de ET potencial es insuficiente.</p>
+<p>Para diseño y gestión se recomienda trabajar con escenarios de <strong>P, radiación, humedad y viento</strong>, además de temperatura; comparar más de una formulación de demanda; y propagar diferencias hacia balance hídrico. La incertidumbre de ET real debe comunicarse separando forzantes, parámetros, estructura del método y observaciones de validación.</p>
+</section>
+</section>
+<section id="medicion-y-estimacion-de-la-evaporacion">
+<span id="medicion-estimacion-cap08"></span><h2><span class="section-number">8.6. </span>Medición y estimación de la evaporación<a class="headerlink" href="#medicion-y-estimacion-de-la-evaporacion" title="Link to this heading"></a></h2>
+<section id="instrumentos-directos-y-soporte-espacial">
+<span id="escalas-medicion-cap08"></span><h3><span class="section-number">8.6.1. </span>Instrumentos directos y soporte espacial<a class="headerlink" href="#instrumentos-directos-y-soporte-espacial" title="Link to this heading"></a></h3>
+<p>No existe un instrumento único que mida la evaporación de una cuenca completa. Cada técnica integra un soporte. Un <strong>lisímetro</strong> mide cambios de masa o balance de agua en un volumen de suelo con vegetación; una <strong>bandeja</strong> mide pérdida de agua desde un recipiente; covarianza de remolinos estima flujos turbulentos sobre una huella variable; un balance de cuenca infiere el residuo espacial; y sensores remotos observan variables radiativas o térmicas desde las que se estima el flujo.</p>
+<p>La <a class="reference internal" href="#fig-ch08-14"><span class="std std-numref">Figura 8.15</span></a> muestra órdenes de magnitud. Los rangos se superponen y dependen de instalación, altura, viento, resolución y heterogeneidad. La comparación correcta no enfrenta valores puntuales con píxeles o cuencas sin agregación espacial y temporal compatible.</p>
+<figure class="align-center" id="id227">
+<span id="fig-ch08-14"></span><a class="reference internal image-reference" href="../_images/ch08-14-escalas-medicion.jpg"><img alt="../_images/ch08-14-escalas-medicion.jpg" src="../_images/ch08-14-escalas-medicion.jpg" style="width: 96%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.15 </span><span class="caption-text">Escalas espaciales características de métodos de medición o inferencia de evaporación. Son órdenes de magnitud orientativos. Elaboración propia.</span><a class="headerlink" href="#id227" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Las <strong>bandejas de evaporación</strong> son simples, pero no reproducen un lago: sus paredes intercambian calor, la profundidad es pequeña y el agua responde rápidamente. Se usa <span class="math notranslate nohighlight">\(E_{lago}=K_pE_{pan}\)</span>, con un coeficiente que varía con clima, viento, exposición y tipo de bandeja. Un valor cercano a 0.7 puede servir como primera aproximación, nunca como constante universal. La WMO recomienda la bandeja Clase A como referencia operacional y especifica emplazamiento, medición de nivel, lluvia y variables meteorológicas <span class="bibtex-citation" id="id18">(<a class="reference internal" href="#id146" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>)</span>.</p>
+<p>Los <strong>lisímetros</strong> de pesada permiten alta precisión y son valiosos para cultivos, pero son caros y pueden sufrir efecto de borde o diferencias respecto del suelo circundante. Los lisímetros de drenaje cierran entradas, salidas y almacenamiento en períodos más largos. En ambos casos, la vegetación y el perfil deben representar el entorno. Para un volumen de control sin escorrentía lateral, el balance básico es:</p>
+<div class="math notranslate nohighlight">
+\[ET=P+I-D-\Delta S,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(I\)</span> es riego, <span class="math notranslate nohighlight">\(D\)</span> drenaje profundo y <span class="math notranslate nohighlight">\(\Delta S\)</span> cambio de agua almacenada. Un lisímetro de pesada obtiene <span class="math notranslate nohighlight">\(\Delta S\)</span> desde masa; uno de drenaje necesita medir o estimar el almacenamiento. La ecuación muestra por qué llamarlo medición <em>directa</em> no elimina la necesidad de controlar precipitación, riego, drenaje, condensación y representatividad.</p>
+<p>La <strong>covarianza de remolinos</strong> calcula el flujo turbulento a partir de la covarianza entre fluctuaciones de velocidad vertical y vapor de agua. Entrega series subhorarias sobre una huella que cambia con estabilidad y viento. Requiere correcciones, control de calidad, llenado de vacíos y evaluación del cierre de energía <span class="bibtex-citation" id="id19">(<a class="reference internal" href="#id180" title="Baldocchi, D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems: past, present and future. Global Change Biology, 9(4):479–492, 2003. doi:10.1046/j.1365-2486.2003.00629.x.">Baldocchi, 2003</a>)</span>. Cámaras y flujo de savia separan componentes o individuos, pero necesitan escalamiento. Un centelleómetro integra turbulencia sobre trayectorias de cientos de metros a kilómetros y puede inferir <span class="math notranslate nohighlight">\(H\)</span>, dejando <span class="math notranslate nohighlight">\(\lambda E\)</span> como residuo del balance.</p>
+</section>
+<section id="metodos-de-energia-aerodinamicos-y-de-combinacion">
+<span id="metodos-combinacion-cap08"></span><h3><span class="section-number">8.6.2. </span>Métodos de energía, aerodinámicos y de combinación<a class="headerlink" href="#metodos-de-energia-aerodinamicos-y-de-combinacion" title="Link to this heading"></a></h3>
+<p>Los métodos energéticos convierten energía disponible en evaporación; los aerodinámicos usan gradientes de humedad y transporte; los métodos de combinación integran ambos. Penman mostró que era posible estimar evaporación sin conocer explícitamente la temperatura superficial combinando balance de energía y difusión turbulenta <span class="bibtex-citation" id="id20">(<a class="reference internal" href="#id174" title="Penman, H. L. Natural evaporation from open water, bare soil and grass. Proceedings of the Royal Society of London. Series A, 193(1032):120–145, 1948. doi:10.1098/rspa.1948.0037.">Penman, 1948</a>)</span>. Monteith incorporó resistencias de superficie y atmósfera para vegetación <span class="bibtex-citation" id="id21">(<a class="reference internal" href="#id175" title="Monteith, J. L. Evaporation and environment. In The State and Movement of Water in Living Organisms, volume 19 of Symposia of the Society for Experimental Biology, pages 205–234. Cambridge University Press, 1965.">Monteith, 1965</a>)</span>.</p>
+<p>La ecuación diaria FAO Penman-Monteith para una superficie de referencia es <span class="bibtex-citation" id="id22">(<a class="reference internal" href="#id172" title="Allen, R. G., Pereira, L. S., Raes, D., and Smith, M. Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements. Number 56 in FAO Irrigation and Drainage Paper. Food and Agriculture Organization of the United Nations, Rome, 1998. ISBN 9251042195.">Allen <em>et al.</em>, 1998</a>)</span>:</p>
+<div class="math notranslate nohighlight">
+\[ET_0=\frac{0.408\Delta(R_n-G)+
+\gamma\frac{900}{T+273}u_2(e_s-e_a)}
+{\Delta+\gamma(1+0.34u_2)},\]</div>
+<p>donde <span class="math notranslate nohighlight">\(ET_0\)</span> está en mm por día, <span class="math notranslate nohighlight">\(R_n\)</span> y <span class="math notranslate nohighlight">\(G\)</span> en MJ por metro cuadrado y día, <span class="math notranslate nohighlight">\(T\)</span> en °C, <span class="math notranslate nohighlight">\(u_2\)</span> es viento a 2 m y <span class="math notranslate nohighlight">\(e_s-e_a\)</span> en kPa. La superficie de referencia es un cultivo hipotético corto, bien regado y con características normalizadas. Por tanto, <span class="math notranslate nohighlight">\(ET_0\)</span> es una demanda de referencia, no ET real de cualquier cobertura.</p>
+<p>Conviene separar cuatro magnitudes que suelen confundirse:</p>
+<ul class="simple">
+<li><p><strong>ET potencial, ETP:</strong> tasa que podría sostener una superficie idealmente abastecida bajo la meteorología considerada; su definición depende del método y de la superficie implícita.</p></li>
+<li><p><strong>ET de referencia,</strong> <span class="math notranslate nohighlight">\(ET_0\)</span>: demanda sobre la superficie estandarizada de FAO, calculada para comparar clima y transferir coeficientes.</p></li>
+<li><p><strong>ET de cultivo,</strong> <span class="math notranslate nohighlight">\(ET_c=K_cET_0\)</span>: demanda de un cultivo sano en condiciones estándar; <span class="math notranslate nohighlight">\(K_c\)</span> representa desarrollo, arquitectura y fracción de suelo expuesto.</p></li>
+<li><p><strong>ET real o ajustada:</strong> flujo bajo las condiciones efectivas de agua y manejo. En riego suele aproximarse como <span class="math notranslate nohighlight">\(ET_{c,adj}=K_sK_cET_0\)</span>, con <span class="math notranslate nohighlight">\(0\leq K_s\leq1\)</span> como coeficiente de estrés hídrico <span class="bibtex-citation" id="id23">(<a class="reference internal" href="#id172" title="Allen, R. G., Pereira, L. S., Raes, D., and Smith, M. Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements. Number 56 in FAO Irrigation and Drainage Paper. Food and Agriculture Organization of the United Nations, Rome, 1998. ISBN 9251042195.">Allen <em>et al.</em>, 1998</a>)</span>.</p></li>
+</ul>
+<p>La desigualdad <span class="math notranslate nohighlight">\(ET_{real}\leq ETP\)</span> es una guía útil cuando ambas variables describen la misma superficie, intervalo y definición. No debe aplicarse comparando, por ejemplo, ET real de una cuenca irrigada con <span class="math notranslate nohighlight">\(ET_0\)</span> de una estación distante, ni ignorando advección o agua importada. El subíndice es parte del significado físico, no una decoración de la variable.</p>
+<p>La <a class="reference internal" href="#fig-ch08-15"><span class="std std-numref">Figura 8.16</span></a> separa los términos. La contribución radiativa aumenta con <span class="math notranslate nohighlight">\(R_n-G\)</span>; la aerodinámica aumenta con déficit de presión de vapor y viento. Si faltan humedad o viento, una fórmula basada sólo en temperatura puede reproducir climatología local pero perder eventos, cambios de circulación o comparabilidad entre regiones.</p>
+<figure class="align-center" id="id228">
+<span id="fig-ch08-15"></span><a class="reference internal image-reference" href="../_images/ch08-15-penman-monteith.jpg"><img alt="../_images/ch08-15-penman-monteith.jpg" src="../_images/ch08-15-penman-monteith.jpg" style="width: 97%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.16 </span><span class="caption-text">Sensibilidad de los términos radiativo y aerodinámico en una formulación tipo FAO Penman-Monteith. Elaboración propia.</span><a class="headerlink" href="#id228" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Para superficies extensas y húmedas con advección limitada, Priestley-Taylor aproxima:</p>
+<div class="math notranslate nohighlight">
+\[\lambda E=\alpha_{PT}\frac{\Delta}{\Delta+\gamma}(R_n-G),\]</div>
+<p>con <span class="math notranslate nohighlight">\(\alpha_{PT}\approx1.26\)</span> como valor clásico <span class="bibtex-citation" id="id24">(<a class="reference internal" href="#id176" title="Priestley, C. H. B. and Taylor, R. J. On the assessment of surface heat flux and evaporation using large-scale parameters. Monthly Weather Review, 100(2):81–92, 1972. doi:10.1175/1520-0493(1972)100&lt;0081:OTAOSH&gt;2.3.CO;2.">Priestley and Taylor, 1972</a>)</span>. Su simplicidad no autoriza aplicarla a superficies secas o fuertemente advectadas sin evaluación. Para vegetación dispersa, el modelo Shuttleworth-Wallace separa suelo y dosel y combina redes de resistencias <span class="bibtex-citation" id="id25">(<a class="reference internal" href="#id177" title="Shuttleworth, W. J. and Wallace, J. S. Evaporation from sparse crops–an energy combination theory. Quarterly Journal of the Royal Meteorological Society, 111(469):839–855, 1985. doi:10.1002/qj.49711146910.">Shuttleworth and Wallace, 1985</a>)</span>.</p>
+<p>Los métodos empíricos reducen los requerimientos de datos, pero sus unidades y escala temporal deben respetarse literalmente. Una forma diaria de <strong>Turc</strong> combina temperatura, radiación y humedad relativa:</p>
+<div class="math notranslate nohighlight">
+\[ETP=0.013\frac{T}{T+15}(R_s+50)
+\left[1+\frac{65-HR}{120}\right],\]</div>
+<p>con <span class="math notranslate nohighlight">\(R_s\)</span> en <span class="math notranslate nohighlight">\(\mathrm{cal\,cm^{-2}\,d^{-1}}\)</span> en esta versión y <span class="math notranslate nohighlight">\(HR\)</span> en porcentaje; existen variantes para condiciones húmedas y otras unidades <span class="bibtex-citation" id="id26">(<a class="reference internal" href="#id197" title="Turc, L. Evaluation des besoins en eau d'irrigation, evapotranspiration potentielle. Annales Agronomiques, 12:13–49, 1961.">Turc, 1961</a>)</span>. La ecuación no debe recibir directamente radiación en MJ sin convertir coeficientes.</p>
+<p><strong>Thornthwaite</strong> usa temperatura media mensual y duración astronómica del día:</p>
+<div class="math notranslate nohighlight">
+\[ETP_m=16\left(\frac{N}{12}\right)\left(\frac{d}{30}\right)
+\left(\frac{10T_m}{I}\right)^a,\]</div>
+<div class="math notranslate nohighlight">
+\[I=\sum_{m=1}^{12}\left(\frac{T_m}{5}\right)^{1.514},\qquad
+a=6.75\times10^{-7}I^3-7.71\times10^{-5}I^2+1.792\times10^{-2}I+0.49239,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(N\)</span> es la duración máxima media del día, <span class="math notranslate nohighlight">\(d\)</span> los días del mes y el índice térmico se calcula con meses de <span class="math notranslate nohighlight">\(T_m&gt;0\)</span>; para meses más fríos se toma nula la contribución térmica <span class="bibtex-citation" id="id27">(<a class="reference internal" href="#id196" title="Thornthwaite, C. W. An approach toward a rational classification of climate. Geographical Review, 38(1):55–94, 1948. doi:10.2307/210739.">Thornthwaite, 1948</a>)</span>. Como no usa humedad, viento ni radiación observada, puede producir sesgos importantes fuera del clima donde temperatura y energía covarían de manera semejante.</p>
+<p><strong>Hargreaves-Samani</strong> introduce radiación extraterrestre y amplitud térmica diaria:</p>
+<div class="math notranslate nohighlight">
+\[ET_0=0.0023\,R_a(T_{med}+17.8)\sqrt{T_{max}-T_{min}},\]</div>
+<p>con <span class="math notranslate nohighlight">\(R_a\)</span> expresada como lámina equivalente de agua <span class="bibtex-citation" id="id28">(<a class="reference internal" href="#id178" title="Hargreaves, G. H. and Samani, Z. A. Reference crop evapotranspiration from temperature. Applied Engineering in Agriculture, 1(2):96–99, 1985. doi:10.13031/2013.26773.">Hargreaves and Samani, 1985</a>)</span>. Es útil cuando sólo existen temperaturas máxima y mínima, pero la amplitud térmica también responde a nubosidad, humedad, advección y continentalidad. Turc, Thornthwaite y Hargreaves-Samani deben calibrarse o contrastarse con Penman-Monteith antes de transferirse entre la costa, el valle central, la cordillera o la Patagonia. Su parsimonia es una ventaja operacional y una limitación física: la temperatura o amplitud térmica funcionan como <em>proxies</em>, no como causas únicas de evaporación.</p>
+</section>
+<section id="productos-globales-de-evaporacion">
+<span id="productos-globales-cap08"></span><h3><span class="section-number">8.6.3. </span>Productos globales de evaporación<a class="headerlink" href="#productos-globales-de-evaporacion" title="Link to this heading"></a></h3>
+<p>Los conjuntos globales permiten describir patrones espaciales, completar regiones sin observaciones y aportar una variable de contraste para balances o modelos hidrológicos. Sin embargo, <strong>ningún satélite mide directamente la evaporación</strong>. Los sensores observan temperatura superficial, radiancias, albedo, humedad del suelo, nieve o vegetación; luego un algoritmo combina esas observaciones con meteorología y parámetros de superficie. Los reanálisis tampoco son observaciones directas: calculan los flujos con un modelo de superficie forzado por un estado atmosférico asimilado. Finalmente, los productos empíricos aprenden relaciones a partir de torres de flujo y las extrapolan con predictores satelitales o meteorológicos. Esta distinción explica por qué productos igualmente plausibles pueden diferir en magnitud, estacionalidad y tendencia <span class="bibtex-citation" id="id29">(<a class="reference internal" href="#id205" title="Baris, M. and Tombul, M. A review on models, products and techniques for evapotranspiration measurement, estimation, and validation. Environmental Quality Management, 34(1):e22250, 2024. doi:10.1002/tqem.22250.">Baris and Tombul, 2024</a>; <a class="reference internal" href="#id204" title="Kalma, J. D., McVicar, T. R., and McCabe, M. F. Estimating land surface evaporation: a review of methods using remotely sensed surface temperature data. Surveys in Geophysics, 29(4–5):421–469, 2008. doi:10.1007/s10712-008-9037-z.">Kalma <em>et al.</em>, 2008</a>; <a class="reference internal" href="#id203" title="Wang, K. and Dickinson, R. E. A review of global terrestrial evapotranspiration: observation, modeling, climatology, and climatic variability. Reviews of Geophysics, 50(2):RG2005, 2012. doi:10.1029/2011RG000373.">Wang and Dickinson, 2012</a>)</span>.</p>
+<p>Una clasificación útil separa productos <strong>diagnósticos</strong>, que infieren el flujo a partir del estado instantáneo de la superficie –por ejemplo, temperatura radiométrica o verdor–, de productos <strong>pronósticos</strong>, que actualizan reservas de agua y calculan la evaporación como resultado de un modelo. GLEAM es un híbrido orientado específicamente a evaporación, mientras ERA5-Land, MERRA-2 y GLDAS producen el flujo dentro de un sistema de superficie terrestre más amplio. FLUXCOM representa otra familia: extrapola observaciones de covarianza de remolinos mediante aprendizaje automático. La resolución del píxel no identifica por sí sola la escala efectiva, pues una imagen de 500 m puede estar condicionada por forzantes meteorológicas mucho más gruesas <span class="bibtex-citation" id="id30">(<a class="reference internal" href="#id202" title="Dembélé, M., Ceperley, N., Zwart, S. J., Salvadore, E., Mariethoz, G., and Schaefli, B. Potential of satellite and reanalysis evaporation datasets for hydrological modelling under various model calibration strategies. Advances in Water Resources, 143:103667, 2020. doi:10.1016/j.advwatres.2020.103667.">Dembélé <em>et al.</em>, 2020</a>)</span>.</p>
+<p>La <a class="reference internal" href="#tab-ch08-productos-et-global"><span class="std std-numref">Tabla 8.1</span></a> resume productos de acceso abierto o ampliamente accesibles con cobertura global o casi global. Las fechas y resoluciones corresponden a las versiones citadas; los portales pueden extender el período o reemplazar una colección. Por ello, todo análisis reproducible debe registrar nombre completo, versión, fecha de descarga, variable, unidades y controles de calidad.</p>
+<span id="tab-ch08-productos-et-global"></span><table class="longtable docutils align-center" id="id229">
+<caption><span class="caption-number">Tabla 8.1 </span><span class="caption-text">Principales conjuntos de datos globales o casi globales para estimar evaporación terrestre.</span><a class="headerlink" href="#id229" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 15.0%" />
+<col style="width: 17.0%" />
+<col style="width: 20.0%" />
+<col style="width: 23.0%" />
+<col style="width: 25.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Producto</p></th>
+<th class="head"><p>Familia y fundamento</p></th>
+<th class="head"><p>Resolución y período nominal</p></th>
+<th class="head"><p>Variables útiles</p></th>
+<th class="head"><p>Uso hidrológico y precaución principal</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>GLEAM4</strong></p></td>
+<td><p>Modelo híbrido basado en Priestley-Taylor, balance de agua y observaciones satelitales; el estrés evaporativo se aprende de torres y flujo de savia.</p></td>
+<td><p>0.1°, diaria; 1980–2023 en la versión descrita y actualización cercana al presente.</p></td>
+<td><p>Evaporación total; transpiración; intercepción; evaporación de suelo, agua y nieve; humedad del suelo; evaporación potencial y estrés.</p></td>
+<td><p>Adecuado para partición y sequías. Sus componentes siguen siendo resultados de modelo y comparten forzantes <span class="bibtex-citation" id="id31">(<a class="reference internal" href="#id200" title="Miralles, D. G., Bonte, O., Koppa, A., Baez-Villanueva, O. M., Tronquo, E., Zhong, F., Beck, H. E., Hulsman, P., Dorigo, W., Verhoest, N. E. C., and Haghdoost, S. GLEAM4: global land evaporation and soil moisture dataset at 0.1 degree resolution from 1980 to near present. Scientific Data, 12:416, 2025. doi:10.1038/s41597-025-04610-y.">Miralles <em>et al.</em>, 2025</a>)</span>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>MOD16 v6.1</strong></p></td>
+<td><p>Colecciones MOD16A2GF y MOD16A3GF; Penman-Monteith con vegetación, albedo y cobertura MODIS más meteorología de reanálisis.</p></td>
+<td><p>500 m; 8 días y anual; era MODIS desde 2000, con colección operacional y colección rellenada al cierre de cada año.</p></td>
+<td><p>ET, flujo de calor latente, ET potencial, flujo latente potencial y banderas de calidad.</p></td>
+<td><p>Útil para heterogeneidad de cobertura. La resolución nominal no elimina dependencia de meteorología gruesa, nubes ni clasificación del terreno <span class="bibtex-citation" id="id32">(<a class="reference internal" href="#id206" title="Mu, Q., Zhao, M., and Running, S. W. Improvements to a MODIS global terrestrial evapotranspiration algorithm. Remote Sensing of Environment, 115(8):1781–1800, 2011. doi:10.1016/j.rse.2011.02.019.">Mu <em>et al.</em>, 2011</a>)</span>.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>PML-V2</strong></p></td>
+<td><p>Penman-Monteith-Leuning acoplado con productividad primaria bruta y conductancia del dosel.</p></td>
+<td><p>500 m, 8 días; julio de 2002–2017 en el producto original.</p></td>
+<td><p>ET total; transpiración; evaporación de suelo e intercepción; productividad primaria bruta.</p></td>
+<td><p>Conveniente para estudiar acoplamiento agua-carbono. Su serie original es más corta que los reanálisis y depende de MODIS y GLDAS <span class="bibtex-citation" id="id33">(<a class="reference internal" href="#id207" title="Zhang, Y., Kong, D., Gan, R., Chiew, F. H. S., McVicar, T. R., Zhang, Q., and Yang, Y. Coupled estimation of 500 m and 8-day resolution global evapotranspiration and gross primary production in 2002–2017. Remote Sensing of Environment, 222:165–182, 2019. doi:10.1016/j.rse.2018.12.031.">Zhang <em>et al.</em>, 2019</a>)</span>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>SSEBop global</strong></p></td>
+<td><p>Balance energético diagnóstico basado en temperatura superficial y límites térmicos <code class="docutils literal notranslate"><span class="pre">frío</span></code> y <code class="docutils literal notranslate"><span class="pre">caliente</span></code>, escalado por ET de referencia.</p></td>
+<td><p>1 km; decádica, mensual, estacional y anual; desde 2012 en la versión operacional global v6.</p></td>
+<td><p>ET real y anomalías.</p></td>
+<td><p>Útil para seguimiento de sequía y consumo agrícola. La nubosidad, la calidad de temperatura superficial y la ET de referencia controlan el resultado <span class="bibtex-citation" id="id34">(<a class="reference internal" href="#id212" title="Senay, G. B., Bohms, S., Singh, R. K., Gowda, P. H., Velpuri, N. M., Alemu, H., and Verdin, J. P. Operational evapotranspiration mapping using remote sensing and weather datasets: a new parameterization for the SSEB approach. Journal of the American Water Resources Association, 49(3):577–591, 2013. doi:10.1111/jawr.12057.">Senay <em>et al.</em>, 2013</a>)</span>.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>FLUXCOM</strong></p></td>
+<td><p>Aprendizaje automático que escala torres FLUXNET con sensores remotos y, según la configuración, meteorología.</p></td>
+<td><p>RS: 0.0833°, 8 días, 2001–2015; RS+METEO: 0.5°, diaria y período dependiente del forzante desde aproximadamente 1980.</p></td>
+<td><p>Radiación neta, calor latente y sensible, miembros y dispersión del ensamble.</p></td>
+<td><p>Valioso para contrastar energía y explorar incertidumbre estructural. Hereda la distribución desigual de torres y el problema de cierre energético <span class="bibtex-citation" id="id35">(<a class="reference internal" href="#id208" title="Jung, M., Koirala, S., Weber, U., Ichii, K., Gans, F., Camps-Valls, G., Papale, D., Schwalm, C., Tramontana, G., Reichstein, M., and others. The FLUXCOM ensemble of global land-atmosphere energy fluxes. Scientific Data, 6:74, 2019. doi:10.1038/s41597-019-0076-8.">Jung <em>et al.</em>, 2019</a>)</span>.</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>ERA5-Land / MERRA-2 / GLDAS-2.x</strong></p></td>
+<td><p>Reanálisis o asimilación terrestre; la evaporación surge del balance de agua y energía del modelo de superficie.</p></td>
+<td><p>ERA5-Land: 0.1°, horaria, 1950–presente; MERRA-2: 0.5° × 0.625°, horaria, 1980–presente; GLDAS-2.x: 0.25°, 3 horas y período dependiente de la versión.</p></td>
+<td><p>ET total o calor latente, componentes de superficie, humedad del suelo, nieve y numerosas forzantes coherentes.</p></td>
+<td><p>Series continuas y convenientes para modelación. No son una validación independiente cuando el modelo usa el mismo forzante; revisar signo y acumulación <span class="bibtex-citation" id="id36">(<a class="reference internal" href="#id210" title="Gelaro, R., McCarty, W., Suárez, M. J., Todling, R., Molod, A., Takacs, L., Randles, C. A., Darmenov, A., Bosilovich, M. G., Reichle, R., and others. The modern-era retrospective analysis for research and applications, version 2 (MERRA-2). Journal of Climate, 30(14):5419–5454, 2017. doi:10.1175/JCLI-D-16-0758.1.">Gelaro <em>et al.</em>, 2017</a>; <a class="reference internal" href="#id209" title="Muñoz-Sabater, J., Dutra, E., Agustí-Panareda, A., Albergel, C., Arduini, G., Balsamo, G., Boussetta, S., Choulga, M., Harrigan, S., Hersbach, H., and others. ERA5-Land: a state-of-the-art global reanalysis dataset for land applications. Earth System Science Data, 13(9):4349–4383, 2021. doi:10.5194/essd-13-4349-2021.">Muñoz-Sabater <em>et al.</em>, 2021</a>; <a class="reference internal" href="#id211" title="Rodell, M., Houser, P. R., Jambor, U., Gottschalck, J., Mitchell, K., Meng, C.-J., Arsenault, K., Cosgrove, B., Radakovich, J., Bosilovich, M., and others. The global land data assimilation system. Bulletin of the American Meteorological Society, 85(3):381–394, 2004. doi:10.1175/BAMS-85-3-381.">Rodell <em>et al.</em>, 2004</a>)</span>.</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>ET armonizada REA</strong></p></td>
+<td><p>Ensamble por promedio de fiabilidad de ERA5, MERRA-2 y GLDAS-2, usando GLEAM y torres como referencias.</p></td>
+<td><p>0.25°, diaria; 1980–2017.</p></td>
+<td><p>Evaporación terrestre total y medida de fiabilidad del ensamble.</p></td>
+<td><p>Reduce discrepancias entre modelos para climatologías y tendencias, pero los miembros no son independientes y el período es fijo <span class="bibtex-citation" id="id37">(<a class="reference internal" href="#id201" title="Lu, J., Wang, G., Chen, T., Li, S., Hagan, D. F. T., Kattel, G., Peng, J., Jiang, T., and Su, B. A harmonized global land evaporation dataset from model-based products covering 1980–2017. Earth System Science Data, 13(12):5879–5898, 2021. doi:10.5194/essd-13-5879-2021.">Lu <em>et al.</em>, 2021</a>)</span>.</p></td>
+</tr>
+</tbody>
+</table>
+<p>La tabla no establece una jerarquía universal. En la cuenca del Volta, por ejemplo, el desempeño de doce productos cambió con la zona climática, la variable de evaluación y la estrategia de calibración; un producto que mejoró el patrón espacial de humedad del suelo no necesariamente mejoró el caudal. Ese resultado impide transformar un ranking regional en recomendación global y muestra que calibrar sólo con el promedio de ET desperdicia parte de la información espacial <span class="bibtex-citation" id="id38">(<a class="reference internal" href="#id202" title="Dembélé, M., Ceperley, N., Zwart, S. J., Salvadore, E., Mariethoz, G., and Schaefli, B. Potential of satellite and reanalysis evaporation datasets for hydrological modelling under various model calibration strategies. Advances in Water Resources, 143:103667, 2020. doi:10.1016/j.advwatres.2020.103667.">Dembélé <em>et al.</em>, 2020</a>)</span>. Del mismo modo, combinar productos no garantiza independencia: ERA5-Land, MOD16, PML-V2 y GLEAM pueden compartir radiación, precipitación o meteorología de reanálisis, de modo que su acuerdo puede reflejar entradas comunes.</p>
+<p>La selección debe comenzar por el <strong>mensurando</strong>. Para cierre anual de cuenca interesa ET terrestre total; para riego, una resolución subkilométrica y representación de advección y agua aplicada; para sequía, continuidad temporal y respuesta al estrés; y para ecohidrología, separación entre transpiración, suelo e intercepción. Debe comprobarse si agua libre, nieve, humedales, ciudades o cultivos irrigados están incluidos o enmascarados. Cuando el producto entrega <span class="math notranslate nohighlight">\(\lambda E\)</span> en <span class="math notranslate nohighlight">\(\mathrm{W\,m^{-2}}\)</span>, la conversión a lámina exige integrar el tiempo y usar el calor latente coherente con la temperatura, siguiendo el balance desarrollado en <a class="reference internal" href="#balance-energia-superficie-cap08"><span class="std std-ref">Balance de energía en la superficie</span></a>. En reanálisis también debe verificarse la convención: algunos sistemas almacenan la evaporación como flujo hacia arriba con signo negativo o como acumulación reiniciada durante el ciclo de pronóstico.</p>
+<p>Para aplicaciones hidrológicas se recomienda comparar al menos dos familias estructuralmente distintas, conservar las banderas de calidad, agregar todos los productos al mismo calendario y soporte, y evaluar tanto volumen como patrón temporal y espacial. La referencia local debe ser compatible: torres para dinámica de alta frecuencia, balances <span class="math notranslate nohighlight">\(P-Q-\Delta S\)</span> para volúmenes de cuenca y lisímetros para parcelas. La dispersión entre productos es una primera aproximación a incertidumbre estructural, no un intervalo probabilístico; la ausencia de una verdad global observada y el soporte desigual de las validaciones siguen siendo limitaciones centrales <span class="bibtex-citation" id="id39">(<a class="reference internal" href="#id205" title="Baris, M. and Tombul, M. A review on models, products and techniques for evapotranspiration measurement, estimation, and validation. Environmental Quality Management, 34(1):e22250, 2024. doi:10.1002/tqem.22250.">Baris and Tombul, 2024</a>; <a class="reference internal" href="#id204" title="Kalma, J. D., McVicar, T. R., and McCabe, M. F. Estimating land surface evaporation: a review of methods using remotely sensed surface temperature data. Surveys in Geophysics, 29(4–5):421–469, 2008. doi:10.1007/s10712-008-9037-z.">Kalma <em>et al.</em>, 2008</a>; <a class="reference internal" href="#id201" title="Lu, J., Wang, G., Chen, T., Li, S., Hagan, D. F. T., Kattel, G., Peng, J., Jiang, T., and Su, B. A harmonized global land evaporation dataset from model-based products covering 1980–2017. Earth System Science Data, 13(12):5879–5898, 2021. doi:10.5194/essd-13-5879-2021.">Lu <em>et al.</em>, 2021</a>; <a class="reference internal" href="#id203" title="Wang, K. and Dickinson, R. E. A review of global terrestrial evapotranspiration: observation, modeling, climatology, and climatic variability. Reviews of Geophysics, 50(2):RG2005, 2012. doi:10.1029/2011RG000373.">Wang and Dickinson, 2012</a>)</span>.</p>
+</section>
+<section id="balances-teledeteccion-e-integracion-de-evidencias">
+<span id="integracion-escalas-cap08"></span><h3><span class="section-number">8.6.4. </span>Balances, teledetección e integración de evidencias<a class="headerlink" href="#balances-teledeteccion-e-integracion-de-evidencias" title="Link to this heading"></a></h3>
+<p>En una cuenca, el balance de agua general es:</p>
+<div class="math notranslate nohighlight">
+\[P+I_{sup}+I_{sub}=Q+ET+O_{sub}+\Delta S,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(I_{sup}\)</span> e <span class="math notranslate nohighlight">\(I_{sub}\)</span> son entradas superficiales y subterráneas, <span class="math notranslate nohighlight">\(O_{sub}\)</span> salidas subterráneas y <span class="math notranslate nohighlight">\(\Delta S\)</span> el cambio de almacenamiento. Si la cuenca coincide con divisorias subterráneas, no hay transferencias, el período es largo y <span class="math notranslate nohighlight">\(\Delta S\approx0\)</span>, entonces <span class="math notranslate nohighlight">\(ET\approx P-Q\)</span>. La simplificación es poderosa precisamente porque acumula en ET todos los errores de P, Q y supuestos de cierre. La WMO recomienda revisar geología y seleccionar períodos en que el cambio de almacenamiento sea pequeño <span class="bibtex-citation" id="id40">(<a class="reference internal" href="#id146" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>)</span>.</p>
+<p>En un lago se agregan entradas y salidas, precipitación directa, cambio de nivel, infiltración y almacenamiento térmico. Para períodos cortos, pequeños errores de nivel o caudal pueden ser mayores que la evaporación residual. El balance de energía del lago requiere radiación, calor almacenado y posibles aportes advectivos; la profundidad hace que el máximo de evaporación pueda retrasarse respecto del máximo solar.</p>
+<p>La <strong>teledetección</strong> no observa directamente el flujo de vapor. Mide radiancia reflejada y emitida, de la que se derivan albedo, temperatura superficial, vegetación y radiación; un modelo cierra el balance de energía o impone una relación evaporativa. Los productos de <a class="reference internal" href="#productos-globales-cap08"><span class="std std-ref">Productos globales de evaporación</span></a> aprovechan esa cobertura espacial, pero mantienen limitaciones por nubes, frecuencia de revisita, escala del píxel, forzantes y parametrización. Validar sólo contra una torre puntual puede confundir diferencia de soporte con error del producto <span class="bibtex-citation" id="id41">(<a class="reference internal" href="#id182" title="Fisher, J. B., Melton, F., Middleton, E., and others. The future of evapotranspiration: global requirements for ecosystem functioning, carbon and climate feedbacks, agricultural management, and water resources. Water Resources Research, 53(4):2618–2626, 2017. doi:10.1002/2016WR020175.">Fisher <em>et al.</em>, 2017</a>; <a class="reference internal" href="#id204" title="Kalma, J. D., McVicar, T. R., and McCabe, M. F. Estimating land surface evaporation: a review of methods using remotely sensed surface temperature data. Surveys in Geophysics, 29(4–5):421–469, 2008. doi:10.1007/s10712-008-9037-z.">Kalma <em>et al.</em>, 2008</a>; <a class="reference internal" href="#id144" title="Robinson, M. and Ward, R. Hydrology: Principles and Processes. IWA Publishing, 2017.">Robinson and Ward, 2017</a>)</span>.</p>
+<p>La <a class="reference internal" href="#fig-ch08-16"><span class="std std-numref">Figura 8.17</span></a> usa series sintéticas para ilustrar la integración. Una bandeja sin coeficiente sobrestima sistemáticamente; un producto satelital alterna errores; un balance hídrico suaviza. La coincidencia parcial entre métodos independientes aumenta confianza, mientras desacuerdos estructurados ayudan a localizar el problema.</p>
+<figure class="align-center" id="id230">
+<span id="fig-ch08-16"></span><a class="reference internal image-reference" href="../_images/ch08-16-integracion-estimaciones.png"><img alt="../_images/ch08-16-integracion-estimaciones.png" src="../_images/ch08-16-integracion-estimaciones.png" style="width: 94%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.17 </span><span class="caption-text">Comparación sintética de métodos con sesgos y soportes diferentes. Elaboración propia.</span><a class="headerlink" href="#id230" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Una validación defendible incluye: unidades y signos; período común; agregación al mismo soporte; cierre de balances; incertidumbre de forzantes; datos independientes; y análisis por estación y condición de humedad. No basta una correlación alta: se requieren sesgo, error absoluto, conservación de volumen y capacidad de representar extremos o sequías según la aplicación.</p>
+<p>El primer paso es definir con precisión el mensurando. <code class="docutils literal notranslate"><span class="pre">ET</span> <span class="pre">diaria</span> <span class="pre">de</span> <span class="pre">una</span> <span class="pre">parcela</span> <span class="pre">regada</span></code>, <code class="docutils literal notranslate"><span class="pre">evaporación</span> <span class="pre">mensual</span> <span class="pre">de</span> <span class="pre">un</span> <span class="pre">embalse</span></code> y <code class="docutils literal notranslate"><span class="pre">ET</span> <span class="pre">anual</span> <span class="pre">media</span> <span class="pre">de</span> <span class="pre">una</span> <span class="pre">cuenca</span></code> no son versiones intercambiables de una sola variable: cambian superficie, período, procesos incluidos y soporte espacial. Una torre integra una huella que varía con estabilidad y viento; un píxel satelital mezcla cubiertas; una bandeja representa agua libre expuesta; y un balance residual integra toda la cuenca. Antes de comparar números se deben armonizar calendario, área, convención de signos y definición de ET. Esta jerarquía de soportes es el sentido operativo de la <a class="reference internal" href="#fig-ch08-16"><span class="std std-numref">Figura 8.17</span></a>.</p>
+<p>El segundo paso es propagar incertidumbre en lugar de tratar una estimación residual como observación exacta. Supóngase una cuenca sin transferencias conocidas, con <span class="math notranslate nohighlight">\(P=900\ \mathrm{mm}\)</span> y <span class="math notranslate nohighlight">\(Q=280\ \mathrm{mm}\)</span> en un año. El residuo es <span class="math notranslate nohighlight">\(ET=620\ \mathrm{mm}\)</span>. Si las incertidumbres estándar son 45 mm en P y 14 mm en Q, y se consideran independientes, la incertidumbre de ET es aproximadamente <span class="math notranslate nohighlight">\(\sqrt{45^2+14^2}=47\ \mathrm{mm}\)</span>. Al incluir 30 mm de incertidumbre asociada con <span class="math notranslate nohighlight">\(\Delta S\)</span>, aumenta a cerca de 56 mm. El resultado debería informarse entonces como una estimación cercana a 620 mm con un orden de incertidumbre de 56 mm, no como 620 mm exactos. Si P y Q comparten fuentes de error o si el año fue seleccionado por sequía, la independencia tampoco puede asumirse automáticamente.</p>
+<p>El tercer paso es buscar evidencia verdaderamente independiente. Un producto satelital de 600 ± 50 mm se superpone con el intervalo del balance y apoya la plausibilidad, pero no demuestra exactitud: ambos pueden compartir la misma radiación de reanálisis o la misma precipitación. Una torre aporta física de alta frecuencia, aunque su huella puede no representar la cuenca. El cierre energético de la torre, la representatividad de las coberturas y la fracción de días interpolados deben acompañar la comparación. Del mismo modo, una buena correlación mensual puede coexistir con un sesgo anual que invalida el balance de recursos hídricos <span class="bibtex-citation" id="id42">(<a class="reference internal" href="#id180" title="Baldocchi, D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems: past, present and future. Global Change Biology, 9(4):479–492, 2003. doi:10.1046/j.1365-2486.2003.00629.x.">Baldocchi, 2003</a>; <a class="reference internal" href="#id182" title="Fisher, J. B., Melton, F., Middleton, E., and others. The future of evapotranspiration: global requirements for ecosystem functioning, carbon and climate feedbacks, agricultural management, and water resources. Water Resources Research, 53(4):2618–2626, 2017. doi:10.1002/2016WR020175.">Fisher <em>et al.</em>, 2017</a>; <a class="reference internal" href="#id183" title="Rodell, M., Beaudoing, H. K., L'Ecuyer, T. S., and others. The observed state of the water cycle in the early twenty-first century. Journal of Climate, 28(21):8289–8318, 2015. doi:10.1175/JCLI-D-14-00555.1.">Rodell <em>et al.</em>, 2015</a>)</span>.</p>
+<p>Finalmente, la discrepancia debe convertirse en diagnóstico. Un sesgo que crece con el déficit de presión de vapor sugiere revisar resistencias o humedad del suelo; uno concentrado en días nublados apunta a radiación o temperatura superficial; uno que cambia con el viento puede revelar advección o exposición de instrumentos. Diferencias persistentes entre laderas señalan topografía, mientras una diferencia anual sin patrón meteorológico obliga a revisar P, Q, transferencias y almacenamiento. La integración no consiste en promediar métodos: consiste en usar sus contrastes para someter a prueba el modelo conceptual de la cuenca, tal como recomiendan los enfoques de balance y observación multifuente <span class="bibtex-citation" id="id43">(<a class="reference internal" href="#id144" title="Robinson, M. and Ward, R. Hydrology: Principles and Processes. IWA Publishing, 2017.">Robinson and Ward, 2017</a>; <a class="reference internal" href="#id146" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>)</span>.</p>
+</section>
+</section>
+<section id="marco-de-budyko-balance-de-agua-y-energia">
+<span id="budyko-cap08"></span><h2><span class="section-number">8.7. </span>Marco de Budyko: balance de agua y energía<a class="headerlink" href="#marco-de-budyko-balance-de-agua-y-energia" title="Link to this heading"></a></h2>
+<section id="hipotesis-indices-y-limites-fisicos">
+<span id="fundamentos-budyko-cap08"></span><h3><span class="section-number">8.7.1. </span>Hipótesis, índices y límites físicos<a class="headerlink" href="#hipotesis-indices-y-limites-fisicos" title="Link to this heading"></a></h3>
+<p>El marco de Budyko pregunta qué fracción de la precipitación media de largo plazo retorna a la atmósfera y qué fracción queda como escorrentía. Su fuerza proviene de reducir muchos procesos a dos restricciones universales: no se puede evaporar más agua que la disponible y no puede sostenerse el cambio de fase sin energía. La formulación no reproduce una tormenta ni reemplaza un modelo continuo; describe la partición hidroclimática media de una cuenca aproximadamente cerrada <span class="bibtex-citation" id="id44">(<a class="reference internal" href="#id186" title="Budyko, M. I. Climate and Life. Academic Press, New York, 1974. doi:10.1016/B978-0-12-139450-9.50001-7.">Budyko, 1974</a>; <a class="reference internal" href="#id194" title="Sposito, G. Understanding the budyko equation. Water, 9(4):236, 2017. doi:10.3390/w9040236.">Sposito, 2017</a>)</span>.</p>
+<p>El balance de agua es:</p>
+<div class="math notranslate nohighlight">
+\[P=ET+Q+\Delta S+T_w,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(T_w\)</span> reúne transferencias netas de agua a través de la divisoria o usos no representados. Al promediar un período suficientemente largo y verificar <span class="math notranslate nohighlight">\(\overline{\Delta S}\approx0\)</span> y <span class="math notranslate nohighlight">\(\overline{T_w}\approx0\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\overline{P}=\overline{ET}+\overline{Q}.\]</div>
+<p>El balance de energía, también promediado, relaciona radiación neta con calor latente y sensible. Se introduce una <strong>evaporación potencial</strong> o demanda <span class="math notranslate nohighlight">\(ET_0\)</span> como escala energética-climática. El símbolo no garantiza que sea idéntico a ET de referencia FAO; una serie de Penman-Monteith, evaporación de bandeja corregida o energía equivalente <span class="math notranslate nohighlight">\(R_n/\lambda\)</span> representa demandas distintas. Toda aplicación debe documentar la definición.</p>
+<p>Dos cocientes adimensionales organizan el espacio:</p>
+<div class="math notranslate nohighlight">
+\[\phi=\frac{ET_0}{P}, \qquad
+\varepsilon=\frac{ET}{P}.\]</div>
+<p><span class="math notranslate nohighlight">\(\phi\)</span> es el <strong>índice de aridez</strong> y <span class="math notranslate nohighlight">\(\varepsilon\)</span> el <strong>índice evaporativo</strong>. Si <span class="math notranslate nohighlight">\(\phi\ll1\)</span>, hay agua abundante respecto de energía y <span class="math notranslate nohighlight">\(ET\)</span> tiende a <span class="math notranslate nohighlight">\(ET_0\)</span>, por lo que <span class="math notranslate nohighlight">\(\varepsilon\to\phi\)</span>. Si <span class="math notranslate nohighlight">\(\phi\gg1\)</span>, la energía potencial abunda pero el agua limita, <span class="math notranslate nohighlight">\(ET\)</span> tiende a <span class="math notranslate nohighlight">\(P\)</span> y <span class="math notranslate nohighlight">\(\varepsilon\to1\)</span>. La <a class="reference internal" href="#fig-ch08-17"><span class="std std-numref">Figura 8.18</span></a> muestra ambos límites.</p>
+<figure class="align-center" id="id231">
+<span id="fig-ch08-17"></span><a class="reference internal image-reference" href="../_images/ch08-17-limites-budyko.jpg"><img alt="../_images/ch08-17-limites-budyko.jpg" src="../_images/ch08-17-limites-budyko.jpg" style="width: 91%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.18 </span><span class="caption-text">Límites de agua y energía en el espacio de Budyko, con una curva de Fu ilustrativa. Elaboración propia.</span><a class="headerlink" href="#id231" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La región físicamente admisible satisface <span class="math notranslate nohighlight">\(ET\leq P\)</span> y, en la idealización, <span class="math notranslate nohighlight">\(ET\lesssim ET_0\)</span>. Un punto por encima del límite de agua no prueba inmediatamente un error: puede indicar importación subterránea, riego con agua externa, agotamiento de almacenamiento o inconsistencia de datos. Un punto aparentemente por encima del límite de energía puede reflejar advección, una definición inadecuada de <span class="math notranslate nohighlight">\(ET_0\)</span> o sesgo. El gráfico es una herramienta diagnóstica, no un tribunal que sustituya el balance.</p>
+<p>La escala temporal importa. <span class="bibtex-citation" id="id45">Roderick and Farquhar (<a class="reference internal" href="#id191" title="Roderick, M. L. and Farquhar, G. D. A simple framework for relating variations in runoff to variations in climatic conditions and catchment properties. Water Resources Research, 47:W00G07, 2011. doi:10.1029/2010WR009826.">2011</a>)</span> utiliza promedios climáticos y enfatiza que cambios de almacenamiento deben ser pequeños frente a <span class="math notranslate nohighlight">\(P\)</span>, <span class="math notranslate nohighlight">\(ET\)</span> y <span class="math notranslate nohighlight">\(Q\)</span>. Usar la curva en meses individuales suele fallar porque nieve, suelo, acuíferos y embalses transfieren agua entre períodos. La escala espacial también importa: cuencas pequeñas o intervenidas exhiben mayores efectos de almacenamiento, transferencias y heterogeneidad <span class="bibtex-citation" id="id46">(<a class="reference internal" href="#id190" title="Donohue, R. J., Roderick, M. L., and McVicar, T. R. On the importance of including vegetation dynamics in budyko's hydrological model. Hydrology and Earth System Sciences, 11(2):983–995, 2007. doi:10.5194/hess-11-983-2007.">Donohue <em>et al.</em>, 2007</a>)</span>.</p>
+</section>
+<section id="familias-de-curvas-y-ecuacion-de-fu">
+<span id="ecuaciones-budyko-cap08"></span><h3><span class="section-number">8.7.2. </span>Familias de curvas y ecuación de Fu<a class="headerlink" href="#familias-de-curvas-y-ecuacion-de-fu" title="Link to this heading"></a></h3>
+<p>Una función de Budyko debe aproximarse al límite energético cuando <span class="math notranslate nohighlight">\(\phi\to0\)</span> y al límite hídrico cuando <span class="math notranslate nohighlight">\(\phi\to\infty\)</span>. Varias expresiones satisfacen esas condiciones. Entre las formas clásicas se encuentran:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\text{Schreiber:}\qquad
+\varepsilon &amp;= 1-\exp(-\phi),\\
+\text{Pike--Turc:}\qquad
+\varepsilon &amp;= \frac{\phi}{\sqrt{1+\phi^2}},\\
+\text{Budyko:}\qquad
+\varepsilon &amp;= \left[\phi\tanh\left(\frac{1}{\phi}\right)
+\left(1-\exp(-\phi)\right)\right]^{1/2}.\end{split}\]</div>
+<p>La <a class="reference internal" href="#fig-ch08-18"><span class="std std-numref">Figura 8.19</span></a> compara esas curvas con una forma paramétrica. Las diferencias son pequeñas cerca de los límites y mayores alrededor de <span class="math notranslate nohighlight">\(\phi\approx1\)</span>, precisamente donde agua y energía tienen magnitudes comparables. La elección de ecuación afecta ET y, por residuo, Q. Debe tratarse como incertidumbre estructural, no ocultarse detrás de un ajuste visual <span class="bibtex-citation" id="id47">(<a class="reference internal" href="#id195" title="Pike, J. G. The estimation of annual run-off from meteorological data in a tropical climate. Journal of Hydrology, 2(2):116–123, 1964. doi:10.1016/0022-1694(64)90022-8.">Pike, 1964</a>; <a class="reference internal" href="#id189" title="Zhang, L., Hickel, K., Dawes, W. R., Chiew, F. H. S., Western, A. W., and Briggs, P. R. A rational function approach for estimating mean annual evapotranspiration. Water Resources Research, 40:W02502, 2004. doi:10.1029/2003WR002710.">Zhang <em>et al.</em>, 2004</a>)</span>.</p>
+<figure class="align-center" id="id232">
+<span id="fig-ch08-18"></span><a class="reference internal image-reference" href="../_images/ch08-18-familia-budyko.png"><img alt="../_images/ch08-18-familia-budyko.png" src="../_images/ch08-18-familia-budyko.png" style="width: 91%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.19 </span><span class="caption-text">Comparación de relaciones clásicas que satisfacen los límites de Budyko. Elaboración propia.</span><a class="headerlink" href="#id232" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La ecuación de Fu es muy utilizada:</p>
+<div class="math notranslate nohighlight">
+\[\frac{ET}{P}=1+\phi-\left(1+\phi^\omega\right)^{1/\omega},
+\qquad \omega&gt;1.\]</div>
+<p>Con <span class="math notranslate nohighlight">\(P\)</span>, <span class="math notranslate nohighlight">\(ET_0\)</span> y <span class="math notranslate nohighlight">\(\omega\)</span>, se estima ET y luego <span class="math notranslate nohighlight">\(Q=P-ET\)</span>. El parámetro <span class="math notranslate nohighlight">\(\omega\)</span> controla la curvatura. Valores mayores elevan <span class="math notranslate nohighlight">\(ET/P\)</span> para un mismo <span class="math notranslate nohighlight">\(\phi\)</span>; valores cercanos a 1 acercan la curva al origen. La formulación fue desarrollada mediante consideraciones sobre la respuesta de ET a incrementos de precipitación y demanda, y ha sido relacionada con otras familias paramétricas <span class="bibtex-citation" id="id48">(<a class="reference internal" href="#id187" title="Fu, B. On the calculation of the evaporation from land surface. Scientia Atmospherica Sinica, 5(1):23–31, 1981.">Fu, 1981</a>; <a class="reference internal" href="#id188" title="Yang, H., Yang, D., Lei, Z., and Sun, F. New analytical derivation of the mean annual water-energy balance equation. Water Resources Research, 44:W03410, 2008. doi:10.1029/2007WR006135.">Yang <em>et al.</em>, 2008</a>; <a class="reference internal" href="#id189" title="Zhang, L., Hickel, K., Dawes, W. R., Chiew, F. H. S., Western, A. W., and Briggs, P. R. A rational function approach for estimating mean annual evapotranspiration. Water Resources Research, 40:W02502, 2004. doi:10.1029/2003WR002710.">Zhang <em>et al.</em>, 2004</a>)</span>.</p>
+<p>Un valor global por defecto puede servir en una demostración, pero no reemplaza calibración o evidencia regional. <span class="bibtex-citation" id="id49">Zhang <em>et al.</em> (<a class="reference internal" href="#id189" title="Zhang, L., Hickel, K., Dawes, W. R., Chiew, F. H. S., Western, A. W., and Briggs, P. R. A rational function approach for estimating mean annual evapotranspiration. Water Resources Research, 40:W02502, 2004. doi:10.1029/2003WR002710.">2004</a>)</span> encontró que la aridez explica gran parte de la variación media anual, mientras tormentas, almacenamiento disponible y cobertura ayudan a explicar desviaciones. Como Q suele ser el residuo más pequeño en ambientes secos, una diferencia modesta en <span class="math notranslate nohighlight">\(ET/P\)</span> puede convertirse en una diferencia relativa grande de caudal.</p>
+<p>La comparación también exige consistencia en <span class="math notranslate nohighlight">\(ET_0\)</span>. Sustituir una PET de Thornthwaite por FAO Penman-Monteith cambia <span class="math notranslate nohighlight">\(\phi\)</span> y puede cambiar el parámetro ajustado; <span class="math notranslate nohighlight">\(\omega\)</span> deja entonces de ser comparable. Un modelo no debe recalibrarse para absorber cambios de definición sin reconocerlos.</p>
+</section>
+<section id="interpretacion-del-parametro-omega-y-desviaciones">
+<span id="parametro-omega-cap08"></span><h3><span class="section-number">8.7.3. </span>Interpretación del parámetro omega y desviaciones<a class="headerlink" href="#interpretacion-del-parametro-omega-y-desviaciones" title="Link to this heading"></a></h3>
+<p>La <a class="reference internal" href="#fig-ch08-19"><span class="std std-numref">Figura 8.20</span></a> muestra que <span class="math notranslate nohighlight">\(\omega\)</span> desplaza la curva, sobre todo en climas de transición. Es tentador asignarle una causa única –por ejemplo, bosque o profundidad de suelo–, pero el parámetro integra múltiples efectos: capacidad de almacenamiento, acceso radicular, estacionalidad de lluvia y radiación, características de tormentas, topografía, nieve, conectividad subterránea y manejo. Dos cuencas pueden compartir <span class="math notranslate nohighlight">\(\omega\)</span> por combinaciones diferentes.</p>
+<figure class="align-center" id="id233">
+<span id="fig-ch08-19"></span><a class="reference internal image-reference" href="../_images/ch08-19-parametro-omega.png"><img alt="../_images/ch08-19-parametro-omega.png" src="../_images/ch08-19-parametro-omega.png" style="width: 91%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.20 </span><span class="caption-text">Efecto del parámetro <span class="math notranslate nohighlight">\(\omega\)</span> sobre la curva de Fu. Elaboración propia.</span><a class="headerlink" href="#id233" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La vegetación es simultáneamente control y respuesta. Raíces profundas, área foliar y regulación estomática alteran ET; pero esos rasgos también se adaptan al régimen de agua y energía. <span class="bibtex-citation" id="id50">Gentine <em>et al.</em> (<a class="reference internal" href="#id192" title="Gentine, P., D'Odorico, P., Lintner, B. R., Sivandran, G., and Salvucci, G. Interdependence of climate, soil, and vegetation as constrained by the budyko curve. Geophysical Research Letters, 39:L19404, 2012. doi:10.1029/2012GL053492.">2012</a>)</span> muestra que suelo, vegetación y clima no son variables independientes y que el desfase estacional favorece estrategias de almacenamiento y raíces profundas. <span class="bibtex-citation" id="id51">Williams <em>et al.</em> (<a class="reference internal" href="#id193" title="Williams, C. A., Reichstein, M., Buchmann, N., and others. Climate and vegetation controls on the surface water balance: synthesis of evapotranspiration measured across a global network of flux towers. Water Resources Research, 48:W06523, 2012. doi:10.1029/2011WR011586.">2012</a>)</span> encuentra que clima explica el patrón de primer orden, mientras bioma y estacionalidad explican desviaciones adicionales.</p>
+<p>Una desviación vertical respecto de una curva puede deberse a:</p>
+<ul class="simple">
+<li><p><strong>almacenamiento no estacionario</strong>, como agotamiento de acuífero o recuperación después de sequía;</p></li>
+<li><p><strong>transferencia subterránea o superficial</strong> a través de la divisoria topográfica;</p></li>
+<li><p><strong>nieve y glaciares</strong>, que desplazan agua entre años o aportan pérdida de masa;</p></li>
+<li><p><strong>intervención</strong>, como riego, embalses, exportación, retorno o cambio de cobertura;</p></li>
+<li><p><strong>sesgos de P, Q o ET₀</strong>, en especial subcaptación de nieve y precipitación orográfica;</p></li>
+<li><p><strong>escala insuficiente</strong>, donde la variabilidad anual y el almacenamiento no se promedian; o</p></li>
+<li><p><strong>estructura funcional</strong>, porque la curva elegida no representa la región.</p></li>
+</ul>
+<p>Calibrar <span class="math notranslate nohighlight">\(\omega\)</span> a partir de <span class="math notranslate nohighlight">\(ET=P-Q\)</span> transfiere al parámetro todo error de cierre. Por eso se recomienda informar el intervalo de datos, la definición de año hidrológico, cobertura de estaciones, transferencias, incertidumbre de Q y sensibilidad a ET₀. Una estimación independiente de ET mediante torre, satélite o balance energético puede revelar compensación de errores.</p>
+<p>Para comparar períodos, no basta observar que <span class="math notranslate nohighlight">\(\omega\)</span> cambió. Un cambio en <span class="math notranslate nohighlight">\(P\)</span> o <span class="math notranslate nohighlight">\(ET_0\)</span> mueve el punto a lo largo o entre curvas; un cambio en almacenamiento puede simular cambio de propiedad; y la vegetación puede responder gradualmente. La atribución requiere una narrativa causal respaldada por cobertura, suelo, uso de agua y observaciones.</p>
+</section>
+<section id="elasticidad-cambio-climatico-y-aplicaciones">
+<span id="aplicaciones-budyko-cap08"></span><h3><span class="section-number">8.7.4. </span>Elasticidad, cambio climático y aplicaciones<a class="headerlink" href="#elasticidad-cambio-climatico-y-aplicaciones" title="Link to this heading"></a></h3>
+<p>El marco permite estimar sensibilidad de escorrentía a pequeños cambios. Si <span class="math notranslate nohighlight">\(Q=P-ET(P,ET_0,\omega)\)</span>, una expansión de primer orden es:</p>
+<div class="math notranslate nohighlight">
+\[dQ=\frac{\partial Q}{\partial P}dP+
+   \frac{\partial Q}{\partial ET_0}dET_0+
+   \frac{\partial Q}{\partial\omega}d\omega.\]</div>
+<p>Los coeficientes dependen del estado inicial. En una cuenca seca, Q es una fracción pequeña de P; una variación moderada de P puede producir una variación porcentual grande de Q. La <a class="reference internal" href="#fig-ch08-20"><span class="std std-numref">Figura 8.21</span></a> ilustra este efecto para una cuenca sintética. Un aumento de precipitación eleva Q; un aumento de demanda, manteniendo lo demás, reduce Q. Las curvas no son simétricas porque la relación es no lineal.</p>
+<figure class="align-center" id="id234">
+<span id="fig-ch08-20"></span><a class="reference internal image-reference" href="../_images/ch08-20-sensibilidad-escorrentia.png"><img alt="../_images/ch08-20-sensibilidad-escorrentia.png" src="../_images/ch08-20-sensibilidad-escorrentia.png" style="width: 92%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.21 </span><span class="caption-text">Sensibilidad de escorrentía de una cuenca sintética a cambios de precipitación y demanda en una relación de Fu. Elaboración propia.</span><a class="headerlink" href="#id234" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p><span class="bibtex-citation" id="id52">Roderick and Farquhar (<a class="reference internal" href="#id191" title="Roderick, M. L. and Farquhar, G. D. A simple framework for relating variations in runoff to variations in climatic conditions and catchment properties. Water Resources Research, 47:W00G07, 2011. doi:10.1029/2010WR009826.">2011</a>)</span> formaliza coeficientes de sensibilidad para separar cambios asociados con <span class="math notranslate nohighlight">\(P\)</span>, demanda y propiedades de cuenca. La separación es útil, pero no convierte los factores en independientes. Precipitación, radiación, humedad y viento pueden covariar; cobertura cambia en respuesta al clima; y <span class="math notranslate nohighlight">\(\omega\)</span> puede compensar errores. La suma de contribuciones depende del período base y de la linealización.</p>
+<p>Aplicaciones hidrológicas frecuentes incluyen:</p>
+<ul class="simple">
+<li><p><strong>regionalización</strong> de ET y Q en cuencas con datos limitados;</p></li>
+<li><p><strong>prueba de plausibilidad</strong> para balances hidroclimáticos;</p></li>
+<li><p><strong>evaluación de escenarios</strong> de precipitación y demanda;</p></li>
+<li><p><strong>atribución exploratoria</strong> de cambios de caudal a clima y superficie;</p></li>
+<li><p><strong>comparación de modelos</strong> respecto de límites de agua y energía; y</p></li>
+<li><p><strong>clasificación ecohidrológica</strong> de cuencas.</p></li>
+</ul>
+<p>No es adecuado para estimar caudal de crecida, operación diaria de embalses, riego semanal o ET de una tormenta. Tampoco debe aplicarse mecánicamente donde P no sea la única fuente de agua, donde Q observado esté fuertemente regulado o donde el almacenamiento cambie persistentemente. En esas condiciones se amplía el balance o se emplea un modelo dinámico.</p>
+<p>Para cambio climático, el flujo mínimo de trabajo es: definir períodos comparables; calcular <span class="math notranslate nohighlight">\(P\)</span> y <span class="math notranslate nohighlight">\(ET_0\)</span> con método consistente; verificar cambios de almacenamiento y uso; estimar posición y movimiento en espacio Budyko; evaluar más de una curva o rango de <span class="math notranslate nohighlight">\(\omega\)</span>; y contrastar con simulación continua. El resultado debe presentarse como escenario condicionado, no como predicción determinista.</p>
+</section>
+</section>
+<section id="ejemplo-de-aplicacion-anual">
+<span id="ejemplo-budyko-cap08"></span><h2><span class="section-number">8.8. </span>Ejemplo de aplicación anual<a class="headerlink" href="#ejemplo-de-aplicacion-anual" title="Link to this heading"></a></h2>
+<section id="calculo-paso-a-paso">
+<span id="calculo-budyko-cap08"></span><h3><span class="section-number">8.8.1. </span>Cálculo paso a paso<a class="headerlink" href="#calculo-paso-a-paso" title="Link to this heading"></a></h3>
+<p>Considérese una cuenca de Chile central con precipitación mensual <span class="math notranslate nohighlight">\(P_m\)</span> y demanda de referencia <span class="math notranslate nohighlight">\(ET_{0,m}\)</span> representadas en la <a class="reference internal" href="#fig-ch08-21"><span class="std std-numref">Figura 8.22</span></a>. Los datos son sintéticos, pero reproducen un régimen con precipitación invernal y demanda estival. Antes de sumar se comprueba que ambas series cubren el mismo año hidrológico, tienen unidades de milímetros sobre la cuenca y no contienen meses faltantes.</p>
+<figure class="align-center" id="id235">
+<span id="fig-ch08-21"></span><a class="reference internal image-reference" href="../_images/ch08-21-ejemplo-cuenca.png"><img alt="../_images/ch08-21-ejemplo-cuenca.png" src="../_images/ch08-21-ejemplo-cuenca.png" style="width: 97%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.22 </span><span class="caption-text">Forzantes mensuales sintéticos y diagnóstico anual con la ecuación de Fu. Elaboración propia.</span><a class="headerlink" href="#id235" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Los totales son:</p>
+<div class="math notranslate nohighlight">
+\[P=860\ \mathrm{mm\,a^{-1}}, \qquad
+ET_0=905\ \mathrm{mm\,a^{-1}}.\]</div>
+<p>Por tanto:</p>
+<div class="math notranslate nohighlight">
+\[\phi=\frac{905}{860}=1.052.\]</div>
+<p>Con <span class="math notranslate nohighlight">\(\omega=2.6\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\varepsilon
+=1+1.052-\left(1+1.052^{2.6}\right)^{1/2.6}
+\approx0.711.\]</div>
+<p>Así:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}ET&amp;=0.711(860)\approx612\ \mathrm{mm\,a^{-1}},\\
+Q&amp;=860-612\approx248\ \mathrm{mm\,a^{-1}}.\end{split}\]</div>
+<p>Para un área de <span class="math notranslate nohighlight">\(250\ \mathrm{km^2}\)</span>, la lámina de Q equivale a:</p>
+<div class="math notranslate nohighlight">
+\[V_Q=0.248\ \mathrm{m}\times250\times10^6\ \mathrm{m^2}
+   \approx62\times10^6\ \mathrm{m^3\,a^{-1}}.\]</div>
+<p>El caudal medio equivalente es aproximadamente <span class="math notranslate nohighlight">\(1.97\ \mathrm{m^3\,s^{-1}}\)</span>. Esta conversión no entrega estacionalidad ni extremos. Si el aforo observado promedia <span class="math notranslate nohighlight">\(260\ \mathrm{mm\,a^{-1}}\)</span>, el balance residual da <span class="math notranslate nohighlight">\(ET=600\ \mathrm{mm\,a^{-1}}\)</span>; la diferencia de 12 mm respecto de Fu es pequeña comparada con errores plausibles de P y Q, pero debe cuantificarse.</p>
+<p>El cálculo de <span class="math notranslate nohighlight">\(\omega\)</span> no debería iniciarse antes de auditar cierre. Se revisa precipitación orográfica, cambio de almacenamiento, captaciones, retornos y divisoria subterránea. Luego se propaga incertidumbre. Por ejemplo, un sesgo de ±5 % en P cambia tanto el numerador de <span class="math notranslate nohighlight">\(ET=P-Q\)</span> como <span class="math notranslate nohighlight">\(\phi\)</span>; el efecto sobre Q puede superar ±5 %.</p>
+<p>Finalmente, se compara con otra relación de Budyko y con ET independiente. Si Pike-Turc, Fu y balance hídrico convergen, el resultado es robusto en escala anual. Si difieren, el objetivo no es promediarlos ciegamente, sino identificar si la discrepancia proviene de función, parámetro, demanda o datos.</p>
+</section>
+<section id="estacionalidad-almacenamiento-y-prueba-de-supuestos">
+<span id="diagnostico-estacional-budyko-cap08"></span><h3><span class="section-number">8.8.2. </span>Estacionalidad, almacenamiento y prueba de supuestos<a class="headerlink" href="#estacionalidad-almacenamiento-y-prueba-de-supuestos" title="Link to this heading"></a></h3>
+<p>Dos cuencas pueden tener los mismos totales anuales de P y <span class="math notranslate nohighlight">\(ET_0\)</span>, y por tanto el mismo <span class="math notranslate nohighlight">\(\phi\)</span>, pero calendarios opuestos. En la <a class="reference internal" href="#fig-ch08-22"><span class="std std-numref">Figura 8.23</span></a>, la cuenca izquierda recibe agua cuando la energía es alta; la derecha, cuando la energía es baja. Si no existiera almacenamiento, la primera podría evaporar más. En la segunda, suelo profundo, nieve o acuífero deben transferir agua hacia la estación energética para sostener ET.</p>
+<figure class="align-center" id="id236">
+<span id="fig-ch08-22"></span><a class="reference internal image-reference" href="../_images/ch08-22-estacionalidad-budyko.png"><img alt="../_images/ch08-22-estacionalidad-budyko.png" src="../_images/ch08-22-estacionalidad-budyko.png" style="width: 97%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.23 </span><span class="caption-text">Dos regímenes sintéticos con totales anuales iguales y diferente fase entre precipitación y demanda. Elaboración propia.</span><a class="headerlink" href="#id236" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>El ejemplo explica por qué el promedio anual no contiene toda la física. Budyko puede representar una partición de primer orden, mientras <span class="math notranslate nohighlight">\(\omega\)</span> absorbe parte del efecto de estacionalidad y almacenamiento. Pero si se proyecta un cambio en el calendario de lluvias sin cambiar el total anual, una aplicación que usa sólo <span class="math notranslate nohighlight">\(\phi\)</span> no lo detectará. Para esa pregunta se requiere un modelo mensual o diario con almacenamiento.</p>
+<p>Una prueba práctica de supuestos incluye:</p>
+<ol class="arabic simple">
+<li><p><strong>Duración:</strong> usar al menos varios años y preferir normales de largo plazo cuando se busca relación climática. La distinción entre tiempo y clima se desarrolló en <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#tiempo-y-clima"><span class="std std-ref">Tiempo atmosférico y clima</span></a>.</p></li>
+<li><p><strong>Cierre:</strong> cuantificar entradas y salidas distintas de P y Q; comparar divisorias topográfica y subterránea.</p></li>
+<li><p><strong>Almacenamiento:</strong> revisar tendencias de agua subterránea, nieve, glaciares, embalses y humedad del suelo.</p></li>
+<li><p><strong>Consistencia:</strong> mantener método y datos de <span class="math notranslate nohighlight">\(ET_0\)</span> entre cuencas y períodos.</p></li>
+<li><p><strong>Intervención:</strong> naturalizar caudales cuando sea posible o incorporar extracciones y retornos.</p></li>
+<li><p><strong>Estacionalidad:</strong> calcular desfase entre P y energía y evaluar si cambió.</p></li>
+<li><p><strong>Incertidumbre:</strong> propagar errores de P, Q y demanda antes de interpretar <span class="math notranslate nohighlight">\(\omega\)</span>.</p></li>
+</ol>
+<p>Si un supuesto falla, la respuesta robusta no es descartar siempre Budyko. Puede ampliarse el balance con transferencia y almacenamiento, segmentar períodos casi estacionarios o usar el marco sólo como diagnóstico. Lo incorrecto es presentar la curva como explicación causal completa.</p>
+</section>
+</section>
+<section id="sintesis-y-guia-de-aplicacion">
+<span id="sintesis-evaporacion-cap08"></span><h2><span class="section-number">8.9. </span>Síntesis y guía de aplicación<a class="headerlink" href="#sintesis-y-guia-de-aplicacion" title="Link to this heading"></a></h2>
+<p>La evaporación enlaza balances de agua y energía. A escala molecular requiere calor latente; a escala de superficie depende de radiación neta, transporte y suministro; a escala de cuenca compite con escorrentía por la precipitación disponible. Planck, Wien y Stefan-Boltzmann explican la separación espectral y la emisión; la geometría solar fija la oferta extraterrestre; atmósfera, albedo y temperatura transforman esa oferta en radiación neta.</p>
+<p>El balance superficial distribuye <span class="math notranslate nohighlight">\(R_n-G-S\)</span> entre <span class="math notranslate nohighlight">\(H\)</span> y <span class="math notranslate nohighlight">\(\lambda E\)</span>. Una superficie húmeda favorece calor latente; una seca, calor sensible. Viento y déficit de presión de vapor sostienen transporte, mientras resistencias de suelo y vegetación regulan el flujo. Advección, almacenamiento y heterogeneidad impiden interpretar toda evaporación como una fracción local fija de radiación.</p>
+<p>La observación es necesariamente multiescala. Bandejas, lisímetros, torres, centelleómetros, balances y satélites responden preguntas distintas. Los métodos de combinación representan mejor energía y aerodinámica cuando existen datos; los empíricos son útiles si se reconocen sus límites. La integración de evidencias es más confiable que una única serie sin auditoría.</p>
+<p>Budyko resume la partición media de largo plazo mediante aridez <span class="math notranslate nohighlight">\(ET_0/P\)</span>, índice evaporativo <span class="math notranslate nohighlight">\(ET/P\)</span> y límites de agua y energía. La ecuación de Fu añade flexibilidad con <span class="math notranslate nohighlight">\(\omega\)</span>, pero ese parámetro es agregado, no mecanismo único. Cambios de almacenamiento, transferencias, estacionalidad, intervención o sesgos pueden desplazar una cuenca. El marco es excelente para hipótesis, regionalización y sensibilidad; no es un modelo de eventos.</p>
+<p>La <a class="reference internal" href="#fig-ch08-23"><span class="std std-numref">Figura 8.24</span></a> resume una secuencia de trabajo. Primero se define variable, escala y superficie; luego se cierran balances; se seleccionan método y datos; se verifica soporte y sesgo; finalmente se comunica incertidumbre. En escala corta dominan balance de energía y transporte. En largo plazo, balance hídrico y Budyko aportan una síntesis complementaria.</p>
+<figure class="align-center" id="id237">
+<span id="fig-ch08-23"></span><a class="reference internal image-reference" href="../_images/ch08-23-sintesis-aplicada.png"><img alt="../_images/ch08-23-sintesis-aplicada.png" src="../_images/ch08-23-sintesis-aplicada.png" style="width: 97%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 8.24 </span><span class="caption-text">Flujo de trabajo mínimo para aplicar conceptos de evaporación en hidrología. Elaboración propia.</span><a class="headerlink" href="#id237" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition-lista-de-control-antes-de-entregar-un-resultado admonition">
+<p class="admonition-title">Lista de control antes de entregar un resultado</p>
+<ul class="simple">
+<li><p>¿La variable es evaporación real, potencial, de referencia, de cultivo o de bandeja?</p></li>
+<li><p>¿Todas las series usan el mismo intervalo, soporte y convención de signo?</p></li>
+<li><p>¿Radiación y flujos de calor tienen unidades energéticas coherentes?</p></li>
+<li><p>¿Se distinguió demanda atmosférica de disponibilidad de agua?</p></li>
+<li><p>¿La comparación respeta la escala observada por cada método?</p></li>
+<li><p>¿El balance incluye almacenamiento, transferencias y uso humano relevantes?</p></li>
+<li><p>¿La aplicación de Budyko usa un período suficientemente largo?</p></li>
+<li><p>¿Se evaluó sensibilidad a método de <span class="math notranslate nohighlight">\(ET_0\)</span>, curva y parámetro?</p></li>
+<li><p>¿Las conclusiones causales están respaldadas por datos independientes?</p></li>
+<li><p>¿La incertidumbre se expresa en la variable de decisión, como volumen útil o caudal?</p></li>
+</ul>
+</div>
+</section>
+<section id="actividades-de-aprendizaje">
+<h2><span class="section-number">8.10. </span>Actividades de aprendizaje<a class="headerlink" href="#actividades-de-aprendizaje" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p><strong>Conversión energía-agua.</strong> Una superficie recibe <span class="math notranslate nohighlight">\(R_n=14\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span>; <span class="math notranslate nohighlight">\(G=1.5\)</span>, <span class="math notranslate nohighlight">\(H=4.0\)</span> y el almacenamiento es despreciable. Calcule <span class="math notranslate nohighlight">\(\lambda E\)</span>, conviértalo a mm por día con <span class="math notranslate nohighlight">\(\lambda_v=2.45\ \mathrm{MJ\,kg^{-1}}\)</span> y discuta el efecto de un error de 1 MJ por metro cuadrado y día en H.</p></li>
+<li><p><strong>Radiación neta.</strong> Para <span class="math notranslate nohighlight">\(R_s=22\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span>, <span class="math notranslate nohighlight">\(\alpha=0.23\)</span> y <span class="math notranslate nohighlight">\(R_{nl}=5.1\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span>, calcule <span class="math notranslate nohighlight">\(R_n\)</span>. Repita con nieve de <span class="math notranslate nohighlight">\(\alpha=0.80\)</span> y explique la diferencia.</p></li>
+<li><p><strong>Selección de método.</strong> Proponga métodos para: (a) pérdida mensual de un embalse; (b) ET diaria de un cultivo; (c) ET anual de una cuenca de 5 000 km²; y (d) transpiración de una plantación. Justifique soporte, datos y validación.</p></li>
+<li><p><strong>Budyko.</strong> Para <span class="math notranslate nohighlight">\(P=700\ \mathrm{mm\,a^{-1}}\)</span>, <span class="math notranslate nohighlight">\(ET_0=1100\ \mathrm{mm\,a^{-1}}\)</span> y <span class="math notranslate nohighlight">\(\omega=2.3\)</span>, estime ET y Q. Compare con <span class="math notranslate nohighlight">\(\omega=3.0\)</span> e interprete el cambio sin atribuirlo automáticamente a vegetación.</p></li>
+<li><p><strong>Auditoría.</strong> Una cuenca aparece sobre <span class="math notranslate nohighlight">\(ET/P=1\)</span>. Enumere hipótesis físicas y errores de datos antes de eliminar el punto. Diseñe observaciones para distinguir agotamiento de almacenamiento, importación de riego y subestimación de P.</p></li>
+<li><p><strong>Cambio hidroclimático.</strong> Diseñe un experimento factorial que cambie P, radiación, humedad y viento por separado y en conjunto. Compare Penman-Monteith, una fórmula de temperatura y una relación de Budyko. Indique qué conclusiones dependen de la escala.</p></li>
+</ol>
+<p><strong>Orientaciones para discusión y evaluación.</strong> En la actividad 1, el balance entrega <span class="math notranslate nohighlight">\(\lambda E=8.5\ \mathrm{MJ\,m^{-2}\,d^{-1}}\)</span> y, por tanto, aproximadamente 3.47 mm por día. Un error positivo de 1 MJ por metro cuadrado y día en H reduce la ET estimada cerca de 0.41 mm por día. La respuesta completa debe explicar que esta sensibilidad supone correctos los demás términos y que un error de cierre puede repartirse de varias maneras. En la actividad 2, <span class="math notranslate nohighlight">\(R_n\)</span> vale 11.84 para la primera superficie y -0.70 <span class="math notranslate nohighlight">\(\mathrm{MJ\,m^{-2}\,d^{-1}}\)</span> para la nieve si se conserva <span class="math notranslate nohighlight">\(R_{nl}\)</span>. El signo negativo no implica condensación automática: primero indica pérdida radiativa neta; el flujo de agua depende además de transporte, temperatura de superficie y suministro. La <a class="reference internal" href="#fig-ch08-08"><span class="std std-numref">Figura 8.9</span></a> ayuda a revisar signos antes de calcular.</p>
+<p>Para la actividad 3 se evalúa la coherencia entre pregunta y soporte, no la elección de una marca instrumental. Una respuesta defendible puede combinar balance de volumen y energía en el embalse; Penman-Monteith, lisímetro o balance de suelo para el cultivo; P-Q con almacenamiento y contraste satelital para la cuenca; y flujo de savia junto con covarianza de remolinos para la plantación. Debe explicitarse qué mide cada método, cómo se escala y qué observación independiente podría refutar el resultado. Proponer una bandeja sin coeficiente para toda la cuenca, o una torre puntual sin análisis de representatividad, revela confusión de soporte.</p>
+<p>En la actividad 4 interesa tanto el cálculo como la interpretación. El estudiante debe ubicar ambos casos respecto de los límites de la <a class="reference internal" href="#fig-ch08-17"><span class="std std-numref">Figura 8.18</span></a>, verificar <span class="math notranslate nohighlight">\(0\leq ET/P\leq1\)</span> y reconocer que elevar <span class="math notranslate nohighlight">\(\omega\)</span> reduce Q para las mismas forzantes. No debe concluir que el cambio se debe necesariamente a bosque: almacenamiento, suelos, estacionalidad, transferencias y sesgos también pueden desplazar el parámetro. Una extensión útil consiste en repetir el cálculo con otra familia de Budyko y comparar la incertidumbre estructural con el efecto de cambiar <span class="math notranslate nohighlight">\(\omega\)</span>.</p>
+<p>La actividad 5 admite más de una causa y debe calificarse como diagnóstico. <span class="math notranslate nohighlight">\(ET/P&gt;1\)</span> puede ser físicamente posible durante un período con agotamiento de reservas o con importación de agua, pero no como régimen indefinido de una cuenca cerrada sin entradas adicionales. Entre los errores plausibles están subcaptura de nieve o precipitación orográfica, área inconsistente, caudal incompleto, período desalineado y producto de ET sesgado. Pozos, gravimetría, niveles de embalse, trazadores, registros de riego, balance de nieve y una red pluviométrica altitudinal permiten separar hipótesis. El mérito está en formular predicciones observables para cada explicación antes de descartar el dato.</p>
+<p>En la actividad 6, el diseño factorial debe conservar una línea base común y modificar una forzante por vez, además de combinaciones que permitan detectar interacción. Se esperan resultados distintos entre una superficie húmeda y otra limitada por agua: aumentar radiación o déficit puede elevar ET en la primera y apenas modificarla, o incluso adelantar su agotamiento, en la segunda. La fórmula de temperatura confundirá parte de esos mecanismos; Penman-Monteith separará controles radiativo y aerodinámico; Budyko responderá a cambios agregados de P y demanda, pero no al orden diario de los eventos. Una buena conclusión identifica qué diferencias son físicas y cuáles provienen de resolución temporal o estructura del método.</p>
+<p>Como pauta general, puede asignarse 30 % al balance y unidades, 25 % a la representación explícita de agua, energía y transporte, 25 % a la evaluación de supuestos y escala, y 20 % a la comunicación de incertidumbre. El flujo de la <a class="reference internal" href="#fig-ch08-23"><span class="std std-numref">Figura 8.24</span></a> ofrece una rúbrica compacta: definir, cerrar, elegir, verificar y comunicar. Una solución numéricamente correcta que omita el soporte o confunda demanda con consumo no debería considerarse completa.</p>
+</section>
+<section id="referencias">
+<h2><span class="section-number">8.11. </span>Referencias<a class="headerlink" href="#referencias" title="Link to this heading"></a></h2>
+<div class="docutils container" id="id53">
+<div role="list" class="citation-list">
+<div class="citation" id="id172" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id10">1</a>,<a role="doc-backlink" href="#id11">2</a>,<a role="doc-backlink" href="#id13">3</a>,<a role="doc-backlink" href="#id22">4</a>,<a role="doc-backlink" href="#id23">5</a>)</span>
+<p>Allen, R. G., Pereira, L. S., Raes, D., and Smith, M. <em>Crop Evapotranspiration: Guidelines for Computing Crop Water Requirements</em>. Number 56 in FAO Irrigation and Drainage Paper. Food and Agriculture Organization of the United Nations, Rome, 1998. ISBN 9251042195.</p>
+</div>
+<div class="citation" id="id180" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id19">1</a>,<a role="doc-backlink" href="#id42">2</a>)</span>
+<p>Baldocchi, D. D. Assessing the eddy covariance technique for evaluating carbon dioxide exchange rates of ecosystems: past, present and future. <em>Global Change Biology</em>, 9(4):479–492, 2003. <a class="reference external" href="https://doi.org/10.1046/j.1365-2486.2003.00629.x">doi:10.1046/j.1365-2486.2003.00629.x</a>.</p>
+</div>
+<div class="citation" id="id205" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id29">1</a>,<a role="doc-backlink" href="#id39">2</a>)</span>
+<p>Baris, M. and Tombul, M. A review on models, products and techniques for evapotranspiration measurement, estimation, and validation. <em>Environmental Quality Management</em>, 34(1):e22250, 2024. <a class="reference external" href="https://doi.org/10.1002/tqem.22250">doi:10.1002/tqem.22250</a>.</p>
+</div>
+<div class="citation" id="id173" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">4</a><span class="fn-bracket">]</span></span>
+<p>Brutsaert, W. <em>Evaporation into the Atmosphere: Theory, History, and Applications</em>. D. Reidel, Dordrecht, 1982. <a class="reference external" href="https://doi.org/10.1007/978-94-017-1497-6">doi:10.1007/978-94-017-1497-6</a>.</p>
+</div>
+<div class="citation" id="id186" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id44">5</a><span class="fn-bracket">]</span></span>
+<p>Budyko, M. I. <em>Climate and Life</em>. Academic Press, New York, 1974. <a class="reference external" href="https://doi.org/10.1016/B978-0-12-139450-9.50001-7">doi:10.1016/B978-0-12-139450-9.50001-7</a>.</p>
+</div>
+<div class="citation" id="id170" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>6<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id2">1</a>,<a role="doc-backlink" href="#id7">2</a>,<a role="doc-backlink" href="#id14">3</a>)</span>
+<p>Chow, V. T., Maidment, D. R., and Mays, L. W. <em>Applied Hydrology</em>. McGraw-Hill, New York, 1988. ISBN 9780070108103.</p>
+</div>
+<div class="citation" id="id171" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>7<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id2">1</a>,<a role="doc-backlink" href="#id7">2</a>)</span>
+<p>Davie, T. <em>Fundamentals of Hydrology</em>. Routledge, London, 2nd edition, 2008. ISBN 9780415399876.</p>
+</div>
+<div class="citation" id="id202" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>8<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id30">1</a>,<a role="doc-backlink" href="#id38">2</a>)</span>
+<p>Dembélé, M., Ceperley, N., Zwart, S. J., Salvadore, E., Mariethoz, G., and Schaefli, B. Potential of satellite and reanalysis evaporation datasets for hydrological modelling under various model calibration strategies. <em>Advances in Water Resources</em>, 143:103667, 2020. <a class="reference external" href="https://doi.org/10.1016/j.advwatres.2020.103667">doi:10.1016/j.advwatres.2020.103667</a>.</p>
+</div>
+<div class="citation" id="id190" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id46">9</a><span class="fn-bracket">]</span></span>
+<p>Donohue, R. J., Roderick, M. L., and McVicar, T. R. On the importance of including vegetation dynamics in budyko's hydrological model. <em>Hydrology and Earth System Sciences</em>, 11(2):983–995, 2007. <a class="reference external" href="https://doi.org/10.5194/hess-11-983-2007">doi:10.5194/hess-11-983-2007</a>.</p>
+</div>
+<div class="citation" id="id182" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>10<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id41">1</a>,<a role="doc-backlink" href="#id42">2</a>)</span>
+<p>Fisher, J. B., Melton, F., Middleton, E., and others. The future of evapotranspiration: global requirements for ecosystem functioning, carbon and climate feedbacks, agricultural management, and water resources. <em>Water Resources Research</em>, 53(4):2618–2626, 2017. <a class="reference external" href="https://doi.org/10.1002/2016WR020175">doi:10.1002/2016WR020175</a>.</p>
+</div>
+<div class="citation" id="id187" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id48">11</a><span class="fn-bracket">]</span></span>
+<p>Fu, B. On the calculation of the evaporation from land surface. <em>Scientia Atmospherica Sinica</em>, 5(1):23–31, 1981.</p>
+</div>
+<div class="citation" id="id210" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id36">12</a><span class="fn-bracket">]</span></span>
+<p>Gelaro, R., McCarty, W., Suárez, M. J., Todling, R., Molod, A., Takacs, L., Randles, C. A., Darmenov, A., Bosilovich, M. G., Reichle, R., and others. The modern-era retrospective analysis for research and applications, version 2 (MERRA-2). <em>Journal of Climate</em>, 30(14):5419–5454, 2017. <a class="reference external" href="https://doi.org/10.1175/JCLI-D-16-0758.1">doi:10.1175/JCLI-D-16-0758.1</a>.</p>
+</div>
+<div class="citation" id="id192" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id50">13</a><span class="fn-bracket">]</span></span>
+<p>Gentine, P., D'Odorico, P., Lintner, B. R., Sivandran, G., and Salvucci, G. Interdependence of climate, soil, and vegetation as constrained by the budyko curve. <em>Geophysical Research Letters</em>, 39:L19404, 2012. <a class="reference external" href="https://doi.org/10.1029/2012GL053492">doi:10.1029/2012GL053492</a>.</p>
+</div>
+<div class="citation" id="id178" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>14<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id11">1</a>,<a role="doc-backlink" href="#id28">2</a>)</span>
+<p>Hargreaves, G. H. and Samani, Z. A. Reference crop evapotranspiration from temperature. <em>Applied Engineering in Agriculture</em>, 1(2):96–99, 1985. <a class="reference external" href="https://doi.org/10.13031/2013.26773">doi:10.13031/2013.26773</a>.</p>
+</div>
+<div class="citation" id="id208" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id35">15</a><span class="fn-bracket">]</span></span>
+<p>Jung, M., Koirala, S., Weber, U., Ichii, K., Gans, F., Camps-Valls, G., Papale, D., Schwalm, C., Tramontana, G., Reichstein, M., and others. The FLUXCOM ensemble of global land-atmosphere energy fluxes. <em>Scientific Data</em>, 6:74, 2019. <a class="reference external" href="https://doi.org/10.1038/s41597-019-0076-8">doi:10.1038/s41597-019-0076-8</a>.</p>
+</div>
+<div class="citation" id="id204" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>16<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id29">1</a>,<a role="doc-backlink" href="#id39">2</a>,<a role="doc-backlink" href="#id41">3</a>)</span>
+<p>Kalma, J. D., McVicar, T. R., and McCabe, M. F. Estimating land surface evaporation: a review of methods using remotely sensed surface temperature data. <em>Surveys in Geophysics</em>, 29(4–5):421–469, 2008. <a class="reference external" href="https://doi.org/10.1007/s10712-008-9037-z">doi:10.1007/s10712-008-9037-z</a>.</p>
+</div>
+<div class="citation" id="id184" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id9">17</a><span class="fn-bracket">]</span></span>
+<p>Kopp, G. and Lean, J. L. A new, lower value of total solar irradiance: evidence and climate significance. <em>Geophysical Research Letters</em>, 38:L01706, 2011. <a class="reference external" href="https://doi.org/10.1029/2010GL045777">doi:10.1029/2010GL045777</a>.</p>
+</div>
+<div class="citation" id="id201" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>18<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id37">1</a>,<a role="doc-backlink" href="#id39">2</a>)</span>
+<p>Lu, J., Wang, G., Chen, T., Li, S., Hagan, D. F. T., Kattel, G., Peng, J., Jiang, T., and Su, B. A harmonized global land evaporation dataset from model-based products covering 1980–2017. <em>Earth System Science Data</em>, 13(12):5879–5898, 2021. <a class="reference external" href="https://doi.org/10.5194/essd-13-5879-2021">doi:10.5194/essd-13-5879-2021</a>.</p>
+</div>
+<div class="citation" id="id141" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id17">19</a><span class="fn-bracket">]</span></span>
+<p>Masson-Delmotte, V., Zhai, P., Pirani, A., and others, editors. <em>Climate Change 2021: The Physical Science Basis</em>. Cambridge University Press, Cambridge and New York, 2021. <a class="reference external" href="https://doi.org/10.1017/9781009157896">doi:10.1017/9781009157896</a>.</p>
+</div>
+<div class="citation" id="id200" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id31">20</a><span class="fn-bracket">]</span></span>
+<p>Miralles, D. G., Bonte, O., Koppa, A., Baez-Villanueva, O. M., Tronquo, E., Zhong, F., Beck, H. E., Hulsman, P., Dorigo, W., Verhoest, N. E. C., and Haghdoost, S. GLEAM4: global land evaporation and soil moisture dataset at 0.1 degree resolution from 1980 to near present. <em>Scientific Data</em>, 12:416, 2025. <a class="reference external" href="https://doi.org/10.1038/s41597-025-04610-y">doi:10.1038/s41597-025-04610-y</a>.</p>
+</div>
+<div class="citation" id="id181" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>21<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id3">1</a>,<a role="doc-backlink" href="#id5">2</a>)</span>
+<p>Miralles, D. G., Brutsaert, W., Dolman, A. J., and Gash, J. H. On the use of the term “evapotranspiration”. <em>Water Resources Research</em>, 56(11):e2020WR028055, 2020. <a class="reference external" href="https://doi.org/10.1029/2020WR028055">doi:10.1029/2020WR028055</a>.</p>
+</div>
+<div class="citation" id="id175" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>22<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id15">1</a>,<a role="doc-backlink" href="#id21">2</a>)</span>
+<p>Monteith, J. L. Evaporation and environment. In <em>The State and Movement of Water in Living Organisms</em>, volume 19 of Symposia of the Society for Experimental Biology, pages 205–234. Cambridge University Press, 1965.</p>
+</div>
+<div class="citation" id="id206" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id32">23</a><span class="fn-bracket">]</span></span>
+<p>Mu, Q., Zhao, M., and Running, S. W. Improvements to a MODIS global terrestrial evapotranspiration algorithm. <em>Remote Sensing of Environment</em>, 115(8):1781–1800, 2011. <a class="reference external" href="https://doi.org/10.1016/j.rse.2011.02.019">doi:10.1016/j.rse.2011.02.019</a>.</p>
+</div>
+<div class="citation" id="id209" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id36">24</a><span class="fn-bracket">]</span></span>
+<p>Muñoz-Sabater, J., Dutra, E., Agustí-Panareda, A., Albergel, C., Arduini, G., Balsamo, G., Boussetta, S., Choulga, M., Harrigan, S., Hersbach, H., and others. ERA5-Land: a state-of-the-art global reanalysis dataset for land applications. <em>Earth System Science Data</em>, 13(9):4349–4383, 2021. <a class="reference external" href="https://doi.org/10.5194/essd-13-4349-2021">doi:10.5194/essd-13-4349-2021</a>.</p>
+</div>
+<div class="citation" id="id174" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id20">25</a><span class="fn-bracket">]</span></span>
+<p>Penman, H. L. Natural evaporation from open water, bare soil and grass. <em>Proceedings of the Royal Society of London. Series A</em>, 193(1032):120–145, 1948. <a class="reference external" href="https://doi.org/10.1098/rspa.1948.0037">doi:10.1098/rspa.1948.0037</a>.</p>
+</div>
+<div class="citation" id="id195" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id47">26</a><span class="fn-bracket">]</span></span>
+<p>Pike, J. G. The estimation of annual run-off from meteorological data in a tropical climate. <em>Journal of Hydrology</em>, 2(2):116–123, 1964. <a class="reference external" href="https://doi.org/10.1016/0022-1694(64)90022-8">doi:10.1016/0022-1694(64)90022-8</a>.</p>
+</div>
+<div class="citation" id="id176" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id24">27</a><span class="fn-bracket">]</span></span>
+<p>Priestley, C. H. B. and Taylor, R. J. On the assessment of surface heat flux and evaporation using large-scale parameters. <em>Monthly Weather Review</em>, 100(2):81–92, 1972. <a class="reference external" href="https://doi.org/10.1175/1520-0493(1972)100&lt;0081:OTAOSH&gt;2.3.CO;2">doi:10.1175/1520-0493(1972)100&lt;0081:OTAOSH&gt;2.3.CO;2</a>.</p>
+</div>
+<div class="citation" id="id144" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>28<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id2">1</a>,<a role="doc-backlink" href="#id3">2</a>,<a role="doc-backlink" href="#id7">3</a>,<a role="doc-backlink" href="#id16">4</a>,<a role="doc-backlink" href="#id41">5</a>,<a role="doc-backlink" href="#id43">6</a>)</span>
+<p>Robinson, M. and Ward, R. <em>Hydrology: Principles and Processes</em>. IWA Publishing, 2017.</p>
+</div>
+<div class="citation" id="id183" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>29<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id42">2</a>)</span>
+<p>Rodell, M., Beaudoing, H. K., L'Ecuyer, T. S., and others. The observed state of the water cycle in the early twenty-first century. <em>Journal of Climate</em>, 28(21):8289–8318, 2015. <a class="reference external" href="https://doi.org/10.1175/JCLI-D-14-00555.1">doi:10.1175/JCLI-D-14-00555.1</a>.</p>
+</div>
+<div class="citation" id="id211" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id36">30</a><span class="fn-bracket">]</span></span>
+<p>Rodell, M., Houser, P. R., Jambor, U., Gottschalck, J., Mitchell, K., Meng, C.-J., Arsenault, K., Cosgrove, B., Radakovich, J., Bosilovich, M., and others. The global land data assimilation system. <em>Bulletin of the American Meteorological Society</em>, 85(3):381–394, 2004. <a class="reference external" href="https://doi.org/10.1175/BAMS-85-3-381">doi:10.1175/BAMS-85-3-381</a>.</p>
+</div>
+<div class="citation" id="id191" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>31<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id45">1</a>,<a role="doc-backlink" href="#id52">2</a>)</span>
+<p>Roderick, M. L. and Farquhar, G. D. A simple framework for relating variations in runoff to variations in climatic conditions and catchment properties. <em>Water Resources Research</em>, 47:W00G07, 2011. <a class="reference external" href="https://doi.org/10.1029/2010WR009826">doi:10.1029/2010WR009826</a>.</p>
+</div>
+<div class="citation" id="id198" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">32</a><span class="fn-bracket">]</span></span>
+<p>Savenije, H. H. G. The importance of interception and why we should delete the term evapotranspiration from our vocabulary. <em>Hydrological Processes</em>, 18(8):1507–1511, 2004. <a class="reference external" href="https://doi.org/10.1002/hyp.5563">doi:10.1002/hyp.5563</a>.</p>
+</div>
+<div class="citation" id="id199" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">33</a><span class="fn-bracket">]</span></span>
+<p>Schlesinger, W. H. and Jasechko, S. Transpiration in the global water cycle. <em>Agricultural and Forest Meteorology</em>, 189–190:115–117, 2014. <a class="reference external" href="https://doi.org/10.1016/j.agrformet.2014.01.011">doi:10.1016/j.agrformet.2014.01.011</a>.</p>
+</div>
+<div class="citation" id="id212" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id34">34</a><span class="fn-bracket">]</span></span>
+<p>Senay, G. B., Bohms, S., Singh, R. K., Gowda, P. H., Velpuri, N. M., Alemu, H., and Verdin, J. P. Operational evapotranspiration mapping using remote sensing and weather datasets: a new parameterization for the SSEB approach. <em>Journal of the American Water Resources Association</em>, 49(3):577–591, 2013. <a class="reference external" href="https://doi.org/10.1111/jawr.12057">doi:10.1111/jawr.12057</a>.</p>
+</div>
+<div class="citation" id="id177" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>35<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id16">1</a>,<a role="doc-backlink" href="#id25">2</a>)</span>
+<p>Shuttleworth, W. J. and Wallace, J. S. Evaporation from sparse crops–an energy combination theory. <em>Quarterly Journal of the Royal Meteorological Society</em>, 111(469):839–855, 1985. <a class="reference external" href="https://doi.org/10.1002/qj.49711146910">doi:10.1002/qj.49711146910</a>.</p>
+</div>
+<div class="citation" id="id194" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id44">36</a><span class="fn-bracket">]</span></span>
+<p>Sposito, G. Understanding the budyko equation. <em>Water</em>, 9(4):236, 2017. <a class="reference external" href="https://doi.org/10.3390/w9040236">doi:10.3390/w9040236</a>.</p>
+</div>
+<div class="citation" id="id185" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>37<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id8">1</a>,<a role="doc-backlink" href="#id12">2</a>)</span>
+<p>Stephens, G. L., Li, J., Wild, M., and others. An update on earth's energy balance in light of the latest global observations. <em>Nature Geoscience</em>, 5:691–696, 2012. <a class="reference external" href="https://doi.org/10.1038/ngeo1580">doi:10.1038/ngeo1580</a>.</p>
+</div>
+<div class="citation" id="id196" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id27">38</a><span class="fn-bracket">]</span></span>
+<p>Thornthwaite, C. W. An approach toward a rational classification of climate. <em>Geographical Review</em>, 38(1):55–94, 1948. <a class="reference external" href="https://doi.org/10.2307/210739">doi:10.2307/210739</a>.</p>
+</div>
+<div class="citation" id="id197" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id26">39</a><span class="fn-bracket">]</span></span>
+<p>Turc, L. Evaluation des besoins en eau d'irrigation, evapotranspiration potentielle. <em>Annales Agronomiques</em>, 12:13–49, 1961.</p>
+</div>
+<div class="citation" id="id110" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id8">40</a><span class="fn-bracket">]</span></span>
+<p>Wallace, J. M. and Hobbs, P. V. <em>Atmospheric Science: An Introductory Survey</em>. Elsevier, 2nd edition, 2006.</p>
+</div>
+<div class="citation" id="id203" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>41<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id29">1</a>,<a role="doc-backlink" href="#id39">2</a>)</span>
+<p>Wang, K. and Dickinson, R. E. A review of global terrestrial evapotranspiration: observation, modeling, climatology, and climatic variability. <em>Reviews of Geophysics</em>, 50(2):RG2005, 2012. <a class="reference external" href="https://doi.org/10.1029/2011RG000373">doi:10.1029/2011RG000373</a>.</p>
+</div>
+<div class="citation" id="id193" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id51">42</a><span class="fn-bracket">]</span></span>
+<p>Williams, C. A., Reichstein, M., Buchmann, N., and others. Climate and vegetation controls on the surface water balance: synthesis of evapotranspiration measured across a global network of flux towers. <em>Water Resources Research</em>, 48:W06523, 2012. <a class="reference external" href="https://doi.org/10.1029/2011WR011586">doi:10.1029/2011WR011586</a>.</p>
+</div>
+<div class="citation" id="id188" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id48">43</a><span class="fn-bracket">]</span></span>
+<p>Yang, H., Yang, D., Lei, Z., and Sun, F. New analytical derivation of the mean annual water-energy balance equation. <em>Water Resources Research</em>, 44:W03410, 2008. <a class="reference external" href="https://doi.org/10.1029/2007WR006135">doi:10.1029/2007WR006135</a>.</p>
+</div>
+<div class="citation" id="id189" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>44<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id47">1</a>,<a role="doc-backlink" href="#id48">2</a>,<a role="doc-backlink" href="#id49">3</a>)</span>
+<p>Zhang, L., Hickel, K., Dawes, W. R., Chiew, F. H. S., Western, A. W., and Briggs, P. R. A rational function approach for estimating mean annual evapotranspiration. <em>Water Resources Research</em>, 40:W02502, 2004. <a class="reference external" href="https://doi.org/10.1029/2003WR002710">doi:10.1029/2003WR002710</a>.</p>
+</div>
+<div class="citation" id="id207" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id33">45</a><span class="fn-bracket">]</span></span>
+<p>Zhang, Y., Kong, D., Gan, R., Chiew, F. H. S., McVicar, T. R., Zhang, Q., and Yang, Y. Coupled estimation of 500 m and 8-day resolution global evapotranspiration and gross primary production in 2002–2017. <em>Remote Sensing of Environment</em>, 222:165–182, 2019. <a class="reference external" href="https://doi.org/10.1016/j.rse.2018.12.031">doi:10.1016/j.rse.2018.12.031</a>.</p>
+</div>
+<div class="citation" id="id146" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>46<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id2">2</a>,<a role="doc-backlink" href="#id3">3</a>,<a role="doc-backlink" href="#id14">4</a>,<a role="doc-backlink" href="#id15">5</a>,<a role="doc-backlink" href="#id18">6</a>,<a role="doc-backlink" href="#id40">7</a>,<a role="doc-backlink" href="#id43">8</a>)</span>
+<p>World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="07-Capitulo07-Precipitacion.html" class="btn btn-neutral float-left" title="7. Precipitación" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2025, Mauricio Zambrano-Bigiarini y Alonso Pizarro.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+</body>
+</html>

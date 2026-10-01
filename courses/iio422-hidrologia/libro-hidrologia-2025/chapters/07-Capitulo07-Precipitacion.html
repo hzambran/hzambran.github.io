@@ -1,0 +1,1048 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>7. Precipitación &mdash; documentación de Libro Hidrología 2025 - Alpha</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+
+
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=d000853a"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/translations.js?v=f85f4cfb"></script>
+      <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="8. Evaporación" href="08-Capitulo08-Evaporacion.html" />
+    <link rel="prev" title="6. Clasificación climática" href="06-Capitulo06-ClasificacionClimatica.html" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+  <link rel="stylesheet" href="/courses/iio422-hidrologia/libro-hidrologia-2025/_static/hydrology-protection.css" />
+  <script src="/courses/iio422-hidrologia/libro-hidrologia-2025/_static/hydrology-protection.js"></script>
+</head>
+
+<body class="wy-body-for-nav">
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+
+
+          <a href="../index.html" class="icon icon-home">
+            Libro Hidrología 2025
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" aria-label="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Capítulos</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="01-Capitulo01-Historia.html">1. Historia de la hidrología como ciencia</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html">2. Conceptos básicos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-Capitulo03-GestionDeRRHH.html">3. Marco legal e institucional del agua en Chile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html">4. Agua en la atmósfera</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-Capitulo05-CirculacionAtmosferica_y_VientosGlobales.html">5. Circulación atmosférica global</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-Capitulo06-ClasificacionClimatica.html">6. Clasificación climática</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">7. Precipitación</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduccion">7.1. Introducción</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#fundamentos-fisicos">7.2. Fundamentos físicos</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#del-vapor-a-la-nube">7.2.1. Del vapor a la nube</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nubes-y-estructura-vertical">7.2.2. Nubes y estructura vertical</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#colision-y-coalescencia-en-nubes-calidas">7.2.3. Colisión y coalescencia en nubes cálidas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#proceso-bergeron-findeisen-y-crecimiento-del-hielo">7.2.4. Proceso Bergeron-Findeisen y crecimiento del hielo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#conversion-a-intensidad-y-acumulacion">7.2.5. Conversión a intensidad y acumulación</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#mecanismos-de-ascenso-y-tipos-de-precipitacion">7.3. Mecanismos de ascenso y tipos de precipitación</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#precipitacion-convectiva">7.3.1. Precipitación convectiva</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#precipitacion-orografica">7.3.2. Precipitación orográfica</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#precipitacion-ciclonica-o-frontal">7.3.3. Precipitación ciclónica o frontal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#precipitacion-en-chile">7.3.4. Precipitación en Chile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#formas-de-precipitacion">7.3.5. Formas de precipitación</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#medicion-de-la-precipitacion">7.4. Medición de la precipitación</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pluviometros-y-pluviografos">7.4.1. Pluviómetros y pluviógrafos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nivometros-y-medicion-de-nieve">7.4.2. Nivómetros y medición de nieve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#radar-meteorologico">7.4.3. Radar meteorológico</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#satelites">7.4.4. Satélites</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reanalisis-y-productos-fusionados">7.4.5. Reanálisis y productos fusionados</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fuentes-de-datos-mundiales-y-para-chile">7.5. Fuentes de datos mundiales y para Chile</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#como-seleccionar-una-fuente">7.5.1. Cómo seleccionar una fuente</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#datos-in-situ-mundiales">7.5.2. Datos <em>in situ</em> mundiales</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#productos-grillados-globales">7.5.3. Productos grillados globales</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fuentes-in-situ-en-chile">7.5.4. Fuentes <em>in situ</em> en Chile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#productos-grillados-para-chile">7.5.5. Productos grillados para Chile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trazabilidad-minima">7.5.6. Trazabilidad mínima</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#control-de-calidad">7.6. Control de calidad</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#principio-general">7.6.1. Principio general</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#inventario-y-metadatos">7.6.2. Inventario y metadatos</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pruebas-de-integridad">7.6.3. Pruebas de integridad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consistencia-temporal">7.6.4. Consistencia temporal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consistencia-espacial">7.6.5. Consistencia espacial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#homogeneidad">7.6.6. Homogeneidad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#relleno-de-datos-faltantes">7.6.7. Relleno de datos faltantes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#analisis-exploratorio">7.7. Análisis exploratorio</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#disponibilidad-y-completitud">7.7.1. Disponibilidad y completitud</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#estadisticos-de-ocurrencia-y-cantidad">7.7.2. Estadísticos de ocurrencia y cantidad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#graficos-esenciales">7.7.3. Gráficos esenciales</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#dependencia-temporal-y-espacial">7.7.4. Dependencia temporal y espacial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tendencias-y-no-estacionariedad">7.7.5. Tendencias y no estacionariedad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comparacion-de-productos">7.7.6. Comparación de productos</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#precipitacion-areal-e-interpolacion-espacial">7.8. Precipitación areal e interpolación espacial</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#del-punto-a-la-cuenca">7.8.1. Del punto a la cuenca</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#promedio-aritmetico">7.8.2. Promedio aritmético</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#poligonos-de-thiessen">7.8.3. Polígonos de Thiessen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#isoyetas">7.8.4. Isoyetas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#inverso-de-la-distancia">7.8.5. Inverso de la distancia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#kriging-y-regresion-kriging">7.8.6. Kriging y regresión-kriging</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fusion-con-radar-satelite-o-reanalisis">7.8.7. Fusión con radar, satélite o reanálisis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#productos-grillados-como-alternativa-operacional">7.8.8. Productos grillados como alternativa operacional</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#validacion-cruzada">7.8.9. Validación cruzada</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#magnitudes-hidrologicas-derivadas">7.9. Magnitudes hidrológicas derivadas</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#modulo-y-normales-climatologicas">7.9.1. Módulo y normales climatológicas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#tormentas-de-diseno-e-idf">7.9.2. Tormentas de diseño e IDF</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hietogramas-de-diseno">7.9.3. Hietogramas de diseño</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#indices-de-sequia-y-extremos">7.9.4. Índices de sequía y extremos</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#aplicaciones-en-ingenieria-civil">7.10. Aplicaciones en ingeniería civil</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#drenaje-urbano-y-vial">7.10.1. Drenaje urbano y vial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#control-de-inundaciones">7.10.2. Control de inundaciones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#embalses-y-abastecimiento">7.10.3. Embalses y abastecimiento</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hidroelectricidad-y-operacion">7.10.4. Hidroelectricidad y operación</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#estabilidad-de-laderas-y-erosion">7.10.5. Estabilidad de laderas y erosión</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#construccion-y-geotecnia">7.10.6. Construcción y geotecnia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#infraestructura-resiliente">7.10.7. Infraestructura resiliente</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#flujo-de-trabajo-reproducible">7.11. Flujo de trabajo reproducible</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#etapa-1-formular-la-decision">7.11.1. Etapa 1: formular la decisión</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#etapa-2-construir-el-inventario">7.11.2. Etapa 2: construir el inventario</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#etapa-3-armonizar">7.11.3. Etapa 3: armonizar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#etapa-4-controlar-y-explorar">7.11.4. Etapa 4: controlar y explorar</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#etapa-5-modelar-el-espacio">7.11.5. Etapa 5: modelar el espacio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#etapa-6-propagar-incertidumbre">7.11.6. Etapa 6: propagar incertidumbre</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#etapa-7-comunicar">7.11.7. Etapa 7: comunicar</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ejemplo-conceptual-integrado">7.12. Ejemplo conceptual integrado</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#errores-frecuentes">7.13. Errores frecuentes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#actividades-de-aprendizaje">7.14. Actividades de aprendizaje</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#actividad-1-de-tormenta-a-volumen">7.14.1. Actividad 1: de tormenta a volumen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#actividad-2-diagnostico-de-calidad">7.14.2. Actividad 2: diagnóstico de calidad</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#actividad-3-producto-apropiado">7.14.3. Actividad 3: producto apropiado</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#actividad-4-validacion-espacial">7.14.4. Actividad 4: validación espacial</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#actividad-5-decision-de-ingenieria">7.14.5. Actividad 5: decisión de ingeniería</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#sintesis">7.15. Síntesis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#verificacion-de-aprendizaje">7.16. Verificación de aprendizaje</a></li>
+<li><a class="reference internal" href="#references">7.17. References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="08-Capitulo08-Evaporacion.html">8. Evaporación</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Libro Hidrología 2025</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><span class="section-number">7. </span>Precipitación</li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+
+  <section id="precipitacion">
+<h1><span class="section-number">7. </span>Precipitación<a class="headerlink" href="#precipitacion" title="Link to this heading"></a></h1>
+<blockquote class="epigraph">
+<div><p>«La precipitación no es solamente una altura de agua: es el resultado observable de una cadena de procesos atmosféricos y la entrada principal de numerosos sistemas hidrológicos».</p>
+<p>(Síntesis del capítulo)</p>
+</div></blockquote>
+<section id="introduccion">
+<h2><span class="section-number">7.1. </span>Introducción<a class="headerlink" href="#introduccion" title="Link to this heading"></a></h2>
+<p>La <strong>precipitación</strong> es el agua, en estado líquido o sólido, que cae desde la atmósfera y alcanza la superficie terrestre por acción de la gravedad. Esta definición parece sencilla, pero la variable que se utiliza en hidrología integra procesos que ocurren en escalas muy diferentes: la activación de aerosoles de tamaño micrométrico, el crecimiento de gotas y cristales dentro de una nube, la organización de sistemas meteorológicos de cientos de kilómetros y la interacción de esas estructuras con la topografía. El valor finalmente observado depende, además, del instrumento, de su exposición al viento, del intervalo de acumulación y del procedimiento de control de calidad.</p>
+<p>Para la ingeniería civil, la precipitación es simultáneamente una <strong>acción de diseño</strong>, una <strong>entrada de modelos</strong> y una <strong>fuente de riesgo</strong>. Una tormenta intensa puede controlar el diámetro de un colector urbano; una secuencia de meses húmedos puede determinar la operación de un embalse; la acumulación de nieve condiciona la disponibilidad estacional de agua y las cargas sobre estructuras; y una climatología mal representada puede sesgar la evaluación de sequías, inundaciones o estabilidad de laderas. Por ello, no basta con descargar una serie y calcular su promedio: es necesario comprender qué mide, cómo fue producida y para qué escala resulta representativa <span class="bibtex-citation" id="id1">(<a class="reference internal" href="#id132" title="Chow, V. T., Maidment, D. R., and Mays, L. W. Hidrología aplicada. McGraw-Hill, 1994.">Chow <em>et al.</em>, 1994</a>; <a class="reference internal" href="#id134" title="Robinson, M. and Ward, R. Hydrology: Principles and Processes. IWA Publishing, 2017.">Robinson and Ward, 2017</a>; <a class="reference internal" href="#id133" title="Shaw, E. M., Beven, K. J., Chappell, N. A., and Lamb, R. Hydrology in Practice. Spon Press, 4th edition, 2011.">Shaw <em>et al.</em>, 2011</a>)</span>.</p>
+<p>Este capítulo desarrolla cuatro capacidades. Al finalizar, el lector debería poder:</p>
+<ul class="simple">
+<li><p>explicar los mecanismos físicos que producen precipitación líquida y sólida;</p></li>
+<li><p>distinguir observaciones puntuales, estimaciones remotas, reanálisis y productos fusionados;</p></li>
+<li><p>diseñar un flujo reproducible de control de calidad, análisis exploratorio, relleno e interpolación; y</p></li>
+<li><p>seleccionar datos y métodos coherentes con una aplicación de ingeniería civil.</p></li>
+</ul>
+<figure class="align-center" id="id203">
+<span id="fig-ch07-01"></span><a class="reference internal image-reference" href="../_images/ch07-01-overview.jpg"><img alt="../_images/ch07-01-overview.jpg" src="../_images/ch07-01-overview.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.1 </span><span class="caption-text">Cadena conceptual que conecta la pregunta de ingeniería, las fuentes de evidencia, el análisis y la decisión. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id203" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La <a class="reference internal" href="#fig-ch07-01"><span class="std std-ref">Figura 1</span></a> sirve de mapa del capítulo: sus cuatro paneles corresponden, respectivamente, a formulación del problema, observación, análisis y uso del resultado.</p>
+<p>La organización parte de la física del agua atmosférica y avanza hacia la observación, el análisis y la decisión de ingeniería, como resume la <a class="reference internal" href="#fig-ch07-01"><span class="std std-ref">Figura 1</span></a>. La precipitación es el flujo que devuelve agua desde la atmósfera a la superficie dentro del <a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html#ciclo-hidrologico"><span class="std std-ref">ciclo hidrológico</span></a>, mientras la <a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html#cuenca-hidrografica"><span class="std std-ref">cuenca hidrográfica</span></a> define el dominio natural en el cual ese aporte se transforma, almacena y propaga. El tratamiento sigue la tradición de textos de hidrología aplicada y de procesos, complementada con normas internacionales de observación <span class="bibtex-citation" id="id2">(<a class="reference internal" href="#id132" title="Chow, V. T., Maidment, D. R., and Mays, L. W. Hidrología aplicada. McGraw-Hill, 1994.">Chow <em>et al.</em>, 1994</a>; <a class="reference internal" href="#id134" title="Robinson, M. and Ward, R. Hydrology: Principles and Processes. IWA Publishing, 2017.">Robinson and Ward, 2017</a>; <a class="reference internal" href="#id133" title="Shaw, E. M., Beven, K. J., Chappell, N. A., and Lamb, R. Hydrology in Practice. Spon Press, 4th edition, 2011.">Shaw <em>et al.</em>, 2011</a>; <a class="reference internal" href="#id136" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>)</span>.</p>
+<div class="admonition-pregunta-guia admonition">
+<p class="admonition-title">Pregunta guía</p>
+<p>Si una estación registra 42 mm durante una tormenta y un producto satelital entrega 31 mm en la celda que la contiene, ¿cuál de los dos valores es correcto? La respuesta rigurosa es que representan soportes espaciales, algoritmos y fuentes de error diferentes. Antes de compararlos hay que armonizar período, unidad, zona horaria, fase de la precipitación y escala espacial.</p>
+</div>
+</section>
+<section id="fundamentos-fisicos">
+<h2><span class="section-number">7.2. </span>Fundamentos físicos<a class="headerlink" href="#fundamentos-fisicos" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id204">
+<span id="fig-ch07-02"></span><a class="reference internal image-reference" href="../_images/ch07-02-physics.jpg"><img alt="../_images/ch07-02-physics.jpg" src="../_images/ch07-02-physics.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.2 </span><span class="caption-text">Relaciones entre termodinámica, microfísica, fase y magnitudes observadas. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id204" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Cada subsección se apoya en uno o más paneles de la <a class="reference internal" href="#fig-ch07-02"><span class="std std-ref">Figura 2</span></a>: saturación y nucleación para el paso de vapor a nube, la fotografía de convección profunda como contexto de la estructura vertical, nube cálida para coalescencia, fase mixta para Bergeron-Findeisen, y magnitud y superficie para acumulación e intensidad.</p>
+<section id="del-vapor-a-la-nube">
+<h3><span class="section-number">7.2.1. </span>Del vapor a la nube<a class="headerlink" href="#del-vapor-a-la-nube" title="Link to this heading"></a></h3>
+<p>La presencia de vapor de agua no garantiza precipitación. Primero debe producirse saturación, normalmente porque una parcela de aire húmedo asciende, se expande al encontrar menor presión y se enfría aproximadamente de manera adiabática, proceso desarrollado en <a class="reference internal" href="05-Capitulo05-CirculacionAtmosferica_y_VientosGlobales.html#procesos-adiabaticos"><span class="std std-ref">Procesos adiabáticos</span></a>. Cuando la temperatura alcanza el punto de rocío, el exceso de vapor puede condensar. La presión de vapor de saturación aumenta con la temperatura de acuerdo con la relación de <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#clausius-clapeyron"><span class="std std-ref">Humedad atmosférica y ley de Clausius-Clapeyron</span></a>; cerca de las temperaturas habituales de la troposfera, el incremento es del orden de 6–7 % por grado Celsius. Esta relación describe una capacidad termodinámica, no una regla automática para la precipitación observada, porque también intervienen la disponibilidad de humedad, la dinámica y la eficiencia microfísica. El panel «Saturación» de la <a class="reference internal" href="#fig-ch07-02"><span class="std std-ref">Figura 2</span></a> separa esos eslabones <span class="bibtex-citation" id="id3">(<a class="reference internal" href="#id135" title="Hakim, G. J. and Patoux, J. Weather: A Concise Introduction. Cambridge University Press, 2nd edition, 2022.">Hakim and Patoux, 2022</a>; <a class="reference internal" href="#id100" title="Wallace, J. M. and Hobbs, P. V. Atmospheric Science: An Introductory Survey. Elsevier, 2nd edition, 2006.">Wallace and Hobbs, 2006</a>)</span>.</p>
+<p>La condensación homogénea requeriría sobresaturaciones mucho mayores que las presentes en la atmósfera. En condiciones reales, el vapor se deposita sobre <strong>núcleos de condensación de nubes</strong>: partículas higroscópicas de sal marina, sulfatos, polvo mineral o productos de combustión. Para formar hielo existen núcleos de congelación y de deposición, menos abundantes. La población, tamaño y composición de los aerosoles influyen en el número inicial de gotas y, por tanto, en la eficiencia con que una nube transforma agua condensada en hidrometeoros precipitantes.</p>
+<p>Una nube es visible porque contiene gotas o cristales, pero la mayoría de esas partículas son demasiado pequeñas para caer hasta el suelo. Una gota nubosa típica tiene un diámetro cercano a 10–20 micrómetros, mientras que una gota de lluvia posee diámetros del orden de 0,1–5 mm. El crecimiento exclusivo por condensación se vuelve lento a medida que la gota aumenta; son necesarios mecanismos de colección o procesos de hielo para alcanzar tamaños precipitantes, transición representada por los paneles «Nucleación», «Nube cálida» y «Fase mixta» de la <a class="reference internal" href="#fig-ch07-02"><span class="std std-ref">Figura 2</span></a> <span class="bibtex-citation" id="id4">(<a class="reference internal" href="#id135" title="Hakim, G. J. and Patoux, J. Weather: A Concise Introduction. Cambridge University Press, 2nd edition, 2022.">Hakim and Patoux, 2022</a>; <a class="reference internal" href="#id100" title="Wallace, J. M. and Hobbs, P. V. Atmospheric Science: An Introductory Survey. Elsevier, 2nd edition, 2006.">Wallace and Hobbs, 2006</a>)</span>.</p>
+</section>
+<section id="nubes-y-estructura-vertical">
+<h3><span class="section-number">7.2.2. </span>Nubes y estructura vertical<a class="headerlink" href="#nubes-y-estructura-vertical" title="Link to this heading"></a></h3>
+<p>Los nombres de las nubes entregan información útil sobre altura, forma y potencial de precipitación. Las nubes <strong>estratiformes</strong> poseen gran desarrollo horizontal y movimientos verticales relativamente débiles; suelen producir precipitación extendida y de intensidad baja o moderada. Las nubes <strong>cumuliformes</strong> se asocian con convección y desarrollo vertical; un cumulonimbo puede atravesar gran parte de la <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#capas-atmosfera"><span class="std std-ref">Capas de la atmósfera</span></a> denominada troposfera y generar chubascos intensos, granizo, rayos y ráfagas. El prefijo <em>nimbo</em> identifica nubes asociadas a precipitación, mientras que <em>cirro</em>, <em>alto</em> y <em>strato</em> ayudan a describir nivel y estructura. La fotografía de convección profunda y el panel «Fase mixta» de la <a class="reference internal" href="#fig-ch07-02"><span class="std std-ref">Figura 2</span></a> muestran por qué estructura y temperatura deben interpretarse conjuntamente.</p>
+<p>La temperatura interna permite distinguir tres ambientes microfísicos:</p>
+<ul class="simple">
+<li><p>en una <strong>nube cálida</strong>, la región activa se encuentra sobre 0 °C y domina la colisión-coalescencia;</p></li>
+<li><p>en una <strong>nube fría</strong>, predominan cristales de hielo y procesos de deposición y agregación;</p></li>
+<li><p>en una <strong>nube de fase mixta</strong>, coexisten cristales y gotas de agua superenfriada, situación especialmente eficiente para producir precipitación.</p></li>
+</ul>
+<p>El agua líquida puede permanecer superenfriada a temperaturas menores que 0 °C. Por ello, la fase observada en superficie no se deduce solamente de la temperatura del suelo: depende del perfil térmico completo entre la nube y el punto de observación. Un copo puede fundirse en una capa cálida y llegar como lluvia; una gota puede volver a congelarse en una capa fría y producir aguanieve o lluvia engelante.</p>
+</section>
+<section id="colision-y-coalescencia-en-nubes-calidas">
+<h3><span class="section-number">7.2.3. </span>Colisión y coalescencia en nubes cálidas<a class="headerlink" href="#colision-y-coalescencia-en-nubes-calidas" title="Link to this heading"></a></h3>
+<p>En una nube cálida, la distribución de tamaños es esencial. Las gotas grandes poseen mayor velocidad terminal que las pequeñas y pueden alcanzarlas. La probabilidad de que una gota colectora intercepte otra se denomina <strong>eficiencia de colisión</strong>; la fracción de colisiones que termina en una sola gota se denomina <strong>eficiencia de coalescencia</strong>. Turbulencia, carga eléctrica, concentración de agua líquida y amplitud del espectro de tamaños modifican ambas eficiencias.</p>
+<p>El crecimiento se acelera una vez que aparecen algunas gotas suficientemente grandes. Estas gotas barren un volumen creciente, incorporan gotas menores y pueden superar las corrientes ascendentes. Si su diámetro se hace excesivo, la deformación aerodinámica produce fragmentación. Por esta razón, la lluvia natural contiene una distribución de tamaños y no gotas idénticas. En ambientes tropicales y subtropicales, la colisión-coalescencia puede generar lluvia intensa sin intervención de hielo, como sintetiza el panel «Nube cálida» de la <a class="reference internal" href="#fig-ch07-02"><span class="std std-ref">Figura 2</span></a> <span class="bibtex-citation" id="id5">(<a class="reference internal" href="#id135" title="Hakim, G. J. and Patoux, J. Weather: A Concise Introduction. Cambridge University Press, 2nd edition, 2022.">Hakim and Patoux, 2022</a>; <a class="reference internal" href="#id100" title="Wallace, J. M. and Hobbs, P. V. Atmospheric Science: An Introductory Survey. Elsevier, 2nd edition, 2006.">Wallace and Hobbs, 2006</a>)</span>.</p>
+</section>
+<section id="proceso-bergeron-findeisen-y-crecimiento-del-hielo">
+<h3><span class="section-number">7.2.4. </span>Proceso Bergeron-Findeisen y crecimiento del hielo<a class="headerlink" href="#proceso-bergeron-findeisen-y-crecimiento-del-hielo" title="Link to this heading"></a></h3>
+<p>En una nube de fase mixta, la presión de vapor de saturación sobre hielo es menor que sobre agua líquida a la misma temperatura bajo cero. Si el aire está saturado respecto del agua, queda sobresaturado respecto del hielo. El vapor se deposita preferentemente sobre los cristales, mientras las gotas superenfriadas tienden a evaporarse: es el proceso de <strong>Bergeron-Findeisen</strong>, representado en el panel «Fase mixta» de la <a class="reference internal" href="#fig-ch07-02"><span class="std std-ref">Figura 2</span></a>. Los cristales también crecen por agregación con otros cristales y por acreción de gotas superenfriadas, proceso denominado <em>riming</em> <span class="bibtex-citation" id="id6">(<a class="reference internal" href="#id100" title="Wallace, J. M. and Hobbs, P. V. Atmospheric Science: An Introductory Survey. Elsevier, 2nd edition, 2006.">Wallace and Hobbs, 2006</a>)</span>.</p>
+<p>La forma final depende de temperatura y humedad: placas, columnas, dendritas y partículas granuladas son manifestaciones de historias microfísicas diferentes. Los agregados pueden llegar al suelo como nieve o fundirse al atravesar una capa cálida. El granizo requiere corrientes ascendentes intensas que mantengan embriones de hielo dentro de regiones con agua superenfriada, donde acumulan sucesivas capas antes de que su peso supere la sustentación.</p>
+<div class="admonition-idea-clave admonition">
+<p class="admonition-title">Idea clave</p>
+<p><strong>Condensación no equivale a precipitación.</strong> La condensación forma la nube; la precipitación exige crecimiento adicional, supervivencia durante la caída y llegada a la superficie. Parte del agua puede evaporarse bajo la nube y producir <em>virga</em>.</p>
+</div>
+</section>
+<section id="conversion-a-intensidad-y-acumulacion">
+<h3><span class="section-number">7.2.5. </span>Conversión a intensidad y acumulación<a class="headerlink" href="#conversion-a-intensidad-y-acumulacion" title="Link to this heading"></a></h3>
+<p>La altura de precipitación <span class="math notranslate nohighlight">\(P\)</span> expresa el espesor que tendría el agua si se distribuyera uniformemente sobre una superficie horizontal, sin infiltración, escorrentía ni evaporación. El panel «Magnitud» de la <a class="reference internal" href="#fig-ch07-02"><span class="std std-ref">Figura 2</span></a> conecta altura, duración e intensidad. Un milímetro equivale a un litro por metro cuadrado. Para un área <span class="math notranslate nohighlight">\(A\)</span>, el volumen es:</p>
+<div class="math notranslate nohighlight">
+\[V = P A,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(P\)</span> debe expresarse en metros para obtener <span class="math notranslate nohighlight">\(V\)</span> en metros cúbicos. Así, 25 mm sobre una cuenca de 80 km² representan un volumen bruto de 2 millones de m³. Ese volumen no es el caudal de salida: una fracción será interceptada, almacenada, infiltrada o evapotranspirada.</p>
+<p>La intensidad media durante un intervalo <span class="math notranslate nohighlight">\(\Delta t\)</span> es:</p>
+<div class="math notranslate nohighlight">
+\[i = \frac{\Delta P}{\Delta t}.\]</div>
+<p>Una misma acumulación puede provenir de intensidades muy diferentes. Cincuenta milímetros en un mes afectan el balance hídrico; cincuenta milímetros en treinta minutos pueden controlar una obra de drenaje. Siempre deben informarse acumulación, duración y resolución temporal.</p>
+</section>
+</section>
+<section id="mecanismos-de-ascenso-y-tipos-de-precipitacion">
+<h2><span class="section-number">7.3. </span>Mecanismos de ascenso y tipos de precipitación<a class="headerlink" href="#mecanismos-de-ascenso-y-tipos-de-precipitacion" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id205">
+<span id="fig-ch07-03"></span><a class="reference internal image-reference" href="../_images/ch07-03-mechanisms.jpg"><img alt="../_images/ch07-03-mechanisms.jpg" src="../_images/ch07-03-mechanisms.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.3 </span><span class="caption-text">Mecanismos de ascenso, fase de la precipitación y controles regionales relevantes para Chile. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id205" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Los cuatro paneles de la <a class="reference internal" href="#fig-ch07-03"><span class="std std-ref">Figura 3</span></a> relacionan evidencia visible y modelos conceptuales: convección profunda, ascenso orográfico, ciclo de una tormenta y organización frontal. En conjunto apoyan la interpretación de los mecanismos dominantes en Chile; la fase de los hidrometeoros se complementa con la <a class="reference internal" href="#fig-ch07-02"><span class="std std-ref">Figura 2</span></a>.</p>
+<section id="precipitacion-convectiva">
+<h3><span class="section-number">7.3.1. </span>Precipitación convectiva<a class="headerlink" href="#precipitacion-convectiva" title="Link to this heading"></a></h3>
+<p>La convección se inicia cuando una parcela próxima a la superficie adquiere flotabilidad positiva por calentamiento, aporte de humedad o convergencia. Si supera un nivel de libre convección, continúa ascendiendo mientras sea más cálida que su entorno. La <a class="reference internal" href="05-Capitulo05-CirculacionAtmosferica_y_VientosGlobales.html#calor-latente"><span class="std std-ref">Liberación de calor latente</span></a> liberada durante la condensación refuerza el ascenso y permite desarrollar cúmulos congestus o cumulonimbos. El panel «Convección» de la <a class="reference internal" href="#fig-ch07-03"><span class="std std-ref">Figura 3</span></a> resume esta realimentación.</p>
+<p>Las tormentas convectivas suelen tener alta intensidad, corta duración y fuerte variabilidad espacial. Una estación puede registrar un máximo y otra, a pocos kilómetros, casi nada. Esta intermitencia vuelve exigente el diseño de redes y la validación de productos grillados. En el Altiplano chileno, la convección estival contribuye a la precipitación de altura, mientras que en el centro-sur puede acompañar inestabilidad postfrontal o forzamientos locales.</p>
+</section>
+<section id="precipitacion-orografica">
+<h3><span class="section-number">7.3.2. </span>Precipitación orográfica<a class="headerlink" href="#precipitacion-orografica" title="Link to this heading"></a></h3>
+<p>Cuando un flujo húmedo encuentra una cordillera, su componente perpendicular al relieve fuerza el ascenso en barlovento. El aire se enfría, aumenta su humedad relativa y puede condensar. La respuesta depende de la estabilidad, velocidad y profundidad del flujo, altura de la barrera, orientación de la ladera y escala temporal del sistema. No toda elevación produce el mismo aumento: una atmósfera estable puede bloquearse o desviarse y una nube puede precipitar después de cruzar la cumbre. Esta interacción prolonga la discusión de <a class="reference internal" href="05-Capitulo05-CirculacionAtmosferica_y_VientosGlobales.html#influencia-topografia"><span class="std std-ref">Influencia de la topografía</span></a> y está esquematizada en el panel «Orografía» de la <a class="reference internal" href="#fig-ch07-03"><span class="std std-ref">Figura 3</span></a>.</p>
+<p>En sotavento, el aire desciende, se comprime y calienta, reduciendo su humedad relativa. Se forma una <strong>sombra de lluvia</strong>. En Chile, la Cordillera de la Costa y los Andes organizan gradientes muy marcados. Estos efectos explican por qué una interpolación basada sólo en distancia horizontal suele ser insuficiente y por qué la elevación debe incorporarse con criterio físico, no como covariable automática.</p>
+</section>
+<section id="precipitacion-ciclonica-o-frontal">
+<h3><span class="section-number">7.3.3. </span>Precipitación ciclónica o frontal<a class="headerlink" href="#precipitacion-ciclonica-o-frontal" title="Link to this heading"></a></h3>
+<p>En latitudes medias, gran parte de la precipitación se asocia a ciclones extratropicales y frentes. Un <strong>frente cálido</strong> presenta una pendiente suave: el aire cálido se desliza sobre el aire frío, generando nubosidad estratiforme extensa y precipitación que puede anteceder por horas al paso frontal. Un <strong>frente frío</strong> tiene pendiente mayor y ascenso más abrupto; puede producir bandas angostas de lluvia intensa, convección y cambios rápidos de las <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#variables-atmosfericas"><span class="std std-ref">Variables utilizadas para caracterizar el tiempo y el clima</span></a>. Cuando el frente frío alcanza al cálido se forma un <strong>frente ocluido</strong>; un frente puede además volverse casi estacionario. El panel «Sistema frontal» de la <a class="reference internal" href="#fig-ch07-03"><span class="std std-ref">Figura 3</span></a> destaca la disposición de las masas de aire, los frentes y el ascenso <span class="bibtex-citation" id="id7">(<a class="reference internal" href="#id135" title="Hakim, G. J. and Patoux, J. Weather: A Concise Introduction. Cambridge University Press, 2nd edition, 2022.">Hakim and Patoux, 2022</a>; <a class="reference internal" href="#id100" title="Wallace, J. M. and Hobbs, P. V. Atmospheric Science: An Introductory Survey. Elsevier, 2nd edition, 2006.">Wallace and Hobbs, 2006</a>)</span>.</p>
+<p>Los ríos atmosféricos son corredores largos y estrechos de transporte integrado de vapor. Cuando impactan una barrera montañosa pueden producir eventos persistentes y extremos. No constituyen un mecanismo microfísico distinto, sino una organización del transporte de humedad que alimenta el ascenso frontal y orográfico.</p>
+</section>
+<section id="precipitacion-en-chile">
+<h3><span class="section-number">7.3.4. </span>Precipitación en Chile<a class="headerlink" href="#precipitacion-en-chile" title="Link to this heading"></a></h3>
+<p>Chile presenta un gradiente latitudinal extraordinario y una fuerte modulación topográfica. En el norte hiperárido, la subsidencia asociada al anticiclón subtropical del Pacífico, la corriente de Humboldt y la barrera andina limitan la lluvia costera, aunque el Altiplano recibe precipitación convectiva estival. En Chile central domina un régimen mediterráneo, con máximos invernales asociados a sistemas frontales y gran variabilidad interanual. Hacia el sur y la zona austral, aumenta la frecuencia de sistemas frontales y la precipitación se distribuye durante una fracción mayor del año. La exposición a los vientos del oeste y las barreras montañosas producen contrastes pronunciados entre barlovento y sotavento. Este patrón debe leerse junto con <a class="reference internal" href="05-Capitulo05-CirculacionAtmosferica_y_VientosGlobales.html#oscilaciones-climaticas"><span class="std std-ref">Oscilaciones climáticas de gran escala</span></a> y los <a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html#regimenes-hidrologicos"><span class="std std-ref">Regímenes hidrológicos</span></a>; los paneles «Convección», «Orografía» y «Sistema frontal» de la <a class="reference internal" href="#fig-ch07-03"><span class="std std-ref">Figura 3</span></a> permiten reconocer los controles de primer orden que cambian de norte a sur <span class="bibtex-citation" id="id8">(<a class="reference internal" href="#id155" title="Garreaud, R. D. The andes climate and weather. Advances in Geosciences, 22:3–11, 2009. doi:10.5194/adgeo-22-3-2009.">Garreaud, 2009</a>)</span>.</p>
+<p>Esta síntesis no reemplaza el análisis local. La orientación de una cuenca, su rango altitudinal, distancia al océano, exposición a frentes y transición lluvia-nieve pueden ser más relevantes que la clasificación climática regional. Para una obra, conviene formular una hipótesis del mecanismo dominante y contrastarla con mapas sinópticos, perfiles de temperatura, estaciones y productos remotos.</p>
+</section>
+<section id="formas-de-precipitacion">
+<h3><span class="section-number">7.3.5. </span>Formas de precipitación<a class="headerlink" href="#formas-de-precipitacion" title="Link to this heading"></a></h3>
+<p>La <strong>lluvia</strong> está compuesta por gotas líquidas, mientras que la <strong>llovizna</strong> contiene gotas pequeñas y suele provenir de nubes estratiformes bajas. La <strong>nieve</strong> consiste en cristales o agregados que no se fundieron antes de llegar al suelo. La <strong>aguanieve</strong> y la <strong>lluvia engelante</strong> implican perfiles térmicos complejos; esta última permanece líquida hasta congelarse sobre superficies. El <strong>granizo</strong> se forma en convección profunda y no debe confundirse con granos de hielo producidos por recongelación.</p>
+<p>En hidrología nival se trabaja con el <strong>equivalente en agua de nieve</strong> (SWE), es decir, la altura de agua que resultaría de fundir la nieve. La altura de nieve por sí sola no determina el almacenamiento porque la densidad evoluciona con temperatura, viento, metamorfismo y compactación. Su liberación posterior ayuda a explicar los regímenes nivo-pluviales descritos en <a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html#regimenes-hidrologicos"><span class="std std-ref">Regímenes hidrológicos</span></a>; el panel «Fase mixta» de la <a class="reference internal" href="#fig-ch07-02"><span class="std std-ref">Figura 2</span></a> recuerda que la fase depende de la microfísica y del perfil térmico completo.</p>
+</section>
+</section>
+<section id="medicion-de-la-precipitacion">
+<h2><span class="section-number">7.4. </span>Medición de la precipitación<a class="headerlink" href="#medicion-de-la-precipitacion" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id206">
+<span id="fig-ch07-04"></span><a class="reference internal image-reference" href="../_images/ch07-04-measurement.jpg"><img alt="../_images/ch07-04-measurement.jpg" src="../_images/ch07-04-measurement.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.4 </span><span class="caption-text">Sistemas de observación y diferencias de soporte entre puntos, píxeles y cuencas. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id206" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La <a class="reference internal" href="#fig-ch07-04"><span class="std std-ref">Figura 4</span></a> asigna un panel a pluviómetros, nieve, radar, satélite y reanálisis; el panel «Escala» es transversal a todas las subsecciones de medición.</p>
+<section id="pluviometros-y-pluviografos">
+<h3><span class="section-number">7.4.1. </span>Pluviómetros y pluviógrafos<a class="headerlink" href="#pluviometros-y-pluviografos" title="Link to this heading"></a></h3>
+<p>Un pluviómetro de almacenamiento recoge agua en un recipiente y entrega la acumulación entre observaciones. Un pluviógrafo registra la evolución temporal. Ambos miden una entrada del <a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html#ciclo-hidrologico"><span class="std std-ref">El ciclo hidrológico</span></a> sobre un área de captación muy pequeña; por eso, representatividad espacial y exactitud instrumental son problemas distintos. El panel «Pluviómetro» de la <a class="reference internal" href="#fig-ch07-04"><span class="std std-ref">Figura 4</span></a> separa captación, acumulación y control. Entre los sensores automáticos destacan <span class="bibtex-citation" id="id9">(<a class="reference internal" href="#id132" title="Chow, V. T., Maidment, D. R., and Mays, L. W. Hidrología aplicada. McGraw-Hill, 1994.">Chow <em>et al.</em>, 1994</a>; <a class="reference internal" href="#id133" title="Shaw, E. M., Beven, K. J., Chappell, N. A., and Lamb, R. Hydrology in Practice. Spon Press, 4th edition, 2011.">Shaw <em>et al.</em>, 2011</a>; <a class="reference internal" href="#id137" title="World Meteorological Organization. Guide to instruments and methods of observation. Technical Report WMO-No. 8, World Meteorological Organization, 2021.">World Meteorological Organization, 2021</a>)</span>:</p>
+<ul class="simple">
+<li><p><strong>balancín</strong> (<em>tipping bucket</em>): cada vuelco representa un volumen nominal; ofrece buena resolución temporal, pero puede subestimar intensidades altas durante el movimiento y requiere corrección y mantenimiento;</p></li>
+<li><p><strong>pesaje</strong>: registra la masa acumulada y puede medir precipitación sólida con anticongelante o calefacción apropiada;</p></li>
+<li><p><strong>óptico o disdrómetro</strong>: estima tamaño y velocidad de partículas, útil para microfísica y clasificación, aunque no sustituye automáticamente una referencia de acumulación.</p></li>
+</ul>
+<p>La lectura está afectada por viento, salpicadura, evaporación, mojado de las paredes, obstrucción, inclinación, resolución y cambio de fase. El viento desvía especialmente copos de nieve y gotas pequeñas, de modo que la captación puede ser menor que la precipitación verdadera. La instalación debe seguir normas de altura, nivelación, despeje y protección; el metadato de exposición es tan importante como el valor <span class="bibtex-citation" id="id10">(<a class="reference internal" href="#id136" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>; <a class="reference internal" href="#id137" title="World Meteorological Organization. Guide to instruments and methods of observation. Technical Report WMO-No. 8, World Meteorological Organization, 2021.">World Meteorological Organization, 2021</a>)</span>.</p>
+<p>La precipitación corregida puede expresarse como la suma de la lectura más ajustes por viento, mojado, evaporación y trazas. Estos términos no son constantes: dependen del tipo de instrumento, velocidad del viento a la altura del borde, fase y temperatura. En nieve, la subcaptación aerodinámica puede dominar el balance de error; aplicar una corrección desarrollada para otro protector o clima puede ser peor que conservar la lectura original. Por ello deben archivarse tanto el valor observado como el corregido, junto con la ecuación, sus parámetros y el período de validez <span class="bibtex-citation" id="id11">(<a class="reference internal" href="#id133" title="Shaw, E. M., Beven, K. J., Chappell, N. A., and Lamb, R. Hydrology in Practice. Spon Press, 4th edition, 2011.">Shaw <em>et al.</em>, 2011</a>; <a class="reference internal" href="#id137" title="World Meteorological Organization. Guide to instruments and methods of observation. Technical Report WMO-No. 8, World Meteorological Organization, 2021.">World Meteorological Organization, 2021</a>)</span>.</p>
+<p>El <strong>intervalo hidrológico</strong> debe registrarse explícitamente. En Chile, algunos totales diarios meteorológicos se acumulan entre 12:00 UTC de días consecutivos y no coinciden necesariamente con el día civil local <span class="bibtex-citation" id="id12">(<a class="reference internal" href="#id154" title="Dirección Meteorológica de Chile. Portal de servicios climáticos. Dirección General de Aeronáutica Civil, Gobierno de Chile, 2026. Consultado el 26 de septiembre de 2026. URL: https://climatologia.meteochile.gob.cl/.">Dirección Meteorológica de Chile, 2026</a>)</span>. Mezclar series con ventanas diferentes puede desplazar tormentas y crear falsos desacuerdos.</p>
+</section>
+<section id="nivometros-y-medicion-de-nieve">
+<h3><span class="section-number">7.4.2. </span>Nivómetros y medición de nieve<a class="headerlink" href="#nivometros-y-medicion-de-nieve" title="Link to this heading"></a></h3>
+<p>La nieve puede medirse con reglas, tablas de nieve, tubos de muestreo, almohadas de nieve y sensores de distancia. Las almohadas infieren SWE a partir de presión; los sensores ultrasónicos o láser miden altura. Ninguno resuelve por sí solo toda la heterogeneidad del manto. En terrenos de montaña, redistribución eólica, avalanchas, vegetación y gradientes térmicos producen variaciones mayores que las observadas por un único punto.</p>
+</section>
+<section id="radar-meteorologico">
+<h3><span class="section-number">7.4.3. </span>Radar meteorológico<a class="headerlink" href="#radar-meteorologico" title="Link to this heading"></a></h3>
+<p>El radar emite pulsos electromagnéticos y mide la energía retrodispersada por hidrometeoros. La reflectividad <span class="math notranslate nohighlight">\(Z\)</span> se relaciona con la distribución de tamaños; para lluvia se emplea una relación empírica:</p>
+<div class="math notranslate nohighlight">
+\[Z = a R^b,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(R\)</span> es la intensidad y <span class="math notranslate nohighlight">\(a\)</span>, <span class="math notranslate nohighlight">\(b\)</span> dependen del tipo de precipitación y la climatología. Por tanto, el radar no mide lluvia superficial directamente. Requiere control de ecos de terreno, propagación anómala, atenuación, banda brillante, bloqueo del haz y calibración con pluviómetros. Su principal fortaleza es describir la estructura espacial y temporal de tormentas a escalas que una red puntual no resuelve.</p>
+<p>Además, el haz se ensancha y asciende respecto de la superficie con la distancia al radar. Una reflectividad medida a varios kilómetros de altura puede atravesar capas de fusión, evaporación o advección antes de llegar al suelo. Los radares polarimétricos añaden variables sensibles a forma, orientación y fase de los hidrometeoros, mejorando clasificación y estimación, pero no eliminan la necesidad de control terrestre. La consistencia física con los balances de masa y energía presentados en <a class="reference internal" href="04-Capitulo04-AguaEnLaAtmosfera.html#conservacion-atmosferica"><span class="std std-ref">Leyes de conservación que rigen el movimiento atmosférico</span></a> ayuda a interpretar evoluciones de tormenta, aunque no convierte la relación <span class="math notranslate nohighlight">\(Z-R\)</span> en universal <span class="bibtex-citation" id="id13">(<a class="reference internal" href="#id100" title="Wallace, J. M. and Hobbs, P. V. Atmospheric Science: An Introductory Survey. Elsevier, 2nd edition, 2006.">Wallace and Hobbs, 2006</a>)</span>.</p>
+</section>
+<section id="satelites">
+<h3><span class="section-number">7.4.4. </span>Satélites<a class="headerlink" href="#satelites" title="Link to this heading"></a></h3>
+<p>Los sensores infrarrojos en satélites geoestacionarios observan con alta frecuencia la temperatura del tope nuboso; la relación con lluvia es indirecta y falla, por ejemplo, en nubes cálidas precipitantes o nubes frías no precipitantes. Los sensores de microondas pasivas en órbita baja responden más directamente a emisión y dispersión por gotas y hielo, pero muestrean con menor frecuencia. Los algoritmos multisatélite combinan ambos tipos y, en algunos productos, ajustan acumulaciones con pluviómetros. El panel «Satélite» de la <a class="reference internal" href="#fig-ch07-04"><span class="std std-ref">Figura 4</span></a> muestra esa complementariedad entre observación, algoritmo y campo estimado <span class="bibtex-citation" id="id14">(<a class="reference internal" href="#id142" title="Huffman, G. J., Stocker, E. F., Bolvin, D. T., Nelkin, E. J., and Jackson, T. Gpm imerg final precipitation l3 half hourly 0.1 degree x 0.1 degree v06. Goddard Earth Sciences Data and Information Services Center, 2020. doi:10.5067/GPM/IMERG/3B-HH/06.">Huffman <em>et al.</em>, 2020</a>)</span>.</p>
+<p>La misión GPM y el producto IMERG proporcionan estimaciones multisatélite a escala casi global, en resoluciones subdiarias y versiones de distinta latencia. Las versiones <em>Early</em> y <em>Late</em> favorecen operación; la <em>Final</em> incorpora procesamiento retrospectivo y es preferible para investigación cuando la latencia no importa. Debe distinguirse entre tasa en <span class="math notranslate nohighlight">\(\mathrm{mm\,h^{-1}}\)</span> y acumulación en mm, así como entre campo calibrado y no calibrado <span class="bibtex-citation" id="id15">(<a class="reference internal" href="#id142" title="Huffman, G. J., Stocker, E. F., Bolvin, D. T., Nelkin, E. J., and Jackson, T. Gpm imerg final precipitation l3 half hourly 0.1 degree x 0.1 degree v06. Goddard Earth Sciences Data and Information Services Center, 2020. doi:10.5067/GPM/IMERG/3B-HH/06.">Huffman <em>et al.</em>, 2020</a>)</span>.</p>
+</section>
+<section id="reanalisis-y-productos-fusionados">
+<h3><span class="section-number">7.4.5. </span>Reanálisis y productos fusionados<a class="headerlink" href="#reanalisis-y-productos-fusionados" title="Link to this heading"></a></h3>
+<p>Un reanálisis asimila observaciones heterogéneas en un modelo atmosférico mantenido constante durante todo el período. Produce campos físicamente coherentes y completos, pero la precipitación suele ser una salida del modelo, no una observación asimilada directamente. ERA5 y ERA5-Land son ejemplos relevantes <span class="bibtex-citation" id="id16">(<a class="reference internal" href="#id143" title="Hersbach, H., Bell, B., Berrisford, P., and others. The era5 global reanalysis. Quarterly Journal of the Royal Meteorological Society, 146:1999–2049, 2020. doi:10.1002/qj.3803.">Hersbach <em>et al.</em>, 2020</a>; <a class="reference internal" href="#id144" title="Muñoz-Sabater, J., Dutra, E., Agustí-Panareda, A., and others. Era5-land: a state-of-the-art global reanalysis dataset for land applications. Earth System Science Data, 13:4349–4383, 2021. doi:10.5194/essd-13-4349-2021.">Muñoz-Sabater <em>et al.</em>, 2021</a>)</span>. Su continuidad es valiosa para balances y forzamiento hidrológico, mientras que sesgos orográficos, parametrización convectiva y suavizado de extremos exigen evaluación local.</p>
+<p>La coherencia de un reanálisis significa que las variables evolucionan bajo un mismo sistema de ecuaciones y restricciones, no que cada variable sea localmente exacta. Una grilla puede cerrar razonablemente el balance atmosférico a gran escala y, al mismo tiempo, desplazar una banda frontal o distribuir una tormenta convectiva sobre un área excesiva. Por ello, el reanálisis resulta especialmente útil para interpretar mecanismos, circulación y covariables, pero requiere corrección o ensamble cuando la cantidad de lluvia local controla una decisión <span class="bibtex-citation" id="id17">(<a class="reference internal" href="#id143" title="Hersbach, H., Bell, B., Berrisford, P., and others. The era5 global reanalysis. Quarterly Journal of the Royal Meteorological Society, 146:1999–2049, 2020. doi:10.1002/qj.3803.">Hersbach <em>et al.</em>, 2020</a>; <a class="reference internal" href="#id144" title="Muñoz-Sabater, J., Dutra, E., Agustí-Panareda, A., and others. Era5-land: a state-of-the-art global reanalysis dataset for land applications. Earth System Science Data, 13:4349–4383, 2021. doi:10.5194/essd-13-4349-2021.">Muñoz-Sabater <em>et al.</em>, 2021</a>)</span>.</p>
+<p>Los productos fusionados combinan pluviómetros, satélites y modelos. Su ventaja es aprovechar fortalezas complementarias; su riesgo es la <strong>dependencia no evidente</strong> con los datos usados para validarlos. Si las estaciones de una cuenca participaron en el ajuste del producto, compararlo con esas mismas estaciones no constituye validación independiente.</p>
+<div class="admonition-regla-operacional admonition">
+<p class="admonition-title">Regla operacional</p>
+<p>Ninguna tecnología domina en todas las escalas. Para eventos intensos conviene combinar pluviómetros de referencia con radar o satélite; para climatología, estaciones controladas y productos de largo período; para zonas sin estaciones, un ensamble de productos con evaluación regional y propagación de incertidumbre.</p>
+</div>
+</section>
+</section>
+<section id="fuentes-de-datos-mundiales-y-para-chile">
+<h2><span class="section-number">7.5. </span>Fuentes de datos mundiales y para Chile<a class="headerlink" href="#fuentes-de-datos-mundiales-y-para-chile" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id207">
+<span id="fig-ch07-05"></span><a class="reference internal image-reference" href="../_images/ch07-05-sources.jpg"><img alt="../_images/ch07-05-sources.jpg" src="../_images/ch07-05-sources.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.5 </span><span class="caption-text">Familias de productos grillados y criterios para seleccionar una fuente mundial o chilena. Síntesis conceptual elaborada a partir de Sun et al. (2018), Serrano-Notivoli y Tejedor (2021) y Mankin et al. (2025).</span><a class="headerlink" href="#id207" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La <a class="reference internal" href="#fig-ch07-05"><span class="std std-ref">Figura 5</span></a> separa las familias según la información que domina su construcción. Esta clasificación es más informativa que el nombre del archivo: una grilla puede estar basada sólo en estaciones (<strong>G</strong>), en recuperación satelital (<strong>S</strong>), en reanálisis (<strong>R</strong>) o combinar dos o tres fuentes (<strong>GS</strong>, <strong>GR</strong>, <strong>SR</strong>, <strong>GSR</strong>). Las categorías no son sinónimo de calidad y tampoco son mutuamente excluyentes. Por ejemplo, una estimación satelital corregida con pluviómetros es <strong>GS</strong>, mientras una grilla derivada de un reanálisis y ajustada con estaciones es <strong>GR</strong> <span class="bibtex-citation" id="id18">(<a class="reference internal" href="#id149" title="Mankin, K. R., Mehan, S., Green, T. R., and Barnard, D. M. Review of gridded climate products and their use in hydrological analyses reveals overlaps, gaps, and the need for a more objective approach to selecting model forcing datasets. Hydrology and Earth System Sciences, 29:85–108, 2025. doi:10.5194/hess-29-85-2025.">Mankin <em>et al.</em>, 2025</a>; <a class="reference internal" href="#id147" title="Sun, Q., Miao, C., Duan, Q., Ashouri, H., Sorooshian, S., and Hsu, K.-L. A review of global precipitation data sets: data sources, estimation, and intercomparisons. Reviews of Geophysics, 56(1):79–107, 2018. doi:10.1002/2017RG000574.">Sun <em>et al.</em>, 2018</a>)</span>.</p>
+<section id="como-seleccionar-una-fuente">
+<h3><span class="section-number">7.5.1. </span>Cómo seleccionar una fuente<a class="headerlink" href="#como-seleccionar-una-fuente" title="Link to this heading"></a></h3>
+<p>La selección debe comenzar por la pregunta y no por la disponibilidad de una descarga. Se recomienda definir: variable y fase; soporte puntual o areal; paso temporal; período; latencia admisible; dominio; resolución espacial; necesidad de incertidumbre; licencia; versión y política de actualización. Una grilla de 0,1° no implica conocimiento independiente a 10 km: la <strong>resolución nominal</strong> es el espaciamiento de celdas, mientras la <strong>resolución efectiva</strong> depende de sensores, densidad de estaciones, modelo, interpolación y suavizado.</p>
+<p>Para modelación hidrológica también se debe comprobar que la escala del forzante represente los procesos dominantes. Una crecida convectiva en una cuenca pequeña puede exigir lluvia subdiaria, mientras un balance hídrico regional puede tolerar un producto diario o mensual más grueso. Cobertura temporal, latencia, variables acompañantes y coherencia entre ellas son parte de la aptitud para el uso; no existe un producto universalmente mejor <span class="bibtex-citation" id="id19">(<a class="reference internal" href="#id149" title="Mankin, K. R., Mehan, S., Green, T. R., and Barnard, D. M. Review of gridded climate products and their use in hydrological analyses reveals overlaps, gaps, and the need for a more objective approach to selecting model forcing datasets. Hydrology and Earth System Sciences, 29:85–108, 2025. doi:10.5194/hess-29-85-2025.">Mankin <em>et al.</em>, 2025</a>)</span>.</p>
+</section>
+<section id="datos-in-situ-mundiales">
+<h3><span class="section-number">7.5.2. </span>Datos <em>in situ</em> mundiales<a class="headerlink" href="#datos-in-situ-mundiales" title="Link to this heading"></a></h3>
+<p><strong>GHCN-Daily</strong>, mantenido por NOAA/NCEI, integra observaciones diarias de temperatura, precipitación y nieve de estaciones terrestres de numerosos países. Incluye banderas de calidad y es apropiado para análisis históricos y extremos, siempre que se examinen cobertura y procedencia <span class="bibtex-citation" id="id20">(<a class="reference internal" href="#id138" title="Menne, M. J., Durre, I., Vose, R. S., Gleason, B. E., and Houston, T. G. An overview of the global historical climatology network-daily database. Journal of Atmospheric and Oceanic Technology, 29(7):897–910, 2012. doi:10.1175/JTECH-D-11-00103.1.">Menne <em>et al.</em>, 2012</a>)</span>. <strong>GPCC</strong>, operado por el Deutscher Wetterdienst bajo auspicio de la OMM, reúne datos pluviométricos y genera análisis grillados mensuales y diarios con productos diferenciados por latencia y finalidad <span class="bibtex-citation" id="id21">(<a class="reference internal" href="#id139" title="Becker, A., Finger, P., Meyer-Christoffer, A., Rudolf, B., Schamm, K., Schneider, U., and Ziese, M. A description of the global land-surface precipitation data products of the global precipitation climatology centre with sample applications including centennial trend analysis from 1901–present. Earth System Science Data, 5:71–99, 2013. doi:10.5194/essd-5-71-2013.">Becker <em>et al.</em>, 2013</a>; <a class="reference internal" href="#id140" title="Global Precipitation Climatology Centre. Gpcc precipitation analysis monthly version 2025. Deutscher Wetterdienst, 2025. URL: https://opendata.dwd.de/climate_environment/GPCC/.">Global Precipitation Climatology Centre, 2025</a>)</span>.</p>
+<p>En todos los archivos globales, la ausencia de una estación no significa ausencia de medición: restricciones nacionales, licencias y retrasos de intercambio limitan la colección. Para estudios de diseño se debe consultar también al servicio nacional y documentar la versión exacta descargada.</p>
+</section>
+<section id="productos-grillados-globales">
+<h3><span class="section-number">7.5.3. </span>Productos grillados globales<a class="headerlink" href="#productos-grillados-globales" title="Link to this heading"></a></h3>
+<p>Las principales familias tienen fortalezas y errores estructuralmente distintos:</p>
+<ul class="simple">
+<li><p>las grillas <strong>basadas en estaciones</strong> interpolan mediciones puntuales y suelen ser sólidas para climatologías terrestres donde la red es densa, pero heredan cambios de cobertura y suavizan extremos;</p></li>
+<li><p>los productos <strong>satelitales</strong> recuperan precipitación desde radiancias y ofrecen alta frecuencia y cobertura sobre regiones poco instrumentadas, aunque dependen del sensor y del algoritmo para lluvia cálida, nieve, orografía y eventos intensos;</p></li>
+<li><p>los <strong>reanálisis</strong> generan campos continuos y multivariables mediante un modelo y asimilación de observaciones; su precipitación es principalmente una variable modelada y puede desplazar tormentas o suavizar máximos;</p></li>
+<li><p>los productos <strong>fusionados</strong> combinan fuentes para reducir debilidades individuales, pero sus errores y dependencias también se combinan. La corrección con estaciones mejora frecuentemente el valor local, a costa de perder independencia respecto de esas mismas estaciones.</p></li>
+</ul>
+<p>Las intercomparaciones globales muestran diferencias importantes entre productos incluso dentro de una misma familia, especialmente en regiones montañosas, trópicos y altas latitudes. Por ello, la procedencia de la información y el método de estimación deben acompañar siempre a la resolución declarada <span class="bibtex-citation" id="id22">(<a class="reference internal" href="#id147" title="Sun, Q., Miao, C., Duan, Q., Ashouri, H., Sorooshian, S., and Hsu, K.-L. A review of global precipitation data sets: data sources, estimation, and intercomparisons. Reviews of Geophysics, 56(1):79–107, 2018. doi:10.1002/2017RG000574.">Sun <em>et al.</em>, 2018</a>)</span>.</p>
+<table class="docutils align-default" id="id208">
+<caption><span class="caption-number">Tabla 7.1 </span><span class="caption-text">Productos de precipitación de uso frecuente</span><a class="headerlink" href="#id208" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 15.0%" />
+<col style="width: 20.0%" />
+<col style="width: 18.0%" />
+<col style="width: 20.0%" />
+<col style="width: 27.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Producto</p></th>
+<th class="head"><p>Fuente principal</p></th>
+<th class="head"><p>Escala típica</p></th>
+<th class="head"><p>Fortaleza</p></th>
+<th class="head"><p>Precaución</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>CHIRPS</p></td>
+<td><p>Infrarrojo y estaciones</p></td>
+<td><p>diaria/mensual; 0,05°</p></td>
+<td><p>larga serie terrestre desde 1981</p></td>
+<td><p>la densidad de estaciones y desempeño varían regionalmente</p></td>
+</tr>
+<tr class="row-odd"><td><p>GPM IMERG</p></td>
+<td><p>constelación multisitélite y ajuste</p></td>
+<td><p>30 min; 0,1°</p></td>
+<td><p>tormentas y baja latencia</p></td>
+<td><p>nieve, orografía y lluvia cálida pueden presentar sesgos</p></td>
+</tr>
+<tr class="row-even"><td><p>GPCC</p></td>
+<td><p>pluviómetros</p></td>
+<td><p>diaria/mensual; varias grillas</p></td>
+<td><p>referencia terrestre y climatología larga</p></td>
+<td><p>sólo tierra; menor detalle para tormentas locales</p></td>
+</tr>
+<tr class="row-odd"><td><p>ERA5 / ERA5-Land</p></td>
+<td><p>modelo y asimilación</p></td>
+<td><p>horaria; grilla global/terrestre</p></td>
+<td><p>coherencia multivariable y cobertura completa</p></td>
+<td><p>precipitación modelada y extremos suavizados</p></td>
+</tr>
+<tr class="row-even"><td><p>MSWEP</p></td>
+<td><p>estaciones, satélites y reanálisis</p></td>
+<td><p>subdiaria/diaria; alta resolución</p></td>
+<td><p>fusión multifuente y cobertura global</p></td>
+<td><p>dependencia con insumos y versiones; revisar licencia</p></td>
+</tr>
+<tr class="row-odd"><td><p>PERSIANN-CDR</p></td>
+<td><p>infrarrojo y ajuste mensual</p></td>
+<td><p>diaria; 0,25°</p></td>
+<td><p>registro largo útil para clima</p></td>
+<td><p>menor capacidad para estructura subdiaria</p></td>
+</tr>
+</tbody>
+</table>
+<p>CHIRPS combina climatología, observación infrarroja y estaciones para producir precipitación sobre tierra entre aproximadamente 50° S y 50° N <span class="bibtex-citation" id="id23">(<a class="reference internal" href="#id141" title="Funk, C., Peterson, P., Landsfeld, M., Pedreros, D., Verdin, J., Shukla, S., Husak, G., Rowland, J., Harrison, L., Hoell, A., and Michaelsen, J. The climate hazards infrared precipitation with stations–a new environmental record for monitoring extremes. Scientific Data, 2:150066, 2015. doi:10.1038/sdata.2015.66.">Funk <em>et al.</em>, 2015</a>)</span>. IMERG integra observaciones de la constelación GPM y extiende el registro hacia la era TRMM <span class="bibtex-citation" id="id24">(<a class="reference internal" href="#id142" title="Huffman, G. J., Stocker, E. F., Bolvin, D. T., Nelkin, E. J., and Jackson, T. Gpm imerg final precipitation l3 half hourly 0.1 degree x 0.1 degree v06. Goddard Earth Sciences Data and Information Services Center, 2020. doi:10.5067/GPM/IMERG/3B-HH/06.">Huffman <em>et al.</em>, 2020</a>)</span>. MSWEP combina pluviómetros, satélites y reanálisis <span class="bibtex-citation" id="id25">(<a class="reference internal" href="#id145" title="Beck, H. E., Wood, E. F., Pan, M., and others. Mswep v2 global 3-hourly 0.1 degree precipitation: methodology and quantitative assessment. Bulletin of the American Meteorological Society, 100:473–500, 2019. doi:10.1175/BAMS-D-17-0138.1.">Beck <em>et al.</em>, 2019</a>)</span>. PERSIANN-CDR fue diseñado como registro climático satelital <span class="bibtex-citation" id="id26">(<a class="reference internal" href="#id146" title="Ashouri, H., Hsu, K.-L., Sorooshian, S., and others. Persiann-cdr: daily precipitation climate data record from multisatellite observations for hydrological and climate studies. Bulletin of the American Meteorological Society, 96:69–83, 2015. doi:10.1175/BAMS-D-13-00068.1.">Ashouri <em>et al.</em>, 2015</a>)</span>. Los períodos, algoritmos y versiones cambian; por ello, el archivo de trabajo debe guardar DOI, versión, fecha de acceso y variables originales, no sólo el raster procesado. También debe distinguir productos operacionales de baja latencia de reprocesamientos climáticos: una versión disponible más tarde puede incorporar calibración adicional y no reproducir exactamente lo que estuvo disponible en tiempo real.</p>
+</section>
+<section id="fuentes-in-situ-en-chile">
+<h3><span class="section-number">7.5.4. </span>Fuentes <em>in situ</em> en Chile<a class="headerlink" href="#fuentes-in-situ-en-chile" title="Link to this heading"></a></h3>
+<p>La <strong>Dirección General de Aguas (DGA)</strong> mantiene la Red Hidrométrica Nacional y publica estadísticas meteorológicas e hidrológicas desde Arica a Tierra del Fuego. Su portal permite consultar estaciones y solicitar antecedentes adicionales <span class="bibtex-citation" id="id27">(<a class="reference internal" href="#id153" title="Dirección General de Aguas. Estadísticas de estaciones dga. Ministerio de Obras Públicas, Gobierno de Chile, 2026. Consultado el 26 de septiembre de 2026. URL: https://dga.mop.gob.cl/estadisticas-estaciones-dga/.">Dirección General de Aguas, 2026</a>)</span>. La <strong>Dirección Meteorológica de Chile (DMC)</strong> ofrece series históricas, estaciones automáticas, productos de precipitación y servicios web; sus reportes operacionales pueden contener datos aún no sometidos a control definitivo <span class="bibtex-citation" id="id28">(<a class="reference internal" href="#id154" title="Dirección Meteorológica de Chile. Portal de servicios climáticos. Dirección General de Aeronáutica Civil, Gobierno de Chile, 2026. Consultado el 26 de septiembre de 2026. URL: https://climatologia.meteochile.gob.cl/.">Dirección Meteorológica de Chile, 2026</a>)</span>. La Red Agroclimática Nacional y redes de instituciones, empresas o centros regionales complementan la cobertura.</p>
+<p>Antes de unir fuentes chilenas se deben reconciliar códigos, nombres históricos, coordenadas, altitud, propietario, intervalo diario y duplicación de estaciones. Dos portales pueden distribuir la misma observación con códigos diferentes; tratarlas como estaciones independientes sobrepondera el dato.</p>
+</section>
+<section id="productos-grillados-para-chile">
+<h3><span class="section-number">7.5.5. </span>Productos grillados para Chile<a class="headerlink" href="#productos-grillados-para-chile" title="Link to this heading"></a></h3>
+<p><strong>CR2MET</strong> ofrece precipitación diaria y temperaturas extremas sobre Chile continental en una grilla regular de 0,05°, construida mediante modelos estadísticos calibrados con observaciones y covariables de reanálisis y topografía <span class="bibtex-citation" id="id29">(<a class="reference internal" href="#id151" title="Boisier, J. P. Cr2met: a high-resolution precipitation and temperature dataset for the period 1960–2021 in continental chile. 2023. doi:10.5281/zenodo.7529682.">Boisier, 2023</a>)</span>. Es apropiado para análisis regional, forzamiento hidrológico y comparación climática, pero no reemplaza la inspección de estaciones para extremos locales. <strong>CAMELS-CL</strong> integra atributos y series meteorológicas a escala de cuenca, útil para estudios comparativos y regionalización <span class="bibtex-citation" id="id30">(<a class="reference internal" href="#id152" title="Alvarez-Garreton, C., Mendoza, P. A., Boisier, J. P., and others. The camels-cl dataset: catchment attributes and meteorology for large sample studies–chile dataset. Hydrology and Earth System Sciences, 22:5817–5846, 2018. doi:10.5194/hess-22-5817-2018.">Alvarez-Garreton <em>et al.</em>, 2018</a>)</span>.</p>
+<p>Los productos globales CHIRPS, IMERG, ERA5-Land, MSWEP y PERSIANN también cubren Chile. Una evaluación de siete estimaciones satelitales con 366 estaciones mostró mejor desempeño general en Chile central y el sur húmedo, especialmente bajo 1000 m s.n.m., que en el norte árido y el extremo austral. El desempeño también fue mayor en otoño e invierno que en verano y primavera; reconocer días sin lluvia resultó más fácil que clasificar correctamente la intensidad de los días lluviosos <span class="bibtex-citation" id="id31">(<a class="reference internal" href="#id150" title="Zambrano-Bigiarini, M., Nauditt, A., Birkel, C., Verbist, K., and Ribbe, L. Temporal and spatial evaluation of satellite-based rainfall estimates across the complex topographical and climatic gradients of chile. Hydrology and Earth System Sciences, 21:1295–1320, 2017. doi:10.5194/hess-21-1295-2017.">Zambrano-Bigiarini <em>et al.</em>, 2017</a>)</span>.</p>
+<p>Ese resultado no debe transformarse en una tabla de posiciones permanente: los sensores, algoritmos y versiones actuales difieren de los evaluados en 2017. Sí establece un principio transferible para Chile: el desempeño relativo cambia con zona climática, estación del año, elevación, escala de agregación y métrica. Además, un producto ajustado con estaciones chilenas no puede validarse de forma independiente con esas mismas estaciones. En consecuencia, «el mejor producto para Chile» debe expresarse como «el mejor para esta región, período, escala y finalidad, según estas métricas y estaciones independientes».</p>
+<div class="admonition-lectura-correcta-de-una-celda admonition">
+<p class="admonition-title">Lectura correcta de una celda</p>
+<p>El valor de una celda es una estimación para un área y un intervalo temporal definidos por el producto; no es una nueva estación ubicada en el centro del píxel. Extraer el píxel que contiene un pluviómetro y compararlo directamente con la medición puntual mezcla soportes diferentes. Esta comparación es útil, pero su error incluye tanto el error del producto como la variabilidad subcelda.</p>
+</div>
+</section>
+<section id="trazabilidad-minima">
+<h3><span class="section-number">7.5.6. </span>Trazabilidad mínima<a class="headerlink" href="#trazabilidad-minima" title="Link to this heading"></a></h3>
+<p>Cada conjunto de datos debe acompañarse de una ficha con: proveedor; producto y versión; DOI o URL persistente; fecha de acceso; cobertura; unidades; calendario y zona horaria; variable exacta; factor de escala; valor faltante; sistema de coordenadas; procesamiento aplicado; y controles realizados. También se conserva el archivo original inmutable y se generan derivados mediante código reproducible.</p>
+</section>
+</section>
+<section id="control-de-calidad">
+<h2><span class="section-number">7.6. </span>Control de calidad<a class="headerlink" href="#control-de-calidad" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id209">
+<span id="fig-ch07-06"></span><a class="reference internal image-reference" href="../_images/ch07-06-quality.jpg"><img alt="../_images/ch07-06-quality.jpg" src="../_images/ch07-06-quality.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.6 </span><span class="caption-text">Flujo de control de calidad desde la detección hasta una decisión auditable. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id209" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Cada panel de la <a class="reference internal" href="#fig-ch07-06"><span class="std std-ref">Figura 6</span></a> corresponde a una subsección: principio general, metadatos, integridad, consistencia temporal, consistencia espacial, homogeneidad y relleno.</p>
+<section id="principio-general">
+<h3><span class="section-number">7.6.1. </span>Principio general<a class="headerlink" href="#principio-general" title="Link to this heading"></a></h3>
+<p>El control de calidad no debe borrar automáticamente todo valor inusual. Una tormenta extraordinaria puede ser el dato más importante para el diseño. Es preferible separar <strong>detección</strong>, <strong>evaluación</strong> y <strong>acción</strong>. El resultado de cada prueba es una bandera, no una sentencia. Se mantiene una tabla de auditoría con valor original, bandera, evidencia, decisión y valor corregido.</p>
+</section>
+<section id="inventario-y-metadatos">
+<h3><span class="section-number">7.6.2. </span>Inventario y metadatos<a class="headerlink" href="#inventario-y-metadatos" title="Link to this heading"></a></h3>
+<p>La primera revisión verifica identificador, coordenadas, elevación, variable, unidad, resolución, período, zona horaria y valores codificados como ausentes. Luego se construye una cronología de cambios de instrumento, emplazamiento, observador y entorno. Un quiebre estadístico coincidente con un traslado tiene interpretación distinta de uno simultáneo en toda la región.</p>
+</section>
+<section id="pruebas-de-integridad">
+<h3><span class="section-number">7.6.3. </span>Pruebas de integridad<a class="headerlink" href="#pruebas-de-integridad" title="Link to this heading"></a></h3>
+<p>Las pruebas básicas incluyen:</p>
+<ul class="simple">
+<li><p>fechas duplicadas, desordenadas o imposibles;</p></li>
+<li><p>valores negativos de precipitación acumulada;</p></li>
+<li><p>códigos de datos faltantes interpretados erróneamente como lluvia;</p></li>
+<li><p>acumulaciones que disminuyen sin reinicio documentado;</p></li>
+<li><p>repetición anormal de valores o largas secuencias constantes;</p></li>
+<li><p>totales diarios incompatibles con subintervalos disponibles;</p></li>
+<li><p>intensidad superior a límites instrumentales o físicos plausibles;</p></li>
+<li><p>mezcla de milímetros, décimas de milímetro y tasas.</p></li>
+</ul>
+<p>Los umbrales climatológicos deben ser regionales y estacionales. Un límite fijo puede rechazar eventos reales en zonas húmedas o no detectar errores en zonas áridas. Los percentiles, máximos históricos y curvas intensidad-duración son señales, no filtros automáticos.</p>
+</section>
+<section id="consistencia-temporal">
+<h3><span class="section-number">7.6.4. </span>Consistencia temporal<a class="headerlink" href="#consistencia-temporal" title="Link to this heading"></a></h3>
+<p>Se comprueba que los totales agregados coincidan con la suma de intervalos elementales cuando la cobertura es suficiente. Un mes con cuatro días faltantes no debe tratarse igual que un mes completo. Es necesario definir una regla de completitud antes de calcular climatologías; por ejemplo, exigir todos los días para un total mensual si no se rellena, o informar por separado el número de días válidos.</p>
+<p>Los acumulados multidiarios no etiquetados son una fuente clásica de error. Una lectura de varios días puede aparecer concentrada en la fecha final, produciendo un extremo artificial y días secos previos. La evidencia incluye metadatos, secuencias de ceros, comparación con vecinos y códigos de acumulación <span class="bibtex-citation" id="id32">(<a class="reference internal" href="#id159" title="Viney, N. R. and Bates, B. C. It never rains on sunday: the prevalence and implications of untagged multi-day rainfall accumulations in the australian high quality data set. International Journal of Climatology, 24:1171–1192, 2004. doi:10.1002/joc.1053.">Viney and Bates, 2004</a>)</span>.</p>
+</section>
+<section id="consistencia-espacial">
+<h3><span class="section-number">7.6.5. </span>Consistencia espacial<a class="headerlink" href="#consistencia-espacial" title="Link to this heading"></a></h3>
+<p>La comparación con estaciones vecinas debe considerar correlación, distancia, elevación, exposición y escala temporal. Para una estación objetivo, puede calcularse una estimación robusta con vecinos y evaluar el residuo:</p>
+<div class="math notranslate nohighlight">
+\[r_t = P_{0,t} - \widehat{P}_{0,t}.\]</div>
+<p>Un residuo grande en escala diaria puede ser una célula convectiva real; el mismo patrón persistente en meses o años sugiere sesgo. La acumulación en varias escalas reduce falsas alarmas. Radar, satélite y reportes sinópticos constituyen evidencia auxiliar independiente, no verdad absoluta.</p>
+</section>
+<section id="homogeneidad">
+<h3><span class="section-number">7.6.6. </span>Homogeneidad<a class="headerlink" href="#homogeneidad" title="Link to this heading"></a></h3>
+<p>Una serie es homogénea cuando sus variaciones responden al clima y no a cambios en medición o entorno. La <strong>curva doble acumulada</strong> compara la precipitación acumulada de la estación <span class="math notranslate nohighlight">\(P_x\)</span> con un patrón regional <span class="math notranslate nohighlight">\(P_p\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\sum P_x \approx \alpha \sum P_p.\]</div>
+<p>Un cambio persistente de pendiente puede indicar inhomogeneidad. Si se confirma con metadatos y estaciones de referencia, una corrección clásica es:</p>
+<div class="math notranslate nohighlight">
+\[P_c = P_m\frac{\alpha_r}{\alpha_i},\]</div>
+<p>donde <span class="math notranslate nohighlight">\(\alpha_r\)</span> es la pendiente del período de referencia y <span class="math notranslate nohighlight">\(\alpha_i\)</span> la del período corregido. No se debe corregir mecánicamente todo quiebre: una sequía regional, un cambio de <a class="reference internal" href="02-Capitulo02-ConceptosBasicos.html#regimenes-hidrologicos"><span class="std std-ref">Regímenes hidrológicos</span></a> o una estación patrón inestable también modifican pendientes. El panel «Homogeneidad» de la <a class="reference internal" href="#fig-ch07-06"><span class="std std-ref">Figura 6</span></a> resume la necesidad de concordancia entre patrón, quiebre y ajuste <span class="bibtex-citation" id="id33">(<a class="reference internal" href="#id132" title="Chow, V. T., Maidment, D. R., and Mays, L. W. Hidrología aplicada. McGraw-Hill, 1994.">Chow <em>et al.</em>, 1994</a>; <a class="reference internal" href="#id136" title="World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.">World Meteorological Organization, 2008</a>)</span>.</p>
+<p>Pruebas como SNHT, Pettitt o métodos de homogenización relativa ayudan a localizar quiebres <span class="bibtex-citation" id="id34">(<a class="reference internal" href="#id157" title="Alexandersson, H. A homogeneity test applied to precipitation data. Journal of Climatology, 6:661–675, 1986. doi:10.1002/joc.3370060607.">Alexandersson, 1986</a>; <a class="reference internal" href="#id158" title="Pettitt, A. N. A non-parametric approach to the change-point problem. Applied Statistics, 28(2):126–135, 1979. doi:10.2307/2346729.">Pettitt, 1979</a>)</span>. La evidencia más sólida combina prueba estadística, comparación regional y metadatos. Si el propósito son extremos, una corrección multiplicativa uniforme puede alterar la cola; debe evaluarse por separado la homogeneidad de frecuencia, intensidad y ocurrencia.</p>
+<p>La acumulación hace visible un cambio persistente de proporcionalidad, pero también integra el error: unos pocos años muy húmedos pueden dominar la pendiente. El patrón regional debe construirse con estaciones correlacionadas y previamente revisadas; si contiene el mismo error que la estación objetivo, la curva puede parecer estable. Los métodos relativos modernos formalizan esta comparación con múltiples referencias, pero conservan la misma idea hidrológica descrita en los textos clásicos: distinguir variación regional de alteración local antes de corregir <span class="bibtex-citation" id="id35">(<a class="reference internal" href="#id132" title="Chow, V. T., Maidment, D. R., and Mays, L. W. Hidrología aplicada. McGraw-Hill, 1994.">Chow <em>et al.</em>, 1994</a>; <a class="reference internal" href="#id133" title="Shaw, E. M., Beven, K. J., Chappell, N. A., and Lamb, R. Hydrology in Practice. Spon Press, 4th edition, 2011.">Shaw <em>et al.</em>, 2011</a>)</span>.</p>
+</section>
+<section id="relleno-de-datos-faltantes">
+<h3><span class="section-number">7.6.7. </span>Relleno de datos faltantes<a class="headerlink" href="#relleno-de-datos-faltantes" title="Link to this heading"></a></h3>
+<p>Rellenar no crea observaciones. Todo valor estimado debe conservar una bandera y la incertidumbre correspondiente. Para vacíos aislados y estaciones similares, el promedio de tres vecinos es:</p>
+<div class="math notranslate nohighlight">
+\[\widehat{P}_x = \frac{P_a+P_b+P_c}{3}.\]</div>
+<p>Si los módulos pluviométricos <span class="math notranslate nohighlight">\(M\)</span> difieren de manera apreciable, se utiliza la razón normal:</p>
+<div class="math notranslate nohighlight">
+\[\widehat{P}_x = \frac{M_x}{n}\sum_{i=1}^{n}\frac{P_i}{M_i}.\]</div>
+<p>Para precipitación diaria, una regresión lineal simple puede producir valores negativos y difuminar ocurrencia. Conviene separar: (1) probabilidad de día húmedo y (2) cantidad condicionada a lluvia, o usar transformaciones y modelos adecuados a una distribución mixta. Los vacíos largos requieren cautela: la incertidumbre aumenta y un producto grillado puede servir como covariable, pero no como sustituto silencioso.</p>
+<div class="admonition-decision-minima-antes-del-relleno admonition">
+<p class="admonition-title">Decisión mínima antes del relleno</p>
+<p>Pregunte si el análisis realmente exige una serie completa. Muchos estimadores toleran faltantes si se controla la cobertura. Rellenar por costumbre puede reducir artificialmente la variabilidad y producir una falsa sensación de información.</p>
+</div>
+</section>
+</section>
+<section id="analisis-exploratorio">
+<h2><span class="section-number">7.7. </span>Análisis exploratorio<a class="headerlink" href="#analisis-exploratorio" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id210">
+<span id="fig-ch07-07"></span><a class="reference internal image-reference" href="../_images/ch07-07-eda.jpg"><img alt="../_images/ch07-07-eda.jpg" src="../_images/ch07-07-eda.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.7 </span><span class="caption-text">Dimensiones complementarias del análisis exploratorio de precipitación. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id210" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La <a class="reference internal" href="#fig-ch07-07"><span class="std std-ref">Figura 7</span></a> vincula cada subsección con una dimensión diagnóstica: cobertura, ocurrencia, cantidad, gráficos, dependencia y comparación de productos; la tendencia se interpreta combinando cobertura y dependencia.</p>
+<section id="disponibilidad-y-completitud">
+<h3><span class="section-number">7.7.1. </span>Disponibilidad y completitud<a class="headerlink" href="#disponibilidad-y-completitud" title="Link to this heading"></a></h3>
+<p>El primer gráfico no debería ser la tendencia, sino la disponibilidad. Una matriz año-mes con número de observaciones revela cambios de resolución, vacíos estacionales y períodos utilizables. Se resumen fecha inicial y final, cantidad de datos válidos, porcentaje de completitud por mes/año, rachas faltantes y distribución de banderas.</p>
+<p>Un <strong>mapa calendario</strong> permite ver secuencias húmedas y secas; una serie diaria muestra eventos; agregaciones mensuales y anuales revelan estacionalidad y variabilidad interanual. Ninguna escala sustituye a otra. Agregar antes de revisar puede ocultar errores, mientras interpretar ruido diario sin contexto puede exagerar anomalías.</p>
+</section>
+<section id="estadisticos-de-ocurrencia-y-cantidad">
+<h3><span class="section-number">7.7.2. </span>Estadísticos de ocurrencia y cantidad<a class="headerlink" href="#estadisticos-de-ocurrencia-y-cantidad" title="Link to this heading"></a></h3>
+<p>La precipitación posee una masa de probabilidad en cero y una distribución positiva asimétrica. Por eso conviene describir por separado:</p>
+<ul class="simple">
+<li><p>frecuencia de días húmedos, con umbral explícito, por ejemplo <span class="math notranslate nohighlight">\(P\geq1\ \mathrm{mm\,d^{-1}}\)</span>;</p></li>
+<li><p>intensidad media de días húmedos;</p></li>
+<li><p>percentiles de cantidades positivas;</p></li>
+<li><p>máximos en ventanas de 1, 3, 6, 12 y 24 horas o 1, 3 y 5 días;</p></li>
+<li><p>longitud de rachas secas y húmedas;</p></li>
+<li><p>contribución de días muy húmedos al total;</p></li>
+<li><p>totales mensuales, estacionales y anuales.</p></li>
+</ul>
+<p>El umbral de 1 mm reduce la influencia de trazas y diferencias instrumentales, pero no es universal. Para erosión o drenaje subhorario se necesita resolución más fina; para sequía meteorológica, totales mensuales e índices normalizados pueden ser suficientes.</p>
+</section>
+<section id="graficos-esenciales">
+<h3><span class="section-number">7.7.3. </span>Gráficos esenciales<a class="headerlink" href="#graficos-esenciales" title="Link to this heading"></a></h3>
+<p>Un conjunto compacto de visualizaciones incluye hietograma, curva de masa, climatología mensual, diagrama de cajas por mes, mapa de calor calendario, curva de duración, máximos anuales y dispersión estación-vecino. En datos grillados se agregan mapas de media, variabilidad, frecuencia húmeda, máximos, sesgo respecto de estaciones y número efectivo de observaciones.</p>
+<p>La curva de masa acumulada es útil para detectar desplazamientos y cambios de pendiente; sin embargo, dos series con igual total pueden tener distribución temporal completamente distinta. Para tormentas se presenta el hietograma junto al hidrograma, alineando relojes y pasos temporales.</p>
+</section>
+<section id="dependencia-temporal-y-espacial">
+<h3><span class="section-number">7.7.4. </span>Dependencia temporal y espacial<a class="headerlink" href="#dependencia-temporal-y-espacial" title="Link to this heading"></a></h3>
+<p>La autocorrelación de ocurrencia y cantidad afecta estimadores de incertidumbre. La precipitación diaria puede presentar persistencia por sistemas frontales y estacionalidad; la precipitación subdiaria puede agruparse en celdas y complejos convectivos. En el espacio, se examinan correlación versus distancia, variogramas y relación con elevación. Una correlación alta en totales mensuales no garantiza capacidad para reproducir máximos horarios.</p>
+</section>
+<section id="tendencias-y-no-estacionariedad">
+<h3><span class="section-number">7.7.5. </span>Tendencias y no estacionariedad<a class="headerlink" href="#tendencias-y-no-estacionariedad" title="Link to this heading"></a></h3>
+<p>Una tendencia aparente puede originarse en faltantes, cambios de estación, urbanización del entorno, oscilaciones climáticas o cambio climático. Antes de aplicar una prueba, se define variable, estación del año, período y tratamiento de autocorrelación. Se informa magnitud y sensibilidad, no sólo un valor <em>p</em>. Para diseño, la pregunta importante es si la hipótesis de estacionariedad es adecuada durante la vida útil de la obra y qué margen de adaptación se necesita.</p>
+</section>
+<section id="comparacion-de-productos">
+<h3><span class="section-number">7.7.6. </span>Comparación de productos<a class="headerlink" href="#comparacion-de-productos" title="Link to this heading"></a></h3>
+<p>La evaluación debe separar ocurrencia, cantidad, distribución y extremos. Métricas útiles son sesgo, error absoluto, RMSE, correlación, eficiencia, probabilidad de detección, tasa de falsas alarmas y razón de amenaza. Deben calcularse en escalas coherentes y mediante validación espacial independiente. Una alta correlación puede coexistir con un sesgo volumétrico inaceptable; un bajo RMSE puede resultar de suavizar todos los extremos.</p>
+</section>
+</section>
+<section id="precipitacion-areal-e-interpolacion-espacial">
+<h2><span class="section-number">7.8. </span>Precipitación areal e interpolación espacial<a class="headerlink" href="#precipitacion-areal-e-interpolacion-espacial" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id211">
+<span id="fig-ch07-08"></span><a class="reference internal image-reference" href="../_images/ch07-08-interpolation.jpg"><img alt="../_images/ch07-08-interpolation.jpg" src="../_images/ch07-08-interpolation.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.8 </span><span class="caption-text">Tres rutas para estimar precipitación areal: interpolación local, producto grillado y fusión multifuente, seguidas por agregación y validación independientes. Síntesis conceptual elaborada a partir de Serrano-Notivoli y Tejedor (2021), Mankin et al. (2025) y Zambrano-Bigiarini et al. (2017).</span><a class="headerlink" href="#id211" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La <a class="reference internal" href="#fig-ch07-08"><span class="std std-ref">Figura 8</span></a> muestra que los métodos clásicos y los productos grillados no son alternativas completamente separadas. Muchos productos basados en estaciones ya aplican interpolación, regresión con covariables, <em>splines</em> o kriging; los productos satelitales y de reanálisis añaden información espacial distinta. La decisión moderna consiste en seleccionar, validar y eventualmente fusionar esas fuentes para el soporte y la finalidad hidrológica requeridos <span class="bibtex-citation" id="id36">(<a class="reference internal" href="#id149" title="Mankin, K. R., Mehan, S., Green, T. R., and Barnard, D. M. Review of gridded climate products and their use in hydrological analyses reveals overlaps, gaps, and the need for a more objective approach to selecting model forcing datasets. Hydrology and Earth System Sciences, 29:85–108, 2025. doi:10.5194/hess-29-85-2025.">Mankin <em>et al.</em>, 2025</a>; <a class="reference internal" href="#id148" title="Serrano-Notivoli, R. and Tejedor, E. From rain to data: a review of the creation of monthly and daily station-based gridded precipitation datasets. WIREs Water, 8(6):e1555, 2021. doi:10.1002/wat2.1555.">Serrano-Notivoli and Tejedor, 2021</a>; <a class="reference internal" href="#id150" title="Zambrano-Bigiarini, M., Nauditt, A., Birkel, C., Verbist, K., and Ribbe, L. Temporal and spatial evaluation of satellite-based rainfall estimates across the complex topographical and climatic gradients of chile. Hydrology and Earth System Sciences, 21:1295–1320, 2017. doi:10.5194/hess-21-1295-2017.">Zambrano-Bigiarini <em>et al.</em>, 2017</a>)</span>.</p>
+<section id="del-punto-a-la-cuenca">
+<h3><span class="section-number">7.8.1. </span>Del punto a la cuenca<a class="headerlink" href="#del-punto-a-la-cuenca" title="Link to this heading"></a></h3>
+<p>Una estación mide un punto, mientras un modelo hidrológico suele requerir la media sobre una cuenca. La precipitación areal es:</p>
+<div class="math notranslate nohighlight">
+\[\overline{P}_A = \frac{1}{A}\int_A P(x,y)\,dA.\]</div>
+<p>El cálculo exige una hipótesis sobre el campo entre estaciones. La incertidumbre aumenta cuando la red es escasa, el relieve complejo o la tormenta pequeña respecto de la separación entre instrumentos.</p>
+<p>Una grilla tampoco elimina el cambio de soporte. Cada píxel representa una media o estimación espacial asociada a su algoritmo, no una observación puntual. Para obtener la media de cuenca desde celdas que la intersectan se pondera por el área efectiva dentro de la cuenca:</p>
+<div class="math notranslate nohighlight">
+\[\overline{P}_A = \frac{1}{A}\sum_{j=1}^{M} a_j P_j,
+\qquad \sum_{j=1}^{M}a_j=A,\]</div>
+<p>donde <span class="math notranslate nohighlight">\(a_j\)</span> es el área de intersección entre la celda <span class="math notranslate nohighlight">\(j\)</span> y la cuenca. En grillas geográficas, las celdas no poseen igual área; para cuencas pequeñas o bordes irregulares se debe usar intersección exacta en una proyección equivalente, no un promedio simple de centros de píxel.</p>
+</section>
+<section id="promedio-aritmetico">
+<h3><span class="section-number">7.8.2. </span>Promedio aritmético<a class="headerlink" href="#promedio-aritmetico" title="Link to this heading"></a></h3>
+<p>Para <span class="math notranslate nohighlight">\(N\)</span> estaciones:</p>
+<div class="math notranslate nohighlight">
+\[\overline{P} = \frac{1}{N}\sum_{i=1}^{N}P_i.\]</div>
+<p>Es aceptable cuando la red es densa y aproximadamente uniforme y el gradiente espacial es débil. Su simplicidad es una ventaja pedagógica y operacional, pero asigna igual área de influencia a todas las estaciones.</p>
+</section>
+<section id="poligonos-de-thiessen">
+<h3><span class="section-number">7.8.3. </span>Polígonos de Thiessen<a class="headerlink" href="#poligonos-de-thiessen" title="Link to this heading"></a></h3>
+<p>Los polígonos de Voronoi asignan cada punto a la estación más cercana. Si <span class="math notranslate nohighlight">\(A_i\)</span> es la intersección del polígono con la cuenca:</p>
+<div class="math notranslate nohighlight">
+\[\overline{P} = \frac{1}{A}\sum_{i=1}^{N}A_iP_i,
+\qquad \sum_{i=1}^{N}A_i=A.\]</div>
+<p>El método incorpora distribución irregular, es reproducible y conserva exactamente los valores observados. No considera relieve, dirección de tormenta ni gradientes y sus pesos cambian al agregar o retirar estaciones.</p>
+</section>
+<section id="isoyetas">
+<h3><span class="section-number">7.8.4. </span>Isoyetas<a class="headerlink" href="#isoyetas" title="Link to this heading"></a></h3>
+<p>Las isoyetas unen puntos de igual precipitación. Si <span class="math notranslate nohighlight">\(a_j\)</span> es el área entre isoyetas consecutivas <span class="math notranslate nohighlight">\(P_j\)</span> y <span class="math notranslate nohighlight">\(P_{j+1}\)</span>:</p>
+<div class="math notranslate nohighlight">
+\[\overline{P} = \frac{1}{A}\sum_j a_j\frac{P_j+P_{j+1}}{2}.\]</div>
+<p>El trazado experto puede incorporar topografía y patrón de tormenta. Su debilidad es la subjetividad; un SIG mejora reproducibilidad, pero no elimina la necesidad de justificar el modelo de superficie.</p>
+</section>
+<section id="inverso-de-la-distancia">
+<h3><span class="section-number">7.8.5. </span>Inverso de la distancia<a class="headerlink" href="#inverso-de-la-distancia" title="Link to this heading"></a></h3>
+<p>En IDW, la estimación en <span class="math notranslate nohighlight">\(s_0\)</span> es:</p>
+<div class="math notranslate nohighlight">
+\[\widehat{P}(s_0)=\frac{\sum_{i=1}^{N}d_{i0}^{-p}P(s_i)}
+{\sum_{i=1}^{N}d_{i0}^{-p}},\]</div>
+<p>con <span class="math notranslate nohighlight">\(p\)</span> frecuentemente igual a 2. Valores altos de <span class="math notranslate nohighlight">\(p\)</span> enfatizan vecinos cercanos. IDW es transparente, pero genera «ojos de toro», no representa tendencia y carece de un modelo probabilístico de error.</p>
+</section>
+<section id="kriging-y-regresion-kriging">
+<h3><span class="section-number">7.8.6. </span>Kriging y regresión-kriging<a class="headerlink" href="#kriging-y-regresion-kriging" title="Link to this heading"></a></h3>
+<p>El kriging modela dependencia espacial mediante el variograma:</p>
+<div class="math notranslate nohighlight">
+\[\gamma(h)=\frac{1}{2}\operatorname{Var}\left[Z(s+h)-Z(s)\right].\]</div>
+<p>La estimación es una combinación lineal insesgada de observaciones y entrega una varianza condicionada al modelo. Requiere suficientes pares a distintas distancias y un variograma defendible. En terrenos complejos, la regresión-kriging separa una tendencia explicada por elevación, coordenadas u otras covariables y aplica kriging a los residuos <span class="bibtex-citation" id="id37">(<a class="reference internal" href="#id156" title="Ly, S., Charles, C., and Degré, A. Different methods for spatial interpolation of rainfall data for operational hydrology and hydrological modeling at watershed scale: a review. Biotechnology, Agronomy, Society and Environment, 17(2):392–406, 2013.">Ly <em>et al.</em>, 2013</a>)</span>.</p>
+<p>La precipitación positiva suele transformarse con raíz cuadrada o logaritmo, pero los ceros requieren tratamiento explícito. La transformación debe invertirse con corrección de sesgo cuando corresponda. El kriging no es automáticamente superior: con pocas estaciones o variogramas inestables, un método simple puede generalizar mejor.</p>
+<p>El variograma separa tres rasgos: el efecto pepita representa variación no resuelta y error de medición; el umbral aproxima la varianza espacial total; y el alcance identifica la distancia más allá de la cual la dependencia es débil. Estos parámetros sólo tienen sentido respecto del soporte y período analizados. Un variograma mensual no debe utilizarse sin justificación para una tormenta horaria. La regresión-kriging es útil cuando existe una tendencia física, pero la covariable debe estar disponible también donde se predice y su relación debe validarse fuera de muestra <span class="bibtex-citation" id="id38">(<a class="reference internal" href="#id132" title="Chow, V. T., Maidment, D. R., and Mays, L. W. Hidrología aplicada. McGraw-Hill, 1994.">Chow <em>et al.</em>, 1994</a>; <a class="reference internal" href="#id156" title="Ly, S., Charles, C., and Degré, A. Different methods for spatial interpolation of rainfall data for operational hydrology and hydrological modeling at watershed scale: a review. Biotechnology, Agronomy, Society and Environment, 17(2):392–406, 2013.">Ly <em>et al.</em>, 2013</a>)</span>.</p>
+</section>
+<section id="fusion-con-radar-satelite-o-reanalisis">
+<h3><span class="section-number">7.8.7. </span>Fusión con radar, satélite o reanálisis<a class="headerlink" href="#fusion-con-radar-satelite-o-reanalisis" title="Link to this heading"></a></h3>
+<p>Una grilla remota puede utilizarse como campo de fondo y las estaciones para corregir sesgo o interpolar residuos. Tres estrategias comunes son: factor multiplicativo por región, corrección cuantílica y <em>merging</em> geoestadístico. La elección depende de si importa conservar totales, distribución o secuencia temporal. Una corrección mensual no garantiza extremos horarios y una corrección celda a celda puede sobreajustar.</p>
+</section>
+<section id="productos-grillados-como-alternativa-operacional">
+<h3><span class="section-number">7.8.8. </span>Productos grillados como alternativa operacional<a class="headerlink" href="#productos-grillados-como-alternativa-operacional" title="Link to this heading"></a></h3>
+<p>Un producto grillado listo para usar es una alternativa de estado del arte cuando la red local no representa adecuadamente la variabilidad espacial, cuando se necesita cobertura temporal uniforme o cuando el área de estudio excede la capacidad de una interpolación propia. Sus ventajas prácticas son cobertura continua, pocos vacíos, procesamiento reproducible y acceso a campos subdiarios o multivariables. Sin embargo, sigue siendo una <strong>estimación modelada</strong>: puede compartir estaciones con la validación, suavizar extremos, desplazar tormentas y presentar cambios entre versiones <span class="bibtex-citation" id="id39">(<a class="reference internal" href="#id149" title="Mankin, K. R., Mehan, S., Green, T. R., and Barnard, D. M. Review of gridded climate products and their use in hydrological analyses reveals overlaps, gaps, and the need for a more objective approach to selecting model forcing datasets. Hydrology and Earth System Sciences, 29:85–108, 2025. doi:10.5194/hess-29-85-2025.">Mankin <em>et al.</em>, 2025</a>; <a class="reference internal" href="#id147" title="Sun, Q., Miao, C., Duan, Q., Ashouri, H., Sorooshian, S., and Hsu, K.-L. A review of global precipitation data sets: data sources, estimation, and intercomparisons. Reviews of Geophysics, 56(1):79–107, 2018. doi:10.1002/2017RG000574.">Sun <em>et al.</em>, 2018</a>)</span>.</p>
+<p>La ruta apropiada depende del problema. Una climatología terrestre con una red densa puede favorecer una grilla basada en estaciones; una tormenta en una zona sin instrumentos puede requerir satélite o radar; un balance multivariable puede aprovechar un reanálisis; y una aplicación exigente suele beneficiarse de fusión o ensamble. En topografía compleja, una resolución nominal fina no recupera automáticamente gradientes orográficos que no fueron observados o representados por el algoritmo.</p>
+<p>Para Chile, los contrastes entre desierto, cordillera, valle central, costa y extremo austral hacen indispensable estratificar la evaluación. El análisis por región, elevación, estación del año y escala temporal puede conducir a productos distintos para sequía, balance anual y crecidas. La evaluación nacional de estimaciones satelitales confirma que el desempeño en ocurrencia no garantiza desempeño en intensidad y que los resultados de una zona húmeda no deben extrapolarse al altiplano o a la Patagonia <span class="bibtex-citation" id="id40">(<a class="reference internal" href="#id150" title="Zambrano-Bigiarini, M., Nauditt, A., Birkel, C., Verbist, K., and Ribbe, L. Temporal and spatial evaluation of satellite-based rainfall estimates across the complex topographical and climatic gradients of chile. Hydrology and Earth System Sciences, 21:1295–1320, 2017. doi:10.5194/hess-21-1295-2017.">Zambrano-Bigiarini <em>et al.</em>, 2017</a>)</span>.</p>
+</section>
+<section id="validacion-cruzada">
+<h3><span class="section-number">7.8.9. </span>Validación cruzada<a class="headerlink" href="#validacion-cruzada" title="Link to this heading"></a></h3>
+<p>La validación de interpolación retira observaciones y predice en sus ubicaciones. En precipitación espacial conviene usar bloques o retirar estaciones completas, no puntos aleatorios de una serie, para evitar fuga de información. Para un producto publicado se debe identificar qué estaciones entraron en su calibración antes de llamarlas «independientes»; si esa información no está disponible, la incertidumbre de la evaluación debe declararse.</p>
+<p>Se evalúan por separado ocurrencia, cantidad, extremos y secuencia temporal mediante sesgo, MAE, RMSE, correlación y métricas categóricas, estratificando por elevación, estación del año y cuantiles. La distribución mixta de ceros y valores positivos hace insuficiente una sola métrica global. También se verifican conservación del volumen sobre cuencas, plausibilidad de gradientes y sensibilidad de la respuesta hidrológica. La incertidumbre varía en espacio y tiempo y debe propagarse a los resultados; puede caracterizarse con estaciones reservadas, validación cruzada espacial, varianza de kriging o ensambles de productos <span class="bibtex-citation" id="id41">(<a class="reference internal" href="#id148" title="Serrano-Notivoli, R. and Tejedor, E. From rain to data: a review of the creation of monthly and daily station-based gridded precipitation datasets. WIREs Water, 8(6):e1555, 2021. doi:10.1002/wat2.1555.">Serrano-Notivoli and Tejedor, 2021</a>)</span>.</p>
+<div class="admonition-secuencia-recomendada admonition">
+<p class="admonition-title">Secuencia recomendada</p>
+<ol class="arabic simple">
+<li><p>Definir soporte y escala de salida.</p></li>
+<li><p>Inventariar estaciones y productos G, S, R o fusionados disponibles.</p></li>
+<li><p>Controlar estaciones, dependencias y período común.</p></li>
+<li><p>Explorar tendencia, elevación, anisotropía y variabilidad subcelda.</p></li>
+<li><p>Ajustar un método simple y seleccionar al menos una grilla de referencia.</p></li>
+<li><p>Validar fuera de muestra con bloques espaciales y por estratos climáticos.</p></li>
+<li><p>Comparar ocurrencia, cantidad, extremos, secuencia y volumen areal.</p></li>
+<li><p>Propagar incertidumbre y guardar versión, máscara de extrapolación y código.</p></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="magnitudes-hidrologicas-derivadas">
+<h2><span class="section-number">7.9. </span>Magnitudes hidrológicas derivadas<a class="headerlink" href="#magnitudes-hidrologicas-derivadas" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id212">
+<span id="fig-ch07-09"></span><a class="reference internal image-reference" href="../_images/ch07-09-derived.jpg"><img alt="../_images/ch07-09-derived.jpg" src="../_images/ch07-09-derived.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.9 </span><span class="caption-text">Relación entre escala temporal, frecuencia y magnitudes derivadas. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id212" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La <a class="reference internal" href="#fig-ch07-09"><span class="std std-ref">Figura 9</span></a> dedica un panel a normales, curvas IDF, hietogramas de diseño e índices de sequía y extremos.</p>
+<section id="modulo-y-normales-climatologicas">
+<h3><span class="section-number">7.9.1. </span>Módulo y normales climatológicas<a class="headerlink" href="#modulo-y-normales-climatologicas" title="Link to this heading"></a></h3>
+<p>El <strong>módulo pluviométrico</strong> es la precipitación anual media calculada sobre un período largo y con cobertura suficiente. Una <strong>normal climatológica</strong> se refiere a un período estándar de 30 años, útil para comparación. No debe confundirse «normal» con «esperable cada año»: la distribución anual puede ser muy variable. Cuando se comparan anomalías, todas las estaciones deben usar el mismo período base o una corrección explícita.</p>
+</section>
+<section id="tormentas-de-diseno-e-idf">
+<h3><span class="section-number">7.9.2. </span>Tormentas de diseño e IDF<a class="headerlink" href="#tormentas-de-diseno-e-idf" title="Link to this heading"></a></h3>
+<p>Las curvas <strong>intensidad-duración-frecuencia</strong> relacionan intensidad media <span class="math notranslate nohighlight">\(i\)</span>, duración <span class="math notranslate nohighlight">\(d\)</span> y período de retorno <span class="math notranslate nohighlight">\(T\)</span>. Se construyen a partir de máximos anuales o series de excedencias, controlando independencia, resolución y homogeneidad. Una forma empírica es:</p>
+<div class="math notranslate nohighlight">
+\[i(d,T)=\frac{a(T)}{(d+b)^c}.\]</div>
+<p>Los parámetros son locales; extrapolar curvas de otra ciudad o desagregar lluvia diaria con factores universales introduce incertidumbre. El período de retorno no es un calendario. Para un evento con probabilidad anual <span class="math notranslate nohighlight">\(p=1/T\)</span>, la probabilidad de al menos una excedencia en <span class="math notranslate nohighlight">\(n\)</span> años es:</p>
+<div class="math notranslate nohighlight">
+\[R = 1-(1-p)^n.\]</div>
+<p>Por ejemplo, una obra con vida útil comparable a <span class="math notranslate nohighlight">\(T\)</span> tiene un riesgo de excedencia considerable. El diseño debe asociar lluvia, transformación lluvia-caudal, consecuencias y criterios normativos.</p>
+<p>Una serie de máximos anuales aporta un valor por año y simplifica la independencia, pero descarta tormentas secundarias importantes. Una serie de excedencias conserva más eventos y puede estimar mejor niveles frecuentes, a cambio de exigir un umbral y un criterio de separación temporal. En ambos casos, la duración debe ser compatible con el intervalo de registro: un máximo de 60 minutos calculado desde totales horarios no equivale necesariamente al máximo móvil de una hora. Los textos de hidrología aplicada insisten en que la extrapolación estadística no puede compensar una resolución o longitud de registro inadecuadas <span class="bibtex-citation" id="id42">(<a class="reference internal" href="#id132" title="Chow, V. T., Maidment, D. R., and Mays, L. W. Hidrología aplicada. McGraw-Hill, 1994.">Chow <em>et al.</em>, 1994</a>; <a class="reference internal" href="#id134" title="Robinson, M. and Ward, R. Hydrology: Principles and Processes. IWA Publishing, 2017.">Robinson and Ward, 2017</a>; <a class="reference internal" href="#id133" title="Shaw, E. M., Beven, K. J., Chappell, N. A., and Lamb, R. Hydrology in Practice. Spon Press, 4th edition, 2011.">Shaw <em>et al.</em>, 2011</a>)</span>.</p>
+</section>
+<section id="hietogramas-de-diseno">
+<h3><span class="section-number">7.9.3. </span>Hietogramas de diseño<a class="headerlink" href="#hietogramas-de-diseno" title="Link to this heading"></a></h3>
+<p>Una profundidad de diseño debe distribuirse en el tiempo para modelar escorrentía. Métodos de bloques alternos, patrones adimensionales o tormentas históricas reorganizadas generan hietogramas distintos aun con igual total. La posición del bloque máximo afecta el caudal punta en cuencas no lineales. Deben declararse duración total, paso temporal, patrón y ajuste areal.</p>
+</section>
+<section id="indices-de-sequia-y-extremos">
+<h3><span class="section-number">7.9.4. </span>Índices de sequía y extremos<a class="headerlink" href="#indices-de-sequia-y-extremos" title="Link to this heading"></a></h3>
+<p>El SPI transforma la precipitación acumulada en una variable normalizada para una escala temporal dada. Escalas cortas responden a sequía meteorológica; escalas largas se relacionan mejor con almacenamiento y recursos hídricos. Índices de extremos describen días húmedos, máximos de 1 y 5 días, rachas secas y fracción aportada por eventos intensos. Ningún índice resume por sí solo impacto: la misma anomalía tiene consecuencias diferentes según demanda, suelo y almacenamiento.</p>
+</section>
+</section>
+<section id="aplicaciones-en-ingenieria-civil">
+<h2><span class="section-number">7.10. </span>Aplicaciones en ingeniería civil<a class="headerlink" href="#aplicaciones-en-ingenieria-civil" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id213">
+<span id="fig-ch07-10"></span><a class="reference internal image-reference" href="../_images/ch07-10-applications.jpg"><img alt="../_images/ch07-10-applications.jpg" src="../_images/ch07-10-applications.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.10 </span><span class="caption-text">Cadenas lluvia-respuesta-decisión en aplicaciones de ingeniería civil. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id213" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Cada subsección de aplicaciones está representada por un panel de la <a class="reference internal" href="#fig-ch07-10"><span class="std std-ref">Figura 10</span></a>: drenaje, inundaciones, embalses, energía, laderas, construcción y resiliencia.</p>
+<section id="drenaje-urbano-y-vial">
+<h3><span class="section-number">7.10.1. </span>Drenaje urbano y vial<a class="headerlink" href="#drenaje-urbano-y-vial" title="Link to this heading"></a></h3>
+<p>El diseño de sumideros, colectores, cunetas, alcantarillas y obras de cruce requiere intensidades compatibles con el tiempo de concentración. En cuencas pequeñas puede emplearse el método racional:</p>
+<div class="math notranslate nohighlight">
+\[Q_p = C i A,\]</div>
+<p>donde las unidades deben ser consistentes. La principal incertidumbre no siempre es <span class="math notranslate nohighlight">\(C\)</span>; puede ser una intensidad extrapolada desde registros cortos o diarios. Urbanización, obstrucción y reducción de almacenamiento hacen necesario evaluar escenarios y rutas seguras de excedencia.</p>
+</section>
+<section id="control-de-inundaciones">
+<h3><span class="section-number">7.10.2. </span>Control de inundaciones<a class="headerlink" href="#control-de-inundaciones" title="Link to this heading"></a></h3>
+<p>En cuencas medianas y grandes, la precipitación espacial y temporal alimenta modelos de eventos o continuos. Para pronóstico se prioriza latencia y combinación radar-satélite-estaciones; para diseño se priorizan homogeneidad, extremos y coherencia espacial. Presas, defensas fluviales y puentes requieren además evaluar tormentas regionales, simultaneidad entre subcuencas y propagación hidráulica.</p>
+</section>
+<section id="embalses-y-abastecimiento">
+<h3><span class="section-number">7.10.3. </span>Embalses y abastecimiento<a class="headerlink" href="#embalses-y-abastecimiento" title="Link to this heading"></a></h3>
+<p>Los balances de embalse usan precipitación directa, aportes de cuenca y evaporación. Para planificación importan secuencias multianuales, persistencia de sequías y cambios de régimen. Un sesgo pequeño en precipitación media puede amplificarse en escorrentía, sobre todo en cuencas áridas. Por ello se calibran modelos con varias variables y se analizan elasticidades.</p>
+</section>
+<section id="hidroelectricidad-y-operacion">
+<h3><span class="section-number">7.10.4. </span>Hidroelectricidad y operación<a class="headerlink" href="#hidroelectricidad-y-operacion" title="Link to this heading"></a></h3>
+<p>La precipitación y el almacenamiento nival condicionan generación y seguridad. Pronósticos por ensamble apoyan programación, mientras registros históricos sustentan energía firme y reglas de operación. La incertidumbre debe propagarse desde precipitación a caudal y volumen, evitando presentar una única trayectoria determinista.</p>
+</section>
+<section id="estabilidad-de-laderas-y-erosion">
+<h3><span class="section-number">7.10.5. </span>Estabilidad de laderas y erosión<a class="headerlink" href="#estabilidad-de-laderas-y-erosion" title="Link to this heading"></a></h3>
+<p>Deslizamientos pueden responder a intensidad corta, acumulación antecedente o ambas. Umbrales intensidad-duración se calibran con inventarios de eventos y deben reconocer falsos positivos y cambios de uso del suelo. En erosión y transporte de sedimentos importan energía cinética e intensidades subhorarias; totales diarios pueden ser insuficientes.</p>
+</section>
+<section id="construccion-y-geotecnia">
+<h3><span class="section-number">7.10.6. </span>Construcción y geotecnia<a class="headerlink" href="#construccion-y-geotecnia" title="Link to this heading"></a></h3>
+<p>La lluvia afecta excavaciones, compactación, bombeo, hormigonado, caminos temporales y seguridad de faenas. Una planificación operacional utiliza pronósticos y alertas; el dimensionamiento de drenajes temporales usa curvas de diseño acordes con duración de la obra y consecuencias. En geotecnia, la infiltración modifica succión y presión de poros, de modo que el antecedente de humedad importa tanto como la lluvia del día.</p>
+</section>
+<section id="infraestructura-resiliente">
+<h3><span class="section-number">7.10.7. </span>Infraestructura resiliente<a class="headerlink" href="#infraestructura-resiliente" title="Link to this heading"></a></h3>
+<p>El cambio climático desafía la hipótesis de que la distribución histórica permanecerá fija. No es apropiado multiplicar todas las lluvias por la tasa de Clausius-Clapeyron: la respuesta local depende de circulación, humedad y tormenta. Se recomienda combinar evidencia observada, proyecciones regionales, análisis de sensibilidad y diseño adaptable. El objetivo no es adivinar una lluvia futura exacta, sino evitar decisiones frágiles ante un rango plausible.</p>
+</section>
+</section>
+<section id="flujo-de-trabajo-reproducible">
+<h2><span class="section-number">7.11. </span>Flujo de trabajo reproducible<a class="headerlink" href="#flujo-de-trabajo-reproducible" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id214">
+<span id="fig-ch07-11"></span><a class="reference internal image-reference" href="../_images/ch07-11-workflow.jpg"><img alt="../_images/ch07-11-workflow.jpg" src="../_images/ch07-11-workflow.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.11 </span><span class="caption-text">Siete etapas de un estudio reproducible de precipitación. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id214" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Los siete paneles numerados de la <a class="reference internal" href="#fig-ch07-11"><span class="std std-ref">Figura 11</span></a> corresponden directamente a las siete subsecciones del flujo de trabajo.</p>
+<section id="etapa-1-formular-la-decision">
+<h3><span class="section-number">7.11.1. </span>Etapa 1: formular la decisión<a class="headerlink" href="#etapa-1-formular-la-decision" title="Link to this heading"></a></h3>
+<p>Se especifican obra, horizonte, escala, variable objetivo y tolerancia al riesgo. «Obtener precipitación» es demasiado amplio; «estimar máximos horarios areales para dimensionar un colector con vida útil de 30 años» es verificable.</p>
+</section>
+<section id="etapa-2-construir-el-inventario">
+<h3><span class="section-number">7.11.2. </span>Etapa 2: construir el inventario<a class="headerlink" href="#etapa-2-construir-el-inventario" title="Link to this heading"></a></h3>
+<p>Se descargan estaciones, metadatos y al menos dos fuentes grilladas conceptualmente diferentes. Se conserva el archivo original y se calcula una huella digital. Se documentan licencia, versión y fecha. En Chile se contrastan DGA/DMC con productos como CR2MET e IMERG, según la escala.</p>
+</section>
+<section id="etapa-3-armonizar">
+<h3><span class="section-number">7.11.3. </span>Etapa 3: armonizar<a class="headerlink" href="#etapa-3-armonizar" title="Link to this heading"></a></h3>
+<p>Se convierten unidades, calendario, zona horaria, fase y acumulación. Se recorta un período común sin perder la trazabilidad del período total. Los datos faltantes permanecen como ausentes y nunca como cero.</p>
+</section>
+<section id="etapa-4-controlar-y-explorar">
+<h3><span class="section-number">7.11.4. </span>Etapa 4: controlar y explorar<a class="headerlink" href="#etapa-4-controlar-y-explorar" title="Link to this heading"></a></h3>
+<p>Se aplican pruebas de integridad, completitud, consistencia temporal y espacial. Cada bandera se revisa con evidencia. Luego se describen ocurrencia, cantidades, estacionalidad, extremos y dependencia.</p>
+</section>
+<section id="etapa-5-modelar-el-espacio">
+<h3><span class="section-number">7.11.5. </span>Etapa 5: modelar el espacio<a class="headerlink" href="#etapa-5-modelar-el-espacio" title="Link to this heading"></a></h3>
+<p>Se compara un método base simple con alternativas que incorporan topografía o una grilla auxiliar. La validación se diseña antes de ajustar. Se evita seleccionar el método con los mismos datos utilizados para entrenarlo.</p>
+</section>
+<section id="etapa-6-propagar-incertidumbre">
+<h3><span class="section-number">7.11.6. </span>Etapa 6: propagar incertidumbre<a class="headerlink" href="#etapa-6-propagar-incertidumbre" title="Link to this heading"></a></h3>
+<p>Se evalúan escenarios de fuente, corrección, interpolación y parámetros. La dispersión entre resultados no se oculta en una cifra promedio. Para decisiones críticas se analiza cómo cada alternativa cambia el indicador de diseño.</p>
+</section>
+<section id="etapa-7-comunicar">
+<h3><span class="section-number">7.11.7. </span>Etapa 7: comunicar<a class="headerlink" href="#etapa-7-comunicar" title="Link to this heading"></a></h3>
+<p>El informe incluye mapa de estaciones, cobertura, decisiones de calidad, versiones, ecuaciones, validación y limitaciones. Se entregan datos procesados con banderas y código reproducible. Una cifra sin procedencia no es un resultado de ingeniería auditable.</p>
+</section>
+</section>
+<section id="ejemplo-conceptual-integrado">
+<h2><span class="section-number">7.12. </span>Ejemplo conceptual integrado<a class="headerlink" href="#ejemplo-conceptual-integrado" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id215">
+<span id="fig-ch07-12"></span><a class="reference internal image-reference" href="../_images/ch07-12-integration.jpg"><img alt="../_images/ch07-12-integration.jpg" src="../_images/ch07-12-integration.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.12 </span><span class="caption-text">Integración de diagnóstico, homogeneización, estimación areal, extremos y entrega. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id215" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>La secuencia del ejemplo sigue los paneles de la <a class="reference internal" href="#fig-ch07-12"><span class="std std-ref">Figura 12</span></a>; los dos últimos anticipan los errores frecuentes y los requisitos de entrega auditable.</p>
+<p>Considérese una cuenca andina con seis estaciones, fuertes gradientes de elevación y vacíos diarios. El objetivo es estimar precipitación media diaria para calibrar un modelo y máximos de 24 horas para revisar obras de cruce.</p>
+<p>Primero se separan los objetivos: el modelo continuo requiere volumen y secuencia; el diseño requiere fidelidad en la cola. Se revisan códigos y se descubre que dos estaciones de portales distintos son el mismo sensor. Se corrigen unidades, se alinean días a 12:00 UTC y se eliminan duplicados, sin eliminar extremos.</p>
+<p>Luego se grafica completitud y se forma un patrón regional con estaciones homogéneas. Un quiebre coincide con traslado de una estación; se evalúa una corrección mediante doble acumulación. Vacíos cortos se estiman con vecinos y una covariable grillada, conservando banderas. Un año con 40 % de ausencia se excluye del análisis de máximos.</p>
+<p>Para precipitación areal se comparan Thiessen, IDW, regresión con elevación más kriging residual y corrección de una grilla satelital. La validación dejando una estación fuera muestra que la regresión-kriging reduce sesgo en cotas altas, pero subestima los dos mayores eventos. La solución operativa usa ese campo para el modelo continuo y un factor areal derivado de tormentas observadas para extremos. Esta elección dual es más defendible que declarar un método universalmente superior.</p>
+</section>
+<section id="errores-frecuentes">
+<h2><span class="section-number">7.13. </span>Errores frecuentes<a class="headerlink" href="#errores-frecuentes" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p><strong>Confundir cero con dato faltante.</strong> Produce sequías ficticias y sesgo negativo.</p></li>
+<li><p><strong>Mezclar tasa y acumulación.</strong> Sumar tasas sin multiplicar por duración altera el volumen.</p></li>
+<li><p><strong>Ignorar la ventana diaria.</strong> Desplaza tormentas y degrada comparaciones.</p></li>
+<li><p><strong>Validar con estaciones usadas en el ajuste.</strong> Sobreestima desempeño.</p></li>
+<li><p><strong>Interpretar resolución nominal como detalle real.</strong> Una celda pequeña puede contener información suavizada.</p></li>
+<li><p><strong>Rellenar antes de controlar.</strong> Propaga errores y oculta quiebres.</p></li>
+<li><p><strong>Eliminar extremos por ser extremos.</strong> Borra información de diseño.</p></li>
+<li><p><strong>Interpolar fuera de la red sin advertencia.</strong> Convierte extrapolación en un mapa aparentemente preciso.</p></li>
+<li><p><strong>Usar sólo correlación.</strong> Ignora sesgo, volumen y ocurrencia.</p></li>
+<li><p><strong>No registrar versión.</strong> Impide reproducir resultados cuando el proveedor reprocesa el producto.</p></li>
+</ol>
+</section>
+<section id="actividades-de-aprendizaje">
+<h2><span class="section-number">7.14. </span>Actividades de aprendizaje<a class="headerlink" href="#actividades-de-aprendizaje" title="Link to this heading"></a></h2>
+<figure class="align-center" id="id216">
+<span id="fig-ch07-13"></span><a class="reference internal image-reference" href="../_images/ch07-13-learning.jpg"><img alt="../_images/ch07-13-learning.jpg" src="../_images/ch07-13-learning.jpg" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-number">Figura 7.13 </span><span class="caption-text">Ruta de aprendizaje desde el cálculo de volumen hasta el diseño adaptable. Composición editorial basada en material gráfico suministrado por el autor.</span><a class="headerlink" href="#id216" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Los cinco paneles de la <a class="reference internal" href="#fig-ch07-13"><span class="std std-ref">Figura 13</span></a> corresponden a las cinco actividades y, en conjunto, resumen el recorrido desde la interpretación física hasta el diseño adaptable.</p>
+<section id="actividad-1-de-tormenta-a-volumen">
+<h3><span class="section-number">7.14.1. </span>Actividad 1: de tormenta a volumen<a class="headerlink" href="#actividad-1-de-tormenta-a-volumen" title="Link to this heading"></a></h3>
+<p>Una cuenca de 35 km² recibe una precipitación areal estimada de 18 mm. Calcule el volumen bruto. Si el coeficiente de escorrentía de evento se aproxima a 0,42, estime el volumen de escorrentía y discuta por qué el valor no determina por sí solo el caudal punta.</p>
+</section>
+<section id="actividad-2-diagnostico-de-calidad">
+<h3><span class="section-number">7.14.2. </span>Actividad 2: diagnóstico de calidad<a class="headerlink" href="#actividad-2-diagnostico-de-calidad" title="Link to this heading"></a></h3>
+<p>Una estación muestra 0 mm durante seis días, 126 mm el séptimo y las estaciones vecinas registran 15–25 mm cada día. Formule al menos tres hipótesis, enumere los metadatos o datos auxiliares necesarios y proponga banderas antes de decidir una corrección.</p>
+</section>
+<section id="actividad-3-producto-apropiado">
+<h3><span class="section-number">7.14.3. </span>Actividad 3: producto apropiado<a class="headerlink" href="#actividad-3-producto-apropiado" title="Link to this heading"></a></h3>
+<p>Seleccione fuentes para: (a) alerta de inundación en tiempo casi real; (b) climatología mensual 1981–2020; (c) calibración diaria de una cuenca andina; y (d) análisis de una tormenta convectiva urbana. Justifique latencia, resolución, soporte y validación.</p>
+</section>
+<section id="actividad-4-validacion-espacial">
+<h3><span class="section-number">7.14.4. </span>Actividad 4: validación espacial<a class="headerlink" href="#actividad-4-validacion-espacial" title="Link to this heading"></a></h3>
+<p>Diseñe una validación para comparar Thiessen, IDW y regresión-kriging con 20 estaciones. Explique por qué retirar observaciones diarias al azar no es suficiente y qué métricas usaría para volumen, ocurrencia y extremos.</p>
+</section>
+<section id="actividad-5-decision-de-ingenieria">
+<h3><span class="section-number">7.14.5. </span>Actividad 5: decisión de ingeniería<a class="headerlink" href="#actividad-5-decision-de-ingenieria" title="Link to this heading"></a></h3>
+<p>Una curva IDF histórica y una proyección climática producen intensidades de diseño que difieren 18 %. Proponga un análisis de sensibilidad que incluya vida útil, consecuencias de falla, ampliación futura y rutas de excedencia. Evite convertir una única proyección en certeza.</p>
+</section>
+</section>
+<section id="sintesis">
+<h2><span class="section-number">7.15. </span>Síntesis<a class="headerlink" href="#sintesis" title="Link to this heading"></a></h2>
+<p>La precipitación surge cuando la dinámica atmosférica produce saturación y la microfísica permite que gotas o cristales crezcan lo suficiente para alcanzar la superficie. Convección, orografía y sistemas frontales organizan ese proceso y explican gran parte de su variabilidad espacial y temporal. En Chile, el gradiente norte-sur, la influencia del Pacífico y la topografía hacen imprescindible un análisis regional.</p>
+<p>Los pluviómetros son referencias puntuales; radar y satélite describen estructura espacial con relaciones indirectas; reanálisis aportan coherencia física; y productos fusionados combinan información con dependencias que deben conocerse. DGA, DMC y CR2 ofrecen fuentes centrales para Chile, complementadas por redes y productos globales.</p>
+<p>El análisis responsable comienza con metadatos y control de calidad, separa ocurrencia de cantidad, conserva extremos plausibles, distingue observación de relleno y valida interpolaciones fuera de muestra. En ingeniería civil, la fuente y el método se seleccionan según la decisión: el mejor dato no es el de mayor resolución nominal, sino el que representa la variable, escala y riesgo relevantes con incertidumbre documentada.</p>
+</section>
+<section id="verificacion-de-aprendizaje">
+<h2><span class="section-number">7.16. </span>Verificación de aprendizaje<a class="headerlink" href="#verificacion-de-aprendizaje" title="Link to this heading"></a></h2>
+<p><strong>Preguntas conceptuales</strong></p>
+<ol class="arabic simple">
+<li><p>Compare la formación de precipitación por colisión-coalescencia y por el proceso Bergeron-Findeisen. ¿En qué tipos de nube y rangos térmicos espera que domine cada mecanismo?</p></li>
+<li><p>Distinga lo que observan un pluviómetro, un radar, un satélite y un reanálisis. ¿Por qué una resolución espacial nominal más fina no garantiza una precipitación más exacta?</p></li>
+<li><p>Explique por qué cero, dato faltante y acumulación multidiaria deben representarse de manera diferente durante el control de calidad.</p></li>
+<li><p>Compare promedio aritmético, Thiessen, IDW y regresión-kriging. ¿Qué supuestos espaciales introduce cada método y cómo diseñaría una validación realmente independiente?</p></li>
+</ol>
+<p><strong>Preguntas numéricas y de aplicación</strong></p>
+<ol class="arabic simple">
+<li><p>Una tormenta acumula 54 mm en 90 minutos sobre una cuenca de 65 km². Calcule la intensidad media en mm/h y el volumen bruto precipitado. Si el coeficiente de escorrentía es 0,38, estime el volumen de escorrentía sin confundirlo con caudal punta.</p></li>
+<li><p>Tres estaciones registran 42, 58 y 71 mm y sus polígonos de Thiessen ocupan 25 %, 45 % y 30 % de la cuenca. Calcule la precipitación areal y compárela con el promedio aritmético. Explique el origen de la diferencia.</p></li>
+<li><p>Una obra se diseña para un evento con período de retorno de 50 años y vida útil de 30 años. Calcule la probabilidad de al menos una excedencia mediante <span class="math notranslate nohighlight">\(R=1-(1-1/T)^n\)</span> e interprete el resultado para una decisión de seguridad.</p></li>
+<li><p>En una estación, 26 de 30 días tienen datos válidos y suman 104 mm; los cuatro días ausentes coinciden con una tormenta observada por estaciones vecinas. Calcule la completitud, decida si informaría un total mensual y proponga un procedimiento de estimación y marcado que preserve la trazabilidad.</p></li>
+</ol>
+</section>
+<section id="references">
+<h2><span class="section-number">7.17. </span>References<a class="headerlink" href="#references" title="Link to this heading"></a></h2>
+<div class="docutils container" id="id43">
+<div role="list" class="citation-list">
+<div class="citation" id="id157" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id34">1</a><span class="fn-bracket">]</span></span>
+<p>Alexandersson, H. A homogeneity test applied to precipitation data. <em>Journal of Climatology</em>, 6:661–675, 1986. <a class="reference external" href="https://doi.org/10.1002/joc.3370060607">doi:10.1002/joc.3370060607</a>.</p>
+</div>
+<div class="citation" id="id152" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id30">2</a><span class="fn-bracket">]</span></span>
+<p>Alvarez-Garreton, C., Mendoza, P. A., Boisier, J. P., and others. The camels-cl dataset: catchment attributes and meteorology for large sample studies–chile dataset. <em>Hydrology and Earth System Sciences</em>, 22:5817–5846, 2018. <a class="reference external" href="https://doi.org/10.5194/hess-22-5817-2018">doi:10.5194/hess-22-5817-2018</a>.</p>
+</div>
+<div class="citation" id="id146" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id26">3</a><span class="fn-bracket">]</span></span>
+<p>Ashouri, H., Hsu, K.-L., Sorooshian, S., and others. Persiann-cdr: daily precipitation climate data record from multisatellite observations for hydrological and climate studies. <em>Bulletin of the American Meteorological Society</em>, 96:69–83, 2015. <a class="reference external" href="https://doi.org/10.1175/BAMS-D-13-00068.1">doi:10.1175/BAMS-D-13-00068.1</a>.</p>
+</div>
+<div class="citation" id="id145" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id25">4</a><span class="fn-bracket">]</span></span>
+<p>Beck, H. E., Wood, E. F., Pan, M., and others. Mswep v2 global 3-hourly 0.1 degree precipitation: methodology and quantitative assessment. <em>Bulletin of the American Meteorological Society</em>, 100:473–500, 2019. <a class="reference external" href="https://doi.org/10.1175/BAMS-D-17-0138.1">doi:10.1175/BAMS-D-17-0138.1</a>.</p>
+</div>
+<div class="citation" id="id139" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id21">5</a><span class="fn-bracket">]</span></span>
+<p>Becker, A., Finger, P., Meyer-Christoffer, A., Rudolf, B., Schamm, K., Schneider, U., and Ziese, M. A description of the global land-surface precipitation data products of the global precipitation climatology centre with sample applications including centennial trend analysis from 1901–present. <em>Earth System Science Data</em>, 5:71–99, 2013. <a class="reference external" href="https://doi.org/10.5194/essd-5-71-2013">doi:10.5194/essd-5-71-2013</a>.</p>
+</div>
+<div class="citation" id="id151" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id29">6</a><span class="fn-bracket">]</span></span>
+<p>Boisier, J. P. Cr2met: a high-resolution precipitation and temperature dataset for the period 1960–2021 in continental chile. 2023. <a class="reference external" href="https://doi.org/10.5281/zenodo.7529682">doi:10.5281/zenodo.7529682</a>.</p>
+</div>
+<div class="citation" id="id132" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>7<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id2">2</a>,<a role="doc-backlink" href="#id9">3</a>,<a role="doc-backlink" href="#id33">4</a>,<a role="doc-backlink" href="#id35">5</a>,<a role="doc-backlink" href="#id38">6</a>,<a role="doc-backlink" href="#id42">7</a>)</span>
+<p>Chow, V. T., Maidment, D. R., and Mays, L. W. <em>Hidrología aplicada</em>. McGraw-Hill, 1994.</p>
+</div>
+<div class="citation" id="id141" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id23">8</a><span class="fn-bracket">]</span></span>
+<p>Funk, C., Peterson, P., Landsfeld, M., Pedreros, D., Verdin, J., Shukla, S., Husak, G., Rowland, J., Harrison, L., Hoell, A., and Michaelsen, J. The climate hazards infrared precipitation with stations–a new environmental record for monitoring extremes. <em>Scientific Data</em>, 2:150066, 2015. <a class="reference external" href="https://doi.org/10.1038/sdata.2015.66">doi:10.1038/sdata.2015.66</a>.</p>
+</div>
+<div class="citation" id="id155" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id8">9</a><span class="fn-bracket">]</span></span>
+<p>Garreaud, R. D. The andes climate and weather. <em>Advances in Geosciences</em>, 22:3–11, 2009. <a class="reference external" href="https://doi.org/10.5194/adgeo-22-3-2009">doi:10.5194/adgeo-22-3-2009</a>.</p>
+</div>
+<div class="citation" id="id135" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>10<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id3">1</a>,<a role="doc-backlink" href="#id4">2</a>,<a role="doc-backlink" href="#id5">3</a>,<a role="doc-backlink" href="#id7">4</a>)</span>
+<p>Hakim, G. J. and Patoux, J. <em>Weather: A Concise Introduction</em>. Cambridge University Press, 2nd edition, 2022.</p>
+</div>
+<div class="citation" id="id143" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>11<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id16">1</a>,<a role="doc-backlink" href="#id17">2</a>)</span>
+<p>Hersbach, H., Bell, B., Berrisford, P., and others. The era5 global reanalysis. <em>Quarterly Journal of the Royal Meteorological Society</em>, 146:1999–2049, 2020. <a class="reference external" href="https://doi.org/10.1002/qj.3803">doi:10.1002/qj.3803</a>.</p>
+</div>
+<div class="citation" id="id142" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>12<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id14">1</a>,<a role="doc-backlink" href="#id15">2</a>,<a role="doc-backlink" href="#id24">3</a>)</span>
+<p>Huffman, G. J., Stocker, E. F., Bolvin, D. T., Nelkin, E. J., and Jackson, T. Gpm imerg final precipitation l3 half hourly 0.1 degree x 0.1 degree v06. <em>Goddard Earth Sciences Data and Information Services Center</em>, 2020. <a class="reference external" href="https://doi.org/10.5067/GPM/IMERG/3B-HH/06">doi:10.5067/GPM/IMERG/3B-HH/06</a>.</p>
+</div>
+<div class="citation" id="id156" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>13<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id37">1</a>,<a role="doc-backlink" href="#id38">2</a>)</span>
+<p>Ly, S., Charles, C., and Degré, A. Different methods for spatial interpolation of rainfall data for operational hydrology and hydrological modeling at watershed scale: a review. <em>Biotechnology, Agronomy, Society and Environment</em>, 17(2):392–406, 2013.</p>
+</div>
+<div class="citation" id="id149" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>14<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id18">1</a>,<a role="doc-backlink" href="#id19">2</a>,<a role="doc-backlink" href="#id36">3</a>,<a role="doc-backlink" href="#id39">4</a>)</span>
+<p>Mankin, K. R., Mehan, S., Green, T. R., and Barnard, D. M. Review of gridded climate products and their use in hydrological analyses reveals overlaps, gaps, and the need for a more objective approach to selecting model forcing datasets. <em>Hydrology and Earth System Sciences</em>, 29:85–108, 2025. <a class="reference external" href="https://doi.org/10.5194/hess-29-85-2025">doi:10.5194/hess-29-85-2025</a>.</p>
+</div>
+<div class="citation" id="id138" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id20">15</a><span class="fn-bracket">]</span></span>
+<p>Menne, M. J., Durre, I., Vose, R. S., Gleason, B. E., and Houston, T. G. An overview of the global historical climatology network-daily database. <em>Journal of Atmospheric and Oceanic Technology</em>, 29(7):897–910, 2012. <a class="reference external" href="https://doi.org/10.1175/JTECH-D-11-00103.1">doi:10.1175/JTECH-D-11-00103.1</a>.</p>
+</div>
+<div class="citation" id="id144" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>16<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id16">1</a>,<a role="doc-backlink" href="#id17">2</a>)</span>
+<p>Muñoz-Sabater, J., Dutra, E., Agustí-Panareda, A., and others. Era5-land: a state-of-the-art global reanalysis dataset for land applications. <em>Earth System Science Data</em>, 13:4349–4383, 2021. <a class="reference external" href="https://doi.org/10.5194/essd-13-4349-2021">doi:10.5194/essd-13-4349-2021</a>.</p>
+</div>
+<div class="citation" id="id158" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id34">17</a><span class="fn-bracket">]</span></span>
+<p>Pettitt, A. N. A non-parametric approach to the change-point problem. <em>Applied Statistics</em>, 28(2):126–135, 1979. <a class="reference external" href="https://doi.org/10.2307/2346729">doi:10.2307/2346729</a>.</p>
+</div>
+<div class="citation" id="id134" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>18<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id2">2</a>,<a role="doc-backlink" href="#id42">3</a>)</span>
+<p>Robinson, M. and Ward, R. <em>Hydrology: Principles and Processes</em>. IWA Publishing, 2017.</p>
+</div>
+<div class="citation" id="id148" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>19<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id36">1</a>,<a role="doc-backlink" href="#id41">2</a>)</span>
+<p>Serrano-Notivoli, R. and Tejedor, E. From rain to data: a review of the creation of monthly and daily station-based gridded precipitation datasets. <em>WIREs Water</em>, 8(6):e1555, 2021. <a class="reference external" href="https://doi.org/10.1002/wat2.1555">doi:10.1002/wat2.1555</a>.</p>
+</div>
+<div class="citation" id="id133" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>20<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id1">1</a>,<a role="doc-backlink" href="#id2">2</a>,<a role="doc-backlink" href="#id9">3</a>,<a role="doc-backlink" href="#id11">4</a>,<a role="doc-backlink" href="#id35">5</a>,<a role="doc-backlink" href="#id42">6</a>)</span>
+<p>Shaw, E. M., Beven, K. J., Chappell, N. A., and Lamb, R. <em>Hydrology in Practice</em>. Spon Press, 4th edition, 2011.</p>
+</div>
+<div class="citation" id="id147" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>21<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id18">1</a>,<a role="doc-backlink" href="#id22">2</a>,<a role="doc-backlink" href="#id39">3</a>)</span>
+<p>Sun, Q., Miao, C., Duan, Q., Ashouri, H., Sorooshian, S., and Hsu, K.-L. A review of global precipitation data sets: data sources, estimation, and intercomparisons. <em>Reviews of Geophysics</em>, 56(1):79–107, 2018. <a class="reference external" href="https://doi.org/10.1002/2017RG000574">doi:10.1002/2017RG000574</a>.</p>
+</div>
+<div class="citation" id="id159" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id32">22</a><span class="fn-bracket">]</span></span>
+<p>Viney, N. R. and Bates, B. C. It never rains on sunday: the prevalence and implications of untagged multi-day rainfall accumulations in the australian high quality data set. <em>International Journal of Climatology</em>, 24:1171–1192, 2004. <a class="reference external" href="https://doi.org/10.1002/joc.1053">doi:10.1002/joc.1053</a>.</p>
+</div>
+<div class="citation" id="id100" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>23<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id3">1</a>,<a role="doc-backlink" href="#id4">2</a>,<a role="doc-backlink" href="#id5">3</a>,<a role="doc-backlink" href="#id6">4</a>,<a role="doc-backlink" href="#id7">5</a>,<a role="doc-backlink" href="#id13">6</a>)</span>
+<p>Wallace, J. M. and Hobbs, P. V. <em>Atmospheric Science: An Introductory Survey</em>. Elsevier, 2nd edition, 2006.</p>
+</div>
+<div class="citation" id="id150" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>24<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id31">1</a>,<a role="doc-backlink" href="#id36">2</a>,<a role="doc-backlink" href="#id40">3</a>)</span>
+<p>Zambrano-Bigiarini, M., Nauditt, A., Birkel, C., Verbist, K., and Ribbe, L. Temporal and spatial evaluation of satellite-based rainfall estimates across the complex topographical and climatic gradients of chile. <em>Hydrology and Earth System Sciences</em>, 21:1295–1320, 2017. <a class="reference external" href="https://doi.org/10.5194/hess-21-1295-2017">doi:10.5194/hess-21-1295-2017</a>.</p>
+</div>
+<div class="citation" id="id153" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id27">25</a><span class="fn-bracket">]</span></span>
+<p>Dirección General de Aguas. Estadísticas de estaciones dga. Ministerio de Obras Públicas, Gobierno de Chile, 2026. Consultado el 26 de septiembre de 2026. URL: <a class="reference external" href="https://dga.mop.gob.cl/estadisticas-estaciones-dga/">https://dga.mop.gob.cl/estadisticas-estaciones-dga/</a>.</p>
+</div>
+<div class="citation" id="id154" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>26<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id12">1</a>,<a role="doc-backlink" href="#id28">2</a>)</span>
+<p>Dirección Meteorológica de Chile. Portal de servicios climáticos. Dirección General de Aeronáutica Civil, Gobierno de Chile, 2026. Consultado el 26 de septiembre de 2026. URL: <a class="reference external" href="https://climatologia.meteochile.gob.cl/">https://climatologia.meteochile.gob.cl/</a>.</p>
+</div>
+<div class="citation" id="id140" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id21">27</a><span class="fn-bracket">]</span></span>
+<p>Global Precipitation Climatology Centre. Gpcc precipitation analysis monthly version 2025. Deutscher Wetterdienst, 2025. URL: <a class="reference external" href="https://opendata.dwd.de/climate_environment/GPCC/">https://opendata.dwd.de/climate_environment/GPCC/</a>.</p>
+</div>
+<div class="citation" id="id136" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>28<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id2">1</a>,<a role="doc-backlink" href="#id10">2</a>,<a role="doc-backlink" href="#id33">3</a>)</span>
+<p>World Meteorological Organization. Guide to hydrological practices, volume i: hydrology–from measurement to hydrological information. Technical Report WMO-No. 168, World Meteorological Organization, 2008.</p>
+</div>
+<div class="citation" id="id137" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span>29<span class="fn-bracket">]</span></span>
+<span class="backrefs">(<a role="doc-backlink" href="#id9">1</a>,<a role="doc-backlink" href="#id10">2</a>,<a role="doc-backlink" href="#id11">3</a>)</span>
+<p>World Meteorological Organization. Guide to instruments and methods of observation. Technical Report WMO-No. 8, World Meteorological Organization, 2021.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pie de página">
+        <a href="06-Capitulo06-ClasificacionClimatica.html" class="btn btn-neutral float-left" title="6. Clasificación climática" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="08-Capitulo08-Evaporacion.html" class="btn btn-neutral float-right" title="8. Evaporación" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Derechos de autor 2025, Mauricio Zambrano-Bigiarini y Alonso Pizarro.</p>
+  </div>
+
+  Compilado con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>.
+
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+</body>
+</html>
